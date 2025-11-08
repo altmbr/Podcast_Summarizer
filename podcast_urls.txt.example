@@ -1,0 +1,16 @@
+# Podcast URL Configuration
+# Add one URL per line with optional podcast name after # comment
+# Supports YouTube playlists and single video URLs
+# Lines starting with # are ignored
+
+# Example YouTube playlists:
+https://www.youtube.com/playlist?list=PLxxx # My Favorite Podcast
+https://www.youtube.com/playlist?list=PLyyy # Tech Talks
+
+# Example single video:
+# https://www.youtube.com/watch?v=abc123 # Special Interview
+
+# To get started:
+# 1. Copy this file to podcast_urls.txt
+# 2. Replace the example URLs with your actual podcast URLs
+# 3. Run: python podcast_summarizer.py

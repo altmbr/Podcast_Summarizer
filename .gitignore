@@ -1,0 +1,42 @@
+# Environment variables (contains API keys)
+.env
+
+# User-specific configuration
+podcast_urls.txt
+
+# User-specific state files
+podcast_status.json
+podcast_status.md
+processed_videos.json
+*.backup
+
+# Downloaded content and outputs
+podcast_work/
+weekly_summaries/
+
+# Runtime files
+processing.lock
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
