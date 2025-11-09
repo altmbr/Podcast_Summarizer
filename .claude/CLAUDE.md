@@ -9,7 +9,7 @@ This system automates the process of:
 2. Allowing you to interactively select which episodes to download
 3. Downloading audio files
 4. Transcribing audio to text using OpenAI's Whisper
-5. Generating AI-powered summaries using GPT-4o-mini
+5. Generating AI-powered summaries using Claude Sonnet 4.5
 6. Tracking episode status through the entire pipeline
 
 ## Architecture
@@ -138,15 +138,15 @@ Contains API keys and configuration.
 
 **Required:**
 ```
-OPENAI_API_KEY=sk-proj-...      # For GPT-4o-mini summarization and Whisper transcription
+OPENAI_API_KEY=sk-proj-...       # For Whisper transcription only
+ANTHROPIC_API_KEY=sk-ant-...     # For speaker identification (Haiku) and summarization (Sonnet 4.5)
 ```
 
-**Optional (for speaker identification):**
-```
-ANTHROPIC_API_KEY=sk-ant-...    # For Claude-based speaker name identification
-```
+The system requires both API keys:
+- **OPENAI_API_KEY**: Used exclusively for Whisper audio transcription
+- **ANTHROPIC_API_KEY**: Used for both speaker identification (Claude Haiku 3.5) and summarization (Claude Sonnet 4.5)
 
-With ANTHROPIC_API_KEY set, the system will identify speaker names from transcript context. The system will warn you at startup if this key is missing.
+The system will warn you at startup if either key is missing.
 
 ## Workflow
 
@@ -189,21 +189,29 @@ For each selected episode:
 **Step 2: Transcribe**
 - Uses OpenAI's Whisper for transcription
 - Includes segment timestamps `[HH:MM:SS]`
-- Saves two versions:
-  - `transcript_raw.md` - Before speaker identification (preserves full transcript if speaker ID fails)
-  - `transcript.md` - Working copy (updated with speaker names in next step)
+- Adds metadata header (title, podcast, date, URL)
+- Saves initial transcript to `transcript_raw.md`
 
-**Step 3: Identify Speakers**
-- Extracts guest names from YouTube video description via regex patterns
-- Uses Claude (Sonnet) to analyze dialogue context and identify speakers
+**Step 2a: Voice-Based Speaker Diarization** (if HuggingFace token configured)
+- Uses pyannote.audio for voice-based speaker detection
+- Adds speaker labels (SPEAKER_00, SPEAKER_01, etc.) based on voice analysis
+- Runs locally on your machine (no API costs)
+- Gracefully skips if not configured
+
+**Step 3: Identify Speaker Names**
+- Extracts guest names from YouTube video description via regex patterns (used as hints)
+- Uses Claude Haiku to analyze first 15 minutes of transcript
+- Maps SPEAKER_XX labels to actual full names using context and metadata
 - Replaces speaker labels with actual names where confident
-- Handles edge cases where speaker names cannot be identified
-- Updates transcript with speaker names
+- Returns both updated transcript AND list of identified speaker names
+- Updates transcript.md with speaker-identified version
+- Identified speakers are used for the Participants field in summary
 
 **Step 4: Summarize**
-- Generates AI summary using GPT-4o-mini
-- Includes speaker attribution in quotes and key points
-- Formats with metadata header (title, podcast, URL, links to transcript)
+- Generates AI summary using Claude Sonnet 4.5
+- Includes speaker attribution with **full names** in quotes and key points
+- Formats with metadata header including Participants field (from Step 3)
+- Metadata includes: title, podcast, date, participants, URL, transcript link
 - Saves as `summary.md`
 
 Updates `podcast_status.json` after each episode completes.
@@ -237,8 +245,10 @@ Day 8: Podcast now has 13 episodes
 
 ### Python Packages
 ```
-openai           # GPT-4o-mini API for summarization
+openai           # Whisper transcription API
+anthropic        # Claude API for speaker identification and summarization
 python-dotenv    # Load .env configuration
+pyannote.audio   # Voice-based speaker diarization (optional but recommended)
 ```
 
 ### System Tools
@@ -247,7 +257,9 @@ python-dotenv    # Load .env configuration
 - `ffmpeg` - Audio processing
 
 ### API Keys
-- OpenAI API key (for GPT-4o-mini and Whisper)
+- **OpenAI API key** - For Whisper transcription
+- **Anthropic API key** - For speaker identification (Haiku 3.5) and summarization (Sonnet 4.5)
+- **HuggingFace token** (optional) - For pyannote speaker diarization
 
 ## Core Functions
 
@@ -480,6 +492,40 @@ If a run is interrupted:
 2. Run script again
 3. It will skip already-completed steps
 4. Can modify selection to focus on incomplete episodes
+
+## Cost Estimates
+
+### Per Episode Processing Costs
+
+**With Voice-Based Diarization (Recommended):**
+- Transcription (Whisper): ~$0.10-0.30
+- Diarization (pyannote, local): $0.00 (runs locally)
+- Speaker ID (Claude Haiku, 15 min): ~$0.05-0.20
+- Summarization (Claude Sonnet): ~$0.20-1.00
+- **Total: ~$0.35-1.50 per episode**
+
+**Without Voice-Based Diarization:**
+- Transcription (Whisper): ~$0.10-0.30
+- Speaker ID (Claude Haiku, 15 min): ~$0.05-0.20 (less accurate without SPEAKER_XX labels)
+- Summarization (Claude Sonnet): ~$0.20-1.00
+- **Total: ~$0.35-1.50 per episode**
+
+**Cost Savings from Optimizations:**
+- Using Haiku instead of Sonnet for speaker ID: ~10x cheaper
+- Using first 15 minutes only: ~3-4x fewer tokens
+- Voice-based diarization: More accurate, no added API costs
+- **Overall savings: ~50-60% compared to previous implementation**
+
+### Monthly Cost Examples
+
+- **Light usage** (10 episodes/month): $3.50-15.00
+- **Medium usage** (50 episodes/month): $17.50-75.00
+- **Heavy usage** (200 episodes/month): $70-300
+
+Note: Costs vary based on:
+- Episode length (longer = more transcription cost)
+- Transcript complexity (affects summarization tokens)
+- Number of speakers (minimal impact with voice diarization)
 
 ## Future Enhancements
 

@@ -3,7 +3,9 @@
     "allow": [
       "WebSearch",
       "Bash(timeout 60 python3:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(pip index:*)",
+      "Bash(pip install:*)"
     ],
     "deny": [],
     "ask": []

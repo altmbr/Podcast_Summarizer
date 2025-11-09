@@ -8,6 +8,8 @@ import re
 from pathlib import Path
 from openai import OpenAI
 from dotenv import load_dotenv
+import mlx_whisper
+import xiaoyuzhou_helper
 
 # Load environment variables from .env file
 load_dotenv()
@@ -22,6 +24,7 @@ PROCESSING_LOCK_FILE = Path("./processing.lock")
 SUMMARIZATION_PROMPT_FILE = Path("./summarization_prompt.md")
 CLAUDE_MODEL = "claude-sonnet-4-5-20250929"  # For summarization (latest Sonnet 4.5)
 HAIKU_MODEL = "claude-3-5-haiku-20241022"  # For speaker identification (latest Haiku)
+HUGGINGFACE_TOKEN = os.environ.get("HUGGINGFACE_TOKEN")
 
 # Episode status states
 STATUS_STATES = {
@@ -317,7 +320,7 @@ def get_playlist_videos(playlist_url, first_run=False):
         "yt-dlp",
         "--flat-playlist",
         "-j",  # JSON output
-        "--extractor-args", "youtubetab:approximate_date",  # Get upload dates in one call
+        "--extractor-args", "youtubetab:approximate_date;youtube:player_client=ios,web",  # Get upload dates + use iOS/web clients
         playlist_url
     ]
     result = subprocess.run(cmd, capture_output=True, text=True, check=True)
@@ -366,30 +369,42 @@ def download_video_audio(video_url, output_audio_path):
     subprocess.run(cmd, check=True)
     print(f"  ✓ Audio downloaded")
 
+def download_xiaoyuzhou_audio(episode_url, output_audio_path):
+    """Download audio from Xiaoyuzhou episode URL"""
+    print(f"  → Downloading Xiaoyuzhou audio...")
+    # Create parent directories if needed
+    output_audio_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Use xiaoyuzhou_helper to download
+    success = xiaoyuzhou_helper.download_xiaoyuzhou_audio(episode_url, output_audio_path)
+
+    if not success:
+        raise Exception("Failed to download Xiaoyuzhou audio")
+
 def transcribe_audio_to_text(audio_file_path, transcript_file_path):
-    """Transcribe audio using standard Whisper with timestamps"""
-    print(f"  → Transcribing audio to text (this may take a while)...")
+    """Transcribe audio using mlx-whisper with Apple Silicon GPU acceleration"""
+    print(f"  → Transcribing audio with mlx-whisper (GPU-accelerated)...")
     # Create parent directories if needed
     transcript_file_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Whisper will output as .json in the output directory
-    audio_stem = audio_file_path.stem
-    whisper_output_json = transcript_file_path.parent / f"{audio_stem}.json"
+    # Map model names to MLX community format (note: -mlx suffix required except for tiny)
+    model_mapping = {
+        "tiny": "mlx-community/whisper-tiny",
+        "base": "mlx-community/whisper-base-mlx",
+        "small": "mlx-community/whisper-small-mlx",
+        "medium": "mlx-community/whisper-medium-mlx",
+        "large": "mlx-community/whisper-large-v3-mlx"
+    }
+    mlx_model = model_mapping.get(WHISPER_MODEL, "mlx-community/whisper-base-mlx")
 
-    cmd = [
-        "whisper",
+    print(f"  → Using model: {mlx_model}")
+
+    # Run mlx-whisper transcription (uses GPU automatically on Apple Silicon)
+    whisper_data = mlx_whisper.transcribe(
         str(audio_file_path),
-        "--model", WHISPER_MODEL,
-        "--output_dir", str(transcript_file_path.parent),
-        "--output_format", "json",
-        "--language", "en",
-        "--verbose", "False"
-    ]
-    subprocess.run(cmd, check=True)
-
-    # Read and parse JSON output
-    with open(whisper_output_json, 'r') as f:
-        whisper_data = json.load(f)
+        path_or_hf_repo=mlx_model,
+        word_timestamps=False  # We use segment timestamps, not word-level
+    )
 
     # Format transcript with timestamps
     transcript_text = format_transcript_with_timestamps(whisper_data)
@@ -397,9 +412,6 @@ def transcribe_audio_to_text(audio_file_path, transcript_file_path):
     # Write to file
     with open(transcript_file_path, 'w') as f:
         f.write(transcript_text)
-
-    # Clean up
-    whisper_output_json.unlink()
 
     print(f"  ✓ Transcription complete ({len(transcript_text)} characters)")
     return transcript_text
@@ -436,6 +448,90 @@ def format_transcript_with_timestamps(whisper_data):
 
     return "\n".join(formatted_lines)
 
+def add_speaker_diarization_to_transcript(audio_file_path, transcript_text):
+    """Add speaker labels to transcript using pyannote voice diarization"""
+    print(f"  → Running voice-based speaker diarization (this may take a while)...")
+
+    if not HUGGINGFACE_TOKEN:
+        print("  ⚠ HUGGINGFACE_TOKEN not set - skipping diarization")
+        return transcript_text
+
+    try:
+        from pyannote.audio import Pipeline
+        import torchaudio
+        import warnings
+    except ImportError:
+        print("  ⚠ pyannote.audio not installed. Install with: pip install pyannote.audio")
+        print("  → Skipping diarization")
+        return transcript_text
+
+    try:
+        # Suppress torchcodec and torchaudio warnings
+        warnings.filterwarnings("ignore", category=UserWarning, module="pyannote.audio.core.io")
+        warnings.filterwarnings("ignore", category=UserWarning, module="speechbrain.utils.torch_audio_backend")
+        warnings.filterwarnings("ignore", category=UserWarning, module="torchaudio._backend.utils")
+        warnings.filterwarnings("ignore", category=UserWarning, module="pyannote.audio.models.blocks.pooling")
+
+        # Load the diarization pipeline
+        pipeline = Pipeline.from_pretrained(
+            "pyannote/speaker-diarization-3.1",
+            token=HUGGINGFACE_TOKEN
+        )
+
+        # Enable GPU acceleration on M1/M2/M3 Macs
+        import torch
+        if torch.backends.mps.is_available():
+            pipeline.to(torch.device("mps"))
+            print(f"  ✓ Using M1/M2 GPU acceleration")
+
+        # Load audio with torchaudio to avoid torchcodec issues
+        waveform, sample_rate = torchaudio.load(str(audio_file_path))
+        audio_dict = {
+            "waveform": waveform,
+            "sample_rate": sample_rate
+        }
+
+        # Run diarization on the pre-loaded audio
+        diarization = pipeline(audio_dict)
+
+        # Parse transcript lines with timestamps
+        lines = transcript_text.strip().split('\n')
+        diarized_lines = []
+
+        for line in lines:
+            # Extract timestamp: [HH:MM:SS] text
+            match = re.match(r'\[(\d{2}):(\d{2}):(\d{2})\]\s*(.*)', line)
+            if match:
+                hours, minutes, seconds = map(int, match.groups()[:3])
+                text = match.group(4)
+                timestamp_seconds = hours * 3600 + minutes * 60 + seconds
+
+                # Find which speaker is active at this timestamp
+                speaker_label = None
+                # pyannote 4.0+ wraps the annotation in DiarizeOutput.speaker_diarization
+                annotation = diarization.speaker_diarization if hasattr(diarization, 'speaker_diarization') else diarization
+                for segment, track, label in annotation.itertracks(yield_label=True):
+                    if segment.start <= timestamp_seconds <= segment.end:
+                        speaker_label = label
+                        break
+
+                # Format with speaker label
+                if speaker_label:
+                    timestamp_str = f"[{hours:02d}:{minutes:02d}:{seconds:02d}]"
+                    diarized_lines.append(f"{timestamp_str} {speaker_label}: {text}")
+                else:
+                    diarized_lines.append(line)  # Keep original if no speaker found
+            else:
+                diarized_lines.append(line)  # Keep non-timestamp lines as-is
+
+        print(f"  ✓ Speaker diarization complete")
+        return '\n'.join(diarized_lines)
+
+    except Exception as e:
+        print(f"  ⚠ Speaker diarization failed: {e}")
+        print(f"  → Using transcript without speaker labels")
+        return transcript_text
+
 def extract_video_metadata(video_url):
     """Extract metadata from YouTube video (title, description, channel)"""
     try:
@@ -443,6 +539,7 @@ def extract_video_metadata(video_url):
             "yt-dlp",
             "-j",  # JSON output
             "--no-warnings",
+            "--extractor-args", "youtube:player_client=ios,web",  # Use iOS/web clients to avoid 403 errors
             video_url
         ]
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
@@ -490,8 +587,8 @@ def parse_guest_names_from_description(description, title):
     return list(dict.fromkeys(guest_names))  # Remove duplicates while preserving order
 
 def identify_and_replace_speakers(diarized_transcript, video_metadata, video_title):
-    """Use Claude to identify speaker names and replace SPEAKER_XX placeholders"""
-    print(f"  → Identifying speakers with AI...")
+    """Use Claude Haiku to identify speaker names from first 10-15 minutes and replace SPEAKER_XX placeholders"""
+    print(f"  → Identifying speakers with AI (using first 15 minutes)...")
 
     try:
         from anthropic import Anthropic
@@ -512,50 +609,100 @@ def identify_and_replace_speakers(diarized_transcript, video_metadata, video_tit
 Channel/Uploader: {video_metadata.get('uploader', 'Unknown')}
 Possible Guests: {', '.join(guest_names) if guest_names else 'Not found in description'}"""
 
+    # Extract first 10-15 minutes of transcript (900 seconds = 15 minutes)
+    lines = diarized_transcript.strip().split('\n')
+    first_15_min_lines = []
+
+    for line in lines:
+        # Check if line has timestamp
+        match = re.match(r'\[(\d{2}):(\d{2}):(\d{2})\]', line)
+        if match:
+            hours, minutes, seconds = map(int, match.groups())
+            timestamp_seconds = hours * 3600 + minutes * 60 + seconds
+            if timestamp_seconds <= 900:  # 15 minutes
+                first_15_min_lines.append(line)
+            else:
+                break  # Stop once we pass 15 minutes
+        else:
+            first_15_min_lines.append(line)  # Include non-timestamp lines
+
+    first_15_min = '\n'.join(first_15_min_lines)
+
     # Create prompt for Claude to identify speakers
-    identification_prompt = f"""I have a podcast transcript with speaker diarization labels (SPEAKER_00, SPEAKER_01, etc).
+    identification_prompt = f"""I have a podcast transcript with speaker diarization labels (SPEAKER_00, SPEAKER_01, etc) from voice analysis.
+
 I need you to identify who these speakers are based on:
 1. The dialogue context and what each speaker says about themselves
 2. Possible guest names from the video metadata
-3. Natural conversational cues
+3. Natural conversational cues (host vs guest dynamics)
 
 Metadata:
 {metadata_context}
 
-Transcript:
-{diarized_transcript}
+First 15 minutes of transcript:
+{first_15_min}
 
 Your task:
-1. Analyze the transcript to identify unique speakers
-2. Match speakers to names based on context clues and metadata
-3. Replace SPEAKER_XX labels with actual names (e.g., Sam, Sasha, etc)
-4. If you cannot confidently identify a speaker, keep the SPEAKER_XX label
-5. Return ONLY the updated transcript with speaker names - no other text
+Analyze the transcript to identify who each SPEAKER_XX label represents. Return your response as JSON ONLY in this exact format:
 
-Keep the exact same format with timestamps and text, just replace speaker labels."""
+{{
+  "SPEAKER_00": "Name or Host",
+  "SPEAKER_01": "Name or Guest",
+  "SPEAKER_02": "Name or Guest 2"
+}}
+
+Rules:
+- Only include speakers that appear in the excerpt
+- If you cannot confidently identify a speaker, use "Unknown" as the value
+- Use FULL NAMES whenever possible (e.g., "Harry Stebbings" not just "Harry")
+- Return ONLY valid JSON, no other text"""
 
     try:
         client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
-        # Use streaming for long-context requests to avoid timeout
-        updated_transcript = ""
-        with client.messages.stream(
-            model=CLAUDE_MODEL,
-            max_tokens=25000,
+        # Use Haiku (10x cheaper than Sonnet for this task)
+        response = client.messages.create(
+            model=HAIKU_MODEL,  # Changed from CLAUDE_MODEL
+            max_tokens=500,     # Reduced from 25000 (only need small JSON response)
             messages=[
                 {"role": "user", "content": identification_prompt}
             ]
-        ) as stream:
-            for text in stream.text_stream:
-                updated_transcript += text
+        )
 
-        print(f"  ✓ Speaker identification complete")
-        return updated_transcript
+        mapping_text = response.content[0].text.strip()
+
+        # Parse JSON response
+        try:
+            # Extract JSON if wrapped in markdown code blocks
+            if '```json' in mapping_text:
+                mapping_text = mapping_text.split('```json')[1].split('```')[0].strip()
+            elif '```' in mapping_text:
+                mapping_text = mapping_text.split('```')[1].split('```')[0].strip()
+
+            speaker_mapping = json.loads(mapping_text)
+
+            # Apply mapping to full transcript
+            updated_transcript = diarized_transcript
+            for speaker_label, speaker_name in speaker_mapping.items():
+                if speaker_name != "Unknown":
+                    # Replace "SPEAKER_00:" with "Name:"
+                    updated_transcript = updated_transcript.replace(f"{speaker_label}:", f"{speaker_name}:")
+
+            # Extract unique speaker names (excluding "Unknown")
+            identified_speakers = [name for name in speaker_mapping.values() if name != "Unknown"]
+
+            print(f"  ✓ Speaker identification complete: {speaker_mapping}")
+            return updated_transcript, identified_speakers
+
+        except json.JSONDecodeError as e:
+            print(f"  ⚠ Could not parse JSON response: {e}")
+            print(f"  → Response was: {mapping_text[:200]}")
+            return diarized_transcript, []
 
     except Exception as e:
         print(f"  ⚠ Speaker identification failed: {e}")
         print(f"  → Using original transcript with speaker placeholders")
-        return diarized_transcript
+        return diarized_transcript, []
 
 def summarize_transcript_with_ai(transcript_text, video_title, custom_prompt):
     """Summarize transcript using Claude Sonnet 4.5"""
@@ -607,7 +754,11 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
     # Step 1: Download
     if get_episode_status(status_data, podcast_url, video_id) == "discovered":
         print(f"  → Downloading...")
-        download_video_audio(video_info['url'], raw_podcast_path)
+        # Check if this is a Xiaoyuzhou episode
+        if xiaoyuzhou_helper.is_xiaoyuzhou_url(video_info['url']):
+            download_xiaoyuzhou_audio(video_info['url'], raw_podcast_path)
+        else:
+            download_video_audio(video_info['url'], raw_podcast_path)
         set_episode_status(status_data, podcast_url, video_id, video_info['title'], "downloaded")
         print(f"  ✓ Downloaded")
     else:
@@ -618,9 +769,38 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
         print(f"  → Transcribing...")
         # Save to transcript_raw.md (before speaker identification)
         transcript_text = transcribe_audio_to_text(raw_podcast_path, transcript_raw_path)
+
+        # NEW: Add speaker diarization using pyannote
+        transcript_text = add_speaker_diarization_to_transcript(raw_podcast_path, transcript_text)
+
+        # Format metadata header for transcript
+        formatted_date = "Unknown"
+        if video_info.get('upload_date') and video_info['upload_date'] != '0':
+            try:
+                from datetime import datetime
+                date_obj = datetime.strptime(video_info['upload_date'], '%Y%m%d')
+                formatted_date = date_obj.strftime('%B %d, %Y')
+            except:
+                formatted_date = video_info['upload_date']
+
+        transcript_header = f"""# {video_info['title']}
+
+**Podcast:** {podcast_name}
+**Date:** {formatted_date}
+**Video ID:** {video_info['id']}
+**Video URL:** {video_info['url']}
+
+---
+
+"""
+
+        # Save raw transcript with metadata header
+        with open(transcript_raw_path, 'w') as f:
+            f.write(transcript_header + transcript_text)
+
         # Also save a copy to transcript.md for viewing (will be overwritten after speaker ID)
         with open(transcript_path, 'w') as f:
-            f.write(transcript_text)
+            f.write(transcript_header + transcript_text)
         set_episode_status(status_data, podcast_url, video_id, video_info['title'], "transcribed")
         print(f"  ✓ Transcribed")
     elif get_episode_status(status_data, podcast_url, video_id) in ["transcribed", "summarized"]:
@@ -648,13 +828,23 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
         )
 
     # Step 3: Identify and replace speakers
+    identified_speakers = []
     if transcript_text and get_episode_status(status_data, podcast_url, video_id) == "transcribed":
         print(f"  → Step 3: Identifying speakers...")
         # Identify speakers and replace SPEAKER_XX with actual names
-        transcript_text = identify_and_replace_speakers(transcript_text, video_metadata, video_info['title'])
+        transcript_text, identified_speakers = identify_and_replace_speakers(transcript_text, video_metadata, video_info['title'])
         # Update transcript file with speaker-identified version
         with open(transcript_path, 'w') as f:
-            f.write(transcript_text)
+            # Keep the metadata header from before
+            with open(transcript_raw_path, 'r') as raw_f:
+                raw_content = raw_f.read()
+                # Extract header (everything before "---")
+                if '---' in raw_content:
+                    header_parts = raw_content.split('---', 1)
+                    header = header_parts[0] + '---\n\n'
+                    f.write(header + transcript_text)
+                else:
+                    f.write(transcript_text)
         print(f"  ✓ Speaker identification complete")
 
     # Step 4: Summarize
@@ -686,8 +876,8 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
         f.write(f"# {video_info['title']}\n\n")
         f.write(f"**Podcast:** {podcast_name}\n")
         f.write(f"**Date:** {formatted_date}\n")
-        if guest_names:
-            f.write(f"**Participants:** {', '.join(guest_names)}\n")
+        if identified_speakers:
+            f.write(f"**Participants:** {', '.join(identified_speakers)}\n")
         f.write(f"**Video ID:** {video_id}\n")
         f.write(f"**Video URL:** {video_info['url']}\n")
         f.write(f"**Transcript:** ./transcript.md\n\n")
@@ -774,8 +964,69 @@ def main():
 
         # Process each podcast feed to discover new episodes
         for feed_url, custom_podcast_name in podcast_feeds:
+            # Check if this is a Xiaoyuzhou podcast
+            if xiaoyuzhou_helper.is_xiaoyuzhou_url(feed_url):
+                print(f"🎙️  Checking Xiaoyuzhou podcast: {feed_url[:60]}...")
+
+                # Use custom name if provided, otherwise extract from page
+                if custom_podcast_name:
+                    podcast_name = custom_podcast_name
+                else:
+                    podcast_name = xiaoyuzhou_helper.extract_xiaoyuzhou_podcast_name(feed_url) or "Xiaoyuzhou Podcast"
+
+                # Update podcast name in status
+                if feed_url not in status_data["podcasts"]:
+                    status_data["podcasts"][feed_url] = {"podcast_name": podcast_name, "episodes": {}}
+                else:
+                    status_data["podcasts"][feed_url]["podcast_name"] = podcast_name
+
+                # Store for later use
+                podcast_info_map[feed_url] = {
+                    "podcast_name": podcast_name,
+                    "custom_podcast_name": custom_podcast_name
+                }
+
+                # Check if this is the first time we're seeing this podcast
+                is_first_run_for_this_podcast = len(status_data["podcasts"][feed_url]["episodes"]) == 0
+
+                # Get all episodes from the podcast
+                podcast_episodes = xiaoyuzhou_helper.get_xiaoyuzhou_podcast_episodes(feed_url, first_run=is_first_run_for_this_podcast)
+
+                # Determine which episodes to process
+                if is_first_run_for_this_podcast:
+                    # First run: suggest downloading only the latest (already filtered by helper)
+                    episodes_to_suggest = podcast_episodes
+                else:
+                    # Subsequent runs: get episodes after the latest downloaded one
+                    latest_downloaded_id = get_latest_downloaded_episode(status_data, feed_url)
+                    if latest_downloaded_id:
+                        # Find the position of the latest downloaded and get all after it (newer episodes)
+                        latest_index = next((i for i, v in enumerate(podcast_episodes) if v['id'] == latest_downloaded_id), -1)
+                        episodes_to_suggest = podcast_episodes[:latest_index] if latest_index >= 0 else []
+                    else:
+                        # No episodes downloaded yet, suggest only the latest
+                        episodes_to_suggest = podcast_episodes[:1] if podcast_episodes else []
+
+                # Add all discovered episodes to status
+                for episode_info in podcast_episodes:
+                    episode_id = episode_info['id']
+                    existing_episode = status_data["podcasts"][feed_url]["episodes"].get(episode_id)
+
+                    # Add new episode
+                    if not existing_episode:
+                        set_episode_status(status_data, feed_url, episode_id, episode_info['title'], "discovered", episode_info.get('upload_date'))
+                    elif existing_episode.get('upload_date') == '0':
+                        # Update metadata if date was missing
+                        existing_episode['title'] = episode_info['title']
+                        existing_episode['upload_date'] = episode_info.get('upload_date')
+                        print(f"  → Updated metadata for episode: {episode_info['title'][:60]}")
+
+                # Add to selection list
+                for episode_info in episodes_to_suggest:
+                    all_episodes_to_process.append((podcast_name, feed_url, episode_info))
+
             # Check if this is a YouTube playlist or a single video
-            if 'playlist' in feed_url:
+            elif 'playlist' in feed_url:
                 print(f"📋 Checking playlist: {feed_url[:50]}...")
 
                 # Use custom name if provided, otherwise extract from URL
@@ -909,19 +1160,27 @@ def main():
         selected_episodes = {}
         for idx, (number, episode_info) in enumerate(selected_recent.items()):
             podcast_name = episode_info['podcast_name']
-            video_info = {
-                'id': episode_info['id'],
-                'url': f"https://www.youtube.com/watch?v={episode_info['id']}",
-                'title': episode_info['title'],
-                'upload_date': episode_info['upload_date']
-            }
+
             # Find the podcast_url from status_data
             podcast_url = None
             for url, pdata in status_data.get('podcasts', {}).items():
                 if pdata.get('podcast_name') == podcast_name:
                     podcast_url = url
                     break
+
             if podcast_url:
+                # Construct the correct episode URL based on platform
+                if xiaoyuzhou_helper.is_xiaoyuzhou_url(podcast_url):
+                    episode_url = f"https://www.xiaoyuzhoufm.com/episode/{episode_info['id']}"
+                else:
+                    episode_url = f"https://www.youtube.com/watch?v={episode_info['id']}"
+
+                video_info = {
+                    'id': episode_info['id'],
+                    'url': episode_url,
+                    'title': episode_info['title'],
+                    'upload_date': episode_info['upload_date']
+                }
                 selected_episodes[idx] = (podcast_name, podcast_url, video_info)
 
         if not selected_episodes:
