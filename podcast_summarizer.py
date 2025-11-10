@@ -34,6 +34,39 @@ STATUS_STATES = {
     "summarized": 4       # Summary generated
 }
 
+def has_chinese_characters(text):
+    """Check if text contains Chinese characters"""
+    if not text:
+        return False
+    # Unicode ranges for Chinese characters (CJK Unified Ideographs)
+    for char in text:
+        if '\u4e00' <= char <= '\u9fff':
+            return True
+    return False
+
+def translate_chinese_to_english(text):
+    """Translate Chinese text to English using Claude"""
+    try:
+        from anthropic import Anthropic
+        client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+
+        response = client.messages.create(
+            model=HAIKU_MODEL,  # Use Haiku for cost efficiency
+            max_tokens=200,
+            messages=[
+                {
+                    "role": "user",
+                    "content": f"Translate this Chinese text to English. Return ONLY the English translation, no explanations or additional text:\n\n{text}"
+                }
+            ]
+        )
+
+        translation = response.content[0].text.strip()
+        return translation
+    except Exception as e:
+        print(f"  ⚠ Translation failed: {e}")
+        return text  # Return original if translation fails
+
 def acquire_lock(timeout=30):
     """Acquire a lock file to prevent parallel duplicate processing"""
     start_time = time.time()
@@ -129,7 +162,7 @@ def get_episode_status(status_data, podcast_url, video_id):
     episode = episodes.get(video_id, {})
     return episode.get("status", "discovered")
 
-def set_episode_status(status_data, podcast_url, video_id, episode_title, new_status, upload_date=None):
+def set_episode_status(status_data, podcast_url, video_id, episode_title, new_status, upload_date=None, region=None):
     """Update the status of an episode"""
     if "podcasts" not in status_data:
         status_data["podcasts"] = {}
@@ -139,11 +172,26 @@ def set_episode_status(status_data, podcast_url, video_id, episode_title, new_st
             "episodes": {}
         }
     if video_id not in status_data["podcasts"][podcast_url]["episodes"]:
+        # Translate title if it contains Chinese characters
+        translated_title = episode_title
+        detected_region = region
+
+        if detected_region is None:
+            # Auto-detect region based on title
+            if has_chinese_characters(episode_title):
+                print(f"  → Detected Chinese title, translating...")
+                translated_title = translate_chinese_to_english(episode_title)
+                detected_region = "Chinese"
+                print(f"  → Translated: {translated_title}")
+            else:
+                detected_region = "Western"
+
         status_data["podcasts"][podcast_url]["episodes"][video_id] = {
-            "title": episode_title,
+            "title": translated_title,
             "upload_date": upload_date,  # YYYYMMDD format from YouTube
             "discovered_date": None,
-            "status": "discovered"
+            "status": "discovered",
+            "region": detected_region
         }
 
     episode = status_data["podcasts"][podcast_url]["episodes"][video_id]
@@ -189,8 +237,8 @@ Extract the key takeaways in a clear, concise format:
 
 Keep it scannable and focused on substance."""
 
-def show_recent_undownloaded_episodes(status_data, selected_podcast_urls=None):
-    """Display all episodes from the last 30 days that haven't been downloaded"""
+def show_recent_incomplete_episodes(status_data, selected_podcast_urls=None):
+    """Display all episodes from the last 30 days that haven't been fully summarized"""
     from datetime import datetime, timedelta
 
     all_recent = []
@@ -205,8 +253,9 @@ def show_recent_undownloaded_episodes(status_data, selected_podcast_urls=None):
         episodes = podcast_data.get('episodes', {})
 
         for vid_id, episode in episodes.items():
-            # Check if episode is not downloaded (status = discovered)
-            if episode.get('status') == 'discovered':
+            # Check if episode is incomplete (not yet summarized)
+            episode_status = episode.get('status')
+            if episode_status in ['discovered', 'downloaded', 'transcribed']:
                 # Check upload date
                 upload_date = episode.get('upload_date')
                 if upload_date and len(upload_date) == 8:
@@ -217,29 +266,38 @@ def show_recent_undownloaded_episodes(status_data, selected_podcast_urls=None):
                                 'title': episode.get('title', 'Unknown'),
                                 'upload_date': f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}",
                                 'id': vid_id,
-                                'podcast_name': podcast_name
+                                'podcast_name': podcast_name,
+                                'status': episode_status
                             })
                     except:
                         pass
 
     if not all_recent:
-        print("No new episodes from the past 30 days.")
+        print("No incomplete episodes from the past 30 days.")
         return
 
     # Sort by upload date (newest first)
     all_recent.sort(key=lambda x: x['upload_date'], reverse=True)
 
+    # Define status emoji mapping
+    status_emoji = {
+        "discovered": "🔍",
+        "downloaded": "⬇️",
+        "transcribed": "📝"
+    }
+
     print(f"\n{'='*70}")
-    print(f"📅 RECENT EPISODES (Last 30 days, not yet downloaded)")
+    print(f"📅 RECENT INCOMPLETE EPISODES (Last 30 days)")
     print(f"{'='*70}\n")
 
     episode_map = {}  # Map numbers to episode info for quick lookup
 
     for episode_number, ep in enumerate(all_recent, 1):
-        title = ep['title'][:60]
-        if len(ep['title']) > 60:
+        title = ep['title'][:120]
+        if len(ep['title']) > 120:
             title += "..."
-        print(f"{episode_number}. [{ep['podcast_name']}] {ep['upload_date']} - {title}")
+        status_icon = status_emoji.get(ep.get('status', 'discovered'), '🔍')
+        print(f"{episode_number}. {status_icon} [{ep['podcast_name']}] {ep['upload_date']} - {title}")
         episode_map[episode_number] = ep
 
     print()
@@ -259,9 +317,9 @@ def show_episode_selection_menu(all_episodes_to_process):
     # Display all episodes with numbering
     for idx, (podcast_name, feed_url, video_info) in enumerate(all_episodes_to_process, 1):
         print(f"{idx}. [{podcast_name}]")
-        print(f"   Title: {video_info['title'][:70]}")
-        if len(video_info['title']) > 70:
-            print(f"           {video_info['title'][70:]}")
+        print(f"   Title: {video_info['title'][:140]}")
+        if len(video_info['title']) > 140:
+            print(f"           {video_info['title'][140:]}")
         print(f"   Video ID: {video_info['id']}")
         print()
 
@@ -721,7 +779,7 @@ def summarize_transcript_with_ai(transcript_text, video_title, custom_prompt):
 
     response = client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=2000,
+        max_tokens=16000,
         messages=[
             {
                 "role": "user",
@@ -736,10 +794,15 @@ def summarize_transcript_with_ai(transcript_text, video_title, custom_prompt):
 
 def process_single_video(video_info, video_index, podcast_name, podcast_url, custom_prompt, status_data):
     """Download, transcribe, identify speakers, and summarize a single video"""
-    sanitized_episode_title = sanitize_filename(video_info['title'])
     video_id = video_info['id']
 
-    print(f"\n  📹 Processing video {video_index}: '{video_info['title']}'")
+    # Get translated title from status data if available
+    episode_data = status_data.get("podcasts", {}).get(podcast_url, {}).get("episodes", {}).get(video_id, {})
+    episode_title = episode_data.get("title", video_info['title'])
+
+    sanitized_episode_title = sanitize_filename(episode_title)
+
+    print(f"\n  📹 Processing video {video_index}: '{episode_title}'")
     print(f"     Video ID: {video_id}")
 
     # Create episode folder and file paths
@@ -759,7 +822,7 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
             download_xiaoyuzhou_audio(video_info['url'], raw_podcast_path)
         else:
             download_video_audio(video_info['url'], raw_podcast_path)
-        set_episode_status(status_data, podcast_url, video_id, video_info['title'], "downloaded")
+        set_episode_status(status_data, podcast_url, video_id, episode_title, "downloaded")
         print(f"  ✓ Downloaded")
     else:
         print(f"  → Skipping download (already downloaded)")
@@ -783,7 +846,11 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
             except:
                 formatted_date = video_info['upload_date']
 
-        transcript_header = f"""# {video_info['title']}
+        # Get translated title from status data
+        episode_data = status_data.get("podcasts", {}).get(podcast_url, {}).get("episodes", {}).get(video_id, {})
+        episode_title = episode_data.get("title", video_info['title'])
+
+        transcript_header = f"""# {episode_title}
 
 **Podcast:** {podcast_name}
 **Date:** {formatted_date}
@@ -801,7 +868,7 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
         # Also save a copy to transcript.md for viewing (will be overwritten after speaker ID)
         with open(transcript_path, 'w') as f:
             f.write(transcript_header + transcript_text)
-        set_episode_status(status_data, podcast_url, video_id, video_info['title'], "transcribed")
+        set_episode_status(status_data, podcast_url, video_id, episode_title, "transcribed")
         print(f"  ✓ Transcribed")
     elif get_episode_status(status_data, podcast_url, video_id) in ["transcribed", "summarized"]:
         print(f"  → Skipping transcription (already transcribed)")
@@ -832,7 +899,7 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
     if transcript_text and get_episode_status(status_data, podcast_url, video_id) == "transcribed":
         print(f"  → Step 3: Identifying speakers...")
         # Identify speakers and replace SPEAKER_XX with actual names
-        transcript_text, identified_speakers = identify_and_replace_speakers(transcript_text, video_metadata, video_info['title'])
+        transcript_text, identified_speakers = identify_and_replace_speakers(transcript_text, video_metadata, episode_title)
         # Update transcript file with speaker-identified version
         with open(transcript_path, 'w') as f:
             # Keep the metadata header from before
@@ -850,8 +917,8 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
     # Step 4: Summarize
     if transcript_text and get_episode_status(status_data, podcast_url, video_id) == "transcribed":
         print(f"  → Step 4: Generating summary...")
-        summary_text = summarize_transcript_with_ai(transcript_text, video_info['title'], custom_prompt)
-        set_episode_status(status_data, podcast_url, video_id, video_info['title'], "summarized")
+        summary_text = summarize_transcript_with_ai(transcript_text, episode_title, custom_prompt)
+        set_episode_status(status_data, podcast_url, video_id, episode_title, "summarized")
         print(f"  ✓ Summarized")
     elif get_episode_status(status_data, podcast_url, video_id) == "summarized":
         print(f"  → Skipping summarization (already summarized)")
@@ -871,13 +938,19 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
         except:
             formatted_date = video_info['upload_date']
 
+    # Get region and title from status data (title may be translated)
+    episode_data = status_data.get("podcasts", {}).get(podcast_url, {}).get("episodes", {}).get(video_id, {})
+    region = episode_data.get("region", "Western")  # Default to Western if not set
+    episode_title = episode_data.get("title", video_info['title'])  # Use translated title from status
+
     # Write summary to file (with metadata header)
     with open(summary_path, 'w') as f:
-        f.write(f"# {video_info['title']}\n\n")
+        f.write(f"# {episode_title}\n\n")
         f.write(f"**Podcast:** {podcast_name}\n")
         f.write(f"**Date:** {formatted_date}\n")
         if identified_speakers:
             f.write(f"**Participants:** {', '.join(identified_speakers)}\n")
+        f.write(f"**Region:** {region}\n")
         f.write(f"**Video ID:** {video_id}\n")
         f.write(f"**Video URL:** {video_info['url']}\n")
         f.write(f"**Transcript:** ./transcript.md\n\n")
@@ -1017,9 +1090,23 @@ def main():
                         set_episode_status(status_data, feed_url, episode_id, episode_info['title'], "discovered", episode_info.get('upload_date'))
                     elif existing_episode.get('upload_date') == '0':
                         # Update metadata if date was missing
-                        existing_episode['title'] = episode_info['title']
+                        title_to_store = episode_info['title']
+                        region = existing_episode.get('region')
+
+                        # Translate if Chinese and not already set
+                        if region is None:
+                            if has_chinese_characters(episode_info['title']):
+                                print(f"  → Detected Chinese title, translating...")
+                                title_to_store = translate_chinese_to_english(episode_info['title'])
+                                region = "Chinese"
+                                print(f"  → Translated: {title_to_store}")
+                            else:
+                                region = "Western"
+
+                        existing_episode['title'] = title_to_store
                         existing_episode['upload_date'] = episode_info.get('upload_date')
-                        print(f"  → Updated metadata for episode: {episode_info['title'][:60]}")
+                        existing_episode['region'] = region
+                        print(f"  → Updated metadata for episode: {title_to_store[:60]}")
 
                 # Add to selection list
                 for episode_info in episodes_to_suggest:
@@ -1078,9 +1165,23 @@ def main():
                         set_episode_status(status_data, feed_url, video_id, video_info['title'], "discovered", video_info.get('upload_date'))
                     elif existing_episode.get('title') == '[Private video]' or existing_episode.get('upload_date') == '0':
                         # Update metadata for previously private videos that are now public
-                        existing_episode['title'] = video_info['title']
+                        title_to_store = video_info['title']
+                        region = existing_episode.get('region')
+
+                        # Translate if Chinese and not already set
+                        if region is None:
+                            if has_chinese_characters(video_info['title']):
+                                print(f"  → Detected Chinese title, translating...")
+                                title_to_store = translate_chinese_to_english(video_info['title'])
+                                region = "Chinese"
+                                print(f"  → Translated: {title_to_store}")
+                            else:
+                                region = "Western"
+
+                        existing_episode['title'] = title_to_store
                         existing_episode['upload_date'] = video_info.get('upload_date')
-                        print(f"  → Updated metadata for previously private video: {video_info['title'][:60]}")
+                        existing_episode['region'] = region
+                        print(f"  → Updated metadata for previously private video: {title_to_store[:60]}")
 
                 # Add to selection list
                 for video_info in videos_to_suggest:
@@ -1112,8 +1213,8 @@ def main():
         # Save discovered videos to status before selection
         save_podcast_status(status_data)
 
-        # Show recent undownloaded episodes from the past 30 days (all podcasts)
-        recent_episode_map = show_recent_undownloaded_episodes(status_data)
+        # Show recent incomplete episodes from the past 30 days (all podcasts)
+        recent_episode_map = show_recent_incomplete_episodes(status_data)
 
         # PHASE 2: Select from recent episodes
         if not recent_episode_map:
@@ -1122,11 +1223,11 @@ def main():
             return
 
         print(f"\n{'='*70}")
-        print(f"📋 PHASE 2: Select episodes to download")
+        print(f"📋 PHASE 2: Select episodes to process")
         print(f"{'='*70}\n")
-        print("Select from the recent episodes above:")
-        print("  'all'     - Download all episodes")
-        print("  '1,5,10'  - Download specific episode numbers (comma-separated)")
+        print("Select from the incomplete episodes above:")
+        print("  'all'     - Process all episodes")
+        print("  '1,5,10'  - Process specific episode numbers (comma-separated)")
         print("  'cancel'  - Cancel processing\n")
 
         # Get user selection from recent episodes

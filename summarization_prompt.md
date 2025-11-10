@@ -4,7 +4,8 @@ You are summarizing a podcast transcript for an investor and entrepreneur. The g
 
 # Notes
 
-If the overall language is not english, make sure summary and quotes are translated to english.
+1. If the overall language is Chinese, make sure summary and quotes are translated to english. Don't show the Chinese.
+2. Whenever you are quoting, please insert timestamp after quote so [HH:MM:SS]. You should take the timestamp from the beginning of the context for the quote.
 
 ## Format
 
