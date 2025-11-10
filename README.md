@@ -5,15 +5,16 @@ A comprehensive podcast downloading, transcription, and summarization system tha
 ## Features
 
 - 🎙️ **Automated Discovery**: Tracks YouTube podcast playlists and detects new episodes
-- 📥 **Interactive Selection**: Choose which episodes to download from the last 30 days
+- 📥 **Interactive Selection**: Choose which incomplete episodes to process from the last 30 days
 - 🎵 **Audio Download**: Extracts audio from YouTube videos (including Xiaoyuzhou Chinese podcasts)
 - ⚡ **GPU-Accelerated Transcription**: Uses mlx-whisper for fast transcription on Apple Silicon
 - 🗣️ **Voice-Based Speaker Diarization**: Uses pyannote.audio for accurate speaker detection (local, no API cost)
 - 👥 **Speaker Identification**: Uses Claude Haiku to identify speaker names from context
-- 📊 **Smart Summarization**: Generates investor-focused summaries with Claude Sonnet 4.5
+- 📊 **Smart Summarization**: Generates comprehensive investor-focused summaries with Claude Sonnet 4.5 (16K token output)
+- 🌏 **Chinese Podcast Support**: Automatic title translation and full integration with Xiaoyuzhou platform
+- 🏷️ **Region Tracking**: Automatically detects and tracks Chinese vs Western content
 - 💾 **State Management**: Tracks episode status through the entire pipeline
 - 🔄 **Resumable**: Safe to interrupt and resume without re-processing
-- 🌏 **Chinese Podcast Support**: Full integration with Xiaoyuzhou platform
 
 ## Quick Start
 
@@ -88,14 +89,16 @@ A comprehensive podcast downloading, transcription, and summarization system tha
 ### Basic Workflow
 
 1. The script scans all podcasts in `podcast_urls.txt`
-2. Shows you undownloaded episodes from the last 30 days
+2. Shows you incomplete episodes (discovered/downloaded/transcribed) from the last 30 days
 3. You select which episodes to process (or choose "all")
 4. For each episode:
    - Downloads audio
    - Transcribes with mlx-whisper (GPU-accelerated)
    - Runs voice-based speaker diarization (if configured)
    - Identifies speaker names with Claude Haiku
-   - Generates summary with Claude Sonnet 4.5
+   - Generates comprehensive summary with Claude Sonnet 4.5 (16K tokens)
+   - Automatically translates Chinese titles to English
+   - Tracks episode region (Chinese/Western)
 
 ### Episode Selection
 
@@ -149,13 +152,13 @@ WHISPER_MODEL = "base"  # Options: tiny, base, small, medium, large
 
 ### Utility Scripts
 
+- **`backfill_dates.py`** - Backfills publication dates for old episodes
+- **`cleanup_incomplete.py`** - Removes incomplete episode folders and resets status
 - **`create_summaries_html.py`** - Compile all summaries into styled HTML for web viewing
 - **`create_summaries_pdf.py`** - Generate PDF compilation of summaries via pandoc
+- **`generate_weekly_summary.py`** - Generates weekly digest of summaries from recently published episodes
 - **`summarize_single_episode.py`** - Re-process/re-summarize individual episodes
-- **`backfill_dates.py`** - Backfills publication dates for old episodes
-- **`cleanup_incomplete.py`** - Removes incomplete episode folders
-- **`generate_weekly_summary.py`** - Generates weekly digest of summaries
-- **`summary_tester.py`** - Tests summarization on existing transcripts
+- **`xiaoyuzhou_helper.py`** - Helper functions for Chinese podcast platform (Xiaoyuzhou) support
 
 ### Status Tracking
 

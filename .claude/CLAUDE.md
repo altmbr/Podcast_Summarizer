@@ -5,12 +5,14 @@ A comprehensive podcast downloading, transcription, and summarization system tha
 ## Overview
 
 This system automates the process of:
-1. Discovering new episodes from YouTube podcast playlists
-2. Allowing you to interactively select which episodes to download
+1. Discovering new episodes from YouTube podcast playlists (including Chinese Xiaoyuzhou platform)
+2. Allowing you to interactively select which episodes to process
 3. Downloading audio files
 4. Transcribing audio to text using OpenAI's Whisper
-5. Generating AI-powered summaries using Claude Sonnet 4.5
-6. Tracking episode status through the entire pipeline
+5. Identifying speakers using voice diarization and Claude AI
+6. Generating comprehensive AI-powered summaries using Claude Sonnet 4.5 (16K tokens)
+7. Automatically translating Chinese titles to English and tracking content region
+8. Tracking episode status through the entire pipeline
 
 ## Architecture
 
@@ -94,6 +96,11 @@ Customizable prompt that defines how episodes should be summarized. Designed for
 - **Companies Identified (3-10 companies)** - Companies mentioned for excellence or relevance
 - **Operating Insights (1-5 insights)** - Tactical takeaways for operations and decision-making
 
+**Recent Updates:**
+- Chinese content is automatically translated to English in summaries
+- Timestamps are now required for all quotes in format: "Quote here" [HH:MM:SS]
+- Summaries can now be up to 16K tokens (previously 2K) for more comprehensive coverage
+
 ### `podcast_status.json` & `podcast_status.md`
 
 Master status tracking uses JSON for efficient processing and auto-generates a human-readable markdown file.
@@ -109,13 +116,19 @@ Master status tracking uses JSON for efficient processing and auto-generates a h
           "title": "Episode Title",
           "upload_date": "20241106",
           "discovered_date": "2024-11-06 22:31:00",
-          "status": "summarized"
+          "status": "summarized",
+          "region": "Western"
         }
       }
     }
   }
 }
 ```
+
+**New Fields:**
+- `region` - Either "Chinese" or "Western", automatically detected based on title language
+  - Chinese titles are automatically translated to English and stored in the `title` field
+  - Original Chinese titles are used for folder naming but translated for display
 
 **Markdown File (`podcast_status.md`):**
 - Auto-generated whenever status is saved
@@ -164,19 +177,21 @@ When you run `python podcast_summarizer.py`:
 - **No files are downloaded in this phase**
 
 #### Phase 2: Interactive Selection (📋)
-- **First**: Shows recent undownloaded episodes from the **last 30 days** across all podcasts
+- **First**: Shows recent incomplete episodes from the **last 30 days** across all podcasts
+  - Incomplete episodes include: discovered, downloaded, or transcribed (not yet summarized)
+  - Status indicator emoji (🔍 discovered, ⬇️ downloaded, 📝 transcribed)
   - Numbered list for easy reference
   - Grouped by podcast name
   - Sorted by publication date (newest first)
-  - Shows which ones are available to download
+  - Shows translated titles for Chinese content
 - **Then**: Displays numbered list of suggested episodes with:
   - Podcast name
-  - Episode title
+  - Episode title (translated if Chinese)
   - Video ID
 - Prompts for user selection:
   - `all` - Select all suggested episodes
   - `1,2,3` - Select specific episodes (comma-separated numbers)
-  - `cancel` - Exit without downloading
+  - `cancel` - Exit without processing
 
 #### Phase 3: Processing (⏱️) - 4-Step Pipeline
 
@@ -208,13 +223,33 @@ For each selected episode:
 - Identified speakers are used for the Participants field in summary
 
 **Step 4: Summarize**
-- Generates AI summary using Claude Sonnet 4.5
+- Generates comprehensive AI summary using Claude Sonnet 4.5 (16,000 max tokens)
 - Includes speaker attribution with **full names** in quotes and key points
-- Formats with metadata header including Participants field (from Step 3)
-- Metadata includes: title, podcast, date, participants, URL, transcript link
+- Includes timestamps in quotes (e.g., "Quote here" [00:15:30])
+- Formats with metadata header including Participants and Region fields
+- Metadata includes: title, podcast, date, participants, region (Chinese/Western), video ID, URL, transcript link
 - Saves as `summary.md`
 
 Updates `podcast_status.json` after each episode completes.
+
+### Chinese Podcast Support
+
+**Automatic Title Translation:**
+- When an episode title contains Chinese characters, it is automatically detected
+- The title is translated to English using Claude Haiku (cost-efficient)
+- The translated title is stored in `podcast_status.json` for consistency
+- Original Chinese title may still appear in folder names
+
+**Region Tracking:**
+- Each episode is tagged as either "Chinese" or "Western" based on title
+- Region field is stored in `podcast_status.json` and `summary.md`
+- Helps filter and organize content by language/region
+
+**Xiaoyuzhou Platform:**
+- Full support for Xiaoyuzhou (小宇宙) Chinese podcast platform
+- Audio download via direct URL extraction
+- Episode metadata and listing support
+- See `xiaoyuzhou_helper.py` for implementation details
 
 ### Smart Download Logic
 
@@ -278,13 +313,26 @@ pyannote.audio   # Voice-based speaker diarization (optional but recommended)
 - `extract_video_metadata(video_url)` - Extract title, description, channel, and uploader from YouTube video
 - `parse_guest_names_from_description(description, title)` - Parse guest names from video description using regex patterns
 - `identify_and_replace_speakers(transcript, video_metadata, video_title)` - Use Claude to identify speaker names from transcript context
-- `summarize_transcript_with_ai(transcript_text, video_title, custom_prompt)` - Summarize via Claude Sonnet with the custom prompt
+- `summarize_transcript_with_ai(transcript_text, video_title, custom_prompt)` - Summarize via Claude Sonnet 4.5 with the custom prompt (16K token output)
+
+### Chinese Language Support
+- `has_chinese_characters(text)` - Detect if text contains Chinese characters (CJK Unicode range)
+- `translate_chinese_to_english(text)` - Translate Chinese text to English using Claude Haiku
+- Region detection and tracking automatically applied during episode discovery
 
 ### Utility
 - `extract_podcast_name_from_url(playlist_url)` - Extract podcast name from URL
 - `sanitize_filename(filename)` - Remove invalid filename characters
-- `show_episode_selection_menu(all_episodes_to_process)` - Interactive selection interface
+- `show_episode_selection_menu(all_episodes_to_process)` - Interactive selection interface (legacy, for new episodes)
+- `show_recent_incomplete_episodes(status_data, selected_podcast_urls)` - Show incomplete episodes from last 30 days
 - `get_playlist_videos(playlist_url, first_run)` - Fetch videos from playlist via yt-dlp
+
+### Xiaoyuzhou Platform Support
+See `xiaoyuzhou_helper.py` for Chinese podcast platform integration:
+- `is_xiaoyuzhou_url(url)` - Check if URL is from Xiaoyuzhou platform
+- `get_xiaoyuzhou_podcast_episodes(podcast_url, first_run)` - Fetch episode list
+- `download_xiaoyuzhou_audio(episode_url, output_path)` - Download audio file
+- `extract_xiaoyuzhou_podcast_name(podcast_url)` - Extract podcast name
 
 ### File Management
 - `load_summarization_prompt()` - Load custom prompt from file
@@ -405,11 +453,14 @@ WHISPER_MODEL = "base"  # Options: tiny, base, small, medium, large
 
 Options trade off accuracy vs. speed/memory.
 
-### Change LLM Model
+### Change Summary Output Length
 In `podcast_summarizer.py`, modify the `summarize_transcript_with_ai()` function:
 ```python
-model="gpt-4o-mini"  # Can change to other models
+max_tokens=16000  # Current: 16K for comprehensive summaries
+                  # Previous: 2K (increase provides much more detail)
 ```
+
+Note: The system now uses Claude Sonnet 4.5 with 16K max tokens for more comprehensive summaries compared to the previous 2K limit.
 
 ## Error Handling
 
@@ -501,26 +552,29 @@ If a run is interrupted:
 - Transcription (Whisper): ~$0.10-0.30
 - Diarization (pyannote, local): $0.00 (runs locally)
 - Speaker ID (Claude Haiku, 15 min): ~$0.05-0.20
-- Summarization (Claude Sonnet): ~$0.20-1.00
-- **Total: ~$0.35-1.50 per episode**
+- Title Translation (Claude Haiku, if Chinese): ~$0.01-0.03
+- Summarization (Claude Sonnet 4.5, 16K tokens): ~$0.30-1.50
+- **Total: ~$0.45-2.00 per episode**
 
 **Without Voice-Based Diarization:**
 - Transcription (Whisper): ~$0.10-0.30
 - Speaker ID (Claude Haiku, 15 min): ~$0.05-0.20 (less accurate without SPEAKER_XX labels)
-- Summarization (Claude Sonnet): ~$0.20-1.00
-- **Total: ~$0.35-1.50 per episode**
+- Title Translation (Claude Haiku, if Chinese): ~$0.01-0.03
+- Summarization (Claude Sonnet 4.5, 16K tokens): ~$0.30-1.50
+- **Total: ~$0.45-2.00 per episode**
 
-**Cost Savings from Optimizations:**
-- Using Haiku instead of Sonnet for speaker ID: ~10x cheaper
-- Using first 15 minutes only: ~3-4x fewer tokens
+**Cost Considerations:**
+- Using Haiku (not Sonnet) for speaker ID and translation: ~10x cheaper
+- Using first 15 minutes only for speaker ID: ~3-4x fewer tokens
 - Voice-based diarization: More accurate, no added API costs
-- **Overall savings: ~50-60% compared to previous implementation**
+- Increased summary length (2K → 16K tokens): More comprehensive, ~50% higher cost per episode
+- Chinese title translation adds minimal cost (~$0.01-0.03 per episode)
 
 ### Monthly Cost Examples
 
-- **Light usage** (10 episodes/month): $3.50-15.00
-- **Medium usage** (50 episodes/month): $17.50-75.00
-- **Heavy usage** (200 episodes/month): $70-300
+- **Light usage** (10 episodes/month): $4.50-20.00
+- **Medium usage** (50 episodes/month): $22.50-100.00
+- **Heavy usage** (200 episodes/month): $90-400
 
 Note: Costs vary based on:
 - Episode length (longer = more transcription cost)
