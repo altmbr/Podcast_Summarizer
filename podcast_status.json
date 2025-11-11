@@ -15157,6 +15157,30 @@
           "region": "Chinese"
         }
       }
+    },
+    "https://www.youtube.com/playlist?list=PLM4u6XbiXf5rnUvH5NLdV_It2QLgbHBDZ": {
+      "podcast_name": "A16z Podcast",
+      "episodes": {
+        "191Ojd7Rq6s": {
+          "title": "Amjad Masad & Adam D\u2019Angelo: How Far Are We From AGI?",
+          "upload_date": "20251108",
+          "discovered_date": "2025-11-11 15:29:01",
+          "status": "summarized",
+          "region": "Western"
+        }
+      }
+    },
+    "https://www.youtube.com/playlist?list=PLWloxQyF_2n4aCanY4Y45HLTY2zoeZF8U": {
+      "podcast_name": "My First Million",
+      "episodes": {
+        "ZOi2DtTVm7o": {
+          "title": "I Own 38 Businesses. Here's What Actually Makes Money.",
+          "upload_date": "20251108",
+          "discovered_date": "2025-11-11 15:37:49",
+          "status": "summarized",
+          "region": "Western"
+        }
+      }
     }
   }
 }
