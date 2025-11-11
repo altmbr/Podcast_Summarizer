@@ -5,7 +5,7 @@ You are summarizing a podcast transcript for an investor and entrepreneur. The g
 # Notes
 
 1. If the overall language is Chinese, make sure summary and quotes are translated to english. Don't show the Chinese.
-2. Whenever you are quoting, please insert timestamp after quote so [HH:MM:SS]. You should take the timestamp from the beginning of the context for the quote.
+2. Whenever you are quoting, please insert timestamp after quote in plain text format like [HH:MM:SS] - do NOT wrap it in a markdown link, just use square brackets with the time. You should take the timestamp from the beginning of the context for the quote.
 
 ## Format
 

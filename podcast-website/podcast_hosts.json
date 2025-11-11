@@ -1,0 +1,10 @@
+{
+  "20VC": {
+    "hosts": ["Harry Stebbings"],
+    "description": "Venture capital podcast featuring interviews with top investors and founders"
+  },
+  "All In": {
+    "hosts": ["Chamath Palihapitiya", "Jason Calacanis", "David Sacks", "David Friedberg"],
+    "description": "Tech and business insights from four successful investors"
+  }
+}

@@ -1,0 +1,1772 @@
+# Elon Musk: OpenAI Betrayal, His Future at Tesla, and the Next Big Thing — Grokipedia
+
+**Podcast:** All In
+**Date:** October 31, 2025
+**Video ID:** j6_VfR-CyuM
+**Video URL:** https://www.youtube.com/watch?v=j6_VfR-CyuM
+
+---
+
+[00:00:00] Let's get started. You know, we wanted to try something new this week.
+[00:00:04] Every week, you know, I get a little upset. Things perturb me.
+[00:00:08] SPEAKER_05: Sacks and when it does, I just yell and scream.
+[00:00:12] SPEAKER_05: Disgrace, yeah. And so I bought the domain name,
+[00:00:14] SPEAKER_05: Disgrace.com for no reason other than my own amusement. But you know what? I'm not alone
+[00:00:20] in my absolute
+[00:00:21] SPEAKER_05: disgust at what's going on in the world. So this week
+[00:00:25] we're gonna bring out a new feature here on the All in Podcast. Disgrace, yeah, I'd corner.
+[00:00:30] Disgrace, yeah.
+[00:00:32] SPEAKER_05: He was the best guy around.
+[00:00:34] SPEAKER_03: What about the fully murdered?
+[00:00:36] SPEAKER_03: What murder?
+[00:00:38] SPEAKER_03: You can act like a man.
+[00:00:40] SPEAKER_03: He's just killed a man.
+[00:00:42] SPEAKER_03: He insulted him a little bit.
+[00:00:44] SPEAKER_03: I'm mad. And I want to say.
+[00:00:46] SPEAKER_03: I'm sorry.
+[00:00:48] SPEAKER_06: Here was in the toilet water.
+[00:00:50] SPEAKER_06: Disco thing. I got a little.
+[00:00:52] SPEAKER_06: Okay, you little.
+[00:00:54] Disgrace.
+[00:00:56] Ah!
+[00:00:58] SPEAKER_05: Disgrace, yeah.
+[00:01:00] SPEAKER_05: This is fantastic. This is our new feature.
+[00:01:05] Chimoff, you look like you're ready to go.
+[00:01:08] Why don't you tell you tell everybody who gets your dysgrace, yeah.
+[00:01:12] Wait, we all had to come with a dysgrace.
+[00:01:14] SPEAKER_07: You really?
+[00:01:15] SPEAKER_05: First time he's like, you missed a memo.
+[00:01:17] SPEAKER_05: All right, fine. I know. I got one. I got one.
+[00:01:20] SPEAKER_07: Okay, I just come down.
+[00:01:21] SPEAKER_07: My dysgrace, yeah, corner goes to Jason Calcanus.
+[00:01:24] SPEAKER_07: Here we go. Come on.
+[00:01:25] SPEAKER_07: Man, you can't.
+[00:01:26] SPEAKER_07: And people to judge where they in the first 30 seconds of the interview,
+[00:01:31] SPEAKER_07: compared virtue signaling points about how each one worked
+[00:01:35] SPEAKER_07: at various moments at Amnesty International.
+[00:01:38] SPEAKER_07: Absolutely.
+[00:01:39] SPEAKER_07: Literally affecting zero change,
+[00:01:41] SPEAKER_07: making no progress in the world.
+[00:01:43] SPEAKER_07: But collecting a badge that they used to hold over other people.
+[00:01:46] SPEAKER_07: Disgrace.
+[00:01:47] SPEAKER_07: There's a lot of letters.
+[00:01:47] SPEAKER_07: We wrote a lot of letters.
+[00:01:48] SPEAKER_05: Disgrace, yeah.
+[00:01:49] SPEAKER_05: Which is good. That means it's like a good one.
+[00:01:51] SPEAKER_05: Disgrace, yeah.
+[00:01:52] SPEAKER_05: Find the scenes.
+[00:01:53] SPEAKER_05: Disgrace, yeah.
+[00:01:53] SPEAKER_05: Jason Calcanus and people to judge.
+[00:01:55] SPEAKER_05: Disgrace, yeah.
+[00:01:56] SPEAKER_05: Great. I'm glad that I get the first one.
+[00:01:57] SPEAKER_05: And you can imagine what's coming next week for you.
+[00:02:00] SPEAKER_05: I saw the Sydney,
+[00:02:02] SPEAKER_05: Swini dress today trending on social.
+[00:02:05] Disgrace, yeah.
+[00:02:06] SPEAKER_05: It's too much.
+[00:02:08] SPEAKER_05: It's too much.
+[00:02:09] SPEAKER_05: What is it?
+[00:02:10] SPEAKER_05: I didn't even know what to say.
+[00:02:11] SPEAKER_05: You can see it.
+[00:02:12] SPEAKER_05: Next picture.
+[00:02:13] SPEAKER_05: Okay.
+[00:02:13] SPEAKER_05: Bring it up.
+[00:02:14] SPEAKER_05: It's a little floppy.
+[00:02:14] SPEAKER_05: Galvestito Echro Paul.
+[00:02:16] SPEAKER_05: How is this?
+[00:02:17] SPEAKER_05: Disgrace, yeah.
+[00:02:18] SPEAKER_05: What are you talking about?
+[00:02:19] SPEAKER_05: Much.
+[00:02:19] SPEAKER_05: It's disgraceful.
+[00:02:20] SPEAKER_05: A little bit of, like, look at this.
+[00:02:23] SPEAKER_05: Oh my God.
+[00:02:24] SPEAKER_05: Too much.
+[00:02:24] SPEAKER_05: It's only too much.
+[00:02:26] SPEAKER_05: In my day,
+[00:02:26] SPEAKER_05: Sacks, a little cleavage maybe.
+[00:02:30] SPEAKER_05: Perhaps in the 90s or 2000s,
+[00:02:31] SPEAKER_05: some side view.
+[00:02:32] SPEAKER_05: This is too much.
+[00:02:33] SPEAKER_05: Hey guy.
+[00:02:38] SPEAKER_00: Great.
+[00:02:38] SPEAKER_00: Hi, bro.
+[00:02:38] SPEAKER_00: Subject met him.
+[00:02:39] SPEAKER_00: Yeah.
+[00:02:40] Sorry.
+[00:02:41] We were discussing the role of politics.
+[00:02:43] SPEAKER_00: And the Sydney Swini dress.
+[00:02:48] SPEAKER_02: I know it's trending on that.
+[00:02:49] SPEAKER_02: Hi dad.
+[00:02:50] SPEAKER_02: Hi dad.
+[00:02:50] SPEAKER_02: Put away the phone.
+[00:02:51] SPEAKER_02: Chase it.
+[00:02:52] SPEAKER_02: Oh my God.
+[00:02:53] SPEAKER_02: Oh my God.
+[00:02:54] You're like your winner's ride.
+[00:02:56] Bring man David Sack.
+[00:02:58] SPEAKER_03: I'm going on.
+[00:03:01] And it said we open sources to the fans.
+[00:03:04] SPEAKER_03: And they've just got a reason.
+[00:03:05] SPEAKER_03: Love you guys.
+[00:03:06] SPEAKER_03: Nice.
+[00:03:06] SPEAKER_03: We don't get one.
+[00:03:08] SPEAKER_03: I'm going on.
+[00:03:10] What's going on with the algorithm?
+[00:03:11] SPEAKER_05: I'm getting serious.
+[00:03:12] SPEAKER_05: We need to dress all day.
+[00:03:13] SPEAKER_05: And last, we have Sacks.
+[00:03:15] SPEAKER_05: Well, maybe you should stop every day.
+[00:03:17] SPEAKER_00: Thank you.
+[00:03:18] You're married in 15 times.
+[00:03:20] SPEAKER_05: And then Sacks.
+[00:03:21] SPEAKER_00: Poor Sacks got, you got invited to Sluckcon
+[00:03:24] SPEAKER_05: for two weeks straight on the algorithm.
+[00:03:26] SPEAKER_05: Well, I say the algorithm has become,
+[00:03:28] SPEAKER_01: if you if you demonstrate,
+[00:03:30] SPEAKER_01: actually, right, you can even tell if that's a joke or a real thing.
+[00:03:34] SPEAKER_01: It's a real thing.
+[00:03:35] SPEAKER_01: It's all too real.
+[00:03:36] SPEAKER_01: It's actually really going.
+[00:03:38] SPEAKER_00: Yeah.
+[00:03:39] SPEAKER_00: What kind of is a real?
+[00:03:41] What have you noticed?
+[00:03:42] SPEAKER_01: Yeah.
+[00:03:42] SPEAKER_01: If you if you demonstrate interest.
+[00:03:45] SPEAKER_01: This is anything on X now.
+[00:03:46] SPEAKER_01: If you click on it, God forbid you like something.
+[00:03:49] SPEAKER_01: Man, yeah, it will give you more of that.
+[00:03:53] SPEAKER_01: It will give you a lot more.
+[00:03:54] SPEAKER_00: Yes.
+[00:03:55] SPEAKER_00: Yes.
+[00:03:56] SPEAKER_00: So we we did have an issue.
+[00:04:00] We still have some one of an issue where
+[00:04:05] SPEAKER_04: there was an important bug that was picking out
+[00:04:07] SPEAKER_00: that was solved over the weekend,
+[00:04:09] SPEAKER_00: which caused in network post to be not shown.
+[00:04:15] SPEAKER_00: So you basically if you followed someone,
+[00:04:18] SPEAKER_00: you wouldn't see the wouldn't see that post.
+[00:04:21] SPEAKER_00: God.
+[00:04:22] SPEAKER_00: It's going to be a big bug.
+[00:04:24] SPEAKER_00: And the better.
+[00:04:24] SPEAKER_00: You did your bug.
+[00:04:26] Then the algorithm was not probably taking into account.
+[00:04:33] SPEAKER_00: If you just dwells on something.
+[00:04:38] SPEAKER_02: But if you if you interacted with it,
+[00:04:41] SPEAKER_00: it would it would go hog wild.
+[00:04:43] SPEAKER_00: So if you pay as David said, if you if you were to favor reply
+[00:04:46] SPEAKER_00: or engage with it in some way,
+[00:04:48] SPEAKER_00: it is going to give you a torrent of that same thing.
+[00:04:52] SPEAKER_00: Oh, it's a fact.
+[00:04:54] SPEAKER_05: So maybe you'll say what was your interaction?
+[00:04:57] SPEAKER_05: Did you bookmarks like on I think your bookmark did?
+[00:05:00] SPEAKER_01: Here's what I thought was good about it though.
+[00:05:02] SPEAKER_01: Is all of a sudden.
+[00:05:06] I would see if you haven't just on sweet 70s when he's boobs.
+[00:05:08] SPEAKER_00: Yeah.
+[00:05:09] SPEAKER_00: And you get a lot more of it.
+[00:05:12] Yeah.
+[00:05:13] SPEAKER_01: Yeah.
+[00:05:15] SPEAKER_01: But what I thought was good about it was that you would see who
+[00:05:18] SPEAKER_01: else had a take on the same subject matter.
+[00:05:21] SPEAKER_01: And that actually has been a useful part of it.
+[00:05:25] Yeah.
+[00:05:25] So you do you do get more of a you get more of like a 360 view
+[00:05:29] SPEAKER_01: on whatever it is that you shown interested.
+[00:05:31] SPEAKER_01: Yeah.
+[00:05:32] Yeah.
+[00:05:33] SPEAKER_00: It just it's like it was giving you if you you take a you'd have
+[00:05:38] SPEAKER_00: like it was just going too far obviously.
+[00:05:40] SPEAKER_00: It was overcorrecting.
+[00:05:41] SPEAKER_00: It had too much gain on just to get up the gain way too high.
+[00:05:46] SPEAKER_00: Any interaction would you would then get a torrent of that.
+[00:05:49] SPEAKER_00: It's like it's like oh you had a taste of it.
+[00:05:52] SPEAKER_00: We're going to give you three helping.
+[00:05:54] SPEAKER_00: Yeah.
+[00:05:54] SPEAKER_00: We're going to force you.
+[00:05:56] SPEAKER_00: We're going to give you the food funnel.
+[00:05:59] SPEAKER_00: And that's all being done.
+[00:06:00] SPEAKER_00: I assume it's all being done with Grock now.
+[00:06:02] SPEAKER_05: So it's not like the old hard code algorithm or is it using Grock?
+[00:06:08] Well, what's happening is that we're gradually leading the legacy
+[00:06:13] SPEAKER_00: Twitter heuristics.
+[00:06:14] SPEAKER_00: Now the problem is that it's like I should leave these heuristics.
+[00:06:17] SPEAKER_00: It turns out the one heuristic the one bug was covering for the other bug.
+[00:06:22] SPEAKER_00: And so when you delete one side of the bug,
+[00:06:24] SPEAKER_00: you know, it's like that that mean with the internet that where there's like
+[00:06:27] SPEAKER_00: the spray complicated machine and there's like a tiny little wooden stick
+[00:06:30] SPEAKER_00: that's that's going which was I guess Amazon AWS Easter or whatever.
+[00:06:35] SPEAKER_00: Had something like that.
+[00:06:36] SPEAKER_00: You know, when when when somebody pulled out the little stick
+[00:06:41] SPEAKER_00: that was just.
+[00:06:43] SPEAKER_00: I think it'd be good if it half of earth, you know, it would be great if it showed like one person you follow.
+[00:06:49] SPEAKER_05: And then like it blended the old style which was just
+[00:06:54] SPEAKER_05: reverse chronological of your friends the original version with this new version.
+[00:06:59] SPEAKER_05: So you get like a little bit of both.
+[00:07:00] SPEAKER_05: Well, you can still you still have the plot.
+[00:07:02] SPEAKER_00: Everyone still has the following tab.
+[00:07:05] SPEAKER_00: Yeah, now something we're going to be adding is the ability to have a curated following tab
+[00:07:10] SPEAKER_00: because the problem is like if you follow some people and they're maybe a little more prolific
+[00:07:14] SPEAKER_00: than your, you know, it's a double.
+[00:07:18] You know, you follow someone and some people are are much more pro, you know, say a lot more than others.
+[00:07:24] SPEAKER_00: That that makes the following tab hard to use.
+[00:07:28] SPEAKER_00: So we're going to add up an option where you can have the following tab be curated.
+[00:07:32] SPEAKER_00: So Rockle will say one of the most interesting things posted by your friends and we'll show you that in the following tab.
+[00:07:40] SPEAKER_00: It will also be.
+[00:07:42] SPEAKER_00: Yeah, everything.
+[00:07:46] SPEAKER_00: But but I think having that option that will make the following tab much more useful.
+[00:07:52] SPEAKER_00: So it'll be a curated list of people you follow like the ideally most interesting stuff that they've said,
+[00:07:58] SPEAKER_00: which is kind of what you want to look at.
+[00:08:00] SPEAKER_00: And then we've mostly fixed the bug, which would give you way too much of something if you interacted with a particular subject matter.
+[00:08:11] SPEAKER_00: And then the really big change, which is where Rock literally reads everything that's posted to the platform.
+[00:08:20] SPEAKER_00: Which we're actually there's about a hundred million posts per day.
+[00:08:27] SPEAKER_00: So there's a hundred million pieces of content per day.
+[00:08:30] And I think that's actually just maybe just an English and I think it goes beyond that.
+[00:08:35] SPEAKER_00: It's outside of English.
+[00:08:37] SPEAKER_00: So Grogg is going to we're going to start off reading the really what what Grogg thinks are the top 10 million of the hundred million.
+[00:08:46] SPEAKER_00: And it will actually read them and understand them and categorize them and match them to users.
+[00:08:54] It's like this is this is not a job humans could ever do.
+[00:08:58] And then once that is together we'll we'll we'll add the entire hundred million a day.
+[00:09:04] So it's literally going to read through a hundred million things and and and and and show you the things that it thinks out of a hundred million.
+[00:09:12] SPEAKER_00: Post per day.
+[00:09:13] SPEAKER_00: What are the most interesting.
+[00:09:15] SPEAKER_00: Post to you.
+[00:09:16] SPEAKER_00: How much of colossus will that take a lot of work?
+[00:09:19] SPEAKER_05: Yeah, that's like is it tens of thousands of servers like to do that every day?
+[00:09:25] SPEAKER_05: Yeah, my guess is it's probably on the order of 50k H 100 something like that.
+[00:09:29] SPEAKER_00: Wow. And that will replace search so you'll be able to actually search on Twitter and find things in like with a with a plan language.
+[00:09:39] We'll have semantic search where you can just ask a question.
+[00:09:42] SPEAKER_00: And it will show you all content whether that is text pictures or video that matches your search query semantically.
+[00:09:51] SPEAKER_00: How how's it been three years in this is that he was a three year anniversary like a couple of years.
+[00:09:56] SPEAKER_07: Three years.
+[00:09:58] Yeah, remember was Halloween.
+[00:10:01] Yeah, Halloween's back.
+[00:10:03] Halloween's back, but it was the week and you took over was Halloween.
+[00:10:09] Yeah.
+[00:10:12] SPEAKER_05: Good time.
+[00:10:12] SPEAKER_05: Yeah.
+[00:10:15] Yeah, three years.
+[00:10:17] We will things three years from now.
+[00:10:20] Yeah, what's the takeaway three years later you were you're obviously don't regret buying it.
+[00:10:27] SPEAKER_05: It's safe free speech.
+[00:10:28] SPEAKER_05: That was good.
+[00:10:29] SPEAKER_05: It seemed to have turned that holding around.
+[00:10:30] SPEAKER_05: That was I think a big part of your mission.
+[00:10:33] SPEAKER_05: But then you added it to X AI, which makes it incredibly valuable as a data source.
+[00:10:38] SPEAKER_05: So when you look back on it, the reason you bought it to stop crazy woke mind virus and a truth exists in the world again.
+[00:10:47] SPEAKER_05: Great mission accomplished.
+[00:10:49] SPEAKER_05: And now it has a future.
+[00:10:51] SPEAKER_05: Yeah, we've got community notes.
+[00:10:53] SPEAKER_00: You can also ask rock any anything you see on the platform.
+[00:10:57] SPEAKER_00: You know, just just press the rock icon on any X post and will analyze analyze it for you.
+[00:11:03] SPEAKER_00: And research it as much as you want so you can you can basically have just by tapping the rock icon you can.
+[00:11:10] SPEAKER_00: Assess the.
+[00:11:12] SPEAKER_00: Whether that that post is the truth, the whole truth or nothing but the truth or whether there's something supplemental you need to be explained.
+[00:11:19] SPEAKER_00: So I think it's actually we made a lot of progress towards.
+[00:11:23] SPEAKER_00: Yeah.
+[00:11:25] Freedom of speech and and and and people being able to tell whether something is false or not.
+[00:11:32] SPEAKER_00: You know, propaganda.
+[00:11:35] SPEAKER_00: The recent update to Grock is actually very good at piercing through propaganda.
+[00:11:40] SPEAKER_00: So and then we we we use that latest version of rock to create rock and media.
+[00:11:46] SPEAKER_00: Which I think is much more it's it's it's not just I think more neutral.
+[00:11:54] SPEAKER_00: That then and more accurate than the new computer, but actually it's a lot more information than a Wikipedia page.
+[00:12:00] SPEAKER_07: I've seen it with Wikipedia actually take us that back.
+[00:12:02] SPEAKER_07: How did you guys how did you do this?
+[00:12:06] SPEAKER_00: Well, we used AI.
+[00:12:09] But meaning like totally unsupervised just complete training run on its own totally synthetic data.
+[00:12:15] SPEAKER_07: No, no seated set nothing.
+[00:12:19] SPEAKER_00: Well, it was only just recently possible press to do this.
+[00:12:25] SPEAKER_00: So we've we've we finished training on a maximum of two seeking.
+[00:12:31] SPEAKER_00: Actually, she's seeing a version of Grock that is good at cogent analysis.
+[00:12:37] SPEAKER_00: So breaking down.
+[00:12:40] SPEAKER_00: Any any given argument into its axiomatic elements, assessing with us axioms are.
+[00:12:47] Not you know the basic test of a cogency the axioms are likely to be true.
+[00:12:53] A contradictory that the conclusion actually that the conclusion most likely follows from those at axioms.
+[00:13:03] SPEAKER_00: So so we just trained Grock on a lot of critical thinking.
+[00:13:07] SPEAKER_00: So it just got really good critical thinking.
+[00:13:10] SPEAKER_00: Which was quite hard and then we took that version of Grock and said, okay cycle through the the million most popular articles in Wikipedia.
+[00:13:19] SPEAKER_00: And and add modifying to delete.
+[00:13:22] SPEAKER_00: So that means research the rest of the internet.
+[00:13:27] SPEAKER_00: What it was publicly available and correct what's correct with computer articles and fixed mistakes.
+[00:13:34] SPEAKER_00: But also add a lot more context.
+[00:13:37] SPEAKER_00: So sometimes really the nature of the propaganda is that.
+[00:13:44] You know, effects are stated that are that are technically true, but are not represent do not properly represent a picture of the individual or event.
+[00:13:53] This is critical because when you have a bio as you do actually all do on Wikipedia.
+[00:14:00] Over time, it's just the people you fired or you beat in business or have an axe to grind.
+[00:14:06] SPEAKER_05: So it just slowly becomes like the place where everybody you know kind of who hates you then puts their information I looked at mine.
+[00:14:15] SPEAKER_05: It was so much more representative and it was five times longer six times longer.
+[00:14:20] SPEAKER_05: And the what it gave way to was much more accurate much more accurate.
+[00:14:26] SPEAKER_05: And this opportunity was sitting here I think for a long time.
+[00:14:30] SPEAKER_05: It's just great that you got to it because they they don't update my page, but you know, I don't know twice a month with you know, and then who is the secret cobble is 50 people who are anonymous.
+[00:14:41] SPEAKER_05: Who decide what's gets put on it was a much better much more updated page in version one.
+[00:14:49] Yes, this is person's point one as we put it as we showed the top. So I do think actually by the time we get to version one 1.0 it'll be 10 times better.
+[00:14:57] SPEAKER_00: But even at this early stage, as you just mentioned, it's it's not just that it's correcting errors, but it is creating a more accurate realistic and fleshed out description of people and events.
+[00:15:13] And you think that and it's like you can look at articles on on physics and rock peter that they're much better than Wikipedia by far.
+[00:15:21] SPEAKER_07: This what I was going to ask you is that do you think that you can take this corpus of pages now and.
+[00:15:26] Get Google to deboost Wikipedia or boost.
+[00:15:30] SPEAKER_07: Rockopedia in traditional search because a lot of people still find this and they believe that it's authoritative because it comes up number one.
+[00:15:38] SPEAKER_07: Right so how do we how do we do that? How do you flip Google.
+[00:15:42] SPEAKER_00: Yeah, so it really can if people share a lot of if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if
+[00:16:12] SPEAKER_00: If you tapped in Gropopedia, Google would just say,
+[00:16:14] SPEAKER_00: did you meet in Gropedia?
+[00:16:16] SPEAKER_00: Wikipedia, yeah.
+[00:16:17] SPEAKER_07: Yeah.
+[00:16:17] SPEAKER_07: And it wouldn't be great Gropedia at all.
+[00:16:19] SPEAKER_00: Yeah, that's true.
+[00:16:21] SPEAKER_00: So now, how's the usage then?
+[00:16:23] SPEAKER_04: Have you seen good growth since it launched?
+[00:16:26] Yeah, it's very late.
+[00:16:28] SPEAKER_00: It went super viral.
+[00:16:31] SPEAKER_00: So we're seeing it's outside of all of the place.
+[00:16:36] SPEAKER_00: But yeah, it's, and I think we'll see it use more and more
+[00:16:40] SPEAKER_00: as people refer to it.
+[00:16:42] SPEAKER_00: And people will judge for themselves.
+[00:16:44] SPEAKER_00: When you read a Gropedia article about a subject or a person
+[00:16:48] SPEAKER_00: that you know a lot about, and you see,
+[00:16:50] SPEAKER_00: wow, this is way better than Wikipedia.
+[00:16:53] SPEAKER_00: It's more comprehensive.
+[00:16:55] SPEAKER_00: It's way more accurate.
+[00:16:57] SPEAKER_00: It's neutral instead of biased.
+[00:17:00] SPEAKER_00: Then you're going to set, you're going to forward those links
+[00:17:02] SPEAKER_00: around and say that this is actually the better source.
+[00:17:07] SPEAKER_00: Like it's, Gropedia will succeed, I think, very well,
+[00:17:12] SPEAKER_00: because it is fundamentally a superior product to Wikipedia.
+[00:17:16] SPEAKER_00: It is a better source of information.
+[00:17:19] And we haven't even added images and video yet.
+[00:17:23] SPEAKER_00: So we're going to add a lot of video.
+[00:17:29] SPEAKER_00: So using Gropedia to create videos.
+[00:17:33] And so if you're trying to explain something,
+[00:17:40] SPEAKER_00: Gropedia can take the text from Gropedia
+[00:17:43] SPEAKER_00: and then generate a video, an explanatory video.
+[00:17:47] SPEAKER_00: So if you're trying to understand anything
+[00:17:49] SPEAKER_00: from how to tie a bow tie to how to send chemical reactions
+[00:17:52] SPEAKER_00: work or really anything, dietary things, medical things,
+[00:17:58] SPEAKER_00: we can just go and see the video of how it works.
+[00:18:04] SPEAKER_00: That's right.
+[00:18:05] SPEAKER_00: When you have this version that's maximally
+[00:18:08] SPEAKER_07: truth-seeking as a model, do you
+[00:18:10] SPEAKER_07: think that there needs to be a better eVal or a benchmark
+[00:18:12] SPEAKER_07: that people can point to that shows how off of the truth things
+[00:18:16] SPEAKER_07: are so that if you're going to start a training run
+[00:18:19] SPEAKER_07: with common crawl or if you're going to use Reddit
+[00:18:21] SPEAKER_07: or if you're going to use it, is it important
+[00:18:23] SPEAKER_07: to be able to say, hey, hold on a second,
+[00:18:26] SPEAKER_07: this eVal just suck, like you guys suck on this eVal.
+[00:18:28] SPEAKER_07: Like it's just this is crappy data.
+[00:18:34] Yeah, I guess I think there are a lot of eVals out there.
+[00:18:39] SPEAKER_00: I've completely confidence that Gropedia is going to succeed
+[00:18:44] SPEAKER_00: because what we compete is actually not a very good product.
+[00:18:47] SPEAKER_00: Yeah.
+[00:18:48] SPEAKER_00: It's the information is sparse, wrong, and out of date.
+[00:18:55] SPEAKER_00: And if you can go, if you find, and it doesn't have,
+[00:18:59] SPEAKER_00: you know, there are very few images that's basically
+[00:19:01] SPEAKER_00: in a video.
+[00:19:03] SPEAKER_00: So if you have something which is accurate,
+[00:19:10] SPEAKER_00: comprehensive, has videos where more over,
+[00:19:14] SPEAKER_00: you can ask if there's any part of it that you're curious about,
+[00:19:17] SPEAKER_00: you can just highlight it and ask Grop right there.
+[00:19:22] SPEAKER_00: Like if you try to learn something, it's just great.
+[00:19:25] SPEAKER_00: It's not going to be a little bit better than Roy Capita.
+[00:19:27] SPEAKER_00: It's going to be 100 times better.
+[00:19:29] SPEAKER_00: Elon, do you think you'll see like good uniform usage?
+[00:19:33] SPEAKER_04: Like if you look back on the last three years,
+[00:19:36] SPEAKER_04: since you bought Twitter, there was a lot of people
+[00:19:39] SPEAKER_04: after you bought Twitter that said,
+[00:19:41] SPEAKER_04: I'm leaving Twitter, Elon's bought it.
+[00:19:43] SPEAKER_04: I'm going to go to this other wherever the hell they went.
+[00:19:46] And there's all these news.
+[00:19:48] SPEAKER_04: I'm surprised.
+[00:19:49] SPEAKER_04: And there's all these, and there's all these blue skies.
+[00:19:52] SPEAKER_04: Yeah.
+[00:19:53] SPEAKER_04: I appreciate it.
+[00:19:54] SPEAKER_00: Yeah, but blue skies.
+[00:19:55] SPEAKER_04: Blue skies, my favorite.
+[00:19:56] SPEAKER_04: I guess my question is, as you destroy the woke mind,
+[00:20:01] SPEAKER_04: viral kind of control of the system,
+[00:20:06] SPEAKER_04: and as you bring truth to the system,
+[00:20:08] SPEAKER_04: whether the system is through Gropopedia or through X,
+[00:20:12] do people just look for confirmation bias
+[00:20:14] SPEAKER_04: and they actually don't accept the truth?
+[00:20:17] SPEAKER_04: Like what do you think people are actually going
+[00:20:20] SPEAKER_04: to see the truth and change?
+[00:20:21] SPEAKER_04: I think they're going to change.
+[00:20:23] SPEAKER_04: Yeah.
+[00:20:25] But I mean, is that like,
+[00:20:26] SPEAKER_04: You thought 70s, 70s boobs are great.
+[00:20:27] SPEAKER_04: I see mine.
+[00:20:30] Looking good.
+[00:20:31] SPEAKER_05: Yeah.
+[00:20:32] SPEAKER_05: Solid.
+[00:20:33] SPEAKER_05: I'm not going to be caught there.
+[00:20:33] SPEAKER_05: I'm just putting a little cheer.
+[00:20:34] SPEAKER_00: Yeah.
+[00:20:35] SPEAKER_00: Yeah.
+[00:20:36] SPEAKER_00: I think we just got flagged on YouTube.
+[00:20:39] SPEAKER_00: Yeah, we did, that was definitely going to give us a sense
+[00:20:41] SPEAKER_04: of your moment.
+[00:20:42] SPEAKER_04: So yeah.
+[00:20:43] SPEAKER_04: Great A moves.
+[00:20:44] SPEAKER_00: Yeah.
+[00:20:45] SPEAKER_04: But like, do people change their mind?
+[00:20:47] SPEAKER_04: I mean, if this is, I could take this as such thing
+[00:20:51] SPEAKER_00: as great A move.
+[00:20:52] Oh my god.
+[00:20:53] SPEAKER_04: So that the rails are ready.
+[00:20:57] SPEAKER_04: David, you were trying to ask a serious question.
+[00:20:59] SPEAKER_05: Go ahead.
+[00:21:00] SPEAKER_04: Well, I just want to know if people change their mind.
+[00:21:01] SPEAKER_04: Like can you actually change people's minds
+[00:21:03] SPEAKER_04: by putting the truth in front of them
+[00:21:04] SPEAKER_04: or do people just take they kind of ignore the truth
+[00:21:08] SPEAKER_04: because they feel like they're in some sort of camp
+[00:21:10] SPEAKER_04: and they're like they want the confirmation bias.
+[00:21:13] SPEAKER_07: They want the confirmation bias
+[00:21:14] SPEAKER_04: and they want to stay in a camp
+[00:21:15] SPEAKER_04: and they want to be tribal about everything.
+[00:21:18] It is remarkable how much people believe things
+[00:21:21] SPEAKER_00: simply because it is the belief of their in-group, what
+[00:21:26] SPEAKER_00: of their sort of political or ideological five is.
+[00:21:32] SPEAKER_00: So I mean, there's some pretty hilarious videos of,
+[00:21:37] SPEAKER_00: you know, and there's like some guy going around,
+[00:21:42] SPEAKER_00: bump is like a racist, not see or whatever.
+[00:21:44] SPEAKER_00: And then, and then there, and here's like trying to show
+[00:21:47] SPEAKER_00: them the videos where of the thing that they are talking about,
+[00:21:52] SPEAKER_00: where he is in fact condemning the Nazis
+[00:21:54] SPEAKER_00: as strong as possible terms and condemning racism
+[00:21:56] SPEAKER_00: in the strongest possible terms.
+[00:21:58] SPEAKER_00: And they literally don't even want to watch the videos.
+[00:22:00] SPEAKER_00: So, so yeah, that people, or at least some people,
+[00:22:06] SPEAKER_00: they were preferred, they will stick to whatever
+[00:22:10] SPEAKER_00: they're ideological views are, whatever
+[00:22:13] SPEAKER_00: that sort of political tribal views are, no matter what.
+[00:22:17] The evidence could be staring them in the face
+[00:22:21] SPEAKER_00: and they're just going to be a flat-erther, you know.
+[00:22:24] SPEAKER_00: There is no evidence that you could show
+[00:22:26] a flat-erther to commit some of the world's around
+[00:22:29] SPEAKER_00: because everything is just a lie, the world is flat.
+[00:22:32] SPEAKER_00: So I think the ability to hit at-brok in a reply
+[00:22:36] SPEAKER_05: and ask a question in the thread has really become
+[00:22:40] SPEAKER_05: like a truth-seeking missile on the platform.
+[00:22:43] SPEAKER_05: So when I put up metrics or something like that,
+[00:22:45] SPEAKER_05: I reply to myself and I say,
+[00:22:47] SPEAKER_05: at-brok is the information I just shared correct
+[00:22:50] SPEAKER_05: and can you find any better information?
+[00:22:52] SPEAKER_05: And please tell me if my argument is correct or if I'm wrong.
+[00:22:55] SPEAKER_05: And then it goes through and then it DMs Sacks
+[00:22:58] SPEAKER_05: and then Sacks gets in my replies and tries to correct me.
+[00:23:00] SPEAKER_05: No, but it does actually a really good job of like,
+[00:23:03] SPEAKER_05: and that combined with community notes.
+[00:23:05] SPEAKER_05: Now you've got like two swings at bat.
+[00:23:07] SPEAKER_05: The community's consensus view and then Groc coming in,
+[00:23:11] SPEAKER_05: I think it would be like really interesting if Groc
+[00:23:13] SPEAKER_05: on like really powerful threads kind of did
+[00:23:16] like its own version of community notes
+[00:23:18] SPEAKER_05: and had it sitting there ahead of time.
+[00:23:20] SPEAKER_05: You know, like you could look at the thread
+[00:23:21] SPEAKER_05: and it just had next to it, you know,
+[00:23:24] SPEAKER_05: or maybe on like the specific statistic,
+[00:23:26] SPEAKER_05: you could click on it and it would show you like,
+[00:23:28] SPEAKER_05: ah, here's what that statistics from.
+[00:23:31] SPEAKER_00: I mean, you can, I mean pretty much every,
+[00:23:33] SPEAKER_00: I mean, essentially every post on X and X
+[00:23:35] SPEAKER_00: is like advertising or something,
+[00:23:37] SPEAKER_00: has the Groc symbol on it.
+[00:23:39] SPEAKER_00: And you can just tap that symbol
+[00:23:41] SPEAKER_00: and you're one tap away from a Groc analysis.
+[00:23:43] SPEAKER_00: Literally just one tap.
+[00:23:44] SPEAKER_00: And we want to cloud the interface with where it's
+[00:23:47] SPEAKER_00: providing an explanation.
+[00:23:49] SPEAKER_00: But I'm just saying, if you go on X right now,
+[00:23:51] SPEAKER_00: it's one tap to get Groc's analysis
+[00:23:55] SPEAKER_00: and Groc will research the X post
+[00:23:58] SPEAKER_00: and give you an accurate answer.
+[00:24:00] SPEAKER_00: And you can even ask us to do further research
+[00:24:03] SPEAKER_00: and further do do all the trends
+[00:24:05] SPEAKER_00: and you can go as far down the rabbit hole
+[00:24:07] SPEAKER_00: as you want to go.
+[00:24:08] SPEAKER_00: But I do think like this is the consistent with,
+[00:24:12] SPEAKER_00: we want X to be the best source of truth
+[00:24:14] SPEAKER_00: on the planet by far.
+[00:24:15] SPEAKER_00: And I think it is.
+[00:24:18] SPEAKER_00: And where you hear, you know, any and all points of view,
+[00:24:22] SPEAKER_00: but where those points of view are corrected
+[00:24:25] SPEAKER_00: by human editors with community notes.
+[00:24:27] SPEAKER_00: And they as in some community notes
+[00:24:29] SPEAKER_00: is that people who historically disagree
+[00:24:34] SPEAKER_00: agree that this community note is correct.
+[00:24:37] So this is and and all of the community notes code
+[00:24:42] SPEAKER_00: is open source and the data is open source.
+[00:24:44] SPEAKER_00: So you can recreate any community note from scratch
+[00:24:47] SPEAKER_00: as independently.
+[00:24:49] My enlarge, it's worked very well.
+[00:24:50] SPEAKER_01: Yeah.
+[00:24:52] I think we originally had the idea
+[00:24:54] SPEAKER_01: to have you back on the pod
+[00:24:55] SPEAKER_01: because it was a three year anniversary
+[00:24:57] SPEAKER_01: of the Twitter acquisition.
+[00:24:58] SPEAKER_01: So I just wanted to kind of reminisce a little bit.
+[00:25:02] SPEAKER_01: And I remember, yeah, I mean, I remember.
+[00:25:04] SPEAKER_01: Who's that sync?
+[00:25:06] Where's that sync?
+[00:25:06] Well, yeah.
+[00:25:07] SPEAKER_01: So Elon was staying at my house.
+[00:25:10] SPEAKER_01: We had talked the week before and he told me
+[00:25:11] SPEAKER_01: the deal was going to close.
+[00:25:12] SPEAKER_01: And so I was like, hey, do you need a place to stay
+[00:25:14] SPEAKER_01: and he took me up on it?
+[00:25:15] SPEAKER_01: And the day before he went to the Twitter office,
+[00:25:20] SPEAKER_01: there was a request made to my staff.
+[00:25:22] SPEAKER_01: Do you happen to have an extra sync?
+[00:25:23] SPEAKER_01: And they did not, but they were able to.
+[00:25:26] SPEAKER_01: Yeah, who has an extra sync, really?
+[00:25:29] But they were able to locate one at a nearby hardware store
+[00:25:33] SPEAKER_01: and I think they paid extra to get it out of the window
+[00:25:34] SPEAKER_01: or something.
+[00:25:37] Well, I think the store was confused
+[00:25:39] SPEAKER_00: because my security team was asking for any kind of sync.
+[00:25:43] SPEAKER_00: And like normally people wouldn't ask for any kind of sync.
+[00:25:48] SPEAKER_00: If you need a sync that puts in your bathroom
+[00:25:50] SPEAKER_00: or connects with certain kind of plumbing.
+[00:25:53] SPEAKER_00: So they're like, he's like, well, what kind of faucets do you want?
+[00:25:56] SPEAKER_00: There's no, no, I just wanted to sync.
+[00:25:58] SPEAKER_00: Yeah, I think it's a mental person.
+[00:25:59] SPEAKER_00: You go online.
+[00:26:01] SPEAKER_00: The store was confused that we just wanted to sync.
+[00:26:04] And didn't care what the sync connected to.
+[00:26:08] That was.
+[00:26:10] SPEAKER_00: That was a lot of.
+[00:26:11] SPEAKER_00: They were almost not letting us buy the sync
+[00:26:13] SPEAKER_00: because they thought maybe we'd buy the wrong sync.
+[00:26:16] SPEAKER_00: You know, it's just rare that somebody wants a sync
+[00:26:20] SPEAKER_00: for a sync sync.
+[00:26:23] SPEAKER_01: For me, in purposes.
+[00:26:25] SPEAKER_01: One of my favorite memories was Elon said,
+[00:26:27] hey, you know, swing by, check it out.
+[00:26:29] SPEAKER_05: I said, okay, I'll come by and I drive up there
+[00:26:31] SPEAKER_05: and I'm looking way to park the car
+[00:26:32] SPEAKER_05: and I realized there's just parking spaces
+[00:26:34] SPEAKER_05: around the entire building.
+[00:26:36] SPEAKER_05: And I'm like, okay, this can't be legal parking,
+[00:26:39] SPEAKER_05: but I park and it's a little parking.
+[00:26:41] SPEAKER_05: Yeah, you're in downtown SF.
+[00:26:43] SPEAKER_00: So you might get you with no broken.
+[00:26:45] SPEAKER_00: Yeah, I might not be able to get back.
+[00:26:46] SPEAKER_05: When we get in there and the place is empty.
+[00:26:50] And then yeah, yeah.
+[00:26:52] It was seriously empty.
+[00:26:54] SPEAKER_05: Except the cafeteria.
+[00:26:55] SPEAKER_05: There was an entire, there were two,
+[00:26:57] SPEAKER_00: the Twitter courses, two buildings.
+[00:26:59] SPEAKER_00: One of the buildings was completely and utterly empty.
+[00:27:02] SPEAKER_00: The other building had like 5% occupancy.
+[00:27:06] And the 5% occupancy, we go to the cafeteria,
+[00:27:09] SPEAKER_05: we all go get something to eat.
+[00:27:10] SPEAKER_05: And we realized there's more people
+[00:27:12] SPEAKER_05: working in the cafeteria than at Twitter.
+[00:27:15] There were more people making the food
+[00:27:17] SPEAKER_00: than eating the food.
+[00:27:19] SPEAKER_00: Right.
+[00:27:20] SPEAKER_00: And this giant cafeteria, it was giant.
+[00:27:22] SPEAKER_00: Really nice, really nice cafeteria.
+[00:27:28] SPEAKER_00: This is where we discovered that the actual price
+[00:27:30] SPEAKER_00: of the lunch was $400.
+[00:27:34] SPEAKER_00: The original price was $20,
+[00:27:36] SPEAKER_00: but it had 5% occupancy, so it was 20 times higher.
+[00:27:41] SPEAKER_00: And they still kept making the same amount pretty much.
+[00:27:44] SPEAKER_00: So and charging the same amount.
+[00:27:45] SPEAKER_00: So effectively lunch was $400.
+[00:27:49] SPEAKER_00: And it's a great meeting.
+[00:27:51] Yes.
+[00:27:52] SPEAKER_00: And then there was that where we had the initial meetings,
+[00:27:56] SPEAKER_00: sort of the sort of time figure
+[00:27:57] SPEAKER_00: at what they had to go on on meetings in the,
+[00:28:00] SPEAKER_00: in the, because you know, there's the two buildings,
+[00:28:03] SPEAKER_00: two Twitter buildings, and one,
+[00:28:05] SPEAKER_00: the one with literally no one in it.
+[00:28:08] SPEAKER_00: That's where we had the initial meetings.
+[00:28:12] And then we tried drawing on the whiteboard
+[00:28:15] SPEAKER_00: and the markers had gone dry.
+[00:28:18] SPEAKER_00: So the nurses said, nobody used the whiteboard markers
+[00:28:23] SPEAKER_00: in like two years.
+[00:28:26] So sad.
+[00:28:27] SPEAKER_00: None of the blockers were.
+[00:28:28] SPEAKER_00: So we were like, this is totally bizarre,
+[00:28:30] SPEAKER_00: but it was totally cleaned because the cleaning crew
+[00:28:33] SPEAKER_00: had come in and done their job and cleaned,
+[00:28:37] SPEAKER_00: cleaned it already clean place for,
+[00:28:39] I don't know, two, three years straight.
+[00:28:42] It was flawless.
+[00:28:45] I mean, honestly, this is more crazy
+[00:28:48] SPEAKER_00: than any sort of Mike Judge movie
+[00:28:50] SPEAKER_00: or, you know, Silicon Valley or anything like that.
+[00:28:53] SPEAKER_00: And then we, I remember going into the men's bathroom
+[00:28:56] SPEAKER_00: and there's a table with, you know,
+[00:29:04] Hygiene to.
+[00:29:06] Mestral Hygiene products.
+[00:29:09] SPEAKER_00: Yeah.
+[00:29:10] SPEAKER_00: Refreshed every once.
+[00:29:12] SPEAKER_00: It's at tampons, like a fresh box of tampons.
+[00:29:16] SPEAKER_00: And we're like, but there's literally no one
+[00:29:18] SPEAKER_00: in this building.
+[00:29:20] SPEAKER_00: So, but no, it hadn't turned off the send,
+[00:29:23] SPEAKER_00: send fresh tampons to the men's bathroom
+[00:29:26] SPEAKER_00: in the empty building had not been turned off.
+[00:29:29] SPEAKER_00: No.
+[00:29:30] SPEAKER_00: So every week they would put a fresh box of tampons
+[00:29:33] SPEAKER_00: in an empty building for years.
+[00:29:37] SPEAKER_00: That's happened for years.
+[00:29:39] SPEAKER_00: And I'm very confusing to the people
+[00:29:41] SPEAKER_00: that were being asked to do this.
+[00:29:42] SPEAKER_00: Because they're like, okay, you are throwing away.
+[00:29:48] SPEAKER_00: I remember.
+[00:29:49] SPEAKER_00: I guess they're paying us.
+[00:29:51] SPEAKER_00: So we'll just put tampons.
+[00:29:53] SPEAKER_00: So, so you just have to consider the string
+[00:29:55] SPEAKER_00: of possibilities necessary in order for anyone
+[00:29:58] SPEAKER_00: to possibly use that tampon in the men's bathroom
+[00:30:01] SPEAKER_00: at the unoccupied second building of Twitter headquarters.
+[00:30:05] SPEAKER_00: Because you'd have to be a burglar
+[00:30:08] SPEAKER_00: who is a trans man, burglar.
+[00:30:15] SPEAKER_00: Who's unwilling to use the women's bathroom
+[00:30:16] SPEAKER_00: that also has tampons.
+[00:30:19] SPEAKER_00: Statistically, even though this is the one in the building.
+[00:30:22] SPEAKER_00: So, broken into the building.
+[00:30:23] SPEAKER_00: At that moment, you have a period.
+[00:30:27] SPEAKER_00: Yeah, and you're on a period.
+[00:30:29] I mean, we're more likely to be struck by a meteor
+[00:30:35] SPEAKER_00: than need that tampon, okay?
+[00:30:38] SPEAKER_01: I remember.
+[00:30:40] I think it was shortly after that,
+[00:30:42] SPEAKER_01: you discovered an entire room at the office
+[00:30:46] SPEAKER_01: that was filled with stay woke t-shirts.
+[00:30:49] Yeah.
+[00:30:50] SPEAKER_01: Do you remember this?
+[00:30:50] SPEAKER_01: An entire pile of munch.
+[00:30:52] Yes.
+[00:30:53] SPEAKER_00: Tax stay woke.
+[00:30:54] Stay woke.
+[00:30:55] SPEAKER_00: And also a big sort of buttons,
+[00:30:57] SPEAKER_00: like those magnetic buttons that you put on your shirt
+[00:30:59] SPEAKER_00: that said, I am an engineer.
+[00:31:05] SPEAKER_00: Like, look, if you're an engineer,
+[00:31:07] SPEAKER_00: you don't need a button.
+[00:31:08] SPEAKER_00: Like a big...
+[00:31:09] Who's the button for?
+[00:31:10] SPEAKER_04: Who are you taking me to?
+[00:31:12] SPEAKER_04: You can just ship code.
+[00:31:14] SPEAKER_05: We would know.
+[00:31:15] SPEAKER_05: Check your gear.
+[00:31:16] SPEAKER_05: But yeah, they're like scarves.
+[00:31:20] SPEAKER_00: Who do you use?
+[00:31:22] SPEAKER_00: All kinds of munch that sit hashtags stay woke.
+[00:31:24] SPEAKER_01: Yeah, a couple of music rooms.
+[00:31:25] SPEAKER_05: When you found that, I was like, my godman,
+[00:31:27] SPEAKER_01: the barbarians are fully within the gates now.
+[00:31:29] SPEAKER_01: Yeah.
+[00:31:30] SPEAKER_01: I mean, the barbarians have smashed through the gates
+[00:31:33] SPEAKER_01: and are looting them much.
+[00:31:34] SPEAKER_01: Yes.
+[00:31:35] SPEAKER_01: You are rummaging through their holy relics
+[00:31:38] SPEAKER_01: and defiling them.
+[00:31:39] SPEAKER_01: I mean, but when you think about it, David,
+[00:31:41] SPEAKER_05: the amount of waste that we saw there
+[00:31:44] SPEAKER_05: during those first 30 days,
+[00:31:46] SPEAKER_05: just to be serious about it for a second,
+[00:31:48] SPEAKER_05: this was a publicly traded company.
+[00:31:50] SPEAKER_05: So if you think about the financial duty
+[00:31:52] SPEAKER_05: of those individuals,
+[00:31:54] SPEAKER_05: there was a list of SaaS software we went through
+[00:31:57] SPEAKER_05: and none of it was being used.
+[00:31:59] SPEAKER_05: Some of it had never been installed
+[00:32:01] SPEAKER_05: and they had been paying for it for two years.
+[00:32:03] SPEAKER_05: They've been paying for a SaaS product for two years.
+[00:32:06] SPEAKER_05: And the one that blew my mind the most that we canceled was
+[00:32:10] SPEAKER_05: they were paying a certain amount of money per desk
+[00:32:12] SPEAKER_05: to have desk-sweeting software.
+[00:32:14] In an office where nobody came to work,
+[00:32:17] SPEAKER_05: so they were paying.
+[00:32:19] SPEAKER_05: But there were nobody.
+[00:32:20] SPEAKER_05: There was millions of dollars
+[00:32:21] SPEAKER_00: you have being paid for, yes,
+[00:32:23] SPEAKER_00: but for analysis of pedestrian,
+[00:32:26] SPEAKER_00: like software that you use cameras
+[00:32:28] SPEAKER_00: to analyze the pedestrian traffic
+[00:32:30] SPEAKER_00: to figure out where you can alleviate pedestrian traffic
+[00:32:33] SPEAKER_00: gems in an empty building.
+[00:32:36] Right.
+[00:32:37] That's like 11 out of 10 on a Dilbert scale.
+[00:32:41] Yeah, it was pretty shout out, Scott Adams.
+[00:32:43] SPEAKER_00: You've gone off scale on your Dilbert level at that point.
+[00:32:48] Let's talk about the free speech aspect for a second.
+[00:32:50] SPEAKER_01: Because I think that is the most important legacy
+[00:32:53] SPEAKER_01: of the Twitter acquisition.
+[00:32:54] SPEAKER_01: And I think people have short memories
+[00:32:56] SPEAKER_01: and they forget how bad things were three years ago.
+[00:33:00] First of all, you had figures as diverse as President Trump,
+[00:33:05] SPEAKER_01: Jordan Peterson, J. Bonnetcharia, and Duterte.
+[00:33:09] SPEAKER_01: They were all banned from Twitter.
+[00:33:11] SPEAKER_01: And I remember when you opened up the Twitter jails
+[00:33:14] SPEAKER_01: and reinstated their accounts,
+[00:33:15] SPEAKER_01: kind of freed all the bad boys of free speech.
+[00:33:18] SPEAKER_01: That's owned the best deal.
+[00:33:19] SPEAKER_01: Yes.
+[00:33:20] SPEAKER_01: So you basically gave all the bad boys of free speech
+[00:33:22] SPEAKER_01: their accounts back.
+[00:33:24] But second, beyond just the bannings,
+[00:33:26] SPEAKER_01: there was the shadow bannings.
+[00:33:28] SPEAKER_01: And Twitter had claimed for years
+[00:33:30] SPEAKER_01: that they were not shadow banning.
+[00:33:31] SPEAKER_01: This was a paranoid,
+[00:33:33] SPEAKER_01: conservative, experienced.
+[00:33:34] SPEAKER_01: They were.
+[00:33:35] SPEAKER_01: Yeah.
+[00:33:36] SPEAKER_00: There was a very aggressive shadow banning
+[00:33:39] SPEAKER_00: by what was called the trust and safety group,
+[00:33:42] SPEAKER_00: which of course naturally would be the one
+[00:33:45] SPEAKER_00: that is doing the nefarious shadow banning.
+[00:33:49] SPEAKER_00: And I just think we shouldn't have a group
+[00:33:52] SPEAKER_00: called trust and safety.
+[00:33:54] SPEAKER_00: I mean, this is an old name if you ever was one.
+[00:33:59] I'm from the trust department.
+[00:34:02] SPEAKER_00: Oh, really.
+[00:34:04] SPEAKER_00: We want to talk to you after tweets.
+[00:34:06] SPEAKER_00: Okay.
+[00:34:06] SPEAKER_00: Well, you see your DMs say that you're from the trust department.
+[00:34:10] SPEAKER_00: It's literally that's the ministry of truth right there.
+[00:34:12] SPEAKER_00: Yeah.
+[00:34:13] And Twitter,
+[00:34:14] SPEAKER_01: it's actually that many.
+[00:34:16] They had maintained for years
+[00:34:17] SPEAKER_01: that they were not engaged in this practice,
+[00:34:19] SPEAKER_01: including under oath.
+[00:34:20] SPEAKER_01: And on the heels of you opening that up
+[00:34:23] SPEAKER_01: and exposing that,
+[00:34:25] because by the way,
+[00:34:26] SPEAKER_01: it wasn't just the fact they were doing it.
+[00:34:27] SPEAKER_01: They created an elaborate set of tools to do this.
+[00:34:30] SPEAKER_01: They had checked boxes in the out of tools
+[00:34:32] SPEAKER_00: to, to, yes, to deboost accounts, yes.
+[00:34:36] SPEAKER_00: Yes.
+[00:34:37] SPEAKER_01: And, you know, subsequently we found out
+[00:34:40] SPEAKER_01: that other social networking properties
+[00:34:41] SPEAKER_01: have done this as well, but you were.
+[00:34:43] SPEAKER_01: Yes, for the first time.
+[00:34:44] SPEAKER_01: This is still being done at the other social media companies.
+[00:34:48] I think we're gonna go, by the way.
+[00:34:50] SPEAKER_00: So for, you know,
+[00:34:54] SPEAKER_00: I never pick on Google because they're all doing it.
+[00:34:56] SPEAKER_00: But for search results,
+[00:34:59] SPEAKER_00: if you simply push a result
+[00:35:01] SPEAKER_00: pretty far down the page or, you know,
+[00:35:03] SPEAKER_00: the second page of results, like,
+[00:35:04] SPEAKER_00: like, you know, the joke used to be,
+[00:35:06] SPEAKER_00: or still is anything, like, where do you hide it?
+[00:35:08] SPEAKER_00: What's the best place to hide a dead body?
+[00:35:11] The second page of Google search results,
+[00:35:13] SPEAKER_00: because nobody ever goes to the second page
+[00:35:14] SPEAKER_00: of Google search results.
+[00:35:15] SPEAKER_00: So you could hide a dead body there,
+[00:35:17] SPEAKER_00: nobody would find it.
+[00:35:18] SPEAKER_00: And you still have,
+[00:35:19] SPEAKER_00: it's been,
+[00:35:20] SPEAKER_00: then it's not like you haven't made them go away.
+[00:35:23] SPEAKER_00: You've just put them on this one page too.
+[00:35:26] SPEAKER_00: Yes.
+[00:35:27] SPEAKER_00: So shadow banning, I think, was number two.
+[00:35:28] SPEAKER_01: So first was banning, second one shadow banning.
+[00:35:30] SPEAKER_01: I think third to me was government collusion,
+[00:35:33] SPEAKER_01: government interference.
+[00:35:34] SPEAKER_01: So you released the Twitter files,
+[00:35:36] SPEAKER_01: nothing like that had ever been done before,
+[00:35:37] SPEAKER_01: where you just,
+[00:35:38] SPEAKER_01: you actually let investigative reporters go through,
+[00:35:42] SPEAKER_01: Twitter's emails,
+[00:35:43] SPEAKER_01: unfettered tax groups.
+[00:35:45] SPEAKER_01: I was not looking over their shoulder at all.
+[00:35:47] SPEAKER_00: They just had direct access to everything.
+[00:35:50] And they found that there was extensive collusion
+[00:35:52] SPEAKER_01: between the FBI and the Twitter trust and safety group,
+[00:35:56] where it turns out the FBI had 88 agents submitting,
+[00:35:59] SPEAKER_01: take down requests,
+[00:36:00] SPEAKER_01: and they were very involved in the banning,
+[00:36:03] SPEAKER_01: the shadow banning, the censorship,
+[00:36:04] SPEAKER_01: which I don't think we ever had definitive evidence of that before.
+[00:36:08] SPEAKER_01: That was pretty extraordinary.
+[00:36:11] Yeah, and the US House representatives had hearings on the matter
+[00:36:15] SPEAKER_00: and a lot of this, you know, was on Earth.
+[00:36:19] SPEAKER_00: It's public record.
+[00:36:20] SPEAKER_00: So a lot of people,
+[00:36:21] SPEAKER_00: so, some people on the left still think this was like made up.
+[00:36:24] SPEAKER_00: I'm like, this is just literally,
+[00:36:26] SPEAKER_00: these, the Twitter files are literally the files at Twitter.
+[00:36:30] SPEAKER_00: I mean, we're literally just talking about,
+[00:36:32] SPEAKER_00: these are the emails that were sent internally that could promise.
+[00:36:35] SPEAKER_00: This is what's on the Slack channels.
+[00:36:38] SPEAKER_00: And this is what is shown in the,
+[00:36:40] SPEAKER_00: on the Twitter database,
+[00:36:41] SPEAKER_00: as where people have made either suspensions or shadow vans.
+[00:36:45] SPEAKER_00: Has the government come and asked you to take stuff down since,
+[00:36:49] SPEAKER_05: or they just have to,
+[00:36:50] SPEAKER_05: the policy is,
+[00:36:51] SPEAKER_05: hey listen, you got a file of warrant,
+[00:36:52] SPEAKER_05: you got to,
+[00:36:53] SPEAKER_05: you got to come correct,
+[00:36:54] SPEAKER_05: as opposed to just putting pressure
+[00:36:56] SPEAKER_05: on executives.
+[00:36:58] SPEAKER_00: Yeah, a policy at this point is to follow the law.
+[00:37:01] SPEAKER_00: So, so if the, if,
+[00:37:03] SPEAKER_00: now the laws are obviously different in different countries.
+[00:37:07] SPEAKER_00: So sometimes I, you know,
+[00:37:08] SPEAKER_00: I get criticized for like,
+[00:37:10] SPEAKER_00: why don't I push free speech in XYZ country
+[00:37:13] SPEAKER_00: that doesn't have free speech laws?
+[00:37:14] SPEAKER_00: I'm like, because that's not the law there.
+[00:37:18] SPEAKER_00: And if we don't obey the law,
+[00:37:19] SPEAKER_00: we'll simply be blocked in that country.
+[00:37:22] So the policy is really just,
+[00:37:26] SPEAKER_00: adhere to the laws in any given country.
+[00:37:30] SPEAKER_00: It is off to us to agree or disagree with those laws.
+[00:37:34] SPEAKER_00: And if, if, if,
+[00:37:35] SPEAKER_00: if the people of that country wants the laws to be different,
+[00:37:38] SPEAKER_00: then they should, you know,
+[00:37:40] SPEAKER_00: ask their leaders to change the laws.
+[00:37:43] Yeah, but anything that,
+[00:37:44] SPEAKER_00: but it's essentially start going beyond the law.
+[00:37:46] SPEAKER_00: Now you're putting a thumb on the scale.
+[00:37:49] So, so the, yeah,
+[00:37:51] SPEAKER_00: that I think I think that's the right policy is just adhere
+[00:37:55] SPEAKER_00: to the laws within any given country.
+[00:37:57] SPEAKER_00: Now sometimes we get, you know,
+[00:38:00] SPEAKER_00: in a bit of a bind like we had thought into with Brazil,
+[00:38:04] SPEAKER_00: where, you know,
+[00:38:06] SPEAKER_00: this, this judge in Brazil was asking us to,
+[00:38:09] SPEAKER_00: or telling us to break the law in Brazil.
+[00:38:12] SPEAKER_00: And ban accounts contrary to the law of Brazil.
+[00:38:17] SPEAKER_00: And now we're, now we're somewhat stuck.
+[00:38:19] SPEAKER_00: We're like, wait a second, we're reading the law
+[00:38:20] SPEAKER_00: and it says, this is not allowed to happen.
+[00:38:22] SPEAKER_00: And also that, and giving us a gag order.
+[00:38:25] SPEAKER_00: So like we're not, we're not allowed to say it's happening.
+[00:38:31] SPEAKER_00: And we have to break the law.
+[00:38:32] SPEAKER_00: And the judge is telling us to break the law.
+[00:38:34] SPEAKER_00: The law is breaking the law.
+[00:38:35] SPEAKER_00: That's where things get very difficult.
+[00:38:38] SPEAKER_00: And we were actually banned in Brazil for a while
+[00:38:40] SPEAKER_00: because of that.
+[00:38:41] SPEAKER_00: That's why one final point on the free speech issue
+[00:38:43] SPEAKER_01: and then we can move on is just,
+[00:38:44] SPEAKER_01: I think you'll forget that the censorship
+[00:38:48] SPEAKER_01: wasn't just about COVID.
+[00:38:50] SPEAKER_01: There was a growing number of categories
+[00:38:52] SPEAKER_01: of thought and opinion that were being outlawed.
+[00:38:55] SPEAKER_01: The quote, content moderation,
+[00:38:56] SPEAKER_01: which is another or well-in euphemism for censorship
+[00:39:00] SPEAKER_01: was being applied to categories like gender
+[00:39:04] SPEAKER_01: and even climate change.
+[00:39:06] The definition of hate speech was constantly growing.
+[00:39:09] SPEAKER_01: Yes.
+[00:39:09] SPEAKER_01: And more and more people were being banned or shadow banned.
+[00:39:11] SPEAKER_01: And there was more and more things that you couldn't say.
+[00:39:14] This trend of censorship was growing.
+[00:39:16] SPEAKER_01: It was galloping.
+[00:39:17] SPEAKER_01: And it would have continued if it wasn't, I think,
+[00:39:20] SPEAKER_01: for the fact that you decided to buy Twitter and opened it up.
+[00:39:23] SPEAKER_01: And it was only on the heels of that
+[00:39:25] SPEAKER_01: that the other social networks were willing
+[00:39:27] SPEAKER_01: to, I think, be a little bit chasened
+[00:39:29] SPEAKER_01: in their policies and start to push back more.
+[00:39:32] Yeah, that's right.
+[00:39:35] SPEAKER_00: Once Twitter broke ranks, the others had to,
+[00:39:39] SPEAKER_00: it became very obvious what the others were doing.
+[00:39:41] SPEAKER_00: And so they had to mitigate their censorship
+[00:39:43] SPEAKER_00: substantially because of what Twitter did.
+[00:39:46] SPEAKER_00: And I mean, perhaps to give them some credit,
+[00:39:47] SPEAKER_00: they also felt that they had the air cover
+[00:39:50] SPEAKER_00: to be more inclined towards free speech.
+[00:39:56] SPEAKER_00: They still do a lot of shadow banning
+[00:40:00] SPEAKER_00: and whatnot at the other social media companies,
+[00:40:03] SPEAKER_00: but it's much less than it used to be.
+[00:40:05] SPEAKER_00: Yeah.
+[00:40:06] What have you seen in terms of governments creating new laws?
+[00:40:11] SPEAKER_04: So we've seen a lot of this crackdown in the UK
+[00:40:14] SPEAKER_04: on what's being called hateful speech on social media
+[00:40:17] SPEAKER_04: and folks getting arrested and actually going to prison over it.
+[00:40:22] SPEAKER_04: And it seems like when there's more freedom,
+[00:40:25] SPEAKER_04: the side that is threatened by that comes out
+[00:40:28] SPEAKER_04: and creates their own counter, right?
+[00:40:30] SPEAKER_04: There's a reaction to that.
+[00:40:31] SPEAKER_04: And there seems to be a reaction.
+[00:40:32] SPEAKER_04: Are you seeing more of these laws around the world
+[00:40:35] SPEAKER_04: in response to your opening up free speech through Twitter?
+[00:40:40] SPEAKER_04: And those changes and what they're enabling
+[00:40:42] SPEAKER_04: that the governments and the parties
+[00:40:44] SPEAKER_04: that control those governments aren't aligned
+[00:40:46] SPEAKER_04: and they're stepping in and saying,
+[00:40:47] SPEAKER_04: let's create new ways of maintaining our control through law.
+[00:40:52] Yeah, there's been an overall global movement
+[00:40:56] SPEAKER_00: to suppress free speech under the name of the guys
+[00:41:01] SPEAKER_00: of suppressing hate speech.
+[00:41:03] SPEAKER_00: But then, the problem with that is that
+[00:41:10] SPEAKER_00: your freedom of speech only matters
+[00:41:13] SPEAKER_00: if people are allowed to say things that you don't like
+[00:41:16] SPEAKER_00: or even things that you hate.
+[00:41:19] SPEAKER_00: Because if you're allowed to suppress speech that you don't like,
+[00:41:23] SPEAKER_00: then you don't have freedom of speech
+[00:41:27] SPEAKER_00: and it's only matter of time before things switch around
+[00:41:31] SPEAKER_00: and then the shoes on the other foot
+[00:41:32] SPEAKER_00: and they will suppress you.
+[00:41:34] So, suppress not less, you'd be suppressed.
+[00:41:39] SPEAKER_00: But there is a movement
+[00:41:42] SPEAKER_00: and there was a very strong movement
+[00:41:46] SPEAKER_00: to codify speech suppression into the law
+[00:41:49] SPEAKER_00: throughout the world, including the Western world,
+[00:41:52] SPEAKER_00: the Europe and Australia.
+[00:41:54] SPEAKER_00: The UK and Germany were very aggressive in this regard.
+[00:41:59] Yes, and my understanding is that in the UK,
+[00:42:02] SPEAKER_00: there's something like 203,000 people in prison
+[00:42:05] SPEAKER_00: for social media posts.
+[00:42:07] SPEAKER_00: And in fact, that there's so many people
+[00:42:10] SPEAKER_00: that were in prison for social media posts.
+[00:42:12] SPEAKER_00: And many of these things are like,
+[00:42:15] SPEAKER_00: you can't believe that someone would actually
+[00:42:17] SPEAKER_00: put in prison for this.
+[00:42:18] SPEAKER_00: They have, in life cases, released people
+[00:42:21] SPEAKER_00: who have committed violent crimes
+[00:42:23] SPEAKER_00: in order to imprison people who have simply made posts
+[00:42:27] SPEAKER_00: on social media, which is deeply wrong.
+[00:42:31] SPEAKER_00: And, and, and, underscores why the founders of this country
+[00:42:35] SPEAKER_00: made the first amendment, the first amendment
+[00:42:38] SPEAKER_00: was freedom of speech.
+[00:42:40] SPEAKER_00: Why do they do that?
+[00:42:41] SPEAKER_00: It's because in the places that they came from,
+[00:42:44] SPEAKER_00: there wasn't freedom of speech
+[00:42:45] SPEAKER_00: and you could be imprisoned or killed for, for saying things.
+[00:42:49] Can I ask you a question just to maybe move to a different topic?
+[00:42:52] SPEAKER_07: If you came and did this next week,
+[00:42:54] SPEAKER_07: we will be past the Tesla boardbook.
+[00:42:56] We talked about it last week
+[00:42:58] SPEAKER_07: and we talked about how crazy ISS and glass Lewis's.
+[00:43:01] SPEAKER_07: Right.
+[00:43:02] SPEAKER_07: We used this one insane example where like,
+[00:43:04] SPEAKER_07: Ira, Aaron Price didn't get the recommendation
+[00:43:07] SPEAKER_07: from ISS and glass Lewis because he didn't meet
+[00:43:10] SPEAKER_07: the gender requirements, but then Kathleen also didn't.
+[00:43:14] SPEAKER_00: It doesn't make sense.
+[00:43:15] SPEAKER_00: Can you, so the board vote is on the six.
+[00:43:18] SPEAKER_07: Okay, it's African American one.
+[00:43:20] SPEAKER_00: Yeah.
+[00:43:22] Yeah, she, she, she, they recommend against her,
+[00:43:25] SPEAKER_00: but then also recommend against our enterprise
+[00:43:28] SPEAKER_00: on the grounds he was insufficient of us.
+[00:43:30] SPEAKER_00: So I'm like, this, like these things don't make any sense.
+[00:43:33] SPEAKER_00: Yeah.
+[00:43:34] So I do think about a fundamental issue
+[00:43:36] SPEAKER_00: with corporate governance in publicly traded companies
+[00:43:39] SPEAKER_00: where you've got about half of the stock market
+[00:43:42] SPEAKER_00: is controlled by pass-pint expanse.
+[00:43:45] SPEAKER_00: And most of them,
+[00:43:46] SPEAKER_00: most of them outsource their decision
+[00:43:49] SPEAKER_00: to advisory firms and particularly glass Lewis and ISS.
+[00:43:55] SPEAKER_00: I call them corporate ISIS.
+[00:43:57] SPEAKER_00: So, all they do is basically, they're just terrorists.
+[00:44:04] SPEAKER_00: So, so, and they had, they own no stock
+[00:44:07] SPEAKER_00: in any of these companies.
+[00:44:10] SPEAKER_00: So I think that this, there's a fundamental breakdown
+[00:44:12] SPEAKER_00: of producer responsibility here
+[00:44:14] SPEAKER_00: where really, you know, any company is managing,
+[00:44:21] even though they're passively managing index funds
+[00:44:23] SPEAKER_00: or whatever, that they do at the end of the day have
+[00:44:26] SPEAKER_00: a producer duty to vote, you know,
+[00:44:31] SPEAKER_00: along the lines of what would maximize
+[00:44:33] SPEAKER_00: the travel to return.
+[00:44:34] SPEAKER_00: It's because people are counting on them.
+[00:44:35] SPEAKER_00: Like people, you know, have say, you know,
+[00:44:39] SPEAKER_00: so have all their savings and say 401K or something like that.
+[00:44:44] SPEAKER_00: And they're counting on the index funds
+[00:44:47] SPEAKER_00: to do company votes in the direction that would
+[00:44:53] SPEAKER_00: ensure that their retirement savings do as well as possible.
+[00:44:57] SPEAKER_00: But the problem is that that is then outsource
+[00:44:59] SPEAKER_00: to ISS and glass Lewis,
+[00:45:01] SPEAKER_00: which have been infiltrated by fall-up activists.
+[00:45:04] SPEAKER_00: Because, you know, we're falling, you know,
+[00:45:07] SPEAKER_00: you know, we're basically political activists go,
+[00:45:09] SPEAKER_00: they go where the power is.
+[00:45:12] And so effectively, glass Lewis and ISS
+[00:45:17] SPEAKER_00: controlled the vote of half the stock market.
+[00:45:22] Now, if you're a political activist,
+[00:45:24] SPEAKER_00: you know what a great place would be to go work
+[00:45:28] SPEAKER_00: by assessing glass Lewis and they do.
+[00:45:31] So my concern for the future,
+[00:45:35] because this, you know, the Tesla thing is,
+[00:45:38] SPEAKER_00: it's called sort of compensation,
+[00:45:39] SPEAKER_00: but it's not about compensation.
+[00:45:41] SPEAKER_00: So I'm like, I'm gonna go and unbi,
+[00:45:43] SPEAKER_00: you know, a yacht with it or something.
+[00:45:44] SPEAKER_00: It's just that I do, I do, if I'm going to build up
+[00:45:49] optimists and, you know, have all these robots out there,
+[00:45:52] SPEAKER_00: I need to make sure we do not have a terminated scenario
+[00:45:55] SPEAKER_00: and I can make, you know,
+[00:45:57] SPEAKER_00: maximize the safety of the robots.
+[00:46:00] And, and, and,
+[00:46:02] SPEAKER_00: but I feel like I need to have something like a 25% vote,
+[00:46:07] SPEAKER_00: which is enough of a vote to have a strong influence,
+[00:46:10] SPEAKER_00: but not so much of a vote that I can't be
+[00:46:13] SPEAKER_00: a fire if I go insane.
+[00:46:15] So it's kind of, but my concern would be,
+[00:46:19] SPEAKER_00: you know, creating this army of robots
+[00:46:21] SPEAKER_00: and then being fired for political reasons
+[00:46:25] SPEAKER_00: because of ISS and glass Lewis,
+[00:46:30] SPEAKER_00: you know, decline to,
+[00:46:31] SPEAKER_00: the ISS and glass Lewis fire me effectively
+[00:46:35] SPEAKER_00: or the activists at those bones fire me.
+[00:46:39] SPEAKER_00: Even though I've done everything right.
+[00:46:42] Yeah. That's my concern.
+[00:46:43] SPEAKER_00: Yeah.
+[00:46:44] SPEAKER_00: And then, then, then, you've got,
+[00:46:46] SPEAKER_00: and then I cannot ensure the safety of the robots.
+[00:46:49] If you don't get that vote,
+[00:46:51] SPEAKER_05: it doesn't go your way, it looks like it's going to,
+[00:46:53] SPEAKER_05: would you leave?
+[00:46:54] SPEAKER_05: I mean, is that even in the cards I heard they were,
+[00:46:56] SPEAKER_05: the board was very concerned about that.
+[00:46:59] Uh, let's just say I'm not going to vote a robot army.
+[00:47:04] SPEAKER_00: If I, if I can be easily kicked out by activists, investors,
+[00:47:08] SPEAKER_00: yeah, away.
+[00:47:09] SPEAKER_00: Yeah. Yeah.
+[00:47:10] Makes sense.
+[00:47:11] SPEAKER_05: Yeah.
+[00:47:11] SPEAKER_05: And who is capable of running the four or five major product lines
+[00:47:18] SPEAKER_05: at Tesla? I mean, this is the madness of it.
+[00:47:20] SPEAKER_05: It's a very complex business.
+[00:47:21] SPEAKER_05: People don't understand what's under the hood there.
+[00:47:24] SPEAKER_05: It's not just a car company.
+[00:47:25] SPEAKER_05: You got batteries, you got trucks,
+[00:47:27] SPEAKER_05: you got the self-driving group.
+[00:47:29] SPEAKER_05: And this is a very complex business that's,
+[00:47:32] SPEAKER_05: you've built over decades now.
+[00:47:34] SPEAKER_05: It's, it's not a very simple thing to run.
+[00:47:36] SPEAKER_05: I don't think there's a Elon equivalent out there
+[00:47:38] SPEAKER_05: who can just jump into the cockpit.
+[00:47:39] SPEAKER_05: By the way, if we take a full turn
+[00:47:41] SPEAKER_07: around corporate governance corner,
+[00:47:44] SPEAKER_07: also this week, what was interesting about the open AI
+[00:47:49] SPEAKER_07: restructuring was I read the letter.
+[00:47:51] SPEAKER_07: And your lawsuit was excluded from the allowances
+[00:47:55] SPEAKER_07: of California attorney general basically saying
+[00:47:59] SPEAKER_07: this thing can go through, which means that your lawsuit
+[00:48:02] SPEAKER_07: is still out there, right?
+[00:48:03] SPEAKER_07: And I think it's going to go to a jury trial.
+[00:48:05] SPEAKER_07: Yes.
+[00:48:06] SPEAKER_07: So there, that corporate governance thing is still very much
+[00:48:08] SPEAKER_07: in question. Do you have any thoughts on that?
+[00:48:10] SPEAKER_07: Yes, I believe that will go to a jury trial in February of March.
+[00:48:15] SPEAKER_00: And then we'll see what the results are there.
+[00:48:18] SPEAKER_00: But there's, there's like a mountain of evidence
+[00:48:25] SPEAKER_00: that shows that open AI was created as an open source
+[00:48:29] SPEAKER_00: non-profit.
+[00:48:30] SPEAKER_00: It's literally, that's the exact description
+[00:48:33] SPEAKER_00: in the incorporation documents.
+[00:48:35] SPEAKER_00: And in fact, the incorporation documents explicitly say
+[00:48:38] SPEAKER_00: that no officer or founding member will benefit financially
+[00:48:43] SPEAKER_00: from open AI.
+[00:48:46] And they've completely violated that.
+[00:48:48] SPEAKER_00: And more of a, you can, that then you can just use
+[00:48:51] SPEAKER_00: the way back machine and look at the website of open AI.
+[00:48:54] SPEAKER_00: Again, open source, non-profit, open source, non-profit,
+[00:48:56] SPEAKER_00: the whole way until, you know, it looked like, wow,
+[00:49:00] SPEAKER_00: this is a lot of money to be gained here.
+[00:49:02] SPEAKER_00: And then suddenly it starts changing.
+[00:49:05] And they try to change the definition of opening
+[00:49:06] SPEAKER_00: AI to be open to everyone instead of open source,
+[00:49:09] SPEAKER_00: even though it always meant open source.
+[00:49:12] SPEAKER_00: I came up with the name.
+[00:49:14] SPEAKER_00: Yeah, look how I know.
+[00:49:15] SPEAKER_00: So if they open sourced it, or they gave you,
+[00:49:23] SPEAKER_05: I mean, you don't need the money,
+[00:49:23] SPEAKER_05: but if they gave you the percentage ownership
+[00:49:26] SPEAKER_05: in it that you would be rightfully,
+[00:49:29] SPEAKER_05: which 50 million for a startup would be half at least.
+[00:49:32] SPEAKER_05: But they must have made an overture towards you
+[00:49:35] SPEAKER_05: and said, hey, can we just give you 10% of this thing
+[00:49:37] SPEAKER_05: and give us your blessing?
+[00:49:39] You obviously have a different goal here, yeah?
+[00:49:42] Yeah.
+[00:49:44] I mean, essentially since I came up with the idea
+[00:49:46] SPEAKER_00: of the company, named it, provided the A, B, and C
+[00:49:50] SPEAKER_00: rounds of funding, recruited the critical personnel.
+[00:49:55] SPEAKER_00: I told them everything I know.
+[00:49:59] You know, if that had been a commercial corporation,
+[00:50:01] SPEAKER_00: I'd probably own half the company.
+[00:50:04] So, but I could have chosen to do that.
+[00:50:09] SPEAKER_00: If I was totally at my discretion,
+[00:50:12] SPEAKER_00: I could have done that.
+[00:50:14] But I created it as a nonprofit for the world
+[00:50:17] SPEAKER_00: and open source nonprofit for the world.
+[00:50:19] Do you think the right thing to do
+[00:50:21] SPEAKER_07: is to take those models and just open source them today?
+[00:50:24] SPEAKER_07: If you could affect that change,
+[00:50:26] SPEAKER_07: is that the right thing to do?
+[00:50:28] Yeah, I think that is what it was created to do.
+[00:50:32] SPEAKER_00: So it should.
+[00:50:33] SPEAKER_00: I mean, the best open source models right now,
+[00:50:35] SPEAKER_00: actually ironically,
+[00:50:36] SPEAKER_00: because if they seem to be an irony maximizer,
+[00:50:40] SPEAKER_00: the best open source models are generally from China.
+[00:50:43] SPEAKER_00: Yeah.
+[00:50:46] SPEAKER_00: That's bizarre.
+[00:50:47] SPEAKER_00: And then the second best,
+[00:50:49] SPEAKER_00: it's one is, or maybe it's better than second best,
+[00:50:54] SPEAKER_00: but like the, the Grop 2.5 open source models,
+[00:50:59] SPEAKER_00: actually very good.
+[00:51:01] And I think we'd probably be,
+[00:51:04] and we'll continue to open source models.
+[00:51:06] SPEAKER_00: But whereas, like try using any of the recent
+[00:51:09] SPEAKER_00: so-called the Open AI open source models,
+[00:51:11] SPEAKER_00: they don't work.
+[00:51:13] SPEAKER_00: They basically, they open source
+[00:51:14] SPEAKER_00: a broken, non-working version of their models
+[00:51:19] as a fake leaf.
+[00:51:23] I mean, do you know anyone who's open
+[00:51:25] SPEAKER_00: open AI's open source models?
+[00:51:27] SPEAKER_00: Exactly.
+[00:51:27] SPEAKER_00: Yeah, nobody.
+[00:51:29] We've had a big debate about jobs here.
+[00:51:32] Obviously, they're gonna be job displacement.
+[00:51:35] You and I have talked about it for decades.
+[00:51:39] What's your take on the pace of it?
+[00:51:42] SPEAKER_05: Because obviously, building self-driving software,
+[00:51:44] SPEAKER_05: you building Optimus,
+[00:51:46] we're seeing Amazon take some steps here
+[00:51:48] SPEAKER_05: where they're like, yeah, we're probably not gonna hire
+[00:51:50] SPEAKER_05: these positions in the future.
+[00:51:52] SPEAKER_05: And maybe they're getting rid of people now
+[00:51:54] SPEAKER_05: because they were bloated, but maybe some of its AI,
+[00:51:57] SPEAKER_05: it's all debatable.
+[00:51:59] SPEAKER_05: What do you think the timeline is?
+[00:52:01] SPEAKER_05: And what do you think as a society we're gonna need to do
+[00:52:05] SPEAKER_05: to mitigate it if it goes too fast?
+[00:52:08] Well, I call AI the supersonic tsunami.
+[00:52:15] So, there's not the most company description in the world.
+[00:52:19] SPEAKER_00: But it's fast and big.
+[00:52:21] SPEAKER_00: It was a tsunami, a giant wall of water
+[00:52:24] SPEAKER_00: moving faster than the speed of sound, that's AI.
+[00:52:27] SPEAKER_00: When does it land?
+[00:52:29] SPEAKER_00: Yeah, exactly.
+[00:52:32] So, now this is happening whether I wanted to or not.
+[00:52:36] SPEAKER_00: I actually tried to slow down AI.
+[00:52:38] SPEAKER_00: But, by the way.
+[00:52:41] And then the reason I wanted to create OpenAI
+[00:52:46] SPEAKER_00: was to serve as a counterweight to Google,
+[00:52:48] SPEAKER_00: because at the time Google was essentially
+[00:52:51] SPEAKER_00: had unilateral power in AI.
+[00:52:53] SPEAKER_00: That all the AI, essentially.
+[00:52:58] SPEAKER_00: And Larry Page was not, you know,
+[00:53:04] SPEAKER_00: he was not taking us safety seriously.
+[00:53:11] I'm not sure.
+[00:53:12] SPEAKER_00: Were you there when he called me a specius?
+[00:53:14] SPEAKER_00: Yes.
+[00:53:15] When's there?
+[00:53:16] SPEAKER_05: Yeah.
+[00:53:17] Okay, so.
+[00:53:18] SPEAKER_00: You were more concerned about the human race
+[00:53:20] SPEAKER_05: than you were about the machines.
+[00:53:21] SPEAKER_05: And, yeah, you had a clear bias for humanity.
+[00:53:25] Yes, yes, exactly.
+[00:53:26] SPEAKER_00: I was like, Larry, well, what,
+[00:53:28] SPEAKER_00: you know, we need to make sure that the AI doesn't destroy
+[00:53:30] SPEAKER_00: all the humans.
+[00:53:32] SPEAKER_00: And then he called me a specius.
+[00:53:34] SPEAKER_00: Like a great sister to something for being pro human intelligence
+[00:53:38] SPEAKER_00: instead of machine intelligence.
+[00:53:39] SPEAKER_00: I'm like, well, sorry, what side are you on?
+[00:53:41] SPEAKER_00: I mean, you know, that's kind of a concern.
+[00:53:46] SPEAKER_00: And then at the time,
+[00:53:48] SPEAKER_00: the Google had essentially a monopoly on AI.
+[00:53:52] Yeah, they bought DeepMind,
+[00:53:54] SPEAKER_05: which you were on the board of had an investment in Larry
+[00:53:57] SPEAKER_05: and Sergey had invested in it as well.
+[00:53:58] SPEAKER_05: And it's really interesting.
+[00:53:59] SPEAKER_05: It's really interesting.
+[00:54:00] SPEAKER_05: I'm not about it because I told him about it.
+[00:54:01] SPEAKER_00: And I showed him some stuff from DeepMind.
+[00:54:05] SPEAKER_00: And I think that's how we found out about it
+[00:54:07] SPEAKER_00: and acquired them, actually.
+[00:54:09] SPEAKER_00: I gotta give what I say.
+[00:54:10] SPEAKER_00: But the point is that it's like,
+[00:54:14] SPEAKER_00: look, now he's not taking AI safety seriously.
+[00:54:17] SPEAKER_00: And Google had essentially all the AI
+[00:54:20] SPEAKER_00: and all the computers and all the money.
+[00:54:21] SPEAKER_00: And I'm like, this is a unipolar world
+[00:54:23] SPEAKER_00: where the guy in charge is not taking things seriously.
+[00:54:25] SPEAKER_00: So, and called me a specius.
+[00:54:28] SPEAKER_00: I guess we'll be pro-human.
+[00:54:30] What are you doing those circumstances?
+[00:54:32] SPEAKER_00: Yeah.
+[00:54:33] Building a competitor.
+[00:54:34] SPEAKER_05: Yes.
+[00:54:35] SPEAKER_00: So opening I was created essentially as the opposite,
+[00:54:38] SPEAKER_00: which is an open-source nonprofit, the opposite to Google.
+[00:54:41] SPEAKER_00: Now, unfortunately, it needs to change its name
+[00:54:44] SPEAKER_00: to closed to a maximum profit AI.
+[00:54:46] SPEAKER_00: Yeah.
+[00:54:47] A maximum profit to be clear.
+[00:54:49] SPEAKER_00: The most amount.
+[00:54:51] SPEAKER_00: I can't think of the most amount of profit.
+[00:54:54] SPEAKER_00: profit positively.
+[00:54:56] SPEAKER_00: I mean, it is so it is like, like I said, it's comical.
+[00:55:01] SPEAKER_00: I mean, you hear, we have some, I mean, it is an irony maximizing.
+[00:55:04] SPEAKER_00: You have to say, like, what is the most, the most ironic outcome for a company that was
+[00:55:09] SPEAKER_00: created for to do open source, not at non-profit AI is it's super close source.
+[00:55:15] SPEAKER_00: It's tied in nox.
+[00:55:18] And they are going for maximum profit.
+[00:55:25] SPEAKER_00: Like get the bourbon, the steak knife, you know, that, you know, like they're going for
+[00:55:37] SPEAKER_00: the buffet.
+[00:55:39] SPEAKER_00: And they just diving headfirst into the profit buffet.
+[00:55:42] SPEAKER_00: I mean, it's just, or at least ask for the revenue buffet at least.
+[00:55:45] SPEAKER_00: Profit will see.
+[00:55:46] SPEAKER_00: I mean, it's like, it's like, it's like, it's like, the randomness wolves for revenue.
+[00:55:52] SPEAKER_00: Revenue is a huge buffet.
+[00:55:54] SPEAKER_00: No, no, it's literally like super bad.
+[00:55:58] SPEAKER_05: It's like Bond, Villain, level flip.
+[00:56:00] SPEAKER_05: Like it went from being the United Nations to being specter in like James Bond led.
+[00:56:05] SPEAKER_05: When you hear him say I'm going to, when Sam says it's going to like raise 1.4 trillion
+[00:56:10] SPEAKER_05: to build our data centers.
+[00:56:12] SPEAKER_05: Yeah, but I think he means it.
+[00:56:14] Yeah, I mean, it's, I would say audacious, but I wouldn't want to.
+[00:56:20] Yeah, in so the word it actually has a question about this.
+[00:56:23] SPEAKER_05: How is that possible?
+[00:56:24] SPEAKER_05: In the earnings call, you said something that was insane.
+[00:56:28] SPEAKER_07: And then I think the math actually nets out, but you said we could connect all the
+[00:56:31] SPEAKER_07: Teslas and allow them in downtime to actually offer up inference.
+[00:56:37] SPEAKER_07: And you can string them all together.
+[00:56:39] SPEAKER_07: I think the math is like, it could actually be like a hundred gigawatts.
+[00:56:42] SPEAKER_07: Is that right?
+[00:56:43] Right?
+[00:56:44] SPEAKER_00: Do you do?
+[00:56:45] SPEAKER_00: If ultimately there's a Tesla fleet that is a hundred million vehicles, which I think
+[00:56:51] SPEAKER_00: we probably will get to at some point a hundred million vehicle fleet.
+[00:56:54] SPEAKER_00: And they have, you know, mostly say they are inference computers in them that each say
+[00:57:00] SPEAKER_00: are a kilowatt of inference computer.
+[00:57:04] SPEAKER_00: And they have built in power and cooling and.
+[00:57:07] SPEAKER_00: Yeah, yeah.
+[00:57:08] SPEAKER_00: Connect to the watt.
+[00:57:09] SPEAKER_00: That's the key.
+[00:57:10] SPEAKER_07: Yeah, exactly.
+[00:57:11] Yeah, exactly.
+[00:57:12] SPEAKER_00: And, and, and, and, and, and, that you think you'd have a hundred gigawatts of inference
+[00:57:17] SPEAKER_00: computer.
+[00:57:18] SPEAKER_04: Elon, do you think that the architecture, like there was an attention free model that came
+[00:57:21] SPEAKER_04: out the last week.
+[00:57:22] SPEAKER_04: There's been all of these papers, all of these new models that have been shown to reduce
+[00:57:26] SPEAKER_04: power, per token of output by many, many, many orders of magnitude, like not just an order
+[00:57:32] SPEAKER_04: of magnitude, but like maybe three or four, like what's your view and all the work you've
+[00:57:37] SPEAKER_04: been doing on where we're headed in terms of power per unit of computer, per token.
+[00:57:42] SPEAKER_04: So, token of output.
+[00:57:44] Well, we have a clear example of efficient power efficient compute, which is the human
+[00:57:52] SPEAKER_00: brain.
+[00:57:54] SPEAKER_00: So our brain is used about 20 watts of power, but, and all that only about 10 watts is
+[00:58:01] SPEAKER_00: higher brain function.
+[00:58:02] SPEAKER_00: Most of it's, you know, I have it, it's just housekeeping functions, you know, keeping
+[00:58:05] SPEAKER_00: it hot, going, and breathing, and that kind of thing.
+[00:58:09] So you've got maybe 10 watts of higher brain function in a human.
+[00:58:14] And we've managed to build civilization with 10 watts of a biological computer.
+[00:58:21] SPEAKER_00: And that biological computer has like a 20 year boot sequence.
+[00:58:26] SPEAKER_00: Yeah.
+[00:58:27] SPEAKER_00: But it's very power efficient.
+[00:58:31] SPEAKER_00: So given that humans are capable of inventing general relativity and quantum mechanics and
+[00:58:40] SPEAKER_00: or discovering general opportunity, like inventing aircraft, lasers, the internet, and discovering
+[00:58:47] SPEAKER_00: physics with a 10 watt meat computer essentially, then this clearly a massive opportunity for
+[00:58:58] SPEAKER_00: improving the efficiency of AI compute.
+[00:59:03] SPEAKER_00: It's because it's, it's, it's currently many orders of magnitude away from that.
+[00:59:07] SPEAKER_00: And it's still the case that a 100 megawatt, or even, you know, a gigawatt, a I see a
+[00:59:16] SPEAKER_00: computer at this point can't do everything that a human can do.
+[00:59:21] SPEAKER_00: It will be able to, but it can't yet.
+[00:59:25] SPEAKER_00: So we hope that, like I said, we've got this obvious case of human brains being very power
+[00:59:32] SPEAKER_00: efficient and achieving and building civilization with a, you know, with 10 watts of compute.
+[00:59:40] SPEAKER_00: And a very slow, and our bandwidth is very low.
+[00:59:44] SPEAKER_00: So that the speed of which we communicate information to each other is extremely low.
+[00:59:47] SPEAKER_00: You know, we're not communicating at a terrible.
+[00:59:50] SPEAKER_00: We're communicating more like 10 bits per second.
+[00:59:55] SPEAKER_00: So, um, that's naturally just the conclusion that there's massive opportunity for me to
+[01:00:03] SPEAKER_00: be more power efficient with with AI.
+[01:00:05] SPEAKER_00: And a Tesla and at XAI, we're both, we continue to see massive improvements in, in the
+[01:00:11] SPEAKER_00: internet's computer efficiency.
+[01:00:14] So yeah.
+[01:00:16] I think that there's a moment where you would justify stopping all the traditional
+[01:00:24] SPEAKER_07: cars and just going completely all in on cyber cab.
+[01:00:28] SPEAKER_07: If you felt like the learning was good enough and that the system was safe enough, is there
+[01:00:34] SPEAKER_07: ever a moment like that?
+[01:00:35] SPEAKER_07: Or do you think you'll always kind of do a track and always do both?
+[01:00:38] SPEAKER_07: I mean, all of the costs we make right now are capable of being a robot taxi.
+[01:00:43] SPEAKER_00: So there's a little confusion of the terminology because the, the, the, our cars look normal,
+[01:00:50] SPEAKER_00: you know, like model three or model Y looks, it's good looking car, but it looks normal.
+[01:00:54] SPEAKER_00: But it has an advanced AI computer and advanced AI software and cameras.
+[01:00:59] SPEAKER_00: And we didn't want the cameras to stick out.
+[01:01:01] SPEAKER_00: So we, you know, so that we wanted them to be ugly or stick out.
+[01:01:04] SPEAKER_00: So, so we, you know, we put them, they're sort of an out of trees of locations.
+[01:01:08] SPEAKER_00: You know, the Ford looking camera cameras are in front of the review mirror.
+[01:01:13] SPEAKER_00: The side view mirrors are in the side repeaters.
+[01:01:15] SPEAKER_00: Oh, this, the side cameras are in the side repeaters.
+[01:01:17] SPEAKER_00: That the rear cameras, you know, just in the, you know, above the license plate, actually,
+[01:01:22] SPEAKER_00: typically where the review camera is in a car.
+[01:01:26] And, you know, and, and the diagonal Ford ones are in the B pillars.
+[01:01:31] SPEAKER_00: They can be look closely.
+[01:01:32] SPEAKER_00: You can see all the cameras, but, but you have to look closely.
+[01:01:34] SPEAKER_00: We just didn't want them to be to stick out like, you know, warts or something.
+[01:01:39] SPEAKER_00: But actually all the cars we make are hyper intelligent and have the cameras in the right
+[01:01:45] SPEAKER_00: places.
+[01:01:46] SPEAKER_00: They just looked normal.
+[01:01:48] SPEAKER_00: And so, so all of the cars we make are capable of unsuitable, full autonomy.
+[01:01:55] SPEAKER_00: Now we have a dedicated part, which is the cyber cab, which has no, no steering wheel
+[01:02:00] SPEAKER_00: pedals, which are obviously vestigial in an autonomous world.
+[01:02:06] SPEAKER_00: And we saw production of the cyber cab in Q2 next year.
+[01:02:11] And we'll scale that up to quite high volume.
+[01:02:13] SPEAKER_00: I think ultimately we'll make millions of cyber cabs per year.
+[01:02:18] But it is important to emphasize that all of our cars are capable of being robotic taxis.
+[01:02:22] SPEAKER_00: The cyber cab is gorgeous.
+[01:02:25] SPEAKER_05: I told you I'd buy two of those if you put a steering wheel in them.
+[01:02:28] SPEAKER_05: And there is a big movement.
+[01:02:29] SPEAKER_05: We're not putting a steering wheel.
+[01:02:31] People are begging for it.
+[01:02:33] SPEAKER_05: Why not?
+[01:02:34] SPEAKER_05: Why not let us buy a couple, you know, just the first ones off the line and drive them.
+[01:02:38] SPEAKER_05: I mean, it's they look great.
+[01:02:40] It's like the perfect model.
+[01:02:41] SPEAKER_05: You always had a vision for a model too, right?
+[01:02:43] SPEAKER_05: Like isn't like the perfect model too in addition to being a cyber cab.
+[01:02:47] SPEAKER_05: Look, the reality is people may think they want to drive their car, but the reality is
+[01:02:51] SPEAKER_00: that they don't.
+[01:02:53] SPEAKER_00: How many times have you been saying in group or alift and you said, you know what, I wish
+[01:02:57] SPEAKER_00: I could take over from the driver.
+[01:03:00] And I wish I could get off my phone and take over from the Uber driver and drive to my
+[01:03:06] SPEAKER_00: destination.
+[01:03:07] SPEAKER_00: How many times have you thought to yourself?
+[01:03:09] SPEAKER_00: No, it's quite the opposite.
+[01:03:11] SPEAKER_05: A room for a time.
+[01:03:12] SPEAKER_05: So, okay.
+[01:03:13] SPEAKER_00: I have the model Y and it just got 14.
+[01:03:17] SPEAKER_05: I have Juniper and I got the 14 one and I put it on Mad Max mode the last couple of
+[01:03:20] SPEAKER_05: days.
+[01:03:21] SPEAKER_05: That is Mad Max mode.
+[01:03:23] SPEAKER_05: A unique experience.
+[01:03:24] SPEAKER_05: I was like, wait a second, this thing is driving in a very unique fashion.
+[01:03:32] SPEAKER_05: Yeah.
+[01:03:33] Yeah.
+[01:03:34] SPEAKER_00: It seems you want to get to a destination in a hurry.
+[01:03:36] SPEAKER_00: Yeah.
+[01:03:37] SPEAKER_05: I used to give cab drivers a extra 20 bucks to do that.
+[01:03:41] SPEAKER_05: Medical appointment or something.
+[01:03:42] SPEAKER_00: I don't know.
+[01:03:43] SPEAKER_00: Yeah, but it's, it feels like it's getting very close.
+[01:03:46] SPEAKER_05: We do have to be very careful.
+[01:03:49] SPEAKER_05: You know, Uber had a car accident with the safety driver.
+[01:03:52] SPEAKER_05: The cruise had a terrible accident.
+[01:03:54] SPEAKER_05: It wasn't their fault exactly except, you know, somebody got hit and then they hit the
+[01:03:59] person the second time and they got dragged.
+[01:04:02] Yeah, yeah.
+[01:04:03] SPEAKER_05: There's this pretty high stakes.
+[01:04:04] SPEAKER_05: So, you're being extremely cautious.
+[01:04:07] SPEAKER_00: The car is actually extremely capable right now.
+[01:04:10] SPEAKER_00: Yeah.
+[01:04:11] SPEAKER_00: But we are being extremely cautious and we're being paranoid about it because to your point,
+[01:04:17] SPEAKER_00: even one accident would be headline news.
+[01:04:19] SPEAKER_00: Well, probably worldwide headline news.
+[01:04:21] Especially if it's a Tesla.
+[01:04:22] SPEAKER_05: Like Waymo, I think it gets a bit of a pass.
+[01:04:24] SPEAKER_05: I think there's, I have to country or a number of people probably would, you know, go extra
+[01:04:29] SPEAKER_05: hard on you.
+[01:04:30] SPEAKER_05: Yes.
+[01:04:31] Yeah, exactly.
+[01:04:33] Yeah.
+[01:04:34] SPEAKER_00: Not everyone in the press is my friend.
+[01:04:37] How did you notice that?
+[01:04:40] SPEAKER_05: Yes, I'm a little, little, uh, tagging a stick.
+[01:04:43] SPEAKER_00: Yeah.
+[01:04:44] SPEAKER_00: So, but people are pressuring you to go fast and I think is everybody's got to just
+[01:04:51] SPEAKER_05: take their time with this thing.
+[01:04:53] SPEAKER_05: It's obviously going to happen.
+[01:04:54] SPEAKER_05: But I just get very nervous that the pressure to put these things on the road faster than
+[01:04:59] SPEAKER_05: they're ready is just a little crazy.
+[01:05:03] SPEAKER_05: So, I applaud you for putting the safety monitor in, doing the safety drive in no shame in
+[01:05:08] SPEAKER_05: the safety driver game.
+[01:05:09] SPEAKER_05: It's so much the right decision, obviously.
+[01:05:12] SPEAKER_05: But people are criticizing you for it.
+[01:05:13] SPEAKER_05: I think it's dumb.
+[01:05:14] SPEAKER_05: It's the right thing to do.
+[01:05:16] SPEAKER_05: Yes.
+[01:05:17] SPEAKER_00: So, I'm just going to be expected to take to not have any sort of safety, uh, occupant
+[01:05:23] SPEAKER_00: or or there's hardly a driver that just says monitor safety safety monitor just to just
+[01:05:29] SPEAKER_00: sit, they just sit in the car and don't do anything.
+[01:05:32] SPEAKER_00: Safety do.
+[01:05:33] Yeah.
+[01:05:34] Um, so, uh, but we do expect that that the cause will be driving around without any, any
+[01:05:39] SPEAKER_00: safety monitor, um, before the end of the year.
+[01:05:42] SPEAKER_00: So sometimes it's a number.
+[01:05:44] SPEAKER_00: In Austin, yeah, I mean, you got a number of wraps under your belt in Austin and it
+[01:05:48] SPEAKER_05: feels like pretty well.
+[01:05:51] You guys have done a great job figuring out where the trouble spots are.
+[01:05:55] SPEAKER_05: Maybe you could talk a little bit about what you learned in the first, I don't know, it's
+[01:06:00] SPEAKER_05: been like three or four months of this so far.
+[01:06:01] SPEAKER_05: What did you learn the first three or four months of the Austin experiment?
+[01:06:05] It's gone pretty smoothly.
+[01:06:09] SPEAKER_00: A lot of things that we're learning are just how to manage a fleet.
+[01:06:14] SPEAKER_00: Like it's because you've got to write all the fleet management software, right?
+[01:06:17] SPEAKER_00: So, yeah.
+[01:06:18] SPEAKER_00: And you've got to write the right handling software.
+[01:06:21] SPEAKER_00: You've got to write basically the software that Uber has, you've got to write that software.
+[01:06:25] SPEAKER_00: It's just summoning a robot car instead of a car with a driver.
+[01:06:28] Um, so, so a lot of things we're doing with, we're scaling up the number of cars to say,
+[01:06:34] SPEAKER_00: say, what happens if you have a thousand cars?
+[01:06:36] SPEAKER_00: Like so, we think probably we'll have a thousand cars or more in the Bay Area by the other
+[01:06:43] SPEAKER_00: here, probably 500 or more in the greater Austin area.
+[01:06:50] And you know, if you have to make sure the cars don't all, for example, go to the same
+[01:06:58] SPEAKER_00: supercharger.
+[01:06:59] SPEAKER_00: That's fine.
+[01:07:01] SPEAKER_00: Right?
+[01:07:03] So, or we'll go to the same intersection.
+[01:07:06] SPEAKER_00: Um, there's this, it's like, what do these cars do?
+[01:07:10] SPEAKER_00: And then like sometimes there's a high demand and sometimes there's this low demand.
+[01:07:15] SPEAKER_00: What do you do during those times?
+[01:07:17] SPEAKER_00: Do you have the car so called the block?
+[01:07:19] SPEAKER_00: Do you have a try to find a parking space?
+[01:07:21] SPEAKER_00: Um, the, and then, you know, sometimes the like say it's a, it's a, you know, disabled
+[01:07:28] SPEAKER_00: parking space or something, but the, the riding spaded or the thing spaded or the car's
+[01:07:32] SPEAKER_00: like, oh, look at parking space, we jump right in there.
+[01:07:34] SPEAKER_00: It's like, get a ticket.
+[01:07:35] SPEAKER_00: You got to look carefully.
+[01:07:37] SPEAKER_00: Make sure it's, you know, it's not an illegal parking space or, or, or, or, or it sees,
+[01:07:43] SPEAKER_00: it sees a space to park and it's like ridiculously tight.
+[01:07:47] SPEAKER_00: But it's the park and get in there.
+[01:07:50] SPEAKER_00: Um, with like, you know, three inches on either side, time, bad computer.
+[01:07:55] SPEAKER_05: Yeah.
+[01:07:56] Yeah.
+[01:07:57] SPEAKER_00: But, but nobody else would be able to get in the car if you do that.
+[01:08:01] SPEAKER_00: Um, so, um, you know, there's just like all these odd walk corner cases.
+[01:08:05] SPEAKER_00: Um, and, um, uh, and regulators like regulators are all very, um, yeah, they're, they have
+[01:08:16] SPEAKER_05: different levels of persiccateness and regulations depending on the city, depending on the
+[01:08:21] SPEAKER_05: airport.
+[01:08:22] SPEAKER_05: And it's just, yeah.
+[01:08:24] You know, very different everywhere.
+[01:08:26] SPEAKER_05: That's going to just be a lot of blocking and tackling and it just takes time.
+[01:08:29] SPEAKER_05: Elon, yeah.
+[01:08:30] SPEAKER_04: Yeah.
+[01:08:31] SPEAKER_00: In order to take people to Santa's A airport, like Santa's A, you actually have to connect
+[01:08:35] SPEAKER_00: to Santa's A airport servers.
+[01:08:37] SPEAKER_00: Um, and, and because you have to pay a fee every time you go off.
+[01:08:41] SPEAKER_00: So, so the car actually has to do a remote call.
+[01:08:45] SPEAKER_00: The robot car has to do, you know, remote procedure called to, to Santa's A airport servers
+[01:08:51] SPEAKER_00: to, to, uh, say I'm dropping someone off at the airport and charging whatever five bucks,
+[01:08:57] SPEAKER_00: um, which is like, they're all these like cookie things like that.
+[01:09:00] SPEAKER_00: The, the, the, like airports are somewhat of a racket.
+[01:09:03] SPEAKER_00: Um, yeah.
+[01:09:05] Um, so, so that's like, you know, we had to solve that thing.
+[01:09:09] SPEAKER_00: But it's kind of funny that the robot car is like calling the server, the, the airport
+[01:09:13] SPEAKER_00: server to, to, uh, you know, charge its credit card or, uh, to send a fax.
+[01:09:21] SPEAKER_05: Yeah, we're going to be dropping off at this time.
+[01:09:23] But it will, it will soon become extremely normal to see cars going around with no one
+[01:09:27] SPEAKER_00: in them.
+[01:09:28] SPEAKER_00: Yeah.
+[01:09:29] SPEAKER_04: Yeah.
+[01:09:30] SPEAKER_00: Excuse me.
+[01:09:31] I'm just before, uh, we lose you.
+[01:09:33] SPEAKER_04: I want to like ask if you saw the Bill Gates memo that he put out.
+[01:09:37] SPEAKER_04: A lot of people are talking about this memo.
+[01:09:39] It's like, you know, did go.
+[01:09:41] SPEAKER_04: I just like, Billy G is not my love.
+[01:09:46] Oh, man.
+[01:09:48] Like did, did, did climate change become, did it become like woke?
+[01:09:55] SPEAKER_04: And is it over?
+[01:09:56] SPEAKER_04: Like, you know, like what happened and what's, what, what happened with Billy G?
+[01:10:01] SPEAKER_04: I mean, you know, sure.
+[01:10:03] SPEAKER_04: That's a great question.
+[01:10:05] SPEAKER_07: Great question.
+[01:10:06] SPEAKER_07: Yeah.
+[01:10:08] You know, you, you think that some of my book is who I clearly started to take, you
+[01:10:14] SPEAKER_00: know, started a technology company that's one of the biggest companies in the world, Microsoft,
+[01:10:18] SPEAKER_00: um, being, uh, you, you, you think he'd be really quite, um, you know, strong in the
+[01:10:24] SPEAKER_00: sciences.
+[01:10:26] SPEAKER_00: Um, but actually my, at least direct conversations with him have, um, he, he's, he is not strong
+[01:10:34] SPEAKER_00: in the sciences.
+[01:10:35] SPEAKER_00: Like, like, the kid, the, yeah.
+[01:10:37] SPEAKER_00: This is the really short and surprising.
+[01:10:39] SPEAKER_00: You know, like, he came to visit me at the Tezak Gigapak tree in, in Austin and was telling
+[01:10:45] SPEAKER_00: me that it's impossible to have a long-range, uh, semi truck.
+[01:10:49] Um, and I was like, well, but we literally have them.
+[01:10:54] SPEAKER_00: Um, and you can drive them and Pepsi is literally using them right now.
+[01:11:00] SPEAKER_00: And you can drive them yourself or send some of our, obviously, well, guess I can drive
+[01:11:03] SPEAKER_00: them yourself, but you can send, uh, a trusted, uh, person to drive the truck and verify
+[01:11:09] SPEAKER_00: that it can do the things that we say it's doing.
+[01:11:10] SPEAKER_00: And it's like, no, no, it doesn't work.
+[01:11:12] SPEAKER_00: It doesn't work.
+[01:11:13] SPEAKER_00: And I'm like, um, okay.
+[01:11:15] SPEAKER_00: I'm not kind of stuck here.
+[01:11:18] SPEAKER_00: Um, um, then it's like, I was like, well, so it must be that, um, you disagree with the
+[01:11:26] SPEAKER_00: watt-housers for kilogram of the battery pack so that you're, you must think that perhaps
+[01:11:31] SPEAKER_00: we can't achieve the energy density of the battery pack or that the watt-housers per mile
+[01:11:35] SPEAKER_00: of the truck is too high and that when you combine those two numbers, the range is low.
+[01:11:40] SPEAKER_00: And so which one of those numbers do you think we have wrong?
+[01:11:44] SPEAKER_00: And what numbers do you think are correct?
+[01:11:45] SPEAKER_00: And you didn't know any of the numbers.
+[01:11:48] And I'm like, well, then doesn't it seem that it's perhaps, um, you know, uh, premature
+[01:11:54] SPEAKER_00: to conclude that a long-range semi cannot work?
+[01:11:57] SPEAKER_00: If you do not know the energy density of the battery pack or the energy efficiency of
+[01:12:00] SPEAKER_00: the truck chassis.
+[01:12:01] SPEAKER_00: Hmm.
+[01:12:02] Hmm.
+[01:12:03] But yeah, he's now taking 180 on climate.
+[01:12:10] SPEAKER_05: He's saying maybe this is just a game.
+[01:12:14] SPEAKER_00: Yeah, I was saying that's wrong.
+[01:12:18] SPEAKER_00: Totally retarded.
+[01:12:19] SPEAKER_05: Well, we'll guess that the climate is gay and retarded.
+[01:12:25] SPEAKER_00: Come on.
+[01:12:26] SPEAKER_00: I maybe.
+[01:12:27] SPEAKER_00: I was about to say, is it got to put up?
+[01:12:30] SPEAKER_05: Do they have to stand up a data center for say a malt mean or something?
+[01:12:34] SPEAKER_05: I don't know.
+[01:12:35] SPEAKER_05: What is Azure?
+[01:12:36] SPEAKER_05: No.
+[01:12:37] SPEAKER_05: It changed this position.
+[01:12:41] I can't figure out why.
+[01:12:43] I mean, you know, I mean, the reality of the whole climate change thing is, is that the,
+[01:12:50] SPEAKER_00: um, you know, you've just had sort of people who say it doesn't exist at all.
+[01:12:54] SPEAKER_00: And then people who say it's, it's our super-lomest and saying the, you know, Rar is going
+[01:12:58] SPEAKER_00: to be underwater in five years.
+[01:13:00] SPEAKER_00: And obviously neither of those two positions are true.
+[01:13:03] Um, you know, the, the reality is you can measure the, the common constriction atmosphere.
+[01:13:08] SPEAKER_00: Again, you can just literally buy a CO2 monitor from Amazon, it's like 50 bucks and, um,
+[01:13:15] SPEAKER_00: you measure yourself.
+[01:13:17] SPEAKER_00: Um, and, uh, you know, and you can say, okay, we'll look the, the, the, the, the possible
+[01:13:23] SPEAKER_00: million of CO2 in the atmosphere has been increasing steadily at two to three per year.
+[01:13:27] SPEAKER_00: Um, at some point, if you, uh, continue to take, to take, uh, millions, especially
+[01:13:34] SPEAKER_00: 20 of tons of carbon from deep underground and transfer it to the atmosphere and oceans.
+[01:13:40] SPEAKER_00: So you transfer it from deep underground into the surface cycle.
+[01:13:43] SPEAKER_00: You will change the chemical constituency of the atmosphere and oceans.
+[01:13:47] SPEAKER_00: Just, that you're just literally will.
+[01:13:49] SPEAKER_00: Um, then you can only, I, they, they, I'll, what degree?
+[01:13:52] SPEAKER_00: And over what time scale?
+[01:13:54] SPEAKER_00: Um, and the reality is that, in my opinion, is that we've got at least 50 years, uh, before
+[01:14:01] SPEAKER_00: it's a serious issue.
+[01:14:02] SPEAKER_00: Um, I don't think we've got 500 years, uh, but, but we've probably got, you know, 50, um,
+[01:14:08] SPEAKER_00: it's, it's not, it's not five years.
+[01:14:10] SPEAKER_00: Um, so if you're trying to get to the right order of magnitude of a accuracy, um, I'd say
+[01:14:15] SPEAKER_00: that the concern level of full climate change is on the order of 50 years, it's definitely
+[01:14:18] SPEAKER_00: in our five.
+[01:14:19] SPEAKER_00: And I think it probably isn't 500.
+[01:14:21] SPEAKER_00: Um, so, uh, so really the, the right course of action is actually just the reasonable
+[01:14:26] SPEAKER_00: course of action, which is to lean in the direction of sustainable energy.
+[01:14:30] Um, and, uh, and lean in the direction of, of solar, um, and, so, of a sort of solar
+[01:14:37] SPEAKER_00: battery future.
+[01:14:39] And, and, and generally have the rules of the system, um, uh, lean in that direction.
+[01:14:47] SPEAKER_00: I, I don't think we need massive subsidies.
+[01:14:50] SPEAKER_00: But then we also shouldn't have massive subsidies for the oil and gas industry.
+[01:14:54] Hmm.
+[01:14:55] SPEAKER_00: Okay.
+[01:14:56] SPEAKER_00: So the oil and gas, gas industry has massive tax write offs.
+[01:14:59] SPEAKER_00: Now, they don't even think of it subsidies, um, because these things have been in place
+[01:15:04] SPEAKER_00: for, in some cases, you know, 80 years.
+[01:15:08] Um, but they're not there for other industries.
+[01:15:11] SPEAKER_00: So when you've got a special tax conditions that are in one industry and not, not, not
+[01:15:14] SPEAKER_00: the industry, I call that a subsidy.
+[01:15:16] SPEAKER_00: Obviously it, it is.
+[01:15:17] SPEAKER_00: But they're taking it for granted for so long and oil and gas that they don't think of
+[01:15:19] SPEAKER_00: it as a subsidy.
+[01:15:21] SPEAKER_00: Um, so the, the right course of action of course is to remove, in my opinion, to remove subsidies
+[01:15:25] SPEAKER_00: from all industries.
+[01:15:27] Um, but, but the, the, the political reality is that the oil and gas industry, um, is
+[01:15:32] SPEAKER_00: very strong in their republican party, but not in the democratic party.
+[01:15:35] SPEAKER_00: So you, you will not see obviously even the tiniest subsidy being removed from the, uh,
+[01:15:39] SPEAKER_00: oil, gas and coal industry.
+[01:15:40] SPEAKER_00: In fact, there were some that were added to the oil, gas and coal industry, uh, in, in
+[01:15:45] SPEAKER_00: the, the, the sort of big bull.
+[01:15:49] SPEAKER_00: Um, and they were a lot, a massive number of, of sustainable energy incentives that
+[01:15:55] SPEAKER_00: were removed, some of which I agreed with by the way.
+[01:15:58] SPEAKER_00: Um, some of the incentives have gone too far.
+[01:16:01] Um, but, um, anyway, the, the, the, the, the actual, I think object, it's a correct scientific
+[01:16:10] SPEAKER_00: conclusion in my opinion.
+[01:16:12] SPEAKER_00: Um, and I, and I think we'll come back this up with, with solid reasoning.
+[01:16:15] SPEAKER_00: Let me ask, ask rock, for example.
+[01:16:18] SPEAKER_00: Uh, uh, it is that we should, um, we should lean in the direction of moving towards a
+[01:16:25] SPEAKER_00: sustainable energy future.
+[01:16:27] Um, we, we will eventually run out of, uh, oil, gas and coal to burn anyway, uh, because
+[01:16:33] SPEAKER_00: of fights, it's a, it's a finite, there's a finite amount of that stuff.
+[01:16:37] SPEAKER_00: Um, and we will eventually have to go to something that lasts a long time that is
+[01:16:40] SPEAKER_00: sustainable.
+[01:16:41] SPEAKER_00: But to your point about the irony of things, it seems to be the case that making energy
+[01:16:47] SPEAKER_04: with solar is cheaper than making energy with some of these carbon-based sources today.
+[01:16:51] SPEAKER_04: And so the irony is, it's already working.
+[01:16:54] SPEAKER_04: I mean, the market is moving in that direction and this notion that we need to kind of force
+[01:16:58] SPEAKER_04: everyone into a model of behavior.
+[01:17:00] SPEAKER_04: It's just naturally going to change because we've got better systems, you know, you and
+[01:17:04] SPEAKER_04: others have engineered better systems that make these alternatives cheaper and therefore
+[01:17:09] SPEAKER_04: they're winning, like they're actually winning in the market, which is great.
+[01:17:13] Uh, they can't, they can't win if there are subsidies to support the old systems, obviously.
+[01:17:17] SPEAKER_04: Yeah, I mean, by the way, there are actually massive disincentives of POSFOLO because the,
+[01:17:23] SPEAKER_00: because China, uh, China, uh, is, is a massive producer of solar panels that during China
+[01:17:28] SPEAKER_00: does an incredible job of solar manufacturing, of solar panel manufacturing.
+[01:17:32] SPEAKER_00: Really incredible. Um, they have one on, like roughly one and a half terawatts of solar production
+[01:17:38] SPEAKER_00: right now. Um, and they're only using a terawatts per year. But by the way, that's a gigantic number.
+[01:17:44] SPEAKER_00: The, the, uh, the average, uh, US power consumption is only half a terawatts.
+[01:17:51] So just think about that for a second. China's, uh,
+[01:17:56] you know, China's solar panel production, max capacity is one and a half terawatts per year.
+[01:18:02] Uh, US steady state power usage is half a terawatts.
+[01:18:06] SPEAKER_00: Now, no, you do have to, to reduce, you say if you do, if produce one and a half terawatts
+[01:18:10] SPEAKER_00: a year of solar, you need, you need to add that with batteries taken to account that,
+[01:18:14] SPEAKER_00: the, the diversity between night and day, the fact that the solar panel is not always, um,
+[01:18:19] SPEAKER_00: pointed directly at the sun, that kind of thing. So you can divide by five ish to say that,
+[01:18:25] SPEAKER_00: but that still means that China has the ability to produce solar panels that have a steady state
+[01:18:31] SPEAKER_00: output that is roughly two thirds that of the entire use economy from all sources,
+[01:18:37] SPEAKER_00: which means that just with solar alone, China can, uh, in one in, in 18 months, um, produce
+[01:18:43] SPEAKER_00: enough solar panels to power the entire, the United States, all the electricity in the United States.
+[01:18:48] What do you think about near field solar, AKA nuclear?
+[01:18:53] I think the favor of, look, make, make energy from any, any way you, you, you want that, that
+[01:18:58] SPEAKER_00: doesn't, that doesn't like obviously, uh, harmful to the environment. Um, generally,
+[01:19:03] SPEAKER_00: people don't welcome a nuclear reactor and they're back on, um, they're, they're not like
+[01:19:08] SPEAKER_00: championing it. Put it here. Put it on my dad. Put it on my roof.
+[01:19:16] SPEAKER_00: If you're an extra neighbor said, hey, I'm selling my house and they're putting a reactor there.
+[01:19:20] SPEAKER_00: Yeah.
+[01:19:23] SPEAKER_00: Well, you know, it's a big, a lot of response will be negative.
+[01:19:28] SPEAKER_00: It, very few people will embrace a nuclear reactor at, um, adjacent to their house.
+[01:19:33] SPEAKER_00: Um, so, um, but nonetheless, I, I do think nuclear is actually very safe.
+[01:19:40] SPEAKER_00: The, the, it's, there's a lot of scare monitor, sort of scare monitoring and, and probably
+[01:19:45] SPEAKER_00: I end up around, uh, phishing, if the signal to a vision, um, and, and, but phishing is actually
+[01:19:50] SPEAKER_00: very safe. They obviously have this on, uh, you know, the Navy, US Navy has this on submarines
+[01:19:54] SPEAKER_00: and aircraft carriers and with, with people really working right, let me see, the
+[01:19:59] SPEAKER_00: submarines are pretty crowded place and they have a nuclear power submarine. So, um,
+[01:20:05] so, so I think I think phishing is fine as, as a, as an option. Um, the, the regulatory environment
+[01:20:12] SPEAKER_00: makes it very difficult to actually get that done. Um, and, and then it is important to appreciate
+[01:20:17] SPEAKER_00: just the sheer magnitude of the power of the Sun. So, this is, here are some just important
+[01:20:25] SPEAKER_00: basic facts, um, even Wikipedia has these facts right. Um, you know, so you're even, you've
+[01:20:31] SPEAKER_00: got to have these rock, the best answer, but even Wikipedia has, yeah, you know, Wikipedia got
+[01:20:36] right. Yes, yes. I'm saying, what I'm saying, even Wikipedia's got, got these facts right.
+[01:20:40] SPEAKER_00: Um, the, the, the Sun is about 99.8% of the mass of the solar system.
+[01:20:47] Uh, then, then Jupiter is about 0.1%, and everything else is in the remaining 0.1%, and we are,
+[01:20:54] SPEAKER_00: much less than 0.1%. Um, so, um, if you burnt all of the mass of the solar system,
+[01:21:04] okay, then the total energy produced by the Sun would still run up to 100%.
+[01:21:10] Mm-hmm.
+[01:21:12] They've just burnt Earth, um, the whole planet, and burnt Jupiter, which is very big, and,
+[01:21:19] SPEAKER_00: and quite challenging to burn. Uh, you, you know, turn to your new Jupiter into thermonuclear
+[01:21:27] SPEAKER_00: active. Um, it wouldn't matter. The Sun, it, it committed to the Sun. The Sun is 99.8% of the
+[01:21:33] SPEAKER_00: mass of the solar system, and everything else is in the miscellaneous category. So, um,
+[01:21:39] like basically no matter what you do, total energy produced, um, in our solar system,
+[01:21:45] rounds up to 100% from the Sun. You could even throw another Jupiter in that. Um,
+[01:21:51] SPEAKER_00: so we're going to snag a Jupiter from somewhere else, um, and somehow, I'll tell a, what,
+[01:21:56] SPEAKER_00: you could tell a, what two more Jupiter's, uh, into our solar system, burn them,
+[01:22:00] SPEAKER_00: and the Sun would still run up to 100%. You know, since, as long as you're at 99.6%,
+[01:22:07] SPEAKER_00: you're still rounding up to 100%. Um, maybe that gives some perspective of why solar is really
+[01:22:15] SPEAKER_00: the thing that matters. And, and, and as soon as you start thinking about things in a,
+[01:22:20] SPEAKER_00: sort of a grand scale, like, kotoshib scale two civilizations, it becomes very, very obvious.
+[01:22:25] SPEAKER_00: It's, it's, I'm not saying anything that's new, by the way. Like, uh, anyone who studies physics
+[01:22:30] SPEAKER_00: has known this for, you know, very long time. Um, in fact, kotoshib, I think, was
+[01:22:36] SPEAKER_00: a Russian physicist who came up with this idea, I think in the 60s, um, just as a way to classify
+[01:22:42] SPEAKER_00: civilizations, um, where kotoshib scale one would be, uh, you've used, you're, you're, you've
+[01:22:49] SPEAKER_00: honnest most of the energy of, of the planet. Kotoshib scale two, you're, you've honnest most of the
+[01:22:54] SPEAKER_00: energy of your sun. Kotoshib three, you've honnest most of the energy of galaxy.
+[01:23:00] Now, we're only about, I don't know, one percent or a few, a few percent of kotoshib scale one
+[01:23:07] right now, just optimistically. Um, so, um, but as soon as you go to kotoshib scale two, we
+[01:23:14] SPEAKER_00: were talking about the power of the sun, then you're, you're really just saying, um, everything is
+[01:23:20] SPEAKER_00: all the power. And, and, and, and that the rest is in the noise. Um, and, um, yeah. So, like the,
+[01:23:31] you know, like the, the sun produces about a billion times, or, uh, call it, oh, well over a billion
+[01:23:38] SPEAKER_00: times, more energy than everything on earth, combined. It's crazy. It's my blood. Right. Yeah.
+[01:23:50] Yeah. Solar is the obvious solution to all this. And yeah. I mean, short term.
+[01:23:54] Yeah. Do you some of these other sources? But hey, there it is. Now, and I think it would like
+[01:23:58] SPEAKER_05: to start powered. Like maybe we got a branding issue here. Yeah. Star power. So, solar power,
+[01:24:04] SPEAKER_00: it's, it's starlight. Yeah. Starlight. Uh, it's the power of a blazing sun. Um,
+[01:24:12] SPEAKER_00: yeah. How much energy does an entire star have? Yeah. Well, more than enough. All right.
+[01:24:23] Uh, and also you really need to keep the power local. Um, so sometimes people, honestly,
+[01:24:31] SPEAKER_00: I've had these discussions so many times, it's, it's where they say, well, like, would you beam
+[01:24:36] SPEAKER_00: the power back to earth? I'm like, do you want to melt us? Yeah. Because you would melt us if
+[01:24:43] SPEAKER_00: you did that. Um, we'd be very pricey in an instant. Uh, so you really need to keep the power
+[01:24:48] SPEAKER_00: local, um, you know, basically distributed power. And, and, and I guess most of it we use for
+[01:24:54] SPEAKER_00: intelligence. Uh, so it's like the, the future is like a whole, a whole bunch of, um, solar powered
+[01:24:59] SPEAKER_00: AI satellites. But you know, the only, the only, the only thing that makes the star work is it
+[01:25:04] SPEAKER_04: just happens to have a lot of mass. So it has a lot of needs to ignite the fusion, to ignite
+[01:25:09] SPEAKER_04: the fusion reaction, right? But like, we could ignite the fusion reaction on earth now. I don't
+[01:25:13] SPEAKER_04: know, like if your view has changed, I think we talked about this a couple of years ago where you
+[01:25:16] SPEAKER_04: were pretty like, we don't know if or when fusion becomes real here. But theoretically, we could
+[01:25:22] SPEAKER_04: take like 10, no, one of the camera, my opinion on, um, uh, so, um, you know, I studied physics and
+[01:25:29] SPEAKER_00: college, um, at one point in high school, I was thinking about a career in physics. One of my
+[01:25:33] SPEAKER_00: sons actually is, does a career in physics. Um, but my problem is I can't be conclusions that I'd
+[01:25:38] SPEAKER_00: be waiting for, uh, a collider or, or a telescope. They don't have any, and not to get that collider
+[01:25:44] SPEAKER_00: in physics. But I have it. It's strong interest in the subject. Um, so, um, so, so, uh, my opinion on,
+[01:25:53] SPEAKER_00: say, creating a fusion reaction on earth is, I think this is actually not a hot problem. Um,
+[01:25:57] SPEAKER_00: actually, I mean, it's a little hard. I mean, it's, it's not like totally trivial. But if you just
+[01:26:02] SPEAKER_00: scale up a talkumuck, uh, the, the bigger you make it, the easier the bomb gets. So, the, the,
+[01:26:08] SPEAKER_00: the, you got a surface volume ratio, uh, thing where, you know, you, you're trying to maintain
+[01:26:13] SPEAKER_00: a really hot core while having a wall that doesn't melt. So, uh, uh, that's a similar problem with
+[01:26:21] SPEAKER_00: rocket engines. You've got a super hot core in the rocket engine, but you don't want the,
+[01:26:26] SPEAKER_00: the walls, the chamber walls of the rocket engine to melt. So you have a temperature gradient,
+[01:26:31] SPEAKER_00: uh, where it's very hot in the middle and, and, and gradually gets called,
+[01:26:34] SPEAKER_00: called enough as you get to the, uh, perimeter, gets, as you get to the, uh, you know, the,
+[01:26:39] SPEAKER_00: the chamber walls in the rocket engine, where the, it doesn't melt, uh, because you've lowered the
+[01:26:44] SPEAKER_00: temperature, um, and, and you got a temperature gradient. So, just, if you just scale up, uh, uh,
+[01:26:51] SPEAKER_00: you know, the, the donut reactor, tockumach, um, and, um, and, and, and improve your surface
+[01:26:58] SPEAKER_00: volume ratio, that becomes much easier. And you, you can absolutely, in my opinion,
+[01:27:03] SPEAKER_00: no, I, I think, I think anyone who looks at the math, uh, you can, you can make, uh, a, a,
+[01:27:11] SPEAKER_00: a reactor that is pot that generates more energy than I consumes. And the big you make it,
+[01:27:16] SPEAKER_00: the easier it is. And in the limit, you're just to have a giant gravitationally contained
+[01:27:20] SPEAKER_00: thermonuclear reactor like the Sun. So, uh, which requires no maintenance in its free.
+[01:27:26] SPEAKER_00: Um, so this is also why, why would we bother doing that on making a little itty-beddy Sun
+[01:27:34] that's so microscopic, acute belly notice, um, on Earth when we've got the giant free one in the sky.
+[01:27:41] Yeah, but we'll, but we'll, we'll, we'll, we'll only get a fraction of 1% of that energy on the
+[01:27:46] SPEAKER_04: planet Earth. We have to go, yeah, right. So we've got to figure out how to wrap
+[01:27:50] SPEAKER_04: the Sun if we're going to harness that energy. That's our, our long curve.
+[01:27:56] If people want to have fun with reactors, you know, um, that's fine. Have fun with reactors.
+[01:28:01] SPEAKER_00: But it's not a serious endeavor compared to the Sun. Um, you know, it's, it's, it's sort of a,
+[01:28:06] SPEAKER_00: a fun, it's a fun science project to make a, um, the, the nuclear reactor, but it's not, um,
+[01:28:12] SPEAKER_00: it's, it's just peanuts compared to the Sun. And, and even the, the, the solar energy that
+[01:28:16] SPEAKER_00: does reach Earth, um, is a gigawatt per square kilometer or roughly, you know, close to
+[01:28:22] SPEAKER_00: 1.5 gigawatts per square mile. Um, so that's a lot, you know, um, and the commercially available panels
+[01:28:32] SPEAKER_00: are around 25, almost 20, 26 percent efficiency. And maybe, you know, what you can do, and then
+[01:28:39] SPEAKER_00: you say like, you should pack it densely, get an 80% packing density. You're going to, uh, which I
+[01:28:45] SPEAKER_00: you know, you get a lot of places you can get an 80% pack density. You effectively have about, uh,
+[01:28:51] SPEAKER_00: you know, uh, uh, 200 megawatts per square kilometer, uh, and, and, and, and, and, and, and, and
+[01:28:57] SPEAKER_00: you need to pair that with batteries. So, so you have continuous power. Um, although our power usage
+[01:29:03] SPEAKER_00: drops considerably at night. So you need less batteries than you think. Um, and, uh, and, uh, and, uh,
+[01:29:09] SPEAKER_00: and doesn't the, doesn't the question that we have?
+[01:29:11] SPEAKER_04: Roughway to, like, maybe two-number to remember is, is a gig about our, it's quite a kilometer per day.
+[01:29:17] SPEAKER_00: Is a, is a roughly correct number. But then, doesn't your technical challenge become the
+[01:29:23] SPEAKER_04: scalability of manufacturing of those systems? So, you know, accessing the raw materials and
+[01:29:29] SPEAKER_04: getting them out of the ground of planet earth to make them, to make enough of them, to get to
+[01:29:32] SPEAKER_04: that sort of scale and that volume that you're talking about. And as you kind of think about what
+[01:29:37] SPEAKER_04: it would take to get to that scale, like, do we have an ability to do that with what we have today?
+[01:29:43] SPEAKER_04: Like, can we pull that much material out of the ground?
+[01:29:46] Yes, solar panels are made of silicon, which is sand essentially. Um, and, um,
+[01:29:52] SPEAKER_00: I guess more on the battery side, but, on the battery side, yeah, so the battery side, um, uh,
+[01:29:58] SPEAKER_00: you know, the, like iron phosphate lithium-ion battery cells that, you know, earth,
+[01:30:03] SPEAKER_00: and like, to throw out some, like, interesting factories here, um, most people don't know, uh, if you said,
+[01:30:11] as measured by mass, what is the biggest element? What is, what is earth made of?
+[01:30:15] SPEAKER_00: As measured as measured by mass? Uh, actually, it's, it's iron.
+[01:30:19] SPEAKER_00: Iron, yeah. Iron, yeah, we're, we're, I think 32% iron, 30% oxygen,
+[01:30:24] SPEAKER_00: and then everything else is in the remaining remaining percentage. So, um, we're basically a,
+[01:30:30] SPEAKER_00: a rusty ball bearing, um, is with, that's earth. Um, and, and with, with, with, you know, a lot of
+[01:30:37] SPEAKER_00: silicon at the surface in the, in the form of sand, um, and the, the iron phosphate, so,
+[01:30:42] SPEAKER_00: so iron phosphate lithium-ion cells, you've iron extremely common, most common element on earth,
+[01:30:48] SPEAKER_00: even in the crust, uh, and then phosphorus is also very common, um, and, um, and then the,
+[01:30:53] SPEAKER_00: the anode is, is carbon, but also very common, and then lithium is also very common.
+[01:30:59] SPEAKER_00: So the, that there's actually, you can, you can do the math, in fact, we did the math and published
+[01:31:03] SPEAKER_00: it, published the math, but then we looked at it. Uh, um, it's on the Tesla website, um, that,
+[01:31:08] SPEAKER_00: that shows that you can completely power earth with solar panels and batteries, um, and, uh,
+[01:31:15] SPEAKER_00: there's no shortage of anything. All right. So, on that note, yeah, go get to work, Elon,
+[01:31:24] SPEAKER_05: and just power the earth while you're getting implants, uh, into people's brains and, uh,
+[01:31:29] SPEAKER_05: satellites and other good fun stuff. Good to see you, buddy. Yeah, good to see you guys. Yeah.
+[01:31:34] SPEAKER_00: Yeah. Yeah. Thanks for coming anytime. Thanks for doing this. You got the same link. Stop by
+[01:31:38] SPEAKER_05: the time. Thank you for coming today and thank you for liberating free speech three years ago.
+[01:31:42] SPEAKER_01: So, yeah, that was, that was a very important milestone.
+[01:31:45] SPEAKER_01: Yeah. And I see, well, you guys are in just different, different places. I guess this is a very
+[01:31:49] SPEAKER_00: virtual situation. I've got the ranch sexism. Oh, you're ever in the same room.
+[01:31:56] SPEAKER_05: We try not to be only when we do that, that's some it, but otherwise, we just
+[01:32:01] SPEAKER_04: saw them in the same. Yeah. Yeah. Yeah. Yeah. Yeah.
+[01:32:04] SPEAKER_00: You're some of this is pretty fun. Yeah. Yes. We're a great time recounting, uh, SNL sketches that
+[01:32:10] SPEAKER_00: didn't, didn't make it. Oh, God. It's just so many good ones. I mean, we didn't even get to the
+[01:32:17] SPEAKER_05: jeopardy ones. Yeah. Yeah. No, the show offensive. Oh, wait. I think we skipped a few that would have,
+[01:32:25] SPEAKER_00: dramatically increased our probability of being killed. You take this one out.
+[01:32:29] SPEAKER_07: Boys, I love you. I love you. I love you. I'm going to poker later. Take care.
+[01:32:37] SPEAKER_02: We're like your winners ride.
+[01:32:47] SPEAKER_03: It's got crazy with it.
+[01:32:49] SPEAKER_03: Lombi West. I'm going to win. I'm going to win.
+[01:32:54] What? What are winners?
+[01:32:57] Besties are gone.
+[01:33:08] We should all just get a room and just have one big huge or two because they're all just like this like
+[01:33:12] SPEAKER_06: sexual tension that we just need to release our album.
+[01:33:16] What your, that'd be. What your, your, your feet.
+[01:33:21] SPEAKER_02: We need to get. Besties are gone.
+[01:33:31] I'm going to win.

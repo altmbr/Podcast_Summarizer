@@ -10,8 +10,12 @@ podcast_status.md
 processed_videos.json
 *.backup
 
-# Downloaded content and outputs
-podcast_work/
+# Downloaded content and outputs (keep summaries/transcripts, ignore audio/video files)
+podcast_work/**/*.mp3
+podcast_work/**/*.mp4
+podcast_work/**/*.webm
+podcast_work/**/*.part
+podcast_work/**/*.ytdl
 weekly_summaries/
 
 # Runtime files

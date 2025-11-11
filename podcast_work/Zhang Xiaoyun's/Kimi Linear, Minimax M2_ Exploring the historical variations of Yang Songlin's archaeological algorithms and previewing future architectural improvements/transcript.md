@@ -1,0 +1,4016 @@
+# Kimi Linear, Minimax M2? Exploring the historical variations of Yang Songlin's archaeological algorithms and previewing future architectural improvements
+
+**Podcast:** Zhang Xiaoyun's
+**Date:** 2025-11-05
+**Video ID:** 858HR43pegk
+**Video URL:** https://www.youtube.com/watch?v=858HR43pegk
+
+---
+
+[00:00:00] 我決定國內的算法創新肯定是更強的
+[00:00:08] Yang Songlin: 先注意的模塊他們最後選到的是一個叫做KDA的這個模塊
+[00:00:15] Yang Songlin: Kimi Data 和Tension這個名字感覺挺有耿的
+[00:00:20] Yang Songlin: 他們應該是想對標Ducy Spass 的Tension
+[00:00:23] Yang Songlin: 然後我就特意去了一個Kimi 開頭的一個名字
+[00:00:27] Yang Songlin: 然後非常的對撞
+[00:00:30] 我覺得每一次大家關心你兩參審
+[00:00:34] Yang Songlin: 那肯定是因為大家碰到了一些Contest 我
+[00:00:39] 我覺得我還是挺喜歡看最早的那些批判
+[00:00:43] Yang Songlin: 我覺得那些批判現在都挺好的
+[00:00:45] Yang Songlin: 我管這個叫做考古
+[00:00:51] 先看看能不能把全局這個注意力把它幹掉吧
+[00:00:57] Yang Songlin: 對這第一點就是因為它確實它是阻止這個Connecting Window
+[00:01:03] Yang Songlin: Ducy Scale Up 上去的一個主要的平靜
+[00:01:07] 我覺得這後面的話就是把換合的注意力
+[00:01:11] Yang Songlin: 它裡面的全局的注意力把它換成Spass 的Tension
+[00:01:17] Yang Songlin: 我覺得你論上只要Spass 的Tension 它能選得準的話
+[00:01:22] 是完全可以取代不負擔身這個層的
+[00:01:28] 哈囉大家好 歡迎收聽張小鈞商業訪談路 我是小鈞
+[00:01:35] Zhang Xiaojun: 這是一檔由語言及世界工作室出品的深度訪談節目
+[00:01:39] Zhang Xiaojun: 我們希望和你一起從這裡探索新世界
+[00:01:43] Zhang Xiaojun: 今天這集節目我們將討論一個在當下非常關鍵的話題
+[00:01:47] Zhang Xiaojun: 那就是人工智能的算法與價格衝心
+[00:01:51] 嘉賓是我們的網期嘉賓反常
+[00:01:53] Zhang Xiaojun: 它是MIT的在度博士楊松林
+[00:01:56] Zhang Xiaojun: 研究方向是限性注意力機制
+[00:01:58] Zhang Xiaojun: 我們將從最近剛發布的幾個新模型
+[00:02:01] Zhang Xiaojun: Kimmy Linear
+[00:02:03] Zhang Xiaojun: Linanax M2
+[00:02:04] Zhang Xiaojun: Kimmy Linear 3nxt 切入
+[00:02:06] Zhang Xiaojun: 松林參與了這集中Kimi和Chenwen的部分工作
+[00:02:10] Zhang Xiaojun: 它是Kimmy Linear論文的作者之一
+[00:02:13] Zhang Xiaojun: 算法創新為什麼在25年變得有位重要呢
+[00:02:17] Zhang Xiaojun: 它背後的成因是數據算力和算法
+[00:02:20] Zhang Xiaojun: 使驅動人工智能的三價馬車
+[00:02:22] Zhang Xiaojun: 那在數據狀況的無奈前提之下
+[00:02:25] Zhang Xiaojun: 各個模型公司都不得不重新開始
+[00:02:28] Zhang Xiaojun: 雕模型價構以其Skill Love的模法繼續
+[00:02:31] Zhang Xiaojun: 而由於中國的算力相對美國有限
+[00:02:34] Zhang Xiaojun: 這反而讓中國的AI算法創新走在世界的前言
+[00:02:38] Zhang Xiaojun: 這集節目你將聽到近幾年價構最大的突破
+[00:02:42] Zhang Xiaojun: 是Ethic M.O.E.混合專家模型
+[00:02:45] Zhang Xiaojun: 它讓M.O.E.成為了全球共識
+[00:02:48] Zhang Xiaojun: 而下一個突破的重要方向可能是Attention注意力機制
+[00:02:52] 中國公司已經在Attention上展開了不同的技術壓住
+[00:02:56] Zhang Xiaojun: 顯示目前已經發布的這些模型中
+[00:02:59] Zhang Xiaojun: Diffing正在探索的是Spositonscentre
+[00:03:02] Zhang Xiaojun: 吸收注意力機制
+[00:03:03] Zhang Xiaojun: Kimmy正在探索的是Linia Tenshin現行注意力機制
+[00:03:07] Zhang Xiaojun: MiniMax在年初的M1版本中探索的是Linia Tenshin
+[00:03:11] Zhang Xiaojun: 而在剛發布的M2版本中又重新回到了Fur Tenshin
+[00:03:15] Zhang Xiaojun: 也就是全球注意力機制
+[00:03:17] Zhang Xiaojun: 在節目中
+[00:03:18] Zhang Xiaojun: 森林將講解它參與的這篇KimmyLinia的工作
+[00:03:22] 並分析以上這些公司在Attention上的不同角色
+[00:03:25] Zhang Xiaojun: 於同時它也將帶領大家考古人工晉能的算法
+[00:03:29] Zhang Xiaojun: 變種史並預言未來
+[00:03:31] Zhang Xiaojun: 算法與架構的改進方案
+[00:03:33] Zhang Xiaojun: 等級比較多硬和或有一些些的專業難度
+[00:03:37] Zhang Xiaojun: 大家可以根據自己的實際需要手聽
+[00:03:40] Zhang Xiaojun: 也因為加兵的工作環境的原因
+[00:03:43] Zhang Xiaojun: 所以會出現一些公英文的夾展
+[00:03:45] Zhang Xiaojun: 還是希望代價能夠多多的理解和支持
+[00:03:48] Zhang Xiaojun: 我們開始吧
+[00:03:57] 哈囉 宋林 先給聽眾朋友們打個招呼
+[00:03:59] Zhang Xiaojun: 把並且做一個簡單的做解稍
+[00:04:01] Zhang Xiaojun: 哈囉 大家好
+[00:04:03] Yang Songlin: 我叫楊聰林
+[00:04:05] Yang Songlin: 我現在是MITCCO的一個PhD在讀
+[00:04:10] Yang Songlin: 然後我的主要研究方向的話
+[00:04:12] Yang Songlin: 就是NOTCHNAMERMODER的一些架構
+[00:04:16] Yang Songlin: 然後主要是比較高效的注意力
+[00:04:19] Yang Songlin: 及是最大的研究
+[00:04:22] Yang Songlin: 跟具體來說的話
+[00:04:23] Yang Songlin: 主要是在研究
+[00:04:26] Yang Songlin: 就一類注意力模型叫做現心注意力
+[00:04:30] 你們給大家講一下你的整個的研究的主線
+[00:04:33] Zhang Xiaojun: 是怎麼地盡點
+[00:04:35] Zhang Xiaojun: 你是怎麼走向林亮貞士的研究點
+[00:04:37] Zhang Xiaojun: 像林亮貞士的話
+[00:04:39] Yang Songlin: 就是最開始的時候
+[00:04:42] Yang Songlin: 應該是到時候看到很多斯丹夫
+[00:04:46] Yang Songlin: 一個一個
+[00:04:48] Yang Songlin: research的一個Groper叫做Hazzy Research
+[00:04:52] Yang Songlin: 就是吹到Airbird
+[00:04:55] Yang Songlin: 他們在斯丹夫的那個Nab
+[00:04:57] Yang Songlin: 然後到時候看到很多他們寫的寶克
+[00:05:00] Yang Songlin: 然後覺得
+[00:05:01] Yang Songlin: 虛列鍵模是一個非常有意思的問題
+[00:05:04] Yang Songlin: 然後當初決定來做一些
+[00:05:06] Yang Songlin: 虛列鍵模的一些問題
+[00:05:08] 然後剛好
+[00:05:11] Yang Songlin: 那時候最開始讀播的時候
+[00:05:13] Yang Songlin: 就是微軟壓演員的話
+[00:05:14] Yang Songlin: 他有一篇工作叫做Ragnite
+[00:05:17] Yang Songlin: 那個時候就是
+[00:05:19] Yang Songlin: 最開始的時候就想辦法來
+[00:05:21] 提高Ragnite他的那個效率
+[00:05:24] Yang Songlin: 然後他的那個Performance
+[00:05:27] 然後之後的話就發現
+[00:05:30] Yang Songlin: 提高效率的這一套
+[00:05:32] Yang Songlin: 音劍、油畫、這種算法
+[00:05:35] Yang Songlin: 可以擴展到很多這種
+[00:05:38] Yang Songlin: 其他的這種類似的架構裡面
+[00:05:41] Yang Songlin: 然後同時
+[00:05:43] Yang Songlin: 就之後的一些工作
+[00:05:45] Yang Songlin: 就是主要是去想辦法進一步的
+[00:05:48] Yang Songlin: 就是在能夠
+[00:05:50] Yang Songlin: 音劍高效性的同時能夠提高這種
+[00:05:53] Yang Songlin: 細心最厲害的他家個的那個
+[00:05:55] Yang Songlin: Performance的一些改進
+[00:05:57] Yang Songlin: 這邊說
+[00:05:58] Yang Songlin: 從門控機制
+[00:06:00] Yang Songlin: 然後到那個
+[00:06:02] Yang Songlin: 有一個叫做DataRoll的一個機制
+[00:06:05] Yang Songlin: 然後後面的話
+[00:06:06] Yang Songlin: 就是把這兩個東西
+[00:06:07] Yang Songlin: 把它扛辦在一起
+[00:06:09] 就是讓他合成一個
+[00:06:11] 一個統一的一個弱
+[00:06:13] Yang Songlin: 然後把它變成一個
+[00:06:15] Yang Songlin: 安安的一個更新規則
+[00:06:17] Yang Songlin: 同時的話
+[00:06:18] Yang Songlin: 又可以去
+[00:06:20] Yang Songlin: 就是有一些可以
+[00:06:21] Yang Songlin: 音劍高效的算法來進行訓練
+[00:06:25] 我看了算字
+[00:06:26] Zhang Xiaojun: 我們節目發了以後
+[00:06:27] Zhang Xiaojun: 很多人說你也是
+[00:06:28] Zhang Xiaojun: 理念天聖之母
+[00:06:29] Zhang Xiaojun: 這說什麼
+[00:06:30] 可能是在
+[00:06:32] Yang Songlin: 這個你於做很多工作
+[00:06:34] Yang Songlin: 然後尤其是
+[00:06:36] Yang Songlin: 還有一個那個開源庫
+[00:06:38] Yang Songlin: 叫做Flash Neenial Tansion
+[00:06:40] 這個庫的話感覺
+[00:06:42] Yang Songlin: 這個 Neenial的人
+[00:06:44] Yang Songlin: 裡面很多就是會用這個庫
+[00:06:47] 然後包括業界也有很多
+[00:06:49] Yang Songlin: 就是用這個庫
+[00:06:50] Yang Songlin: 來進行一些
+[00:06:51] Yang Songlin: Neenial Tansion的一些探索的
+[00:06:53] 對 然後我那幾篇工作
+[00:06:55] Yang Songlin: 應該還是比較
+[00:06:57] Yang Songlin: 比較有影響力的
+[00:06:59] Yang Songlin: 可能大家會這麼來教我
+[00:07:01] Yang Songlin: 能怎麼跟通俗的
+[00:07:03] Zhang Xiaojun: 去理解一下理念
+[00:07:04] Zhang Xiaojun: 跟通俗的理解
+[00:07:05] Yang Songlin: 你念的話
+[00:07:06] Yang Songlin: 就是說
+[00:07:07] Yang Songlin: 他中文是現行
+[00:07:08] Zhang Xiaojun: 對吧
+[00:07:09] Zhang Xiaojun: 現行注意的舉主
+[00:07:10] Zhang Xiaojun: 現行的話
+[00:07:11] Yang Songlin: 能踏主
+[00:07:12] Yang Songlin: 意思就是
+[00:07:13] Yang Songlin: 現行複雜度
+[00:07:14] Yang Songlin: 對
+[00:07:15] Yang Songlin: 現行複雜度
+[00:07:16] Yang Songlin: 他對於的話
+[00:07:17] Yang Songlin: 就是說是平方複雜度
+[00:07:19] Yang Songlin: 也就是說我們平常的
+[00:07:20] Yang Songlin: Sofemalice Tansion
+[00:07:21] Yang Songlin: 他是平方複雜度
+[00:07:23] Yang Songlin: 然後
+[00:07:25] Yang Songlin: 就是我們大家都知道
+[00:07:28] Yang Songlin: Sofemalice Tansion的話
+[00:07:30] Yang Songlin: 他有三個舉證
+[00:07:32] Yang Songlin: 他有QKV
+[00:07:34] Yang Songlin: QQV
+[00:07:36] 然後一般的話
+[00:07:37] Yang Songlin: 他就是QK
+[00:07:38] Yang Songlin: 先求一個舉證
+[00:07:40] Yang Songlin: 相成
+[00:07:41] Yang Songlin: 得到一個
+[00:07:43] Yang Songlin: LBIO的一個舉證
+[00:07:44] Yang Songlin: L的話是
+[00:07:46] Yang Songlin: 修列長度
+[00:07:47] Yang Songlin: 然後的話
+[00:07:48] Yang Songlin: 就是對這個LBIO的舉證
+[00:07:51] 做一個
+[00:07:53] Yang Songlin: Masking
+[00:07:54] Yang Songlin: 因為他基本上都是
+[00:07:55] Yang Songlin: 智慧歸的一個
+[00:07:56] Yang Songlin: 語言鍵模
+[00:07:57] Yang Songlin: 所以我們要把未來的
+[00:07:58] Yang Songlin: 消息把它
+[00:07:59] Yang Songlin: mask掉
+[00:08:00] Yang Songlin: 這樣的話
+[00:08:01] Yang Songlin: 我們得到一個
+[00:08:02] Yang Songlin: 下三角的一個
+[00:08:03] Yang Songlin: LBIO的一個舉證
+[00:08:04] Yang Songlin: 然後我們再
+[00:08:06] 加一個Sofemalice
+[00:08:07] Yang Songlin: 然後就讓我們
+[00:08:08] Yang Songlin: 得到一個
+[00:08:09] Yang Songlin: 朱利利的一個
+[00:08:11] 分數的一個舉證
+[00:08:12] Yang Songlin: 然後
+[00:08:13] Yang Songlin: 最後再用這個
+[00:08:14] Yang Songlin: 朱利利分數舉證
+[00:08:15] Yang Songlin: 和那個
+[00:08:16] 外流的舉證
+[00:08:17] Yang Songlin: 做一個相成
+[00:08:18] Yang Songlin: 得到一個
+[00:08:19] Yang Songlin: Opport
+[00:08:20] 這就是
+[00:08:21] Yang Songlin: Sofemalice Tansion
+[00:08:23] 他在這種
+[00:08:24] Yang Songlin: 智慧歸
+[00:08:25] Yang Songlin: 鍵模裡面的一個
+[00:08:27] Yang Songlin: 比較一個
+[00:08:28] Yang Songlin: 朱利利的介紹
+[00:08:29] Yang Songlin: 對
+[00:08:30] Yang Songlin: 因為他會有一個
+[00:08:31] Yang Songlin: LBIO的一個舉證
+[00:08:33] Yang Songlin: 所以他的
+[00:08:34] Yang Songlin: 複雜都是
+[00:08:35] Yang Songlin: 平方的
+[00:08:36] 然後
+[00:08:37] Yang Songlin: 先進出業的話
+[00:08:38] Yang Songlin: 他
+[00:08:39] Yang Songlin: 一般就是
+[00:08:40] Yang Songlin: 把那個Sofemalice
+[00:08:41] Yang Songlin: apprate
+[00:08:42] Yang Songlin: 把它去掉
+[00:08:43] Yang Songlin: 然後這樣子的話
+[00:08:44] Yang Songlin: 我們就會得到
+[00:08:45] Yang Songlin: 我們就把這個
+[00:08:46] Yang Songlin: 非先進的
+[00:08:47] Yang Songlin: Sofemalice Tansion的
+[00:08:48] Yang Songlin: Sofemalice去掉了
+[00:08:50] Yang Songlin: 然後我們可以
+[00:08:51] Yang Songlin: 通過一些
+[00:08:52] Yang Songlin: 那個等式的變化
+[00:08:54] Yang Songlin: 然後我們可以
+[00:08:55] Yang Songlin: 把它寫成一個
+[00:08:56] Yang Songlin: 類似於
+[00:08:57] Yang Songlin: 安安的一個
+[00:08:58] Yang Songlin: 特利的一個形式
+[00:08:59] Yang Songlin: 這個可能
+[00:09:00] Yang Songlin: 他每一個
+[00:09:01] Yang Songlin: Stab他的Cost
+[00:09:02] Yang Songlin: 就是O-1
+[00:09:03] Yang Songlin: 然後處理這個L
+[00:09:04] 他這個
+[00:09:05] Yang Songlin: 長度的
+[00:09:06] Yang Songlin: 訓練的一個
+[00:09:07] Yang Songlin: 畫能
+[00:09:08] Yang Songlin: 他的整體的複雜度
+[00:09:09] Yang Songlin: 就是
+[00:09:10] Yang Songlin: OL
+[00:09:11] Yang Songlin: 所以他是
+[00:09:12] Yang Songlin: 跟長度的
+[00:09:13] Yang Songlin: 大小他是
+[00:09:14] Yang Songlin: 成一個
+[00:09:15] Yang Songlin: 現性複雜度的一個關係
+[00:09:16] Yang Songlin: 所以
+[00:09:17] Yang Songlin: 大家會
+[00:09:18] Yang Songlin: 把它
+[00:09:19] Yang Songlin: 叫做現性訓練
+[00:09:20] 如果
+[00:09:21] Zhang Xiaojun: 把
+[00:09:22] Zhang Xiaojun: 現在的
+[00:09:23] Zhang Xiaojun: 做一個
+[00:09:24] Zhang Xiaojun: 框
+[00:09:25] Zhang Xiaojun: 將它有一個背景的話
+[00:09:26] Zhang Xiaojun: 林鄭是
+[00:09:27] Zhang Xiaojun: 應該放在哪個地方
+[00:09:28] Yang Songlin: 我覺得
+[00:09:29] Yang Songlin: 都在
+[00:09:30] Yang Songlin: Transformer這個
+[00:09:31] Yang Songlin: 基礎加構
+[00:09:32] Yang Songlin: 裡面
+[00:09:33] Yang Songlin: 在進行一些
+[00:09:34] Yang Songlin: 模改吧
+[00:09:35] Yang Songlin: 對
+[00:09:36] Yang Songlin: 原模型的話
+[00:09:37] Yang Songlin: 它的技術
+[00:09:38] Yang Songlin: 這樣可能分成
+[00:09:39] Yang Songlin: Pretraining
+[00:09:40] Yang Songlin: Postraining
+[00:09:41] Yang Songlin: 然後
+[00:09:42] Yang Songlin: 之類的
+[00:09:43] Yang Songlin: 然後
+[00:09:44] Yang Songlin: 這些
+[00:09:45] Yang Songlin: 加構的演繹的話
+[00:09:46] Yang Songlin: 可能是在Pretrane
+[00:09:47] 然後
+[00:09:48] Yang Songlin: Pretrane
+[00:09:49] Yang Songlin: 它還有
+[00:09:50] Yang Songlin: 很多
+[00:09:51] Yang Songlin: 其他類別的演繹
+[00:09:52] Yang Songlin: 的話
+[00:09:53] Yang Songlin: 然後像這種
+[00:09:54] Yang Songlin: 基礎加構
+[00:09:55] Yang Songlin: 然後還有一些
+[00:09:57] Yang Songlin: Pretrane
+[00:09:58] Yang Songlin: Data
+[00:09:59] Yang Songlin: 然後之類的
+[00:10:00] Yang Songlin: 東西
+[00:10:01] Yang Songlin: 然後
+[00:10:02] Yang Songlin: 現心最初的
+[00:10:03] Yang Songlin: 應該就算在這個
+[00:10:04] Yang Songlin: 基礎加構的演繹
+[00:10:05] 然後
+[00:10:06] Yang Songlin: 現在基礎加構的話
+[00:10:07] Yang Songlin: 基本上它整體的
+[00:10:09] Yang Songlin: 框架
+[00:10:10] 還是
+[00:10:11] Yang Songlin: Transformer
+[00:10:12] Yang Songlin: 這種
+[00:10:13] Yang Songlin: 它會有一個
+[00:10:14] Yang Songlin: 注意力
+[00:10:15] Yang Songlin: 機制
+[00:10:16] Yang Songlin: 和一個
+[00:10:17] Yang Songlin: 前饋
+[00:10:19] Yang Songlin: Warnwell
+[00:10:20] Yang Songlin: Fifleware
+[00:10:22] Yang Songlin: 它會
+[00:10:23] Yang Songlin: 在這兩個模塊裡面
+[00:10:25] 然後
+[00:10:26] Yang Songlin: 反覆的疊家
+[00:10:27] Yang Songlin: 疊家很多次
+[00:10:28] Yang Songlin: 就得到
+[00:10:29] Yang Songlin: 最新的
+[00:10:30] Yang Songlin: 一個Transformer
+[00:10:31] 的一個演繹
+[00:10:32] Yang Songlin: 然後一般的話
+[00:10:33] Yang Songlin: 大家就是
+[00:10:34] Yang Songlin: 會在
+[00:10:35] Yang Songlin: 這個
+[00:10:36] 框架
+[00:10:37] Yang Songlin: 下面來進行一些
+[00:10:38] Yang Songlin: 修改吧
+[00:10:39] Yang Songlin: 像
+[00:10:40] Yang Songlin: 最近幾年
+[00:10:41] Yang Songlin: 的話
+[00:10:42] Yang Songlin: 就是
+[00:10:43] 會把
+[00:10:44] Yang Songlin: 傳統的
+[00:10:45] Yang Songlin: MLP
+[00:10:46] Yang Songlin: 或者說
+[00:10:47] Yang Songlin: Fifleware
+[00:10:48] Yang Songlin: 來我
+[00:10:49] Yang Songlin: 專家的一些
+[00:10:50] Yang Songlin: Mokeware
+[00:10:51] Yang Songlin: MicheofExper
+[00:10:51] Yang Songlin: MLP的一些
+[00:10:53] Mokeware
+[00:10:53] 然後
+[00:10:54] Yang Songlin: 的話
+[00:10:55] Yang Songlin: 就是把傳統的
+[00:10:56] Yang Songlin: Suffmax
+[00:10:58] 的Tension
+[00:10:58] 把它
+[00:11:00] Yang Songlin: 換成一些
+[00:11:01] Yang Songlin: 現新
+[00:11:02] 福島多的一些
+[00:11:03] Yang Songlin: Tension
+[00:11:04] Yang Songlin: 當然
+[00:11:05] Yang Songlin: 現在最近
+[00:11:06] Yang Songlin: 更活了
+[00:11:07] Yang Songlin: 所以
+[00:11:08] Yang Songlin: 疑淚叫做
+[00:11:09] Yang Songlin: Hybrid的一個架構
+[00:11:10] Yang Songlin: 有一些層
+[00:11:11] Yang Songlin: 它還是
+[00:11:12] Yang Songlin: 一個Suffmax
+[00:11:13] Yang Songlin: 的Tension
+[00:11:14] Yang Songlin: 另外
+[00:11:15] Yang Songlin: 大部分的層
+[00:11:16] 就把它換成
+[00:11:17] Zhang Xiaojun: 新興趣味
+[00:11:18] Zhang Xiaojun: 最進參與的一個
+[00:11:19] Zhang Xiaojun: 行工作
+[00:11:20] Zhang Xiaojun: 就是
+[00:11:21] Zhang Xiaojun: Timidini
+[00:11:22] Zhang Xiaojun: 你是怎麼
+[00:11:23] Zhang Xiaojun: Timidini
+[00:11:24] Zhang Xiaojun: 的工作中點
+[00:11:25] Zhang Xiaojun: 這個工作
+[00:11:26] 應該是
+[00:11:27] Yang Songlin: 始緣
+[00:11:28] Yang Songlin: 底缸發布
+[00:11:29] Yang Songlin: 應該
+[00:11:30] Yang Songlin: 他們
+[00:11:31] Yang Songlin: 應該是
+[00:11:32] Yang Songlin: 年初
+[00:11:33] 就
+[00:11:34] Yang Songlin: 想開始
+[00:11:35] Yang Songlin: 做
+[00:11:36] Yang Songlin: 然後當時
+[00:11:37] Yang Songlin: Flystinial
+[00:11:39] Yang Songlin: Tension
+[00:11:40] Yang Songlin: 這個
+[00:11:41] Yang Songlin: 酷
+[00:11:43] Yang Songlin: 另外一個主要的
+[00:11:44] 作者
+[00:11:45] Yang Songlin: 他
+[00:11:46] Yang Songlin: 叫
+[00:11:47] Yang Songlin: BossB
+[00:11:48] Yang Songlin: 當時
+[00:11:49] Yang Songlin: 他正好
+[00:11:50] Yang Songlin: 就是在
+[00:11:51] Timid
+[00:11:52] Yang Songlin: 想做
+[00:11:53] Yang Songlin: 混合
+[00:11:54] Yang Songlin: 主要
+[00:11:55] Yang Songlin: 然後
+[00:11:56] Yang Songlin: 張宇
+[00:11:57] Yang Songlin: 就是在做這個
+[00:11:58] 項目
+[00:11:59] Yang Songlin: 因為我
+[00:12:00] Yang Songlin: 因為
+[00:12:01] Yang Songlin: 他
+[00:12:02] Yang Songlin: 就是FLA
+[00:12:03] Yang Songlin: 開完
+[00:12:04] Yang Songlin: Colored
+[00:12:05] 然後
+[00:12:06] Yang Songlin: 我會
+[00:12:07] 幫他們
+[00:12:08] Yang Songlin: 看一下
+[00:12:09] Yang Songlin: 有些
+[00:12:11] 現行主要的
+[00:12:12] Yang Songlin: 一些
+[00:12:13] Yang Songlin: 變種
+[00:12:14] Yang Songlin: 他的那些
+[00:12:15] Yang Songlin: 變形的算法
+[00:12:16] Yang Songlin: 設計之類的
+[00:12:17] Yang Songlin: 當時
+[00:12:18] Zhang Xiaojun: 他們團隊遇到的
+[00:12:19] Zhang Xiaojun: 核心問題是什麼
+[00:12:20] Zhang Xiaojun: 為什麼開始決定
+[00:12:21] Zhang Xiaojun: 要重新設計一下
+[00:12:22] Zhang Xiaojun: 注意力
+[00:12:23] 記者
+[00:12:24] Yang Songlin: 就是年初的時候
+[00:12:25] Yang Songlin: 我覺得
+[00:12:26] Yang Songlin: 大背景的話
+[00:12:27] Yang Songlin: 就是
+[00:12:28] 向DFC
+[00:12:29] Yang Songlin: R1
+[00:12:30] Yang Songlin: 和KIMI1.5
+[00:12:31] Yang Songlin: 那個時候
+[00:12:32] Yang Songlin: 剛剛發
+[00:12:33] Yang Songlin: 然後
+[00:12:34] Yang Songlin: 他的核心
+[00:12:35] Yang Songlin: 他會做些R1
+[00:12:37] Yang Songlin: 然後
+[00:12:38] Yang Songlin: 會得到
+[00:12:39] Yang Songlin: 一些
+[00:12:40] Yang Songlin: 非常長的
+[00:12:41] Yang Songlin: 一些
+[00:12:42] Yang Songlin: 思維念
+[00:12:43] Yang Songlin: 就是
+[00:12:44] Yang Songlin: Tranford
+[00:12:45] Yang Songlin: 非常長的
+[00:12:46] Yang Songlin: 思維念
+[00:12:47] Yang Songlin: 來做這種
+[00:12:48] Yang Songlin: Test and Scaling
+[00:12:50] Yang Songlin: 對
+[00:12:51] Yang Songlin: 然後來
+[00:12:52] Yang Songlin: 解一些
+[00:12:53] Yang Songlin: 比較
+[00:12:54] 附帶的問題
+[00:12:55] Yang Songlin: 然後
+[00:12:56] Yang Songlin: 這個
+[00:12:57] Yang Songlin: 思維念的長度
+[00:12:58] Yang Songlin: 能
+[00:12:59] Yang Songlin: 他往往
+[00:13:00] Yang Songlin: 就是
+[00:13:01] Yang Songlin: 能夠到
+[00:13:02] 幾萬個
+[00:13:03] Yang Songlin: 頭肯
+[00:13:04] Yang Songlin: 這個長度
+[00:13:05] 然後
+[00:13:06] Yang Songlin: KIMI
+[00:13:07] Yang Songlin: 就覺得
+[00:13:08] Yang Songlin: 就是
+[00:13:09] Yang Songlin: 如果我們用
+[00:13:10] Yang Songlin: 每一層
+[00:13:11] Yang Songlin: 都是
+[00:13:12] Yang Songlin: 平方
+[00:13:13] Yang Songlin: 的這個
+[00:13:14] Yang Songlin: 因為首先
+[00:13:15] Yang Songlin: 就是
+[00:13:16] Yang Songlin: 每一層
+[00:13:17] Yang Songlin: 他要存一個
+[00:13:18] Yang Songlin: 大量的
+[00:13:19] Yang Songlin: KV開始
+[00:13:20] 然後
+[00:13:21] Yang Songlin: 換他
+[00:13:22] Yang Songlin: 每一步
+[00:13:23] Yang Songlin: 現身的
+[00:13:24] Yang Songlin: 這個
+[00:13:25] Yang Songlin: 時間複雜度
+[00:13:26] Yang Songlin: 如果DECO
+[00:13:27] Yang Songlin: 的L
+[00:13:28] 個
+[00:13:29] Yang Songlin: 頭肯的話
+[00:13:30] Yang Songlin: 他的時間複雜度
+[00:13:31] 也是
+[00:13:32] Yang Songlin: 一個平方的
+[00:13:33] Yang Songlin: 所以
+[00:13:34] Yang Songlin: 在這種
+[00:13:35] Yang Songlin: 長的
+[00:13:36] Yang Songlin: 思維念的
+[00:13:37] Yang Songlin: 深層的
+[00:13:38] Yang Songlin: 背景下面
+[00:13:39] Yang Songlin: 然後
+[00:13:40] Yang Songlin: 讓KIMI
+[00:13:41] 覺得
+[00:13:42] Yang Songlin: 就是
+[00:13:43] Yang Songlin: 這個
+[00:13:44] Yang Songlin: 資源
+[00:13:45] Yang Songlin: 來探索一下
+[00:13:46] 這種
+[00:13:47] Yang Songlin: 注意力
+[00:13:48] Yang Songlin: 因為
+[00:13:49] Yang Songlin: 他能夠
+[00:13:50] 把這個
+[00:13:51] Yang Songlin: Inference
+[00:13:52] Yang Songlin: 的
+[00:13:53] Yang Songlin: Cost
+[00:13:54] Yang Songlin: 把它
+[00:13:55] Yang Songlin: 大低
+[00:13:56] Yang Songlin: 很多
+[00:13:57] Yang Songlin: 對
+[00:13:58] 這一點
+[00:13:59] Yang Songlin: 在這種長
+[00:14:00] Yang Songlin: 思維念
+[00:14:01] Yang Songlin: 弄串
+[00:14:02] Yang Songlin: 色的這個
+[00:14:03] Yang Songlin: 背景下面
+[00:14:04] Yang Songlin: 然後
+[00:14:05] 以及
+[00:14:06] Zhang Xiaojun: 今年
+[00:14:07] Zhang Xiaojun: 整體的這個
+[00:14:08] Zhang Xiaojun: Agenity
+[00:14:09] AI的這個
+[00:14:10] Yang Songlin: 背景下面
+[00:14:11] Yang Songlin: 他是
+[00:14:12] Yang Songlin: 對
+[00:13:58] 大概
+[00:14:12] Yang Songlin: 那邊做完
+[00:14:13] Yang Songlin: 然後
+[00:14:14] Yang Songlin: 他們的目標
+[00:14:15] Yang Songlin: 應該就是
+[00:14:16] Yang Songlin: 就是跟
+[00:14:17] Yang Songlin: 之前的那種
+[00:14:18] Yang Songlin: 富爾探索
+[00:14:19] Yang Songlin: 相比的話
+[00:14:20] Yang Songlin: 就是
+[00:14:21] Yang Songlin: Performance
+[00:14:22] Yang Songlin: 要
+[00:14:23] Yang Songlin: 不掉點
+[00:14:24] Yang Songlin: 然後
+[00:14:25] Yang Songlin: 同時
+[00:14:26] Yang Songlin: 他的
+[00:14:27] Zhang Xiaojun: Inference
+[00:14:28] Zhang Xiaojun: 會快很多
+[00:14:29] Zhang Xiaojun: 背
+[00:14:30] Yang Songlin: 如果用富爾探索的話
+[00:14:31] Yang Songlin: 就是這種
+[00:14:32] Yang Songlin: 做長文本的
+[00:14:33] Yang Songlin: DECOLEAN
+[00:14:34] Yang Songlin: 的時候
+[00:14:35] Yang Songlin: 他就是
+[00:14:36] Yang Songlin: 非常的
+[00:14:37] Zhang Xiaojun: 寒貴
+[00:14:38] Zhang Xiaojun: 能不能
+[00:14:39] Zhang Xiaojun: 視角
+[00:14:40] Zhang Xiaojun: 給大家
+[00:14:41] 像這篇文章
+[00:14:43] Yang Songlin: 的話
+[00:14:44] Yang Songlin: 他們的這個
+[00:14:46] 就是這個
+[00:14:47] Yang Songlin: 現新注意的
+[00:14:48] Yang Songlin: 模塊
+[00:14:49] Yang Songlin: 選到的是
+[00:14:50] Yang Songlin: 一個叫做
+[00:14:51] Yang Songlin: KDA的這個
+[00:14:52] Yang Songlin: 模塊
+[00:14:53] Yang Songlin: Kimi
+[00:14:54] Yang Songlin: 的Tension
+[00:14:55] Yang Songlin: 對
+[00:14:56] 這個名字
+[00:14:57] Yang Songlin: 感覺挺有耿的
+[00:14:58] Yang Songlin: 他們應該是想
+[00:14:59] Yang Songlin: 對標
+[00:15:00] Yang Songlin: DECOLEAN
+[00:15:01] Yang Songlin: Tension
+[00:15:02] Yang Songlin: 然後我就
+[00:15:03] Yang Songlin: 特意去了一個
+[00:15:04] Yang Songlin: Kimi開頭的
+[00:15:05] Yang Songlin: 一個名字
+[00:15:06] Yang Songlin: 然後
+[00:15:07] Yang Songlin: 非常的對象
+[00:15:08] 對
+[00:15:09] Yang Songlin: 然後這個
+[00:15:10] 現新注意的
+[00:15:11] Yang Songlin: 模塊
+[00:15:12] Yang Songlin: 他
+[00:15:13] Yang Songlin: 基本上就是
+[00:15:14] Yang Songlin: 基於
+[00:15:15] 我去年
+[00:15:16] Yang Songlin: 有一個工作
+[00:15:17] Yang Songlin: 叫做
+[00:15:18] Yang Songlin: Gate Data Knight
+[00:15:19] Yang Songlin: 然後
+[00:15:20] Yang Songlin: 在這個
+[00:15:21] Yang Songlin: 基礎上面
+[00:15:22] Yang Songlin: 就是
+[00:15:23] Yang Songlin: 進行那一些
+[00:15:24] Yang Songlin: 改善
+[00:15:25] Yang Songlin: 然後最後
+[00:15:26] Yang Songlin: 形成
+[00:15:27] Yang Songlin: 一個
+[00:15:28] Yang Songlin: 叫做KDA的
+[00:15:29] Yang Songlin: 一個模塊
+[00:15:30] Yang Songlin: 總來說的話
+[00:15:31] Yang Songlin: 就是
+[00:15:32] Yang Songlin: 首先我沒有
+[00:15:33] Yang Songlin: 一個叫做
+[00:15:34] Yang Songlin: Data
+[00:15:35] Yang Songlin: 入了一個東西
+[00:15:36] Yang Songlin: 對
+[00:15:37] Yang Songlin: 可以
+[00:15:38] Yang Songlin: 之後
+[00:15:39] Yang Songlin: 像
+[00:15:41] Yang Songlin: Gate Data Knight的時候
+[00:15:42] Yang Songlin: 就這個工作
+[00:15:43] Yang Songlin: 就當時
+[00:15:44] 收縣於
+[00:15:46] Yang Songlin: Efficiency
+[00:15:47] 然後
+[00:15:48] Yang Songlin: 當時我就
+[00:15:49] Yang Songlin: 用到了一個
+[00:15:50] 像
+[00:15:51] Yang Songlin: Mamba
+[00:15:52] Yang Songlin: 2一樣的一個
+[00:15:53] Yang Songlin: Skater
+[00:15:54] 外流的一個Gate
+[00:15:56] Yang Songlin: 這個的話
+[00:15:58] Yang Songlin: 就是說
+[00:15:59] Yang Songlin: 他的這個
+[00:16:00] Yang Songlin: 門控
+[00:16:01] Yang Songlin: 他的這個
+[00:16:02] Yang Songlin: 就是對於一個
+[00:16:04] Yang Songlin: Eternation
+[00:16:05] Yang Songlin: Head
+[00:16:06] Yang Songlin: 他說
+[00:16:07] Yang Songlin: 他下面的
+[00:16:08] Yang Songlin: 一個
+[00:16:09] Yang Songlin: DK的一個
+[00:16:11] Yang Songlin: 衰簡率
+[00:16:12] Yang Songlin: 這的話
+[00:16:13] Yang Songlin: 他是
+[00:16:14] Yang Songlin: 可以在
+[00:16:15] Yang Songlin: 計算上面
+[00:16:16] Yang Songlin: 會帶來一些
+[00:16:17] Yang Songlin: 簡化
+[00:16:18] Yang Songlin: 所以
+[00:16:19] Yang Songlin: 當時
+[00:16:20] Yang Songlin: 的考慮
+[00:16:21] Yang Songlin: 就是說
+[00:16:22] Yang Songlin: Mamba
+[00:16:23] Yang Songlin: 2的基礎上面
+[00:16:24] Yang Songlin: 就是
+[00:16:25] Yang Songlin: 加上
+[00:16:26] Yang Songlin: 德塔入
+[00:16:27] Yang Songlin: 然後
+[00:16:28] Yang Songlin: 能讓他的這個
+[00:16:29] Yang Songlin: 效率
+[00:16:30] Yang Songlin: 有保證
+[00:16:31] Yang Songlin: 所以
+[00:16:32] Yang Songlin: 所以
+[00:16:33] Yang Songlin: 當時
+[00:16:34] 就是
+[00:16:35] Yang Songlin: 用到了
+[00:16:36] Yang Songlin: 他們那一種
+[00:16:37] Yang Songlin: 門控的一個機制
+[00:16:39] 對
+[00:16:40] Yang Songlin: 所以這就是
+[00:16:41] Yang Songlin: Gate的他
+[00:16:43] Yang Songlin: Nine
+[00:16:44] Yang Songlin: 然後像
+[00:16:45] Yang Songlin: 張宇完的這個
+[00:16:46] Yang Songlin: KDA
+[00:16:47] Yang Songlin: 他
+[00:16:48] Yang Songlin: 就是
+[00:16:49] 把這個
+[00:16:50] Yang Songlin: E度
+[00:16:51] Yang Songlin: 比較
+[00:16:52] Yang Songlin: 粗的一個
+[00:16:53] Yang Songlin: 衰簡率
+[00:16:54] Yang Songlin: 把它換成了
+[00:16:55] Yang Songlin: 一個
+[00:16:56] Yang Songlin: E度
+[00:16:57] Yang Songlin: 比較
+[00:16:58] Yang Songlin: 細了一個衰簡率
+[00:16:59] Yang Songlin: 就是
+[00:17:00] Yang Songlin: 現在
+[00:17:01] Yang Songlin: 的話
+[00:17:02] Yang Songlin: 就是
+[00:17:03] 一個
+[00:17:04] Yang Songlin: Tanzen
+[00:17:05] Yang Songlin: 害了下面
+[00:17:06] Yang Songlin: 不同的
+[00:16:46] Yang Songlin: 位度
+[00:17:06] Yang Songlin: 他有一個
+[00:17:07] Yang Songlin: 自己的這個
+[00:17:08] Yang Songlin: 衰簡率
+[00:17:09] 這樣的話
+[00:17:10] Yang Songlin: 就是
+[00:17:11] Yang Songlin: 每一個
+[00:17:12] Yang Songlin: 圍度
+[00:17:13] Yang Songlin: 他對於
+[00:17:14] Yang Songlin: 安的那個
+[00:17:15] Yang Songlin: 機的那個
+[00:17:16] 隱藏狀態的話
+[00:17:18] Yang Songlin: 他就是
+[00:17:19] 有自己
+[00:17:20] Yang Songlin: 獨立的一套
+[00:17:21] Yang Songlin: 更新的那個
+[00:17:22] 頻率
+[00:17:23] Yang Songlin: 這樣的話
+[00:17:24] Yang Songlin: 就是
+[00:17:25] Yang Songlin: 從此
+[00:17:26] Yang Songlin: 就像
+[00:17:27] Yang Songlin: 他看
+[00:17:28] Yang Songlin: 他就是
+[00:17:29] Yang Songlin: 能夠
+[00:17:30] Yang Songlin: 更好的利用
+[00:17:31] Yang Songlin: 這個
+[00:17:32] Yang Songlin: 安有線的
+[00:17:33] Heart and State
+[00:17:34] Zhang Xiaojun: 能夠提高這個
+[00:17:35] Zhang Xiaojun: 來源於什麼
+[00:17:36] 我感覺
+[00:17:37] Yang Songlin: 這個設計的話
+[00:17:38] Yang Songlin: 其實
+[00:17:39] Yang Songlin: 我覺得
+[00:17:40] Yang Songlin: 像KD的話
+[00:17:41] Yang Songlin: 他其實
+[00:17:42] Yang Songlin: 就是我前兩個
+[00:17:43] 工作的一個
+[00:17:45] Yang Songlin: 就把之前
+[00:17:46] Yang Songlin: 有兩個工作的
+[00:17:47] Yang Songlin: 那種
+[00:17:48] Yang Songlin: I'd
+[00:17:49] Yang Songlin: 要把它
+[00:17:50] Yang Songlin: 像我之前
+[00:17:51] Yang Songlin: 還有一個
+[00:17:52] Yang Songlin: 工作
+[00:17:53] Yang Songlin: 叫做
+[00:17:54] Yang Songlin: Nine
+[00:17:55] Yang Songlin: Tanzen
+[00:17:56] Yang Songlin: 他就是
+[00:17:57] Yang Songlin: 有一個
+[00:17:58] Yang Songlin: 這種
+[00:17:59] Yang Songlin: E度
+[00:18:00] 比較
+[00:18:01] Yang Songlin: 細了一個
+[00:18:02] 衰簡率
+[00:18:03] Yang Songlin: 然後
+[00:18:04] Yang Songlin: 當時之所以沒有
+[00:18:05] Yang Songlin: 用到這種
+[00:18:06] Yang Songlin: E度比較
+[00:18:07] Yang Songlin: 細了這個
+[00:18:08] Yang Songlin: 衰簡率
+[00:18:09] 就是
+[00:18:10] Yang Songlin: 算法
+[00:18:11] Yang Songlin: 本身
+[00:18:12] Yang Songlin: 和這個
+[00:18:13] Yang Songlin: KD
+[00:18:14] Yang Songlin: 優化
+[00:18:15] Yang Songlin: 都沒有
+[00:18:16] Yang Songlin: 優化到
+[00:18:17] Yang Songlin: 一個比較好的狀態
+[00:18:18] Yang Songlin: 所以
+[00:18:19] Yang Songlin: 當時
+[00:18:20] Yang Songlin: 就是考慮到
+[00:18:21] Yang Songlin: 這個
+[00:18:22] Yang Songlin: 效率的問題
+[00:18:23] 就是
+[00:18:24] Yang Songlin: Baple
+[00:18:25] Yang Songlin: 就是
+[00:18:26] Yang Songlin: 只能用
+[00:18:27] Yang Songlin: Mamba
+[00:18:28] Yang Songlin: Tune
+[00:18:29] Yang Songlin: 那種
+[00:18:30] Yang Songlin: E度
+[00:18:31] Yang Songlin: 跟
+[00:18:32] 除了一個
+[00:18:33] Yang Songlin: 優化的層面的話
+[00:18:34] Yang Songlin: 都是有一些
+[00:18:35] Yang Songlin: 很多
+[00:18:36] Yang Songlin: 進步的
+[00:18:37] Yang Songlin: 然後
+[00:18:38] 年初的
+[00:18:39] Yang Songlin: 這個時間
+[00:18:40] Yang Songlin: 點的話
+[00:18:41] Yang Songlin: 就大家就覺得
+[00:18:42] Yang Songlin: 是不是可以重新
+[00:18:43] Yang Songlin: 來研究一下
+[00:18:45] Yang Songlin: 能不能
+[00:18:46] Yang Songlin: 把這個
+[00:18:47] 翻棍
+[00:18:48] Yang Songlin: DK
+[00:18:49] Yang Songlin: 把這個
+[00:18:50] Yang Songlin: 力度
+[00:18:51] Yang Songlin: 比較細了這個
+[00:18:52] Yang Songlin: 衰簡率
+[00:18:53] Yang Songlin: 把它
+[00:18:54] 引回到
+[00:18:55] Zhang Xiaojun: KD
+[00:18:56] Zhang Xiaojun: DK
+[00:18:57] Zhang Xiaojun: DK
+[00:18:58] Yang Songlin: 你們
+[00:18:59] Yang Songlin: 設計完
+[00:19:00] Yang Songlin: 最初
+[00:19:01] Yang Songlin: 效果
+[00:19:02] 它
+[00:19:03] Yang Songlin: 它應該是
+[00:19:04] Yang Songlin: 先試了
+[00:19:05] Yang Songlin: 一大堆
+[00:19:06] Yang Songlin: 這種
+[00:19:07] Yang Songlin: 混合
+[00:19:08] Yang Songlin: JR的這種
+[00:19:09] Yang Songlin: 混法
+[00:19:10] Yang Songlin: 然後它最開始
+[00:19:11] Yang Songlin: 是
+[00:19:12] 發現
+[00:19:13] 混
+[00:19:14] Yang Songlin: DK
+[00:19:15] Yang Songlin: 那也特別
+[00:19:16] Yang Songlin: 混其他的要好
+[00:19:17] Yang Songlin: 然後
+[00:19:18] Yang Songlin: 後面它
+[00:19:19] Yang Songlin: 就是
+[00:19:20] Yang Songlin: 因為他們
+[00:19:21] Yang Songlin: KIMI
+[00:19:22] Yang Songlin: 內部
+[00:19:23] 它是有一個
+[00:19:24] Yang Songlin: 叫做
+[00:19:25] Yang Songlin: Skelling Light
+[00:19:26] Yang Songlin: 的一個東西
+[00:19:27] Yang Songlin: 就是說
+[00:19:28] Yang Songlin: 你在
+[00:19:29] Yang Songlin: 一個
+[00:19:30] Yang Songlin: 規模
+[00:19:31] Yang Songlin: 你就
+[00:19:32] Yang Songlin: 到下面一個
+[00:19:33] Yang Songlin: 規模去
+[00:19:34] Yang Songlin: 繼續Skelling
+[00:19:35] Yang Songlin: 就
+[00:19:36] Yang Songlin: 有點像
+[00:19:37] Yang Songlin: 通關
+[00:19:38] Yang Songlin: 它有很多
+[00:19:39] Yang Songlin: 很多關卡
+[00:19:40] Yang Songlin: 過了一關
+[00:19:41] Yang Songlin: 它
+[00:19:42] Yang Songlin: 有到
+[00:19:43] Yang Songlin: 下一關
+[00:19:44] 就
+[00:19:45] Yang Songlin: 繼續
+[00:19:46] Yang Songlin: 跟
+[00:19:47] Yang Songlin: 彈省
+[00:19:48] Yang Songlin: 去比
+[00:19:49] Yang Songlin: 然後
+[00:19:50] Yang Songlin: 最開始的話
+[00:19:51] Yang Songlin: 可能就發現
+[00:19:52] Yang Songlin: 就是
+[00:19:53] Yang Songlin: Habaret
+[00:19:54] Yang Songlin: Gate
+[00:19:55] Yang Songlin: 那
+[00:19:56] 會
+[00:19:57] Yang Songlin: 會
+[00:19:58] Yang Songlin: 會
+[00:19:59] Yang Songlin: 會
+[00:20:00] 會
+[00:20:02] Yang Songlin: 會
+[00:20:30] Yang Songlin: 其實是相結的問題是一個問題
+[00:20:33] Yang Songlin: 就是在這種長文本的Coding下面
+[00:20:36] Yang Songlin: 如何解決這個效率的問題
+[00:20:39] 然後像Kimi他走的是這種混合Jury的路線
+[00:20:44] Yang Songlin: 對 其實千萬他也走的是這一條
+[00:20:47] Yang Songlin: 現在主要是在逃入這種混合Jury的這種路線
+[00:20:51] 然後像DFC的話
+[00:20:53] Yang Songlin: 他們主要就喜歡走這個西蘇蘇裏的這個路線
+[00:20:57] Yang Songlin: 他們那個Kimi Spassal Tension
+[00:20:58] Yang Songlin: 然後包括他們之前發的那個Late Spassal Tension
+[00:21:03] Yang Songlin: 都是這種走的西蘇的路線
+[00:21:05] Yang Songlin: 然後他們覺得可能西蘇是一種更好的方式
+[00:21:09] Yang Songlin: 來降低這種DCoding的Cost
+[00:21:14] Yang Songlin: 像DFC可能是Spassal Tension的話
+[00:21:19] Yang Songlin: 他應該是沒有負了Tension的
+[00:21:22] Yang Songlin: 所以他應該是每一層都是DFC Spassal Tension
+[00:21:27] Yang Songlin: 但是他每一層的話
+[00:21:29] Yang Songlin: 他都要把所有的KiriCatch把它全部存下了
+[00:21:33] Yang Songlin: 然後他只能就是從一個Triple Point
+[00:21:37] Yang Songlin: 然後來經過一些Junior
+[00:21:40] Yang Songlin: 然後得到他的那個叫做Index的一個東西來選
+[00:21:45] Yang Songlin: 那些Tobok的一個Token
+[00:21:48] 最最DFC的Tension
+[00:21:50] 然後像混合Jury的最一條路線的話
+[00:21:53] Yang Songlin: 他還是有一些全局Jury Needle
+[00:21:56] Yang Songlin: 然後他的那些比較快速的那些層
+[00:22:00] Yang Songlin: 是一些線性Jury Needle層
+[00:22:02] Yang Songlin: 然後這個好處的話
+[00:22:03] Yang Songlin: 就是說他可以使很多的KiriCatch
+[00:22:07] Yang Songlin: 然後混合Jury的話
+[00:22:09] Yang Songlin: 他就是不僅他能減少KiriCatch
+[00:22:13] Yang Songlin: 他能減少很多KiriCatch
+[00:22:15] Yang Songlin: 因為他覺得都是層都是這種
+[00:22:17] Yang Songlin: 類似Yahana的這種層
+[00:22:19] 然後他同時也能提高DCoding的效率
+[00:22:23] Yang Songlin: 然後因為他減少了KiriCatch的Size
+[00:22:26] Yang Songlin: 所以他做DCoding的時候
+[00:22:28] Yang Songlin: 可能就可以去用一些
+[00:22:31] Yang Songlin: 更大的BatchSize
+[00:22:33] Yang Songlin: 因為之前可能放不下
+[00:22:35] Yang Songlin: 然後現在KiriCatch被減少了很多
+[00:22:38] Yang Songlin: 然後這個時候可能就可以加到BatchS的Size
+[00:22:43] 像DFCSBUSS的Tension的話
+[00:22:44] Yang Songlin: 他是沒有減少KiriCatch的作用的
+[00:22:50] Yang Songlin: 但是他可以通過Size的這個
+[00:22:53] Yang Songlin: 機會來減少每一個頭肯深層的那個花肺
+[00:22:58] Yang Songlin: 對
+[00:22:59] 還有一個JAMINIMACS
+[00:23:01] 他們最新也做了一個算法的選擇
+[00:23:04] 對像MiniMax的話
+[00:23:06] Yang Songlin: 他上一版是Linia Tension
+[00:23:10] 他應該算是這種混合
+[00:23:13] Yang Songlin: 這種混合線性和平方
+[00:23:16] Yang Songlin: 助理的一個先曲
+[00:23:18] Yang Songlin: 因為他年初發的M1的版本的話
+[00:23:22] Yang Songlin: 是一個非常大規模的混合助理的一個時間
+[00:23:28] Yang Songlin: 然後他們前幾天發了一個M2的模型
+[00:23:32] Yang Songlin: 然後這個模型
+[00:23:34] Yang Songlin: 他現在就變成了一個Full of Tension
+[00:23:37] Yang Songlin: 他既不是這種混合助理
+[00:23:40] Yang Songlin: 他也不用Size的Tension
+[00:23:42] Yang Songlin: 他就乾脆把他退回了Full of Tension
+[00:23:47] Yang Songlin: 對
+[00:23:48] 這是為什麼呀
+[00:23:49] Yang Songlin: 我覺得是
+[00:23:52] 我覺得他們的這個負責團
+[00:23:55] Yang Songlin: 對他們非常的 open
+[00:23:58] Yang Songlin: 然後他們分享了很多這種經驗
+[00:24:00] Yang Songlin: 然後我覺得這個經驗都是很寶貴的
+[00:24:03] 就是比方說我知道他們說
+[00:24:06] Yang Songlin: 就是他們第一版的
+[00:24:08] Yang Songlin: 他們第一版的話
+[00:24:10] Yang Songlin: 他們監控了一些指標
+[00:24:12] Yang Songlin: 就是發現他們用到的Lighting Need
+[00:24:15] Yang Songlin: Tension的模塊
+[00:24:16] Yang Songlin: 在這些指標上面表現得很好
+[00:24:18] Yang Songlin: 然後Lighting Need
+[00:24:20] Yang Songlin: Tension他又效率更高一點
+[00:24:21] Yang Songlin: 所以他們最後就上這個Lighting Need
+[00:24:23] Yang Songlin: Tension
+[00:24:24] Yang Songlin: 對
+[00:24:25] 然後後面他們發現就是
+[00:24:27] Yang Songlin: 如果他們在一些比方說
+[00:24:29] Yang Songlin: 那種叫做
+[00:24:31] Yang Songlin: Motivop Reasoning
+[00:24:33] Yang Songlin: 就是多跳的這個
+[00:24:35] Yang Songlin: Rhythm Need
+[00:24:36] Yang Songlin: 上面這種Tasks的話
+[00:24:38] Yang Songlin: 他發現這個調點會非常的大
+[00:24:40] Yang Songlin: 對
+[00:24:41] 然後這個的話
+[00:24:42] Yang Songlin: 就當初用那個方的話
+[00:24:44] Yang Songlin: 就是
+[00:24:46] 因為他們最開始沒有去檢測這種
+[00:24:49] Yang Songlin: 多跳推力的這個能力
+[00:24:51] Yang Songlin: 然後他們主要只看那些
+[00:24:53] Yang Songlin: 比方說MML UR
+[00:24:54] Yang Songlin: 然後J的這種能力
+[00:24:57] 然後他們就選了一個非常
+[00:25:01] 就
+[00:25:02] 結果來說的話
+[00:25:02] 我覺得那個Nighting Need
+[00:25:04] Yang Songlin: Tension的話
+[00:25:04] Yang Songlin: 他其實是一個
+[00:25:06] Yang Songlin: 比較弱的一個先行注意力
+[00:25:08] Yang Songlin: 因為他那個機制就感覺
+[00:25:11] Yang Songlin: 最近兩年先行注意力
+[00:25:13] Yang Songlin: 這個領域發展了很多
+[00:25:14] Yang Songlin: 然後他用到了那個
+[00:25:16] Yang Songlin: 音量的Tension
+[00:25:17] Yang Songlin: 就給人的感覺
+[00:25:18] Yang Songlin: 就是像是兩年前的
+[00:25:20] Yang Songlin: 一個音量的Tension
+[00:25:21] Yang Songlin: 就那個技術的那個
+[00:25:23] Yang Songlin: Highting Need
+[00:25:24] Yang Songlin: 在兩年前
+[00:25:25] Yang Songlin: 對
+[00:25:26] 可能就是
+[00:25:27] Yang Songlin: 他用可能就是因為他們
+[00:25:28] Yang Songlin: 第一版他們的那個
+[00:25:30] Yang Songlin: 做評價的那個Papenai
+[00:25:33] Yang Songlin: 不夠
+[00:25:34] Yang Songlin: 想盡吧
+[00:25:35] Yang Songlin: 然後他們就選了這麼一套
+[00:25:37] Yang Songlin: 比較
+[00:25:38] Yang Songlin: 比較
+[00:25:40] 略顯哪一部的一個方案
+[00:25:42] Yang Songlin: 然後最近的話
+[00:25:44] Yang Songlin: 他們可能是想
+[00:25:47] Yang Songlin: 做了這種
+[00:25:48] Yang Songlin: Agentic Toss
+[00:25:49] Yang Songlin: 可能想做這種
+[00:25:51] Yang Songlin: Coding吧
+[00:25:52] Yang Songlin: 然後像多跳推理
+[00:25:55] Yang Songlin: 這一個能力的話
+[00:25:56] Yang Songlin: 就是會在這種場
+[00:25:58] Yang Songlin: 你下面變得非常重要
+[00:26:00] Yang Songlin: 然後他們就發現
+[00:26:01] Yang Songlin: Line Need Tension
+[00:26:02] Yang Songlin: 可能跟富爾Tension
+[00:26:04] Yang Songlin: 他直接的這個
+[00:26:07] Yang Songlin: Poformance的這個差距還挺大的
+[00:26:09] Yang Songlin: 然後
+[00:26:10] Yang Songlin: 他們就暫時退回了
+[00:26:12] Yang Songlin: 這個
+[00:26:13] 全部都是Somai's Tension
+[00:26:14] Yang Songlin: 的這個富爾Tension的這個加勾
+[00:26:17] 對
+[00:26:17] 但他們說
+[00:26:18] Yang Songlin: 他們還在繼續探索
+[00:26:20] Yang Songlin: 這種混合處理的加勾
+[00:26:23] Yang Songlin: 說不定他們下一版
+[00:26:24] Yang Songlin: Ampsan又變成混合處理加勾
+[00:26:27] Yang Songlin: 你怎麼看待就是
+[00:26:28] Zhang Xiaojun: 大家在這種算法
+[00:26:30] 上的不同的選擇
+[00:26:31] Zhang Xiaojun: 或者是反覆
+[00:26:32] Zhang Xiaojun: 像歷史的話
+[00:26:33] Yang Songlin: 就會螺旋上升
+[00:26:35] Yang Songlin: 就是一套技術方
+[00:26:36] Yang Songlin: 就肯定是要
+[00:26:37] Yang Songlin: 經過很多很多
+[00:26:39] Yang Songlin: 驗證才能最後定下來的
+[00:26:41] Yang Songlin: 對
+[00:26:42] Yang Songlin: 像M1可能當時
+[00:26:45] Yang Songlin: 就是沒有驗證
+[00:26:46] Yang Songlin: 比較充分
+[00:26:47] Yang Songlin: 所以當時就比較
+[00:26:48] Yang Songlin: 草率的上
+[00:26:50] Yang Songlin: 然後後面發現
+[00:26:51] Yang Songlin: 他在這種對跳推理上面
+[00:26:52] Yang Songlin: 他效果不好
+[00:26:53] Yang Songlin: 然後就暫時退回了
+[00:26:54] Yang Songlin: 這個也是
+[00:26:56] 很正常的
+[00:26:57] Yang Songlin: 對
+[00:26:58] 規劃公司現在
+[00:27:00] 對於混合處理
+[00:27:01] Zhang Xiaojun: 以及制探的探索方向
+[00:27:03] Zhang Xiaojun: 是什麼樣的
+[00:27:04] 各家公司什麼樣
+[00:27:05] Zhang Xiaojun: 這個我感覺
+[00:27:07] Yang Songlin: 不能講了
+[00:27:08] Zhang Xiaojun: 哦
+[00:27:09] Open i什麼的可以講了
+[00:27:11] Open i的話
+[00:27:12] Yang Songlin: 我只能講有一些
+[00:27:17] Yang Songlin: 就是有一些有
+[00:27:18] Yang Songlin: paper的一些方案
+[00:27:19] Yang Songlin: 就是沒有paper的方案
+[00:27:20] Yang Songlin: 我是不會講的
+[00:27:22] Yang Songlin: Open i的話
+[00:27:22] Yang Songlin: 他是
+[00:27:24] Yang Songlin: 他是
+[00:27:24] Yang Songlin: 表示像GPD3的話
+[00:27:26] Yang Songlin: 他在那個
+[00:27:28] Yang Songlin: 他的那個
+[00:27:28] Yang Songlin: Taglia和report裡面就講了
+[00:27:31] 他會用到一個混合的
+[00:27:33] Yang Songlin: 一個全局的一個注意力
+[00:27:35] Yang Songlin: 和一個logo的一個slayer裡面的探索
+[00:27:37] Yang Songlin: 這麼一個混合的一個方案
+[00:27:39] Yang Songlin: 對
+[00:27:40] Yang Songlin: 像這個的話
+[00:27:41] Yang Songlin: 他是在GPD3的那個報告裡面
+[00:27:44] Yang Songlin: 就已經明確地寫出來了
+[00:27:45] Yang Songlin: 所以這個是可以講的
+[00:27:47] Yang Songlin: 對
+[00:27:47] Yang Songlin: 然後像他們最近的那個
+[00:27:49] Yang Songlin: OSS的那個
+[00:27:50] Yang Songlin: 發出來的那個
+[00:27:52] 開源模型嗎
+[00:27:53] Yang Songlin: 他們也是用到這種
+[00:27:54] Yang Songlin: 華動注意力的這一套方案
+[00:27:57] Yang Songlin: 對
+[00:27:58] 所以他們應該
+[00:27:59] Yang Songlin: 就一直在用這一套
+[00:28:00] Yang Songlin: 華動注意力的方案吧
+[00:28:02] Yang Songlin: 對
+[00:28:03] 我倒後就講一下
+[00:28:04] Zhang Xiaojun: 因為你剛才說
+[00:28:05] Zhang Xiaojun: Linia 等於這兩年
+[00:28:06] Zhang Xiaojun: 發展也有很多
+[00:28:07] Zhang Xiaojun: 那給大家講一下
+[00:28:08] Zhang Xiaojun: 他的這個發展線索
+[00:28:10] 好
+[00:28:11] Zhang Xiaojun: 好
+[00:28:12] 像
+[00:28:13] Yang Songlin: Linia 等於他誕生的話
+[00:28:15] Yang Songlin: 他最開始的話
+[00:28:16] Yang Songlin: 我覺得就是非常的
+[00:28:17] Yang Songlin: Block
+[00:28:18] Yang Songlin: 對
+[00:28:19] Yang Songlin: 他就算他在短文
+[00:28:20] Yang Songlin: 不能下面
+[00:28:21] Yang Songlin: 他也Block
+[00:28:22] 然後
+[00:28:24] 因為他那個最早的
+[00:28:25] Yang Songlin: Linia 等於是
+[00:28:26] Yang Songlin: 12年12年
+[00:28:26] Yang Songlin: 發明的嗎
+[00:28:28] Yang Songlin: 然後我覺得他可能
+[00:28:29] Yang Songlin: 這中間的這幾年
+[00:28:31] Yang Songlin: 就是在Nanguage Modeling
+[00:28:33] Yang Songlin: 原建模上面
+[00:28:34] Yang Songlin: 他都沒有
+[00:28:35] Yang Songlin: 效果沒有跑到很好
+[00:28:37] 然後每一個表現
+[00:28:38] Yang Songlin: 有代表現場的功能
+[00:28:39] Yang Songlin: 就是RinLive
+[00:28:40] Yang Songlin: 然後他就是通過
+[00:28:42] Yang Songlin: 加一個
+[00:28:43] Yang Songlin: E-Wall衰減的一個機制
+[00:28:45] Yang Songlin: 然後就發現
+[00:28:47] Linia Tanshan
+[00:28:48] Yang Songlin: 他
+[00:28:49] Skyl上去他
+[00:28:51] Yang Songlin: 在原建模上面
+[00:28:52] Yang Songlin: 還是可以取得
+[00:28:54] Yang Songlin: 一個比較好的一個效果的
+[00:28:56] Yang Songlin: 對
+[00:28:57] Yang Songlin: 然後RinLive的話
+[00:28:59] Yang Songlin: 他就是
+[00:29:00] Yang Songlin: 往他加了一個
+[00:29:02] Yang Songlin: 就是輸入無關的一個DK
+[00:29:05] 輸入無關的DK的話
+[00:29:06] Yang Songlin: 就是說
+[00:29:08] Yang Songlin: 他那個E-Wall蕴
+[00:29:09] Yang Songlin: 他是跟輸入沒有關係的
+[00:29:12] Yang Songlin: 比方說他的E-Wall蕴是0.99
+[00:29:15] Yang Songlin: 那樣子的話
+[00:29:16] Yang Songlin: 他每過一個頭肯的話
+[00:29:18] Yang Songlin: 他前面的那個
+[00:29:20] Yang Songlin: Pedance Data
+[00:29:20] Yang Songlin: 他就要沉上0.99
+[00:29:23] 真的的話
+[00:29:23] 他就以往掉
+[00:29:24] Yang Songlin: 他1%的這個東西了
+[00:29:26] Yang Songlin: 然後他在把新的這個東西
+[00:29:27] Yang Songlin: 把它寫進去
+[00:29:29] 這就是一個叫做
+[00:29:30] Yang Songlin: 輸入無關的一個衰減
+[00:29:32] 這就是RinLive他用到了一個技術
+[00:29:35] 然後這種輸入無關的這種
+[00:29:39] Yang Songlin: 以往的話
+[00:29:40] Yang Songlin: 他在之後
+[00:29:41] Yang Songlin: 應該是被逐漸替換成
+[00:29:44] Yang Songlin: 那種輸入相關的一個衰減
+[00:29:47] 就比如說像我
+[00:29:49] 之前的一個叫
+[00:29:50] Yang Songlin: Gating Linear Tanshan
+[00:29:51] Yang Songlin: 前面也提到了
+[00:29:52] Yang Songlin: 就是加了一個門控的一個機制
+[00:29:56] 然後像Mamba和Mamba
+[00:29:57] Yang Songlin: Tue的話
+[00:29:58] Yang Songlin: 他們其實也是跟現行注意力的話
+[00:30:00] Yang Songlin: 是很有很多年系的
+[00:30:03] Yang Songlin: 尤其是Mamba Tue
+[00:30:04] Yang Songlin: Mamba Tue的話
+[00:30:05] Yang Songlin: 讓他基本上就可以看成是
+[00:30:07] Yang Songlin: 現行注意力
+[00:30:09] Yang Songlin: 然後他加了一個衰減
+[00:30:11] Yang Songlin: 但是這個衰減跟RinLive非常像
+[00:30:14] Yang Songlin: 然後他跟RinLive去
+[00:30:15] Yang Songlin: 比如說那個衰減
+[00:30:17] Yang Songlin: 他是有輸入來決定的
+[00:30:20] Yang Songlin: 就是每一個頭肯
+[00:30:22] Yang Songlin: 他的衰減率
+[00:30:23] Yang Songlin: 他就可能不一樣
+[00:30:24] Yang Songlin: 對
+[00:30:25] Yang Songlin: 就比方說他遇到有一些頭肯
+[00:30:28] Yang Songlin: 他覺得這些前面的內容
+[00:30:30] Yang Songlin: 沒有標誤
+[00:30:31] Yang Songlin: 他就把
+[00:30:32] Yang Songlin: 可以把那個衰減率視為一
+[00:30:34] Yang Songlin: 這樣子的話
+[00:30:35] Yang Songlin: 前面就根本不去做這種衰減
+[00:30:39] 然後如果他遇到一些頭肯
+[00:30:41] Yang Songlin: 讓他覺得
+[00:30:43] Yang Songlin: 前面這些信息已經沒有用了
+[00:30:45] 那這樣子的話
+[00:30:46] Yang Songlin: 他可以在那位置上
+[00:30:48] Yang Songlin: 用一個
+[00:30:49] 比如說讓他的衰減率等於
+[00:30:51] 那個DK.0
+[00:30:52] Yang Songlin: 這樣的的話
+[00:30:53] Yang Songlin: 前面的那個State
+[00:30:54] Yang Songlin: 就是被完全地把它忘掉了
+[00:30:57] Yang Songlin: 因為他成了一個0上去
+[00:30:58] Yang Songlin: 所以他前面的State
+[00:30:59] Yang Songlin: 就完全沒有了
+[00:31:01] 對
+[00:31:01] 像這種輸入相關的這種DK
+[00:31:04] Yang Songlin: 他就是比較靈活
+[00:31:06] Yang Songlin: 能夠通過這個數據
+[00:31:08] Yang Songlin: 來動態的血
+[00:31:09] Yang Songlin: 什麼時候該去遺忘
+[00:31:11] Yang Songlin: 然後什麼時候該去記
+[00:31:13] Yang Songlin: 這前面這個State
+[00:31:16] 然後這是
+[00:31:17] Yang Songlin: 第一個比較大的改進
+[00:31:20] Yang Songlin: 就是把這個衰減
+[00:31:21] Yang Songlin: 從輸入無關變成輸入相關
+[00:31:24] Yang Songlin: 然後第二個改進的話
+[00:31:26] Yang Songlin: 就是
+[00:31:28] Yang Songlin: 德塔奈這一種路線
+[00:31:29] Yang Songlin: 就是把他的更新的那個公式
+[00:31:32] Yang Songlin: 從最開始那個簡單的那個
+[00:31:36] Yang Songlin: 相機量探訊
+[00:31:37] Yang Songlin: 他用的其實應該叫做一個叫做
+[00:31:39] Yang Songlin: Haven rule
+[00:31:40] Yang Songlin: 對
+[00:31:41] 這個路的話
+[00:31:42] Yang Songlin: 他就是簡單的把Key和Value
+[00:31:44] Yang Songlin: 他們的外籍
+[00:31:46] 把他加到HavenState上面
+[00:31:49] Yang Songlin: 對
+[00:31:49] Yang Songlin: 他就是一個Haven的一個R rule
+[00:31:52] 然後像德塔奈這一套模型
+[00:31:55] Yang Songlin: 他用的是一個叫做
+[00:31:56] Yang Songlin: DataR rule的一個東西
+[00:31:58] Yang Songlin: DataR rule的東西的話
+[00:31:59] Yang Songlin: 就是說每一步的時候
+[00:32:02] Yang Songlin: 他先用這個Key去取出
+[00:32:05] Yang Songlin: 那個Memory裡面
+[00:32:08] Yang Songlin: 會返回一個值
+[00:32:09] Yang Songlin: 這就是這個Key
+[00:32:10] Yang Songlin: 他在這個Memory裡面
+[00:32:12] Yang Songlin: 他本來對應的這個Value
+[00:32:14] Yang Songlin: 我們管他叫做OtoValue
+[00:32:16] 然後這個Key
+[00:32:18] Yang Songlin: 他又會有一個輸入的一個Value
+[00:32:20] Yang Songlin: 我們把它叫做InputValue
+[00:32:23] Yang Songlin: 對
+[00:32:24] 然後因為他是一個
+[00:32:26] Yang Songlin: 有一個觀點記憶網絡的一個視角
+[00:32:29] Yang Songlin: 然後每一個Key
+[00:32:30] Yang Songlin: 我們想讓他只對應一個Value
+[00:32:32] 然後模型也不知道
+[00:32:34] Yang Songlin: 他應該是對應前面的Value
+[00:32:36] Yang Songlin: 還是輸入的Value
+[00:32:38] 這個後來我們有一個可以學習的
+[00:32:40] Yang Songlin: 一個Tone叫做Bita
+[00:32:42] Yang Songlin: BitaR我們可以看成
+[00:32:44] Yang Songlin: 他是一個
+[00:32:45] Yang Songlin: 值在0到1之間的一個系數
+[00:32:49] Yang Songlin: 用來決定
+[00:32:50] Yang Songlin: 我們要用多少的前面的OtoValue
+[00:32:54] Yang Songlin: 然後要用多少這個輸入的Value
+[00:32:57] Yang Songlin: 我們會做一個線性組合
+[00:33:00] Yang Songlin: 通過這個系數
+[00:33:01] Yang Songlin: 我們回來做一個線性組合
+[00:33:03] Yang Songlin: 對
+[00:33:03] Yang Songlin: 然後得到他最後的那個新的Value
+[00:33:07] Yang Songlin: 然後把這個舊的Value和Key
+[00:33:09] Yang Songlin: 他的外籍把他從Memory裡面剪去
+[00:33:12] Yang Songlin: 然後把這個新的Value和Key
+[00:33:15] Yang Songlin: 他的外籍把他加到這個觀點網絡裡面
+[00:33:19] Yang Songlin: 對
+[00:33:19] Yang Songlin: 這就是DataNet
+[00:33:21] Yang Songlin: 他那個跟新公式的一個
+[00:33:23] Yang Songlin: Hallel的一個Ido
+[00:33:28] 然後相比於
+[00:33:29] Yang Songlin: 你兩三成的話
+[00:33:30] Yang Songlin: 他其實是有一個
+[00:33:32] Yang Songlin: 剪法的一個操作在裡面的
+[00:33:33] Yang Songlin: 他不但可以
+[00:33:35] Yang Songlin: 就加法的話
+[00:33:36] Yang Songlin: 可以把它想像成是
+[00:33:38] 往這個記憶網絡裡面去把它
+[00:33:40] Yang Songlin: 去寄東西
+[00:33:42] Yang Songlin: 那麼剪法的話
+[00:33:43] Yang Songlin: 就可以把它理解成
+[00:33:44] Yang Songlin: 從這個記憶網絡裡面
+[00:33:46] Yang Songlin: 把它刪除一些東西
+[00:33:48] Yang Songlin: 對
+[00:33:49] 像這個畫面就會比較
+[00:33:51] Yang Songlin: 更加有針對性的來刪東西
+[00:33:53] Yang Songlin: 像之前那個DK的話
+[00:33:55] Yang Songlin: 可能就是很多圍圖一起在做DK
+[00:33:57] Yang Songlin: 像現在的話
+[00:33:58] Yang Songlin: 就是就是只取某一個分量
+[00:34:01] 然後他有一些
+[00:34:04] 非常有目標性的這種
+[00:34:06] Yang Songlin: 刪東西的操作在裡面
+[00:34:08] Yang Songlin: 嗯
+[00:34:10] 對
+[00:34:11] 所以這Data
+[00:34:13] Yang Songlin: 如果也代表了
+[00:34:14] Yang Songlin: 第二個改進的話
+[00:34:15] Yang Songlin: 就應該是
+[00:34:17] 尼尼爾探純這個領域
+[00:34:19] Yang Songlin: 裡面最近的第二個改進了嗎
+[00:34:22] 就包括像DataNet
+[00:34:24] Yang Songlin: GateeDataNet
+[00:34:26] 像RockleSiren
+[00:34:27] Yang Songlin: 他們都用到這個DataRoo
+[00:34:29] Yang Songlin: 對
+[00:34:30] 為什麼尼尼爾探純從一開始
+[00:34:31] Zhang Xiaojun: 效果不好
+[00:34:32] Zhang Xiaojun: 到慢慢的一步改進
+[00:34:33] Zhang Xiaojun: 大家就是相信他還是Promise
+[00:34:36] Zhang Xiaojun: 我覺得每一次大家關心尼尼爾探純
+[00:34:39] Yang Songlin: 那肯定是因為大家
+[00:34:41] Yang Songlin: 碰到了一些ContextWorl
+[00:34:43] Yang Songlin: 對
+[00:34:44] 像大家最開始的時候
+[00:34:45] Yang Songlin: 去研究尼尼爾探純
+[00:34:48] Yang Songlin: 就是
+[00:34:48] Yang Songlin: 比如說在2020年左右的時候
+[00:34:50] Yang Songlin: 大家去研究尼尼爾探純
+[00:34:52] 是因為那個時候
+[00:34:54] Yang Songlin: 大家遇到第一個ContextWorl
+[00:34:57] Yang Songlin: 就是遇到一個Context這種強
+[00:35:00] Yang Songlin: 然後他就是撞到這個強
+[00:35:04] Yang Songlin: 就是他如果想繼續提高Context
+[00:35:06] Yang Songlin: 那就是能找一些
+[00:35:08] 負責多小魚
+[00:35:09] Yang Songlin: Softmas
+[00:35:10] Yang Songlin: 小魚平方的一些
+[00:35:12] Yang Songlin: 嗯
+[00:35:12] Yang Songlin: 東西來了
+[00:35:13] Yang Songlin: 對
+[00:35:14] 因為當時像Burt在那個年代
+[00:35:17] Yang Songlin: 他的那個訓練其實就是500以上
+[00:35:19] Yang Songlin: 對
+[00:35:20] 然後當時可能覺得2048
+[00:35:23] Yang Songlin: 當時在當時的那個視角
+[00:35:25] Yang Songlin: 可能8192就是一個算一個長文本了
+[00:35:28] Yang Songlin: 因為那個地方就非常的慢嘛
+[00:35:31] 然後後面就隨著Flash Irtension
+[00:35:33] Yang Songlin: 這個技術的單身
+[00:35:36] Yang Songlin: 然後就打破了這一毒牆
+[00:35:38] Yang Songlin: 對
+[00:35:38] Yang Songlin: 然後現在看了
+[00:35:39] Yang Songlin: 就是8192
+[00:35:40] Yang Songlin: 就是一個非常短的一個文本了嗎
+[00:35:42] Yang Songlin: 就在這上面做訓練是沒有一點這個壓力的
+[00:35:46] Yang Songlin: 但是在之前
+[00:35:47] Yang Songlin: 就之前的話
+[00:35:48] Yang Songlin: 他沒有Flash Irtension的時候
+[00:35:50] 他是計算的話
+[00:35:51] Yang Songlin: 他需要把這個
+[00:35:53] 平方的這個Tension舉證
+[00:35:56] Yang Songlin: 要把他
+[00:35:57] Yang Songlin: 先把他
+[00:35:59] 就是要把他使力化在那個
+[00:36:02] Yang Songlin: Global Memory上面
+[00:36:04] Yang Songlin: 然後要把他從Global Memory裡面
+[00:36:06] Yang Songlin: 把它搬回那個
+[00:36:08] 嗯
+[00:36:09] Flash Memory裡面
+[00:36:11] 這樣子的話
+[00:36:11] 他那個
+[00:36:12] Yang Songlin: Memory的那個毒血
+[00:36:14] Yang Songlin: 他整體的那開箱非常的大的
+[00:36:17] 然後同時
+[00:36:17] 因為這個
+[00:36:18] Yang Songlin: Tension舉證會被使力化在那個Global Memory裡面
+[00:36:22] Yang Songlin: 他可能就是會帶來一個
+[00:36:24] Yang Songlin: Out of Memory的一個問題
+[00:36:26] Yang Songlin: 這就是最開始
+[00:36:28] Yang Songlin: 大家研究
+[00:36:29] Yang Songlin: 你量的Tension這個模特為止
+[00:36:32] 然後隨著Flash Irtension的話
+[00:36:34] Yang Songlin: 大家就發現這一毒牆
+[00:36:36] Yang Songlin: 就其實已經破了嗎
+[00:36:39] Yang Songlin: 就既然我們能用這種
+[00:36:41] Yang Songlin: Exit方式來直接算這個SuffMinds的Tension
+[00:36:44] Yang Songlin: 那我們就沒必要找一些
+[00:36:45] Yang Songlin: Ninliant的Tension去逼近他嗎
+[00:36:47] Yang Songlin: 所以大家就
+[00:36:49] Yang Songlin: Ninliant Tension的演技就開始
+[00:36:51] Yang Songlin: 沒有那麼受關注了
+[00:36:54] 然後直到最近吧
+[00:36:56] Yang Songlin: 這邊要說
+[00:36:58] Yang Songlin: 像這種長文本的Decoding
+[00:37:01] Yang Songlin: 又重新成了一個需求量
+[00:37:03] Yang Songlin: 非常大的一個東西
+[00:37:05] 然後
+[00:37:07] Yang Songlin: 就是這種
+[00:37:07] Yang Songlin: 發生Model他要塗很多很多的偷肯
+[00:37:10] Yang Songlin: 然後要都是這種Decoding
+[00:37:12] Yang Songlin: 然後這個花消的話
+[00:37:13] Yang Songlin: 就是就會讓人們又不由自主的
+[00:37:16] Yang Songlin: 又重新來審視這一套的技術
+[00:37:19] Yang Songlin: 然後這一套技術
+[00:37:20] Yang Songlin: 他本身在學界就
+[00:37:23] Yang Songlin: 又有了這麼久的發生嗎
+[00:37:25] 尤其是在Flash Irtension之後
+[00:37:27] Yang Songlin: 就學界其實也一時到就是說
+[00:37:30] 如果像Ninliant Tension這一套模型
+[00:37:33] 如果想讓大家
+[00:37:34] Yang Songlin: 被大家接受的話
+[00:37:36] Yang Songlin: 那他硬件上面的效率是非常關鍵的
+[00:37:39] 對
+[00:37:39] 所以就是為什麼我最開始的時候
+[00:37:41] Yang Songlin: 就是叫做Flash Ninliant Tension的一個Pro站
+[00:37:44] Yang Songlin: 就是致力於就是把這些
+[00:37:47] Yang Songlin: Ninliant Tension的這些變種
+[00:37:49] Yang Songlin: 然後用Tryton
+[00:37:51] Yang Songlin: 把它再
+[00:37:52] 就寫了一個酷
+[00:37:53] Yang Songlin: 然後寫了很多可能
+[00:37:54] Yang Songlin: 讓他能夠在當代的硬件上面
+[00:37:57] Yang Songlin: 主要是GPU上面能夠來快速運行
+[00:38:00] Yang Songlin: 對
+[00:38:01] 所以他核心是效率更高
+[00:38:03] Zhang Xiaojun: 價格更低
+[00:38:04] 就是每當Soft-Mise
+[00:38:06] Yang Songlin: 他的效率變成一個平靜的時候
+[00:38:10] Yang Songlin: 大家就會回來看Ninliant Tension
+[00:38:12] Yang Songlin: 大家就是這樣子的一個歷史
+[00:38:13] Yang Songlin: Ninliant Tension現在是公式了嗎
+[00:38:17] Yang Songlin: 我覺得Ninliant Tension
+[00:38:19] 我現在現在的公式的設計
+[00:38:20] Yang Songlin: 就是說Tryton Ninliant Tension是不 work的
+[00:38:23] Yang Songlin: 對
+[00:38:23] Yang Songlin: 就是他在這種長文本下面
+[00:38:26] Yang Songlin: 他是有一些比較翻到漫頭的一些缺陷的
+[00:38:29] Yang Songlin: 對
+[00:38:30] Yang Songlin: 然後
+[00:38:31] Yang Songlin: 現在大家一般都不會去嘗試這種
+[00:38:35] Yang Songlin: 純陷信的這種模型
+[00:38:39] 然後像一些比較折磨的一些法案
+[00:38:43] Yang Songlin: 像這種混合注意的話
+[00:38:45] Yang Songlin: 他就是還是有很多很多的
+[00:38:47] Yang Songlin: 陷信注意歷程
+[00:38:49] 但是他還是有一定數目的這種
+[00:38:54] 全局注意歷程
+[00:38:56] 這樣子的話
+[00:38:57] Yang Songlin: 他這個模型他的下線是有保證的
+[00:39:00] Yang Songlin: 對他處理長文本他也是有一定的保證的
+[00:39:04] 因為他中規他還是有很多這種
+[00:39:06] Yang Songlin: 全局注意歷程
+[00:39:08] 像全線性的這個網絡的話
+[00:39:10] Yang Songlin: 他可能從理論上面
+[00:39:12] Yang Songlin: 他就沒有辦法做那種長文本Task
+[00:39:16] Yang Songlin: 因為他的那個
+[00:39:18] Yang Songlin: 阿恩的那個狀態數目是很定的
+[00:39:21] Yang Songlin: 然後隨著那個Contest
+[00:39:23] Yang Songlin: 他那個長度增加的話
+[00:39:25] Yang Songlin: 那他早晚會存不下
+[00:39:28] Yang Songlin: 那早晚會損失很多那種金度在裡面嗎
+[00:39:33] Yang Songlin: 然後但是像混合注意的話
+[00:39:35] Yang Songlin: 他有很多那個
+[00:39:37] Yang Songlin: 全局注意歷在裡面
+[00:39:39] Yang Songlin: 所以還是可以通過這些
+[00:39:41] Yang Songlin: 全局注意歷來完成這些長文本的Task
+[00:39:45] 對然後像
+[00:39:47] Yang Songlin: 比如說像Kimi Nino這個
+[00:39:49] Yang Songlin: Paper
+[00:39:50] Yang Songlin: 然後像之前千萬三那個
+[00:39:53] Yang Songlin: Kun 3 Next
+[00:39:56] Yang Songlin: 他就是
+[00:39:59] Yang Songlin: 他們那個長文本
+[00:40:00] Yang Songlin: 比如說像Rule的
+[00:40:01] Yang Songlin: 比如說像Kita Task那個表現
+[00:40:04] Yang Songlin: 沒有掉點
+[00:40:05] Yang Songlin: 對所以他在長文本上面還是有一些
+[00:40:08] Yang Songlin: 有一定的能力的
+[00:40:10] Yang Songlin: 然後混合注意就會收到很多
+[00:40:13] Yang Songlin: 很多地方的關注
+[00:40:15] Yang Songlin: 但是我也不知道他算不算共識
+[00:40:17] Yang Songlin: 對因為不同的地方還是在
+[00:40:20] Yang Songlin: 長世不同的方案嗎
+[00:40:22] Yang Songlin: 比如說像Diff See
+[00:40:24] Yang Songlin: 在長世這種Spaça Tanzen的這種方案
+[00:40:27] Yang Songlin: 那Kimi的這個論文裡面
+[00:40:30] Zhang Xiaojun: 你們提出的是美三層的KDA
+[00:40:33] Zhang Xiaojun: 也就是Kimi Delta Tanzen
+[00:40:35] Zhang Xiaojun: 增量注意力機制
+[00:40:36] Zhang Xiaojun: 插入一層全注意力機制
+[00:40:38] Zhang Xiaojun: 佛羅 Tanzen
+[00:40:39] Zhang Xiaojun: 這個比例是怎麼確定的
+[00:40:41] Zhang Xiaojun: 這個比例重要嗎
+[00:40:42] Zhang Xiaojun: 我覺得三比一現在有快變成一個公司了吧
+[00:40:45] Yang Songlin: 對像Mini Max他之前
+[00:40:48] Yang Songlin: 是一個7B一個一個比例
+[00:40:50] Yang Songlin: 對
+[00:40:51] Yang Songlin: 然後7B的話
+[00:40:53] Yang Songlin: 可能Sof Maser Tanzen那個層數不夠
+[00:40:56] Yang Songlin: 然後長文本的那個保證可能沒有那麼好
+[00:40:59] Yang Songlin: 然後我記得之前
+[00:41:02] Yang Songlin: 就是自己也發了一個
+[00:41:05] paper就是來研究這個Hyper架構
+[00:41:08] Yang Songlin: 他需要百分之多
+[00:41:10] Yang Songlin: 吵了Sof Maser Tanzen
+[00:41:12] Yang Songlin: 然後他們的簡論也是說
+[00:41:15] Yang Songlin: 就他們做了很多Pretrent
+[00:41:17] Yang Songlin: Fans Grash的一些實驗
+[00:41:19] Yang Songlin: 然後他們就是通過改
+[00:41:21] Yang Songlin: 那個不同的這個
+[00:41:23] Yang Songlin: Ninliant Tanzen的這個魔咒
+[00:41:26] Yang Songlin: 然後他也改那個混合的比例
+[00:41:29] Yang Songlin: 然後他們的簡論大概就是說
+[00:41:31] Yang Songlin: 3B1的這個比例是最好的
+[00:41:35] Yang Songlin: 然後Gaky Delta那這個魔塊
+[00:41:37] Yang Songlin: 就是比其他的那些
+[00:41:39] Yang Songlin: 另外的那些KDA的要好的
+[00:41:42] Yang Songlin: 所以3B1
+[00:41:44] Yang Songlin: 然後後面千萬3
+[00:41:46] Yang Songlin: Next的話
+[00:41:47] Yang Songlin: 就是用到3B1然後換Gaky Delta那這個方案
+[00:41:50] Yang Songlin: 然後這個方案應該是
+[00:41:52] Yang Songlin: 不同的場上
+[00:41:53] Yang Songlin: 他們探索出來
+[00:41:55] Yang Songlin: 都是覺得這個比例是更好的
+[00:41:57] Yang Songlin: 對
+[00:41:58] Yang Songlin: 然後這個可能是最開始
+[00:42:00] Yang Songlin: MiniMax沒有驗證重訟
+[00:42:02] Yang Songlin: 就是現在也說他們可能
+[00:42:04] Yang Songlin: 最開始的評測還是
+[00:42:06] Yang Songlin: 有一些不足
+[00:42:08] Yang Songlin: 所以他們用到一個
+[00:42:09] Yang Songlin: 更加Egressive的一個方案
+[00:42:11] Yang Songlin: 就是7B
+[00:42:13] Yang Songlin: 然後現在的話
+[00:42:14] 基本上就是都回到3B
+[00:42:16] Yang Songlin: 這個上面來了
+[00:42:18] Yang Songlin: 然後我覺得3B應該就是一個
+[00:42:20] Yang Songlin: 在這個不共識的
+[00:42:22] Yang Songlin: 這個Hybrid Nini裡面的一個共識了
+[00:42:24] Yang Songlin: 就是大家用3B的一個比例
+[00:42:26] Yang Songlin: 來換這個魔心
+[00:42:29] Yang Songlin: 是不是你們在算法設計的時候
+[00:42:31] Zhang Xiaojun: 始終要平衡表達難力和計算效率
+[00:42:34] Zhang Xiaojun: 這兩者是他的核心
+[00:42:36] Zhang Xiaojun: 比如說北極新指標嘛
+[00:42:37] Zhang Xiaojun: 確實吧
+[00:42:38] 我覺得還是有一些
+[00:42:39] Yang Songlin: Trade of the...
+[00:42:41] Yang Songlin: 對
+[00:42:42] Yang Songlin: 像全球主力的話
+[00:42:44] Yang Songlin: 他如果太少的話
+[00:42:45] Yang Songlin: 我感覺就比方說
+[00:42:46] Yang Songlin: 像這種Resonant Tatsuk
+[00:42:49] Yang Songlin: 然後像長文本Tatsuk
+[00:42:50] Yang Songlin: 他肯定會
+[00:42:52] Yang Songlin: 會說的影響表達
+[00:42:54] Yang Songlin: 他可能一些
+[00:42:56] Yang Songlin: 說的Contest的一些Tatsuk
+[00:42:58] Yang Songlin: 沒有什麼影響
+[00:42:59] Yang Songlin: 比方說MMU
+[00:43:00] Yang Songlin: 但是那些長文本
+[00:43:02] Yang Songlin: 和推理的Tatsuk
+[00:43:03] Yang Songlin: 他應該是
+[00:43:04] Yang Songlin: 能看到的
+[00:43:05] Yang Songlin: 那個現象會比較大的
+[00:43:07] Yang Songlin: 對
+[00:43:08] Yang Songlin: 但是從另外一方面來說
+[00:43:11] Yang Songlin: 也不是說
+[00:43:13] Yang Songlin: Tanshen成越多越好嗎
+[00:43:15] Yang Songlin: 因為像大家
+[00:43:16] Yang Songlin: 如果訓完之後
+[00:43:17] Yang Songlin: 會發現
+[00:43:18] Yang Songlin: 9大多數的Tanshen成
+[00:43:20] Yang Songlin: 他可能就是沒有用的嘛
+[00:43:22] Yang Songlin: 對
+[00:43:23] 然後他有一些關鍵的層的Tanshen
+[00:43:24] Yang Songlin: 他是有用的
+[00:43:26] Yang Songlin: 他不是每一層的
+[00:43:27] Yang Songlin: Tanshen都有用的
+[00:43:28] Yang Songlin: 然後這個網絡
+[00:43:29] 他本身自己
+[00:43:30] Yang Songlin: 他就是
+[00:43:31] Yang Songlin: 有一個榮譽都在裡面的
+[00:43:33] Yang Songlin: 這次他就
+[00:43:34] Yang Songlin: 給我們帶來一些機會嘛
+[00:43:35] Yang Songlin: 這比方說
+[00:43:36] Yang Songlin: 我們可以把一些層
+[00:43:37] Yang Songlin: 把它換成一些現心層嘛
+[00:43:39] Yang Songlin: 對
+[00:43:40] Yang Songlin: 所以混合的
+[00:43:42] Yang Songlin: 價格就不一定
+[00:43:43] Yang Songlin: 我覺得他不一定代表
+[00:43:44] Yang Songlin: 就是他比那個
+[00:43:46] Yang Songlin: Global
+[00:43:47] Yang Songlin: 要差嘛
+[00:43:49] Yang Songlin: 然後他
+[00:43:50] Yang Songlin: 有很多可能
+[00:43:51] Yang Songlin: 就是說他可能
+[00:43:52] Yang Songlin: 是一個全面
+[00:43:53] Yang Songlin: 更好的一個T-Dike方案吧
+[00:43:55] Yang Songlin: 然後像Mini Max
+[00:43:57] Yang Songlin: 他之前
+[00:43:58] Yang Songlin: 他們也發
+[00:43:59] Yang Songlin: 他說
+[00:44:00] Yang Songlin: 他成那一點
+[00:44:01] Yang Songlin: 我覺得非常的好
+[00:44:02] Yang Songlin: 就是說
+[00:44:03] Yang Songlin: 他們發現
+[00:44:02] Yang Songlin: Ninja Tanshen
+[00:44:05] Yang Songlin: 或者Hybrid
+[00:44:06] Yang Songlin: 這種華創墜率
+[00:44:08] Yang Songlin: 然後在那個長文本的
+[00:44:10] Yang Songlin: Motihop
+[00:44:11] Yang Songlin: 多跳推理上面
+[00:44:12] Yang Songlin: 會有缺陷
+[00:44:13] Yang Songlin: 對
+[00:44:14] 像這個的話呢
+[00:44:16] Yang Songlin: 就是
+[00:44:17] Yang Songlin: 我覺得這個
+[00:44:18] Yang Songlin: 應該是現在Hybrid
+[00:44:19] Yang Songlin: 他
+[00:44:20] Yang Songlin: 唯一的一個問題吧
+[00:44:22] Yang Songlin: 對
+[00:44:23] Yang Songlin: 因為他
+[00:44:24] Yang Songlin: 就是
+[00:44:25] Yang Songlin: 就我所知的話
+[00:44:26] Yang Songlin: 我覺得
+[00:44:27] Yang Songlin: 我只知道他在
+[00:44:28] Yang Songlin: 其他他上面
+[00:44:29] Yang Songlin: 基本上
+[00:44:30] Yang Songlin: 是不會比
+[00:44:31] Yang Songlin: 全部都是
+[00:44:32] Yang Songlin: Sophie Max
+[00:44:33] Yang Songlin: 他才是要差的
+[00:44:34] Yang Songlin: 他只會在這個
+[00:44:36] Yang Songlin: 就是
+[00:44:37] Yang Songlin: 這個也不要
+[00:44:38] Yang Songlin: 好理解嘛
+[00:44:39] Yang Songlin: 就像這種多跳推理的話呢
+[00:44:40] Yang Songlin: 他就是
+[00:44:41] Yang Songlin: 比較吃這種
+[00:44:42] Yang Songlin: 頭肯和頭肯之間的關係
+[00:44:44] Yang Songlin: 所以他可能就
+[00:44:45] Yang Songlin: 比較吃
+[00:44:46] Yang Songlin: 他這個Sophie Max
+[00:44:47] Yang Songlin: Tanshen
+[00:44:48] Yang Songlin: 他的這個層數
+[00:44:49] Yang Songlin: 對
+[00:44:50] Yang Songlin: 這個就是
+[00:44:52] Yang Songlin: 我覺得就是
+[00:44:54] Yang Songlin: 我非常吃這個
+[00:44:56] Yang Songlin: 全局注意力的層數的這個
+[00:44:58] Yang Songlin: 任務不是很多吧
+[00:45:00] Yang Songlin: 可能就只有這種
+[00:45:01] Yang Songlin: 多跳推理啊
+[00:45:03] Yang Songlin: 然後這種長文本
+[00:45:04] 做Rizzer
+[00:45:05] Yang Songlin: 也這種會
+[00:45:06] Yang Songlin: 稍微吃一點
+[00:45:07] Yang Songlin: 然後其他
+[00:45:08] Yang Songlin: 很多Tanshen
+[00:45:09] Yang Songlin: 基本上不吃的話
+[00:45:10] Yang Songlin: 那當然他是
+[00:45:11] Yang Songlin: 完全不會受影響的
+[00:45:12] Yang Songlin: 然後像這種
+[00:45:14] 多跳推理這個Tanshen
+[00:45:16] Yang Songlin: 呢
+[00:45:17] Yang Songlin: 我覺得就是
+[00:45:19] Yang Songlin: 就是
+[00:45:20] 如果我們去開發一些
+[00:45:22] Yang Songlin: 音劍高效
+[00:45:23] Yang Songlin: 但是他表達呢
+[00:45:24] Yang Songlin: 你更好的一些
+[00:45:25] Yang Songlin: R&D的話呢
+[00:45:26] Yang Songlin: 這個Gap
+[00:45:29] 他是有可能
+[00:45:30] Yang Songlin: 被直接被
+[00:45:32] Yang Songlin: 縮小
+[00:45:33] Yang Songlin: 甚至
+[00:45:34] Yang Songlin: 會
+[00:45:36] Yang Songlin: 反超這個Gap的
+[00:45:37] Yang Songlin: 對
+[00:45:38] Yang Songlin: 這是比方說
+[00:45:40] Yang Songlin: 像
+[00:45:41] Yang Songlin: Kimi
+[00:45:42] Yang Songlin: 他最近
+[00:45:43] Yang Songlin: 這個
+[00:45:44] Yang Songlin: 尼尼爾
+[00:45:45] Yang Songlin: 就張雲
+[00:45:46] Yang Songlin: 之前完就發現
+[00:45:47] Yang Songlin: 就是把這個
+[00:45:48] Yang Songlin: 力度
+[00:45:49] Yang Songlin: 符的這個DK
+[00:45:50] Yang Songlin: 換成力度系的DK
+[00:45:51] Yang Songlin: 之後呢
+[00:45:52] Yang Songlin: 他在這些
+[00:45:53] Yang Songlin: Multi-hole Rhythm
+[00:45:54] Yang Songlin: Coding
+[00:45:55] 和Math
+[00:45:56] Yang Songlin: 這些Tanshen
+[00:45:57] Yang Songlin: 上面
+[00:45:58] Yang Songlin: 他那個體系身
+[00:45:59] Yang Songlin: 還是
+[00:46:00] Yang Songlin: 比較可觀的
+[00:46:01] Yang Songlin: 然後
+[00:46:02] Yang Songlin: 就是說這些Tanshen
+[00:46:04] Yang Songlin: 就是
+[00:46:05] Yang Songlin: Hyper可以做得更好
+[00:46:07] Yang Songlin: 然後現在
+[00:46:08] Yang Songlin: 混合
+[00:46:09] Yang Songlin: 現身最厲害
+[00:46:10] Yang Songlin: 只是一個開始
+[00:46:12] Yang Songlin: 對然後我覺得
+[00:46:13] Yang Songlin: 整體的
+[00:46:14] Yang Songlin: 還是
+[00:46:15] 很有可能
+[00:46:16] Yang Songlin: 做出
+[00:46:17] Yang Songlin: 就是更好的這種
+[00:46:18] Yang Songlin: 混合
+[00:46:19] Yang Songlin: 注意機制的
+[00:46:20] Yang Songlin: 就是可以
+[00:46:21] Yang Songlin: 去掉一下
+[00:46:22] Yang Songlin: 現身最厲害的
+[00:46:23] Yang Songlin: 那個魔塊
+[00:46:25] 你這過程中
+[00:46:26] Zhang Xiaojun: 有給Kimi什麼算法建議
+[00:46:30] 對我就是
+[00:46:32] Yang Songlin: 就是張雲
+[00:46:33] Yang Songlin: 想完那個
+[00:46:34] Yang Songlin: 翻規DK
+[00:46:35] Yang Songlin: 然後我就
+[00:46:36] Yang Songlin: 幫他想
+[00:46:37] Yang Songlin: 一個那個
+[00:46:39] Yang Songlin: 就是創作
+[00:46:40] Yang Songlin: 那個
+[00:46:41] Yang Songlin: 變形的算法
+[00:46:42] Yang Songlin: 對
+[00:46:43] Yang Songlin: 感覺這個應該
+[00:46:44] Yang Songlin: 可能就是我對
+[00:46:45] 這個工作的唯一的
+[00:46:46] Yang Songlin: 貢獻的方法
+[00:46:47] Yang Songlin: 對
+[00:46:48] Yang Songlin: 因為他這個
+[00:46:49] Yang Songlin: 都是
+[00:46:50] Yang Songlin: 今晚都是張雲
+[00:46:51] Yang Songlin: 在Kimi
+[00:46:52] Yang Songlin: 做了很多
+[00:46:53] Yang Songlin: 很多obolation study
+[00:46:54] Yang Songlin: 基本上都他做的
+[00:46:56] 對
+[00:46:57] Yang Songlin: 所以快點
+[00:46:58] Yang Songlin: 基本上都在他了
+[00:46:59] Yang Songlin: 你不在我這裡
+[00:47:01] 然後像這個算法
+[00:47:02] 的話
+[00:47:03] Yang Songlin: 我覺得
+[00:47:04] Yang Songlin: 其實也是
+[00:47:06] Yang Songlin: 之前
+[00:47:07] Yang Songlin: 就是有一篇文章
+[00:47:08] Yang Songlin: 叫做
+[00:47:09] Yang Songlin: comba
+[00:47:10] Yang Songlin: 然後他
+[00:47:11] Yang Songlin: 就是設計了
+[00:47:12] Yang Songlin: 一個新的算法
+[00:47:13] Yang Songlin: 能夠
+[00:47:14] Yang Songlin: 把那個
+[00:47:15] Yang Songlin: Gate Data
+[00:47:16] Yang Songlin: 他那個
+[00:47:17] Yang Songlin: 球膩的那個算法
+[00:47:18] Yang Songlin: 把它減少一次
+[00:47:19] Yang Songlin: 對
+[00:47:20] Yang Songlin: 然後我看完那個算法
+[00:47:22] Yang Songlin: 之後我就發現
+[00:47:23] Yang Songlin: 那我
+[00:47:25] Yang Songlin: 就可以把那個
+[00:47:26] Yang Songlin: GDM
+[00:47:27] Yang Songlin: 叫Gate Data
+[00:47:28] Yang Songlin: 他那個球膩
+[00:47:29] Yang Songlin: 減少一次
+[00:47:30] 然後我又
+[00:47:31] Yang Songlin: 緊接著
+[00:47:32] Yang Songlin: 我又推了一個
+[00:47:33] Yang Songlin: 能夠
+[00:47:34] 試用於KDM的這個算法
+[00:47:36] Yang Songlin: 然後我就
+[00:47:37] Yang Songlin: 把這個算法告訴張雲了
+[00:47:38] Yang Songlin: 然後張雲
+[00:47:39] Yang Songlin: 他就去寫
+[00:47:40] Yang Songlin: 可能去實現這個算法
+[00:47:42] Yang Songlin: 然後就發現
+[00:47:43] Yang Songlin: 這個算法還是
+[00:47:44] Yang Songlin: 他的這個
+[00:47:45] Skeleton
+[00:47:46] Yang Songlin: 比之前的那個
+[00:47:48] Yang Songlin: 算法要好一點的
+[00:47:50] Yang Songlin: 對
+[00:47:51] Yang Songlin: 問一個
+[00:47:52] 很Junner的問題
+[00:47:53] Zhang Xiaojun: 是一個研究員
+[00:47:54] Zhang Xiaojun: Antention
+[00:47:55] Zhang Xiaojun: 到底應該怎麼設計
+[00:47:56] Zhang Xiaojun: 這個問題的話
+[00:47:59] Yang Songlin: 我覺得現在可能
+[00:48:01] Yang Songlin: 就只有
+[00:48:02] 兩條
+[00:48:03] Yang Songlin: 不要主流的路線吧
+[00:48:05] Yang Songlin: 一種就是
+[00:48:07] Hybrid線線
+[00:48:09] Yang Songlin: 然後一種就是Spares
+[00:48:10] Yang Songlin: 對
+[00:48:11] Yang Songlin: 然後我覺得這兩種
+[00:48:13] Yang Songlin: 他其實
+[00:48:14] Yang Songlin: 都是非常的
+[00:48:15] Yang Songlin: Promising的
+[00:48:16] Yang Songlin: 對
+[00:48:18] 然後
+[00:48:19] 另外可能有一些
+[00:48:21] Yang Songlin: 比較非主流的
+[00:48:22] 一些個彈省設計嗎
+[00:48:23] Yang Songlin: 就比方說
+[00:48:24] Yang Songlin: 我看上次
+[00:48:26] Yang Songlin: Mata還放了一個論文
+[00:48:28] Yang Songlin: 就是搞一個
+[00:48:29] Yang Songlin: Santhesaw的彈省
+[00:48:30] Yang Songlin: 就是寫
+[00:48:32] Yang Songlin: 平方複雜度
+[00:48:33] Yang Songlin: 他還不夠
+[00:48:34] Yang Songlin: 他還要搞一個
+[00:48:35] Yang Songlin: Santhesaw的
+[00:48:38] 然後像
+[00:48:40] Yang Songlin: 有些地方
+[00:48:41] Yang Songlin: 他有一些
+[00:48:42] Yang Songlin: 比較有意思的一些
+[00:48:43] Yang Songlin: 平方複雜度的
+[00:48:44] Yang Songlin: 一些
+[00:48:45] Yang Songlin: Tanthes的變種
+[00:48:46] 比方說
+[00:48:47] Yang Songlin: 拜登是他之前
+[00:48:48] Yang Songlin: 有一道Data
+[00:48:49] Yang Songlin: Formor的
+[00:48:50] Yang Songlin: 就像那就是
+[00:48:51] Yang Songlin: 把Data
+[00:48:52] Yang Songlin: 入的思想
+[00:48:53] Yang Songlin: 把他引入到
+[00:48:54] Yang Songlin: Somice的Tanthesaw
+[00:48:55] Yang Songlin: 能夠讓他表達
+[00:48:56] Yang Songlin: 那更強
+[00:48:57] Yang Songlin: 然後像這個工作
+[00:48:58] Yang Songlin: 我覺得也非常有意思
+[00:48:59] Yang Songlin: 對
+[00:49:00] 然後
+[00:49:02] Yang Songlin: 改進註列的話
+[00:49:03] Yang Songlin: 他要么
+[00:49:04] Yang Songlin: 就是把
+[00:49:05] Yang Songlin: Somice的
+[00:49:06] Yang Songlin: 他做得更好嗎
+[00:49:07] Yang Songlin: 要不然的話
+[00:49:08] Yang Songlin: 就是做一些
+[00:49:09] Yang Songlin: 更加高效的
+[00:49:10] Yang Songlin: 一些
+[00:49:11] Yang Songlin: Wireland比方說
+[00:49:12] Yang Songlin: Sbasa
+[00:49:13] Yang Songlin: 或者這種
+[00:49:14] Yang Songlin: 混合現性的這種
+[00:49:15] Yang Songlin: Tanthesaw
+[00:49:16] 然後這兩種
+[00:49:17] Yang Songlin: 我覺得他也是可以結合的嗎
+[00:49:19] Yang Songlin: 對
+[00:49:20] Yang Songlin: 他們有各自的
+[00:49:21] Yang Songlin: 有點和各自的缺點嗎
+[00:49:22] 像Sbasa
+[00:49:23] Yang Songlin: 他什麼話呢
+[00:49:24] Yang Songlin: 可能要更強一點嗎
+[00:49:26] Yang Songlin: 但他的缺點就是
+[00:49:27] Yang Songlin: 他KV開始
+[00:49:28] Yang Songlin: 他不能省
+[00:49:29] Yang Songlin: 然後像現性的話
+[00:49:31] Yang Songlin: 他
+[00:49:32] Yang Songlin: 可以省很多KV開始
+[00:49:34] Yang Songlin: 所以我之前
+[00:49:35] Yang Songlin: 起來了一個
+[00:49:36] Yang Songlin: 指揮的回答
+[00:49:37] Yang Songlin: 我就說
+[00:49:38] Yang Songlin: 這兩種發案
+[00:49:39] Yang Songlin: 為什麼我們不能
+[00:49:40] Yang Songlin: 把它結合到一起呢
+[00:49:42] Yang Songlin: 就比如說
+[00:49:43] Yang Songlin: 我們可以讓
+[00:49:44] Yang Songlin: Tanthesaw
+[00:49:45] Yang Songlin: 去取代這種混合
+[00:49:46] Yang Songlin: 注意力
+[00:49:47] Yang Songlin: 裡面的那個
+[00:49:48] Yang Songlin: 全局的那個
+[00:49:49] Yang Songlin: 注意力層
+[00:49:50] Yang Songlin: 這樣的話
+[00:49:51] Yang Songlin: 我們就
+[00:49:52] Yang Songlin: 不需要有一個
+[00:49:53] Yang Songlin: 複雜度在了
+[00:49:54] Yang Songlin: 但我們還是要
+[00:49:55] 成了一個KV開始
+[00:49:56] Yang Songlin: 但剩下
+[00:49:57] 很多層的KV開始
+[00:49:58] Yang Songlin: 就可以通過
+[00:49:59] Yang Songlin: 這個現性注意力
+[00:50:00] Yang Songlin: 把KV開始
+[00:50:01] 的Size把它打下來
+[00:50:02] Yang Songlin: 這樣子的話
+[00:50:03] Yang Songlin: 我覺得
+[00:50:04] Yang Songlin: 可能就是我
+[00:50:05] Yang Songlin: 目前心中
+[00:50:07] Yang Songlin: 比較理想的一個
+[00:50:09] Yang Songlin: 高效的一個價格
+[00:50:10] 對
+[00:50:11] Yang Songlin: Internals
+[00:50:12] Yang Songlin: 高效不掉點
+[00:50:13] Yang Songlin: 也能花了
+[00:50:14] Yang Songlin: 是這樣子的
+[00:50:15] Yang Songlin: 所以
+[00:50:16] Zhang Xiaojun: Linus Tenshin和Sbasa
+[00:50:17] Zhang Xiaojun: Tenshin的未來的關係
+[00:50:18] Zhang Xiaojun: 可能是融合到
+[00:50:19] Zhang Xiaojun: 一個統一的
+[00:50:20] Zhang Xiaojun: 狂價裡面對吧
+[00:50:21] Zhang Xiaojun: 對
+[00:50:22] 因為我覺得
+[00:50:24] Yang Songlin: 先進展了Tanthesaw
+[00:50:25] 和Sbasa Tenshin
+[00:50:26] Yang Songlin: 它其實沒有什麼
+[00:50:27] Yang Songlin: 競爭關係
+[00:50:28] Yang Songlin: 我覺得
+[00:50:29] Yang Songlin: 先進展了
+[00:50:30] Yang Songlin: 競爭對手可能
+[00:50:31] Yang Songlin: 更多的是
+[00:50:32] Yang Songlin: Size Limino Tenshin
+[00:50:33] Yang Songlin: 像比如說
+[00:50:34] 像GPT3
+[00:50:35] Yang Songlin: 它那個
+[00:50:36] Yang Songlin: Lowend裡面
+[00:50:37] Yang Songlin: 提到的那個
+[00:50:38] Yang Songlin: 全局混
+[00:50:39] Yang Songlin: Size Limino
+[00:50:40] Yang Songlin: 那Size Limino的話
+[00:50:41] 呢它
+[00:50:42] Yang Songlin: 如果
+[00:50:43] Yang Songlin: 讓這個
+[00:50:44] Yang Songlin: 先進去取代
+[00:50:45] Yang Songlin: 這個Size Limino
+[00:50:46] Yang Songlin: 能夠讓它
+[00:50:47] Yang Songlin: 更好的
+[00:50:48] Yang Songlin: 的話呢
+[00:50:49] Yang Songlin: 那
+[00:50:50] 會長不可能
+[00:50:52] Yang Songlin: 對嗎
+[00:50:53] 所以你覺得
+[00:50:54] Zhang Xiaojun: 怎麼把Linus Tenshin和Sbasa Tenshin
+[00:50:55] Zhang Xiaojun: 能夠做更好的結合
+[00:50:56] Zhang Xiaojun: 現在有人在探索這件事嗎
+[00:50:58] Zhang Xiaojun: 公約件的話
+[00:50:59] Yang Songlin: 我覺得我還
+[00:51:00] Yang Songlin: 結果
+[00:51:01] Yang Songlin: 我所說我應該
+[00:51:02] Yang Songlin: 沒有看到有人
+[00:51:03] Yang Songlin: 在同時
+[00:51:05] Yang Songlin: 去結合Sbasa Tenshin
+[00:51:08] Yang Songlin: 和現性的探索
+[00:51:10] Yang Songlin: 但學界有一些
+[00:51:12] Yang Songlin: 工作還是
+[00:51:13] Yang Songlin: 有一些
+[00:51:14] Yang Songlin: 這方面的探索的
+[00:51:15] Yang Songlin: 對
+[00:51:16] Yang Songlin: 就是
+[00:51:17] Yang Songlin: 有些乘用Sbasa
+[00:51:18] Yang Songlin: 有些乘用
+[00:51:19] Yang Songlin: 你那樣探索
+[00:51:20] Yang Songlin: 對
+[00:51:22] 所以Dipsy
+[00:51:23] Zhang Xiaojun: 想選了Size Tenshin
+[00:51:24] Zhang Xiaojun: Kimmy
+[00:51:25] Zhang Xiaojun: 選了Linus Tenshin
+[00:51:26] Zhang Xiaojun: 這其實
+[00:51:27] Zhang Xiaojun: 可能也是
+[00:51:28] Zhang Xiaojun: 階段性的對吧
+[00:51:29] Zhang Xiaojun: 可能未來會
+[00:51:30] Zhang Xiaojun: 就是
+[00:51:31] Zhang Xiaojun: 大家會
+[00:51:32] Zhang Xiaojun: 探索一條新的路
+[00:51:33] Zhang Xiaojun: 就是把兩者都結合
+[00:51:34] Zhang Xiaojun: 現在也不是
+[00:51:35] Zhang Xiaojun: 非自己比的關係
+[00:51:36] Zhang Xiaojun: 對
+[00:51:38] Yang Songlin: 我覺得
+[00:51:39] Yang Songlin: 換個助理的話
+[00:51:40] Yang Songlin: 他
+[00:51:41] Yang Songlin: 定長度上去之後
+[00:51:42] Yang Songlin: 他的問題就是說
+[00:51:44] Yang Songlin: 他還是會被
+[00:51:45] Yang Songlin: 這個全局
+[00:51:46] Yang Songlin: 助理
+[00:51:47] Yang Songlin: 他的這個效率
+[00:51:48] Yang Songlin: 他
+[00:51:49] 棒的助
+[00:51:50] Yang Songlin: 對
+[00:51:51] Yang Songlin: 後面那個
+[00:51:52] Yang Songlin: 平靜就主要在這個
+[00:51:53] Yang Songlin: 全局
+[00:51:54] Yang Songlin: 助理的
+[00:51:55] 效率上面了
+[00:51:56] Yang Songlin: 這是
+[00:51:57] Yang Songlin: 對
+[00:51:58] Yang Songlin: 然後
+[00:51:59] Yang Songlin: 像
+[00:52:00] Yang Songlin: 全部都用
+[00:52:01] Yang Songlin: Sbasa Tenshin的話
+[00:52:02] Yang Songlin: 他平靜可能
+[00:52:03] Yang Songlin: 是在KV開始的
+[00:52:04] Yang Songlin: 關於上面
+[00:52:05] Yang Songlin: 對
+[00:52:06] Yang Songlin: 因為他還是
+[00:52:07] Yang Songlin: 不省KV開始
+[00:52:08] 所以
+[00:52:09] Yang Songlin: 長度上去
+[00:52:10] Yang Songlin: 就可能要做
+[00:52:11] Yang Songlin: 很多各種各樣的
+[00:52:12] Yang Songlin: KV開始
+[00:52:13] Yang Songlin: 壓索
+[00:52:14] Yang Songlin: 壓著的工作
+[00:52:15] Yang Songlin: 對
+[00:52:16] Yang Songlin: 然後兩者
+[00:52:17] Yang Songlin: 是有各自的問題的
+[00:52:19] 他的結合
+[00:52:20] Zhang Xiaojun: 是比如說
+[00:52:21] Zhang Xiaojun: 可能是不同的
+[00:52:22] Zhang Xiaojun: 產業不同的
+[00:52:23] Zhang Xiaojun: 天神嗎
+[00:52:24] 我覺得這好
+[00:52:25] Yang Songlin: 今天的話
+[00:52:26] Yang Songlin: 就是把
+[00:52:27] 換合助理
+[00:52:28] Yang Songlin: 他
+[00:52:29] Yang Songlin: 裡面的
+[00:52:30] Yang Songlin: 全局的
+[00:52:31] Yang Songlin: 助理力
+[00:52:32] Yang Songlin: 把它換成
+[00:52:33] Yang Songlin: Sbasa Tenshin
+[00:52:34] Yang Songlin: 我覺得
+[00:52:35] Yang Songlin: 你論上
+[00:52:36] Yang Songlin: 只要Sbasa Tenshin
+[00:52:37] Yang Songlin: 他能選得準的話呢
+[00:52:39] 他是
+[00:52:41] Yang Songlin: 完全可以取代
+[00:52:42] Yang Songlin: 付了Tenshin這個層的
+[00:52:44] Yang Songlin: 但他
+[00:52:45] 現在問題可能
+[00:52:46] Yang Songlin: 是
+[00:52:47] Yang Songlin: 選不準
+[00:52:48] Yang Songlin: 對
+[00:52:49] Yang Songlin: 這是一個很大的問題
+[00:52:50] Yang Songlin: 對
+[00:52:51] Yang Songlin: 然後這也是
+[00:52:52] Yang Songlin: 為什麼
+[00:52:53] Yang Songlin: 可能是為什麼
+[00:52:54] Yang Songlin: Defsick
+[00:52:55] Yang Songlin: 他
+[00:52:56] Yang Songlin: 最近放的
+[00:52:57] Yang Songlin: DSA
+[00:52:58] Yang Songlin: 他要用
+[00:52:59] Yang Songlin: 遮留的方式
+[00:53:00] Yang Songlin: 來進可能的
+[00:53:01] Yang Songlin: 讓他那個invexer
+[00:53:03] 就是來選頭
+[00:53:04] Yang Songlin: 很選的準一點
+[00:53:05] Yang Songlin: 對
+[00:53:06] Yang Songlin: 這也可能是
+[00:53:07] Yang Songlin: 一個原因
+[00:53:08] Yang Songlin: OK
+[00:53:09] Zhang Xiaojun: 選的準
+[00:53:10] Zhang Xiaojun: 選不準
+[00:53:11] Zhang Xiaojun: 核心的平靜在哪
+[00:53:12] Zhang Xiaojun: 我這就是
+[00:53:14] Yang Songlin: 核心難度
+[00:53:15] Yang Songlin: 對
+[00:53:16] Yang Songlin: 像Sbasa Tenshin的話
+[00:53:17] Yang Songlin: 如果你
+[00:53:18] Yang Songlin: 從頭開始去念
+[00:53:19] Yang Songlin: 他可能那個
+[00:53:20] Yang Songlin: Tidoo不太準
+[00:53:21] Yang Songlin: 然後
+[00:53:22] Yang Songlin: 他可能
+[00:53:23] Yang Songlin: 學的學了
+[00:53:24] Yang Songlin: 他就選不準
+[00:53:25] Yang Songlin: 那個Block
+[00:53:26] Yang Songlin: 他學會選Block
+[00:53:27] Yang Songlin: 還是挺難的
+[00:53:28] Yang Songlin: 還有各種
+[00:53:29] Yang Songlin: 那種
+[00:53:30] Yang Songlin: 吸收
+[00:53:31] Yang Songlin: Tidoo的問題
+[00:53:32] 對
+[00:53:33] Yang Songlin: 像Sbasa的話
+[00:53:34] Yang Songlin: 他經常就會有這種問題
+[00:53:35] Yang Songlin: 然後
+[00:53:37] Yang Songlin: 像真幼的方式的話
+[00:53:38] Yang Songlin: 他
+[00:53:39] Yang Songlin: 其實就是已經
+[00:53:40] Yang Songlin: 讓一個
+[00:53:41] Yang Songlin: 訊號的一個
+[00:53:43] Yang Songlin: 全部都是
+[00:53:44] Yang Songlin: Sbasa Tenshin的一個
+[00:53:45] Yang Songlin: Tidoo model
+[00:53:46] Yang Songlin: 來
+[00:53:47] Yang Songlin: 來真幼一個
+[00:53:48] 他那個
+[00:53:49] Yang Songlin: 頭可能選法
+[00:53:51] Yang Songlin: 那這個已經
+[00:53:52] Yang Songlin: 那就可以
+[00:53:53] Yang Songlin: 就是選的
+[00:53:54] Yang Songlin: 非常地好嗎
+[00:53:55] Yang Songlin: 這個從學上面來說
+[00:53:56] Yang Songlin: 也是
+[00:53:57] Yang Songlin: Mexons的
+[00:53:58] 你覺得聽你覺得
+[00:53:59] Zhang Xiaojun: 工作
+[00:54:00] Zhang Xiaojun: 他相比
+[00:54:01] Zhang Xiaojun: 年初的
+[00:54:02] Zhang Xiaojun: MexM1的工作
+[00:54:03] Zhang Xiaojun: 他的進步在哪裡
+[00:54:04] Zhang Xiaojun: 他主要就是在於
+[00:54:06] Yang Songlin: 現心助力
+[00:54:07] Yang Songlin: 他那個某塊
+[00:54:08] Yang Songlin: 他
+[00:54:09] Yang Songlin: 他還是會
+[00:54:11] Yang Songlin: 好很多的
+[00:54:13] Yang Songlin: 就像我之前說
+[00:54:14] Yang Songlin: 就是Lightning
+[00:54:15] Yang Songlin: 有Tenshin
+[00:54:16] Yang Songlin: 給人的感覺
+[00:54:17] 就像一個
+[00:54:18] Yang Songlin: 兩年前的工作
+[00:54:19] Yang Songlin: 對
+[00:54:20] Yang Songlin: 就還挺有在
+[00:54:21] Yang Songlin: Ratnet的那個
+[00:54:23] Yang Songlin: 版本
+[00:54:24] Yang Songlin: 然後像
+[00:54:25] Yang Songlin: 這兩年的話
+[00:54:26] Yang Songlin: 我覺得心心助力
+[00:54:27] Yang Songlin: 還是
+[00:54:28] Yang Songlin: 有很多發展的
+[00:54:29] Yang Songlin: 對
+[00:54:30] Yang Songlin: 然後這件發展
+[00:54:31] Yang Songlin: 我覺得都是
+[00:54:32] Yang Songlin: Roke的
+[00:54:33] Yang Songlin: 就是已經
+[00:54:34] Yang Songlin: 就比方說
+[00:54:35] Yang Songlin: 千萬和Kimi
+[00:54:37] Yang Songlin: 都發現
+[00:54:38] Yang Songlin: 就是
+[00:54:39] Yang Songlin: 這兩年有一些進步
+[00:54:40] Yang Songlin: 比方說
+[00:54:41] Yang Songlin: 那個門控
+[00:54:42] Yang Songlin: 比方說
+[00:54:43] 那個Data
+[00:54:44] Yang Songlin: 如果都是
+[00:54:45] Yang Songlin: 有用的
+[00:54:46] Yang Songlin: 對
+[00:54:47] Yang Songlin: 所以把這些
+[00:54:48] Yang Songlin: 最新的進展
+[00:54:49] Yang Songlin: 把它融合進來
+[00:54:50] Yang Songlin: 肯定是
+[00:54:51] Yang Songlin: 更好的
+[00:54:52] Yang Songlin: 然後
+[00:54:53] Yang Songlin: 像Kimi
+[00:54:54] Yang Songlin: 甚至在
+[00:54:55] Yang Songlin: 之前的
+[00:54:56] Yang Songlin: 工作的技術上面
+[00:54:57] 還把它
+[00:54:58] Yang Songlin: 新開放
+[00:54:59] Yang Songlin: 一個KDA
+[00:55:00] Yang Songlin: 然後讓他的
+[00:55:01] Yang Songlin: 那個
+[00:55:02] 模型的能力
+[00:55:03] Yang Songlin: 會更強
+[00:55:04] 對
+[00:55:05] 然後另外
+[00:55:06] Yang Songlin: 的話
+[00:55:07] Yang Songlin: 可能
+[00:55:08] 他還有
+[00:55:09] Yang Songlin: 白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白白
+[00:55:39] Simonal的碳身和尼兩碳身做公平的比較的話
+[00:55:43] Yang Songlin: 我覺得可以有兩種嘛
+[00:55:45] Yang Songlin: 一種的話就比較說控制他的這個State Size
+[00:55:50] 就是Simonal的話他有Kerry開始嘛
+[00:55:53] 他有Kerry開始的話呢
+[00:55:55] Yang Songlin: 這個Kerry開始他是因為他是華床
+[00:55:58] Yang Songlin: 所以他他那個Kerry開始的上線是被爆得住的
+[00:56:04] 這個後呢我們就可以把他這個Kerry開始的上線
+[00:56:09] Yang Songlin: 他的這個Size當成Simonal的碳身他一個State Size
+[00:56:16] Yang Songlin: 然後R&D的話呢他有R&D那個State Size嘛
+[00:56:21] Yang Songlin: 他有那個狀態手
+[00:56:24] 然後如果這兩個東西大概在一個Li-Word的話呢
+[00:56:27] Yang Songlin: 我覺得就是一個公平的比較吧
+[00:56:30] Yang Songlin: 因為像Decorative的時候呢
+[00:56:33] 他Simonal和R&D Decorative的話他基本都是一個Memory Bond的一個過程嘛
+[00:56:40] Yang Songlin: 所以只要他的State Size差不多
+[00:56:43] Yang Songlin: 那他Decorative效率就不會差太多了
+[00:56:48] 因為Memory Bond的話呢他
+[00:56:50] Yang Songlin: 主要就是看他讀多少State嘛
+[00:56:53] 然後只要他們這個State差不多大
+[00:56:55] Yang Songlin: 那他們這個Decorative效率基本上就會差不多大
+[00:56:59] 因為Decorative還是主要是Memory Bond的
+[00:57:03] 說到算法的就是眼睛啊
+[00:57:05] Zhang Xiaojun: 他最早從Transformer到Moe然後到現在大家探索
+[00:57:07] Zhang Xiaojun: 理念親身或者Svasal親身
+[00:57:10] Zhang Xiaojun: 還得這種漸進式的創新
+[00:57:13] Zhang Xiaojun: 你覺得他優化的最終的目標可能是什麼
+[00:57:16] Zhang Xiaojun: 然後最終可能形成的一個算法的共識會是什麼樣的
+[00:57:22] 啊我覺得這些優化基本上都是
+[00:57:26] 這個體現在就是給你相同的Flop
+[00:57:29] Yang Songlin: 你怎麼去更好的利用這些Flop
+[00:57:32] Yang Songlin: 然後取得更低的損失韓數
+[00:57:35] 像Moe這個技術就是
+[00:57:38] Yang Songlin: 就是前兩年可能比如說你要三年的時候
+[00:57:41] Yang Songlin: 都在傳GbG4Moe嗎
+[00:57:43] Yang Songlin: 但也有很多地方不太敢跟的嘛
+[00:57:47] Yang Songlin: 然後像現在的話Moe基本上都是已經變成一個顯學了嘛
+[00:57:51] Yang Songlin: 就是每一家都會做這種犯規的Moe
+[00:57:55] Yang Songlin: 現在Moe的話它其實也是一種
+[00:57:58] 它可以想像成就是更加高效的一個FFM的一個替代品
+[00:58:03] Yang Songlin: 就是它可以更好的去擴大那個FFM的這個參數量
+[00:58:09] 然後同時呢它又保證它那個Flop不變
+[00:58:12] Yang Songlin: 這樣子的話呢它付出相同的Flop
+[00:58:15] 它能在於訓練裡面取得的那個訓練的Lose就會越低
+[00:58:20] Yang Songlin: 對嗎
+[00:58:21] 這就是一個點
+[00:58:23] Yang Songlin: 然後
+[00:58:24] Yang Songlin: 我覺得Moe它可能是近幾年就是
+[00:58:27] Yang Songlin: 突破最大的一個
+[00:58:29] Yang Songlin: 在加個方面就是突破最大的一個方案嗎
+[00:58:32] Yang Songlin: 對
+[00:58:33] Yang Songlin: 然後下一個突破點可能就在個探訊嗎
+[00:58:37] Yang Songlin: 因為
+[00:58:38] Transformer就兩個模塊嘛
+[00:58:40] Yang Songlin: 一個FFM一個探訊
+[00:58:43] Yang Songlin: 現在FFM基本上已經雕成了這種FangranMoe的這種形狀嘛
+[00:58:48] Yang Songlin: 對 然後而探訊我覺得大家也是可以來雕一下的
+[00:58:52] Yang Songlin: 就是Winewater
+[00:58:53] Yang Songlin: 這樣的話呢它
+[00:58:55] Yang Songlin: 表現了在長文本
+[00:58:57] Yang Songlin: 下面的話呢它付出相同的Flop
+[00:58:59] Yang Songlin: 它可能取得那個Lose也會更低嗎
+[00:59:01] Yang Songlin: 對
+[00:59:03] 我覺得這兩套思路都是要的就是
+[00:59:06] 減少Flop
+[00:59:07] Yang Songlin: 然後能夠讓它
+[00:59:09] Yang Songlin: 像FFM的話呢它減少Flop
+[00:59:11] Yang Songlin: 它就可以去用更大的這個參數量
+[00:59:14] Yang Songlin: 更大規模的一個模型
+[00:59:15] Yang Songlin: 對
+[00:59:17] 就比方說你總參數量就可以對高了嘛
+[00:59:19] Yang Songlin: 因為你這個FFM的這個算力減少了嘛
+[00:59:22] 大家都知道就是在大規模去年下面
+[00:59:25] FFM的那個計算是主導的嘛
+[00:59:28] Yang Songlin: 對 然後把它換成這種FangranMoe的換成它
+[00:59:30] Yang Songlin: 其實是能降低很多很多這種Cost
+[00:59:34] Yang Songlin: 對
+[00:59:35] 然後
+[00:59:36] Yang Songlin: Etatian's on its scale的就主要不是參數量
+[00:59:39] Yang Songlin: 它Skill的就是那個Context的Window Size嘛
+[00:59:42] Yang Songlin: 對
+[00:59:43] 然後如果這個Tan's on它的這個Flops
+[00:59:47] Yang Songlin: 就在場文本下面能夠
+[00:59:50] 能夠把它打下來的話呢
+[00:59:52] Yang Songlin: 那我們就是做那種長文本的這種
+[00:59:56] 深層啊然後
+[00:59:58] Yang Songlin: 比如說你有很多Agent
+[00:59:59] Yang Songlin: 讓它去處理很多很多Workflow
+[01:00:02] 然後我也很多很多Context給它做
+[01:00:04] Yang Songlin: 這樣子的話它也會BalphateFound這個
+[01:00:08] 更大的這個ContextWindow的
+[01:00:10] Yang Songlin: 對
+[01:00:11] 如果把模型的價格比例說大腦的結構
+[01:00:15] Zhang Xiaojun: 你覺得Moe和Etatian's on它們分別
+[01:00:18] Zhang Xiaojun: 代表的是大腦的什麼組織啊
+[01:00:20] Zhang Xiaojun: 能這樣去形象化的去理解嗎
+[01:00:23] 像Tan's on its scale應該就相當於WorkingMemory嘛
+[01:00:27] 對 就是那種工作記憶
+[01:00:29] Yang Songlin: 它就是然後像FFM的話
+[01:00:32] Yang Songlin: 就有點像那種
+[01:00:33] Yang Songlin: 我忘記人的大腦層那種消息的那種
+[01:00:37] Yang Songlin: 還在發覺
+[01:00:39] 對 可能就是還嗎
+[01:00:40] Yang Songlin: 體就是來存
+[01:00:41] Yang Songlin: 就是存處這種信息的
+[01:00:43] Yang Songlin: 就是過去信息的
+[01:00:44] Yang Songlin: 對 像FFM它基本上會被看成
+[01:00:47] Yang Songlin: 是一個
+[01:00:48] Yang Songlin: 建制隊的一個關聯網絡嘛
+[01:00:51] Yang Songlin: 它可以激下很多這種Lolage
+[01:00:53] Yang Songlin: 就像這種我的Lolage會被它
+[01:00:56] Yang Songlin: 激到這個FFM裡面
+[01:00:57] Yang Songlin: 這就是一個
+[01:00:58] Yang Songlin: 就是一些我的Lolage會沉下來
+[01:01:01] Yang Songlin: 然後Tan's的話就是
+[01:01:02] Yang Songlin: 比如說你在一個新的場景
+[01:01:04] Yang Songlin: 然後你遇到新的這種起來有
+[01:01:06] Yang Songlin: 然後你會讀到新的Context
+[01:01:09] Yang Songlin: 然後它會在這個ContextWindow裡面
+[01:01:12] Yang Songlin: 就是動態的來做這個處理這些信息嘛
+[01:01:16] Yang Songlin: 那就有點很像我們人的大人
+[01:01:18] Yang Songlin: 工作記那個WorkingMemory
+[01:01:20] Yang Songlin: 對 它跟偏一極實性一些
+[01:01:23] 對 對 對
+[01:01:26] 當現在數據遇到數據牆
+[01:01:29] Zhang Xiaojun: 數據平靜比較明顯
+[01:01:30] Zhang Xiaojun: 是不是算法的創新片的更重要了
+[01:01:32] Zhang Xiaojun: 我覺得是的
+[01:01:33] Zhang Xiaojun: 對 就是
+[01:01:35] Yang Songlin: 因為亞洲有算的數據裡面
+[01:01:37] Zhang Xiaojun: 去壓縮更多的質疑
+[01:01:39] 對
+[01:01:40] Yang Songlin: 我覺得之前的話
+[01:01:42] Yang Songlin: 就不要說你數據一直能Skale的話
+[01:01:45] Yang Songlin: 你談這個DataEfficiency
+[01:01:46] Yang Songlin: 就是沒有什麼特別大的用途嘛
+[01:01:51] Yang Songlin: 因為就是
+[01:01:52] 大家別的原因加這個數據就行了
+[01:01:54] Yang Songlin: 就讓它模型進去SkaleApp
+[01:01:57] Yang Songlin: 然後繼續加數據
+[01:01:59] Yang Songlin: 所以大家都不需要去動散法了嘛
+[01:02:01] Yang Songlin: 然後大家就只需要買卡這個型了
+[01:02:03] Yang Songlin: 對
+[01:02:04] 然後現在如果有這種數據牆
+[01:02:07] Yang Songlin: 然後還有這種
+[01:02:08] Yang Songlin: 三立牆的話
+[01:02:09] Yang Songlin: 那可能就
+[01:02:11] Yang Songlin: 到最終還是要回到這個算法
+[01:02:14] Yang Songlin: 這種本質的東西上面來的
+[01:02:16] Yang Songlin: 我覺得這些東西都是缺一不可的嘛
+[01:02:18] Yang Songlin: 就不要說像Data像這種算法
+[01:02:21] Yang Songlin: 像這種算你
+[01:02:22] Yang Songlin: 就像有一點像三屁馬車嘛
+[01:02:25] Yang Songlin: 就是來驅動整個
+[01:02:27] Yang Songlin: 人工智能的發展嘛
+[01:02:29] Yang Songlin: 對
+[01:02:30] 然後我記得之前像
+[01:02:32] Yang Songlin: OPI的CTO它也說
+[01:02:35] 就可能在這個節點上面
+[01:02:38] Yang Songlin: 算法的這個研究的重要性可能
+[01:02:39] Yang Songlin: 會被重新抬高嘛
+[01:02:41] Yang Songlin: 對
+[01:02:41] Yang Songlin: 如果你記得那個採訪的話
+[01:02:43] Yang Songlin: 它應該是這麼熟過的
+[01:02:46] 你覺得現在的加構
+[01:02:48] Zhang Xiaojun: 川斯文文加構
+[01:02:49] Zhang Xiaojun: 它的聽花板是什麼呀
+[01:02:52] 它的聽花板
+[01:02:56] 我覺得還是先把
+[01:02:58] Yang Songlin: Efficiency的問題解決掉吧
+[01:03:00] Yang Songlin: 對
+[01:03:01] Yang Songlin: 因為現在還沒有解決掉
+[01:03:02] Yang Songlin: Efficiency的問題嘛
+[01:03:04] Yang Songlin: 它的處理一個很長的一個
+[01:03:08] 康泰斯文的還是有一些
+[01:03:10] 舉線性嘛
+[01:03:11] Yang Songlin: 所以大家會做很多上下文工程
+[01:03:13] Yang Songlin: 做一些RHR來
+[01:03:16] 來通過一些其他的方式來
+[01:03:18] Yang Songlin: 來做這些問題嘛
+[01:03:20] Yang Songlin: 但如果你這個康泰斯的問題
+[01:03:22] Yang Songlin: 把它解決掉的話
+[01:03:23] Yang Songlin: 那你IH這一套技術都不需要了嘛
+[01:03:25] Yang Songlin: 你直接把它放到康泰斯裡面
+[01:03:27] Yang Songlin: 做in康泰斯的IH就行了
+[01:03:30] 對
+[01:03:30] 然後我覺得
+[01:03:32] 天花板的話就先看看能不能
+[01:03:34] Yang Songlin: 就是把
+[01:03:36] 全局這個注意力把它
+[01:03:38] Yang Songlin: 幹掉吧
+[01:03:39] Yang Songlin: 對
+[01:03:39] Yang Songlin: 這第一點就是
+[01:03:40] Yang Songlin: 因為它確實它是
+[01:03:42] Yang Songlin: 阻止這個
+[01:03:44] 康泰斯運動機去 scale
+[01:03:46] Yang Songlin: 上去的一個主要的平靜嘛
+[01:03:48] Yang Songlin: 所以這個平靜我覺得是
+[01:03:49] Yang Songlin: 早晚都要把它
+[01:03:51] 把它弄掉的
+[01:03:53] Yang Songlin: 這個是
+[01:03:54] 第一點
+[01:03:55] 然後掉眼花能可能就是
+[01:03:58] 抗聽流能力嘛
+[01:03:59] Yang Songlin: 對
+[01:04:00] 然後現在這種
+[01:04:01] Yang Songlin: 參與生活加過還是沒法做
+[01:04:02] Yang Songlin: 抗聽流能力的嘛
+[01:04:04] 對
+[01:04:04] 然後之後抗聽流能力
+[01:04:06] Yang Songlin: 讓AI自己學習啊
+[01:04:08] Yang Songlin: 這種
+[01:04:09] Yang Songlin: 甚至
+[01:04:12] 甚至大家不都想
+[01:04:13] Yang Songlin: 把
+[01:04:14] Yang Songlin: Pretending這個
+[01:04:15] Yang Songlin: 地方變成直接從
+[01:04:16] Yang Songlin: AR開始讓
+[01:04:17] Yang Songlin: 讓這個模型直接從您開始學
+[01:04:19] Yang Songlin: 不給它為這種Pretend data嘛
+[01:04:21] Yang Songlin: 對像這種新的犯事
+[01:04:23] Yang Songlin: 可能就是之後的這種探索嘛
+[01:04:26] 對
+[01:04:27] 一個研究員問你
+[01:04:28] Zhang Xiaojun: 如何把另一件天生的
+[01:04:29] Zhang Xiaojun: Transformer scale up
+[01:04:31] 繼續擴展
+[01:04:32] Zhang Xiaojun: 真的 scale up
+[01:04:35] Yang Songlin: 我 just scale up
+[01:04:36] Yang Songlin: 應該是沒有什麼特別大的問題吧
+[01:04:39] Yang Songlin: 對
+[01:04:39] Yang Songlin: 然後我覺得可能
+[01:04:40] Yang Songlin: 還有一點的話
+[01:04:41] Yang Songlin: 就是說
+[01:04:43] 就像說
+[01:04:45] Yang Songlin: 就是說那些
+[01:04:47] 配套的這種infra
+[01:04:48] Yang Songlin: 設施
+[01:04:49] Yang Songlin: 還是需要繼續打的
+[01:04:51] Yang Songlin: 對
+[01:04:52] Yang Songlin: 像flash and media
+[01:04:53] Yang Songlin: tension
+[01:04:54] Yang Songlin: 只是提供了一些
+[01:04:56] Yang Songlin: Tryton的一些可能
+[01:04:57] Yang Songlin: 基本上就是可以湊合用
+[01:05:00] 但是它的那個
+[01:05:01] Yang Songlin: 效率肯定不是最有的
+[01:05:03] Yang Songlin: 因為它是Tryton寫的嘛
+[01:05:05] Yang Songlin: 對
+[01:05:06] 所以如果
+[01:05:08] 有制向
+[01:05:09] Yang Songlin: 投入這個領域的
+[01:05:11] Yang Songlin: 不要說一些公司
+[01:05:14] Yang Songlin: 或者可以花一些經歷去
+[01:05:15] Yang Songlin: 遊畫這些可能
+[01:05:17] Yang Songlin: 對
+[01:05:17] Yang Songlin: 這個是
+[01:05:19] Yang Songlin: 對繼續 scale up
+[01:05:20] Yang Songlin: 上學要好處嘛
+[01:05:21] Yang Songlin: 然後像infra
+[01:05:23] Yang Songlin: 內編的那種
+[01:05:25] 我覺得現在像infra
+[01:05:26] Yang Songlin: 內編的支持已經在逐漸變多了
+[01:05:29] Yang Songlin: 然後就比方說像
+[01:05:31] Yang Songlin: 像半年前
+[01:05:33] Yang Songlin: 我參加
+[01:05:35] minimized
+[01:05:36] Yang Songlin: 它還有一個那個
+[01:05:37] Yang Songlin: 原作討論樣的東西嘛
+[01:05:39] Yang Songlin: 然後當時主持人是
+[01:05:41] Yang Songlin: 金錢老師
+[01:05:42] Yang Songlin: 金錢老師問我這個領域
+[01:05:44] Yang Songlin: 它除了平靜是什麼
+[01:05:45] Yang Songlin: 我當時說是infra
+[01:05:47] Yang Songlin: 那個配套沒有更上
+[01:05:49] Yang Songlin: 對
+[01:05:50] 然後當時金錢老師
+[01:05:52] Yang Songlin: 還覺得挺意外的
+[01:05:53] Yang Songlin: 因為我會回答一些別的東西
+[01:05:55] Yang Songlin: 對
+[01:05:55] Yang Songlin: 然後其實是要就這樣子
+[01:05:57] Yang Songlin: 我覺得算法層面
+[01:05:59] Yang Songlin: 可以就是
+[01:06:00] Yang Songlin: 表示像經典人的這個發展
+[01:06:03] 就已經可以去大規模的來試了
+[01:06:05] Yang Songlin: 比方說前問三
+[01:06:07] Yang Songlin: next和Kimi Nino
+[01:06:10] Yang Songlin: 這些都是可以大規模子也試著了
+[01:06:14] 然後呢
+[01:06:14] Deploy的這種平靜的話
+[01:06:16] Yang Songlin: 可能就更多就是在這種配套設施
+[01:06:20] 因為因為這兩家
+[01:06:21] Yang Songlin: 發這兩個模型
+[01:06:24] Yang Songlin: 那開源社區
+[01:06:25] Yang Songlin: 就是支持力度也挺大的
+[01:06:27] Yang Songlin: 像之前
+[01:06:28] Yang Songlin: 比如說SJNN
+[01:06:29] Yang Songlin: 它都不支持這種
+[01:06:31] Yang Songlin: Hyper mode做infraints
+[01:06:33] 然後現在就是趁這個機會
+[01:06:35] Yang Songlin: 就可以把錢問三
+[01:06:37] Yang Songlin: next然後向Mini
+[01:06:38] Yang Songlin: Mini
+[01:06:39] Yang Songlin: Mini
+[01:06:40] Yang Songlin: 就是加一些
+[01:06:42] 這種推理的這種
+[01:06:44] 推理引擎的這種
+[01:06:45] Yang Songlin: Support
+[01:06:46] Yang Songlin: 對
+[01:06:47] 我覺得這是一個
+[01:06:48] Yang Songlin: 真相的一個
+[01:06:50] Yang Songlin: 有一個就是真相的一個
+[01:06:52] Yang Songlin: 你於真相發展的一個過程
+[01:06:54] Yang Songlin: 就像這些做寂寞的廠商
+[01:06:57] Yang Songlin: 他們去做一些比較
+[01:06:59] Yang Songlin: Promising的結果
+[01:07:00] Yang Songlin: 然後把他
+[01:07:01] Yang Songlin: 開源把把這些開源
+[01:07:03] Yang Songlin: 為了把它發出來
+[01:07:04] 然後那那些就是做推理引擎的人
+[01:07:07] Yang Songlin: 就會有很多動力來
+[01:07:09] Yang Songlin: 想辦法來支持這些東西
+[01:07:11] Yang Songlin: 然後
+[01:07:12] Yang Songlin: 然後當這些
+[01:07:14] Yang Songlin: infra的配套更好的時候
+[01:07:16] 然後比方說
+[01:07:17] Yang Songlin: 別的公司可能就是
+[01:07:19] Yang Songlin: 覺得像你量貪飾
+[01:07:21] Yang Songlin: 它的infra的那個
+[01:07:22] Yang Songlin: 生態太差了
+[01:07:24] Yang Songlin: 就是可能就算做出來
+[01:07:26] Yang Songlin: 這個生態不好可能
+[01:07:29] Yang Songlin: 它實際上
+[01:07:30] Yang Songlin: Deproir
+[01:07:30] Yang Songlin: 它的成本也很高
+[01:07:32] 對
+[01:07:32] 但現在如果只要這個生態
+[01:07:34] Yang Songlin: 做起來了
+[01:07:36] 然後
+[01:07:37] 就會有一個
+[01:07:39] Yang Songlin: 真相形狀的一個作用
+[01:07:41] Yang Songlin: 我覺得
+[01:07:42] 你覺得現在中國的
+[01:07:43] Zhang Xiaojun: 算法創新相對於
+[01:07:44] Zhang Xiaojun: 歸過來說是
+[01:07:45] Zhang Xiaojun: 差不多
+[01:07:46] Zhang Xiaojun: 更強還是落後的
+[01:07:49] 我覺得國內
+[01:07:50] Yang Songlin: 算法創新肯定
+[01:07:52] Yang Songlin: 是更強的
+[01:07:53] Yang Songlin: 對
+[01:07:55] Yang Songlin: 主要是
+[01:07:56] Yang Songlin: 因他們是加構
+[01:07:58] Yang Songlin: 的話
+[01:07:58] Yang Songlin: 那肯定是國內更強的
+[01:08:00] Yang Songlin: 我覺得這也是有一些
+[01:08:02] 有一些生態低位
+[01:08:04] Yang Songlin: 不同吧
+[01:08:05] Yang Songlin: 就比方說
+[01:08:05] Yang Songlin: 國內沒有那麼多卡
+[01:08:07] 然後他們其實
+[01:08:08] Yang Songlin: 對這個一批
+[01:08:09] Yang Songlin: 神奇的要求是更高的嗎
+[01:08:11] Yang Songlin: 所以他們更有動力
+[01:08:12] Yang Songlin: 來嘗試
+[01:08:13] Yang Songlin: 這些更高效的一些
+[01:08:15] Yang Songlin: 你量貪身這樣的變種
+[01:08:17] 然後像規模有些公司
+[01:08:19] Yang Songlin: 基本上就是卡太多了
+[01:08:21] Yang Songlin: 他們就難得高
+[01:08:22] Yang Songlin: 反正三件馬車
+[01:08:23] Zhang Xiaojun: 你走的有一定跑得快一點
+[01:08:26] Yang Songlin: 對
+[01:08:26] Yang Songlin: 對
+[01:08:26] Yang Songlin: 他們有那個算力
+[01:08:28] Yang Songlin: 那也能綽合跑嗎
+[01:08:29] Yang Songlin: 對
+[01:08:31] Zhang Xiaojun: 人腦子長
+[01:08:32] Zhang Xiaojun: 怎麼樣無所謂
+[01:08:33] Zhang Xiaojun: 反正我先
+[01:08:34] Zhang Xiaojun: 算了一堆場勤
+[01:08:36] 對
+[01:08:37] Yang Songlin: 然後我覺得
+[01:08:38] Yang Songlin: 歸故這邊
+[01:08:39] Yang Songlin: 感覺美國的公司
+[01:08:40] Yang Songlin: 會更注重優化一點
+[01:08:42] Yang Songlin: 對
+[01:08:42] Yang Songlin: 就像optimization
+[01:08:43] Yang Songlin: 對
+[01:08:44] 對
+[01:08:44] 就比方說優化器
+[01:08:46] Yang Songlin: 對
+[01:08:47] 像國內公司
+[01:08:48] Yang Songlin: 也感覺在逐漸
+[01:08:49] Yang Songlin: 在用
+[01:08:50] Yang Songlin: 就比方說像KIMI
+[01:08:51] Yang Songlin: 他也是
+[01:08:52] Yang Songlin: 是最早吃
+[01:08:53] Yang Songlin: 沒有這個螃蟹的一個地方
+[01:08:56] Yang Songlin: 對
+[01:08:57] Yang Songlin: 然後給我的感覺
+[01:08:58] Yang Songlin: 就是美國他們
+[01:09:00] Yang Songlin: 對優化器的投入
+[01:09:01] Yang Songlin: 明顯是比國內
+[01:09:02] Yang Songlin: 對優化器的投入
+[01:09:03] Yang Songlin: 要大一些的
+[01:09:04] Yang Songlin: 對
+[01:09:07] KIMI的
+[01:09:07] 林念村盛的效果
+[01:09:08] Zhang Xiaojun: 跟去年
+[01:09:09] Zhang Xiaojun: Dipstick
+[01:09:10] Zhang Xiaojun: Spaaston盛的效果
+[01:09:11] Zhang Xiaojun: 比那個更強
+[01:09:13] 我覺得
+[01:09:14] Yang Songlin: 就是效果對比的話
+[01:09:17] 需要有個地方
+[01:09:18] Yang Songlin: 來做一個Apple
+[01:09:18] Yang Songlin: Triple的一個比較
+[01:09:19] Yang Songlin: 對
+[01:09:20] Yang Songlin: 因為這個東西
+[01:09:20] Yang Songlin: 就是非常的
+[01:09:22] Chaky
+[01:09:22] 就是不太好比
+[01:09:24] Yang Songlin: 然後我覺得
+[01:09:25] Yang Songlin: 不同的地方
+[01:09:25] Yang Songlin: 迅出來
+[01:09:26] Yang Songlin: 不同的
+[01:09:27] Yang Songlin: 他可能就是完全
+[01:09:28] Yang Songlin: 不能比了
+[01:09:29] Yang Songlin: 因為他那個
+[01:09:29] Yang Songlin: 訓練架構
+[01:09:32] 那個Data
+[01:09:32] Ryse的皮
+[01:09:33] Yang Songlin: 那個優化方案
+[01:09:34] Yang Songlin: 完全都不一樣了
+[01:09:36] Yang Songlin: 他就沒有
+[01:09:36] Yang Songlin: 一個Apple
+[01:09:37] Yang Songlin: Triple的一個比較
+[01:09:38] Yang Songlin: 對
+[01:09:39] 像KIMI
+[01:09:40] 念掉他
+[01:09:41] Yang Songlin: 最近這個
+[01:09:41] Yang Songlin: Report
+[01:09:42] Yang Songlin: 他還有一點
+[01:09:43] Yang Songlin: 就是說他有一個Apple
+[01:09:44] Yang Songlin: Triple的一個
+[01:09:45] Yang Songlin: 跟
+[01:09:47] Yang Songlin: 負了探訊的一個比較
+[01:09:48] Yang Songlin: 對
+[01:09:49] Yang Songlin: 他是有一個Apple
+[01:09:49] Yang Songlin: Triple的比較的
+[01:09:50] Yang Songlin: 但他沒有Apple
+[01:09:52] Yang Songlin: Triple
+[01:09:53] Yang Songlin: 去Spasser
+[01:09:53] Yang Songlin: 探訊的一個比較
+[01:09:55] 要是有一個地方
+[01:09:56] Yang Songlin: 能做此善
+[01:09:57] Yang Songlin: 來Apple
+[01:09:58] Yang Songlin: Triple
+[01:09:58] Yang Songlin: 來比一下
+[01:09:58] Yang Songlin: 讓大家
+[01:09:59] Yang Songlin: 能更好的知道
+[01:10:00] Yang Songlin: 就更好了
+[01:10:00] Yang Songlin: 對
+[01:10:01] Yang Songlin: 但現在
+[01:10:02] Yang Songlin: 因為沒有人
+[01:10:03] Yang Songlin: 在做一個Apple
+[01:10:04] Yang Songlin: Triple的比較
+[01:10:05] Yang Songlin: 所以這個問題
+[01:10:06] Yang Songlin: 我也不知道
+[01:10:07] Yang Songlin: 那個會更好
+[01:10:08] Yang Songlin: 對
+[01:10:08] Yang Songlin: 我覺得很有意思
+[01:10:09] Zhang Xiaojun: 為什麼KIMI
+[01:10:09] Zhang Xiaojun: 不做這個比較
+[01:10:10] Zhang Xiaojun: 還比較得是Fortness
+[01:10:12] 他在看好就寫了
+[01:10:13] Zhang Xiaojun: 說他們是第一個驗證了
+[01:10:14] Zhang Xiaojun: 就竟然超越Fortness
+[01:10:17] Zhang Xiaojun: 的混合
+[01:10:18] Zhang Xiaojun: 林頁誠神架構
+[01:10:20] 可能還是
+[01:10:21] Yang Songlin: 就是資源有線
+[01:10:22] Yang Songlin: 如果就
+[01:10:23] Yang Songlin: 那麼多卡
+[01:10:24] Yang Songlin: 那可能先投入
+[01:10:26] Yang Songlin: 一個路線去驗證
+[01:10:28] Yang Songlin: 對
+[01:10:28] Yang Songlin: 然後如果驗證出來了
+[01:10:30] Yang Songlin: 再去投入
+[01:10:30] Yang Songlin: 另外一個路線
+[01:10:31] Yang Songlin: 看看有沒有可能
+[01:10:33] Yang Songlin: 比方說
+[01:10:33] Yang Songlin: 把全球處理力
+[01:10:34] Yang Songlin: 再把它替換掉
+[01:10:35] Yang Songlin: 對
+[01:10:36] Yang Songlin: 感覺
+[01:10:37] Yang Songlin: 就是沒有這麼多卡
+[01:10:39] Yang Songlin: 來同時來跑一些
+[01:10:42] 不同的方案的對比嗎
+[01:10:44] Yang Songlin: 然後像歸股的話
+[01:10:47] 就很多東西都避遠
+[01:10:48] Yang Songlin: 所以
+[01:10:49] Yang Songlin: 你也不知道
+[01:10:50] Yang Songlin: 他們有沒有跑一下
+[01:10:51] Yang Songlin: 我投入了比較嗎
+[01:10:52] Yang Songlin: 對
+[01:10:53] 你看KIMI林頁的論文
+[01:10:55] Zhang Xiaojun: 你覺得還有哪些
+[01:10:56] Zhang Xiaojun: 是值得大家關注的
+[01:10:58] 前面說
+[01:10:59] Yang Songlin: 就是這個現身注意的
+[01:11:00] Yang Songlin: 某塊
+[01:11:01] Yang Songlin: 然後還有可能就
+[01:11:03] Yang Songlin: 全球注意力
+[01:11:04] Yang Songlin: 他的那個
+[01:11:06] 用肉盤還是用肉盤的
+[01:11:07] Yang Songlin: 一個比較
+[01:11:08] Yang Songlin: 對
+[01:11:09] 像KIMI
+[01:11:10] Yang Songlin: 他選的
+[01:11:11] Yang Songlin: 是用肉盤
+[01:11:13] Yang Songlin: 然後像
+[01:11:14] Yang Songlin: 前問三Nes的話
+[01:11:16] Yang Songlin: 他是選的是一個
+[01:11:18] Yang Songlin: Pasha肉盤
+[01:11:19] Yang Songlin: 對
+[01:11:20] 他就是
+[01:11:21] Yang Songlin: 25%是肉盤
+[01:11:23] Yang Songlin: 75%肉盤
+[01:11:24] Yang Songlin: 對
+[01:11:25] Yang Songlin: 我覺得在這種
+[01:11:26] Yang Songlin: 混合注意力
+[01:11:27] Yang Songlin: 你們大家都在看肉盤
+[01:11:29] Yang Songlin: 但是看
+[01:11:30] Yang Songlin: 大家看多少嗎
+[01:11:32] Yang Songlin: 像
+[01:11:32] Yang Songlin: 千萬三Nes
+[01:11:33] Yang Songlin: 看了75%
+[01:11:35] Yang Songlin: 然後像KIMI看了
+[01:11:36] Yang Songlin: 百分之百
+[01:11:37] Yang Songlin: 對
+[01:11:38] 然後像這種長度外推
+[01:11:40] Yang Songlin: 這種
+[01:11:43] 這個人像看起來的話
+[01:11:44] Yang Songlin: 就是肉盤
+[01:11:46] Yang Songlin: 在這種
+[01:11:48] 在這種
+[01:11:48] 台北的家庭裡面可能會
+[01:11:50] Yang Songlin: 比較足碼
+[01:11:51] Yang Songlin: 這種長度外推
+[01:11:53] Yang Songlin: 然後這個地方其實也沒有共識
+[01:11:56] Yang Songlin: 就是說大家也不知道是用
+[01:11:58] 有些還是用肉盤
+[01:12:00] Yang Songlin: 有些還是用肉盤
+[01:12:01] Yang Songlin: 這個地方還是沒有共識的
+[01:12:03] 然後有些地方還用Pasha肉盤
+[01:12:05] 對
+[01:12:07] 提一個就是提外壞
+[01:12:08] Zhang Xiaojun: 你有關注最近DPC
+[01:12:10] Zhang Xiaojun: 他的那個新的工作
+[01:12:11] Zhang Xiaojun: 就是第四個
+[01:12:12] Yang Songlin: 他發一個
+[01:12:14] Yang Songlin: OCA的paper
+[01:12:16] 就知道大家就是說
+[01:12:18] Yang Songlin: 其實
+[01:12:20] 數據撞巧的時候
+[01:12:22] Yang Songlin: 還是有很多那種
+[01:12:25] 這書籍
+[01:12:26] Yang Songlin: PDIF裡面
+[01:12:27] Yang Songlin: 有大量的數據的
+[01:12:29] Yang Songlin: 所以他們做這個OCA
+[01:12:30] Yang Songlin: 可以幫他們更好的洗一些
+[01:12:31] Yang Songlin: Data出來
+[01:12:33] 然後來做Pretrent
+[01:12:34] Yang Songlin: 然後另外的話
+[01:12:35] Yang Songlin: 他們說是由OCA來
+[01:12:37] Yang Songlin: 做這種
+[01:12:38] Yang Songlin: Contest Compression
+[01:12:41] 這一點的話
+[01:12:44] 我覺得
+[01:12:46] 是一個有意思的一個老動
+[01:12:49] Yang Songlin: 但
+[01:12:51] 我不確定這個方案怎麼樣
+[01:12:53] Yang Songlin: 對
+[01:12:54] 千萬的工作你有參與秒
+[01:12:57] 就千萬三千
+[01:12:58] Yang Songlin: 好 我就基本上那次
+[01:13:00] Yang Songlin: 就是我會
+[01:13:02] 他們要是碰到什麼問題
+[01:13:04] Yang Songlin: 我就可以幫忙打一下
+[01:13:06] Yang Songlin: 就是不參與他們去模型什麼的
+[01:13:10] Yang Songlin: 就是如果他們有一些
+[01:13:11] Yang Songlin: 學術上的討論的話
+[01:13:13] Yang Songlin: 我是會跟他們討論的
+[01:13:15] Yang Songlin: 對 我跟千萬三
+[01:13:17] Yang Songlin: 那是那個
+[01:13:18] Yang Songlin: 訓練的那幾個同學都還挺熟的
+[01:13:21] Yang Songlin: 那個名字參與秒
+[01:13:23] 沒有
+[01:13:24] 所以你參與的時候
+[01:13:25] Yang Songlin: 如果參與了
+[01:13:26] Yang Songlin: 他們應該不會用這個方案
+[01:13:29] Yang Songlin: 我會覺得這個方案
+[01:13:31] Yang Songlin: 在開道場
+[01:13:33] OK
+[01:13:36] 我覺得你有次很好玩
+[01:13:37] Zhang Xiaojun: 你總之在又
+[01:13:39] Zhang Xiaojun: 把這個架構玩一下
+[01:13:40] Zhang Xiaojun: 或者掉一下這種詞
+[01:13:42] Zhang Xiaojun: 這個是一種
+[01:13:43] Zhang Xiaojun: 研究原生的文化嗎
+[01:13:45] 我覺得
+[01:13:47] Yang Songlin: 掉這個字好像還挺常見的
+[01:13:49] Yang Songlin: 就是
+[01:13:52] Yang Songlin: 有一種刁花
+[01:13:53] Yang Songlin: 等了一種字炒的那種說法吧
+[01:13:56] Yang Songlin: 哦
+[01:13:57] Zhang Xiaojun: 就是要是另結束
+[01:13:59] Zhang Xiaojun: 不要時尚刁花
+[01:14:00] Zhang Xiaojun: 是吧
+[01:14:00] Zhang Xiaojun: 現在沒辦法
+[01:14:01] Zhang Xiaojun: 算力不夠
+[01:14:02] Zhang Xiaojun: 數據也有限了
+[01:14:03] Zhang Xiaojun: 所以只能掉
+[01:14:05] 但是對
+[01:14:06] Yang Songlin: 但是我覺得
+[01:14:07] Yang Songlin: 刁架構還是挺有用的嗎
+[01:14:09] Yang Songlin: 像
+[01:14:09] Yang Songlin: 像Dipsy-KM1
+[01:14:10] Yang Songlin: 那個刁出來之後
+[01:14:12] Yang Songlin: 大家都已經成為一個公式了
+[01:14:14] Yang Songlin: 基本上的一個公式了
+[01:14:16] Yang Songlin: 就可能一般會用那個Dipsy-KM1的方案嗎
+[01:14:19] Yang Songlin: 對
+[01:14:20] Yang Songlin: 如果在他之前
+[01:14:23] 然後他
+[01:14:23] 他在做那個
+[01:14:24] Yang Songlin: 那可能
+[01:14:25] Yang Songlin: 大家也會說
+[01:14:26] Yang Songlin: 可能在掉M1嗎
+[01:14:27] Yang Songlin: 對
+[01:14:28] Yang Songlin: 然後感覺
+[01:14:29] Yang Songlin: 掉一支變成
+[01:14:30] Yang Songlin: 一個常見的形容詞
+[01:14:33] 我覺得他不是一個點一次
+[01:14:34] Yang Songlin: 他是一個就是
+[01:14:35] Yang Songlin: 把一個模塊
+[01:14:36] Yang Songlin: 把它打磨到
+[01:14:38] Yang Songlin: 然後更好
+[01:14:39] Yang Songlin: 對
+[01:14:40] 對
+[01:14:40] 如果數據的Skilling
+[01:14:42] Zhang Xiaojun: 能夠非常突出的話
+[01:14:43] Zhang Xiaojun: 其實沒有必要掉
+[01:14:44] Zhang Xiaojun: 就對數據就好了
+[01:14:46] Zhang Xiaojun: 當數據還很少的時候
+[01:14:47] Zhang Xiaojun: 他比如說機器人領域現在就是數據
+[01:14:49] Zhang Xiaojun: 就沒什麼數據
+[01:14:50] Zhang Xiaojun: 那只要加數據
+[01:14:52] Zhang Xiaojun: 他就能夠
+[01:14:53] Zhang Xiaojun: 顯著的效果提升
+[01:14:54] Zhang Xiaojun: 那就沒有必要去做模型
+[01:14:56] Zhang Xiaojun: 先算法的創新
+[01:14:57] Zhang Xiaojun: 對
+[01:14:58] 這是一點吧
+[01:14:59] Yang Songlin: 所以
+[01:15:00] Yang Songlin: Lobody's Tang
+[01:15:02] 最應該做的應該還是先把數據這個問題
+[01:15:05] Yang Songlin: 把它搞定吧
+[01:15:06] Yang Songlin: 對
+[01:15:07] 然後數據搞定之後
+[01:15:08] Yang Songlin: 再回來看這種
+[01:15:10] Efaces 盛西的這種問題
+[01:15:11] Yang Songlin: 也不吃了嗎
+[01:15:12] Yang Songlin: 對
+[01:15:14] 你做AI的 researching
+[01:15:16] Zhang Xiaojun: 新你的是什麼
+[01:15:17] Zhang Xiaojun: 好 真正
+[01:15:19] Yang Songlin: 你是怎麼記錄AI說好一點
+[01:15:21] Zhang Xiaojun: AI的好話就是
+[01:15:24] 粉科的時候就對模型的那樣
+[01:15:27] Yang Songlin: 地步的那樣挺有興趣的
+[01:15:29] Yang Songlin: 然後
+[01:15:30] 然後當時Master在上河大
+[01:15:33] Yang Songlin: 念那個APP
+[01:15:34] Yang Songlin: 那個時候就已經進入AI了
+[01:15:37] 然後二、三年
+[01:15:39] Yang Songlin: 二、二年就是差距PD這一波
+[01:15:42] Yang Songlin: 就是NAS2 位置模特
+[01:15:45] Yang Songlin: Foome 開來
+[01:15:46] Yang Songlin: 那就
+[01:15:47] Yang Songlin: 做LP的人
+[01:15:48] Yang Songlin: 就
+[01:15:49] 基本上都來做NAS2模特了嗎
+[01:15:51] Yang Songlin: 對
+[01:15:52] 然後做AI
+[01:15:53] Yang Songlin: 我覺得像
+[01:15:55] Yang Songlin: 更有意思一點
+[01:15:56] Yang Songlin: 就是比之前會更有意思一點
+[01:15:59] 因為之前可能
+[01:16:00] Yang Songlin: 大家還是在Fantaska來做
+[01:16:03] Yang Songlin: 然後現在可能都
+[01:16:06] Yang Songlin: 就是比較Ulyfile
+[01:16:08] Yang Songlin: 然後可能就是
+[01:16:09] Yang Songlin: 會比較Foome
+[01:16:10] Yang Songlin: 更加同用的一些問題來了
+[01:16:13] Yang Songlin: 對
+[01:16:14] Yang Songlin: 就不需要是操心
+[01:16:15] Yang Songlin: 某些特定的Task
+[01:16:17] Yang Songlin: 因為你只要穿一個
+[01:16:19] Yang Songlin: 很好好的機膜
+[01:16:20] Yang Songlin: 然後
+[01:16:22] Yang Songlin: 然後你對不同的Task都可以用
+[01:16:24] Yang Songlin: 你無非是PoseTrain的時候
+[01:16:25] Yang Songlin: 你也要注意的地方不要嗎
+[01:16:28] 然後現在的話就是
+[01:16:30] 感覺就是這座東西的話
+[01:16:31] Yang Songlin: 可能就是能看到更多的影響力
+[01:16:34] Yang Songlin: 然後
+[01:16:35] Yang Songlin: 這一點感覺還是挺
+[01:16:37] Yang Songlin: 就是看到自己的開發的東西
+[01:16:39] Yang Songlin: 所以大家用還是挺開心的嗎
+[01:16:42] Zhang Xiaojun: 你過程中有遇到過什麼樣的措著沒有
+[01:16:45] 然後感覺我
+[01:16:46] Yang Songlin: DWPST好像
+[01:16:48] Yang Songlin: 這些工作都還挺順的
+[01:16:51] 沒啥樣的
+[01:16:52] 對
+[01:16:53] 然後感覺就是這些工作都還挺年慣的
+[01:16:56] Yang Songlin: 然後
+[01:16:57] Yang Songlin: 然後挺順的
+[01:16:58] Yang Songlin: 我覺得還是
+[01:17:00] Yang Songlin: 因為可能是DWPST之前
+[01:17:03] Yang Songlin: 就是花了半年的時間
+[01:17:05] Yang Songlin: 來掉眼這些東西
+[01:17:07] Yang Songlin: 然後可能對這些
+[01:17:09] Yang Songlin: 這個領域的理解會生很多
+[01:17:12] 然後就生根這個領域來做
+[01:17:14] Yang Songlin: 其實問題也不是很多吧
+[01:17:16] Yang Songlin: 因為
+[01:17:17] 因為這個領域非常熟
+[01:17:18] Yang Songlin: 然後碰到什麼問題
+[01:17:20] Yang Songlin: 大概也知道怎麼去接
+[01:17:21] Yang Songlin: 對
+[01:17:22] Yang Songlin: 獨片是基金花半年去掉眼
+[01:17:24] Zhang Xiaojun: 這個是做的是你什麼樣的工作
+[01:17:26] Zhang Xiaojun: 是入學之前的半年水
+[01:17:29] 就是之前申請完半年嗎
+[01:17:31] Yang Songlin: 就申請完之後
+[01:17:33] Yang Songlin: 有半年可以自由的時光
+[01:17:37] 當時就基本上就是在掉眼
+[01:17:39] Yang Songlin: 這種架構的這種paper
+[01:17:41] Yang Songlin: 然後當時
+[01:17:43] 讀了很多比較老的paper
+[01:17:45] 就比方說像德塔納特
+[01:17:47] Yang Songlin: 他最早是2021年
+[01:17:50] 就是那個SGM支付
+[01:17:53] Yang Songlin: 嗯
+[01:17:54] Yang Songlin: 的那個paper
+[01:17:56] 然後當時我就在這個工作有印象嗎
+[01:17:59] Yang Songlin: 然後後面的話就
+[01:18:02] 後面
+[01:18:03] Yang Songlin: 就那年年底
+[01:18:04] Yang Songlin: 就做完那個Gating Linear探索
+[01:18:06] Yang Songlin: 然後發現這個領域的話
+[01:18:08] Yang Songlin: 大家會對那個銀行Tas
+[01:18:11] Require就是從那個前面的文章
+[01:18:13] Yang Songlin: 裡面去做一個日區
+[01:18:15] Yang Songlin: 這個Tasca會感興趣
+[01:18:18] 然後這個就讓我一下子
+[01:18:19] Yang Songlin: 年想到了那個2021年那一片工作了
+[01:18:22] Yang Songlin: 對
+[01:18:23] 因為之前的這個整個領域
+[01:18:25] Yang Songlin: 他把握得非常的
+[01:18:27] 通緝嘛
+[01:18:28] Yang Songlin: 所以我知道就是如果領域
+[01:18:30] Yang Songlin: 大家其他其他人關心這個問題的話
+[01:18:33] Yang Songlin: 我應該從什麼角度去切入
+[01:18:35] Yang Songlin: 然後
+[01:18:37] 然後我也知道他前面工作有什麼問題嗎
+[01:18:39] Yang Songlin: 比方說
+[01:18:40] Yang Songlin: 2021年德塔納特的話
+[01:18:42] Yang Songlin: 他是沒有Hardware Efficiency的一個保證
+[01:18:46] Yang Songlin: 對然後我就覺得
+[01:18:47] Yang Songlin: 然後我後面就覺得就
+[01:18:49] Yang Songlin: 就教這個工作之後
+[01:18:51] 做德塔納的話我就知道
+[01:18:53] 德塔納特是一個很好的一個模型
+[01:18:55] Yang Songlin: 然後他的缺點就是
+[01:18:58] 呃
+[01:18:58] 現在大家還不能大規模用起來
+[01:19:01] 然後如果我能開發出一個算法
+[01:19:04] Yang Songlin: 能把它Skill up
+[01:19:05] Yang Songlin: 那就是一個非常有意義的工作
+[01:19:07] Yang Songlin: 對然後我大概就是
+[01:19:10] Yang Songlin: 這一套邏輯念嘛
+[01:19:11] Yang Songlin: 然後就可能也是運氣好吧
+[01:19:14] Yang Songlin: 就3號
+[01:19:15] 正好能推出一個
+[01:19:16] Yang Songlin: 能夠把它Skill up的一個算法
+[01:19:18] Yang Songlin: 對
+[01:19:19] Yang Songlin: 然後後面的話就是
+[01:19:22] 後面的話就可能就是
+[01:19:23] Yang Songlin: 相機機待在的話
+[01:19:24] Yang Songlin: 就是也的這個工作做
+[01:19:26] 因為當時發現
+[01:19:28] Yang Songlin: 德塔納特還是在很多
+[01:19:30] Yang Songlin: 他上面是打不過這個Mamba2的
+[01:19:33] Yang Songlin: 對
+[01:19:33] Yang Songlin: 然後我當時就覺得打不過就加入嘛
+[01:19:36] Yang Songlin: 那我就把Mamba2的
+[01:19:37] Yang Songlin: 他那個Gating把它拿過來
+[01:19:40] Yang Songlin: 然後把德塔都再加回來
+[01:19:43] Yang Songlin: 對這樣子的話就把他
+[01:19:45] Yang Songlin: A加B變成一個BT DataNet
+[01:19:47] Yang Songlin: 對
+[01:19:48] Yang Songlin: 我覺得我做的東西就是
+[01:19:51] Yang Songlin: 嗯
+[01:19:51] Yang Songlin: 就會看這個領域
+[01:19:53] Yang Songlin: 他需要什麼樣的工作嘛
+[01:19:54] Yang Songlin: 然後
+[01:19:55] Yang Songlin: 那些做什麼樣的東西
+[01:19:57] Yang Songlin: 會帶來更多的這種
+[01:20:00] Yang Songlin: 領域的影響力嘛
+[01:20:01] Yang Songlin: 然後還有業界的影響力嘛
+[01:20:02] Yang Songlin: 對
+[01:20:03] Yang Songlin: 然後就是如果當你很清楚
+[01:20:06] Yang Songlin: 你要做什麼的時候
+[01:20:07] Yang Songlin: 你其實是不會遇到什麼錯誠的
+[01:20:10] 就是接受太快的那種
+[01:20:12] Yang Songlin: 川普其實我覺得都是
+[01:20:14] Yang Songlin: 有辦法把它搞定的
+[01:20:17] Yang Songlin: 對
+[01:20:18] Yang Songlin: 那川普就是你不知道
+[01:20:19] Yang Songlin: 你要做什麼東西
+[01:20:20] Yang Songlin: 你不知道做什麼東西是有用的
+[01:20:22] Yang Songlin: 我覺得這個才是最大的川普
+[01:20:24] 為你和核心是從歷史中學習的很多
+[01:20:27] 對吧
+[01:20:28] Yang Songlin: 我覺得我還是挺希望看
+[01:20:30] 最早的那些批判
+[01:20:32] Yang Songlin: 我覺得那些批判現在都挺好的
+[01:20:34] Yang Songlin: 然後
+[01:20:35] Yang Songlin: 我管這個叫做
+[01:20:37] 考股
+[01:20:38] Yang Songlin: 對
+[01:20:38] Yang Songlin: 因為我就喜歡考那些古代的批判
+[01:20:41] 就古代的話
+[01:20:42] Yang Songlin: 可能要你要一年也算古代嗎
+[01:20:44] Yang Songlin: 因為
+[01:20:45] 原來現在
+[01:20:46] Yang Songlin: 一年前的批判叫老批判
+[01:20:48] Yang Songlin: 那五年前的批判
+[01:20:49] Yang Songlin: 那可以叫做古代的批判了
+[01:20:51] Yang Songlin: 對
+[01:20:52] Yang Songlin: 那半年你讀的最老的批判
+[01:20:54] Zhang Xiaojun: 到什麼時候
+[01:20:56] 最近半年嗎
+[01:20:57] Yang Songlin: 就是你掉眼淚的半年
+[01:20:59] 那半年
+[01:21:00] Yang Songlin: 可能就是
+[01:21:02] Yang Songlin: 讀到不要說2011幾年的文章吧
+[01:21:07] 讀了多久
+[01:21:07] 因為
+[01:21:08] Yang Songlin: 因為
+[01:21:09] 我覺得
+[01:21:10] Yang Songlin: 我可以說這個裡面的文章
+[01:21:12] Yang Songlin: 我基本上都讀過一篇
+[01:21:14] 這個做到的人很少
+[01:21:15] Zhang Xiaojun: 是吧
+[01:21:17] 對
+[01:21:17] 我覺得不同的人有不同的
+[01:21:19] Yang Songlin: 瑞瑟是Felosophy吧
+[01:21:21] 我覺得
+[01:21:22] Yang Songlin: 就一定要吧
+[01:21:23] Yang Songlin: 這個你與裡面
+[01:21:24] Yang Songlin: 值得看的文章全部都看一遍
+[01:21:26] Yang Songlin: 對
+[01:21:28] Zhang Xiaojun: 你為什麼在AI的
+[01:21:29] Zhang Xiaojun: 眾多領域分支裡面
+[01:21:30] Zhang Xiaojun: 你喜歡的是加購
+[01:21:32] 因為我不要想做散法
+[01:21:34] Yang Songlin: 然後
+[01:21:35] 當時覺得
+[01:21:36] Yang Songlin: 那什麼的
+[01:21:37] Yang Songlin: 然後就可以看出
+[01:21:39] Yang Songlin: 哪些東西是值得做的嗎
+[01:21:41] Yang Songlin: 對
+[01:21:42] 然後
+[01:21:44] Yang Songlin: 就想做一些不要通用的
+[01:21:45] Yang Songlin: 然後整體都是
+[01:21:48] Yang Songlin: 對這種那些
+[01:21:48] Yang Songlin: 任務的有用那些我可
+[01:21:50] Yang Songlin: 然後請和下自己興趣
+[01:21:51] Yang Songlin: 然後發現
+[01:21:53] 然後還
+[01:21:54] Yang Songlin: 正如最開始說到
+[01:21:56] Yang Songlin: 就是像黑地鱼色尺
+[01:21:58] Yang Songlin: 他們有很多博客
+[01:21:59] Yang Songlin: 然後
+[01:22:01] Yang Songlin: 主要是自己喜歡做散法
+[01:22:02] Yang Songlin: 然後
+[01:22:03] Yang Songlin: 然後就發現這個領域
+[01:22:04] Yang Songlin: 很深我來做
+[01:22:06] 你說些是不是很好
+[01:22:07] Yang Songlin: 應該還挺好的
+[01:22:09] 為什麼
+[01:22:10] Zhang Xiaojun: 因為這篇文文裡面
+[01:22:11] Zhang Xiaojun: 這麼多公式
+[01:22:12] Zhang Xiaojun: 我覺得這書寫都不是很難
+[01:22:14] Yang Songlin: 都是一些舉證的一些
+[01:22:17] Yang Songlin: 舉證的一些懲罰
+[01:22:19] Yang Songlin: 這個東西
+[01:22:20] Yang Songlin: 然後像
+[01:22:22] 像現行注意它
+[01:22:24] Yang Songlin: 有安的形式的話
+[01:22:26] Yang Songlin: 它會有一些
+[01:22:28] Yang Songlin: reconference
+[01:22:29] Yang Songlin: 會有一些現行轉移方程
+[01:22:31] Yang Songlin: 那些公式
+[01:22:33] 然後冰型的話
+[01:22:34] Yang Songlin: 可能就是
+[01:22:36] 冰型確實書記會比較多一點
+[01:22:38] Yang Songlin: 的那種比較
+[01:22:39] Yang Songlin: chicky
+[01:22:40] 對
+[01:22:41] Yang Songlin: 所以它這個論文
+[01:22:42] Zhang Xiaojun: 顯著比加論文的
+[01:22:43] Zhang Xiaojun: 睡公室是要更多的
+[01:22:45] Zhang Xiaojun: 因為
+[01:22:46] Yang Songlin: 我覺得現行注意力它除了
+[01:22:48] Yang Songlin: 就是一個
+[01:22:49] Yang Songlin: 玩舉證變化的一個東西
+[01:22:51] Yang Songlin: 它可以把一個平方的東西
+[01:22:52] Yang Songlin: 變成一個現行的
+[01:22:54] Yang Songlin: 然後它就是玩這種舉證變化
+[01:22:58] Yang Songlin: 對
+[01:22:59] Yang Songlin: 然後它從reconference
+[01:23:00] Yang Songlin: 把它變成創可
+[01:23:02] Yang Songlin: 它們都等價的嗎
+[01:23:03] Yang Songlin: 但它們都設立到很多
+[01:23:04] Yang Songlin: 這種舉證變化嗎
+[01:23:06] Yang Songlin: 所以它書寫多一點
+[01:23:08] Yang Songlin: 我覺得很真長吧
+[01:23:10] 你剛才提到
+[01:23:11] Zhang Xiaojun: 你讀國事前半年
+[01:23:13] Zhang Xiaojun: 做了很多散法的考古
+[01:23:15] Zhang Xiaojun: 我們給大家講講
+[01:23:16] Zhang Xiaojun: 就是散法是怎麼一步步
+[01:23:17] Zhang Xiaojun: 眼睛到今天
+[01:23:18] Zhang Xiaojun: 的這段散法歷史
+[01:23:19] Zhang Xiaojun: 那我從
+[01:23:21] Transformer開始
+[01:23:23] 講
+[01:23:24] Yang Songlin: Transformer換它
+[01:23:25] Yang Songlin: 給大家可能就
+[01:23:27] 三個主要模塊吧
+[01:23:29] Yang Songlin: 它也就是
+[01:23:30] Yang Songlin: 注意機制
+[01:23:32] Yang Songlin: 然後另外一個是
+[01:23:34] Yang Songlin: 位置變化
+[01:23:34] Yang Songlin: 然後最後就是i5
+[01:23:38] 然後
+[01:23:39] Yang Songlin: 最開始那幾年
+[01:23:40] Yang Songlin: 我感覺可能加個
+[01:23:42] Yang Songlin: Research是非常多吧
+[01:23:44] 然後有一些
+[01:23:45] Yang Songlin: 加個的改進
+[01:23:47] Yang Songlin: 也確實被用到的今天
+[01:23:48] Yang Songlin: 比方說
+[01:23:50] 像那位這邊嘛
+[01:23:52] Yang Songlin: 比如像肉
+[01:23:54] 它
+[01:23:55] Yang Songlin: 最開始的話
+[01:23:56] Yang Songlin: 善通的話
+[01:23:56] Yang Songlin: 它是絕對位置
+[01:23:58] 邊嘛
+[01:23:59] Yang Songlin: 然後像今天
+[01:24:01] Yang Songlin: 進版的改成
+[01:24:02] Yang Songlin: 這種
+[01:24:02] Yang Songlin: 相對位置邊嘛
+[01:24:05] Yang Songlin: 然後像
+[01:24:07] M1的話
+[01:24:08] Yang Songlin: 我覺得可能也是
+[01:24:10] Yang Songlin: 從2021年
+[01:24:12] Yang Songlin: 左右就開始發展了
+[01:24:15] 然後可能中間
+[01:24:17] 有段時間
+[01:24:17] 大家可能就不怎麼信按模移嗎
+[01:24:19] Yang Songlin: 然後後面
+[01:24:20] Yang Songlin: 又發現
+[01:24:22] Yang Songlin: 比如說像Dips1
+[01:24:23] Yang Songlin: 把M1做通
+[01:24:24] Yang Songlin: 然後大家又回來重新
+[01:24:27] Yang Songlin: 做按模移
+[01:24:28] Yang Songlin: 然後現在M1應該就是
+[01:24:30] Yang Songlin: 大家都會用的東西嗎
+[01:24:32] 然後像
+[01:24:33] Yang Songlin: 單身的話
+[01:24:34] Yang Songlin: 單身的這種變種
+[01:24:36] Yang Songlin: 可能就更多了
+[01:24:38] Yang Songlin: 像
+[01:24:39] Yang Songlin: 前面也說到
+[01:24:39] Yang Songlin: 想要你要0點錢
+[01:24:41] Yang Songlin: 後可能
+[01:24:42] Yang Songlin: 我單身的變種
+[01:24:43] Yang Songlin: 就非常變得那麼多
+[01:24:45] 其實也主要就是
+[01:24:46] Yang Songlin: 兩手變種嗎
+[01:24:48] Yang Songlin: 低頭就先信注意你
+[01:24:50] 然後
+[01:24:51] Yang Songlin: 第二的話就是
+[01:24:52] Yang Songlin: 吸塑塑力
+[01:24:54] Yang Songlin: 他們先注意的話
+[01:24:55] Yang Songlin: 他們就會搞很多那種
+[01:24:58] 可能買紙
+[01:25:00] Yang Songlin: 去
+[01:25:01] Yang Songlin: Suffice Tension
+[01:25:02] Yang Songlin: 然後在今天來看
+[01:25:04] Yang Songlin: 我覺得這是一個非常
+[01:25:06] 錯誤的方向
+[01:25:07] Yang Songlin: 不知道覺得
+[01:25:07] Yang Songlin: 就不應該去用
+[01:25:08] Yang Songlin: 可能買紙去
+[01:25:10] Yang Songlin: 去估計這些
+[01:25:12] Yang Songlin: Suffice Tension
+[01:25:14] 然後有一些好工作的話
+[01:25:15] Yang Songlin: 可能就會
+[01:25:17] Yang Songlin: 因為沒有Followup
+[01:25:19] Yang Songlin: 然後被埋摸在
+[01:25:23] Yang Songlin: 文獻海裡面
+[01:25:24] Yang Songlin: 比方說像
+[01:25:26] Yang Songlin: Data那這個工作
+[01:25:28] Yang Songlin: 我前面也說
+[01:25:29] Yang Songlin: 她121點就有了嗎
+[01:25:31] 然後對她入那個東西
+[01:25:34] Yang Songlin: 可能後面幾年就根本沒有人
+[01:25:36] Yang Songlin: Take it seriously
+[01:25:38] Yang Songlin: 就是沒有什麼Followup work
+[01:25:40] Yang Songlin: 然後從時間內
+[01:25:42] Yang Songlin: 也見上來說
+[01:25:44] Yang Songlin: 也話來說
+[01:25:45] Yang Songlin: 可能有一些技術
+[01:25:46] Yang Songlin: 比如說像這種
+[01:25:48] Yang Songlin: 細利度的這種遺忘
+[01:25:50] Yang Songlin: 可能很多年前就有了
+[01:25:53] 比方說像細利度的這種DK
+[01:25:57] 至少
+[01:25:58] Yang Songlin: Yamup
+[01:25:59] Yang Songlin: 2002年
+[01:26:00] Yang Songlin: 她可能就有一篇工作了
+[01:26:02] 然後最早的話
+[01:26:04] Yang Songlin: 我可以考古到2016年
+[01:26:06] 然後
+[01:26:07] Yang Songlin: 但後面的話
+[01:26:08] Yang Songlin: 比如說
+[01:26:08] Yang Songlin: SanRan
+[01:26:09] Yang Songlin: 2003年
+[01:26:10] Yang Songlin: 她反而用的是一個
+[01:26:11] Yang Songlin: 遺忘
+[01:26:13] Yang Songlin: 蘇利
+[01:26:14] Yang Songlin: 跟蘇利度的一個DK
+[01:26:17] 所以我覺得可能就是
+[01:26:19] Yang Songlin: 之前的技術
+[01:26:20] Yang Songlin: 不能更好的
+[01:26:21] Yang Songlin: 傳承下來吧
+[01:26:23] 然後
+[01:26:24] Yang Songlin: 然後我又比較喜歡
+[01:26:26] Yang Songlin: 把所有的技術全部
+[01:26:28] Yang Songlin: 重新審視
+[01:26:29] Yang Songlin: 一遍然後
+[01:26:30] Yang Songlin: 學一下
+[01:26:31] Yang Songlin: 我覺得最美的SanR的技術來做
+[01:26:32] Yang Songlin: 然後可能
+[01:26:34] Yang Songlin: 這篇說像
+[01:26:34] Yang Songlin: Data
+[01:26:35] Yang Songlin: 如果這個技術
+[01:26:35] Yang Songlin: 又可以
+[01:26:37] Yang Songlin: 重現光芒吧
+[01:26:39] Yang Songlin: 對
+[01:26:40] Yang Songlin: 但如果
+[01:26:42] 如果沒有我來Full-Out的話
+[01:26:43] Yang Songlin: 可能就不好說了
+[01:26:44] Yang Songlin: 可能
+[01:26:45] Yang Songlin: 可能這一套技術路線
+[01:26:47] Yang Songlin: 可能就會
+[01:26:49] Yang Songlin: 演藏在文獻海裡面
+[01:26:51] Yang Songlin: 對
+[01:26:52] Yang Songlin: 然後像SpaZaTension的話
+[01:26:56] 他們這早可能就做一些
+[01:26:59] Yang Songlin: Static的一些SpaZaTension
+[01:27:00] Yang Songlin: 像Nomeformal
+[01:27:02] Yang Songlin: 那種BigBird
+[01:27:04] Yang Songlin: 他們會有各種各樣的
+[01:27:06] Yang Songlin: SpaZaTension
+[01:27:07] Yang Songlin: 然後好像
+[01:27:08] Yang Songlin: 後面就主見收捏到
+[01:27:11] Yang Songlin: 用SlayerManager了
+[01:27:12] Yang Songlin: 然後可能近幾年的話
+[01:27:14] Yang Songlin: 他會有一些
+[01:27:15] Yang Songlin: 不一樣的東西出來
+[01:27:17] Yang Songlin: 就是
+[01:27:19] 早幾年比較少
+[01:27:20] Yang Songlin: 但是最近有比較多的
+[01:27:21] Yang Songlin: 比方說像
+[01:27:23] 動態系術
+[01:27:24] Yang Songlin: 像Kimmy Mobile
+[01:27:26] Yang Songlin: DF-C一個的這種
+[01:27:29] Yang Songlin: SpaZaTension都屬於動態系術
+[01:27:32] Yang Songlin: 對
+[01:27:32] Yang Songlin: 然後
+[01:27:33] Yang Songlin: 總統來說
+[01:27:34] Yang Songlin: 就是
+[01:27:36] Yang Songlin: 我感覺整體還是
+[01:27:38] Yang Songlin: 上海還在不斷演進
+[01:27:41] Yang Songlin: 然後可能他整個發展
+[01:27:43] Yang Songlin: 就是需要
+[01:27:45] 有一些技術可能需要
+[01:27:47] Yang Songlin: Refink幾次
+[01:27:49] 然後
+[01:27:50] Yang Songlin: 很多上海的話
+[01:27:51] Yang Songlin: 可能這個發展還是會有一些
+[01:27:54] Yang Songlin: 有點諾選上升的味道在裡面
+[01:27:57] Yang Songlin: 對
+[01:27:58] Zhang Xiaojun: 其實歷史中已經有很多的工具
+[01:28:00] Zhang Xiaojun: 但是今天我們需要拿哪些工具來
+[01:28:02] Zhang Xiaojun: 應用
+[01:28:03] Zhang Xiaojun: 推動今天的算法
+[01:28:04] Zhang Xiaojun: 其實是一個很關鍵的事
+[01:28:06] 對的
+[01:28:07] Yang Songlin: 我覺得其實很多歷史的算法
+[01:28:11] Yang Songlin: 它其實是很先進的
+[01:28:13] Yang Songlin: 但是可能當時同好
+[01:28:16] Yang Songlin: 沒有意識到這個工作的價值
+[01:28:20] Yang Songlin: 可能那個工作就不會買摸了
+[01:28:22] 然後也有可能
+[01:28:23] Yang Songlin: 就是那個工作
+[01:28:24] Yang Songlin: 它的配套
+[01:28:25] Yang Songlin: 比方說那些代碼開源代碼
+[01:28:27] Yang Songlin: 做得太難了
+[01:28:28] Yang Songlin: 然後其他人想佛洛也沒發佛洛嘛
+[01:28:31] Yang Songlin: 所以
+[01:28:33] Yang Songlin: 所以總的來說就是
+[01:28:35] Yang Songlin: 我覺得如果今天做工作的話
+[01:28:38] Yang Songlin: 可能的話就是
+[01:28:39] Yang Songlin: 像我我就會
+[01:28:41] Yang Songlin: 把這種代碼把它做得
+[01:28:44] Yang Songlin: 讓大家好用
+[01:28:45] Yang Songlin: 所以這一套技術
+[01:28:46] Yang Songlin: 肯定能把它讓它流傳下去
+[01:28:48] Yang Songlin: 對
+[01:28:49] Yang Songlin: 然後別人的工作
+[01:28:51] Yang Songlin: 之前的話
+[01:28:52] Yang Songlin: 就會找一些
+[01:28:53] Yang Songlin: 我覺得MexSense的一些工作
+[01:28:55] Yang Songlin: 然後讓它
+[01:28:56] Yang Songlin: 讓它
+[01:28:58] Yang Songlin: 盡可能的看見它這個錢裡有多大吧
+[01:29:01] Yang Songlin: 對
+[01:29:02] 然後又說回
+[01:29:04] Yang Songlin: 就比方說
+[01:29:05] Yang Songlin: 像加個裡面的算法的話
+[01:29:07] Yang Songlin: 因為它算法的
+[01:29:09] Yang Songlin: 這種warerun的也太多了
+[01:29:11] Yang Songlin: 然後是加個的話
+[01:29:12] Yang Songlin: 那肯定還是
+[01:29:13] Yang Songlin: 需要很多算力來試
+[01:29:16] Yang Songlin: 然後
+[01:29:17] 有很多算法可能
+[01:29:18] Yang Songlin: 只在小規模下面有我
+[01:29:20] Yang Songlin: 可能然後
+[01:29:21] Yang Songlin: 可能到大規模
+[01:29:22] Yang Songlin: 就不會可能
+[01:29:23] Yang Songlin: 這就是非常常見的
+[01:29:25] Yang Songlin: 然後
+[01:29:26] Yang Songlin: 可能
+[01:29:28] Yang Songlin: 對
+[01:29:29] 可能比方說
+[01:29:30] Yang Songlin: 那兩今年
+[01:29:31] Yang Songlin: 國內公司又對開源
+[01:29:33] Yang Songlin: 重新有興趣的
+[01:29:35] Yang Songlin: 可能
+[01:29:36] Yang Songlin: 今年可能會大家見到
+[01:29:37] Yang Songlin: 加個的這種開源工作
+[01:29:39] Yang Songlin: 會更多一點
+[01:29:40] Yang Songlin: 然後
+[01:29:41] Yang Songlin: 變化可能會
+[01:29:42] Yang Songlin: 想要確認來說
+[01:29:43] Yang Songlin: 可能大家會覺得
+[01:29:44] Yang Songlin: 加個的變化比去年會多很多吧
+[01:29:46] Yang Songlin: 你的
+[01:29:48] Yang Songlin: Delta Rule是什麼
+[01:29:49] Yang Songlin: 給大家的靈感
+[01:29:50] Zhang Xiaojun: 就是
+[01:29:52] Yang Songlin: 2021年嘛
+[01:29:53] Yang Songlin: 那個工作
+[01:29:54] 那個工作是
+[01:29:55] Yang Songlin: 他們提出來的嘛
+[01:29:56] Yang Songlin: 對
+[01:29:57] 然後
+[01:29:58] Yang Songlin: 我就想一個
+[01:29:59] Yang Songlin: 冰型算法嘛
+[01:30:00] Yang Songlin: 然後
+[01:30:01] Yang Songlin: 其實
+[01:30:02] Yang Songlin: 就停類似於
+[01:30:03] Yang Songlin: FlySherTan生
+[01:30:05] Yang Songlin: 至於SurfmySherTan生
+[01:30:07] Yang Songlin: 對
+[01:30:08] Yang Songlin: 其實就是一個算法
+[01:30:09] Yang Songlin: 能夠讓他
+[01:30:10] Yang Songlin: 硬件靠小團實現
+[01:30:12] Yang Songlin: 對
+[01:30:13] Yang Songlin: 就是如果沒有FlySherTan生
+[01:30:15] Yang Songlin: 那SurfmySherTan生
+[01:30:16] Yang Songlin: 也走不到今天嘛
+[01:30:17] Yang Songlin: 然後
+[01:30:18] Yang Songlin: 像
+[01:30:19] Yang Songlin: 沒有那個冰型算法的話
+[01:30:20] Yang Songlin: 那Delta Rule
+[01:30:21] Yang Songlin: 肯定也不能走到今天
+[01:30:22] Yang Songlin: 就大概是一個
+[01:30:23] Yang Songlin: 這樣的關係
+[01:30:24] Yang Songlin: 對
+[01:30:25] 然後我做一次
+[01:30:27] Yang Songlin: 可能就是比較喜歡
+[01:30:29] Yang Songlin: 從實際上的這種
+[01:30:32] Yang Songlin: 硬件的這種
+[01:30:33] Yang Songlin: 親和力來研究的
+[01:30:35] Yang Songlin: 就是看
+[01:30:36] Yang Songlin: 因為我看
+[01:30:37] Yang Songlin: 有算法有沒有潛力
+[01:30:38] Yang Songlin: 我會來分析這個算法
+[01:30:40] Yang Songlin: 他的這個
+[01:30:41] 冰型潛力有多大
+[01:30:43] Yang Songlin: 然後
+[01:30:44] Yang Songlin: 他的Skaterability會有多大
+[01:30:46] Yang Songlin: 對
+[01:30:47] Yang Songlin: 然後我會在歷史的
+[01:30:49] 文獻海裡面找出一些
+[01:30:53] Machine Learning上面
+[01:30:54] Yang Songlin: Mexand
+[01:30:55] Yang Songlin: 然後
+[01:30:56] 我用的是
+[01:30:57] Yang Songlin: 我又能想辦法
+[01:30:58] Yang Songlin: 把它冰型的一些算法來玩
+[01:30:59] Yang Songlin: 對
+[01:31:00] Yang Songlin: 這是我的
+[01:31:01] 作為設施的思路
+[01:31:03] Yang Songlin: 我覺得總的來說
+[01:31:04] Yang Songlin: 就是還是
+[01:31:06] 就是
+[01:31:07] Yang Songlin: Machine Learning上面
+[01:31:08] Yang Songlin: Mexand然後他這個算法
+[01:31:10] Yang Songlin: 他又可以
+[01:31:11] Yang Songlin: 有冰型的算法
+[01:31:12] Yang Songlin: 只是這樣的算法
+[01:31:13] Yang Songlin: 才能
+[01:31:14] Yang Songlin: 才能被
+[01:31:15] Yang Songlin: 然後在
+[01:31:16] Yang Songlin: 在這個年代
+[01:31:17] Yang Songlin: 被用到
+[01:31:18] Yang Songlin: 因為
+[01:31:19] Yang Songlin: 有
+[01:31:20] Yang Songlin: 就在
+[01:31:21] Yang Songlin: 那些
+[01:31:22] Yang Songlin: 什麼的年代
+[01:31:23] Yang Songlin: 就Skaterability
+[01:31:24] Yang Songlin: 做你的
+[01:31:25] Yang Songlin: 有些能夠
+[01:31:26] Yang Songlin: Skaterboard的算法
+[01:31:27] Yang Songlin: 對
+[01:31:28] 然後如果一個算法
+[01:31:29] Yang Songlin: 他
+[01:31:30] 就跟Mexand
+[01:31:31] Yang Songlin: 比如像
+[01:31:32] Yang Songlin: 他如果這個算法
+[01:31:33] Yang Songlin: 我覺得他們這個算法
+[01:31:34] Yang Songlin: 就非常的
+[01:31:35] Yang Songlin: Mexand
+[01:31:36] Yang Songlin: 就能Skaterability
+[01:31:37] Yang Songlin: 就不要好了話
+[01:31:38] 那
+[01:31:39] Yang Songlin: 就完全
+[01:31:40] Yang Songlin: 有可能
+[01:31:41] Yang Songlin: 就是在
+[01:31:42] Yang Songlin: 今天這個時代上面
+[01:31:44] 是會有
+[01:31:45] Yang Songlin: 帶來一些
+[01:31:46] Yang Songlin: 不一樣的一些
+[01:31:47] Yang Songlin: 加購
+[01:31:48] Yang Songlin: 千文三
+[01:31:49] Yang Songlin: Nex
+[01:31:50] Yang Songlin: 和Kimining
+[01:31:52] Yang Songlin: 就已經讓我們
+[01:31:53] Yang Songlin: 就做一個新加工的原因
+[01:31:55] 我前幾天
+[01:31:56] 做了一個
+[01:31:57] Zhang Xiaojun: 論文的不可
+[01:31:58] Zhang Xiaojun: 就提到
+[01:31:59] Zhang Xiaojun: 川斯科目
+[01:32:00] Zhang Xiaojun: 是
+[01:32:01] Zhang Xiaojun: 這一點硬件的
+[01:32:02] Zhang Xiaojun: 天選加工
+[01:32:03] Yang Songlin: 川斯科目
+[01:32:04] Yang Songlin: 肯定是
+[01:32:05] Yang Songlin: 天選嘛
+[01:32:06] Yang Songlin: 他當時
+[01:32:07] Yang Songlin: 他設計川斯科目
+[01:32:08] Yang Songlin: 就是
+[01:32:09] 為了讓他硬件快
+[01:32:11] Yang Songlin: 設計出來
+[01:32:12] Yang Songlin: 像
+[01:32:13] FF
+[01:32:14] Yang Songlin: 肯定不用說
+[01:32:15] Yang Songlin: 都是
+[01:32:16] Yang Songlin: 大舉認成法
+[01:32:17] Yang Songlin: 肯定
+[01:32:18] 快嘛
+[01:32:19] Yang Songlin: 然後
+[01:32:20] Yang Songlin: 像
+[01:32:21] Yang Songlin: 偶貪勝
+[01:32:22] Yang Songlin: 他其實
+[01:32:23] Yang Songlin: 就是
+[01:32:24] Yang Songlin: 之前
+[01:32:25] Yang Songlin: 大家
+[01:32:26] Yang Songlin: 使用
+[01:32:27] Yang Songlin: STM
+[01:32:28] Yang Songlin: 這種
+[01:32:29] Yang Songlin: 不能
+[01:32:30] Yang Songlin: 並行得
+[01:32:31] Yang Songlin: 快
+[01:32:32] Yang Songlin: 來做的
+[01:32:33] Yang Songlin: 然後
+[01:32:34] Yang Songlin: 像STM
+[01:32:35] Yang Songlin: 他肯定硬件加速
+[01:32:36] Yang Songlin: 就
+[01:32:37] Yang Songlin: 更難搞嘛
+[01:32:38] Yang Songlin: 然後
+[01:32:39] Yang Songlin: 像
+[01:32:40] Yang Songlin: 偶貪勝
+[01:32:41] Yang Songlin: 他
+[01:32:42] Yang Songlin: 就算他是
+[01:32:43] Yang Songlin: 平方的
+[01:32:44] Yang Songlin: 複雜度
+[01:32:45] 他複雜度
+[01:32:47] Yang Songlin: 比
+[01:32:48] Yang Songlin: 高了一個級別
+[01:32:49] Yang Songlin: 但是
+[01:32:50] Yang Songlin: 他
+[01:32:51] Yang Songlin: 硬件侵蝕
+[01:32:52] Yang Songlin: 是比
+[01:32:53] Yang Songlin: 安要
+[01:32:54] Yang Songlin: 好很多的
+[01:32:55] Yang Songlin: 所以
+[01:32:56] Yang Songlin: 大家會
+[01:32:57] Yang Songlin: 寧願
+[01:32:58] Yang Songlin: 去用
+[01:32:59] Yang Songlin: 理論複雜度
+[01:33:00] Yang Songlin: 更高的
+[01:33:01] Yang Songlin: Transformer
+[01:33:02] Yang Songlin: 也不會
+[01:33:03] Yang Songlin: 來用
+[01:33:04] Yang Songlin: 理論複雜度
+[01:33:05] Yang Songlin: 更定
+[01:33:06] Yang Songlin: 這個STM
+[01:33:07] Yang Songlin: 因為
+[01:33:08] 他們這個硬件侵蝕
+[01:33:09] Yang Songlin: 表現
+[01:33:10] Yang Songlin: 完全不要嘛
+[01:33:11] Yang Songlin: 然後
+[01:33:12] 我覺得
+[01:33:13] Yang Songlin: 算法整體
+[01:33:14] Yang Songlin: 發展
+[01:33:15] Yang Songlin: 就是要找到
+[01:33:16] Yang Songlin: 這些
+[01:33:17] Yang Songlin: 硬件侵蝕
+[01:33:19] Yang Songlin: 然後
+[01:33:20] Yang Songlin: 那個
+[01:33:21] Yang Songlin: 他不但是
+[01:33:22] Yang Songlin: 硬件更
+[01:33:23] Yang Songlin: 他確實
+[01:33:24] Yang Songlin: 也解決了一些
+[01:33:25] Yang Songlin: 長程一來的關係的問題嘛
+[01:33:27] Yang Songlin: 所以
+[01:33:28] Yang Songlin: 他才會
+[01:33:29] Yang Songlin: 流行的
+[01:33:30] Yang Songlin: 這麼開嘛
+[01:33:31] Yang Songlin: 像
+[01:33:32] Yang Songlin: 今天的話
+[01:33:33] Yang Songlin: 例量
+[01:33:34] Yang Songlin: 他身又重新跟上舞臺
+[01:33:35] Yang Songlin: 那肯定
+[01:33:36] Yang Songlin: 也離不開
+[01:33:37] Yang Songlin: 這一系列的發展嘛
+[01:33:39] Yang Songlin: 就比方說
+[01:33:40] Yang Songlin: 像那些
+[01:33:41] Yang Songlin: 就是
+[01:33:42] Yang Songlin: 把它分成創
+[01:33:43] Yang Songlin: 可能那些
+[01:33:44] Yang Songlin: 兵型的算法
+[01:33:45] Yang Songlin: 然後
+[01:33:46] Yang Songlin: 他
+[01:33:47] 更強的那些
+[01:33:49] Yang Songlin: 設計
+[01:33:51] Yang Songlin: 能讓他
+[01:33:52] Yang Songlin: 從
+[01:33:53] Yang Songlin: 模型能力
+[01:33:54] Yang Songlin: performance
+[01:33:55] Yang Songlin: 這個角度
+[01:33:56] Yang Songlin: 更加沒Sense
+[01:33:57] Yang Songlin: 這些
+[01:33:58] Yang Songlin: 這些
+[01:33:59] Yang Songlin: 才是
+[01:34:00] Yang Songlin: 能
+[01:34:01] Yang Songlin: 發展的圓動力嘛
+[01:34:02] 所以我還是非常主張
+[01:34:04] Yang Songlin: 就是來
+[01:34:05] Yang Songlin: 做一些
+[01:34:06] 就是一些
+[01:34:07] Yang Songlin: 非常
+[01:34:08] Yang Songlin: Principal
+[01:34:09] Yang Songlin: 就是
+[01:34:10] Yang Songlin: 從模型能力的
+[01:34:11] Yang Songlin: Principal
+[01:34:12] 來說
+[01:34:13] Yang Songlin: 他是
+[01:34:14] Yang Songlin: 很Principal
+[01:34:15] 很有
+[01:34:16] Yang Songlin: 就是
+[01:34:17] Yang Songlin: 他會
+[01:34:18] Yang Songlin: 有
+[01:34:19] Yang Songlin: 就是從數學上
+[01:34:20] Yang Songlin: 他是MegSense的嘛
+[01:34:21] Yang Songlin: 就比方說
+[01:34:22] Yang Songlin: 得到入
+[01:34:23] 他從數學
+[01:34:24] Yang Songlin: Sense
+[01:34:25] Yang Songlin: 然後同時
+[01:34:26] Yang Songlin: 他都會
+[01:34:27] 會有
+[01:34:28] Yang Songlin: 來的一些模型
+[01:34:29] Yang Songlin: 對
+[01:34:30] Yang Songlin: 因為我覺得
+[01:34:31] 這模型
+[01:34:32] Yang Songlin: 還是
+[01:34:33] Yang Songlin: 肯定要
+[01:34:34] Yang Songlin: 結合
+[01:34:35] Yang Songlin: 當前硬件的
+[01:34:36] Yang Songlin: 就會有些人說
+[01:34:37] Yang Songlin: 那我設計一個算法
+[01:34:38] Yang Songlin: 他足夠好
+[01:34:39] Yang Songlin: 那
+[01:34:40] Yang Songlin: 硬件公司
+[01:34:41] Yang Songlin: 來幫我
+[01:34:42] Yang Songlin: 有話
+[01:34:43] Yang Songlin: 那怎麼可能
+[01:34:44] Yang Songlin: 那
+[01:34:45] Yang Songlin: 這算法
+[01:34:46] Yang Songlin: 你是
+[01:34:47] Yang Songlin: 不可能
+[01:34:48] Yang Songlin: 那你肯定
+[01:34:49] 你要
+[01:34:50] Yang Songlin: 你要
+[01:34:51] Yang Songlin: 讓你的
+[01:34:52] Yang Songlin: 先去
+[01:34:53] 滿足一些
+[01:34:54] Yang Songlin: 非常
+[01:34:55] Yang Songlin: 通用的原則嘛
+[01:34:56] Yang Songlin: 像
+[01:34:57] Yang Songlin: Hardwell
+[01:34:58] Yang Songlin: 他有一些
+[01:34:59] Yang Songlin: Principal
+[01:35:00] Yang Songlin: 像Memory Haraki
+[01:35:01] Yang Songlin: 這種東西
+[01:35:02] Yang Songlin: 然後像
+[01:35:03] Yang Songlin: 舉證懲罰
+[01:35:04] Yang Songlin: 更有
+[01:35:05] 像這種東西的話
+[01:35:06] Yang Songlin: 就是
+[01:35:07] 你不論看
+[01:35:08] Yang Songlin: 不同類型的Hardwell
+[01:35:10] Yang Songlin: 他基本上
+[01:35:11] Yang Songlin: 都是會
+[01:35:12] Yang Songlin: 遵征這種原則
+[01:35:13] Yang Songlin: 就有
+[01:35:14] Yang Songlin: 一些
+[01:35:15] Yang Songlin: 有留言
+[01:35:16] 你設計算法你可能
+[01:35:17] Yang Songlin: 沒必要去專門
+[01:35:18] Yang Songlin: 不要說
+[01:35:19] Yang Songlin: 針對Hardwell
+[01:35:20] Yang Songlin: Hardwell
+[01:35:21] Yang Songlin: 去優化
+[01:35:22] 我覺得
+[01:35:23] Yang Songlin: 做算法
+[01:35:24] Yang Songlin: 製造要
+[01:35:25] Yang Songlin: 去滿足這些
+[01:35:26] Yang Songlin: 硬件
+[01:35:27] Yang Songlin: 比較
+[01:35:28] Yang Songlin: 通用的這種
+[01:35:29] Yang Songlin: Principal
+[01:35:30] Yang Songlin: 要不然
+[01:35:31] Yang Songlin: 我覺得做的算法
+[01:35:32] Yang Songlin: 就是
+[01:35:33] Yang Songlin: 在當今
+[01:35:34] Yang Songlin: Skate of Build
+[01:35:35] Yang Songlin: 所有你的
+[01:35:36] Yang Songlin: 場景
+[01:35:37] Yang Songlin: 下面基本上
+[01:35:38] Yang Songlin: 就是
+[01:35:39] 沒有什麼
+[01:35:41] Yang Songlin: 實際價值的
+[01:35:42] Yang Songlin: 就存
+[01:35:43] Yang Songlin: 自於是樂吧
+[01:35:44] 對
+[01:35:45] Zhang Xiaojun: 還有你連你的這個
+[01:35:46] Zhang Xiaojun: 為硬件
+[01:35:47] Zhang Xiaojun: 有做什麼樣的
+[01:35:48] Zhang Xiaojun: 有畫面嗎
+[01:35:49] Yang Songlin: Kimini
+[01:35:50] Yang Songlin: 我覺得
+[01:35:51] Yang Songlin: 它的
+[01:35:52] Yang Songlin: 算法
+[01:35:53] Yang Songlin: 還是硬件
+[01:35:54] Yang Songlin: 清和的
+[01:35:55] 然後
+[01:35:57] Yang Songlin: 可能的話
+[01:35:58] Yang Songlin: 可能它
+[01:35:59] Yang Songlin: 現在
+[01:36:00] Yang Songlin: 還是張玉寫的
+[01:36:01] Yang Songlin: Tryton的算法
+[01:36:02] Yang Songlin: 對
+[01:36:03] Yang Songlin: 就
+[01:36:04] Yang Songlin: 錯好用嘛
+[01:36:05] Yang Songlin: 對我相信
+[01:36:06] Yang Songlin: 大家都
+[01:36:07] 沒有那麼多
+[01:36:08] 就是
+[01:36:09] Yang Songlin: 可能
+[01:36:10] Yang Songlin: 有畫
+[01:36:11] Yang Songlin: 它是一個
+[01:36:12] Yang Songlin: 非常
+[01:36:13] Yang Songlin: 好時的
+[01:36:14] Yang Songlin: 非常
+[01:36:15] Yang Songlin: 非常需要時間
+[01:36:16] Yang Songlin: 對
+[01:36:17] Yang Songlin: 要慢慢磨
+[01:36:18] Yang Songlin: 就要老師
+[01:36:19] Yang Songlin: 柯佬
+[01:36:20] Yang Songlin: 有畫
+[01:36:21] Yang Songlin: 慢慢來
+[01:36:22] Yang Songlin: 打磨
+[01:36:23] Yang Songlin: 我覺得
+[01:36:24] Yang Songlin: 就是
+[01:36:25] Yang Songlin: IQA的
+[01:36:26] 跌在的時候
+[01:36:27] Yang Songlin: 大家
+[01:36:28] Yang Songlin: 用Tryton寫一下
+[01:36:29] Yang Songlin: 錯好用
+[01:36:30] Yang Songlin: 就寫了
+[01:36:31] Yang Songlin: 然後
+[01:36:32] Yang Songlin: 如果它
+[01:36:33] Yang Songlin: 驗出來
+[01:36:34] 有用的話
+[01:36:35] Yang Songlin: 後面來補一些
+[01:36:36] Yang Songlin: 柯大柯佬
+[01:36:37] Yang Songlin: 也是
+[01:36:38] 可以的
+[01:36:39] Yang Songlin: 對
+[01:36:40] 就我
+[01:36:41] Yang Songlin: 所知
+[01:36:42] Yang Songlin: 他們
+[01:36:43] Yang Songlin: 在找人那些
+[01:36:44] Yang Songlin: 酷大柯佬
+[01:36:45] 從
+[01:36:46] Zhang Xiaojun: 音件清和的角度
+[01:36:47] Zhang Xiaojun: 你覺得
+[01:36:48] Zhang Xiaojun: 下一代的算法
+[01:36:49] Zhang Xiaojun: 會怎麼
+[01:36:50] 眼睛
+[01:36:51] Yang Songlin: 現在
+[01:36:52] Yang Songlin: 我覺得
+[01:36:53] Yang Songlin: 音件
+[01:36:54] Yang Songlin: 跟
+[01:36:55] Yang Songlin: Transformer
+[01:36:56] Yang Songlin: 它
+[01:36:57] Yang Songlin: 是有一點
+[01:36:58] 鞋桶眼睛
+[01:37:00] Yang Songlin: 就是
+[01:37:01] Yang Songlin: 音件會
+[01:37:02] Yang Songlin: 變成
+[01:37:03] Yang Songlin: Transformer
+[01:37:04] Yang Songlin: 更喜歡的模樣
+[01:37:05] Yang Songlin: 所以
+[01:37:06] Yang Songlin: 對於
+[01:37:07] Yang Songlin: 一些
+[01:37:08] Yang Songlin: Altality
+[01:37:09] 我來說
+[01:37:10] Yang Songlin: 是有些
+[01:37:11] Yang Songlin: 不好的
+[01:37:12] Yang Songlin: 音件
+[01:37:13] Yang Songlin: 大家會發現
+[01:37:14] 它就是
+[01:37:15] Yang Songlin: 為了
+[01:37:16] Yang Songlin: 去由話舉證成
+[01:37:17] Yang Songlin: 然後讓它
+[01:37:18] Yang Songlin: 舉證成
+[01:37:19] Yang Songlin: 越快越好
+[01:37:20] Yang Songlin: 因為
+[01:37:21] Yang Songlin: Transformer
+[01:37:22] Yang Songlin: 裡面有
+[01:37:23] Yang Songlin: 大量的舉證成
+[01:37:24] Yang Songlin: 它就像
+[01:37:25] Yang Songlin: 音件
+[01:37:26] Yang Songlin: 就像
+[01:37:27] Yang Songlin: 搞一些
+[01:37:28] Yang Songlin: 快速的舉證成
+[01:37:29] 的東西
+[01:37:30] Yang Songlin: 然後
+[01:37:31] 像
+[01:37:32] Yang Songlin: TMI
+[01:37:33] Yang Songlin: 這種
+[01:37:34] Yang Songlin: 東西
+[01:37:35] Yang Songlin: 然後
+[01:37:36] Yang Songlin: 像
+[01:37:37] Yang Songlin: Black
+[01:37:38] Yang Songlin: Wheel
+[01:37:39] Yang Songlin: 上面
+[01:37:40] 還有一些
+[01:37:41] Yang Songlin: 類型上面
+[01:37:42] Yang Songlin: 單純的那種
+[01:37:43] Yang Songlin: MIMERA
+[01:37:44] Yang Songlin: 都是來
+[01:37:45] Yang Songlin: 由話舉證成的
+[01:37:46] Yang Songlin: 對
+[01:37:47] 所以可能
+[01:37:48] Yang Songlin: 大家會看到
+[01:37:49] Yang Songlin: FlyShotTension
+[01:37:50] Yang Songlin: 會
+[01:37:51] Yang Songlin: 越來越快
+[01:37:52] Yang Songlin: FA4
+[01:37:53] Yang Songlin: 會
+[01:37:54] Yang Songlin: 在不來
+[01:37:55] Yang Songlin: 會
+[01:37:56] Yang Songlin: 會
+[01:37:57] Yang Songlin: 會
+[01:37:58] Yang Songlin: 會
+[01:37:59] 會
+[01:38:00] Yang Songlin: 會
+[01:38:01] Yang Songlin: 會
+[01:38:02] Yang Songlin: 會
+[01:38:03] Yang Songlin: 會
+[01:38:04] 會
+[01:38:05] Yang Songlin: 會
+[01:38:06] Yang Songlin: 會
+[01:38:07] Yang Songlin: 會
+[01:38:08] Yang Songlin: 會
+[01:38:09] Yang Songlin: 會
+[01:38:11] Yang Songlin: 會
+[01:38:12] Yang Songlin: 會
+[01:38:13] Yang Songlin: 會
+[01:38:14] Yang Songlin: 會
+[01:38:15] Yang Songlin: 會
+[01:38:15] Yang Songlin: 會
+[01:38:41] Yang Songlin: 其实也无所谓
+[01:38:42] Yang Songlin: 就很难地方也不靠训练效率
+[01:38:44] Yang Songlin: 它是靠那种
+[01:38:46] Yang Songlin: Inference效率
+[01:38:47] Yang Songlin: 所以我觉得只要训练的时候
+[01:38:50] Yang Songlin: 就是能以Reasonable的速度来训
+[01:38:54] Yang Songlin: 然后Reasonable的速度来Pre-Fell
+[01:38:57] Yang Songlin: 然后Decoding快的话
+[01:38:58] Yang Songlin: 这种下个其实也是有市场的
+[01:39:01] Yang Songlin: 对
+[01:39:02] 然后另外的话
+[01:39:03] Yang Songlin: 这边说像
+[01:39:05] Yang Songlin: 翻悬Moe
+[01:39:07] Yang Songlin: 然后Spassal探伤
+[01:39:10] Yang Songlin: 这样Flob
+[01:39:11] Yang Songlin: 然后又能用举正成法
+[01:39:13] Yang Songlin: 对
+[01:39:14] Yang Songlin: 他们都是属于这种类型
+[01:39:16] Yang Songlin: 他们肯定还是要用举正成法的嘛
+[01:39:19] Yang Songlin: 然后就是想帮帮Flob打下去嘛
+[01:39:21] Yang Songlin: 然后通过一些算法的这种创新
+[01:39:25] Yang Songlin: 来把Flob打下去
+[01:39:27] 对
+[01:39:27] 然后同时保证
+[01:39:29] Yang Songlin: 然后这里面有大家的举正成
+[01:39:31] 这一单用算法里面
+[01:39:32] Yang Songlin: 基本上都有举正成
+[01:39:34] 那基本上这个算法也
+[01:39:36] Yang Songlin: 它的表也挺
+[01:39:37] Yang Songlin: 相当于还是挺挺好优化的嘛
+[01:39:39] Yang Songlin: 对
+[01:39:40] Yang Songlin: 因为
+[01:39:41] 因为我觉得这个印象就是
+[01:39:43] Yang Songlin: 奔责往举正成法
+[01:39:46] Yang Songlin: 越来越快的方向再走了
+[01:39:48] 就甚至说像Face就是举正成太快了
+[01:39:53] Yang Songlin: 导致到Soul Niesel
+[01:39:55] Yang Songlin: Mess Niesel
+[01:39:56] Yang Songlin: Nesvolansel的那个
+[01:39:58] Yang Songlin: 某块的变成一个平静
+[01:39:59] Yang Songlin: 对
+[01:40:00] Yang Songlin: 然后
+[01:40:01] Yang Songlin: 然后他们就用一些Face的话
+[01:40:03] Yang Songlin: 他就用一些
+[01:40:04] Yang Songlin: Approximate方法来做那个EXP
+[01:40:08] Yang Songlin: 对
+[01:40:08] Yang Songlin: 那
+[01:40:10] 这个也挺好笑的
+[01:40:12] Yang Songlin: 就是
+[01:40:13] Yang Songlin: 举正成太快了
+[01:40:14] Yang Songlin: 然后我们现在还是要去
+[01:40:18] 经常去利用举正成
+[01:40:20] Yang Songlin: 快速的这个性质吧
+[01:40:22] Yang Songlin: 然后是自己在一些算法
+[01:40:24] 我觉得Soul Niesel
+[01:40:25] Yang Songlin: Soul Niesel
+[01:40:26] Yang Songlin: 他那个就已经用到这种性质
+[01:40:28] Yang Songlin: 我觉得举正成是一个非常
+[01:40:31] 非常注重这种硬件和算法
+[01:40:34] Yang Songlin: 写统设计的一个公司
+[01:40:37] Yang Songlin: 像Defc8Soul Niesel
+[01:40:39] Yang Songlin: 他会有一个
+[01:40:40] 那个叫印代圣
+[01:40:42] Yang Songlin: 他就是Fp8来做这个
+[01:40:47] Yang Songlin: 算这个Tenants Score吗
+[01:40:49] 因为他不需要Softmax
+[01:40:51] Yang Songlin: 他只需要算那个Loget
+[01:40:52] Yang Songlin: 然后来做Top可以来选Score吗
+[01:40:55] 所以首先他就是Fp8
+[01:40:57] Yang Songlin: 然后他又可以把那个
+[01:41:01] Yang Songlin: 昂贵的Exponential的那个
+[01:41:04] Yang Songlin: 操作把它去掉
+[01:41:06] Yang Songlin: 这样的话他就是基本上
+[01:41:07] Yang Songlin: 就是一大堆举正成
+[01:41:09] Yang Songlin: 然后他们所以说他那个
+[01:41:11] Yang Songlin: 他那个Dex的话
+[01:41:12] Yang Songlin: 这会非常快
+[01:41:14] Yang Songlin: 这样的话就有可能就是
+[01:41:17] 能不能用到他们的
+[01:41:18] Yang Songlin: 下一代的加购吗
+[01:41:20] Yang Songlin: 我也不知道下一代加购是什么
+[01:41:22] Yang Songlin: 但这些性质在那里
+[01:41:23] Yang Songlin: 就有可能可以作为
+[01:41:25] Yang Songlin: 一个下一代加购的一个Canydate
+[01:41:27] Yang Songlin: 对
+[01:41:29] 相当的说Defc和Kimi
+[01:41:30] Zhang Xiaojun: 哪个在印奸清合上做得很好
+[01:41:32] Zhang Xiaojun: 听起来是K
+[01:41:33] Zhang Xiaojun: Depsyc
+[01:41:34] Zhang Xiaojun: Depsyc
+[01:41:35] Yang Songlin: Absolutely
+[01:41:36] Yang Songlin: OK
+[01:41:37] 因为没有把这个做一个重要的
+[01:41:39] Zhang Xiaojun: 有好目标对吧
+[01:41:40] Zhang Xiaojun: 不太确定
+[01:41:42] Yang Songlin: 我觉得Kimi肯定还是Score
+[01:41:46] Yang Songlin: 在这种印奸上面的东西
+[01:41:48] Yang Songlin: 但是没有Depsyc和他们追求
+[01:41:50] Yang Songlin: 对
+[01:41:51] Yang Songlin: Depsyc我觉得他们非常追求之中
+[01:41:54] Yang Songlin: 比较说这个Tenants
+[01:41:55] Yang Songlin: 他们在Fp8上跑
+[01:41:57] Yang Songlin: 这种之类的
+[01:41:59] Yang Songlin: 我觉得他们Infer
+[01:42:01] Yang Songlin: 应该在他们算法
+[01:42:02] Yang Songlin: 迭代的过程中
+[01:42:03] Yang Songlin: 应该换一拳会比较高一点
+[01:42:05] Yang Songlin: 我觉得这个都是
+[01:42:07] Yang Songlin: 英公司一的吧
+[01:42:09] Yang Songlin: 就有些公司
+[01:42:10] Yang Songlin: 他英法的换一拳会高一些
+[01:42:12] Yang Songlin: 就有些公司
+[01:42:13] Yang Songlin: 他算法的换一拳会高一些
+[01:42:15] Yang Songlin: 感觉算法就今天会高一些
+[01:42:17] Yang Songlin: 让Infer不闯的东西出来
+[01:42:19] Yang Songlin: 对
+[01:42:20] 你觉得如果年轻的研究者
+[01:42:23] Zhang Xiaojun: 想要进入朱利基之
+[01:42:25] Zhang Xiaojun: 或者架构算法
+[01:42:26] Zhang Xiaojun: 这些领域的话
+[01:42:27] Zhang Xiaojun: 你对他们有什么建议
+[01:42:28] Zhang Xiaojun: 他们应该是从哪些地方
+[01:42:29] Zhang Xiaojun: 还是入手
+[01:42:30] Zhang Xiaojun: 现在的话
+[01:42:32] 找个公司去实习
+[01:42:34] Yang Songlin: OK
+[01:42:36] 就是跟他
+[01:42:37] Zhang Xiaojun: 因为我觉得
+[01:42:38] Zhang Xiaojun: 因为我觉得做架构
+[01:42:40] Yang Songlin: 必须要算你
+[01:42:41] Yang Songlin: 没有算你
+[01:42:42] Yang Songlin: 就没法做架构
+[01:42:43] Yang Songlin: 所以我觉得
+[01:42:44] Yang Songlin: 还是先找个Lib去实习吧
+[01:42:55] 好了
+[01:42:56] 今天的节目就是这样
+[01:42:58] Zhang Xiaojun: 这里是商业访谈路
+[01:42:59] Zhang Xiaojun: 是一档由语言及世界工作室
+[01:43:02] Zhang Xiaojun: 出品的深度访谈节目
+[01:43:04] Zhang Xiaojun: 你可以到公众号关注我们的工作时
+[01:43:06] Zhang Xiaojun: 或取更多的信息
+[01:43:08] Zhang Xiaojun: 我们的公众号是语言及世界
+[01:43:10] Zhang Xiaojun: Language is world
+[01:43:12] Zhang Xiaojun: 我们希望和你一起
+[01:43:14] Zhang Xiaojun: 从这里探索新的世界

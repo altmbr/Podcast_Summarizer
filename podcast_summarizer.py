@@ -801,7 +801,9 @@ def make_timestamps_clickable(text, video_id, video_url):
         return text
 
     # Pattern: [HH:MM:SS] or [MM:SS] that are NOT already in markdown link syntax
-    timestamp_pattern = r'(?<!\])\[(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\](?!\()'
+    # Negative lookbehind: not preceded by ] (prevents matching inner brackets)
+    # Negative lookahead: not followed by ( or ] (prevents matching already-linked or nested timestamps)
+    timestamp_pattern = r'(?<!\])\[(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\](?!\(|\])'
 
     def replace_timestamp(match):
         timestamp = match.group(0)  # Includes brackets: [00:15:30]
