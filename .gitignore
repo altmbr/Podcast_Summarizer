@@ -5,7 +5,6 @@
 podcast_urls.txt
 
 # User-specific state files
-podcast_status.json
 podcast_status.md
 processed_videos.json
 *.backup
