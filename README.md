@@ -148,6 +148,39 @@ In `podcast_summarizer.py`, line 17:
 WHISPER_MODEL = "base"  # Options: tiny, base, small, medium, large
 ```
 
+## Summary Format
+
+All episode summaries follow a standardized format with clickable elements:
+
+### YouTube Episodes
+```markdown
+# [Episode Title](https://www.youtube.com/watch?v=VIDEO_ID)
+
+**Podcast:** Podcast Name
+**Date:** November 10, 2025
+**Participants:** Speaker 1, Speaker 2
+**Region:** Western
+**Video ID:** VIDEO_ID
+**Video URL:** https://www.youtube.com/watch?v=VIDEO_ID
+**Transcript:** [View Transcript](./transcript.md)
+
+---
+
+[Summary with clickable timestamps like [00:15:30]]
+```
+
+**Features:**
+- **Clickable title** - Click to open the YouTube video
+- **Clickable timestamps** - Click any timestamp to jump to that moment (10 seconds earlier)
+- **Clickable transcript link** - Quick access to full transcript
+- **Standardized metadata** - Consistent across all episodes
+
+### Xiaoyuzhou Episodes (Chinese)
+Same format but:
+- Title is plain text (not clickable)
+- Timestamps are plain text (platform limitation)
+- Region shows "Chinese"
+
 ## Advanced Features
 
 ### Utility Scripts
@@ -157,6 +190,9 @@ WHISPER_MODEL = "base"  # Options: tiny, base, small, medium, large
 - **`create_summaries_html.py`** - Compile all summaries into styled HTML for web viewing
 - **`create_summaries_pdf.py`** - Generate PDF compilation of summaries via pandoc
 - **`generate_weekly_summary.py`** - Generates weekly digest of summaries from recently published episodes
+- **`generate_pithy_weekly_summary.py`** - Creates condensed version of weekly summary (40-50% reduction)
+- **`standardize_all_summaries.py`** - Ensures all summary files have consistent format
+- **`update_summary_timestamps.py`** - Adds clickable timestamps to existing summaries
 - **`summarize_single_episode.py`** - Re-process/re-summarize individual episodes
 - **`xiaoyuzhou_helper.py`** - Helper functions for Chinese podcast platform (Xiaoyuzhou) support
 

@@ -762,6 +762,54 @@ Rules:
         print(f"  → Using original transcript with speaker placeholders")
         return diarized_transcript, []
 
+def convert_timestamp_to_seconds(timestamp_str):
+    """Convert [HH:MM:SS] or [MM:SS] to total seconds"""
+    time_str = timestamp_str.strip('[]')
+    parts = time_str.split(':')
+
+    if len(parts) == 3:  # HH:MM:SS
+        h, m, s = map(int, parts)
+        return h * 3600 + m * 60 + s
+    elif len(parts) == 2:  # MM:SS
+        m, s = map(int, parts)
+        return m * 60 + s
+    return 0
+
+def create_youtube_timestamp_url(video_id, timestamp_str, offset_seconds=-10):
+    """Create YouTube timestamp URL with offset (default -10 seconds)"""
+    total_seconds = convert_timestamp_to_seconds(timestamp_str)
+    adjusted_seconds = max(0, total_seconds + offset_seconds)  # Don't go below 0
+
+    # Convert back to YouTube format (XhYmZs)
+    h = adjusted_seconds // 3600
+    m = (adjusted_seconds % 3600) // 60
+    s = adjusted_seconds % 60
+
+    if h > 0:
+        time_param = f"{h}h{m}m{s}s"
+    elif m > 0:
+        time_param = f"{m}m{s}s"
+    else:
+        time_param = f"{s}s"
+
+    return f"https://www.youtube.com/watch?v={video_id}&t={time_param}"
+
+def make_timestamps_clickable(text, video_id, video_url):
+    """Convert all [HH:MM:SS] timestamps in text to clickable YouTube links"""
+    # Skip for Xiaoyuzhou URLs
+    if 'xiaoyuzhoufm.com' in video_url:
+        return text
+
+    # Pattern: [HH:MM:SS] or [MM:SS] that are NOT already in markdown link syntax
+    timestamp_pattern = r'(?<!\])\[(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\](?!\()'
+
+    def replace_timestamp(match):
+        timestamp = match.group(0)  # Includes brackets: [00:15:30]
+        timestamp_url = create_youtube_timestamp_url(video_id, timestamp, offset_seconds=-10)
+        return f"[{timestamp}]({timestamp_url})"
+
+    return re.sub(timestamp_pattern, replace_timestamp, text)
+
 def summarize_transcript_with_ai(transcript_text, video_title, custom_prompt):
     """Summarize transcript using Claude Sonnet 4.5"""
     print(f"  → Generating AI summary...")
@@ -943,9 +991,14 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
     region = episode_data.get("region", "Western")  # Default to Western if not set
     episode_title = episode_data.get("title", video_info['title'])  # Use translated title from status
 
-    # Write summary to file (with metadata header)
+    # Write summary to file (with metadata header and clickable links)
     with open(summary_path, 'w') as f:
-        f.write(f"# {episode_title}\n\n")
+        # Make title clickable (YouTube only)
+        if 'xiaoyuzhoufm.com' not in video_info['url']:
+            f.write(f"# [{episode_title}]({video_info['url']})\n\n")
+        else:
+            f.write(f"# {episode_title}\n\n")
+
         f.write(f"**Podcast:** {podcast_name}\n")
         f.write(f"**Date:** {formatted_date}\n")
         if identified_speakers:
@@ -953,9 +1006,12 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
         f.write(f"**Region:** {region}\n")
         f.write(f"**Video ID:** {video_id}\n")
         f.write(f"**Video URL:** {video_info['url']}\n")
-        f.write(f"**Transcript:** ./transcript.md\n\n")
+        f.write(f"**Transcript:** [View Transcript](./transcript.md)\n\n")
         f.write("---\n\n")
-        f.write(summary_text)
+
+        # Make all timestamps in summary clickable (YouTube only)
+        summary_with_clickable_timestamps = make_timestamps_clickable(summary_text, video_id, video_info['url'])
+        f.write(summary_with_clickable_timestamps)
 
     print(f"  ✓ Episode folder: {episode_folder}")
     print(f"  ✓ Raw podcast saved to: {raw_podcast_path}")

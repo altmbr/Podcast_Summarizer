@@ -49,6 +49,58 @@ podcast_work/
         └── summary.md
 ```
 
+### Standardized summary.md Format
+
+All summary files follow this standardized format:
+
+**YouTube Episodes:**
+```markdown
+# [Episode Title](https://www.youtube.com/watch?v=VIDEO_ID)
+
+**Podcast:** Podcast Name
+**Date:** Month DD, YYYY
+**Participants:** Speaker 1, Speaker 2
+**Region:** Western
+**Video ID:** VIDEO_ID
+**Video URL:** https://www.youtube.com/watch?v=VIDEO_ID
+**Transcript:** [View Transcript](./transcript.md)
+
+---
+
+[Summary content with clickable timestamps]
+```
+
+**Xiaoyuzhou Episodes (Chinese):**
+```markdown
+# Episode Title
+
+**Podcast:** Podcast Name
+**Date:** Month DD, YYYY
+**Participants:** Speaker 1, Speaker 2
+**Region:** Chinese
+**Video ID:** EPISODE_ID
+**Video URL:** https://www.xiaoyuzhoufm.com/episode/EPISODE_ID
+**Transcript:** [View Transcript](./transcript.md)
+
+---
+
+[Summary content]
+```
+
+**Key Features:**
+- **Clickable title** (YouTube only) - Links directly to video
+- **Clickable timestamps** (YouTube only) - All timestamps like `[00:15:30]` link to video at that moment (minus 10 seconds)
+- **Standardized metadata** - Consistent fields across all episodes
+- **Date formatting** - Human-readable format (e.g., "November 10, 2025")
+- **Region tracking** - "Western" or "Chinese" for content categorization
+- **Clickable transcript link** - "View Transcript" links to transcript.md
+
+**Timestamp Linking:**
+- YouTube timestamps automatically link with 10-second offset
+- Format: `[[00:15:30]](https://www.youtube.com/watch?v=VIDEO_ID&t=15m20s)`
+- Renders as clickable: [00:15:30] (user clicks timestamp to jump to video)
+- Xiaoyuzhou timestamps remain as plain text (platform limitations)
+
 ## Configuration Files
 
 ### `podcast_urls.txt`
