@@ -7698,6 +7698,13 @@
           "status": "discovered",
           "upload_date": "0",
           "region": "Western"
+        },
+        "b3FVwGoSPQE": {
+          "title": "How Great Founders Tell Their Story",
+          "upload_date": "20251111",
+          "discovered_date": "2025-11-11 09:22:51",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -8106,10 +8113,10 @@
           "status": "discovered"
         },
         "5uutda-R0EY": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "How Google\u2019s Nano Banana Achieved Breakthrough Character Consistency",
+          "upload_date": "20251111",
+          "discovered_date": "2025-11-11 09:29:02",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -8230,6 +8237,13 @@
           "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
+          "region": "Western"
+        },
+        "-FmVCDx_kFw": {
+          "title": "Dave Ricks, CEO of Eli Lilly, on GLP-1s and the business of pharma",
+          "upload_date": "20251111",
+          "discovered_date": "2025-11-11 09:36:40",
+          "status": "summarized",
           "region": "Western"
         }
       }
