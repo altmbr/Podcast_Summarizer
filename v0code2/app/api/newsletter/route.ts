@@ -1,20 +1,30 @@
-import { kv } from '@vercel/kv'
+import { promises as fs } from 'fs'
+import { join } from 'path'
 import type { NextRequest } from 'next/server'
 
-const EMAILS_KEY = 'newsletter-emails'
+const DATA_DIR = join(process.cwd(), 'data')
+const EMAILS_FILE = join(DATA_DIR, 'newsletter-emails.json')
 
-async function getEmails(): Promise<string[]> {
+async function ensureDataDir() {
   try {
-    const emails = await kv.lrange(EMAILS_KEY, 0, -1)
-    return emails as string[]
+    await fs.mkdir(DATA_DIR, { recursive: true })
   } catch (error) {
-    console.error('Failed to fetch emails:', error)
+    console.error('[v0] Failed to create data directory:', error)
+  }
+}
+
+async function loadEmails(): Promise<string[]> {
+  try {
+    const content = await fs.readFile(EMAILS_FILE, 'utf-8')
+    return JSON.parse(content)
+  } catch (error) {
     return []
   }
 }
 
-async function addEmail(email: string): Promise<void> {
-  await kv.lpush(EMAILS_KEY, email)
+async function saveEmails(emails: string[]): Promise<void> {
+  await ensureDataDir()
+  await fs.writeFile(EMAILS_FILE, JSON.stringify(emails, null, 2))
 }
 
 export async function POST(request: NextRequest) {
@@ -37,8 +47,8 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Check if email already exists
-    const emails = await getEmails()
+    const emails = await loadEmails()
+    
     if (emails.includes(email)) {
       return Response.json(
         { message: 'This email is already subscribed' },
@@ -46,15 +56,15 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Add email to KV storage
-    await addEmail(email)
+    emails.push(email)
+    await saveEmails(emails)
 
     return Response.json(
       { message: 'Successfully subscribed to newsletter' },
       { status: 200 }
     )
   } catch (error) {
-    console.error('Newsletter error:', error)
+    console.error('[v0] Newsletter error:', error)
     return Response.json(
       { message: 'Failed to process subscription' },
       { status: 500 }

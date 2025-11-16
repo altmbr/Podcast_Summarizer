@@ -25,6 +25,15 @@ This system automates the process of:
 - Images, including the AI-generated header images, are displayed on the website
 - No manual deployment steps required - just `git push` and it goes live
 
+### Newsletter Subscription
+
+**Email capture for weekly summaries:**
+- Fixed bottom banner on all pages allows visitors to subscribe
+- Email addresses stored securely in **Vercel KV** (Redis-compatible key-value storage)
+- Emails are private and not committed to GitHub
+- Setup required: See `VERCEL_KV_SETUP.md` for configuration instructions
+- Free tier supports 100K requests/month - more than sufficient for newsletter signups
+
 ## Architecture
 
 ### Directory Structure
