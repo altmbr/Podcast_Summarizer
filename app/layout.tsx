@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import NewsletterSubscribe from '@/components/NewsletterSubscribe'
+import { PHProvider } from './providers'
+import PostHogPageView from './PostHogPageView'
+import { Suspense } from 'react'
 
 export const metadata: Metadata = {
   title: 'Podcast Summaries',
@@ -14,12 +17,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-900">
-        <div className="min-h-screen pb-32">
-          {children}
-        </div>
-        <NewsletterSubscribe />
-      </body>
+      <PHProvider>
+        <body className="bg-gray-50 text-gray-900">
+          <Suspense fallback={null}>
+            <PostHogPageView />
+          </Suspense>
+          <div className="min-h-screen pb-32">
+            {children}
+          </div>
+          <NewsletterSubscribe />
+        </body>
+      </PHProvider>
     </html>
   )
 }
