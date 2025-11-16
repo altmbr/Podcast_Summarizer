@@ -48,3 +48,7 @@ __pycache__/
 # Newsletter email data (private)
 data/
 data/newsletter-emails.json
+
+# Reference/example folders
+v0code/
+v0code2/
