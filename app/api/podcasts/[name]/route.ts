@@ -46,13 +46,14 @@ export async function GET(
               ?.trim()
               ?.substring(0, 200) || ''
 
-            // Try to find upload_date from podcast_status.json
+            // Extract Video ID from summary content
+            const videoIdMatch = summaryContent.match(/\*\*Video ID:\*\*\s*(\S+)/)
+            const videoId = videoIdMatch ? videoIdMatch[1] : ''
+
+            // Try to find upload_date from podcast_status.json using Video ID
             let uploadDate = ''
-            for (const [videoId, episodeData] of Object.entries(podcastStatus)) {
-              if ((episodeData as any).title === (data.title || entry.name.replace(/_/g, ' '))) {
-                uploadDate = (episodeData as any).upload_date || ''
-                break
-              }
+            if (videoId && podcastStatus[videoId]) {
+              uploadDate = podcastStatus[videoId].upload_date || ''
             }
 
             return {
