@@ -1,11 +1,13 @@
 'use client'
 
 import { useState } from 'react'
+import { usePostHog } from 'posthog-js/react'
 
 export default function NewsletterSubscribe() {
   const [email, setEmail] = useState('')
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null)
+  const posthog = usePostHog()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -29,6 +31,14 @@ export default function NewsletterSubscribe() {
 
       if (!response.ok) {
         throw new Error(data.message || 'Failed to subscribe')
+      }
+
+      // Track newsletter subscription in PostHog
+      if (posthog) {
+        posthog.capture('newsletter_subscribed', {
+          email: email,
+          timestamp: new Date().toISOString(),
+        })
       }
 
       setMessage({ type: 'success', text: 'Thanks for subscribing!' })
