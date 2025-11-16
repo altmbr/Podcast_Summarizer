@@ -29,7 +29,12 @@ export default function PodcastPage() {
         }
         const data = await response.json()
         setPodcast(data.podcast)
-        setEpisodes(data.episodes)
+        // Sort episodes newest to oldest by date
+        const sortedEpisodes = [...data.episodes].sort((a, b) => {
+          if (!a.date || !b.date) return 0
+          return b.date.localeCompare(a.date)
+        })
+        setEpisodes(sortedEpisodes)
       } catch (error) {
         console.error('Failed to load episodes:', error)
         setError('Failed to load episodes')
@@ -81,15 +86,14 @@ export default function PodcastPage() {
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-lg md:text-xl group-hover:underline transition-colors mb-2">
+                    <h3 className="text-lg md:text-xl group-hover:underline transition-colors">
                       {episode.title}
+                      {episode.date && (
+                        <span style={{ color: 'var(--muted-foreground)' }} className="text-base font-normal ml-2">
+                          [{formatDate(episode.date)}]
+                        </span>
+                      )}
                     </h3>
-                    {episode.date && (
-                      <p style={{ color: 'var(--muted-foreground)' }} className="text-sm mb-3">{formatDate(episode.date)}</p>
-                    )}
-                    {episode.summary && (
-                      <p style={{ color: 'var(--muted-foreground)' }} className="text-sm line-clamp-2">{episode.summary}</p>
-                    )}
                   </div>
                   <span style={{ color: 'var(--accent)' }} className="font-light text-lg flex-shrink-0">→</span>
                 </div>
