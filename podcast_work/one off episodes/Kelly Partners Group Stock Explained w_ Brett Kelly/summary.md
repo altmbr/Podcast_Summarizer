@@ -1,0 +1,68 @@
+# [Kelly Partners Group Stock Explained w/ Brett Kelly](https://www.youtube.com/watch?v=BLXUfJ9gONI)
+
+**Podcast:** One-off Episodes
+**Date:** 2024-04-19
+**Participants:** Clay (Host), Brett Kelly
+**Region:** Western
+**Video ID:** BLXUfJ9gONI
+**Video URL:** https://www.youtube.com/watch?v=BLXUfJ9gONI
+**Transcript:** [View Transcript](./transcript.md)
+
+---
+
+# Summary: Kelly Partners Group - Brett Kelly Interview
+
+## 1. Key Themes
+
+### Building a Capital-Efficient Partnership Model in Professional Services
+Brett Kelly has created a unique 51-49 partnership structure where Kelly Partners owns 51% and founding partners retain 49%. The model includes a mandatory 10-year commitment and 9% revenue reinvestment (6.5% for management, 2.5% for IP). "The 51.49, a 10-year commitment, we've got 95 equity partners who've made that commitment. And 9% of the revenue being consistently reinvested in that structure, it is entirely unique in the entire world and it is extraordinarily powerful" [[00:00:10]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=0s). This creates a self-funding flywheel where partners maintain 100% of their historical profits while gaining access to a 35-person specialist management team, reducing working capital by two-thirds and returning 25-40% of partners' time.
+
+### Learning from Business Giants Through Deep Study
+Kelly attributes his success to studying Warren Buffett, Charlie Munger, Bernard Arnault (LVMH), David Ogilvy, and Mark Leonard (Constellation Software). "From a $25 book, you can learn hundreds of years of wisdom and certainly decades of business experience" [[00:02:15]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=2m5s). He reads with "a pen and a ruler" doing "studying effort not a reading effort" [[00:24:48]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=24m38s). At 22, after losing his investment banking job, he interviewed 34 of 80 prominent Australians he targeted, creating an 800,000-word book. He purchased approximately 2,000 self-help tapes from Simon & Schuster and attributes this immersion to fundamentally changing his mindset.
+
+### Global Expansion Strategy Through Founder Leadership
+Kelly relocated his family to Los Angeles in January 2023 to lead US expansion personally. A mentor worth $4 billion told him: "you can't lead by pushing from behind you have to get out in front" [[01:20:24]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h20m14s). The US market is 15x Australia's size, UK is 6x, creating a 30x addressable market expansion. Kelly is replicating the Sydney playbook in LA with two acquisitions completed and more planned. The company aims to build "Australia's global accounting firm" with a spine through LA-London-New York serving Australian expat communities, following the Westfield Group playbook established by Frank Lowy in 1985.
+
+## 2. Contrarian Perspectives
+
+### Professional Services Firms Lack Actual Professional Service
+"In professional services our industry a one thing you can't find is professional service. And in investment banking the one thing you can't find is a banker that invests because they're so transactional" [[00:12:00]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=11m50s). Kelly observed this firsthand when a colleague at an investment bank dismissed Warren Buffett's importance, revealing fundamental ignorance in the industry. This realization led him to identify that most accounting firms are poorly operated small businesses where partners are "too busy" to develop systems, creating massive opportunity for a well-capitalized, systematized competitor.
+
+### Accounting Firms Stay Private Because They Can't Behave Publicly
+"The reason that accounting firms are private is because they couldn't behave in public the way they behave in private" [[00:37:16]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=37m6s). Kelly listed at only $45 million market cap in 2017 specifically for credibility when senior practitioners questioned his private results. "If you're a fund manager in your garage and you do 25% a year returns for three years or five years... people say well it's not audited you're doing it in your garage how do I know it's real" [[00:37:46]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=37m36s). This public accountability became a competitive moat, forcing operational excellence while competitors hide behind private structures.
+
+### AI Won't Disrupt Complex Tax Advisory
+"Don't kid yourself that AI is going to put us out of business because tax law is not code it is made by words and then it is fought about in courts for decades and it is never settled" [[01:22:20]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h22m10s). Kelly points out the Australian tax act has grown 13% annually by page count for 50 years, and the proportion of lawyers in legislative bodies is at all-time highs. "Lawyers love to make laws and they never get rid of the ones that they made yesterday" [[01:23:01]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h22m51s). This creates increasing complexity that requires human judgment in the 2-10 million revenue private business segment they serve.
+
+## 3. Companies Identified
+
+### LVMH (Bernard Arnault)
+Brett Kelly holds Bernard Arnault as one of his greatest heroes alongside Warren Buffett and David Ogilvy. "I think the luxury businesses are the greatest businesses in the world meaning that they're likely to to last hundreds of years" [[00:22:03]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=21m53s). Kelly studied everything available in English about Arnault and had materials translated from French. He tracked down the Christian Dior general manager in Sydney, brought his original Christian Dior books with annotations, and was ultimately invited to attend the Paris couture show where he met Arnault personally. The LVMH model of buying "clapped out 100 year old brands and from the inside out reenergizes and reimagines the depth and breadth of those organizations" [[00:31:22]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=31m12s) directly influenced Kelly Partners' acquisition strategy.
+
+### Constellation Software (Mark Leonard)
+Kelly Partners' board includes Lawrence Cunningham, who is deputy chairman of Constellation Software. "Lawrence sent me an email during the lockdown he said Brett your business looks fantastic... are you just trying to build the Constellation Software of the accounting industry and I said yeah" [[00:58:43]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=58m33s). Kelly met with Mark Miller, leader of Constellation's first acquisition who now oversees "4000 now he's got like 15 thousand people in 40 countries" [[00:59:27]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=59m17s). The programmatic acquisition model and capital allocation discipline directly inspired Kelly's approach, though Kelly notes their EBITDA margins are "nearly three times" CBIZ and ROIC is "more than two times theirs" [[01:13:49]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h13m39s).
+
+### Berkshire Hathaway (Warren Buffett)
+Kelly read everything Buffett ever wrote and based his corporate structure on Berkshire's model. "Warren Buffett in his owner's manual talks about the corporate form but a partnership mentality" [[00:41:34]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=41m24s). In 2006, Kelly sent Buffett a copy of Robert Hagstrom's book, and "Buffett wrote back to me and signed my book and sent it back" [[00:23:21]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=23m11s). Kelly's holding company structure, font choice, capital allocation discipline, and aspiration to maintain a controlling interest while having independent wealth mirrors Buffett's approach. "Buffett has about a billion dollars outside Berkshire you never put any of his money in a Berkshire... that's always been my goal" [[01:12:44]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h12m34s).
+
+### Ogilvy & Mather (David Ogilvy)
+"David Oglevey had this vision of services organization and advertising agency as a services organization and what it tipped me off to him was Warren Buffett who'd invested in Young and Rubikam 30 years ago" [[00:31:31]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=31m21s). Kelly studied how Ogilvy built a global advertising agency when nobody thought it possible, applying those lessons to professional services. The emphasis on working with people and putting clients first, combined with the vision that a services firm could scale globally, directly influenced Kelly's approach to building Kelly Partners.
+
+## 4. Operating Insights
+
+### The 51% Control Position Eliminates Partnership Politics
+"Most accounting firms there's five partners are 20 percentage and they spend their whole life politicking about who's going to do what if we have a 51 percent position that never happens because we simply say to the partners you need to make a decision make a decision" [[00:44:34]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=44m24s). Remarkably, Kelly notes: "I've never had to sort of use... I have never once had to use by 51 percent position in any single event ever because the partners in the situation where they know somebody can make a decision" [[00:44:48]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=44m38s). The structure requires 75% vote for major decisions, making it a genuine partnership, but the ability to break deadlock transforms decision velocity. "The worst decision is no decision and no decision is a decision" [[00:45:17]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=45m7s).
+
+### Founder Relocation Signals Commitment and Enables Execution
+Kelly moved his entire family to Los Angeles to lead US expansion, investing $1.8 million personally (borrowed from the company, largely repaid). "Business is show business it's not tell business for me to communicate clearly to our team that I believe it's possible for us to take our ethos and our model through the world" [[01:20:52]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h20m42s). This echoes his mentor who realized "you can't lead by pushing from behind you have to get out in front" after initially trying to expand globally from Australia [[01:20:24]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h20m14s). The physical relocation demonstrates conviction to both acquisition targets and internal teams in ways remote leadership cannot.
+
+### Invest 9% of Revenue to Build Exponential Advantage
+The 6.5% management fee and 2.5% IP fee creates a compounding advantage: "If you are internally reinvesting 9% of your revenues as our group grows our ability to reinvest under these firms grows and it's growing at an exponential rate against firms that don't invest a cent" [[00:48:02]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=47m52s). This funds a 35-person specialist team including "software engineers and graphic designers and digital marketing experts and full-time dedicated recruiting functional learning and development and HR and finance and IT" [[00:48:42]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=48m32s). When competing head-to-head with a same-sized local firm, Kelly Partners has massive resource advantage while remaining "unbelievably capital-efficient" [[00:49:08]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=48m58s) since the flywheel is self-funding.
+
+## 5. Overlooked Insights
+
+### The 10-Year Commitment Unlocks Compounding That Begins After Year 10
+Kelly specifically chose 10 years after studying marriage and mortgage data: "The average Australian marriage last seven years and the average Australian home mortgage last eight years however the research indicates that if you stay in your marriage for more than seven years on average of marriage or last 25 years" [[00:46:06]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=45m56s). Most critically: "When I do a compound calculation you don't get much compounding before year 10 but from year 11 to 20 you'll see significant compounding" [[00:46:27]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=46m17s). This insight reveals why most partnerships fail—they dissolve before compounding benefits materialize. The mandatory 10-year commitment with "huge penalties if they leave before that time" [[00:45:45]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=45m35s) forces partners through the low-return early phase into the exponential growth phase, fundamentally changing the investment proposition.
+
+### Kelly's $360K Salary for 5 Years While Creating $600M+ Value Reveals Alignment
+"For the next five years I didn't increase my remuneration by a single dollar and even a $360,000 Australian dollars I could have been earning three times that being a chartered accountant not running a business" [[01:07:35]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h7m25s). During this period, market cap grew from $45M to $200M (now $315M), with the 49% owned by operating partners adding significant value: "in that period of time we've created north of 600 million of value and the average remuneration I've earned in that period is about 250,000 a year a year across 18 years" [[01:08:39]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h8m29s). Kelly owns 48% personally and recently sold shares "30 percent less than the shares trade today" [[01:10:38]](https://www.youtube.com/watch?v=BLXUfJ9gONI&t=1h10m28s) to repay a company loan for his US move. This extreme alignment is rarely discussed but explains partner confidence in the model.
