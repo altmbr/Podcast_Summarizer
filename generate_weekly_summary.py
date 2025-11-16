@@ -14,6 +14,9 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+# Import image generation functions
+from generate_weekly_header_image import extract_themes_from_summary, generate_header_image, format_date_string
+
 # Configuration
 PODCAST_STATUS_FILE = Path("./podcast_status.json")
 PODCAST_WORK_DIR = Path("./podcast_work")
@@ -246,7 +249,7 @@ def generate_weekly_summary_with_ai(episodes, weekly_prompt):
     return summary_text
 
 def save_weekly_summary(summary_text, episodes, days=7):
-    """Save the weekly summary to a file"""
+    """Save the weekly summary to a file with header image"""
     WEEKLY_SUMMARIES_DIR.mkdir(exist_ok=True)
 
     # Generate filename based on date range
@@ -255,20 +258,66 @@ def save_weekly_summary(summary_text, episodes, days=7):
     filename = f"weekly_summary_{start_date.strftime('%Y-%m-%d')}_to_{end_date.strftime('%Y-%m-%d')}.md"
     output_path = WEEKLY_SUMMARIES_DIR / filename
 
-    # Build the full document
+    # First, save a temporary version to extract themes from
+    temp_content = f"""# Weekly Podcast Summary
+
+**Period:** {start_date.strftime('%B %d, %Y')} to {end_date.strftime('%B %d, %Y')}
+**Episodes Analyzed:** {len(episodes)}
+**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+
+## Episodes Included
+
+"""
+    for ep in episodes:
+        temp_content += f"- **{ep['podcast_name']}** - {ep['title']} ({ep['upload_date_formatted']})\n"
+
+    temp_content += "\n---\n\n" + summary_text
+
+    # Save temporary version for theme extraction
     with open(output_path, 'w') as f:
-        f.write(f"# Weekly Podcast Summary\n\n")
-        f.write(f"**Period:** {start_date.strftime('%B %d, %Y')} to {end_date.strftime('%B %d, %Y')}\n")
-        f.write(f"**Episodes Analyzed:** {len(episodes)}\n")
-        f.write(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        f.write(temp_content)
 
-        # List episodes included
-        f.write("## Episodes Included\n\n")
-        for ep in episodes:
-            f.write(f"- **{ep['podcast_name']}** - {ep['title']} ({ep['upload_date_formatted']})\n")
+    # Generate header image
+    print("→ Generating header image...")
+    try:
+        # Extract themes from the summary
+        panel_titles = extract_themes_from_summary(str(output_path))
 
-        f.write("\n---\n\n")
-        f.write(summary_text)
+        if panel_titles:
+            # Generate image filename
+            image_filename = f"weekly_summary_{start_date.strftime('%Y-%m-%d')}_to_{end_date.strftime('%Y-%m-%d')}_header.png"
+            image_path = WEEKLY_SUMMARIES_DIR / image_filename
+
+            # Format date for header
+            date_str = format_date_string(f"{start_date.strftime('%Y-%m-%d')}_to_{end_date.strftime('%Y-%m-%d')}")
+
+            # Generate the image
+            generate_header_image(panel_titles, date_str, str(image_path))
+
+            # Now rebuild the file with the image at the top
+            with open(output_path, 'w') as f:
+                f.write(f"![Podcast Weekly Digest Header](./{image_filename})\n\n")
+                f.write(f"# Weekly Podcast Summary\n\n")
+                f.write(f"**Period:** {start_date.strftime('%B %d, %Y')} to {end_date.strftime('%B %d, %Y')}\n")
+                f.write(f"**Episodes Analyzed:** {len(episodes)}\n")
+                f.write(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+
+                # List episodes included
+                f.write("## Episodes Included\n\n")
+                for ep in episodes:
+                    f.write(f"- **{ep['podcast_name']}** - {ep['title']} ({ep['upload_date_formatted']})\n")
+
+                f.write("\n---\n\n")
+                f.write(summary_text)
+
+            print(f"  ✓ Header image saved to: {image_path}")
+        else:
+            print("  ⚠ Could not extract themes, skipping header image")
+
+    except Exception as e:
+        print(f"  ⚠ Header image generation failed: {e}")
+        print("  Continuing without header image...")
+        # Keep the temp content (already saved without image)
 
     return output_path
 
