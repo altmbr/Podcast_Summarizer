@@ -1,45 +1,44 @@
-# Environment variables (contains API keys)
-.env
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# User-specific configuration
-podcast_urls.txt
+# testing
+/coverage
 
-# User-specific state files
-podcast_status.md
-processed_videos.json
-*.backup
+# next.js
+/.next/
+/out/
 
-# Downloaded content and outputs (keep summaries/transcripts, ignore audio/video files)
-podcast_work/**/*.mp3
-podcast_work/**/*.mp4
-podcast_work/**/*.webm
-podcast_work/**/*.part
-podcast_work/**/*.ytdl
-weekly_summaries/
+# production
+/build
 
-# Runtime files
-processing.lock
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# OS files
+# misc
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Thumbs.db
+*.pem
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Logs
-*.log
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+out/
+
+# Python
+__pycache__/
+
+# Audio files
+*.mp3
+*.mp4
+*.webm
+*.part
+*.ytdl

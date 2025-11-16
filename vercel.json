@@ -1,4 +1,3 @@
 {
-  "buildCommand": "cd podcast-website && npm install && npm run build",
-  "installCommand": "cd podcast-website && npm install"
+  "framework": "nextjs"
 }

@@ -1,0 +1,33 @@
+# Add your podcast URLs here, one per line
+# Example YouTube URL: https://www.youtube.com/watch?v=example
+# Example podcast feed: https://example.com/podcast/episode.mp3
+
+https://www.youtube.com/playlist?list=PLnJFlI3aINuUNaznonoFEgMUGLBiLmB-w # 20VC
+https://www.youtube.com/playlist?list=PLMKa0PxGwad7jf8hwwX8w5FHitXZ1L_h1 # No Priors
+https://www.youtube.com/playlist?list=PL6Jwmvh8DLmc9WZsrCIgsW_5IDWncrqV5 # BG2
+https://www.youtube.com/playlist?list=PLn5MTSAqaf8peDZQ57QkJBzewJU1aUokl # All In 
+https://www.youtube.com/playlist?list=PLI0_clHshGZctchZkfCXmz7SPyuBSOoq1 # More or Less
+https://www.youtube.com/playlist?list=PLtpH7YnTL8ihy0nR2BV32n5VkRtqlDAS1 # Uncapped
+https://www.youtube.com/playlist?list=PLc0CAq1DavmvaNjQhE7IzHpS88enGPlz6 # Sourcery
+https://www.youtube.com/playlist?list=PLd7-bHaQwnthaNDpZ32TtYONGVk95-fhF # Dwarkesh
+https://www.youtube.com/playlist?list=PLxhOp2VJFcPY9noc2nigKYwZ3jI7ChpTY # Invest like the best
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8 # Training Data
+https://www.youtube.com/playlist?list=PLcoWp8pBTM3ATMYLP-hFIhJORSw-nFOiY # Cheeky Pint
+https://www.youtube.com/playlist?list=PLM4u6XbiXf5pZQmB6cadImO1M7xVYbZ_M # Ben & Mark Show
+https://www.youtube.com/playlist?list=PLQ-uHSnFig5Ob4XXhgSK26Smb4oRhzFmK # Lightcone
+https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4 # Lex Fridman
+https://www.youtube.com/playlist?list=PLGtkvjxB4WVRHJn1vQB4UzYvNiVXaaUWJ # Theory Ventures Office Hours
+https://www.youtube.com/playlist?list=PLBgv57GHyNggxhM01l7ELALoLIIdrwvV5 # Vital Signs
+https://www.youtube.com/playlist?list=PLjZkFWu3rWSE2cZ8L2CbiRMmHtJeF0kHh # Acquired 
+https://www.youtube.com/playlist?list=PLtpH7YnTL8ijveTgUGGQQrJqmx2VVeHms # Uncapped Founders
+https://www.youtube.com/playlist?list=PL2fLjt2dG0N6unOOF3nHWYGcJJIQR1NKm # Lenny's
+https://podcasts.apple.com/us/podcast/onboard/id1613083252 # Onboard!
+https://www.youtube.com/playlist?list=PLM4u6XbiXf5rnUvH5NLdV_It2QLgbHBDZ # A16z Podcast
+https://www.youtube.com/playlist?list=PLWloxQyF_2n4aCanY4Y45HLTY2zoeZF8U # My First Million
+https://www.youtube.com/playlist?list=PLGlmLTbngJa-ktFZnjwGHtCq6hXyUBWGG # SaaStr
+https://www.youtube.com/playlist?list=PLOhHNjZItNnNu8wknSuVtcSJRs7Q4xqOE # Long Strange Trip w Brian Halligan
+
+# Xiaoyuzhou (小宇宙) Podcasts
+https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962 # 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
+https://www.xiaoyuzhoufm.com/podcast/61cbaac48bb4cd867fcabe22 # OnBoard! (VC Cross-Border Insights)
+https://www.xiaoyuzhoufm.com/podcast/61933ace1b4320461e91fd55 # 晚点聊 LateTalk (Investigative Journalism)
