@@ -1,81 +1,86 @@
-'use client';
+'use client'
 
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 interface MarkdownRendererProps {
-  content: string;
+  content: string
 }
 
 export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
   return (
-    <div className="w-full">
+    <div className="prose prose-sm max-w-none" style={{ color: 'var(--foreground)' }}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
-          // Customize link rendering to open in new tab
-          a: ({ node, ...props }) => (
-            <a
-              {...props}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800 underline"
-            />
-          ),
-          // Customize heading styles
           h1: ({ node, ...props }) => (
-            <h1 {...props} className="text-3xl font-bold mt-8 mb-4 text-gray-900" />
+            <h1 style={{ color: 'var(--foreground)' }} className="text-3xl font-light tracking-tight mt-8 mb-4" {...props} />
           ),
           h2: ({ node, ...props }) => (
-            <h2 {...props} className="text-2xl font-bold mt-6 mb-3 text-gray-900" />
+            <h2 style={{ color: 'var(--foreground)' }} className="text-2xl font-light tracking-tight mt-6 mb-3" {...props} />
           ),
           h3: ({ node, ...props }) => (
-            <h3 {...props} className="text-xl font-semibold mt-4 mb-2 text-gray-900" />
+            <h3 style={{ color: 'var(--foreground)' }} className="text-xl font-light tracking-tight mt-5 mb-2" {...props} />
           ),
-          // Customize paragraph styles
           p: ({ node, ...props }) => (
-            <p {...props} className="mb-4 text-gray-700 leading-relaxed" />
+            <p style={{ color: 'var(--foreground)' }} className="mb-4 leading-relaxed" {...props} />
           ),
-          // Customize list styles
           ul: ({ node, ...props }) => (
-            <ul {...props} className="list-disc list-inside mb-4 space-y-2 text-gray-700" />
+            <ul style={{ color: 'var(--foreground)' }} className="list-disc list-inside mb-4 space-y-2" {...props} />
           ),
           ol: ({ node, ...props }) => (
-            <ol {...props} className="list-decimal list-inside mb-4 space-y-2 text-gray-700" />
+            <ol style={{ color: 'var(--foreground)' }} className="list-decimal list-inside mb-4 space-y-2" {...props} />
           ),
-          // Customize blockquote styles
+          li: ({ node, ...props }) => (
+            <li style={{ color: 'var(--foreground)' }} {...props} />
+          ),
           blockquote: ({ node, ...props }) => (
             <blockquote
+              style={{ borderLeftColor: 'var(--accent)', color: 'var(--muted-foreground)' }}
+              className="border-l-4 pl-4 italic my-4"
               {...props}
-              className="border-l-4 border-blue-500 pl-4 italic my-4 text-gray-700"
             />
           ),
-          // Customize code blocks
           code: ({ node, className, children, ...props }: any) => {
-            const isInline = !className;
-            if (isInline) {
-              return (
-                <code
-                  {...props}
-                  className="bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono text-gray-800"
-                >
-                  {children}
-                </code>
-              );
-            }
-            return (
+            const isInline = !className
+            return isInline ? (
               <code
+                style={{ backgroundColor: 'var(--secondary)', color: 'var(--foreground)' }}
+                className="px-2 py-1 rounded font-mono text-sm"
                 {...props}
-                className="block bg-gray-100 p-4 rounded text-sm font-mono text-gray-800 overflow-x-auto"
               >
                 {children}
               </code>
-            );
+            ) : (
+              <code
+                style={{ backgroundColor: 'var(--secondary)', color: 'var(--foreground)' }}
+                className="block p-4 rounded overflow-x-auto my-4 font-mono text-sm"
+                {...props}
+              >
+                {children}
+              </code>
+            )
           },
+          a: ({ node, ...props }) => (
+            <a style={{ color: 'var(--accent)' }} className="underline hover:opacity-70" {...props} />
+          ),
+          table: ({ node, ...props }) => (
+            <table style={{ borderColor: 'var(--border)' }} className="w-full border-collapse border my-4" {...props} />
+          ),
+          th: ({ node, ...props }) => (
+            <th
+              style={{ backgroundColor: 'var(--secondary)', borderColor: 'var(--border)', color: 'var(--foreground)' }}
+              className="border p-2 text-left"
+              {...props}
+            />
+          ),
+          td: ({ node, ...props }) => (
+            <td style={{ borderColor: 'var(--border)', color: 'var(--foreground)' }} className="border p-2" {...props} />
+          ),
         }}
       >
         {content}
       </ReactMarkdown>
     </div>
-  );
+  )
 }
