@@ -42,3 +42,7 @@ __pycache__/
 *.webm
 *.part
 *.ytdl
+
+# Newsletter email data (private)
+data/
+data/newsletter-emails.json
