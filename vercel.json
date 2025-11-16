@@ -1,5 +1,4 @@
 {
   "buildCommand": "cd podcast-website && npm install && npm run build",
-  "outputDirectory": "podcast-website/out",
   "installCommand": "cd podcast-website && npm install"
 }
