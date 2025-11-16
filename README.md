@@ -2,6 +2,8 @@
 
 A comprehensive podcast downloading, transcription, and summarization system that intelligently manages YouTube playlists with interactive episode selection.
 
+**🌐 Live at [teahose.com](https://teahose.com)** - All summaries automatically published online via GitHub deployment.
+
 ## Features
 
 - 🎙️ **Automated Discovery**: Tracks YouTube podcast playlists and detects new episodes
@@ -11,10 +13,25 @@ A comprehensive podcast downloading, transcription, and summarization system tha
 - 🗣️ **Voice-Based Speaker Diarization**: Uses pyannote.audio for accurate speaker detection (local, no API cost)
 - 👥 **Speaker Identification**: Uses Claude Haiku to identify speaker names from context
 - 📊 **Smart Summarization**: Generates comprehensive investor-focused summaries with Claude Sonnet 4.5 (16K token output)
+- 🎨 **AI-Generated Header Images**: Creates vintage newspaper-style comic headers for weekly summaries with GPT-image-1
+- 📰 **Weekly Digest**: Automatically generates weekly summaries with top 10 themes
 - 🌏 **Chinese Podcast Support**: Automatic title translation and full integration with Xiaoyuzhou platform
 - 🏷️ **Region Tracking**: Automatically detects and tracks Chinese vs Western content
+- 🌐 **Auto-Publishing**: Push to GitHub, automatically deploys to teahose.com
 - 💾 **State Management**: Tracks episode status through the entire pipeline
 - 🔄 **Resumable**: Safe to interrupt and resume without re-processing
+
+## Web Publishing
+
+**All content is automatically published to the web:**
+
+- 🌐 **Live Site**: [teahose.com](https://teahose.com)
+- 🚀 **Auto-Deploy**: Push to GitHub → automatic deployment
+- 📄 **Public Access**: All summaries, transcripts, and weekly digests
+- 🖼️ **Images Included**: Header images and all visual content display online
+- ⚡ **No Manual Steps**: Just `git push` and your content goes live
+
+The repository is connected to a hosting service that automatically rebuilds and deploys the site whenever you push changes to GitHub. No configuration or manual deployment needed.
 
 ## Quick Start
 
@@ -107,6 +124,45 @@ When prompted, you can:
 - Type `1,3,5` to process specific episodes (comma-separated)
 - Type `cancel` to exit without processing
 
+### Weekly Summary Generation
+
+Generate a comprehensive weekly digest with AI-generated header image:
+
+```bash
+python generate_weekly_summary.py
+```
+
+This will:
+1. Find all episodes published in the last 7 days
+2. Generate a comprehensive summary with Claude Sonnet 4.5
+3. Extract the top 10 themes from the summary
+4. Create a vintage newspaper-style header image (10 panels, portrait layout)
+5. Insert the image at the top of the markdown file (email-ready)
+6. Save to `weekly_summaries/weekly_summary_YYYY-MM-DD_to_YYYY-MM-DD.md`
+
+**Header Image Features:**
+- 🎨 Vintage 1950s comic book style with Ben Day dots
+- 📱 Portrait orientation (1024x1536) optimized for mobile
+- 🖼️ 10 panels in 5x2 grid showing key themes
+- 🤖 Generated with OpenAI's GPT-image-1 model
+- ✉️ Perfect for email newsletters
+
+**Manual header generation:**
+```bash
+# From existing summary
+python generate_weekly_header_image.py \
+  --summary weekly_summaries/weekly_summary_2025-11-04_to_2025-11-11.md \
+  --output header.png
+
+# From custom themes
+python generate_weekly_header_image.py \
+  --themes "AI Development" "Enterprise Sales" "VC Trends" \
+           "Product Strategy" "Talent" "Healthcare" \
+           "Finance" "Media" "Policy" "Culture" \
+  --date "2025-11-04_to_2025-11-11" \
+  --output header.png
+```
+
 ### Output Structure
 
 ```
@@ -189,7 +245,8 @@ Same format but:
 - **`cleanup_incomplete.py`** - Removes incomplete episode folders and resets status
 - **`create_summaries_html.py`** - Compile all summaries into styled HTML for web viewing
 - **`create_summaries_pdf.py`** - Generate PDF compilation of summaries via pandoc
-- **`generate_weekly_summary.py`** - Generates weekly digest of summaries from recently published episodes
+- **`generate_weekly_summary.py`** - Generates weekly digest of summaries from recently published episodes with AI header image
+- **`generate_weekly_header_image.py`** - Creates vintage newspaper-style comic headers for weekly summaries (10 panels, portrait)
 - **`generate_pithy_weekly_summary.py`** - Creates condensed version of weekly summary (40-50% reduction)
 - **`standardize_all_summaries.py`** - Ensures all summary files have consistent format
 - **`update_summary_timestamps.py`** - Adds clickable timestamps to existing summaries
@@ -208,12 +265,23 @@ File-based locking prevents duplicate processing if you accidentally run multipl
 
 ## Cost Estimates
 
-Per episode (approximate):
+### Per Episode Processing
 - Transcription (Whisper): $0.10-0.30
 - Diarization (pyannote, local): $0.00 (runs locally on your machine)
 - Speaker ID (Claude Haiku, 15 min): $0.05-0.20
-- Summarization (Claude Sonnet 4.5): $0.20-1.00
-- **Total: ~$0.35-1.50 per episode**
+- Summarization (Claude Sonnet 4.5, 16K tokens): $0.30-1.50
+- Title Translation (if Chinese): $0.01-0.03
+- **Total: ~$0.45-2.00 per episode**
+
+### Per Weekly Summary
+- Claude Sonnet 4.5 summarization (10-20 episodes): $0.50-2.00
+- Header image generation (GPT-image-1): $0.04-0.08
+- **Total: ~$0.54-2.08 per weekly summary**
+
+### Monthly Costs (Medium Usage)
+- 50 episodes: $22.50-100.00
+- 4 weekly summaries: $2.16-8.32
+- **Total: ~$24.66-108.32/month**
 
 **Cost savings vs previous version:** 50-60% reduction through:
 - Using Haiku instead of Sonnet for speaker ID (10x cheaper)

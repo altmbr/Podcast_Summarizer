@@ -14,6 +14,16 @@ This system automates the process of:
 7. Generating comprehensive AI-powered summaries using Claude Sonnet 4.5 (16K tokens)
 8. Automatically translating Chinese titles to English and tracking content region
 9. Tracking episode status through the entire pipeline
+10. Generating AI-powered vintage newspaper-style header images for weekly summaries
+11. Publishing to the web via GitHub → teahose.com automatic deployment
+
+## Web Publishing
+
+**All content is automatically published online:**
+- When you push to GitHub, it deploys automatically to **teahose.com**
+- All podcast summaries, transcripts, and weekly digests are publicly accessible
+- Images, including the AI-generated header images, are displayed on the website
+- No manual deployment steps required - just `git push` and it goes live
 
 ## Architecture
 
@@ -437,6 +447,13 @@ See `xiaoyuzhou_helper.py` for Chinese podcast platform integration:
 - `download_xiaoyuzhou_audio(episode_url, output_path)` - Download audio file
 - `extract_xiaoyuzhou_podcast_name(podcast_url)` - Extract podcast name
 
+### Weekly Header Image Generation
+See `generate_weekly_header_image.py` for header image generation:
+- `extract_themes_from_summary(summary_file_path, num_panels)` - Extract key themes from weekly summary markdown
+- `create_image_prompt(panel_titles, date_str)` - Create detailed prompt for vintage newspaper style
+- `generate_header_image(panel_titles, date_str, output_path)` - Generate image via OpenAI GPT-image-1
+- `format_date_string(date_range_str)` - Format date string for header display
+
 ### File Management
 - `load_summarization_prompt()` - Load custom prompt from file
 - `acquire_lock()` / `release_lock()` - Prevent parallel processing conflicts
@@ -526,6 +543,92 @@ Then respond to the interactive prompts:
 7. After successful summarization, URLs are automatically removed from one_off_episodes.txt
 8. Episodes remain tracked in podcast_status.json under "One-off Episodes"
 ```
+
+### Generating Weekly Summary with Header Image
+```
+1. Run python generate_weekly_summary.py
+2. Script finds all episodes published in last 7 days
+3. Generates comprehensive weekly digest with Claude Sonnet 4.5
+4. Extracts top 10 themes from the summary
+5. Generates vintage newspaper-style header image with GPT-image-1
+6. Saves summary with header image at top (email-ready format)
+7. Files saved to weekly_summaries/weekly_summary_YYYY-MM-DD_to_YYYY-MM-DD.md
+8. Header image saved as weekly_summary_YYYY-MM-DD_to_YYYY-MM-DD_header.png
+```
+
+## Weekly Header Image Generator
+
+**Script:** `generate_weekly_header_image.py`
+
+Generates AI-powered vintage newspaper-style comic headers for weekly podcast summaries.
+
+### Features
+- **10-panel layout** (5 rows x 2 columns) displaying key themes
+- **Portrait orientation** (1024x1536) - optimized for mobile and email viewing
+- **Vintage aesthetic** - 1950s comic book style with Ben Day dots and Roy Lichtenstein pop art
+- **Automatic theme extraction** - Pulls top themes from weekly summary markdown
+- **OpenAI GPT-image-1** - Latest image generation model from OpenAI
+- **Email-ready** - Image appears at top of markdown file for copy-paste to email
+
+### Usage
+
+**Automatic (Integrated into Weekly Summary):**
+```bash
+python generate_weekly_summary.py
+# Header image is automatically generated and inserted at top
+```
+
+**Manual (Standalone):**
+```bash
+# From existing summary file
+python generate_weekly_header_image.py \
+  --summary weekly_summaries/weekly_summary_2025-11-04_to_2025-11-11.md \
+  --output header.png
+
+# From custom themes
+python generate_weekly_header_image.py \
+  --themes "AI Development" "Media Industry" "Political Division" \
+           "Tech Policy" "Economic Trends" "Cultural Issues" \
+           "VC Funding" "Product Strategy" "Talent Acquisition" "Robotics" \
+  --date "2025-11-04_to_2025-11-11" \
+  --output header.png
+```
+
+### Configuration
+In `generate_weekly_header_image.py`:
+```python
+IMAGE_MODEL = "gpt-image-1"     # OpenAI's latest image model
+IMAGE_SIZE = "1024x1536"        # Portrait orientation
+IMAGE_QUALITY = "high"          # Quality setting
+NUM_PANELS = 10                 # Number of theme panels
+```
+
+### How It Works
+1. **Theme Extraction**: Regex patterns extract key themes from markdown sections:
+   - `## A. Key Topics` or `**A. Topics Discussed**`
+   - `## B. Contrarian Perspectives` or `**B. Contrarian Perspectives**`
+2. **Prompt Generation**: Creates detailed prompt specifying:
+   - 5x2 grid layout with all 10 panels fully visible
+   - Vintage 1950s comic book aesthetic
+   - Panel-specific themes and visual metaphors
+   - Roy Lichtenstein style with Ben Day dots
+3. **Image Generation**: Calls OpenAI API with GPT-image-1 model
+4. **Image Embedding**: Inserts image at top of markdown file with `![...]` syntax
+
+### Output Format
+The header image is embedded at the top of the weekly summary:
+```markdown
+![Podcast Weekly Digest Header](./weekly_summary_2025-11-04_to_2025-11-11_header.png)
+
+# Weekly Podcast Summary
+
+**Period:** November 04, 2025 to November 11, 2025
+...
+```
+
+### Cost
+- ~$0.04-0.08 per image with GPT-image-1 (high quality, 1024x1536)
+- Included automatically in weekly summary generation
 
 ## File Naming
 
@@ -688,16 +791,31 @@ If a run is interrupted:
 - Increased summary length (2K → 16K tokens): More comprehensive, ~50% higher cost per episode
 - Chinese title translation adds minimal cost (~$0.01-0.03 per episode)
 
+### Weekly Summary Generation Costs
+
+**Per Weekly Summary:**
+- Claude Sonnet 4.5 summarization (10-20 episodes): ~$0.50-2.00
+- Header image generation (GPT-image-1, high quality): ~$0.04-0.08
+- **Total per weekly summary: ~$0.54-2.08**
+
 ### Monthly Cost Examples
 
+**Episode Processing:**
 - **Light usage** (10 episodes/month): $4.50-20.00
 - **Medium usage** (50 episodes/month): $22.50-100.00
 - **Heavy usage** (200 episodes/month): $90-400
+
+**Weekly Summaries:**
+- 4 weekly summaries/month: ~$2.16-8.32
+
+**Total Monthly (Medium Usage):**
+- 50 episodes + 4 weekly summaries: ~$24.66-108.32
 
 Note: Costs vary based on:
 - Episode length (longer = more transcription cost)
 - Transcript complexity (affects summarization tokens)
 - Number of speakers (minimal impact with voice diarization)
+- Number of episodes per weekly summary
 
 ## Future Enhancements
 
