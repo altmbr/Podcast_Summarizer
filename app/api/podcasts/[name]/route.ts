@@ -11,6 +11,24 @@ export async function GET(
     const podcastName = decodeURIComponent(name)
     const podcastPath = join(process.cwd(), 'podcast_work', podcastName)
 
+    // Load podcast status to get upload dates
+    let podcastStatus: any = {}
+    try {
+      const statusPath = join(process.cwd(), 'podcast_status.json')
+      const statusContent = await readFile(statusPath, 'utf-8')
+      const allStatus = JSON.parse(statusContent)
+
+      // Find the podcast entry by name
+      for (const [url, data] of Object.entries(allStatus.podcasts || {})) {
+        if ((data as any).podcast_name === podcastName) {
+          podcastStatus = (data as any).episodes || {}
+          break
+        }
+      }
+    } catch (error) {
+      console.error('Error loading podcast status:', error)
+    }
+
     const episodeDirs = await readdir(podcastPath, { withFileTypes: true })
     const episodes = await Promise.all(
       episodeDirs
@@ -28,10 +46,19 @@ export async function GET(
               ?.trim()
               ?.substring(0, 200) || ''
 
+            // Try to find upload_date from podcast_status.json
+            let uploadDate = ''
+            for (const [videoId, episodeData] of Object.entries(podcastStatus)) {
+              if ((episodeData as any).title === (data.title || entry.name.replace(/_/g, ' '))) {
+                uploadDate = (episodeData as any).upload_date || ''
+                break
+              }
+            }
+
             return {
               slug: entry.name,
               title: data.title || entry.name.replace(/_/g, ' '),
-              date: data.date || data.Date || '',
+              date: uploadDate || data.date || data.Date || '',
               summary: firstParagraph
             }
           } catch (error) {
