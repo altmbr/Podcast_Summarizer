@@ -9,7 +9,7 @@ export async function GET(
   try {
     const { name } = await params
     const podcastName = decodeURIComponent(name)
-    const podcastPath = join(process.cwd(), '..', 'podcast_work', podcastName)
+    const podcastPath = join(process.cwd(), 'podcast_work', podcastName)
 
     const episodeDirs = await readdir(podcastPath, { withFileTypes: true })
     const episodes = await Promise.all(

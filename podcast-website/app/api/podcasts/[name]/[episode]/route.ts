@@ -10,7 +10,7 @@ export async function GET(
     const { name, episode } = await params
     const podcastName = decodeURIComponent(name)
     const episodeSlug = decodeURIComponent(episode)
-    const episodePath = join(process.cwd(), '..', 'podcast_work', podcastName, episodeSlug)
+    const episodePath = join(process.cwd(), 'podcast_work', podcastName, episodeSlug)
 
     // Read summary
     const summaryPath = join(episodePath, 'summary.md')

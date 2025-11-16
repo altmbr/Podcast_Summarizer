@@ -3,7 +3,7 @@ import { join } from 'path'
 
 export async function GET() {
   try {
-    const podcastWorkDir = join(process.cwd(), '..', 'podcast_work')
+    const podcastWorkDir = join(process.cwd(), 'podcast_work')
     const entries = await readdir(podcastWorkDir, { withFileTypes: true })
 
     const podcasts = entries
