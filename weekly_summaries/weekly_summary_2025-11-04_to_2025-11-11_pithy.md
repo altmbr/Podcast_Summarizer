@@ -2,8 +2,28 @@
 
 **Period:** November 04, 2025 to November 11, 2025
 **Episodes Analyzed:** 18
+**Generated:** 2025-11-11 16:00:33
 
----
+## Episodes Included
+
+- **Invest like the best** - How Great Founders Tell Their Story (2025-11-11)
+- **Training Data** - How Google’s Nano Banana Achieved Breakthrough Character Consistency (2025-11-11)
+- **Cheeky Pint** - Dave Ricks, CEO of Eli Lilly, on GLP-1s and the business of pharma (2025-11-11)
+- **20VC** - Benchmark's GP, Everett Randle: Why Margins Matter Less in AI & OpenAI vs Anthropic: Who Wins Coding (2025-11-10)
+- **晚点聊 LateTalk (Investigative Journalism)** - 140: AI for Science, From the Beginning to Now | Dialogue with Zhang Linfeng and Sun Weijie from DeepWisdom (2025-11-10)
+- **Lenny's** - $1M to $10M: The enterprise sales playbook with Jen Abel (2025-11-09)
+- **More or Less** - Apple Chooses Gemini, Sequoia's Leadership Shake-up, and Meme Coins (2025-11-08)
+- **A16z Podcast** - Amjad Masad & Adam D’Angelo: How Far Are We From AGI? (2025-11-08)
+- **My First Million** - I Own 38 Businesses. Here's What Actually Makes Money. (2025-11-08)
+- **All In** - Does OpenAI Need a Bailout? Mamdani Wins, Socialism Rising, Filibuster Nuclear Option (2025-11-07)
+- **Training Data** - OpenAI Sora 2 Team: How Generative Video Will Unlock Creativity and World Models (2025-11-07)
+- **Uncapped Founders** - Figma's Dylan Field on the Future of Design | Ep. 31 (2025-11-07)
+- **No Priors** - No Priors Ep. 139 | With Snowflake CEO Sridhar Ramaswamy (2025-11-06)
+- **Cheeky Pint** - Stablecoin special: Zach Abrams (Bridge) and Henri Stern (Privy) (2025-11-05)
+- **Zhang Xiaoyun's** - Kimi Linear, Minimax M2? Exploring the historical variations of Yang Songlin's archaeological algorithms and previewing future architectural improvements (2025-11-05)
+- **Invest like the best** - The Playbook on Buying and Running Companies Forever (2025-11-04)
+- **Sourcery** - How Ryan Serhant Sold $20B in Real Estate with Media & AI (2025-11-03)
+- **张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)** - 119. Kimi Linear、Minimax M2？和杨松琳考古算法变种史，并预演未来架构改进方案 (2025-11-03)
 
 ## A. Key Topics
 

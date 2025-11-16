@@ -22,6 +22,7 @@ PODCAST_STATUS_FILE = Path("./podcast_status.json")
 PODCAST_STATUS_MD_FILE = Path("./podcast_status.md")
 PROCESSING_LOCK_FILE = Path("./processing.lock")
 SUMMARIZATION_PROMPT_FILE = Path("./summarization_prompt.md")
+ONE_OFF_EPISODES_FILE = Path("./one_off_episodes.txt")
 CLAUDE_MODEL = "claude-sonnet-4-5-20250929"  # For summarization (latest Sonnet 4.5)
 HAIKU_MODEL = "claude-3-5-haiku-20241022"  # For speaker identification (latest Haiku)
 HUGGINGFACE_TOKEN = os.environ.get("HUGGINGFACE_TOKEN")
@@ -195,6 +196,21 @@ def set_episode_status(status_data, podcast_url, video_id, episode_title, new_st
         }
 
     episode = status_data["podcasts"][podcast_url]["episodes"][video_id]
+
+    # Update title and upload_date if they were previously unknown
+    if episode.get("title") in ["Unknown", ""] and episode_title not in ["Unknown", ""]:
+        # Translate title if it contains Chinese characters
+        translated_title = episode_title
+        if region is None and has_chinese_characters(episode_title):
+            print(f"  → Detected Chinese title, translating...")
+            translated_title = translate_chinese_to_english(episode_title)
+            episode["region"] = "Chinese"
+            print(f"  → Translated: {translated_title}")
+        episode["title"] = translated_title
+
+    if episode.get("upload_date") in ["0", None] and upload_date not in ["0", None]:
+        episode["upload_date"] = upload_date
+
     if episode["status"] == "discovered" and new_status != "discovered":
         episode["discovered_date"] = time.strftime("%Y-%m-%d %H:%M:%S")
     episode["status"] = new_status
@@ -237,11 +253,62 @@ Extract the key takeaways in a clear, concise format:
 
 Keep it scannable and focused on substance."""
 
+def load_one_off_episodes():
+    """Load one-off episode URLs from file"""
+    if not ONE_OFF_EPISODES_FILE.exists():
+        return []
+
+    one_off_urls = []
+    with open(ONE_OFF_EPISODES_FILE, 'r') as f:
+        for line in f:
+            line = line.strip()
+            # Skip empty lines and comments
+            if not line or line.startswith('#'):
+                continue
+
+            # Extract URL (before any # comment)
+            if '#' in line and not line.startswith('#'):
+                url_part = line.split('#', 1)[0].strip()
+            else:
+                url_part = line
+
+            if url_part:
+                one_off_urls.append(url_part)
+
+    return one_off_urls
+
+def remove_processed_one_off(episode_url):
+    """Remove a successfully processed episode from one_off_episodes.txt"""
+    if not ONE_OFF_EPISODES_FILE.exists():
+        return
+
+    # Read all lines
+    with open(ONE_OFF_EPISODES_FILE, 'r') as f:
+        lines = f.readlines()
+
+    # Filter out the processed episode
+    updated_lines = []
+    for line in lines:
+        # Keep comments and empty lines
+        if not line.strip() or line.strip().startswith('#'):
+            updated_lines.append(line)
+            continue
+
+        # Check if this line contains the episode URL
+        url_part = line.split('#', 1)[0].strip()
+        if url_part != episode_url:
+            updated_lines.append(line)
+
+    # Write back
+    with open(ONE_OFF_EPISODES_FILE, 'w') as f:
+        f.writelines(updated_lines)
+
 def show_recent_incomplete_episodes(status_data, selected_podcast_urls=None):
-    """Display all episodes from the last 30 days that haven't been fully summarized"""
+    """Display all episodes that haven't been fully summarized, with one-off episodes in a separate section"""
     from datetime import datetime, timedelta
 
-    all_recent = []
+    one_off_episodes = []
+    regular_episodes = []
     thirty_days_ago = datetime.now() - timedelta(days=30)
 
     for url, podcast_data in status_data.get('podcasts', {}).items():
@@ -251,33 +318,53 @@ def show_recent_incomplete_episodes(status_data, selected_podcast_urls=None):
 
         podcast_name = podcast_data.get('podcast_name', 'Unknown')
         episodes = podcast_data.get('episodes', {})
+        is_one_off = (url == "one-off-episodes")
 
         for vid_id, episode in episodes.items():
             # Check if episode is incomplete (not yet summarized)
             episode_status = episode.get('status')
             if episode_status in ['discovered', 'downloaded', 'transcribed']:
-                # Check upload date
                 upload_date = episode.get('upload_date')
+                formatted_date = "Unknown"
+
                 if upload_date and len(upload_date) == 8:
                     try:
+                        formatted_date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
                         ep_date = datetime.strptime(upload_date, '%Y%m%d')
-                        if ep_date >= thirty_days_ago:
-                            all_recent.append({
-                                'title': episode.get('title', 'Unknown'),
-                                'upload_date': f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}",
-                                'id': vid_id,
-                                'podcast_name': podcast_name,
-                                'status': episode_status
-                            })
-                    except:
-                        pass
 
-    if not all_recent:
-        print("No incomplete episodes from the past 30 days.")
-        return
+                        episode_info = {
+                            'title': episode.get('title', 'Unknown'),
+                            'upload_date': formatted_date,
+                            'id': vid_id,
+                            'podcast_name': podcast_name,
+                            'status': episode_status
+                        }
+
+                        # Separate one-off episodes from regular episodes
+                        if is_one_off:
+                            one_off_episodes.append(episode_info)
+                        elif ep_date >= thirty_days_ago:
+                            regular_episodes.append(episode_info)
+                    except:
+                        # If date parsing fails, include it anyway
+                        episode_info = {
+                            'title': episode.get('title', 'Unknown'),
+                            'upload_date': formatted_date,
+                            'id': vid_id,
+                            'podcast_name': podcast_name,
+                            'status': episode_status
+                        }
+
+                        if is_one_off:
+                            one_off_episodes.append(episode_info)
+
+    if not one_off_episodes and not regular_episodes:
+        print("No incomplete episodes found.")
+        return {}
 
     # Sort by upload date (newest first)
-    all_recent.sort(key=lambda x: x['upload_date'], reverse=True)
+    one_off_episodes.sort(key=lambda x: x['upload_date'], reverse=True)
+    regular_episodes.sort(key=lambda x: x['upload_date'], reverse=True)
 
     # Define status emoji mapping
     status_emoji = {
@@ -286,21 +373,43 @@ def show_recent_incomplete_episodes(status_data, selected_podcast_urls=None):
         "transcribed": "📝"
     }
 
-    print(f"\n{'='*70}")
-    print(f"📅 RECENT INCOMPLETE EPISODES (Last 30 days)")
-    print(f"{'='*70}\n")
-
     episode_map = {}  # Map numbers to episode info for quick lookup
+    episode_number = 1
 
-    for episode_number, ep in enumerate(all_recent, 1):
-        title = ep['title'][:120]
-        if len(ep['title']) > 120:
-            title += "..."
-        status_icon = status_emoji.get(ep.get('status', 'discovered'), '🔍')
-        print(f"{episode_number}. {status_icon} [{ep['podcast_name']}] {ep['upload_date']} - {title}")
-        episode_map[episode_number] = ep
+    # Show one-off episodes first (if any)
+    if one_off_episodes:
+        print(f"\n{'='*70}")
+        print(f"📌 ONE-OFF EPISODES (No date limit)")
+        print(f"{'='*70}\n")
 
-    print()
+        for ep in one_off_episodes:
+            title = ep['title'][:120]
+            if len(ep['title']) > 120:
+                title += "..."
+            status_icon = status_emoji.get(ep.get('status', 'discovered'), '🔍')
+            print(f"{episode_number}. {status_icon} {ep['upload_date']} - {title}")
+            episode_map[episode_number] = ep
+            episode_number += 1
+
+        print()
+
+    # Show regular episodes (if any)
+    if regular_episodes:
+        print(f"\n{'='*70}")
+        print(f"📅 RECENT INCOMPLETE EPISODES (Last 30 days)")
+        print(f"{'='*70}\n")
+
+        for ep in regular_episodes:
+            title = ep['title'][:120]
+            if len(ep['title']) > 120:
+                title += "..."
+            status_icon = status_emoji.get(ep.get('status', 'discovered'), '🔍')
+            print(f"{episode_number}. {status_icon} [{ep['podcast_name']}] {ep['upload_date']} - {title}")
+            episode_map[episode_number] = ep
+            episode_number += 1
+
+        print()
+
     return episode_map
 
 def show_episode_selection_menu(all_episodes_to_process):
@@ -378,7 +487,7 @@ def get_playlist_videos(playlist_url, first_run=False):
         "yt-dlp",
         "--flat-playlist",
         "-j",  # JSON output
-        "--extractor-args", "youtubetab:approximate_date;youtube:player_client=ios,web",  # Get upload dates + use iOS/web clients
+        "--extractor-args", "youtubetab:approximate_date",  # Get upload dates
         playlist_url
     ]
     result = subprocess.run(cmd, capture_output=True, text=True, check=True)
@@ -597,7 +706,6 @@ def extract_video_metadata(video_url):
             "yt-dlp",
             "-j",  # JSON output
             "--no-warnings",
-            "--extractor-args", "youtube:player_client=ios,web",  # Use iOS/web clients to avoid 403 errors
             video_url
         ]
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
@@ -856,7 +964,9 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
     print(f"     Video ID: {video_id}")
 
     # Create episode folder and file paths
-    episode_folder = PODCAST_WORK_DIR / podcast_name / sanitized_episode_title
+    # Use "one off episodes" folder for one-off episodes
+    folder_name = "one off episodes" if podcast_url == "one-off-episodes" else podcast_name
+    episode_folder = PODCAST_WORK_DIR / folder_name / sanitized_episode_title
     episode_folder.mkdir(parents=True, exist_ok=True)
 
     raw_podcast_path = episode_folder / "raw_podcast.mp3"
@@ -1080,8 +1190,13 @@ def main():
             print("❌ No podcast URLs found in podcast_urls.txt")
             sys.exit(1)
 
+        # Load one-off episodes
+        one_off_episode_urls = load_one_off_episodes()
+
         print(f"\n📻 Starting podcast summarizer")
         print(f"   Found {len(podcast_feeds)} podcast feed(s) to check")
+        if one_off_episode_urls:
+            print(f"   Found {len(one_off_episode_urls)} one-off episode(s) to process")
         print(f"   Status file: {PODCAST_STATUS_FILE}")
         print(f"   Using prompt from: {SUMMARIZATION_PROMPT_FILE}")
 
@@ -1268,6 +1383,78 @@ def main():
                 }
                 all_episodes_to_process.append((podcast_name, feed_url, video_info))
 
+        # Process one-off episodes
+        ONE_OFF_PODCAST_KEY = "one-off-episodes"
+        if one_off_episode_urls:
+            print(f"\n📌 Processing one-off episodes...")
+
+            # Initialize one-off podcast in status if needed
+            if ONE_OFF_PODCAST_KEY not in status_data["podcasts"]:
+                status_data["podcasts"][ONE_OFF_PODCAST_KEY] = {
+                    "podcast_name": "One-off Episodes",
+                    "episodes": {}
+                }
+
+            for episode_url in one_off_episode_urls:
+                # Extract video ID and metadata
+                if 'youtube.com' in episode_url or 'youtu.be' in episode_url:
+                    # Extract video ID from YouTube URL
+                    if 'v=' in episode_url:
+                        video_id = episode_url.split('v=')[-1].split('&')[0]
+                    elif 'youtu.be/' in episode_url:
+                        video_id = episode_url.split('youtu.be/')[-1].split('?')[0]
+                    else:
+                        print(f"  ⚠ Could not extract video ID from: {episode_url}")
+                        continue
+
+                    print(f"  → Found one-off episode: {video_id}")
+
+                    # Fetch video metadata using yt-dlp
+                    try:
+                        cmd = [
+                            "yt-dlp",
+                            "-j",
+                            "--no-warnings",
+                            episode_url
+                        ]
+                        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+                        if result.returncode == 0:
+                            metadata = json.loads(result.stdout)
+                            video_title = metadata.get('title', 'Unknown')
+                            upload_date = metadata.get('upload_date', '0')
+                        else:
+                            print(f"  ⚠ Could not fetch metadata for {episode_url}")
+                            video_title = "Unknown"
+                            upload_date = '0'
+                    except Exception as e:
+                        print(f"  ⚠ Error fetching metadata: {e}")
+                        video_title = "Unknown"
+                        upload_date = '0'
+
+                    # Add to status if not already processed
+                    existing_status = get_episode_status(status_data, ONE_OFF_PODCAST_KEY, video_id)
+                    if existing_status != "summarized":
+                        set_episode_status(status_data, ONE_OFF_PODCAST_KEY, video_id, video_title, "discovered", upload_date)
+                        print(f"  → Added to processing queue: {video_title[:60]}")
+
+                elif xiaoyuzhou_helper.is_xiaoyuzhou_url(episode_url):
+                    # Extract episode ID from Xiaoyuzhou URL
+                    episode_id = episode_url.split('episode/')[-1].split('?')[0]
+                    print(f"  → Found one-off Xiaoyuzhou episode: {episode_id}")
+
+                    # For now, use a placeholder title - will be updated during processing
+                    video_title = "Xiaoyuzhou Episode"
+                    upload_date = '0'
+
+                    # Add to status if not already processed
+                    existing_status = get_episode_status(status_data, ONE_OFF_PODCAST_KEY, episode_id)
+                    if existing_status != "summarized":
+                        set_episode_status(status_data, ONE_OFF_PODCAST_KEY, episode_id, video_title, "discovered", upload_date)
+                        print(f"  → Added to processing queue")
+                else:
+                    print(f"  ⚠ Unsupported URL format: {episode_url}")
+                    continue
+
         # Save discovered videos to status before selection
         save_podcast_status(status_data)
 
@@ -1364,6 +1551,14 @@ def main():
                 )
                 # Save after each successful video to handle interruptions
                 save_podcast_status(status_data)
+
+                # If this was a one-off episode and it's now summarized, remove it from the file
+                if feed_url == ONE_OFF_PODCAST_KEY:
+                    episode_status = get_episode_status(status_data, feed_url, video_info['id'])
+                    if episode_status == "summarized":
+                        print(f"  → Removing from one-off episodes list...")
+                        remove_processed_one_off(video_info['url'])
+
             except Exception as error:
                 print(f"❌ Error processing '{video_info['title']}': {error}")
                 import traceback

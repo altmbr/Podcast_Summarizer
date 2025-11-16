@@ -44,17 +44,24 @@ You are summarizing a podcast transcript for an investor and entrepreneur. The g
 -> "A quote from someone else" (Podcast, Name of Speaker, Time Stamp, Link to podcast at Time Stamp)
 ...
 
-**C. Impressive Companies Discussed**** [List off all companies identified as particularily impressive and why]
+**C. Operating Insights** [Act as Keith Rabois listening in for tactics that can be leveraged to operate better]
+
+1. Impressive Company 1
+
+-> "A quote from someone" (Podcast, Name of Speaker, Time Stamp, Link to podcast at Time Stamp)
+-> "A quote from someone else" (Podcast, Name of Speaker, Time Stamp, Link to podcast at Time Stamp)
+...
+
+**D. Impressive Companies Discussed**** [List off all companies identified as particularily impressive and why]
 
 1. Impressive Company 1
 -> "A quote from someone" (Podcast, Name of Speaker, Time Stamp, Link to podcast at Time Stamp)
 -> "A quote from someone else" (Podcast, Name of Speaker, Time Stamp, Link to podcast at Time Stamp)
 ...
 
-**D. Operating Insights** [Act as Keith Rabois listening in for tactics that can be leveraged to operate better]
+**D. Impressive People Discussed**** [List off all people identified as particularily impressive and why]
 
-1. Impressive Company 1
-
+1. Impressive Person 1
 -> "A quote from someone" (Podcast, Name of Speaker, Time Stamp, Link to podcast at Time Stamp)
 -> "A quote from someone else" (Podcast, Name of Speaker, Time Stamp, Link to podcast at Time Stamp)
 ...

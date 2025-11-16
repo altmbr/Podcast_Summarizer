@@ -6,13 +6,14 @@ A comprehensive podcast downloading, transcription, and summarization system tha
 
 This system automates the process of:
 1. Discovering new episodes from YouTube podcast playlists (including Chinese Xiaoyuzhou platform)
-2. Allowing you to interactively select which episodes to process
-3. Downloading audio files
-4. Transcribing audio to text using OpenAI's Whisper
-5. Identifying speakers using voice diarization and Claude AI
-6. Generating comprehensive AI-powered summaries using Claude Sonnet 4.5 (16K tokens)
-7. Automatically translating Chinese titles to English and tracking content region
-8. Tracking episode status through the entire pipeline
+2. Processing one-off episodes from individual URLs (with automatic cleanup after completion)
+3. Allowing you to interactively select which episodes to process
+4. Downloading audio files
+5. Transcribing audio to text using OpenAI's Whisper
+6. Identifying speakers using voice diarization and Claude AI
+7. Generating comprehensive AI-powered summaries using Claude Sonnet 4.5 (16K tokens)
+8. Automatically translating Chinese titles to English and tracking content region
+9. Tracking episode status through the entire pipeline
 
 ## Architecture
 
@@ -22,6 +23,7 @@ This system automates the process of:
 project_root/
 ├── podcast_summarizer.py          # Main application script
 ├── podcast_urls.txt               # Configuration: list of podcast URLs
+├── one_off_episodes.txt           # Configuration: one-off episodes to process
 ├── podcast_status.json            # State file: episode tracking
 ├── summarization_prompt.md        # Configuration: summary prompt template
 ├── .env                           # Configuration: API keys
@@ -29,23 +31,35 @@ project_root/
 ├── .claude/
 │   └── CLAUDE.md                  # This file - project memory
 └── podcast_work/                  # Output directory
-    └── [podcast_name]/            # One folder per podcast
-        └── [episode_name]/        # One folder per episode
-            ├── raw_podcast.mp3    # Downloaded audio file
-            ├── transcript_raw.md  # Whisper transcription (before speaker ID)
-            ├── transcript.md      # Transcript with speaker names
-            └── summary.md         # AI-generated summary with metadata
+    ├── [podcast_name]/            # One folder per podcast
+    │   └── [episode_name]/        # One folder per episode
+    │       ├── raw_podcast.mp3    # Downloaded audio file
+    │       ├── transcript_raw.md  # Whisper transcription (before speaker ID)
+    │       ├── transcript.md      # Transcript with speaker names
+    │       └── summary.md         # AI-generated summary with metadata
+    └── one off episodes/          # Special folder for one-off episodes
+        └── [episode_name]/        # One folder per one-off episode
+            ├── raw_podcast.mp3
+            ├── transcript_raw.md
+            ├── transcript.md
+            └── summary.md
 ```
 
 ### Episode Folder Structure Example
 
 ```
 podcast_work/
-└── 20VC/
-    └── Joelle_Pineau_Scaling_Laws_AI_Success/
+├── 20VC/
+│   └── Joelle_Pineau_Scaling_Laws_AI_Success/
+│       ├── raw_podcast.mp3
+│       ├── transcript_raw.md         # Before speaker identification
+│       ├── transcript.md             # After speaker identification
+│       └── summary.md
+└── one off episodes/
+    └── Interesting_Interview_Title/
         ├── raw_podcast.mp3
-        ├── transcript_raw.md         # Before speaker identification
-        ├── transcript.md             # After speaker identification
+        ├── transcript_raw.md
+        ├── transcript.md
         └── summary.md
 ```
 
@@ -120,6 +134,36 @@ https://www.youtube.com/watch?v=abc123 # Single Video
 - Optional podcast name after `#` comment
 - Lines starting with `#` are ignored
 - Custom podcast names override automatic extraction
+
+### `one_off_episodes.txt`
+
+List of individual podcast episodes to process once. These episodes will be processed through the full pipeline and automatically removed from the file after successful completion.
+
+**Example:**
+```
+# One-off episodes to process
+https://www.youtube.com/watch?v=abc123xyz
+https://www.youtube.com/watch?v=def456ghi # Great interview with X
+https://www.xiaoyuzhoufm.com/episode/EPISODE_ID
+```
+
+**Features:**
+- Supports YouTube single video URLs
+- Supports Xiaoyuzhou episode URLs
+- Optional comments after `#`
+- Lines starting with `#` are ignored (treated as comments)
+- Episodes stored in `podcast_work/one off episodes/` folder
+- Episodes tracked under "One-off Episodes" podcast in status
+- **Automatic cleanup**: Episodes are removed from file after summarization completes
+- Useful for processing specific episodes without tracking entire playlists
+
+**Workflow:**
+1. Add episode URLs to `one_off_episodes.txt`
+2. Run `python podcast_summarizer.py`
+3. Select and process episodes from the interactive menu
+4. Episodes are stored in `podcast_work/one off episodes/[episode_name]/`
+5. After successful summarization, URLs are automatically removed from the file
+6. Episodes remain in `podcast_status.json` for history tracking
 
 ### Transcript Format
 
@@ -229,19 +273,26 @@ When you run `python podcast_summarizer.py`:
 - **No files are downloaded in this phase**
 
 #### Phase 2: Interactive Selection (📋)
-- **First**: Shows recent incomplete episodes from the **last 30 days** across all podcasts
-  - Incomplete episodes include: discovered, downloaded, or transcribed (not yet summarized)
+Shows incomplete episodes in two separate sections:
+
+- **One-off Episodes Section** (📌):
+  - Shows ALL incomplete one-off episodes (no date limit)
+  - Episodes from `one_off_episodes.txt` that haven't been summarized yet
   - Status indicator emoji (🔍 discovered, ⬇️ downloaded, 📝 transcribed)
   - Numbered list for easy reference
+  - Shows translated titles for Chinese content
+
+- **Recent Incomplete Episodes Section** (📅):
+  - Shows incomplete episodes from regular podcasts in the **last 30 days**
+  - Incomplete episodes include: discovered, downloaded, or transcribed (not yet summarized)
+  - Status indicator emoji (🔍 discovered, ⬇️ downloaded, 📝 transcribed)
+  - Numbered list for easy reference (continuing from one-off episodes)
   - Grouped by podcast name
   - Sorted by publication date (newest first)
   - Shows translated titles for Chinese content
-- **Then**: Displays numbered list of suggested episodes with:
-  - Podcast name
-  - Episode title (translated if Chinese)
-  - Video ID
+
 - Prompts for user selection:
-  - `all` - Select all suggested episodes
+  - `all` - Select all episodes from both sections
   - `1,2,3` - Select specific episodes (comma-separated numbers)
   - `cancel` - Exit without processing
 
@@ -459,6 +510,21 @@ Then respond to the interactive prompts:
 3. Enter "1,3,5" to process only those 3
 4. Episodes 2 and 4 are skipped
 5. Status updated only for episodes 1, 3, 5
+```
+
+### Processing One-off Episodes
+```
+1. Add specific episode URLs to one_off_episodes.txt:
+   https://www.youtube.com/watch?v=abc123xyz
+   https://www.youtube.com/watch?v=def456ghi # Great interview
+
+2. Run script
+3. Script discovers the one-off episodes and lists them in a separate section
+4. Select episodes to process (or 'all')
+5. Episodes are downloaded, transcribed, and summarized
+6. All files saved to podcast_work/one off episodes/[episode_name]/
+7. After successful summarization, URLs are automatically removed from one_off_episodes.txt
+8. Episodes remain tracked in podcast_status.json under "One-off Episodes"
 ```
 
 ## File Naming

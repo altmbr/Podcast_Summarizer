@@ -94,6 +94,10 @@ def get_episodes_from_last_week(status_data, days=7, debug=False):
         if not podcast_name or podcast_name == "None":
             continue
 
+        # Skip one-off episodes (they shouldn't be included in weekly summaries)
+        if podcast_name == "One-off Episodes":
+            continue
+
         for video_id, episode_data in podcast_data.get("episodes", {}).items():
             # Only include summarized episodes
             if episode_data.get("status") != "summarized":
