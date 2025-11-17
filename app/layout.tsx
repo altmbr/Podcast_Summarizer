@@ -3,6 +3,8 @@ import './globals.css'
 import NewsletterSubscribe from '@/components/NewsletterSubscribe'
 import { PHProvider } from './providers'
 import PostHogPageView from './PostHogPageView'
+import StructuredData from '@/components/StructuredData'
+import { generateOrganizationSchema, generateWebSiteSchema } from '@/lib/schema'
 import { Suspense } from 'react'
 
 export const metadata: Metadata = {
@@ -39,6 +41,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <StructuredData
+          data={[generateOrganizationSchema(), generateWebSiteSchema()]}
+        />
+      </head>
       <PHProvider>
         <body className="bg-gray-50 text-gray-900">
           <Suspense fallback={null}>

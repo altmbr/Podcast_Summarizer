@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
+import StructuredData from '@/components/StructuredData'
+import { generatePodcastEpisodeSchema } from '@/lib/schema'
 
 interface EpisodeData {
   title: string
@@ -51,6 +53,25 @@ export default function EpisodePage() {
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
+      {/* Structured Data for SEO */}
+      {episode && (
+        <StructuredData
+          data={generatePodcastEpisodeSchema(
+            {
+              title: episode.title,
+              podcast: episode.podcast || podcastName,
+              date: episode.date || '',
+              participants: episode.participants,
+              videoUrl: episode.videoUrl,
+              region: episode.region,
+              description: episode.summary?.substring(0, 200),
+            },
+            podcastName,
+            episodeSlug
+          )}
+        />
+      )}
+
       {/* Header */}
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
         <div className="container py-8 md:py-12">

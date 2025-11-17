@@ -3,6 +3,8 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
+import StructuredData from '@/components/StructuredData'
+import { generatePodcastSeriesSchema } from '@/lib/schema'
 
 interface Episode {
   slug: string
@@ -50,6 +52,17 @@ export default function PodcastPage() {
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
+      {/* Structured Data for SEO */}
+      {podcast && (
+        <StructuredData
+          data={generatePodcastSeriesSchema({
+            name: podcast.title || decodeURIComponent(podcastName),
+            description: podcast.description,
+            episodeCount: episodes.length,
+          })}
+        />
+      )}
+
       {/* Header */}
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
         <div className="container py-8 md:py-12">
