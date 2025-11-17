@@ -38,9 +38,9 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
-      <ShareButton />
       {/* Header */}
-      <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
+      <header style={{ borderBottomColor: 'var(--border)' }} className="border-b relative">
+        <ShareButton />
         <div className="container py-12 md:py-16">
           <h1 style={{ color: 'var(--foreground)' }} className="mb-2">Teahose</h1>
           <p style={{ color: 'var(--muted-foreground)' }} className="text-lg">

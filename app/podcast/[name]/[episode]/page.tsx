@@ -96,7 +96,6 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
-      <ShareButton title={episode.title} />
       {/* Structured Data for SEO */}
       <StructuredData
         data={generatePodcastEpisodeSchema(
@@ -115,7 +114,8 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
       />
 
       {/* Header */}
-      <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
+      <header style={{ borderBottomColor: 'var(--border)' }} className="border-b relative">
+        <ShareButton title={episode.title} />
         <div className="container py-8 md:py-12">
           <Link
             href={`/podcast/${name}`}

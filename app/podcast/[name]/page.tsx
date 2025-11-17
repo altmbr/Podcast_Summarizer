@@ -81,7 +81,6 @@ export default async function PodcastPage({ params }: PodcastPageProps) {
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
-      <ShareButton title={`${podcastName} - Podcast Summaries`} />
       {/* Structured Data for SEO */}
       <StructuredData
         data={generatePodcastSeriesSchema({
@@ -92,7 +91,8 @@ export default async function PodcastPage({ params }: PodcastPageProps) {
       />
 
       {/* Header */}
-      <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
+      <header style={{ borderBottomColor: 'var(--border)' }} className="border-b relative">
+        <ShareButton title={`${podcastName} - Podcast Summaries`} />
         <div className="container py-8 md:py-12">
           <Link href="/" style={{ color: 'var(--muted-foreground)' }} className="hover:underline mb-4 block text-sm">
             ← Back to Podcasts
