@@ -22,22 +22,22 @@ def generate_favicon():
     Create a minimalist teacup icon for a website favicon.
 
     Style requirements:
-    - Simple, elegant teacup silhouette
-    - Muted dusty blue color (#5b7f9e) for the cup
-    - Clean, minimal design that reads well at small sizes
-    - Light steam wisps rising from the cup (optional, subtle)
-    - Transparent or white background
-    - Icon should be centered in the canvas
-    - Designed to work at 16x16, 32x32, and larger sizes
+    - Simple, elegant teacup silhouette in muted dusty blue (#5b7f9e)
+    - The teacup should FILL THE CANVAS - zoom in close so the cup takes up 70-80% of the square
+    - Very minimal negative space around the edges
+    - Clean, bold design that reads well at tiny sizes (16x16px)
+    - Light steam wisps rising from the cup (optional, keep subtle)
+    - Light cream or white background (#f8f7f5)
+    - IMPORTANT: The teacup should be LARGE and prominent, not small and centered with lots of white space
 
     The design should:
-    - Be immediately recognizable as a teacup
+    - Fill most of the canvas with the teacup shape
+    - Be immediately recognizable even at 16x16 pixels
+    - Have bold, clear edges
     - Match the sophisticated, minimal aesthetic
-    - Work well as a small browser tab icon
-    - Feel elegant and professional
-    - Be a simple, clean silhouette/icon style
+    - Be cropped close to the teacup (think tight crop, not lots of padding)
 
-    Think: minimal app icon, not detailed illustration.
+    Think: emoji-sized icon where the teacup fills the square, not a tiny icon with lots of empty space.
     """
 
     print("Generating favicon (teacup icon) for teahose.com...")
