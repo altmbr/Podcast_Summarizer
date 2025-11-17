@@ -126,9 +126,14 @@ export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMet
   const metadata: Partial<EpisodeMetadata> = {}
 
   // Extract title (first # heading)
-  const titleMatch = summaryContent.match(/^#\s+(.+?)(?:\(https?:\/\/.+?\))?$/m)
+  const titleMatch = summaryContent.match(/^#\s+(.+?)$/m)
   if (titleMatch) {
-    metadata.title = titleMatch[1].replace(/\[(.+?)\]\(.+?\)/g, '$1').trim()
+    let title = titleMatch[1].trim()
+    // Remove markdown link syntax: [text](url) -> text
+    title = title.replace(/\[(.+?)\]\(.+?\)/g, '$1')
+    // Remove any remaining brackets: [text] -> text
+    title = title.replace(/^\[(.+?)\]$/, '$1')
+    metadata.title = title
   }
 
   // Extract podcast name
