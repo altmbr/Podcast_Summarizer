@@ -115,8 +115,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
 
       {/* Header */}
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
-        <div className="container py-8 md:py-12 relative">
-          <ShareButton title={episode.title} />
+        <div className="container py-8 md:py-12">
           <Link
             href={`/podcast/${name}`}
             style={{ color: 'var(--muted-foreground)' }}
@@ -124,7 +123,10 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
           >
             ← Back to Episodes
           </Link>
-          <h1 style={{ color: 'var(--foreground)' }} className="mb-4">{episode.title}</h1>
+          <div className="flex items-start justify-between gap-4 mb-4">
+            <h1 style={{ color: 'var(--foreground)' }} className="flex-1">{episode.title}</h1>
+            <ShareButton title={episode.title} />
+          </div>
           {episode.date && <p style={{ color: 'var(--muted-foreground)' }} className="text-sm mb-2">{formatDate(episode.date)}</p>}
           {episode.participants && <p style={{ color: 'var(--muted-foreground)' }} className="text-sm">{episode.participants}</p>}
         </div>

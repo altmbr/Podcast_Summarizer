@@ -92,12 +92,14 @@ export default async function PodcastPage({ params }: PodcastPageProps) {
 
       {/* Header */}
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
-        <div className="container py-8 md:py-12 relative">
-          <ShareButton title={`${podcastName} - Podcast Summaries`} />
+        <div className="container py-8 md:py-12">
           <Link href="/" style={{ color: 'var(--muted-foreground)' }} className="hover:underline mb-4 block text-sm">
             ← Back to Podcasts
           </Link>
-          <h1 style={{ color: 'var(--foreground)' }} className="mb-2">{podcastName}</h1>
+          <div className="flex items-center justify-between mb-2">
+            <h1 style={{ color: 'var(--foreground)' }}>{podcastName}</h1>
+            <ShareButton title={`${podcastName} - Podcast Summaries`} />
+          </div>
           <p style={{ color: 'var(--muted-foreground)' }} className="text-sm">
             {episodes.length} episode{episodes.length !== 1 ? 's' : ''}
           </p>

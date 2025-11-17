@@ -40,9 +40,11 @@ export default function HomePage() {
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
       {/* Header */}
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
-        <div className="container py-12 md:py-16 relative">
-          <ShareButton />
-          <h1 style={{ color: 'var(--foreground)' }} className="mb-2">Teahose</h1>
+        <div className="container py-12 md:py-16">
+          <div className="flex items-center justify-between mb-2">
+            <h1 style={{ color: 'var(--foreground)' }}>Teahose</h1>
+            <ShareButton />
+          </div>
           <p style={{ color: 'var(--muted-foreground)' }} className="text-lg">
             Summaries of the most important tech podcasts — including China's.
             <br />
