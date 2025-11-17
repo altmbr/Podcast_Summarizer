@@ -19,30 +19,30 @@ def generate_og_image():
 
     # Design prompt matching the site's aesthetic
     prompt = """
-    Create a minimalist, elegant social media preview image (landscape orientation) for a podcast summary website called "Teahose".
+    Create a minimalist, elegant social media preview image (landscape orientation) for a podcast website called "Teahose".
 
     Style requirements:
     - Background: elegant cream color (#f8f7f5)
-    - Text color: charcoal (#2c2c2c)
     - Accent color: muted dusty blue (#5b7f9e)
-    - Typography: clean, modern sans-serif, light weight
-    - Overall aesthetic: sophisticated, minimalist, content-focused
+    - Typography: clean, modern sans-serif, very light weight
+    - Overall aesthetic: sophisticated, minimalist, visual-focused
 
     Layout (horizontal/landscape):
-    - Center-aligned composition optimized for landscape format
-    - Large "Teahose" title in charcoal at center
-    - Below it: "Thoughtful podcast summaries & transcripts" in smaller, lighter text
-    - Include a subtle visual element: perhaps a minimalist teacup icon or abstract podcast microphone/wave pattern in the muted blue accent color
-    - Bottom area: "Explore, learn, and reflect on compelling ideas" in very light charcoal
+    - Center the word "Teahose" (spelled T-E-A-H-O-S-E, not Teahouse) in large, elegant charcoal (#2c2c2c) text
+    - Add a simple, elegant teacup icon next to or integrated with the wordmark in the muted dusty blue color
+    - NO additional tagline text or descriptions (text will be added separately by the platform)
+    - Generous white space around the elements
+    - Minimalist composition - just the brand name and icon
+    - IMPORTANT: The brand name is "Teahose" not "Teahouse"
 
     The design should feel:
-    - Intellectual and curated
-    - Clean and uncluttered
+    - Like a high-end logo lockup / brand identity
+    - Clean and uncluttered with lots of breathing room
     - Professional yet approachable
-    - Like a high-end content platform
-    - Optimized for social media sharing (Facebook, Twitter, LinkedIn)
+    - Visually strong but simple
+    - More icon/logo-focused, less text-heavy
 
-    Landscape orientation for optimal social media display.
+    Think of it as a brand card, not a text card. Simple and elegant.
     """
 
     print("Generating Open Graph image for teahose.com...")
