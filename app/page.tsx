@@ -41,7 +41,11 @@ export default function HomePage() {
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
         <div className="container py-12 md:py-16">
           <h1 style={{ color: 'var(--foreground)' }} className="mb-2">Teahose</h1>
-          <p style={{ color: 'var(--muted-foreground)' }} className="text-lg">Thoughtful podcast summaries & transcripts</p>
+          <p style={{ color: 'var(--muted-foreground)' }} className="text-lg">
+            Summaries of the most important tech podcasts — including China's.
+            <br />
+            Browse episodes here, and subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.
+          </p>
         </div>
       </header>
 

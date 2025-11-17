@@ -6,11 +6,11 @@ import PostHogPageView from './PostHogPageView'
 import { Suspense } from 'react'
 
 export const metadata: Metadata = {
-  title: 'Teahose - Thoughtful Podcast Summaries & Transcripts',
-  description: 'Explore, learn, and reflect on compelling ideas through AI-generated podcast summaries and transcripts',
+  title: 'Teahose - Tech Podcast Summaries',
+  description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
   openGraph: {
-    title: 'Teahose - Thoughtful Podcast Summaries & Transcripts',
-    description: 'Explore, learn, and reflect on compelling ideas through AI-generated podcast summaries and transcripts',
+    title: 'Teahose - Tech Podcast Summaries',
+    description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
     url: 'https://teahose.com',
     siteName: 'Teahose',
     images: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1536,
         height: 1024,
-        alt: 'Teahose - Thoughtful podcast summaries & transcripts',
+        alt: 'Teahose - Tech podcast summaries',
       },
     ],
     locale: 'en_US',
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Teahose - Thoughtful Podcast Summaries & Transcripts',
-    description: 'Explore, learn, and reflect on compelling ideas through AI-generated podcast summaries and transcripts',
+    title: 'Teahose - Tech Podcast Summaries',
+    description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
     images: ['/og-image.png'],
   },
 }
