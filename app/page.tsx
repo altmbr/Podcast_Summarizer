@@ -50,7 +50,7 @@ export default function HomePage() {
       </header>
 
       {/* Podcasts Grid */}
-      <section className="container py-12 md:py-16">
+      <section className="container py-12 md:py-16 pb-24">
         {loading ? (
           <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">Loading podcasts...</div>
         ) : error ? (
@@ -87,13 +87,6 @@ export default function HomePage() {
           </div>
         )}
       </section>
-
-      {/* Footer */}
-      <footer style={{ borderTopColor: 'var(--border)' }} className="border-t mt-16 md:mt-20">
-        <div style={{ color: 'var(--muted-foreground)' }} className="container py-8 text-center text-sm">
-          <p>Explore, learn, and reflect on compelling ideas.</p>
-        </div>
-      </footer>
     </main>
   )
 }
