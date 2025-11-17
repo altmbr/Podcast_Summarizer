@@ -47,7 +47,7 @@ export default function RootLayout({
         />
       </head>
       <PHProvider>
-        <body className="bg-gray-50 text-gray-900">
+        <body>
           <Suspense fallback={null}>
             <PostHogPageView />
           </Suspense>
