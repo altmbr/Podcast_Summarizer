@@ -2642,6 +2642,13 @@
           "discovered_date": "2025-11-10 17:50:09",
           "status": "summarized",
           "region": "Western"
+        },
+        "rT74mF6_NhQ": {
+          "title": "AI Fund\u2019s GP, Andrew Ng: Biggest Bottlenecks in AI & How LLMs Can Be Used as a Geopolitical Weapon?",
+          "upload_date": "20251117",
+          "discovered_date": "2025-11-17 14:22:37",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -11574,6 +11581,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "m_CFCyc2Shs": {
+          "title": "David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fridman Podcast #485",
+          "upload_date": "20251117",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -15318,8 +15332,8 @@
         "brjL6iyoEhI": {
           "title": "Reid Hoffman on AI, Consciousness, and the Future of Labor",
           "upload_date": "20251022",
-          "discovered_date": null,
-          "status": "discovered",
+          "discovered_date": "2025-11-16 18:48:49",
+          "status": "summarized",
           "region": "Western"
         },
         "CWAMH9xMJfg": {
@@ -19600,8 +19614,8 @@
           "region": "Western"
         },
         "Ua8nPJ1_yk8": {
-          "title": "[Private video]",
-          "upload_date": "0",
+          "title": "Emmett Shear on Building AI That Actually Cares: Beyond Control and Steering",
+          "upload_date": "20251117",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
@@ -23754,6 +23768,13 @@
           "discovered_date": "2025-11-15 08:48:49",
           "status": "summarized",
           "region": "Western"
+        },
+        "isTfM5aKD0I": {
+          "title": "Every Business I Tried Before Making My First Million",
+          "upload_date": "20251117",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -23873,8 +23894,8 @@
         "vTl3GH7IMn8": {
           "title": "The State of AI + Software: Where It\u2019s Going - Fast",
           "upload_date": "20251027",
-          "discovered_date": null,
-          "status": "discovered",
+          "discovered_date": "2025-11-16 18:41:05",
+          "status": "summarized",
           "region": "Western"
         },
         "q3lcE4Z8LNQ": {
@@ -24167,6 +24188,18 @@
           "upload_date": "20251114",
           "discovered_date": "2025-11-16 10:15:39",
           "status": "summarized",
+          "region": "Western"
+        }
+      }
+    },
+    "https://www.youtube.com/playlist?list=PL61Vm4B9XaAbk9wSq1N6FRYe9Ou_QbEWq": {
+      "podcast_name": "Stanford AI Speaker Series",
+      "episodes": {
+        "b6Doq2fz81U": {
+          "title": "Stanford AI Club: Jason Wei on 3 Key Ideas in AI in 2025",
+          "upload_date": "20251020",
+          "discovered_date": null,
+          "status": "discovered",
           "region": "Western"
         }
       }

@@ -2,11 +2,11 @@
 
 ## 20VC
 
-**Total Episodes:** 439
+**Total Episodes:** 440
 
 **Status Summary:**
 - discovered: 434
-- summarized: 5
+- summarized: 6
 
 **Episodes:**
 
@@ -2643,6 +2643,12 @@
   - Published: 2025-11-10
   - Status: `summarized`
   - Discovered: 2025-11-10 17:50:09
+
+- ✅ **AI Fund’s GP, Andrew Ng: Biggest Bottlenecks in AI & How LLMs Can Be Used as a G**
+  - ID: `rT74mF6_NhQ`
+  - Published: 2025-11-17
+  - Status: `summarized`
+  - Discovered: 2025-11-17 14:22:37
 
 ---
 
@@ -8749,10 +8755,10 @@
 
 ## Lex Fridman
 
-**Total Episodes:** 479
+**Total Episodes:** 480
 
 **Status Summary:**
-- discovered: 479
+- discovered: 480
 
 **Episodes:**
 
@@ -11627,6 +11633,12 @@
 - 🔍 **[Private video]**
   - ID: `NvsI8ijW8xU`
   - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fr**
+  - ID: `m_CFCyc2Shs`
+  - Published: 2025-11-17
   - Status: `discovered`
   - Discovered: None
 
@@ -15161,8 +15173,8 @@
 **Total Episodes:** 626
 
 **Status Summary:**
-- discovered: 623
-- summarized: 3
+- discovered: 622
+- summarized: 4
 
 **Episodes:**
 
@@ -15244,11 +15256,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **Reid Hoffman on AI, Consciousness, and the Future of Labor**
+- ✅ **Reid Hoffman on AI, Consciousness, and the Future of Labor**
   - ID: `brjL6iyoEhI`
   - Published: 2025-10-22
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-11-16 18:48:49
 
 - 🔍 **Ben Horowitz and Ali Ghodsi: How to Run a $100 Billion Business**
   - ID: `CWAMH9xMJfg`
@@ -18916,9 +18928,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **Emmett Shear on Building AI That Actually Cares: Beyond Control and Steering**
   - ID: `Ua8nPJ1_yk8`
-  - Published: 0
+  - Published: 2025-11-17
   - Status: `discovered`
   - Discovered: None
 
@@ -18926,10 +18938,10 @@
 
 ## My First Million
 
-**Total Episodes:** 592
+**Total Episodes:** 593
 
 **Status Summary:**
-- discovered: 590
+- discovered: 591
 - summarized: 2
 
 **Episodes:**
@@ -22486,6 +22498,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-15 08:48:49
 
+- 🔍 **Every Business I Tried Before Making My First Million**
+  - ID: `isTfM5aKD0I`
+  - Published: 2025-11-17
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## One-off Episodes
@@ -22582,8 +22600,8 @@
 **Total Episodes:** 43
 
 **Status Summary:**
-- discovered: 42
-- summarized: 1
+- discovered: 41
+- summarized: 2
 
 **Episodes:**
 
@@ -22599,11 +22617,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **The State of AI + Software: Where It’s Going - Fast**
+- ✅ **The State of AI + Software: Where It’s Going - Fast**
   - ID: `vTl3GH7IMn8`
   - Published: 2025-10-27
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-11-16 18:41:05
 
 - 🔍 **Snowflake's AI Revolution in Sales, Marketing and GTM with Snowflake‘s CMO and F**
   - ID: `q3lcE4Z8LNQ`
@@ -22861,6 +22879,23 @@
   - Published: 2025-11-14
   - Status: `summarized`
   - Discovered: 2025-11-16 10:15:39
+
+---
+
+## Stanford AI Speaker Series
+
+**Total Episodes:** 1
+
+**Status Summary:**
+- discovered: 1
+
+**Episodes:**
+
+- 🔍 **Stanford AI Club: Jason Wei on 3 Key Ideas in AI in 2025**
+  - ID: `b6Doq2fz81U`
+  - Published: 2025-10-20
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
