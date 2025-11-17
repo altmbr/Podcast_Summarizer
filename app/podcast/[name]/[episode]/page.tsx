@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import StructuredData from '@/components/StructuredData'
+import ShareButton from '@/components/ShareButton'
 import { generatePodcastEpisodeSchema } from '@/lib/schema'
 import { getEpisode, getAllEpisodeParams } from '@/lib/episodes'
 import EpisodeClient from './EpisodeClient'
@@ -95,6 +96,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
+      <ShareButton title={episode.title} />
       {/* Structured Data for SEO */}
       <StructuredData
         data={generatePodcastEpisodeSchema(

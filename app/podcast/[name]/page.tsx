@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import StructuredData from '@/components/StructuredData'
+import ShareButton from '@/components/ShareButton'
 import { generatePodcastSeriesSchema } from '@/lib/schema'
 import { getEpisodesForPodcast, getAllPodcastNames } from '@/lib/episodes'
 
@@ -80,6 +81,7 @@ export default async function PodcastPage({ params }: PodcastPageProps) {
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
+      <ShareButton title={`${podcastName} - Podcast Summaries`} />
       {/* Structured Data for SEO */}
       <StructuredData
         data={generatePodcastSeriesSchema({

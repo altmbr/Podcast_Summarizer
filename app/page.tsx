@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import ShareButton from '@/components/ShareButton'
 
 interface Podcast {
   name: string
@@ -37,6 +38,7 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
+      <ShareButton />
       {/* Header */}
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
         <div className="container py-12 md:py-16">
