@@ -114,9 +114,9 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
       />
 
       {/* Header */}
-      <header style={{ borderBottomColor: 'var(--border)' }} className="border-b relative">
-        <ShareButton title={episode.title} />
-        <div className="container py-8 md:py-12">
+      <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
+        <div className="container py-8 md:py-12 relative">
+          <ShareButton title={episode.title} />
           <Link
             href={`/podcast/${name}`}
             style={{ color: 'var(--muted-foreground)' }}
