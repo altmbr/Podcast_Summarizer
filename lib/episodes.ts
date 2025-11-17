@@ -82,10 +82,19 @@ export async function getEpisodesForPodcast(podcastName: string): Promise<Episod
     console.error(`Error reading episodes for ${podcastName}:`, err)
   }
 
-  // Sort by date, newest first
+  // Sort by date, newest first (episodes without dates go to bottom)
   episodes.sort((a, b) => {
-    if (!a.date || !b.date) return 0
-    return b.date.localeCompare(a.date)
+    // Episodes without dates go to the bottom
+    if (!a.date && !b.date) return 0
+    if (!a.date) return 1
+    if (!b.date) return -1
+
+    // Convert date strings to Date objects for proper chronological comparison
+    const dateA = new Date(a.date)
+    const dateB = new Date(b.date)
+
+    // Sort newest first (descending order)
+    return dateB.getTime() - dateA.getTime()
   })
 
   return episodes
