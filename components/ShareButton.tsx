@@ -29,7 +29,7 @@ export default function ShareButton({ url, title }: ShareButtonProps) {
         color: 'var(--foreground)',
         borderColor: 'var(--border)',
       }}
-      className="absolute top-4 right-0 md:top-6 z-40 px-3 py-2 text-sm border rounded-sm hover:opacity-70 transition-opacity bg-[var(--background)]"
+      className="absolute top-4 right-4 md:top-6 sm:right-6 lg:right-8 z-40 px-3 py-2 text-sm border rounded-sm hover:opacity-70 transition-opacity bg-[var(--background)]"
       aria-label="Copy link to clipboard"
     >
         {copied ? (
