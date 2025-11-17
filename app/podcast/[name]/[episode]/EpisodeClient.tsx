@@ -1,0 +1,50 @@
+'use client'
+
+import { useState } from 'react'
+import MarkdownRenderer from '@/components/MarkdownRenderer'
+
+interface EpisodeClientProps {
+  summary?: string
+  transcript?: string
+}
+
+export default function EpisodeClient({ summary, transcript }: EpisodeClientProps) {
+  const [activeTab, setActiveTab] = useState<'summary' | 'transcript'>('summary')
+
+  return (
+    <section className="container py-8 md:py-12">
+      <div style={{ borderBottomColor: 'var(--border)' }} className="flex gap-2 mb-8 border-b pb-4">
+        <button
+          onClick={() => setActiveTab('summary')}
+          style={{
+            color: activeTab === 'summary' ? 'var(--accent)' : 'var(--muted-foreground)',
+            borderBottomColor: activeTab === 'summary' ? 'var(--accent)' : 'transparent',
+          }}
+          className="px-4 py-2 text-sm font-medium transition-colors border-b-2"
+        >
+          Summary
+        </button>
+        <button
+          onClick={() => setActiveTab('transcript')}
+          style={{
+            color: activeTab === 'transcript' ? 'var(--accent)' : 'var(--muted-foreground)',
+            borderBottomColor: activeTab === 'transcript' ? 'var(--accent)' : 'transparent',
+          }}
+          className="px-4 py-2 text-sm font-medium transition-colors border-b-2"
+        >
+          Transcript
+        </button>
+      </div>
+
+      <div>
+        {activeTab === 'summary' && summary ? (
+          <MarkdownRenderer content={summary} />
+        ) : activeTab === 'transcript' && transcript ? (
+          <MarkdownRenderer content={transcript} />
+        ) : (
+          <p style={{ color: 'var(--muted-foreground)' }}>No content available</p>
+        )}
+      </div>
+    </section>
+  )
+}

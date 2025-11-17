@@ -1,67 +1,93 @@
-'use client'
-
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
-import { useParams } from 'next/navigation'
+import { notFound } from 'next/navigation'
+import { Metadata } from 'next'
 import StructuredData from '@/components/StructuredData'
 import { generatePodcastSeriesSchema } from '@/lib/schema'
+import { getEpisodesForPodcast, getAllPodcastNames } from '@/lib/episodes'
 
-interface Episode {
-  slug: string
-  title: string
-  date?: string
-  summary?: string
+interface PodcastPageProps {
+  params: Promise<{
+    name: string
+  }>
 }
 
-export default function PodcastPage() {
-  const params = useParams()
-  const podcastName = params.name as string
-  const [podcast, setPodcast] = useState<any>(null)
-  const [episodes, setEpisodes] = useState<Episode[]>([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
+/**
+ * Generate static params for all podcasts (SSG)
+ */
+export async function generateStaticParams() {
+  const podcasts = await getAllPodcastNames()
 
-  useEffect(() => {
-    const loadEpisodes = async () => {
-      try {
-        const decodedName = decodeURIComponent(podcastName)
-        const response = await fetch(`/api/podcasts/${encodeURIComponent(decodedName)}`)
-        if (!response.ok) {
-          throw new Error(`API error: ${response.status}`)
-        }
-        const data = await response.json()
-        setPodcast(data.podcast)
-        // Sort episodes newest to oldest by date
-        const sortedEpisodes = [...data.episodes].sort((a, b) => {
-          if (!a.date || !b.date) return 0
-          return b.date.localeCompare(a.date)
-        })
-        setEpisodes(sortedEpisodes)
-      } catch (error) {
-        console.error('Failed to load episodes:', error)
-        setError('Failed to load episodes')
-      } finally {
-        setLoading(false)
-      }
-    }
+  // Return raw names - Next.js will handle URL encoding
+  return podcasts.map((name) => ({
+    name,
+  }))
+}
 
-    if (podcastName) {
-      loadEpisodes()
-    }
-  }, [podcastName])
+/**
+ * Generate dynamic metadata for SEO
+ */
+export async function generateMetadata({ params }: PodcastPageProps): Promise<Metadata> {
+  const { name } = await params
+  const podcastName = decodeURIComponent(name)
+
+  const episodes = await getEpisodesForPodcast(podcastName)
+
+  const title = `${podcastName} - Podcast Summaries | Teahose`
+  const description = `Browse ${episodes.length} episode${episodes.length !== 1 ? 's' : ''} from ${podcastName}. AI-generated summaries and transcripts for tech podcast episodes.`
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `https://teahose.com/podcast/${name}`,
+      siteName: 'Teahose',
+      type: 'website',
+      images: [
+        {
+          url: '/og-image.png',
+          width: 1536,
+          height: 1024,
+          alt: 'Teahose - Tech podcast summaries',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/og-image.png'],
+    },
+    alternates: {
+      canonical: `https://teahose.com/podcast/${name}`,
+    },
+  }
+}
+
+/**
+ * Server Component - generates static HTML at build time
+ */
+export default async function PodcastPage({ params }: PodcastPageProps) {
+  const { name } = await params
+  const podcastName = decodeURIComponent(name)
+
+  const episodes = await getEpisodesForPodcast(podcastName)
+
+  if (episodes.length === 0) {
+    notFound()
+  }
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
       {/* Structured Data for SEO */}
-      {podcast && (
-        <StructuredData
-          data={generatePodcastSeriesSchema({
-            name: podcast.title || decodeURIComponent(podcastName),
-            description: podcast.description,
-            episodeCount: episodes.length,
-          })}
-        />
-      )}
+      <StructuredData
+        data={generatePodcastSeriesSchema({
+          name: podcastName,
+          description: undefined,
+          episodeCount: episodes.length,
+        })}
+      />
 
       {/* Header */}
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
@@ -69,51 +95,43 @@ export default function PodcastPage() {
           <Link href="/" style={{ color: 'var(--muted-foreground)' }} className="hover:underline mb-4 block text-sm">
             ← Back to Podcasts
           </Link>
-          <h1 style={{ color: 'var(--foreground)' }} className="mb-2">{podcast?.title || decodeURIComponent(podcastName)}</h1>
-          {podcast?.description && (
-            <p style={{ color: 'var(--muted-foreground)' }} className="max-w-2xl">{podcast.description}</p>
-          )}
+          <h1 style={{ color: 'var(--foreground)' }} className="mb-2">{podcastName}</h1>
+          <p style={{ color: 'var(--muted-foreground)' }} className="text-sm">
+            {episodes.length} episode{episodes.length !== 1 ? 's' : ''}
+          </p>
         </div>
       </header>
 
       {/* Episodes */}
       <section className="container py-12 md:py-16">
-        {loading ? (
-          <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">Loading episodes...</div>
-        ) : error ? (
-          <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">{error}</div>
-        ) : episodes.length === 0 ? (
-          <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">No episodes found</div>
-        ) : (
-          <div className="space-y-4 md:space-y-6">
-            {episodes.map((episode) => (
-              <Link
-                key={episode.slug}
-                href={`/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episode.slug)}`}
-                className="group block p-6 rounded-sm hover:opacity-80 transition-all"
-                style={{
-                  backgroundColor: 'var(--card)',
-                  borderColor: 'var(--border)',
-                  color: 'var(--foreground)',
-                }}
-              >
-                <div className="flex items-start justify-between gap-4">
-                  <div className="flex-1 min-w-0">
-                    <h3 className="text-lg md:text-xl group-hover:underline transition-colors">
-                      {episode.title}
-                      {episode.date && (
-                        <span style={{ color: 'var(--muted-foreground)' }} className="text-base font-normal ml-2">
-                          [{formatDate(episode.date)}]
-                        </span>
-                      )}
-                    </h3>
-                  </div>
-                  <span style={{ color: 'var(--accent)' }} className="font-light text-lg flex-shrink-0">→</span>
+        <div className="space-y-4 md:space-y-6">
+          {episodes.map((episode) => (
+            <Link
+              key={episode.slug}
+              href={`/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episode.slug)}`}
+              className="group block p-6 rounded-sm hover:opacity-80 transition-all"
+              style={{
+                backgroundColor: 'var(--card)',
+                borderColor: 'var(--border)',
+                color: 'var(--foreground)',
+              }}
+            >
+              <div className="flex items-start justify-between gap-4">
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg md:text-xl group-hover:underline transition-colors">
+                    {episode.title}
+                    {episode.date && (
+                      <span style={{ color: 'var(--muted-foreground)' }} className="text-base font-normal ml-2">
+                        [{formatDate(episode.date)}]
+                      </span>
+                    )}
+                  </h3>
                 </div>
-              </Link>
-            ))}
-          </div>
-        )}
+                <span style={{ color: 'var(--accent)' }} className="font-light text-lg flex-shrink-0">→</span>
+              </div>
+            </Link>
+          ))}
+        </div>
       </section>
 
       {/* Footer */}
