@@ -1,49 +1,85 @@
-# Podcast Summaries Website
+# Teahose - Tech Podcast Summaries
 
-A Next.js website for browsing and viewing AI-generated podcast summaries.
+A high-performance Next.js website for browsing and viewing AI-generated podcast summaries and transcripts. Fully optimized for SEO with static site generation, structured data, and comprehensive metadata.
 
 ## Features
 
-- **Homepage**: Grid view of all podcasts with episode counts and hosts
-- **Podcast Detail Pages**: List of all episodes for each podcast
-- **Episode Pages**: Full summary with clickable timestamps
-- **Static Site Generation**: Fast, pre-rendered pages
-- **Responsive Design**: Clean, mobile-friendly interface
+### Content
+- **Homepage**: Grid view of all podcasts with episode counts
+- **Podcast Pages**: List of all episodes per podcast, sorted by date
+- **Episode Pages**: Full AI-generated summaries with clickable YouTube timestamps
+- **Transcript Viewing**: Full transcripts with speaker identification and timestamps
+- **Newsletter Subscription**: Email capture for weekly digest (stored in Vercel KV)
+
+### Performance & SEO
+- **Static Site Generation (SSG)**: 100+ pages pre-rendered at build time
+- **Edge Caching**: Instant page loads via Vercel CDN worldwide
+- **Dynamic Sitemap**: Auto-generated `/sitemap.xml` with 200+ URLs
+- **Structured Data**: JSON-LD schema for PodcastEpisode, PodcastSeries, Organization
+- **Unique Metadata**: SEO-optimized titles and descriptions per page
+- **Canonical URLs**: Prevents duplicate content issues
+- **Image Optimization**: Next.js automatic optimization enabled
+- **Open Graph & Twitter Cards**: Rich social media previews
+
+### Design
+- **Responsive Design**: Mobile-first, works on all devices
+- **Elegant Branding**: Cream/charcoal color scheme with muted blue accents
+- **Clean Typography**: Geist font family, light weight
+- **Minimal UI**: Content-focused, sophisticated aesthetic
 
 ## Tech Stack
 
-- **Next.js 16**: React framework with App Router
+- **Next.js 16**: React framework with App Router & Server Components
 - **TypeScript**: Type-safe code
-- **Tailwind CSS 4**: Utility-first styling
-- **React Markdown**: Render markdown summaries
-- **Vercel**: Deployment platform
+- **Tailwind CSS 4**: Utility-first styling with custom theme
+- **React Markdown**: Render markdown summaries and transcripts
+- **Vercel**: Deployment platform with edge caching
+- **PostHog**: Analytics and newsletter subscription tracking
+- **Vercel KV**: Redis-compatible storage for email addresses
 
 ## Project Structure
 
 ```
-podcast-website/
-├── app/                           # Next.js App Router pages
-│   ├── page.tsx                  # Homepage
+teahose/
+├── app/                                    # Next.js App Router
+│   ├── page.tsx                           # Homepage (client component)
+│   ├── layout.tsx                         # Root layout with schemas
+│   ├── globals.css                        # Global styles & theme
+│   ├── sitemap.ts                         # Dynamic sitemap generation
+│   ├── robots.ts                          # Robots.txt
 │   ├── podcast/[name]/
-│   │   ├── page.tsx             # Podcast detail page
-│   │   └── [episode]/page.tsx   # Episode page
-│   ├── layout.tsx               # Root layout
-│   └── globals.css              # Global styles
+│   │   ├── page.tsx                       # Podcast page (SSG + metadata)
+│   │   └── [episode]/
+│   │       ├── page.tsx                   # Episode page (SSG + metadata)
+│   │       └── EpisodeClient.tsx          # Tab switching (client)
+│   ├── api/
+│   │   ├── newsletter/route.ts            # Newsletter subscription
+│   │   └── podcasts/                      # Podcast data APIs
+│   └── providers.tsx                      # PostHog provider
 ├── components/
-│   └── MarkdownRenderer.tsx     # Markdown rendering component
+│   ├── MarkdownRenderer.tsx               # Markdown rendering
+│   ├── NewsletterSubscribe.tsx            # Newsletter banner
+│   └── StructuredData.tsx                 # JSON-LD schema wrapper
 ├── lib/
-│   ├── podcasts.ts              # Data loading utilities
-│   ├── markdown.ts              # Markdown parsing
-│   └── types.ts                 # TypeScript types
-├── podcast_hosts.json           # Podcast hosts configuration
-└── public/                      # Static assets
+│   ├── episodes.ts                        # Server-side data loading (SSG)
+│   └── schema.ts                          # Schema.org generation utilities
+├── public/
+│   ├── og-image.png                       # Social media preview image
+│   └── favicon.ico                        # Teacup favicon
+├── podcast_work/                          # Episode content (read by SSG)
+│   └── [podcast]/[episode]/
+│       ├── summary.md                     # AI-generated summary
+│       └── transcript.md                  # Transcript with timestamps
+├── next.config.js                         # Next.js configuration
+└── tailwind.config.ts                     # Tailwind theme customization
 ```
 
 ## Data Source
 
-The website reads data from:
-- `../podcast_status.json` - Episode metadata and status
-- `../podcast_work/` - Episode folders with summary.md and transcript.md files
+The website reads data from the local filesystem at **build time** (SSG):
+- `podcast_work/` - Episode folders with summary.md and transcript.md files
+- Episode metadata parsed from summary.md frontmatter
+- No runtime database or API calls needed
 
 ## Local Development
 
@@ -51,8 +87,7 @@ The website reads data from:
 
 - Node.js 18+
 - npm or yarn
-- The podcast_status.json file in the parent directory
-- podcast_work/ folder with episode content
+- `podcast_work/` folder with episode content (generated by `podcast_summarizer.py`)
 
 ### Installation
 
@@ -69,129 +104,266 @@ Visit http://localhost:3000 to view the website.
 ### Build for Production
 
 ```bash
-# Generate static site
+# Generate static site (SSG)
 npm run build
+# Build time: ~23 minutes for 100+ pages
 
 # Preview production build
 npm run start
 ```
 
+The build process:
+1. Scans `podcast_work/` directory for all podcasts and episodes
+2. Pre-renders 100+ static HTML pages using `generateStaticParams()`
+3. Generates sitemap.xml with all URLs
+4. Optimizes images and assets
+5. Outputs static files ready for CDN deployment
+
 ## Configuration
-
-### Adding Podcast Hosts
-
-Edit `podcast_hosts.json` to add or update podcast hosts:
-
-```json
-{
-  "Podcast Name": {
-    "hosts": ["Host 1", "Host 2"],
-    "description": "Brief description"
-  }
-}
-```
 
 ### Environment Variables
 
-None required! The site reads from local files.
+**Required for Newsletter (optional):**
+- `KV_REST_API_URL` - Vercel KV endpoint
+- `KV_REST_API_TOKEN` - Vercel KV auth token
+
+**Required for Analytics (optional):**
+- `NEXT_PUBLIC_POSTHOG_KEY` - PostHog project key
+- `NEXT_PUBLIC_POSTHOG_HOST` - PostHog API host
+
+The site works without these - they only enable newsletter subscriptions and analytics tracking.
 
 ## Deployment to Vercel
 
-### Option 1: GitHub Integration (Recommended)
+### GitHub Integration (Recommended)
 
+**Initial Setup:**
 1. Push code to GitHub repository
-2. Visit [vercel.com](https://vercel.com)
-3. Click "Import Project"
-4. Select your GitHub repository
-5. Vercel auto-detects Next.js configuration
-6. Click "Deploy"
+2. Visit [vercel.com](https://vercel.com) and connect GitHub
+3. Import your repository
+4. Vercel auto-detects Next.js and configures build settings
+5. Add environment variables (if using newsletter/analytics)
+6. Deploy!
 
-Vercel will automatically:
-- Detect Next.js framework
-- Run `npm run build`
-- Deploy static files
-- Provide a live URL
+**Automatic Deployments:**
+- Every push to `main` branch triggers automatic rebuild and deployment
+- Build time: ~23 minutes for full SSG (100+ pages)
+- Vercel caches unchanged pages for faster subsequent builds
+- Site deploys to global edge CDN automatically
 
-### Option 2: Vercel CLI
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Login to Vercel
-vercel login
-
-# Deploy
-vercel
-```
+**Custom Domain:**
+- Add `teahose.com` in Vercel dashboard → Domains
+- Configure DNS: Add CNAME record pointing to Vercel
+- SSL certificate auto-provisioned
 
 ### Deployment Configuration
 
-The `next.config.js` is already configured for static export:
-
+**next.config.js:**
 ```javascript
-module.exports = {
-  output: 'export',
+const nextConfig = {
   images: {
-    unoptimized: true,
+    // Next.js automatic image optimization enabled
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
 }
 ```
 
-### Redeployment
+**Build Settings (Vercel Dashboard):**
+- Framework: Next.js (auto-detected)
+- Build Command: `npm run build`
+- Output Directory: `.next` (auto)
+- Install Command: `npm install`
+- Node Version: 18.x
 
-To update the website after adding new episodes:
+### Redeployment Workflow
 
-1. Run `podcast_summarizer.py` to process new episodes
-2. Commit changes to Git
-3. Push to GitHub
-4. Vercel automatically redeploys (if using GitHub integration)
+**To add new episodes:**
 
-Or manually:
-```bash
-vercel --prod
-```
+1. **Process episodes locally:**
+   ```bash
+   python podcast_summarizer.py
+   # Select and process new episodes
+   ```
+
+2. **Commit and push:**
+   ```bash
+   git add podcast_work/
+   git commit -m "Add new podcast episodes"
+   git push
+   ```
+
+3. **Vercel auto-rebuilds:**
+   - Detects new episodes in `podcast_work/`
+   - Regenerates sitemap with new URLs
+   - Pre-renders new episode pages
+   - Updates structured data
+   - Deploys to production (~23 min build)
+
+**The site automatically:**
+- ✅ Adds new episodes to sitemap.xml
+- ✅ Generates static HTML for new pages
+- ✅ Creates unique metadata per episode
+- ✅ Updates podcast page episode counts
+- ✅ Notifies Google via sitemap
+
+## SEO Features
+
+### Technical SEO
+- ✅ **Dynamic Sitemap**: `/sitemap.xml` with 200+ URLs
+- ✅ **Robots.txt**: `/robots.txt` for crawl guidance
+- ✅ **Structured Data**: JSON-LD schemas (PodcastEpisode, PodcastSeries, Organization)
+- ✅ **Rich Snippets**: Eligible for enhanced search results
+- ✅ **Static Generation**: Pre-rendered HTML for instant indexing
+- ✅ **Canonical URLs**: Prevents duplicate content
+
+### On-Page SEO
+- ✅ **Unique Titles**: Per-page SEO-optimized titles
+- ✅ **Meta Descriptions**: Auto-generated from summaries (160 char)
+- ✅ **Open Graph Tags**: Rich social media previews
+- ✅ **Twitter Cards**: `summary_large_image` format
+- ✅ **Semantic HTML**: Proper H1-H6 hierarchy
+- ✅ **Clean URLs**: Human-readable slugs
+
+### Performance
+- ✅ **Core Web Vitals**: Optimized LCP, FID, CLS
+- ✅ **Image Optimization**: Next.js automatic optimization
+- ✅ **Edge Caching**: Global CDN distribution
+- ✅ **Lazy Loading**: Progressive content loading
+
+### Google Search Console
+1. Verify ownership at https://search.google.com/search-console
+2. Submit sitemap: `sitemap.xml` or `https://www.teahose.com/sitemap.xml`
+3. Monitor indexing progress (target: 200+ pages)
+4. Track CTR, impressions, and rankings
 
 ## URL Structure
 
+Clean, SEO-friendly URLs:
 - Homepage: `/`
-- Podcast: `/podcast/20vc`
-- Episode: `/podcast/20vc/episode-slug`
+- Podcast: `/podcast/20VC`
+- Episode: `/podcast/20VC/Deel%20CEO%2C%20Alex%20Bouaziz...`
+- Sitemap: `/sitemap.xml`
+- Robots: `/robots.txt`
 
-All URLs are SEO-friendly and human-readable.
+All URLs are human-readable and encode special characters properly.
 
-## Features Roadmap
+## Features
 
-### Phase 1 (Complete)
-- ✅ Homepage with podcast list
-- ✅ Podcast detail pages
-- ✅ Episode pages with summaries
-- ✅ Responsive styling
-- ✅ Static site generation
+### ✅ Implemented
+- Homepage with podcast grid
+- Podcast detail pages with episode lists
+- Episode pages with summaries and transcripts
+- Tab switching (Summary/Transcript)
+- Newsletter subscription banner
+- Responsive design
+- Static site generation (SSG)
+- SEO optimization (sitemap, metadata, structured data)
+- Social media preview images
+- Teacup favicon
+- Analytics (PostHog)
 
-### Phase 2 (Future)
-- [ ] Podcast cover images
-- [ ] Summary/Transcript toggle
+### 🔮 Future Enhancements
+- [ ] Internal linking (related episodes)
+- [ ] Breadcrumb navigation
 - [ ] Search functionality
-- [ ] Date/status filters
+- [ ] Topic/tag taxonomy
+- [ ] Weekly summary pages
 - [ ] Dark mode
 - [ ] RSS feed
+- [ ] Article schema for summaries
+- [ ] Video schema for YouTube links
 
 ## Troubleshooting
 
-### "Cannot find podcast_status.json"
-- Ensure `podcast_status.json` is in the parent directory
-- Check that the path in `lib/podcasts.ts` is correct
+### "No podcasts found" or empty homepage
+**Cause**: Missing or empty `podcast_work/` directory
 
-### "No podcasts found"
-- Run `podcast_summarizer.py` to generate episodes
-- Check that `podcast_status.json` has content
+**Solution**:
+1. Run `podcast_summarizer.py` to generate episodes
+2. Ensure episodes have `summary.md` files
+3. Rebuild: `npm run build`
 
-### Build fails
-- Delete `.next` folder and rebuild
-- Check that all dependencies are installed
-- Ensure TypeScript has no errors
+### Build fails with "ENOENT: no such file"
+**Cause**: Episode folder missing `summary.md` file
+
+**Solution**:
+1. Check error message for specific episode path
+2. Either complete the episode processing or delete the incomplete folder
+3. Rebuild: `npm run build`
+
+### Long build times (>30 minutes)
+**Normal**: SSG builds 100+ pages, taking ~23 minutes
+
+**To speed up**:
+- Vercel caches unchanged pages automatically
+- First build is slowest, subsequent builds are faster
+- Consider reducing episodes during development
+
+### Sitemap not updating with new episodes
+**Cause**: Build cache or old deployment
+
+**Solution**:
+1. Push new episodes to GitHub
+2. Vercel auto-rebuilds and regenerates sitemap
+3. Check `/sitemap.xml` after deployment completes
+4. May take 5-10 minutes to propagate to CDN
+
+### Google Search Console: "Couldn't fetch sitemap"
+**Cause**: URL redirect or DNS propagation
+
+**Solution**:
+1. Test sitemap directly: https://www.teahose.com/sitemap.xml
+2. Use full URL in GSC: `https://www.teahose.com/sitemap.xml`
+3. Verify correct property (www vs non-www)
+4. Wait 5-10 minutes after deployment
+
+### Images not optimizing
+**Check**: `next.config.js` should NOT have `unoptimized: true`
+
+**Correct config**:
+```javascript
+images: {
+  remotePatterns: [{ protocol: 'https', hostname: '**' }]
+}
+```
+
+### TypeScript errors during build
+**Solution**:
+1. Run `npm run build` locally to see errors
+2. Fix type issues in component files
+3. Ensure all imports are correct
+4. Delete `.next` folder and rebuild
+
+## Performance Tips
+
+### Optimize Local Development
+```bash
+# Skip building all pages during development
+# Edit specific page files, hot reload works instantly
+npm run dev
+```
+
+### Monitor Build Performance
+- Check Vercel dashboard for build times
+- First build: ~25 minutes (cold cache)
+- Subsequent builds: ~15-20 minutes (warm cache)
+- Unchanged pages reuse cached builds
+
+### Reduce Build Time (if needed)
+- Limit episodes in `podcast_work/` during dev
+- Use `/api/podcasts` routes for dynamic data in dev
+- Full SSG build only needed for production deployment
 
 ## License
 
 Same as main podcast summarizer project.
+
+---
+
+**Live Site**: https://teahose.com
+**GitHub**: https://github.com/altmbr/Podcast_Summarizer
