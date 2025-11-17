@@ -45,7 +45,7 @@ export default function ShareButton({ url, title }: ShareButtonProps) {
               <path d="M8 2V8M8 8V14M8 8H14M8 8H2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
               <circle cx="8" cy="8" r="7" stroke="currentColor" strokeWidth="1.5"/>
             </svg>
-            Copy Link
+            Share the Tea
           </span>
         )}
       </button>
