@@ -52,3 +52,11 @@ data/newsletter-emails.json
 # Reference/example folders
 v0code/
 v0code2/
+
+# Design assets and working files in root (keep assets in public/ instead)
+/*.png
+/*.jpg
+/*.jpeg
+/*.psd
+/*.ai
+/*.sketch
