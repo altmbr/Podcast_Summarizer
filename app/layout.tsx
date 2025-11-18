@@ -46,8 +46,8 @@ export default function RootLayout({
           data={[generateOrganizationSchema(), generateWebSiteSchema()]}
         />
       </head>
-      <PHProvider>
-        <body>
+      <body>
+        <PHProvider>
           <Suspense fallback={null}>
             <PostHogPageView />
           </Suspense>
@@ -55,8 +55,8 @@ export default function RootLayout({
             {children}
           </div>
           <NewsletterSubscribe />
-        </body>
-      </PHProvider>
+        </PHProvider>
+      </body>
     </html>
   )
 }
