@@ -8758,7 +8758,8 @@
 **Total Episodes:** 480
 
 **Status Summary:**
-- discovered: 480
+- discovered: 479
+- summarized: 1
 
 **Episodes:**
 
@@ -11636,11 +11637,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fr**
+- ✅ **David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fr**
   - ID: `m_CFCyc2Shs`
   - Published: 2025-11-17
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-11-17 16:33:01
 
 ---
 
@@ -15173,8 +15174,8 @@
 **Total Episodes:** 626
 
 **Status Summary:**
-- discovered: 622
-- summarized: 4
+- discovered: 621
+- summarized: 5
 
 **Episodes:**
 
@@ -18928,11 +18929,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **Emmett Shear on Building AI That Actually Cares: Beyond Control and Steering**
+- ✅ **Emmett Shear on Building AI That Actually Cares: Beyond Control and Steering**
   - ID: `Ua8nPJ1_yk8`
   - Published: 2025-11-17
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-11-17 16:50:42
 
 ---
 
