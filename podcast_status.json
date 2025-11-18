@@ -6763,6 +6763,13 @@
           "status": "discovered",
           "upload_date": "0",
           "region": "Western"
+        },
+        "Sy8c30fdBQ8": {
+          "title": "Why Marc Andreessen, Ben Horowitz, & David Ulevitch Launched American Dynamism",
+          "upload_date": "20251118",
+          "discovered_date": "2025-11-18 10:45:36",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -8155,8 +8162,8 @@
           "region": "Western"
         },
         "8x_O8BeGNTw": {
-          "title": "[Private video]",
-          "upload_date": "0",
+          "title": "How End-to-End Learning Created Autonomous Driving 2.0: Wayve CEO Alex Kendall",
+          "upload_date": "20251118",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
@@ -8289,10 +8296,10 @@
           "region": "Western"
         },
         "L2OPYYthw4c": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "Satya Nadella describes how lessons from Microsoft\u2019s history apply to today\u2019s boom",
+          "upload_date": "20251118",
+          "discovered_date": "2025-11-18 10:50:58",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -15018,6 +15025,13 @@
           "upload_date": "20250619",
           "discovered_date": null,
           "status": "discovered",
+          "region": "Chinese"
+        },
+        "691c3670cbba038b421f74a4": {
+          "title": "120. Xpeng's Newly Appointed Liu Xianming's First Interview: Language is Poison, Remove the L, Simplicity is Beauty, Leadership Change, Xpeng's AI Transformation",
+          "upload_date": "20251118",
+          "discovered_date": "2025-11-18 10:59:45",
+          "status": "summarized",
           "region": "Chinese"
         }
       }
@@ -23885,6 +23899,20 @@
           "discovered_date": "2025-11-15 10:02:01",
           "status": "summarized",
           "region": "Western"
+        },
+        "FsTDO7d3Bwk": {
+          "title": "Pylon: Reimagining B2B Customer Support",
+          "upload_date": "20251101",
+          "discovered_date": "2025-11-18 11:37:47",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "wpslRUFa6Tg": {
+          "title": "AI Robots for Your Laundry w/Lindon Gao LIVE FROM CLEAN - S6E103 The Laundromat Millionaire Show\u2708\ufe0f",
+          "upload_date": "20250904",
+          "discovered_date": "2025-11-18 14:33:50",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -24462,6 +24490,193 @@
         "7RqSBEj8U9g": {
           "title": "[Private video]",
           "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        }
+      }
+    },
+    "https://www.youtube.com/playlist?list=PL6ej6mmSkmjceo8kTJxu-IMRriMR8xS9v": {
+      "podcast_name": "Generalist",
+      "episodes": {
+        "VxkxXzktwKc": {
+          "title": "How a Solo Founder is Reshaping Global Finance (Parth Garg, CEO of Aspora)",
+          "upload_date": "20251118",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "BZt9_gsMkIQ": {
+          "title": "How Do You Build a New Singapore? Inside Pr\u00f3spera\u2019s Bet on Private Governance | Erick Brimen",
+          "upload_date": "20251112",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "jcqdEv08P44": {
+          "title": "Why Psychedelics Might Be the Breakthrough That PTSD Patients Need | Kevin Ryan",
+          "upload_date": "20251029",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "EmoDe6MyZJQ": {
+          "title": "The Trillion-Dollar AI Hardware Opportunity | Navin Chaddha (Managing Partner, Mayfield)",
+          "upload_date": "20251022",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "aBy1HjCpAuI": {
+          "title": "Biological Time Travel: How Cryopreservation Could Transform Medicine | Laura Deming",
+          "upload_date": "20251019",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "j9fctgLA4S0": {
+          "title": "\"This feels like 1996\": Why a16z's Martin Casado believes the AI boom still has years to run",
+          "upload_date": "20251019",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "9N_ej7EhslI": {
+          "title": "How to be Agentic in the Age of AI | Cate Hall (CEO of Astera)",
+          "upload_date": "20251019",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "SSBLQyi16CY": {
+          "title": "Maintaining Human Intelligence in the AI Era | David Krakauer (President of the Santa Fe Institute)",
+          "upload_date": "20251019",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "s0W5jAjhOBs": {
+          "title": "Building Beautiful Homes with Robots: The Future of Construction | Salar al Khafaji (Monumental)",
+          "upload_date": "20250919",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "kqAuqQFMXlY": {
+          "title": "What Makes Something Alive? Assembly Theory and the Origins of Life | Sara Walker",
+          "upload_date": "20250919",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "vcmo2W3gM0E": {
+          "title": "Airships, Supersonic Flight, and Antimatter: How Eli Dourado Is Writing Ideas Into Reality",
+          "upload_date": "20250919",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "XjE9MnqCyHk": {
+          "title": "Inside General Catalyst\u2019s $1B+ Bet on Fixing Healthcare | Hemant Taneja (CEO and Managing Partner)",
+          "upload_date": "20250819",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "7uoOEmUFrVA": {
+          "title": "The Future of Crypto: Stablecoins, AI Integration, and the Path to Mass Adoption | Jesse Walden",
+          "upload_date": "20250819",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "8q4TCYj_YaQ": {
+          "title": "The Evolution of AI Agents: Navigating the \u201cFog of AI\u201d in Rapidly Changing Foundations",
+          "upload_date": "20250819",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "SDnfy2fbmRk": {
+          "title": "The Decade of Data with Tomasz Tunguz",
+          "upload_date": "20250819",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "MbEZ-DC0L-g": {
+          "title": "Why the Real Computer Revolution Never Happened | Alan Kay & Anjan Katta",
+          "upload_date": "20250719",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "8CeplhPjVSI": {
+          "title": "Existential Risk and the Future of Humanity: Lessons from AI, Pandemics & Nuclear Threats | Toby Ord",
+          "upload_date": "20250719",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Lkja2gRiLZ8": {
+          "title": "Are We Alone In The Universe? Sara Seager on Exoplanets, Venus, and the Hunt for Alien Life",
+          "upload_date": "20250619",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "TkRJfqus2aw": {
+          "title": "Antimemetics: Why Some Ideas Resist Spreading | Nadia Asparouhova (Writer and Researcher)",
+          "upload_date": "20250619",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "tiOWy6_-NkY": {
+          "title": "Creating Stars in a Bottle: The Race to Commercialize Fusion Energy | Vinod Khosla & Bob Mumgaard",
+          "upload_date": "20250619",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "r7p6U53DxrE": {
+          "title": "The Semiconductor Century with Chris Miller (Author of \"Chip War\")",
+          "upload_date": "20250619",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "rKK0ArqGLF0": {
+          "title": "How Anduril Is Reimagining the Defense Industry: Faster Tech, Ethical AI, & a New Kind of Deterrence",
+          "upload_date": "20250619",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "oFbL5G0CT-Y": {
+          "title": "The Substack Playbook: Inside The $650M Platform Rewriting Media, Trust, and Creator Economics",
+          "upload_date": "20250519",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "1oYXDK9xhb4": {
+          "title": "Lessons from 20 Years of Venture Capital: Roelof Botha (Managing Partner at Sequoia Capital)",
+          "upload_date": "20250519",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "us58WjbknsI": {
+          "title": "Shrinking the Gap Between Sci-Fi and Sci-Fact: Josh Wolfe (Co-Founder of Lux Capital)",
+          "upload_date": "20250419",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "CiiWoOXJDnM": {
+          "title": "How AI Will Enhance Human Potential, Not Replace It: Reid Hoffman",
+          "upload_date": "20250419",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"

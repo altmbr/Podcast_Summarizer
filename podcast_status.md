@@ -6237,11 +6237,11 @@
 
 ## Sourcery
 
-**Total Episodes:** 92
+**Total Episodes:** 93
 
 **Status Summary:**
 - discovered: 86
-- summarized: 6
+- summarized: 7
 
 **Episodes:**
 
@@ -6796,6 +6796,12 @@
   - Published: 0
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **Why Marc Andreessen, Ben Horowitz, & David Ulevitch Launched American Dynamism**
+  - ID: `Sy8c30fdBQ8`
+  - Published: 2025-11-18
+  - Status: `summarized`
+  - Discovered: 2025-11-18 10:45:36
 
 ---
 
@@ -8188,9 +8194,9 @@
   - Status: `summarized`
   - Discovered: 2025-11-11 09:29:02
 
-- 🔍 **[Private video]**
+- 🔍 **How End-to-End Learning Created Autonomous Driving 2.0: Wayve CEO Alex Kendall**
   - ID: `8x_O8BeGNTw`
-  - Published: 0
+  - Published: 2025-11-18
   - Status: `discovered`
   - Discovered: None
 
@@ -8201,8 +8207,8 @@
 **Total Episodes:** 21
 
 **Status Summary:**
-- discovered: 19
-- summarized: 2
+- discovered: 18
+- summarized: 3
 
 **Episodes:**
 
@@ -8326,11 +8332,11 @@
   - Status: `summarized`
   - Discovered: 2025-11-11 09:36:40
 
-- 🔍 **[Private video]**
+- ✅ **Satya Nadella describes how lessons from Microsoft’s history apply to today’s bo**
   - ID: `L2OPYYthw4c`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-11-18
+  - Status: `summarized`
+  - Discovered: 2025-11-18 10:50:58
 
 ---
 
@@ -14872,11 +14878,11 @@
 
 ## 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
 
-**Total Episodes:** 15
+**Total Episodes:** 16
 
 **Status Summary:**
 - discovered: 13
-- summarized: 2
+- summarized: 3
 
 **Episodes:**
 
@@ -14969,6 +14975,12 @@
   - Published: 2025-06-19
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **120. Xpeng's Newly Appointed Liu Xianming's First Interview: Language is Poison,**
+  - ID: `691c3670cbba038b421f74a4`
+  - Published: 2025-11-18
+  - Status: `summarized`
+  - Discovered: 2025-11-18 10:59:45
 
 ---
 
@@ -22521,10 +22533,10 @@
 
 ## One-off Episodes
 
-**Total Episodes:** 13
+**Total Episodes:** 15
 
 **Status Summary:**
-- summarized: 13
+- summarized: 15
 
 **Episodes:**
 
@@ -22605,6 +22617,18 @@
   - Published: 2025-11-14
   - Status: `summarized`
   - Discovered: 2025-11-15 10:02:01
+
+- ✅ **Pylon: Reimagining B2B Customer Support**
+  - ID: `FsTDO7d3Bwk`
+  - Published: 2025-11-01
+  - Status: `summarized`
+  - Discovered: 2025-11-18 11:37:47
+
+- ✅ **AI Robots for Your Laundry w/Lindon Gao LIVE FROM CLEAN - S6E103 The Laundromat **
+  - ID: `wpslRUFa6Tg`
+  - Published: 2025-09-04
+  - Status: `summarized`
+  - Discovered: 2025-11-18 14:33:50
 
 ---
 
@@ -23129,6 +23153,173 @@
 - 🔍 **[Private video]**
   - ID: `7RqSBEj8U9g`
   - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## Generalist
+
+**Total Episodes:** 26
+
+**Status Summary:**
+- discovered: 26
+
+**Episodes:**
+
+- 🔍 **How a Solo Founder is Reshaping Global Finance (Parth Garg, CEO of Aspora)**
+  - ID: `VxkxXzktwKc`
+  - Published: 2025-11-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Do You Build a New Singapore? Inside Próspera’s Bet on Private Governance | **
+  - ID: `BZt9_gsMkIQ`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why Psychedelics Might Be the Breakthrough That PTSD Patients Need | Kevin Ryan**
+  - ID: `jcqdEv08P44`
+  - Published: 2025-10-29
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Trillion-Dollar AI Hardware Opportunity | Navin Chaddha (Managing Partner, M**
+  - ID: `EmoDe6MyZJQ`
+  - Published: 2025-10-22
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Biological Time Travel: How Cryopreservation Could Transform Medicine | Laura De**
+  - ID: `aBy1HjCpAuI`
+  - Published: 2025-10-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **"This feels like 1996": Why a16z's Martin Casado believes the AI boom still has **
+  - ID: `j9fctgLA4S0`
+  - Published: 2025-10-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to be Agentic in the Age of AI | Cate Hall (CEO of Astera)**
+  - ID: `9N_ej7EhslI`
+  - Published: 2025-10-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Maintaining Human Intelligence in the AI Era | David Krakauer (President of the **
+  - ID: `SSBLQyi16CY`
+  - Published: 2025-10-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Building Beautiful Homes with Robots: The Future of Construction | Salar al Khaf**
+  - ID: `s0W5jAjhOBs`
+  - Published: 2025-09-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Makes Something Alive? Assembly Theory and the Origins of Life | Sara Walke**
+  - ID: `kqAuqQFMXlY`
+  - Published: 2025-09-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Airships, Supersonic Flight, and Antimatter: How Eli Dourado Is Writing Ideas In**
+  - ID: `vcmo2W3gM0E`
+  - Published: 2025-09-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Inside General Catalyst’s $1B+ Bet on Fixing Healthcare | Hemant Taneja (CEO and**
+  - ID: `XjE9MnqCyHk`
+  - Published: 2025-08-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Future of Crypto: Stablecoins, AI Integration, and the Path to Mass Adoption**
+  - ID: `7uoOEmUFrVA`
+  - Published: 2025-08-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Evolution of AI Agents: Navigating the “Fog of AI” in Rapidly Changing Found**
+  - ID: `8q4TCYj_YaQ`
+  - Published: 2025-08-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Decade of Data with Tomasz Tunguz**
+  - ID: `SDnfy2fbmRk`
+  - Published: 2025-08-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why the Real Computer Revolution Never Happened | Alan Kay & Anjan Katta**
+  - ID: `MbEZ-DC0L-g`
+  - Published: 2025-07-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Existential Risk and the Future of Humanity: Lessons from AI, Pandemics & Nuclea**
+  - ID: `8CeplhPjVSI`
+  - Published: 2025-07-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Are We Alone In The Universe? Sara Seager on Exoplanets, Venus, and the Hunt for**
+  - ID: `Lkja2gRiLZ8`
+  - Published: 2025-06-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Antimemetics: Why Some Ideas Resist Spreading | Nadia Asparouhova (Writer and Re**
+  - ID: `TkRJfqus2aw`
+  - Published: 2025-06-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Creating Stars in a Bottle: The Race to Commercialize Fusion Energy | Vinod Khos**
+  - ID: `tiOWy6_-NkY`
+  - Published: 2025-06-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Semiconductor Century with Chris Miller (Author of "Chip War")**
+  - ID: `r7p6U53DxrE`
+  - Published: 2025-06-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Anduril Is Reimagining the Defense Industry: Faster Tech, Ethical AI, & a Ne**
+  - ID: `rKK0ArqGLF0`
+  - Published: 2025-06-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Substack Playbook: Inside The $650M Platform Rewriting Media, Trust, and Cre**
+  - ID: `oFbL5G0CT-Y`
+  - Published: 2025-05-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Lessons from 20 Years of Venture Capital: Roelof Botha (Managing Partner at Sequ**
+  - ID: `1oYXDK9xhb4`
+  - Published: 2025-05-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Shrinking the Gap Between Sci-Fi and Sci-Fact: Josh Wolfe (Co-Founder of Lux Cap**
+  - ID: `us58WjbknsI`
+  - Published: 2025-04-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How AI Will Enhance Human Potential, Not Replace It: Reid Hoffman**
+  - ID: `CiiWoOXJDnM`
+  - Published: 2025-04-19
   - Status: `discovered`
   - Discovered: None
 
