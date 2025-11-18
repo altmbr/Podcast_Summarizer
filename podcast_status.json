@@ -8153,6 +8153,13 @@
           "discovered_date": "2025-11-11 09:29:02",
           "status": "summarized",
           "region": "Western"
+        },
+        "8x_O8BeGNTw": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -8279,6 +8286,13 @@
           "upload_date": "20251111",
           "discovered_date": "2025-11-11 09:36:40",
           "status": "summarized",
+          "region": "Western"
+        },
+        "L2OPYYthw4c": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
           "region": "Western"
         }
       }
@@ -23772,8 +23786,8 @@
         "isTfM5aKD0I": {
           "title": "Every Business I Tried Before Making My First Million",
           "upload_date": "20251117",
-          "discovered_date": null,
-          "status": "discovered",
+          "discovered_date": "2025-11-17 21:21:18",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -24198,6 +24212,256 @@
         "b6Doq2fz81U": {
           "title": "Stanford AI Club: Jason Wei on 3 Key Ideas in AI in 2025",
           "upload_date": "20251020",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        }
+      }
+    },
+    "https://www.youtube.com/playlist?list=PLs8-eh7Hc92yisMEOLhNn0aA8conOFrJ_": {
+      "podcast_name": "Dialectic",
+      "episodes": {
+        "UIaXSQOHrmU": {
+          "title": "Inside Tech's Water Cooler: Breaking Down the Magic Behind TBPN with John Coogan & Jordi Hays",
+          "upload_date": "20251117",
+          "discovered_date": "2025-11-17 22:09:58",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "acwhhgGGdX8": {
+          "title": "Chris Sacca - Drifting Back to Real - Legendary Returns, Risk, Climate, Storytelling, Authenticity",
+          "upload_date": "20251106",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "dK_m-x81lrk": {
+          "title": "MSCHF's Gabe Whaley on Playing the Crowd & Outlasting the Hype | Dialectic",
+          "upload_date": "20251018",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "0PBgbS0N86I": {
+          "title": "David Senra - The Clarity of Commitment | Founders Podcast, Focus, Endurance, Fear, Service, Legacy",
+          "upload_date": "20251018",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "xOCB65L-NDo": {
+          "title": "Billy Oppenheimer - Attuned to Clues: The Work is the Win, Working with Ryan Holiday and Rick Rubin",
+          "upload_date": "20250918",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "W0K6fG6Yjhg": {
+          "title": "28: Maxwell Meyer - Starships & Road Trips | Arena Magazine, American Propaganda, & Progress",
+          "upload_date": "20250918",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Ors1qyfB85s": {
+          "title": "Mackenzie Burnett - Accounting for the American Dream | Ambrook, Empowering Small Businesses & Farms",
+          "upload_date": "20250918",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "lcO4shsZP08": {
+          "title": "Cyan Banister - A Fool\u2019s D\u00e9rive: Presence, Originality, Intentional Drift, a Life of Wonder",
+          "upload_date": "20250918",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "RXcnD5jbQag": {
+          "title": "Reggie James - Our Infinite Mirrors - Live from FWB Fest 2025 | Dialectic Ep. 25",
+          "upload_date": "20250818",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "IaUYbNnOYUM": {
+          "title": "Linus Lee: Engineering for Aliveness - LLMs, Agency, Tools for Thought, Thrive Capital |Dialectic 24",
+          "upload_date": "20250818",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "rptQNq2ux90": {
+          "title": "Tamara Winter - Tacit Trust & Caring Curiosity | Stripe Press, Taste, Charisma, Agency |Dialectic 23",
+          "upload_date": "20250818",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "MXBz7ercHh4": {
+          "title": "Nadia Asparouhova - Ideas that Infect - Antimemetics, Attention, Ideas, and Action | Dialectic 22",
+          "upload_date": "20250718",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "RromJIXfYyI": {
+          "title": "Geoffrey Litt - Software You Can Shape - Malleable Software, LLMs and Agency, Editing Your Tools",
+          "upload_date": "20250718",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "kJqzoiAaQpY": {
+          "title": "Yancey Strickler - Constellations of Creativity - Metalabel, Kickstarter, The Creative Century",
+          "upload_date": "20250618",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "y48X_tx8H5g": {
+          "title": "Henrik Karlsson - Cultivating a Life that Fits | Dialectic Ep. 19",
+          "upload_date": "20250618",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "blT3I-4_3VE": {
+          "title": "Tom Morgan - Wisdom in the Woo: Why Your Curiosity is Smarter than You | Dialectic",
+          "upload_date": "20250618",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Hl7as-LnSV0": {
+          "title": "Alex Danco - Innovation Begins with Gifts: How Generosity Solves Coordination Problems - Dialectic",
+          "upload_date": "20250618",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "yfieKX25ihE": {
+          "title": "Anjan Katta: A Sunrise Over Computing - Daylight Computer, Light, Agency, Humanity - Dialectic",
+          "upload_date": "20250518",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "t0ZXC7nP4JY": {
+          "title": "D.A. Wallach - Serendipity & Systems - Markets, Medicine, Music, Curiosity, Healthcare, Investing",
+          "upload_date": "20250518",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "KmlQ6PpT1f8": {
+          "title": "Alex Zhang: Curating Cultural Playgrounds - Powder Mountain, Reed Hastings, FWB, Parties, Music, Art",
+          "upload_date": "20250518",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "itVaIp0A1tU": {
+          "title": "Nabeel Qureshi - The Will to Care - AI, Slop, Creativity, Learning, Palantir, Art, Tyler Cowen",
+          "upload_date": "20250418",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "zEtWP1X-HNc": {
+          "title": "Che-Wei Wang & Taylor Levy (CW&T) - Iterating Together with Time - Prototyping, Process, Partnership",
+          "upload_date": "20250418",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "zhg3b4dafcE": {
+          "title": "Eugene Wei: TikTok, Nihilism, Power Laws, Television, and Humanity in a World of Algorithms",
+          "upload_date": "20250318",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "1UvHOTdCf9I": {
+          "title": "Josh Wolfe: Stories & Science, Creative Rebels, American Scientific Strength, The Edge of Possble",
+          "upload_date": "20250318",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "OTVBeLhEDAI": {
+          "title": "Jacob Horne: Markets for What Matters - Zora, Memes, Speculation, Free and Valuable Information",
+          "upload_date": "20250318",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "TDP8qzVK5XQ": {
+          "title": "Steph Ango aka Kepano: CEO of Obsidian on Toolmaking, Design, Writing, Constraints, File over app",
+          "upload_date": "20250218",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "0OrVLIdk4Eg": {
+          "title": "Toby Shorin - The Shapes of Culture - New Social Forms, Individual & Collective, Practice & Belief",
+          "upload_date": "20250218",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "zFA_iiEtm_8": {
+          "title": "Chris Paik - Intentionally in Search of the New - Venture, Markets, Incentives, Explanations",
+          "upload_date": "20250218",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "pzN7DSDEz1A": {
+          "title": "Tina He - Internet Citizen and Philosopher in Action - Dialectic w/ Jackson Dahl Ep. 5",
+          "upload_date": "20241218",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "qAZlQ5UI4yM": {
+          "title": "4: Ava - Alive in Writing and in Love - Writing Practice, Substack, Consistency, Friendship, Taste",
+          "upload_date": "20241218",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "GuCiA8K7Vco": {
+          "title": "3: Dan Romero \u2014 Why Information Should Flow on Protocols | Farcaster, Crypto Status, Elon's Twitter",
+          "upload_date": "20241218",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "ul2qXlKcRw8": {
+          "title": "2: Michael Dempsey - The Craft of Investing in the Future - Dialectic with Jackson Dahl",
+          "upload_date": "20241218",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "99ZVWKRH2Lk": {
+          "title": "1: Jason Liu - Losing His Hands, 7-Figure Consulting, Jiu-Jitsu, and The Freedom in Being Nobody",
+          "upload_date": "20241218",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "FXHk4I90AQ0": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "7RqSBEj8U9g": {
+          "title": "[Private video]",
+          "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"

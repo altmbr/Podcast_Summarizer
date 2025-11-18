@@ -5,6 +5,7 @@ import sys
 import json
 import time
 import re
+import gc
 from pathlib import Path
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -34,6 +35,16 @@ STATUS_STATES = {
     "transcribed": 3,     # Transcription completed
     "summarized": 4       # Summary generated
 }
+
+def clear_memory():
+    """Force garbage collection and clear GPU cache"""
+    gc.collect()
+    try:
+        import torch
+        if torch.backends.mps.is_available():
+            torch.mps.empty_cache()
+    except (ImportError, AttributeError):
+        pass  # torch or MPS not available
 
 def has_chinese_characters(text):
     """Check if text contains Chinese characters"""
@@ -581,6 +592,11 @@ def transcribe_audio_to_text(audio_file_path, transcript_file_path):
         f.write(transcript_text)
 
     print(f"  ✓ Transcription complete ({len(transcript_text)} characters)")
+
+    # Clean up memory
+    del whisper_data
+    clear_memory()
+
     return transcript_text
 
 
@@ -692,11 +708,22 @@ def add_speaker_diarization_to_transcript(audio_file_path, transcript_text):
                 diarized_lines.append(line)  # Keep non-timestamp lines as-is
 
         print(f"  ✓ Speaker diarization complete")
+
+        # Clean up memory - delete large objects
+        del pipeline
+        del waveform
+        del diarization
+        clear_memory()
+
         return '\n'.join(diarized_lines)
 
     except Exception as e:
         print(f"  ⚠ Speaker diarization failed: {e}")
         print(f"  → Using transcript without speaker labels")
+
+        # Clean up memory even on failure
+        clear_memory()
+
         return transcript_text
 
 def extract_video_metadata(video_url):
@@ -1559,10 +1586,16 @@ def main():
                         print(f"  → Removing from one-off episodes list...")
                         remove_processed_one_off(video_info['url'])
 
+                # Clean up memory between episodes
+                clear_memory()
+
             except Exception as error:
                 print(f"❌ Error processing '{video_info['title']}': {error}")
                 import traceback
                 traceback.print_exc()
+
+                # Clean up memory even after errors
+                clear_memory()
 
         # Save final state
         save_podcast_status(status_data)

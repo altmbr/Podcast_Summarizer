@@ -10,14 +10,20 @@ export default function PostHogPageView() {
   const posthog = usePostHog()
 
   useEffect(() => {
-    if (pathname && posthog) {
+    // Guard against undefined values that can occur on mobile/SSR
+    if (!pathname || !posthog || typeof window === 'undefined') return
+
+    try {
       let url = window.origin + pathname
-      if (searchParams && searchParams.toString()) {
+      if (searchParams?.toString()) {
         url = url + `?${searchParams.toString()}`
       }
       posthog.capture('$pageview', {
         $current_url: url,
       })
+    } catch (error) {
+      // Silently fail - analytics errors shouldn't break the page
+      console.error('PostHog pageview error:', error)
     }
   }, [pathname, searchParams, posthog])
 

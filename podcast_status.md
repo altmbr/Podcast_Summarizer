@@ -7784,10 +7784,10 @@
 
 ## Training Data
 
-**Total Episodes:** 66
+**Total Episodes:** 67
 
 **Status Summary:**
-- discovered: 61
+- discovered: 62
 - summarized: 5
 
 **Episodes:**
@@ -8188,14 +8188,20 @@
   - Status: `summarized`
   - Discovered: 2025-11-11 09:29:02
 
+- 🔍 **[Private video]**
+  - ID: `8x_O8BeGNTw`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Cheeky Pint
 
-**Total Episodes:** 20
+**Total Episodes:** 21
 
 **Status Summary:**
-- discovered: 18
+- discovered: 19
 - summarized: 2
 
 **Episodes:**
@@ -8319,6 +8325,12 @@
   - Published: 2025-11-11
   - Status: `summarized`
   - Discovered: 2025-11-11 09:36:40
+
+- 🔍 **[Private video]**
+  - ID: `L2OPYYthw4c`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -18942,8 +18954,8 @@
 **Total Episodes:** 593
 
 **Status Summary:**
-- discovered: 591
-- summarized: 2
+- discovered: 590
+- summarized: 3
 
 **Episodes:**
 
@@ -22499,11 +22511,11 @@
   - Status: `summarized`
   - Discovered: 2025-11-15 08:48:49
 
-- 🔍 **Every Business I Tried Before Making My First Million**
+- ✅ **Every Business I Tried Before Making My First Million**
   - ID: `isTfM5aKD0I`
   - Published: 2025-11-17
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-11-17 21:21:18
 
 ---
 
@@ -22895,6 +22907,228 @@
 - 🔍 **Stanford AI Club: Jason Wei on 3 Key Ideas in AI in 2025**
   - ID: `b6Doq2fz81U`
   - Published: 2025-10-20
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## Dialectic
+
+**Total Episodes:** 35
+
+**Status Summary:**
+- discovered: 34
+- summarized: 1
+
+**Episodes:**
+
+- ✅ **Inside Tech's Water Cooler: Breaking Down the Magic Behind TBPN with John Coogan**
+  - ID: `UIaXSQOHrmU`
+  - Published: 2025-11-17
+  - Status: `summarized`
+  - Discovered: 2025-11-17 22:09:58
+
+- 🔍 **Chris Sacca - Drifting Back to Real - Legendary Returns, Risk, Climate, Storytel**
+  - ID: `acwhhgGGdX8`
+  - Published: 2025-11-06
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **MSCHF's Gabe Whaley on Playing the Crowd & Outlasting the Hype | Dialectic**
+  - ID: `dK_m-x81lrk`
+  - Published: 2025-10-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **David Senra - The Clarity of Commitment | Founders Podcast, Focus, Endurance, Fe**
+  - ID: `0PBgbS0N86I`
+  - Published: 2025-10-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Billy Oppenheimer - Attuned to Clues: The Work is the Win, Working with Ryan Hol**
+  - ID: `xOCB65L-NDo`
+  - Published: 2025-09-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **28: Maxwell Meyer - Starships & Road Trips | Arena Magazine, American Propaganda**
+  - ID: `W0K6fG6Yjhg`
+  - Published: 2025-09-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mackenzie Burnett - Accounting for the American Dream | Ambrook, Empowering Smal**
+  - ID: `Ors1qyfB85s`
+  - Published: 2025-09-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cyan Banister - A Fool’s Dérive: Presence, Originality, Intentional Drift, a Lif**
+  - ID: `lcO4shsZP08`
+  - Published: 2025-09-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Reggie James - Our Infinite Mirrors - Live from FWB Fest 2025 | Dialectic Ep. 25**
+  - ID: `RXcnD5jbQag`
+  - Published: 2025-08-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Linus Lee: Engineering for Aliveness - LLMs, Agency, Tools for Thought, Thrive C**
+  - ID: `IaUYbNnOYUM`
+  - Published: 2025-08-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tamara Winter - Tacit Trust & Caring Curiosity | Stripe Press, Taste, Charisma, **
+  - ID: `rptQNq2ux90`
+  - Published: 2025-08-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Nadia Asparouhova - Ideas that Infect - Antimemetics, Attention, Ideas, and Acti**
+  - ID: `MXBz7ercHh4`
+  - Published: 2025-07-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Geoffrey Litt - Software You Can Shape - Malleable Software, LLMs and Agency, Ed**
+  - ID: `RromJIXfYyI`
+  - Published: 2025-07-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Yancey Strickler - Constellations of Creativity - Metalabel, Kickstarter, The Cr**
+  - ID: `kJqzoiAaQpY`
+  - Published: 2025-06-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Henrik Karlsson - Cultivating a Life that Fits | Dialectic Ep. 19**
+  - ID: `y48X_tx8H5g`
+  - Published: 2025-06-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tom Morgan - Wisdom in the Woo: Why Your Curiosity is Smarter than You | Dialect**
+  - ID: `blT3I-4_3VE`
+  - Published: 2025-06-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Alex Danco - Innovation Begins with Gifts: How Generosity Solves Coordination Pr**
+  - ID: `Hl7as-LnSV0`
+  - Published: 2025-06-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Anjan Katta: A Sunrise Over Computing - Daylight Computer, Light, Agency, Humani**
+  - ID: `yfieKX25ihE`
+  - Published: 2025-05-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **D.A. Wallach - Serendipity & Systems - Markets, Medicine, Music, Curiosity, Heal**
+  - ID: `t0ZXC7nP4JY`
+  - Published: 2025-05-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Alex Zhang: Curating Cultural Playgrounds - Powder Mountain, Reed Hastings, FWB,**
+  - ID: `KmlQ6PpT1f8`
+  - Published: 2025-05-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Nabeel Qureshi - The Will to Care - AI, Slop, Creativity, Learning, Palantir, Ar**
+  - ID: `itVaIp0A1tU`
+  - Published: 2025-04-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Che-Wei Wang & Taylor Levy (CW&T) - Iterating Together with Time - Prototyping, **
+  - ID: `zEtWP1X-HNc`
+  - Published: 2025-04-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Eugene Wei: TikTok, Nihilism, Power Laws, Television, and Humanity in a World of**
+  - ID: `zhg3b4dafcE`
+  - Published: 2025-03-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Josh Wolfe: Stories & Science, Creative Rebels, American Scientific Strength, Th**
+  - ID: `1UvHOTdCf9I`
+  - Published: 2025-03-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jacob Horne: Markets for What Matters - Zora, Memes, Speculation, Free and Valua**
+  - ID: `OTVBeLhEDAI`
+  - Published: 2025-03-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Steph Ango aka Kepano: CEO of Obsidian on Toolmaking, Design, Writing, Constrain**
+  - ID: `TDP8qzVK5XQ`
+  - Published: 2025-02-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Toby Shorin - The Shapes of Culture - New Social Forms, Individual & Collective,**
+  - ID: `0OrVLIdk4Eg`
+  - Published: 2025-02-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Chris Paik - Intentionally in Search of the New - Venture, Markets, Incentives, **
+  - ID: `zFA_iiEtm_8`
+  - Published: 2025-02-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tina He - Internet Citizen and Philosopher in Action - Dialectic w/ Jackson Dahl**
+  - ID: `pzN7DSDEz1A`
+  - Published: 2024-12-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **4: Ava - Alive in Writing and in Love - Writing Practice, Substack, Consistency,**
+  - ID: `qAZlQ5UI4yM`
+  - Published: 2024-12-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **3: Dan Romero — Why Information Should Flow on Protocols | Farcaster, Crypto Sta**
+  - ID: `GuCiA8K7Vco`
+  - Published: 2024-12-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **2: Michael Dempsey - The Craft of Investing in the Future - Dialectic with Jacks**
+  - ID: `ul2qXlKcRw8`
+  - Published: 2024-12-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **1: Jason Liu - Losing His Hands, 7-Figure Consulting, Jiu-Jitsu, and The Freedom**
+  - ID: `99ZVWKRH2Lk`
+  - Published: 2024-12-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `FXHk4I90AQ0`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `7RqSBEj8U9g`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
