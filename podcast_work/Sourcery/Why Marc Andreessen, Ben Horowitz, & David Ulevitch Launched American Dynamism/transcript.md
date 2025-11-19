@@ -7,6 +7,15 @@
 
 ---
 
+# Why Marc Andreessen, Ben Horowitz, & David Ulevitch Launched American Dynamism
+
+**Podcast:** Sourcery
+**Date:** 2025-11-18
+**Video ID:** Sy8c30fdBQ8
+**Video URL:** https://www.youtube.com/watch?v=Sy8c30fdBQ8
+
+---
+
 [00:00:00] The pitch for Mark and Ben was if I came,
 [00:00:01] David Ulevitch: traitors and hollets, I could do whatever I wanted.
 [00:00:03] David Ulevitch: Year after I joined, Mark asked me if I wanted to meet Palmer
@@ -22,18 +31,18 @@
 [00:00:27] David Ulevitch: and there was a big protest attack Google
 [00:00:29] David Ulevitch: and people decided they weren't participating.
 [00:00:30] David Ulevitch: We believe in the romance of technology
-[00:00:32] David Ulevitch: of industry, the romance.
-[00:00:33] David Ulevitch: The eros of the train, the car, the electric light,
-[00:00:37] David Ulevitch: the skyscraper, the microchip, the neural network,
-[00:00:39] David Ulevitch: the rocket, the split atom.
-[00:00:40] David Ulevitch: We believe in adventure.
-[00:00:42] David Ulevitch: Undertaken the hero's journey, rebelling against the status quo,
-[00:00:45] David Ulevitch: mapping uncharted territory, conquering dragons
-[00:00:47] David Ulevitch: and bringing home the spoils for our community.
-[00:00:50] David Ulevitch: We believe that we have been and will always be
-[00:00:51] David Ulevitch: the masters of technology, not mastered by technology.
-[00:00:54] David Ulevitch: This is a really key point today.
-[00:00:56] David Ulevitch: The beginning of 2022, we launched the American Dynamism
+[00:00:32] SPEAKER_00: of industry, the romance.
+[00:00:33] SPEAKER_00: The eros of the train, the car, the electric light,
+[00:00:37] SPEAKER_00: the skyscraper, the microchip, the neural network,
+[00:00:39] SPEAKER_00: the rocket, the split atom.
+[00:00:40] SPEAKER_00: We believe in adventure.
+[00:00:42] SPEAKER_00: Undertaken the hero's journey, rebelling against the status quo,
+[00:00:45] SPEAKER_00: mapping uncharted territory, conquering dragons
+[00:00:47] SPEAKER_00: and bringing home the spoils for our community.
+[00:00:50] SPEAKER_00: We believe that we have been and will always be
+[00:00:51] SPEAKER_00: the masters of technology, not mastered by technology.
+[00:00:54] SPEAKER_00: This is a really key point today.
+[00:00:56] SPEAKER_00: The beginning of 2022, we launched the American Dynamism
 [00:00:58] David Ulevitch: practice.
 [00:00:59] David Ulevitch: It was like a meme that was becoming a movement.
 [00:01:01] David Ulevitch: We were just borrowing venture dollars for it.

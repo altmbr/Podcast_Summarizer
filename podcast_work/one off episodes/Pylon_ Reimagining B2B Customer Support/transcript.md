@@ -7,6 +7,15 @@
 
 ---
 
+# Pylon: Reimagining B2B Customer Support
+
+**Podcast:** One-off Episodes
+**Date:** 2025-11-01
+**Video ID:** FsTDO7d3Bwk
+**Video URL:** https://www.youtube.com/watch?v=FsTDO7d3Bwk
+
+---
+
 [00:00:00] We have this core value now, which is we are happy grinders.
 [00:00:03] Marty Kausas: And I mean, you like to describe this as like the high competency low ego kind of like
 [00:00:07] Marty Kausas: debate style culture.
@@ -31,48 +40,48 @@
 [00:00:57] Advith Chelikani: But we like went to the customers first, figured out what the problems were and just made sure that like,
 [00:01:00] Advith Chelikani: I actually was they can search.
 [00:01:05] Well, so so glad to have you all here, Marty, Edworth and Robert.
-[00:01:09] SPEAKER_04: We're going to talk a lot about founding and B2B support and Pylon today.
-[00:01:14] SPEAKER_04: Maybe to kick it off.
-[00:01:15] SPEAKER_04: Can you walk us through?
-[00:01:17] SPEAKER_04: How did the throw of you get together and spark the idea of starting Pylon?
-[00:01:21] SPEAKER_03: Yeah, I just you want to go.
-[00:01:22] SPEAKER_03: Sure.
-[00:01:22] SPEAKER_03: So Robert and I went to college together.
-[00:01:24] SPEAKER_03: We both went to Caltech while we're at Caltech.
-[00:01:26] SPEAKER_03: We ran our school hackathon for a couple of years,
-[00:01:29] SPEAKER_03: hack tech, which was basically like a company building experience minus building product.
-[00:01:34] SPEAKER_03: It's a lot of like organizing people like spending a lot of time working together.
-[00:01:37] SPEAKER_03: We figured out that we work well together.
-[00:01:39] SPEAKER_03: Then Robert did this internship program called KP Fellows, which you also did.
-[00:01:43] SPEAKER_03: Yes.
-[00:01:44] SPEAKER_03: We're in the same year.
-[00:01:45] SPEAKER_03: I remember meeting you at an Uber and being like, Oh, hey, nice to be here.
+[00:01:09] Host/Interviewer: We're going to talk a lot about founding and B2B support and Pylon today.
+[00:01:14] Host/Interviewer: Maybe to kick it off.
+[00:01:15] Host/Interviewer: Can you walk us through?
+[00:01:17] Host/Interviewer: How did the throw of you get together and spark the idea of starting Pylon?
+[00:01:21] Advith Chelikani: Yeah, I just you want to go.
+[00:01:22] Advith Chelikani: Sure.
+[00:01:22] Advith Chelikani: So Robert and I went to college together.
+[00:01:24] Advith Chelikani: We both went to Caltech while we're at Caltech.
+[00:01:26] Advith Chelikani: We ran our school hackathon for a couple of years,
+[00:01:29] Advith Chelikani: hack tech, which was basically like a company building experience minus building product.
+[00:01:34] Advith Chelikani: It's a lot of like organizing people like spending a lot of time working together.
+[00:01:37] Advith Chelikani: We figured out that we work well together.
+[00:01:39] Advith Chelikani: Then Robert did this internship program called KP Fellows, which you also did.
+[00:01:43] Advith Chelikani: Yes.
+[00:01:44] Advith Chelikani: We're in the same year.
+[00:01:45] Advith Chelikani: I remember meeting you at an Uber and being like, Oh, hey, nice to be here.
 [00:01:50] Advith Chelikani: This is what like 2016 years, I mean, six nine years ago.
 [00:01:53] Advith Chelikani: Yeah.
 [00:01:53] Advith Chelikani: Yeah.
 [00:01:54] Advith Chelikani: Yeah.
 [00:01:55] Wow.
 [00:01:55] Time flies.
-[00:01:56] SPEAKER_03: So Robert did that program.
-[00:01:57] SPEAKER_03: He was at DoorDash in turning that summer.
-[00:01:59] SPEAKER_03: And then that's how I found out about that program.
-[00:02:01] SPEAKER_03: And I did it the next year.
-[00:02:03] SPEAKER_03: I was at Slack and Marty did it the same year.
-[00:02:05] SPEAKER_03: I did it.
-[00:02:06] SPEAKER_03: And Marty was at Airbnb.
-[00:02:07] SPEAKER_03: Marty and I met a bit that summer.
-[00:02:10] SPEAKER_03: It's just because we were part of the same program.
-[00:02:11] SPEAKER_03: But really, we ended up living together after we graduated.
-[00:02:15] SPEAKER_03: And that's how Marty and I became close.
-[00:02:16] SPEAKER_03: Then I switched to living with Robert.
-[00:02:18] SPEAKER_03: I live with Marty for a couple of years after I graduated.
-[00:02:20] SPEAKER_03: And I live with Robert for a couple of years.
-[00:02:22] SPEAKER_03: And now all three of us live together.
-[00:02:23] SPEAKER_03: How long have it been living together?
+[00:01:56] Advith Chelikani: So Robert did that program.
+[00:01:57] Advith Chelikani: He was at DoorDash in turning that summer.
+[00:01:59] Advith Chelikani: And then that's how I found out about that program.
+[00:02:01] Advith Chelikani: And I did it the next year.
+[00:02:03] Advith Chelikani: I was at Slack and Marty did it the same year.
+[00:02:05] Advith Chelikani: I did it.
+[00:02:06] Advith Chelikani: And Marty was at Airbnb.
+[00:02:07] Advith Chelikani: Marty and I met a bit that summer.
+[00:02:10] Advith Chelikani: It's just because we were part of the same program.
+[00:02:11] Advith Chelikani: But really, we ended up living together after we graduated.
+[00:02:15] Advith Chelikani: And that's how Marty and I became close.
+[00:02:16] Advith Chelikani: Then I switched to living with Robert.
+[00:02:18] Advith Chelikani: I live with Marty for a couple of years after I graduated.
+[00:02:20] Advith Chelikani: And I live with Robert for a couple of years.
+[00:02:22] Advith Chelikani: And now all three of us live together.
+[00:02:23] Advith Chelikani: How long have it been living together?
 [00:02:26] Well, now it's been since the start of the company.
-[00:02:28] SPEAKER_03: Yeah.
-[00:02:28] SPEAKER_03: Three years.
-[00:02:28] SPEAKER_03: Yeah.
+[00:02:28] Advith Chelikani: Yeah.
+[00:02:28] Advith Chelikani: Three years.
+[00:02:28] Advith Chelikani: Yeah.
 [00:02:30] Yeah.
 [00:02:30] And we still live together.
 [00:02:32] Marty Kausas: That's the crazy thing.
@@ -90,12 +99,12 @@
 [00:03:03] Marty Kausas: So that's really our only priority.
 [00:03:05] Marty Kausas: Definitely.
 [00:03:05] Marty Kausas: That was one of the main topic I wanted to talk about today is recently there was a
-[00:03:11] SPEAKER_04: Wall Street Journal article.
-[00:03:13] SPEAKER_04: I think titled with something like no, no, no sleep, no, no, no fun about AI era founding.
-[00:03:24] SPEAKER_04: I'm really curious.
-[00:03:25] SPEAKER_04: First, what do you agree and disagree as the article?
-[00:03:28] SPEAKER_04: And how do you think that the working culture and the grinding nature of the founders impact the company culture?
-[00:03:35] SPEAKER_04: Yeah, I think like one thing they got wrong, like really wrong is, or maybe they, they took a different spin on it.
+[00:03:11] Host/Interviewer: Wall Street Journal article.
+[00:03:13] Host/Interviewer: I think titled with something like no, no, no sleep, no, no, no fun about AI era founding.
+[00:03:24] Host/Interviewer: I'm really curious.
+[00:03:25] Host/Interviewer: First, what do you agree and disagree as the article?
+[00:03:28] Host/Interviewer: And how do you think that the working culture and the grinding nature of the founders impact the company culture?
+[00:03:35] Host/Interviewer: Yeah, I think like one thing they got wrong, like really wrong is, or maybe they, they took a different spin on it.
 [00:03:41] Marty Kausas: Is that we are very motivated by fun and adventure.
 [00:03:44] Marty Kausas: I feel like that actually when you talk about like the founding of Pylon and why we did it, it really like,
 [00:03:49] Marty Kausas: they're easier ways to make money that don't require grinding 12 hours a day for, you know, 10 years straight.
@@ -113,9 +122,9 @@
 [00:04:29] Yeah, we do invest in our sleep though.
 [00:04:31] Advith Chelikani: Our mattresses are expensive.
 [00:04:33] Advith Chelikani: I guess I'm also a fan of furniture in that.
-[00:04:35] SPEAKER_04: It's in key office.
-[00:04:36] SPEAKER_04: I don't know the bed frame.
-[00:04:37] SPEAKER_04: Yeah.
+[00:04:35] Host/Interviewer: It's in key office.
+[00:04:36] Host/Interviewer: I don't know the bed frame.
+[00:04:37] Host/Interviewer: Yeah.
 [00:04:38] Marty Kausas: This is like such classically startup energy.
 [00:04:42] Marty Kausas: It's like the, yeah, Robert has a mat.
 [00:04:44] Marty Kausas: He used to have in the living room of our old office, a mattress that was on the floor
@@ -124,7 +133,7 @@
 [00:04:54] Marty Kausas: I mean, if you look in the picture too in the background under the basketball hoop,
 [00:04:57] Advith Chelikani: you can see my closet as well and all my life's possessions.
 [00:05:02] Marty Kausas: They're minimalistic.
-[00:05:04] SPEAKER_04: And then the other thing that the article didn't fully capture was that I think,
+[00:05:04] Host/Interviewer: And then the other thing that the article didn't fully capture was that I think,
 [00:05:09] Marty Kausas: you know, first off, we work way more than 9.6 actually.
 [00:05:11] Marty Kausas: So it's like we've never used that term.
 [00:05:14] Marty Kausas: We just work all the time.
@@ -136,13 +145,13 @@
 [00:05:30] Robert Eng: I don't have my Saturday.
 [00:05:33] Robert Eng: Now I actually feel like you were the best in the shoot.
 [00:05:36] Robert Eng: Is it at level of peer pressure?
-[00:05:37] SPEAKER_04: They apply into each other is like if you're working at better,
-[00:05:39] SPEAKER_04: be working too.
-[00:05:40] SPEAKER_04: And how does that also manifest within the company too?
-[00:05:43] SPEAKER_04: Like if the three founders are always in office,
-[00:05:45] SPEAKER_04: always working to the employees also feel the obligation that they should appear
-[00:05:49] SPEAKER_04: and not leave early.
-[00:05:51] SPEAKER_04: I don't think like minutes, it's no, I don't think they feel that pressure.
+[00:05:37] Host/Interviewer: They apply into each other is like if you're working at better,
+[00:05:39] Host/Interviewer: be working too.
+[00:05:40] Host/Interviewer: And how does that also manifest within the company too?
+[00:05:43] Host/Interviewer: Like if the three founders are always in office,
+[00:05:45] Host/Interviewer: always working to the employees also feel the obligation that they should appear
+[00:05:49] Host/Interviewer: and not leave early.
+[00:05:51] Host/Interviewer: I don't think like minutes, it's no, I don't think they feel that pressure.
 [00:05:54] Marty Kausas: Maybe they feel it more now with the article that came out.
 [00:05:58] Marty Kausas: Actually, I feel like people are questioning internally.
 [00:06:00] Marty Kausas: We actually had to clarify and I like post it.
@@ -154,18 +163,18 @@
 [00:06:09] Marty Kausas: Like get me into the 9.96.
 [00:06:11] Marty Kausas: This is the moment in my life where I want to grind.
 [00:06:14] Marty Kausas: And so people in the team have been saying,
-[00:06:15] SPEAKER_03: like, oh, we know you guys.
-[00:06:16] SPEAKER_03: So we know what it's actually like.
-[00:06:18] SPEAKER_03: But people from the outside might have a certain perception
-[00:06:22] SPEAKER_03: given what is in the article and what other people are saying.
-[00:06:25] SPEAKER_03: So I feel like there's the clarification that can be done.
-[00:06:28] SPEAKER_03: I at least had a bunch of interviews where people were not very pleased
-[00:06:31] SPEAKER_03: that that being an article had to clarify.
-[00:06:34] SPEAKER_03: No, that's not really what it's like.
-[00:06:36] SPEAKER_03: It's about getting stuff done and that does involve a lot of work.
-[00:06:39] SPEAKER_03: But it's really just about output and moving fast.
-[00:06:42] SPEAKER_03: Yeah.
-[00:06:43] SPEAKER_03: I think that's a careful distinction that we,
+[00:06:15] Advith Chelikani: like, oh, we know you guys.
+[00:06:16] Advith Chelikani: So we know what it's actually like.
+[00:06:18] Advith Chelikani: But people from the outside might have a certain perception
+[00:06:22] Advith Chelikani: given what is in the article and what other people are saying.
+[00:06:25] Advith Chelikani: So I feel like there's the clarification that can be done.
+[00:06:28] Advith Chelikani: I at least had a bunch of interviews where people were not very pleased
+[00:06:31] Advith Chelikani: that that being an article had to clarify.
+[00:06:34] Advith Chelikani: No, that's not really what it's like.
+[00:06:36] Advith Chelikani: It's about getting stuff done and that does involve a lot of work.
+[00:06:39] Advith Chelikani: But it's really just about output and moving fast.
+[00:06:42] Advith Chelikani: Yeah.
+[00:06:43] Advith Chelikani: I think that's a careful distinction that we,
 [00:06:45] Advith Chelikani: or at least I've been telling people,
 [00:06:46] Advith Chelikani: it's like as founders were in 9.96 and we're very happy to do 9.96
 [00:06:50] Advith Chelikani: or more than that.
@@ -196,21 +205,21 @@
 [00:07:47] Marty Kausas: you know, CS on the other.
 [00:07:50] Marty Kausas: And actually the two cultures are completely different.
 [00:07:52] Marty Kausas: Totally.
-[00:07:53] SPEAKER_04: Which always happens with B2B enterprise businesses.
-[00:07:56] SPEAKER_04: But I think in this case, even more so,
-[00:07:58] SPEAKER_04: there is the role and the responsibility split.
-[00:08:02] SPEAKER_04: But also I'm curious, given the nature of the working culture,
-[00:08:07] SPEAKER_04: does that impact sort of either the age group or type of people that you attract?
-[00:08:11] SPEAKER_04: Because I do remember that you mentioned an article where as founders,
-[00:08:16] SPEAKER_04: you want to work very hard.
-[00:08:17] SPEAKER_04: And you think employees should see that as positive.
-[00:08:20] SPEAKER_04: Because this is most meaningful work to you and your building this to success,
-[00:08:25] SPEAKER_04: where they're not expected to do so.
-[00:08:28] SPEAKER_04: But they should be very motivated to see the founders start working super hard
-[00:08:32] SPEAKER_04: and treat this as their life's work.
-[00:08:34] SPEAKER_04: But I'm just curious about how you think about how it impacts sort of the dynamic
+[00:07:53] Host/Interviewer: Which always happens with B2B enterprise businesses.
+[00:07:56] Host/Interviewer: But I think in this case, even more so,
+[00:07:58] Host/Interviewer: there is the role and the responsibility split.
+[00:08:02] Host/Interviewer: But also I'm curious, given the nature of the working culture,
+[00:08:07] Host/Interviewer: does that impact sort of either the age group or type of people that you attract?
+[00:08:11] Host/Interviewer: Because I do remember that you mentioned an article where as founders,
+[00:08:16] Host/Interviewer: you want to work very hard.
+[00:08:17] Host/Interviewer: And you think employees should see that as positive.
+[00:08:20] Host/Interviewer: Because this is most meaningful work to you and your building this to success,
+[00:08:25] Host/Interviewer: where they're not expected to do so.
+[00:08:28] Host/Interviewer: But they should be very motivated to see the founders start working super hard
+[00:08:32] Host/Interviewer: and treat this as their life's work.
+[00:08:34] Host/Interviewer: But I'm just curious about how you think about how it impacts sort of the dynamic
 [00:08:39] you're bringing into the...
-[00:08:41] SPEAKER_04: I mean, it should trickle down at least a little bit.
+[00:08:41] Host/Interviewer: I mean, it should trickle down at least a little bit.
 [00:08:43] Marty Kausas: I feel like we should have the expectation that people will work like some percentage
 [00:08:46] Marty Kausas: of what we work.
 [00:08:47] Marty Kausas: So it's...
@@ -224,27 +233,27 @@
 [00:09:06] Marty Kausas: And I think they get really excited about that.
 [00:09:08] Marty Kausas: Like there are a couple of new...
 [00:09:09] Marty Kausas: Yeah, I think it's about making it fun for the...
-[00:09:11] SPEAKER_03: I think they will stay late if they're having a good time.
-[00:09:14] SPEAKER_03: And they're like seeing the company move forward.
-[00:09:17] SPEAKER_03: They're like, this is the same when we were new grads.
-[00:09:19] SPEAKER_03: I think a lot of my social life was around.
-[00:09:21] SPEAKER_03: The people are working.
-[00:09:23] SPEAKER_03: I didn't think about that I was working a lot.
-[00:09:24] SPEAKER_03: It was just a lot of fun.
-[00:09:25] SPEAKER_03: And it was like blended work plus fun.
-[00:09:28] SPEAKER_03: And so at least that feels great if we can give that to people.
-[00:09:31] SPEAKER_03: Yeah.
-[00:09:32] SPEAKER_03: What are some of the intentional decisions you have made
-[00:09:35] SPEAKER_04: that's impacting either the cultural aspect of how people are working together
-[00:09:43] SPEAKER_04: and bringing the fun?
-[00:09:44] SPEAKER_04: I remember when you're doing all handstands.
-[00:09:47] SPEAKER_04: There's a lot of shout out.
-[00:09:49] SPEAKER_04: There are also the handraisers.
-[00:09:50] SPEAKER_04: There are also the different events you put on together.
-[00:09:54] SPEAKER_04: Are those couple of things you're trying to leverage
-[00:09:59] SPEAKER_04: to bring the team closer with each other?
-[00:10:02] SPEAKER_04: Or what are the other things you have done that find useful?
-[00:10:06] SPEAKER_04: Yeah, probably one of the biggest is just the in-person culture.
+[00:09:11] Advith Chelikani: I think they will stay late if they're having a good time.
+[00:09:14] Advith Chelikani: And they're like seeing the company move forward.
+[00:09:17] Advith Chelikani: They're like, this is the same when we were new grads.
+[00:09:19] Advith Chelikani: I think a lot of my social life was around.
+[00:09:21] Advith Chelikani: The people are working.
+[00:09:23] Advith Chelikani: I didn't think about that I was working a lot.
+[00:09:24] Advith Chelikani: It was just a lot of fun.
+[00:09:25] Advith Chelikani: And it was like blended work plus fun.
+[00:09:28] Advith Chelikani: And so at least that feels great if we can give that to people.
+[00:09:31] Advith Chelikani: Yeah.
+[00:09:32] Advith Chelikani: What are some of the intentional decisions you have made
+[00:09:35] Host/Interviewer: that's impacting either the cultural aspect of how people are working together
+[00:09:43] Host/Interviewer: and bringing the fun?
+[00:09:44] Host/Interviewer: I remember when you're doing all handstands.
+[00:09:47] Host/Interviewer: There's a lot of shout out.
+[00:09:49] Host/Interviewer: There are also the handraisers.
+[00:09:50] Host/Interviewer: There are also the different events you put on together.
+[00:09:54] Host/Interviewer: Are those couple of things you're trying to leverage
+[00:09:59] Host/Interviewer: to bring the team closer with each other?
+[00:10:02] Host/Interviewer: Or what are the other things you have done that find useful?
+[00:10:06] Host/Interviewer: Yeah, probably one of the biggest is just the in-person culture.
 [00:10:09] Marty Kausas: I think it attracts a lot of people who explicitly are looking for that.
 [00:10:13] Marty Kausas: And they're burnt out of being removed.
 [00:10:15] Marty Kausas: Or they don't get to interact with their team members
@@ -253,15 +262,15 @@
 [00:10:23] Marty Kausas: I think I'm...
 [00:10:24] Marty Kausas: Oh, go ahead.
 [00:10:24] Marty Kausas: I would just say we all eat lunch together for the most part.
-[00:10:27] SPEAKER_03: I think that actually has helped us get away with way less process
-[00:10:31] SPEAKER_03: or cross-functional things for a longer amount of time
-[00:10:33] SPEAKER_03: because people just ended up talking to each other.
-[00:10:35] SPEAKER_03: And people find out what other teams are working on,
-[00:10:37] SPEAKER_03: what other people on their team are working on as the team grows.
-[00:10:40] SPEAKER_03: So that feels like it's got a lot of lift.
-[00:10:42] SPEAKER_03: And yeah, I don't know if we plan for all of this to happen,
-[00:10:45] SPEAKER_03: but that's been the side effect of that.
-[00:10:47] SPEAKER_03: And another one that I don't think we even realized how rare this was,
+[00:10:27] Advith Chelikani: I think that actually has helped us get away with way less process
+[00:10:31] Advith Chelikani: or cross-functional things for a longer amount of time
+[00:10:33] Advith Chelikani: because people just ended up talking to each other.
+[00:10:35] Advith Chelikani: And people find out what other teams are working on,
+[00:10:37] Advith Chelikani: what other people on their team are working on as the team grows.
+[00:10:40] Advith Chelikani: So that feels like it's got a lot of lift.
+[00:10:42] Advith Chelikani: And yeah, I don't know if we plan for all of this to happen,
+[00:10:45] Advith Chelikani: but that's been the side effect of that.
+[00:10:47] Advith Chelikani: And another one that I don't think we even realized how rare this was,
 [00:10:51] Marty Kausas: but transparency on company metrics,
 [00:10:54] Marty Kausas: which I think then spreads to the rest of the team.
 [00:10:57] Marty Kausas: Everyone sees every deal that is one
@@ -300,22 +309,22 @@
 [00:12:14] Marty Kausas: And yeah, we're not...
 [00:12:16] Marty Kausas: Yeah, we're low ego about the conversations we have.
 [00:12:19] Marty Kausas: On the point of transparency,
-[00:12:22] SPEAKER_04: Pylon, that you guys are probably the best example of beauty in public.
-[00:12:25] SPEAKER_04: A lot of things are being shared very publicly on LinkedIn,
-[00:12:27] SPEAKER_04: on Twitter of either business metrics or you do a fundraising of Series A.
-[00:12:32] SPEAKER_04: That was a very popular tweet.
-[00:12:35] SPEAKER_04: How has that impacted sort of how you're seeing
-[00:12:39] SPEAKER_04: this benefit of beauty in public.
-[00:12:43] SPEAKER_04: And how do you get comfortable also doing so?
+[00:12:22] Host/Interviewer: Pylon, that you guys are probably the best example of beauty in public.
+[00:12:25] Host/Interviewer: A lot of things are being shared very publicly on LinkedIn,
+[00:12:27] Host/Interviewer: on Twitter of either business metrics or you do a fundraising of Series A.
+[00:12:32] Host/Interviewer: That was a very popular tweet.
+[00:12:35] Host/Interviewer: How has that impacted sort of how you're seeing
+[00:12:39] Host/Interviewer: this benefit of beauty in public.
+[00:12:43] Host/Interviewer: And how do you get comfortable also doing so?
 [00:12:46] Marty Kausas: Well, what's asked you the question,
 [00:12:49] Marty Kausas: did you were you influenced by us before you invested in us?
 [00:12:52] Marty Kausas: Do you remember, were you seeing our content?
 [00:12:55] I definitely remember every time I opened LinkedIn, there was a Pylon post.
-[00:13:00] SPEAKER_04: So the keeping top of mind part definitely worked very well.
-[00:13:03] SPEAKER_04: And yeah, it's great to hear from a first party perspective of what went well,
-[00:13:10] SPEAKER_04: what not, like the thinking behind each decision just rees very thoughtful.
-[00:13:18] SPEAKER_04: And I certainly liked a lot about that.
-[00:13:20] SPEAKER_04: Yeah, I think for us, so originally it was just for Pylon generation.
+[00:13:00] Host/Interviewer: So the keeping top of mind part definitely worked very well.
+[00:13:03] Host/Interviewer: And yeah, it's great to hear from a first party perspective of what went well,
+[00:13:10] Host/Interviewer: what not, like the thinking behind each decision just rees very thoughtful.
+[00:13:18] Host/Interviewer: And I certainly liked a lot about that.
+[00:13:20] Host/Interviewer: Yeah, I think for us, so originally it was just for Pylon generation.
 [00:13:23] Marty Kausas: And so we were posting like really shitty content originally.
 [00:13:27] Marty Kausas: It was so bad.
 [00:13:28] Marty Kausas: It was...
@@ -331,7 +340,7 @@
 [00:13:55] Marty Kausas: Like, oh my god, this guy's massive.
 [00:13:57] Marty Kausas: And here's like...
 [00:13:58] Marty Kausas: And how many followers do you have now?
-[00:14:01] SPEAKER_04: Like 45,000.
+[00:14:01] Host/Interviewer: Like 45,000.
 [00:14:03] Marty Kausas: So we definitely growing.
 [00:14:04] Marty Kausas: Wow.
 [00:14:05] Marty Kausas: Yeah, we're getting there.
@@ -344,8 +353,8 @@
 [00:14:13] Marty Kausas: I told you.
 [00:14:14] Marty Kausas: We need to translate.
 [00:14:16] Marty Kausas: Is your goal post of like a person or a company,
-[00:14:19] SPEAKER_04: I'd have way more followers than...
-[00:14:22] SPEAKER_04: I think there's like one person in the customer success space who actually just retired,
+[00:14:19] Host/Interviewer: I'd have way more followers than...
+[00:14:22] Host/Interviewer: I think there's like one person in the customer success space who actually just retired,
 [00:14:25] Marty Kausas: Nick Mehta, who started Gainsight.
 [00:14:27] Marty Kausas: And he has like 100 K followers.
 [00:14:29] Marty Kausas: And so...
@@ -388,10 +397,10 @@
 [00:16:05] Marty Kausas: But I think really beforehand was not present on LinkedIn.
 [00:16:09] Marty Kausas: I think it was present on X but never to this like more like professional network.
 [00:16:15] Definitely.
-[00:16:16] SPEAKER_04: You have definitely figured out at this point algorithm to hack LinkedIn.
-[00:16:21] SPEAKER_04: So we should go to to Pylon.
-[00:16:24] SPEAKER_04: Tell us how Pylon is not just another support ticketing system or a chatbot.
-[00:16:30] SPEAKER_04: Yeah. So we're the first customer support platform that's built for B2B companies.
+[00:16:16] Host/Interviewer: You have definitely figured out at this point algorithm to hack LinkedIn.
+[00:16:21] Host/Interviewer: So we should go to to Pylon.
+[00:16:24] Host/Interviewer: Tell us how Pylon is not just another support ticketing system or a chatbot.
+[00:16:30] Host/Interviewer: Yeah. So we're the first customer support platform that's built for B2B companies.
 [00:16:34] Marty Kausas: And so one way to think about this is if you just look at like consumer companies,
 [00:16:38] Marty Kausas: they just have one customer facing team, which is just the support team.
 [00:16:41] Marty Kausas: And they deal with very simple transactional tickets.
@@ -404,31 +413,31 @@
 [00:17:06] Marty Kausas: if we have all these workflows and data altogether and these different teams working within it,
 [00:17:10] Marty Kausas: there's a lot of opportunity for AI to make things a lot faster.
 [00:17:13] Marty Kausas: For sure. And tying back to the earlier question, like if you want to build something really fun,
-[00:17:18] SPEAKER_04: like B2B support is probably not the first thing people reach out to.
-[00:17:21] SPEAKER_04: You're like, this is so fun. And I'm feeling a B2B support system.
-[00:17:24] SPEAKER_04: How did you get to this idea? And what was the navigation and the pivots throughout the way?
-[00:17:29] SPEAKER_04: Yeah, I mean, there were many pivots. You guys want to name a few like the...
+[00:17:18] Host/Interviewer: like B2B support is probably not the first thing people reach out to.
+[00:17:21] Host/Interviewer: You're like, this is so fun. And I'm feeling a B2B support system.
+[00:17:24] Host/Interviewer: How did you get to this idea? And what was the navigation and the pivots throughout the way?
+[00:17:29] Host/Interviewer: Yeah, I mean, there were many pivots. You guys want to name a few like the...
 [00:17:33] Marty Kausas: We started at Tech, I think.
-[00:17:36] SPEAKER_03: We started by building this idea. Most easily accessible people to do a user discovery on was,
-[00:17:41] SPEAKER_03: well, first we basically started the whole journey by first deciding we want to start a company
-[00:17:45] SPEAKER_03: and then figuring out what to work on. So it was driven by...
-[00:17:48] SPEAKER_03: Until your point, the fun is more like the journey rather than the specific thing we're building.
-[00:17:53] SPEAKER_03: I think it's pretty easy to get excited and like intellectually curious about most types of things.
-[00:17:57] SPEAKER_03: And so yeah, we're I think more excited about the process of company building.
-[00:18:01] SPEAKER_03: The first thing we worked on was we went back to college and like those were the easiest
-[00:18:05] SPEAKER_03: set of people to do user discovery on. And so we talked a bunch of the administrators and asked
-[00:18:09] SPEAKER_03: them what problems they had. The career center lady had said...
-[00:18:12] SPEAKER_03: terrible ideas about college. Like alumni being connected with college students. So we built some kind
-[00:18:17] SPEAKER_03: of portal for alumni to get connected to students. We built it. We made every mistake possible.
-[00:18:22] SPEAKER_03: Like we were just like building before like selling. We were
+[00:17:36] Advith Chelikani: We started by building this idea. Most easily accessible people to do a user discovery on was,
+[00:17:41] Advith Chelikani: well, first we basically started the whole journey by first deciding we want to start a company
+[00:17:45] Advith Chelikani: and then figuring out what to work on. So it was driven by...
+[00:17:48] Advith Chelikani: Until your point, the fun is more like the journey rather than the specific thing we're building.
+[00:17:53] Advith Chelikani: I think it's pretty easy to get excited and like intellectually curious about most types of things.
+[00:17:57] Advith Chelikani: And so yeah, we're I think more excited about the process of company building.
+[00:18:01] Advith Chelikani: The first thing we worked on was we went back to college and like those were the easiest
+[00:18:05] Advith Chelikani: set of people to do user discovery on. And so we talked a bunch of the administrators and asked
+[00:18:09] Advith Chelikani: them what problems they had. The career center lady had said...
+[00:18:12] Advith Chelikani: terrible ideas about college. Like alumni being connected with college students. So we built some kind
+[00:18:17] Advith Chelikani: of portal for alumni to get connected to students. We built it. We made every mistake possible.
+[00:18:22] Advith Chelikani: Like we were just like building before like selling. We were
 [00:18:27] Advith Chelikani: working in these tarpits spaces that don't make any sense to build a company in. Yeah, it's
 [00:18:31] Advith Chelikani: pretty brutal. Yeah. And then also important context like we at different points were working
 [00:18:37] Marty Kausas: separately as well. And so you guys, did you guys also work on things separately beforehand
 [00:18:41] Marty Kausas: or just together? Just together. Okay. So yeah. So you guys start together. This is like a year and a
 [00:18:45] Marty Kausas: half before Pylon. Right. More. Yeah. I was like shortly after the pandemic. Yeah. I think I
-[00:18:50] SPEAKER_03: messaged Robert. I was like I was having an existential crisis. I think I started on my 23rd
-[00:18:57] SPEAKER_03: birthday. And I was like, I feel like I'm wasting my life. Do you want to work on something?
-[00:19:00] SPEAKER_03: Yeah. And then separately, I had left Airbnb maybe like half a year before they started and
+[00:18:50] Advith Chelikani: messaged Robert. I was like I was having an existential crisis. I think I started on my 23rd
+[00:18:57] Advith Chelikani: birthday. And I was like, I feel like I'm wasting my life. Do you want to work on something?
+[00:19:00] Advith Chelikani: Yeah. And then separately, I had left Airbnb maybe like half a year before they started and
 [00:19:06] Marty Kausas: was like pivoting through many ideas with two different sets of co-founders actually. And at some
 [00:19:10] Marty Kausas: point, so I then, you know, these two sets, two co-founders didn't work out for many reasons.
 [00:19:14] Marty Kausas: Also like the same classic mistakes of one was like, oh, like work with the business co-founder
@@ -449,22 +458,22 @@
 [00:20:35] Marty Kausas: we're actually going to go work with these other guys who like understand the logistics space.
 [00:20:40] Marty Kausas: Because that's what they were working on. And then, yeah, you guys, yeah, you were like,
 [00:20:44] Marty Kausas: Oh, yeah, we're going to do that. It doesn't make sense to work with you. So I gave up this
-[00:20:48] SPEAKER_04: serious co-founder chasing. Yeah, yeah. Yeah. Yeah. Just co-founder dating. Yeah.
+[00:20:48] Host/Interviewer: serious co-founder chasing. Yeah, yeah. Yeah. Yeah. Just co-founder dating. Yeah.
 [00:20:53] Robert Eng: For the day. No, I mean, I got, yeah, rejected twice by Biden's magnificent
 [00:20:58] Robert Eng: people. Very, very hard to chase. I pursued. I pursued. But then I gave up. And, and yeah,
 [00:21:06] Robert Eng: you guys had decided to work with these other people. And then what had to say what happened
 [00:21:10] Robert Eng: over that weekend when you basically, yeah, we were pretty excited about this logistics idea.
-[00:21:15] SPEAKER_03: It was kind of related to what I was working on at SimSara spun out and like explored more into an
-[00:21:19] SPEAKER_03: idea. It actually felt like the first idea that like passed the mom test process and was
-[00:21:22] SPEAKER_03: something that couldn't turn into a big company. But we determined that we didn't have enough
-[00:21:26] SPEAKER_03: founder market fit there because it would be a very sales heavy idea in like the freight brokerage
-[00:21:31] SPEAKER_03: space. So then we were pair trying to pair up with these two guys who would like, I think started
-[00:21:35] SPEAKER_03: unicorns in the logistics space. We had a sales background. But then we realized that we thought
-[00:21:40] SPEAKER_03: they weren't going to do that much work, but they wanted 50% of the company. And so we just couldn't
-[00:21:44] SPEAKER_03: reach into conclusion on the equity there. And then we also learned that you shouldn't choose
-[00:21:49] SPEAKER_03: your co-founder based on like the idea you're working on because you'll probably pivot. And
+[00:21:15] Advith Chelikani: It was kind of related to what I was working on at SimSara spun out and like explored more into an
+[00:21:19] Advith Chelikani: idea. It actually felt like the first idea that like passed the mom test process and was
+[00:21:22] Advith Chelikani: something that couldn't turn into a big company. But we determined that we didn't have enough
+[00:21:26] Advith Chelikani: founder market fit there because it would be a very sales heavy idea in like the freight brokerage
+[00:21:31] Advith Chelikani: space. So then we were pair trying to pair up with these two guys who would like, I think started
+[00:21:35] Advith Chelikani: unicorns in the logistics space. We had a sales background. But then we realized that we thought
+[00:21:40] Advith Chelikani: they weren't going to do that much work, but they wanted 50% of the company. And so we just couldn't
+[00:21:44] Advith Chelikani: reach into conclusion on the equity there. And then we also learned that you shouldn't choose
+[00:21:49] Advith Chelikani: your co-founder based on like the idea you're working on because you'll probably pivot. And
 [00:21:53] yeah, actually, we would have just been poor all around. But we came to that conclusion and then
-[00:21:57] SPEAKER_03: we're like, okay, we shouldn't pair up with random people. Yeah. So then on Monday or like maybe
+[00:21:57] Advith Chelikani: we're like, okay, we shouldn't pair up with random people. Yeah. So then on Monday or like maybe
 [00:22:03] Marty Kausas: like the night before they messaged me, they're like, hey, do you want to co-work from our apartment?
 [00:22:08] And I co-found our work trial. Yeah. And I actually, I'd given up. I was like, yeah, I mean,
 [00:22:12] Marty Kausas: they literally rejected me three days. They're just trying to hang out. That's it. And so yeah,
@@ -473,19 +482,19 @@
 [00:22:27] Marty Kausas: And I think we should worship him. I was like, what are you talking about? I was like stunned.
 [00:22:33] Robert Eng: I literally have been like three months of me like trying to get you guys to say, yeah,
 [00:22:38] Robert Eng: that was no idea or that. No, so the context that he left out is that the reason we just we thought
-[00:22:43] SPEAKER_03: it wouldn't be good. I didn't work together. Is it felt like in the period where you like don't
-[00:22:47] SPEAKER_03: actually have an idea that's validated more and more people piling on becomes a crude term of
-[00:22:52] SPEAKER_03: like intellectual masturbation. We're just like telling each other the idea is good. I'm like,
-[00:22:57] SPEAKER_03: it's like kind of going in a circle. And you're not, because you're not in execution mode. So you
-[00:23:01] SPEAKER_03: can't like unload your resources on like trying to execute. You're just like kind of thinking and
-[00:23:05] SPEAKER_03: doing user discovery. So it felt counterproductive to do that with too many people. So we're like, okay,
-[00:23:09] SPEAKER_03: once we come up with an idea and we're committed. Maybe then it makes sense to like pair up. And
-[00:23:14] SPEAKER_03: at this point, that's why I felt like this logistics idea was pretty validated and so we could
-[00:23:18] SPEAKER_03: like start to move into execution mode. Yeah, that's the other fundamental idea. Honestly, like when
+[00:22:43] Advith Chelikani: it wouldn't be good. I didn't work together. Is it felt like in the period where you like don't
+[00:22:47] Advith Chelikani: actually have an idea that's validated more and more people piling on becomes a crude term of
+[00:22:52] Advith Chelikani: like intellectual masturbation. We're just like telling each other the idea is good. I'm like,
+[00:22:57] Advith Chelikani: it's like kind of going in a circle. And you're not, because you're not in execution mode. So you
+[00:23:01] Advith Chelikani: can't like unload your resources on like trying to execute. You're just like kind of thinking and
+[00:23:05] Advith Chelikani: doing user discovery. So it felt counterproductive to do that with too many people. So we're like, okay,
+[00:23:09] Advith Chelikani: once we come up with an idea and we're committed. Maybe then it makes sense to like pair up. And
+[00:23:14] Advith Chelikani: at this point, that's why I felt like this logistics idea was pretty validated and so we could
+[00:23:18] Advith Chelikani: like start to move into execution mode. Yeah, that's the other fundamental idea. Honestly, like when
 [00:23:23] Advith Chelikani: we were validating the idea at YC, like we listed all the ideas we had we have worked on and it was
 [00:23:29] Advith Chelikani: the logistics idea was like clearly the best one. And they recommended we work on this idea.
 [00:23:33] Advith Chelikani: And they told us the pile on one is like, okay, but obviously you went in with that idea. You came
-[00:23:39] SPEAKER_04: out with the pile on idea. So that happened there. So this was actually very, very helpful that it
+[00:23:39] Host/Interviewer: out with the pile on idea. So that happened there. So this was actually very, very helpful that it
 [00:23:44] Marty Kausas: worked out this way because we, we, so I had an idea that was some like fintech thing. And they had
 [00:23:49] Marty Kausas: this idea that was logistics. And so, okay, we both have an idea. How do we decide which one to work on?
 [00:23:54] Marty Kausas: So it actually forced us to be more critical about idea evaluation and comparing. So we literally
@@ -531,15 +540,15 @@
 [00:27:12] Marty Kausas: And we were capped from the start. And so we, you know, we were only evaluating basically horizontal
 [00:27:18] Marty Kausas: categories at that point. And so, you know, things like sales, marketing, support, payroll, etc.
 [00:27:27] Great. It clearly went from the top down math to find the biggest market and then find
-[00:27:35] SPEAKER_04: the horizontal nature of the categories to go after that. They said, like support itself has
-[00:27:43] SPEAKER_04: already quite a lot of players. There's a nest, there's intercom, there are a lot of AI native
-[00:27:50] SPEAKER_04: conversational support bots and systems where Python is really focused on building this
-[00:27:58] SPEAKER_04: multi-product cross-functional, more platform style with very, AI native functionalities and features.
-[00:28:06] SPEAKER_04: Do you think you have, you had a clear vision on like, this is where you want to go in the beginning?
-[00:28:12] SPEAKER_04: Well, what were the moments where you find clarity on there is a big opportunity here?
-[00:28:18] SPEAKER_04: Like, this is how we should, you know, cut into sort of the space and have a very,
-[00:28:25] SPEAKER_04: I guess, both attentive but also a growable base.
-[00:28:30] SPEAKER_04: Right. It was not clear from the beginning.
+[00:27:35] Host/Interviewer: the horizontal nature of the categories to go after that. They said, like support itself has
+[00:27:43] Host/Interviewer: already quite a lot of players. There's a nest, there's intercom, there are a lot of AI native
+[00:27:50] Host/Interviewer: conversational support bots and systems where Python is really focused on building this
+[00:27:58] Host/Interviewer: multi-product cross-functional, more platform style with very, AI native functionalities and features.
+[00:28:06] Host/Interviewer: Do you think you have, you had a clear vision on like, this is where you want to go in the beginning?
+[00:28:12] Host/Interviewer: Well, what were the moments where you find clarity on there is a big opportunity here?
+[00:28:18] Host/Interviewer: Like, this is how we should, you know, cut into sort of the space and have a very,
+[00:28:25] Host/Interviewer: I guess, both attentive but also a growable base.
+[00:28:30] Host/Interviewer: Right. It was not clear from the beginning.
 [00:28:33] Marty Kausas: Well, what we knew is we wanted to be in a really big market so that we could eventually pivot
 [00:28:38] Marty Kausas: and grow into something. So we understood that like often people wedge in with something and then
 [00:28:41] Marty Kausas: kind of like expand later. And so customer support, like go-to-market systems was generally what
@@ -555,37 +564,37 @@
 [00:29:32] Marty Kausas: the customers really want it, the vendor really likes it as well. So the insight was, hey,
 [00:29:37] Marty Kausas: this is happening. And there's no solution to help people actually work in this way.
 [00:29:42] Marty Kausas: So one of the like criteria for an idea for us was like, why now? Why is it compelling to start
-[00:29:47] SPEAKER_03: this company right now? If you started two years in the past, something would not, if you think
-[00:29:51] SPEAKER_03: about problem companies on like problem solution willingness to pay, either problem was not there
-[00:29:56] SPEAKER_03: in the world. So technology for solutions not available two years ago or something. And if you
-[00:30:00] SPEAKER_03: started two years in the future, somebody would have beaten you to it. So this like trend when we
-[00:30:04] SPEAKER_03: surveyed a bunch of people, felt like a clear change in the way that people approach talking to
-[00:30:08] SPEAKER_03: their customers. Plus, you know, shortly after the AI stuff, you feel like you can build a way
-[00:30:12] SPEAKER_03: better solution when you have access to conversational data. So it felt like a very opportune way now.
-[00:30:17] SPEAKER_03: Yeah. Now it feels like a default of like when the two parties start to establish commercial
-[00:30:24] SPEAKER_04: engagement, the Slack channels are set up first. And then you figure out sort of where it goes
-[00:30:29] SPEAKER_04: from there. And also my takeaway is the four deploy engineering phenomenon is actually a very
-[00:30:36] SPEAKER_04: huge tailwind for tools like Pylon because you know, the FDE needs to converse with the customers
-[00:30:42] SPEAKER_04: very closely. And sort of back and forth, it's very different from in the past. You email TK,
-[00:30:47] SPEAKER_04: you get back, like it's very much co-working culture. And Slack and you still need the system to
-[00:30:52] SPEAKER_04: manage that. And Pylon many times more often than not, it's the default tool for this.
-[00:30:59] SPEAKER_04: I have a question related to this, which is a lot of times the support and very close
-[00:31:08] SPEAKER_04: engagement with customers also hides a lot of the technical operational debt for the customers as
-[00:31:13] SPEAKER_04: well because if it's a broken on boarding, if it's unclear documentation, usually you can solve it
-[00:31:18] SPEAKER_04: by having more conversations. But long term it probably becomes more of a burden. How do you help
-[00:31:23] SPEAKER_04: customers navigate that? And is that something, you know, you're very consciously building
-[00:31:27] SPEAKER_04: building products to resolve? Or kind of. I mean, a lot of it is like using AI to structure the
-[00:31:34] SPEAKER_03: conversational data going on. So a lot of our future set is like drawing insights from that. So
-[00:31:38] SPEAKER_03: whether it's like identifying product feedback or common one of the features in the product is
-[00:31:43] SPEAKER_03: idea of identifying gaps in your documentation or will cluster all the conversations that we're
-[00:31:47] SPEAKER_03: watching, whether they come from like Slack or email or, you know, synchronous stuff from calls
-[00:31:51] SPEAKER_03: and cluster them into like topics into topics. And then you can identify the fact that you're missing
-[00:31:57] SPEAKER_03: documentation based on those topics or like something's a feature request and say gap in your
-[00:32:01] SPEAKER_03: products. So we try to like, yeah, give you tools to like reframing that, yeah, tools to like
-[00:32:06] SPEAKER_03: operationalize the way you're doing support to start. But now customer success more forward
-[00:32:10] SPEAKER_03: deployed, all these like customer facing roles. How do you like operationalize them? Because also a
-[00:32:14] SPEAKER_03: lot of our customers are trying to run lean but do stuff at a bigger and bigger scale. So I think
-[00:32:17] SPEAKER_03: if it's into that story as well. Yeah. And one of the really important pieces of context for our
+[00:29:47] Advith Chelikani: this company right now? If you started two years in the past, something would not, if you think
+[00:29:51] Advith Chelikani: about problem companies on like problem solution willingness to pay, either problem was not there
+[00:29:56] Advith Chelikani: in the world. So technology for solutions not available two years ago or something. And if you
+[00:30:00] Advith Chelikani: started two years in the future, somebody would have beaten you to it. So this like trend when we
+[00:30:04] Advith Chelikani: surveyed a bunch of people, felt like a clear change in the way that people approach talking to
+[00:30:08] Advith Chelikani: their customers. Plus, you know, shortly after the AI stuff, you feel like you can build a way
+[00:30:12] Advith Chelikani: better solution when you have access to conversational data. So it felt like a very opportune way now.
+[00:30:17] Advith Chelikani: Yeah. Now it feels like a default of like when the two parties start to establish commercial
+[00:30:24] Host/Interviewer: engagement, the Slack channels are set up first. And then you figure out sort of where it goes
+[00:30:29] Host/Interviewer: from there. And also my takeaway is the four deploy engineering phenomenon is actually a very
+[00:30:36] Host/Interviewer: huge tailwind for tools like Pylon because you know, the FDE needs to converse with the customers
+[00:30:42] Host/Interviewer: very closely. And sort of back and forth, it's very different from in the past. You email TK,
+[00:30:47] Host/Interviewer: you get back, like it's very much co-working culture. And Slack and you still need the system to
+[00:30:52] Host/Interviewer: manage that. And Pylon many times more often than not, it's the default tool for this.
+[00:30:59] Host/Interviewer: I have a question related to this, which is a lot of times the support and very close
+[00:31:08] Host/Interviewer: engagement with customers also hides a lot of the technical operational debt for the customers as
+[00:31:13] Host/Interviewer: well because if it's a broken on boarding, if it's unclear documentation, usually you can solve it
+[00:31:18] Host/Interviewer: by having more conversations. But long term it probably becomes more of a burden. How do you help
+[00:31:23] Host/Interviewer: customers navigate that? And is that something, you know, you're very consciously building
+[00:31:27] Host/Interviewer: building products to resolve? Or kind of. I mean, a lot of it is like using AI to structure the
+[00:31:34] Advith Chelikani: conversational data going on. So a lot of our future set is like drawing insights from that. So
+[00:31:38] Advith Chelikani: whether it's like identifying product feedback or common one of the features in the product is
+[00:31:43] Advith Chelikani: idea of identifying gaps in your documentation or will cluster all the conversations that we're
+[00:31:47] Advith Chelikani: watching, whether they come from like Slack or email or, you know, synchronous stuff from calls
+[00:31:51] Advith Chelikani: and cluster them into like topics into topics. And then you can identify the fact that you're missing
+[00:31:57] Advith Chelikani: documentation based on those topics or like something's a feature request and say gap in your
+[00:32:01] Advith Chelikani: products. So we try to like, yeah, give you tools to like reframing that, yeah, tools to like
+[00:32:06] Advith Chelikani: operationalize the way you're doing support to start. But now customer success more forward
+[00:32:10] Advith Chelikani: deployed, all these like customer facing roles. How do you like operationalize them? Because also a
+[00:32:14] Advith Chelikani: lot of our customers are trying to run lean but do stuff at a bigger and bigger scale. So I think
+[00:32:17] Advith Chelikani: if it's into that story as well. Yeah. And one of the really important pieces of context for our
 [00:32:22] Marty Kausas: customer base is because we focus on B to B, there's so much context and data about customers everywhere.
 [00:32:29] Marty Kausas: And so especially when you think about like all the AI solutions people are building,
 [00:32:34] Marty Kausas: if you want to have even like a shot of having like an agent do some piece of work, they need a lot
@@ -596,25 +605,25 @@
 [00:32:59] Marty Kausas: those actual human agents live were able, that's setting us up really well to build a combination of
 [00:33:06] Marty Kausas: assistance to make them faster. And then agents to like kind of span all the different functions.
 [00:33:11] How do you see AI as a technology impact your roadmap? I believe when you start at Pylon,
-[00:33:18] SPEAKER_04: Chaggpt moment hasn't happened yet. Yeah. It was also like my company incorporated on the day
-[00:33:25] SPEAKER_03: Chaggpt launch. So, you know, it was seven seven. Oh, yes, yes, you're right. We have the same
+[00:33:18] Host/Interviewer: Chaggpt moment hasn't happened yet. Yeah. It was also like my company incorporated on the day
+[00:33:25] Advith Chelikani: Chaggpt launch. So, you know, it was seven seven. Oh, yes, yes, you're right. We have the same
 [00:33:29] Marty Kausas: birthday at Chaggpt. Yes. We had the initial idea for Pylon, which is what the idea was,
 [00:33:34] Marty Kausas: hey, there's a problem with Slack support. So, you know, that's November 21st, I want to say.
 [00:33:41] Marty Kausas: One day later, Zandas gets acquired, which is also important context by private equity. So,
 [00:33:47] Marty Kausas: one day after we had the initial idea, and then like six or seven days later, Chaggpt comes out.
 [00:33:51] Marty Kausas: And so, the timing was incredible. We could not have nailed the timing better. So, we have built
 [00:33:58] Marty Kausas: everything like knowing, we have built everything in an AI native way because we knew it existed
-[00:34:02] SPEAKER_03: from basically the beginning. So, I think a lot of the, oh, like unlock of having conversational
-[00:34:07] SPEAKER_03: data is only powerful because of a lot of that. Yeah, Chaggpt. You think we also took a very
+[00:34:02] Advith Chelikani: from basically the beginning. So, I think a lot of the, oh, like unlock of having conversational
+[00:34:07] Advith Chelikani: data is only powerful because of a lot of that. Yeah, Chaggpt. You think we also took a very
 [00:34:12] Advith Chelikani: product first approach there too, because I think a lot of the other people in our batch were just
 [00:34:15] Advith Chelikani: throwing AI at the wall and seeing what was stick. But we went to the customers first,
 [00:34:19] Advith Chelikani: figured out what the problems were, and just made sure that AI actually was the answer.
 [00:34:22] Advith Chelikani: We were very skeptical of AI to begin with, but it ended up being the right answer for a lot of
 [00:34:27] Advith Chelikani: the use cases, and that's kind of like a core part of the product, or everywhere in the products.
 [00:34:30] Advith Chelikani: And these are not functionalities, like auto resolving like a ticket because the B2B nature
-[00:34:37] SPEAKER_04: and the very unique context rich nature of these tickets, it's very much around auto tagging,
-[00:34:43] SPEAKER_04: around like context summary, like a ticket summary, like going back to history finding the relevant
-[00:34:49] SPEAKER_04: information. Yeah. And what's so cool is like, I mean, man, this was like amazing that we just landed
+[00:34:37] Host/Interviewer: and the very unique context rich nature of these tickets, it's very much around auto tagging,
+[00:34:43] Host/Interviewer: around like context summary, like a ticket summary, like going back to history finding the relevant
+[00:34:49] Host/Interviewer: information. Yeah. And what's so cool is like, I mean, man, this was like amazing that we just landed
 [00:34:54] Marty Kausas: here with the original problem. Like AdVith already mentioned this, but there's so much conversational
 [00:34:59] Marty Kausas: data that previously was totally unstructurable, meaning you could not really build automated workflows
 [00:35:05] Marty Kausas: off of this unstructured data. And so now it's like imagine, you know, there's the obvious use case
@@ -638,12 +647,12 @@
 [00:36:27] Marty Kausas: automated workflows off of it. Which is like, and then that doesn't even have to be customer
 [00:36:31] Marty Kausas: facing. It could happen internally and just alert the team to help them prioritize accounts better
 [00:36:36] Marty Kausas: and take actions faster. Definitely. These are the reasons why many
-[00:36:41] SPEAKER_04: in native companies or the more than I guess SaaS companies are using piled-on as a default
-[00:36:46] SPEAKER_04: solution from high touch any scale to apply intuition. Many many great logos. Now that you are at the
-[00:36:51] SPEAKER_04: spot of at call early product market fit, how do you think about the next three to five years?
-[00:36:57] SPEAKER_04: What's the ultimate vision of piled-on? Outside of like being a $100 billion company,
-[00:37:02] SPEAKER_04: what are some of the big bets that you need to make today that will influence that outcome?
-[00:37:07] SPEAKER_04: I'm curious. What do you guys say for yourself by the way? Like for context on who makes product
+[00:36:41] Host/Interviewer: in native companies or the more than I guess SaaS companies are using piled-on as a default
+[00:36:46] Host/Interviewer: solution from high touch any scale to apply intuition. Many many great logos. Now that you are at the
+[00:36:51] Host/Interviewer: spot of at call early product market fit, how do you think about the next three to five years?
+[00:36:57] Host/Interviewer: What's the ultimate vision of piled-on? Outside of like being a $100 billion company,
+[00:37:02] Host/Interviewer: what are some of the big bets that you need to make today that will influence that outcome?
+[00:37:07] Host/Interviewer: I'm curious. What do you guys say for yourself by the way? Like for context on who makes product
 [00:37:11] Marty Kausas: decisions, it's these two. I just post on LinkedIn on this point. But Robert and I have this,
 [00:37:18] Marty Kausas: yeah, what do you guys product-wise? What's coming? I guess the way I think of it is like we're taking
 [00:37:23] Advith Chelikani: a very rippling like strategy. We're trying to get compound started and spin up like several
@@ -654,7 +663,7 @@
 [00:37:45] Advith Chelikani: And also one thing about like market. So I think a lot of people especially in the AI support
 [00:37:50] Marty Kausas: space are going straight to enterprise, which makes sense if you're at it, if you're just doing
 [00:37:54] Marty Kausas: like for example transactional ticketing on top of an existing support platform. Because that's
-[00:37:59] SPEAKER_04: why I had a high-spawn on love conversations. Exactly. But actually we're like capturing the next
+[00:37:59] Host/Interviewer: why I had a high-spawn on love conversations. Exactly. But actually we're like capturing the next
 [00:38:02] Marty Kausas: generation of people that are starting now or like growing quickly. So you know the up to like 500
 [00:38:07] Marty Kausas: employees generally customer persona. And so we're capturing those people and then teaching them
 [00:38:12] Marty Kausas: the pile-on-wave operating. And so they might like onboard with hey like first they use our ticketing
@@ -676,7 +685,7 @@
 [00:39:29] Marty Kausas: yeah it's possible for the first time we're like executing super heavily on it with you know a
 [00:39:33] Marty Kausas: cracked engineering team. And yeah it I think yeah you're really building an operating system for
 [00:39:40] Marty Kausas: companies that are touching customer or all the customer facing teams. Yeah yeah that are having
-[00:39:45] SPEAKER_04: conversations and touch points. Yeah and there's because we like control all of the customer data or
+[00:39:45] Host/Interviewer: conversations and touch points. Yeah and there's because we like control all of the customer data or
 [00:39:50] Advith Chelikani: we're attached into where you talk to your customers both on the call recording site and the
 [00:39:54] Advith Chelikani: acing support like support ticketing site. So like because we have access to all the data we can do
 [00:39:59] Advith Chelikani: everything that flows down from there. And then like set up the verticals I think like in the long
@@ -684,12 +693,12 @@
 [00:40:08] Advith Chelikani: of like doing the work that they're doing today. It's probably going to be people orchestrating AI
 [00:40:13] Advith Chelikani: agents or something like that. And like how can we be best positioned to kind of like build that next
 [00:40:17] Advith Chelikani: layer and like the future of all of these different rules. So way I explain to people is that we
-[00:40:22] SPEAKER_03: are trying to smooth curve businesses from like legacy system of record to like some fully
-[00:40:26] SPEAKER_03: agentic thing where that's not the state of both people's perception of the technology and the
-[00:40:31] SPEAKER_03: technology today. So we're trying to be like the new age system of record system of engagement,
-[00:40:35] SPEAKER_03: system of intelligence and then agents doing all your workflow. So for now it's like people
-[00:40:39] SPEAKER_03: and agents coexisting within the product and because we got to build it that way from the start
-[00:40:44] SPEAKER_03: we can like yeah help people transition to this fully agentic world as everything is ready for that.
+[00:40:22] Advith Chelikani: are trying to smooth curve businesses from like legacy system of record to like some fully
+[00:40:26] Advith Chelikani: agentic thing where that's not the state of both people's perception of the technology and the
+[00:40:31] Advith Chelikani: technology today. So we're trying to be like the new age system of record system of engagement,
+[00:40:35] Advith Chelikani: system of intelligence and then agents doing all your workflow. So for now it's like people
+[00:40:39] Advith Chelikani: and agents coexisting within the product and because we got to build it that way from the start
+[00:40:44] Advith Chelikani: we can like yeah help people transition to this fully agentic world as everything is ready for that.
 [00:40:50] All the other like incumbents are probably going to run into the innovators dilemma where they're
 [00:40:53] Advith Chelikani: going to be afraid of like throwing away their product to shift to this new way of doing things.
 [00:40:58] Advith Chelikani: But just because we built it from the beginning that way like it'll be much easier for us to like
@@ -702,8 +711,8 @@
 [00:41:36] Marty Kausas: already the pro like we could not demo everything to you in like a 45 minute call.
 [00:41:41] Marty Kausas: And now it's like I mean we're about to so I think we might actually be one of the fastest
 [00:41:46] Marty Kausas: moving product teams of all time. Like I'm not kidding like that. It's certainly a monotop that I've
-[00:41:51] SPEAKER_04: I've seen. Like I think it's a lot of new future launches which is why you know every day open
-[00:41:57] SPEAKER_04: like Dan. It's actually crazy. Like when we think about other companies who have tried to
+[00:41:51] Host/Interviewer: I've seen. Like I think it's a lot of new future launches which is why you know every day open
+[00:41:57] Host/Interviewer: like Dan. It's actually crazy. Like when we think about other companies who have tried to
 [00:42:04] Marty Kausas: execute like multi-product strategies. We so we love studying the history of all these companies
 [00:42:09] Marty Kausas: that have come before us and like our favorite is Ripley. Ripley is like such a great company
 [00:42:13] Marty Kausas: and even then like when I it took them like multiple years to launch like product number two or three
@@ -714,15 +723,15 @@
 [00:42:41] Marty Kausas: moving I think I think we might be the fastest company ever execute this type of strategy.
 [00:42:47] Marty Kausas: And yeah it's so far so far so far so yeah. Yeah.
 [00:42:51] Marty Kausas: Last question you're certainly at a point of pushing the boundaries of what's possible
-[00:42:58] SPEAKER_04: of also building like a new generation of an native system of record for companies to operate
-[00:43:04] SPEAKER_04: on top of when you when there's no data no consensus and no time given your moving very fast to
-[00:43:12] SPEAKER_04: make these decisions whose voice do you trust the most.
-[00:43:15] SPEAKER_04: It's a customer. It's a customer. Yeah.
-[00:43:19] SPEAKER_03: Is it your instincts?
-[00:43:21] SPEAKER_04: It's a lot of gut as well but it's informed by like a lot of like being in the weeds still on
-[00:43:27] SPEAKER_03: like all the customer calls like both from the sales side and the post sale side so feel like
+[00:42:58] Host/Interviewer: of also building like a new generation of an native system of record for companies to operate
+[00:43:04] Host/Interviewer: on top of when you when there's no data no consensus and no time given your moving very fast to
+[00:43:12] Host/Interviewer: make these decisions whose voice do you trust the most.
+[00:43:15] Host/Interviewer: It's a customer. It's a customer. Yeah.
+[00:43:19] Advith Chelikani: Is it your instincts?
+[00:43:21] Host/Interviewer: It's a lot of gut as well but it's informed by like a lot of like being in the weeds still on
+[00:43:27] Advith Chelikani: like all the customer calls like both from the sales side and the post sale side so feel like
 [00:43:32] I mean the root of it is like a customer what people are saying in the market but I think we apply
-[00:43:37] SPEAKER_03: our own layer of like interpretation. Yeah. I will say like Robert and Advert have incredible
+[00:43:37] Advith Chelikani: our own layer of like interpretation. Yeah. I will say like Robert and Advert have incredible
 [00:43:44] Marty Kausas: product intuition like incredible product and like I mean part of it is like the you know what
 [00:43:49] Marty Kausas: if they're in tie. What if they're oh no no so I'll tell you exactly what happens so like we
 [00:43:54] Marty Kausas: and by the way I used to be in these debates too and I just kept losing so I gave up but this is how
@@ -754,5 +763,5 @@
 [00:46:05] Marty Kausas: sounds very intense yeah and so it's super high intensity I think like I don't know if other
 [00:46:09] Marty Kausas: teams do it to the same level that we do but it's yeah it's it's very fun it's I think like you have
 [00:46:15] Marty Kausas: to love it this is very much like a like sport almost in itself so awesome cool where at time it's
-[00:46:22] SPEAKER_04: so wonderful having the throw for you I feel like we need a part two for this conversation
-[00:46:26] SPEAKER_04: thank you so much for taking the time thank you
+[00:46:22] Host/Interviewer: so wonderful having the throw for you I feel like we need a part two for this conversation
+[00:46:26] Host/Interviewer: thank you so much for taking the time thank you

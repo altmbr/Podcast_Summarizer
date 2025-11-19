@@ -2,7 +2,7 @@
 
 **Podcast:** Sourcery
 **Date:** 2025-11-18
-**Participants:** David Ulevitch, Molly O'Shea, David Ulevitch
+**Participants:** Molly O'Shea, David Ulevitch
 **Region:** Western
 **Video ID:** Sy8c30fdBQ8
 **Video URL:** https://www.youtube.com/watch?v=Sy8c30fdBQ8
@@ -10,95 +10,158 @@
 
 ---
 
-# Podcast Summary: David Ulevitch on American Dynamism
+# Podcast Summary: Why Marc Andreessen, Ben Horowitz, & David Ulevitch Launched American Dynamism
 
 ## 1. Key Themes
 
-### **Private Capital as Superior Alternative to Government R&D Funding**
-The fundamental insight is that private capital can deliver better outcomes than direct government R&D funding by eliminating bureaucratic overhead while maintaining accountability. David explains: "If you don't pay for the R&D, you just buy the finished product. All you have to do is commit to buying the finished product. We'll fund the R&D and you can get rid of all the auditing and accounting and constant oversight that you provide. Because that's our job, this private capital. We'll make sure that we're good stewards of our capital and our investors capital." [[00:17:26]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=17m16s) The government's $50 million R&D grant comes with so much auditing and oversight burden that it's "almost impossible for these small companies to cope with that level of oversight," which is why contracts typically go to defense primes who simply charge more to cover these costs. [[00:16:53]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=16m43s)
+### The Convergence of Supply and Demand Created a Historic Defense Tech Opportunity
 
-### **Defense Procurement Reform as Critical Bottleneck**
-The current defense procurement system structurally favors incumbents and prevents innovation. David identifies two major problems: "It's very common in defense procurement to say, what have you delivered in the past is an important criteria for deciding if you get awarded a contract for the future. But a lot of startups have been delivered to anything in the past." [[00:18:13]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=18m3s) Additionally, Congress appropriates money for specific products from specific vendors rather than solutions to problems, which prevents adaptation to rapidly changing battlefield conditions. He cites Ukraine drone warfare evolution: "If you look at the government's appropriations from five years ago, there was nothing about a very little about like a tritable drones in electronic warfare to deal with the massive influx of drones that are being sent at soldiers. But that's what the people on the battlefield need today." [[00:19:25]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=19m15s)
+The American Dynamism fund emerged from a unique moment where technological capability, founder talent, and government demand aligned. On the supply side, technologies like AI, computer vision, autonomy, and commodity hardware made it possible to disrupt legacy defense categories. The talent base also shifted dramatically with alumni from companies like Palantir, Tesla, and SpaceX leaving to start their own ventures. On the demand side, the government recognized it could no longer procure solutions the old way, adversaries became more capable, and COVID exposed critical supply chain vulnerabilities.
 
-### **Supply Chain Dependency as Existential Threat**
-American dependence on China for critical materials and components represents a fundamental vulnerability that transcends pure defense concerns. David warns: "A lot of the raw materials we need for our own shipbuilding comes from China, the steel, and then the metals. A lot of the things we need for batteries, for motors, for a lot of the ingredients we need to actually make that drones we want to make, and get how to use vehicles we want to make. They all come from China. And so it's not just about defense procurement." [[00:20:44]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=20m34s) This creates cascading vulnerabilities: "If you actually don't have these foundational components that are rock solid here in this country, everything else falls apart. Like all the B2Bs, SAs falls apart, all the ad click optimization to a fall apart." [[00:23:27]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=23m17s)
+"You have to look at when there's these moments when there's technological shifts. The defense industry has existed for a long time. But now we're entering an era where you have much more advanced technologies. So AI, things that drive that like computer vision, autonomy, much lower cost of hardware, commodity hardware." [[00:07:23]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=7m13s)
+
+### Private Capital is Superior to Government R&D Funding for Defense Innovation
+
+The traditional government R&D funding model creates crushing overhead for startups through auditing, accounting, and oversight requirements that legacy defense primes can absorb but small companies cannot. Private capital offers a better alternative by funding the R&D independently while the government simply commits to purchasing the finished product. This eliminates bureaucratic burden while leveraging venture capital's superior ability to pick winning technologies and founders.
+
+"If the government gives you $50 million for an R&D project to go try to create a prototype of something, they want to make sure you're spending the money wisely. So that $50 million comes with a kind of overhead of auditing, accounting, tons of oversight. And as a taxpayer, that feels totally appropriate. But it's so burdensome for a small company. It's almost impossible for these small companies to cope with that level of oversight... Where private capital instead is, I think, a much better alternative is we say, look, if you don't pay for the R&D, you just buy the finished product. All you have to do is commit to buying the finished product." [[00:16:37]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=16m27s)
+
+### The Movement Has Reached Mainstream Validation with Massive Capital Inflows
+
+What started as "a meme becoming a movement" with borrowed venture dollars has evolved into broad-based recognition that these categories require massive investment. JP Morgan's $1.5 trillion commitment (carefully avoiding the term "American Dynamism") signals that the thesis has moved from contrarian to consensus, driven by geopolitical realities around China's manufacturing capacity, supply chain dependencies, and the transformative nature of AI across defense, energy, and infrastructure.
+
+"Private capital is now flowing in massively. JP Morgan is going to commit $1.5 trillion towards the category... I think what you see with the JP Morgan announcement is just now broad skill recognition that we need to be investing in these areas. And I think there's going to be incredible returns for the investors." [[00:21:31]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=21m21s)
 
 ## 2. Contrarian Perspectives
 
-### **Venture Capital Must Prioritize National Infrastructure Over Consumer Apps**
-David argues that foundational national security and infrastructure investments are prerequisites for all other tech innovation, not just parallel priorities. "If you don't have a strong democracy, if you don't have a strong economy in a strong country, like all the stuff on top falls apart. You need to have public safety, you need to have defense, you need to have energy, reliability. And so I think all these things are actually critical even for all the stuff that just sits on top that we all benefit from." [[00:23:36]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=23m26s) This directly contradicts the conventional VC wisdom of focusing on high-margin software with network effects.
+### Defense Startups Don't Need Government Money—They Need Purchase Commitments
 
-### **American Dynamism as Meme-to-Movement Strategy**
-The American Dynamism practice launched without dedicated capital, essentially as marketing before substance. Catherine Boyle characterized it as "a meme that was becoming a movement. And we announced that we had committed all this money to it. But we actually had no fun. We were just like borrowing venture dollars for it." [[00:06:22]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=6m12s) This contrarian approach—announcing a major initiative without securing the capital first—worked because timing aligned with geopolitical events making the thesis obvious in retrospect.
+Most people believe government contracts and R&D funding are essential for defense startups. Ulevitch argues the opposite: government funding creates more problems than it solves through bureaucratic overhead that kills startups. Instead, startups need the government to commit to buying outcomes while private capital funds development. This inverts the traditional model and gives startups the freedom to innovate without crushing compliance requirements.
 
-### **Government Should Stop Trying to Pick Winners**
-Rather than the government directly funding innovation, David advocates for government only committing to purchase outcomes: "We don't need them to fund R&D. We need them to commit to buying outcomes and buying solutions." [[00:18:03]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=17m53s) This inverts the conventional defense innovation model where government programs like SBIR/STTR fund early-stage R&D. His argument is that VCs are "better pickers of who's going to deliver great technology than the government is. And that's because we've been doing it a lot longer." [[00:17:46]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=17m36s)
+"We don't need them to fund R&D. We need them to commit to buying outcomes and buying solutions... We'll fund the R&D and you can get rid of all the auditing and accounting and constant oversight that you provide. Because that's our job, this private capital. We'll make sure that we're good stewards of our capital and our investors capital." [[00:18:05]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=17m55s)
 
-### **The Silicon Valley Defense Exodus Was Temporary Aberration**
-David frames the Google Project Maven walkout as an anomaly rather than inevitability: "In 2018, Google had bailed out of Project Maven and there was a big protest attack Google and people decided they weren't participating. We believe in the romance of technology of industry... We believe that we have been and will always be the masters of technology, not mastered by technology." [[00:00:25]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=15s) This perspective positions defense work as core to Silicon Valley's DNA, with the 2010s tech company resistance as the outlier period.
+### The Foundation Must Be Solid or Everything Else Collapses
+
+While most investors chase B2B SaaS and consumer tech, Ulevitch argues these investments are worthless without foundational strength in defense, energy, and public safety. This is not just patriotic rhetoric—it's an investment thesis. Without a strong democracy, economy, and security infrastructure, all the software businesses built on top become irrelevant. This suggests American Dynamism investments are actually de-risking other venture portfolios.
+
+"If you actually don't have these foundational components that are rock solid here in this country, everything else falls apart. Like all the B2Bs, SAs falls apart, all the ad click optimization to a fall apart. Like if you don't have a strong democracy, if you don't have a strong economy in a strong country, like all the stuff on top falls apart." [[00:23:36]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=23m26s)
+
+### Past Performance Should Be Eliminated as a Selection Criterion
+
+Government procurement traditionally requires evidence of past delivery, which systematically excludes startups and advantages incumbents. Ulevitch pushes for competitive "bake-offs" where the best product wins regardless of company history. This seems obvious but represents a fundamental challenge to how defense contracts have worked for decades, removing the moat that legacy primes have relied upon.
+
+"It's very common in defense procurement to say, what have you delivered in the past is an important criteria for deciding if you get awarded a contract for the future. But a lot of startups have been delivered to anything in the past. And so then it really benefits the legacy incumbents and doesn't give a chance for a startup to deliver. And so we were pushing for changes and say, hey, look, why don't you do bake offs? Why don't you do competitions? And if a startup shows up with the best product, just pick that one." [[00:18:13]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=18m3s)
 
 ## 3. Companies Identified
 
-**Anduril**
-- **Description**: Defense technology company building autonomous systems and surveillance towers
-- **Why Mentioned**: Series B investment that gave David credibility to build the American Dynamism practice; exemplifies using commodity hardware with advanced software for defense applications
-- **Quotes**: "Andrew, even then, was very unapologetic that they were a defense company. And they were trying to build the next great defense prime." [[00:03:43]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=3m33s) "Their first century tower was essentially off the shelf parts that they put together with their advanced software. They built a coordination layer called lattice." [[00:08:10]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=8m0s) "Real-headed announcement yesterday, it's like called EGLY, which is their new body-worn headset... it's definitely very advanced AI software in a way that the warfighter has never been able to utilize in the past." [[00:25:29]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=25m19s)
+### Anduril Industries
 
-**Flock Safety**
-- **Description**: Public safety company using AI-powered cameras for vehicle identification and crime prevention
-- **Why Mentioned**: Investment that reconnected David with Catherine Boyle and exemplifies AI transformation of public safety
-- **Quotes**: "Garrett, the CEO of Flux Safety, called her the night before she was supposed to have Flux pitch to the general catalyst team. And it was like, oh, the deal got done. I'm going with Yule of it." [[00:04:50]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=4m40s) "Flux safety uses AI to be able to do like free form search. You can say instead of saying, you know, you might know that a car pulled up in a Rob DeGaustation... oh, that's like a silver camera with aftermarket rims and a spoiler. Well, that AI can take that text and then go through it to a full image search and find the right silver camera." [[00:27:07]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=26m57s)
+**Description:** Defense technology company building autonomous systems and defense hardware to become "the next great defense prime."
 
-**Airspace Intelligence**
-- **Description**: AI-powered flight operations and planning platform for airlines
-- **Why Mentioned**: Example of AI transforming logistics and infrastructure
-- **Quotes**: "Airspace Intelligence does flight operations and planning using AI. So you can have the most efficient flight planning save the most amount of fuel, make sure that the least amount of flights get canceled. And right now a lot of that kind of work for airlines happens in spreadsheets, but Airspace Intelligence uses the AI to do it all programmatically and automatically." [[00:26:39]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=26m29s)
+**Why Mentioned:** Anduril was Ulevitch's first investment in the category and proved that defense tech could generate venture returns, giving him the leash to make more investments. The company's success catalyzed the entire American Dynamism practice.
 
-**SpaceX**
-- **Description**: Private aerospace manufacturer and space transportation company
-- **Why Mentioned**: Proof that American Dynamism companies can achieve massive scale while remaining private, addressing LP liquidity concerns
-- **Quotes**: "When you look at a company like SpaceX that's still private, I think now investors recognize, and they just had an incredible launch yesterday. Like I think now investors recognize this is one of the transformative companies in this country at a dollar invested in SpaceX as a dollar put to a good place." [[00:22:51]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=22m41s)
+**Quotes:** "A year after I joined, Mark asked me if I wanted to meet Palmer and Brian and the team at Andro. And Andrew, even then, was very unapologetic that they were a defense company. And they were trying to build the next great defense prime... Because Andro was a good investment, as you know, an adventure, if you make a good first investment in a category that can kind of give you the leash to go make other investments." [[00:03:31]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=3m21s)
+
+"Real-headed announcement yesterday, it's like called EGLY, which is their new body-worn headset. That is like, I don't know if it's commodity objects or specialized objects, but it's definitely very advanced AI software in a way that the warfighter has never been able to utilize in the past. And this will save lives for the men and women who serve." [[00:25:27]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=25m17s)
+
+### Flock Safety
+
+**Description:** Public safety company using AI-powered cameras for license plate reading and vehicle search capabilities.
+
+**Why Mentioned:** Excellent example of AI transforming public safety. The founder connected Ulevitch and Katherine Boyle, catalyzing the formation of the American Dynamism practice. Demonstrates how AI enables capabilities (free-form vehicle search) that were impossible with traditional technology.
+
+**Quotes:** "I invested in a company called Flux Safety... Garrett was like, hey, maybe you should talk to Yule of it. Or maybe the two of you should join forces. So actually Garrett Langley at Flux Safety sort of reconnected Catherine and I." [[00:04:43]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=4m33s)
+
+"We've had license plate reading cameras for a long time in public safety, but they've never been very good. Flux safety uses AI to be able to do like free form search. You can say instead of saying, you know, you might know that a car pulled up in a Rob DeGaustation... you can say, oh, that's like a silver camera with aftermarket rims and a spoiler. Well, that AI can take that text and then go through it to a full image search and find the right silver camera." [[00:27:03]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=26m53s)
+
+### Airspace Intelligence
+
+**Description:** AI-powered flight operations and planning company modernizing airline logistics.
+
+**Why Mentioned:** Example of AI transforming logistics and infrastructure. Demonstrates how American Dynamism extends beyond defense to critical national infrastructure like aviation, replacing spreadsheet-based planning with AI-driven optimization.
+
+**Quotes:** "We have a company called Airspace Intelligence and you read about how like the FAA needs rapid modernization, well, Airspace Intelligence does flight operations and planning using AI. So you can have the most efficient flight planning save the most amount of fuel, make sure that the least amount of flights get canceled. And right now a lot of that kind of work for airlines happens in spreadsheets, but Airspace Intelligence uses the AI to do it all programmatically and automatically." [[00:26:31]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=26m21s)
+
+### SpaceX
+
+**Description:** Space transportation and satellite company founded by Elon Musk.
+
+**Why Mentioned:** Used as proof point that mega-outcomes are possible in American Dynamism categories while remaining private, addressing LP concerns about exit liquidity. Demonstrates that these companies can be "transformative companies in this country."
+
+**Quotes:** "When you look at a company like SpaceX that's still private, I think now investors recognize, and they just had an incredible launch yesterday. Like I think now investors recognize this is one of the transformative companies in this country at a dollar invested in SpaceX as a dollar put to a good place." [[00:22:51]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=22m41s)
 
 ## 4. People Identified
 
-**Palmer Luckey**
-- **Description**: Founder of Oculus and Anduril
-- **Why Mentioned**: Exemplifies the founder talent driving American Dynamism despite being treated as "pariah" for political reasons
-- **Quotes**: "Palmer Lucky, a few years earlier, had left Meta, had been accused of being some major right-wing financier. It turned out it was $9,000 for one billboard once. And none of it was true. But it was a big scandal. And he was treated like a pariah and not as this genius founder of Oculus." [[00:03:03]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=2m53s)
+### Palmer Luckey
 
-**Catherine Boyle**
-- **Description**: Co-leader of American Dynamism practice at Andreessen Horowitz
-- **Why Mentioned**: Key partner who joined from General Catalyst to co-build the American Dynamism practice
-- **Quotes**: "I met Catherine Boyle, who was at a rival firm, a general catalyst. And she thought she was going to do the Series B [of Anduril]. And so the way we met was we ended up having to split the Series B." [[00:03:57]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=3m47s) "I reached out to Catherine and said, hey, I think we should join forces rather than the competitors. Let's make this a full-throwed effort." [[00:05:50]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=5m40s)
+**Description:** Founder of Oculus (acquired by Meta) and co-founder of Anduril Industries.
 
-**Marc Andreessen & Ben Horowitz**
-- **Description**: Founders of Andreessen Horowitz
-- **Why Mentioned**: Long-standing supporters of government technology going back to Netscape's pioneering of SSL encryption
-- **Quotes**: "Mark and Ben have always been super supportive of supporting the government and the national interests. People don't know this, but back in Netscape, they helped pioneer SSL, like the little encryption icon in your web browser to do secure encrypted communications." [[00:05:17]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=5m7s) "Mark was just like, everything that I said that I promised Catherine. Like, Mark was like, yes, and more." [[00:06:08]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=5m58s)
+**Why Mentioned:** Palmer was treated as a "pariah" for alleged political activities ($9,000 for one billboard) despite being a "genius founder," representing the cultural moment in 2018 when Silicon Valley was hostile to defense work. His founding of Anduril despite this ostracism demonstrated the opportunity for a counter-movement.
 
-**Garrett Langley**
-- **Description**: CEO of Flock Safety
-- **Why Mentioned**: Connected David and Catherine, facilitating the American Dynamism partnership
-- **Quotes**: "Garrett was like, hey, maybe you should talk to Yule of it. Or maybe the two of you should join forces. So actually Garrett Langley at Flux Safety sort of reconnected Catherine and I." [[00:05:08]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=4m58s)
+**Quotes:** "Palmer Lucky, a few years earlier, had left Meta, had been accused of being some major right-wing financier. It turned out it was $9,000 for one billboard once. And none of it was true. But it was a big scandal. And he was treated like a pariah and not as this genius founder of Oculus." [[00:03:03]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=2m53s)
+
+### Katherine Boyle
+
+**Description:** General Partner at Andreessen Horowitz, co-leads American Dynamism practice with Ulevitch.
+
+**Why Mentioned:** Katherine competed with Ulevitch on both Anduril and Flock Safety deals before joining forces to create the American Dynamism practice. She coined the phrase "a meme that was becoming a movement" and brought additional credibility and capacity to the effort.
+
+**Quotes:** "I met Catherine Boyle, who was at a rival firm, a general catalyst. And she thought she was going to do the Series B. And so the way we met was we ended up having to split the Series B... I reached out to Catherine and said, hey, I think we should join forces rather than the competitors. Let's make this a full-throwed effort." [[00:04:52]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=4m42s)
+
+### Marc Andreessen and Ben Horowitz
+
+**Description:** Co-founders of Andreessen Horowitz venture capital firm.
+
+**Why Mentioned:** Marc and Ben have supported government and national interests since the Netscape days when they pioneered SSL encryption for secure communications. They gave Ulevitch the freedom to "do whatever I wanted" and became fully committed to American Dynamism, with Marc providing even more support than Ulevitch promised Katherine.
+
+**Quotes:** "People don't know this, but back in Netscape, they helped pioneer SSL, like the little encryption icon in your web browser to do secure encrypted communications. And so like Ben as a product manager, Mark is the founder of Netscape. Even back then, they were building technology that was really important for our government to have secure communications." [[00:05:28]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=5m18s)
+
+"There was a lunch. We did it Mark's house with Catherine, me and Mark. And Mark was just like, everything that I said that I promised Catherine. Like, Mark was like, yes, and more." [[00:06:06]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=5m56s)
+
+### Garrett Langley
+
+**Description:** CEO of Flock Safety.
+
+**Why Mentioned:** Garrett played matchmaker between Ulevitch and Boyle, directly catalyzing the formation of the American Dynamism practice partnership. His company also exemplifies AI's transformative potential in public safety.
+
+**Quotes:** "Garrett, the CEO of Flux Safety, called her the night before she was supposed to have Flux pitch to the general catalyst team. And it was like, oh, the deal got done. I'm going with Yule of it... But Garrett was like, hey, maybe you should talk to Yule of it. Or maybe the two of you should join forces. So actually Garrett Langley at Flux Safety sort of reconnected Catherine and I." [[00:04:50]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=4m40s)
 
 ## 5. Operating Insights
 
-### **Use First Investment Success to Build Category Authority**
-David leveraged Anduril's success to gain "leash to go make other investments" in the category. "Because Andro was a good investment, as you know, an adventure, if you make a good first investment in a category that can kind of give you the leash to go make other investments." [[00:04:29]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=4m19s) This demonstrates the importance of the anchor investment in establishing credibility for an entire thesis area.
+### Build the Firm You Wish You Had as an Entrepreneur
 
-### **Build Specialized Infrastructure Teams, Not Just Capital**
-Andreessen Horowitz built a dedicated policy team in DC specifically for American Dynamism portfolio companies. "We've built out a policy team in DC. And there's work that we're really trying to advance that will benefit not just our companies, but all companies that are trying to build for the national interest." [[00:15:24]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=15m14s) This value-add differentiation addresses structural challenges that founders cannot solve alone, living up to the firm's philosophy of "build the firm that we wish we had when we were entrepreneurs." [[00:11:43]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=11m33s)
+Andreessen Horowitz's entire operating model is based on the principle of building support systems founders actually need versus traditional financier relationships. This manifested in American Dynamism through creating a policy team in DC to tackle structural procurement issues that benefit all portfolio companies and the broader ecosystem, not just providing capital.
 
-### **Convert Competitors into Collaborators Through Category Creation**
-Rather than competing with Catherine Boyle across multiple deals, David proposed joining forces: "At the end of 2021, I reached out to Catherine and said, hey, I think we should join forces rather than the competitors. Let's make this a full-throwed effort." [[00:05:50]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=5m40s) This transformed a zero-sum competitive dynamic into category expansion where both could benefit.
+"The firm has always been founded on this practice of how do we build the firm that we wish we had when we were entrepreneurs. And most of the leadership and in recent Horowitz were either founders of companies, ran companies, have technical backgrounds... We know what it's like to have a venture firm that's just treated, treats you like a financier. Like they just give you the money and then you're off on your own. We think there's a better way." [[00:11:58]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=11m48s)
 
-### **Launch Category Before Securing Dedicated Capital**
-The American Dynamism practice launched publicly before raising a dedicated fund, borrowing from existing venture pools. This created momentum and market awareness before formal capitalization, with the fund ($660M) following shortly after when the thesis proved timely. [[00:06:20]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=6m10s)
+### First Investment Success Buys Freedom to Build a Category
+
+Ulevitch's strategy was to make one strong bet (Anduril) that proved the category could generate returns, which then gave him organizational permission to make more investments and eventually raise a dedicated fund. This is a tactical approach for venture partners wanting to pioneer new categories within existing firms.
+
+"Because Andro was a good investment, as you know, an adventure, if you make a good first investment in a category that can kind of give you the leash to go make other investments." [[00:04:29]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=4m19s)
+
+### Competitive Tension Can Become Collaborative Advantage
+
+Rather than continuing to compete on deals, Ulevitch proactively reached out to Katherine Boyle after losing or splitting deals to suggest joining forces. This converted a rival into a partner and doubled the team's capacity and credibility, ultimately enabling them to raise a $660M fund and establish category dominance.
+
+"I reached out to Catherine and said, hey, I think we should join forces rather than the competitors. Let's make this a full-throwed effort." [[00:05:53]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=5m43s)
+
+### Push for Outcome-Based Appropriations Not Product-Specific Budgets
+
+A specific policy reform Ulevitch advocates: Congress should appropriate money to solve specific problems rather than funding specific products from specific vendors. This gives end customers (military commands, intelligence agencies) the flexibility to select the best solution at the time of need, which could be dramatically different from what was envisioned years earlier during the appropriations process.
+
+"The government often says, we're going to appropriate money for this specific product. When what they should really say is, we're going to appropriate money for something that solves this problem. And then let the actual customer, whether it's so-com or Indo-Paycom or the intelligence community, whatever it is, let them decide what the right solution is." [[00:18:46]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=18m36s)
 
 ## 6. Overlooked Insights
 
-### **Netscape's SSL as Foundational Government Technology Partnership**
-David briefly mentions that Marc Andreessen and Ben Horowitz "helped pioneer SSL, like the little encryption icon in your web browser to do secure encrypted communications" back at Netscape. [[00:05:31]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=5m21s) This is hugely significant because it establishes that Andreessen Horowitz's government technology thesis isn't opportunistic—it's a 30-year continuation of their founding work. SSL encryption was critical for government secure communications, meaning the firm's defense technology work predates even the firm itself, going back to their operational experience in the 1990s. This historical continuity explains why they had conviction to back Anduril when other firms wouldn't touch defense.
+### The Google Project Maven Exit Created a Generational Opportunity
 
-### **JP Morgan's $1.5 Trillion Deliberately Avoided "American Dynamism" Branding**
-David notes almost in passing: "I think they went out of their way, not to use words, dynamism. People sometimes don't want to call it American dynamism, even though it's obviously American dynamism." [[00:19:17]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=19m7s) This reveals significant tension in the market adoption of the category. Despite JP Morgan committing $1.5 trillion to what is clearly American Dynamism investing, they deliberately avoided the terminology—likely for political or branding reasons. This suggests the category has achieved substance but the branding remains contested, which could indicate either political sensitivities around explicitly "American" positioning or incumbent financial institutions' reluctance to adopt venture-originated framing. The substance has won even as players distance themselves from the label.
+While discussed as context, the true significance is understated: Google's 2018 withdrawal from Project Maven due to employee protests created a vacuum and cultural moment that made American Dynamism possible. This wasn't just about one company exiting one project—it represented Silicon Valley's abdication of its original mission to support national defense, creating an enormous whitespace for a new generation of founders and investors who rejected that stance. The timing of Ulevitch joining a16z (2018), meeting Palmer (2019), and launching American Dynamism (2022) maps directly to this cultural rupture.
+
+"In 2018, Google had Bill out of Project Maven, which was a government partnership to support advanced computing and advanced software like AI in the Department of Defense. And there was a big protestant type of Google. And people decided they didn't want to participate in Google, Bill out of it. And this is after Silicon Valley. It had basically its original founding story in origin of helping the government with the best technology." [[00:02:32]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=2m22s)
+
+### China Supplies the Raw Materials for American Defense Manufacturing
+
+Buried in the discussion is a critical strategic vulnerability: the steel, metals, and components needed for U.S. shipbuilding and defense manufacturing come from China. This means in an actual conflict scenario, America's adversary controls the supply chain for building the weapons systems to fight that adversary. This circular dependency is more severe than commonly understood and explains why the supply chain and manufacturing elements of American Dynamism may be even more critical than the software and defense hardware components.
+
+"A lot of the raw materials we need for our own shipbuilding comes from China, the steel, and then the metals. A lot of the things we need for batteries, for motors, for a lot of the ingredients we need to actually make that drones we want to make, and get how to use vehicles we want to make. They all come from China... And if they all come from China, and we ever get into a real conflict with China, whether it's an economic conflict or an actual kinetic conflict, they're going to cut us off." [[00:20:42]](https://www.youtube.com/watch?v=Sy8c30fdBQ8&t=20m32s)

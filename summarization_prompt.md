@@ -6,6 +6,7 @@ You are summarizing a podcast transcript for an investor and entrepreneur. You a
 
 1. If the overall language is Chinese, make sure summary and quotes are translated to english. Don't show the Chinese.
 2. Whenever you are quoting, please insert timestamp after quote in plain text format like [HH:MM:SS] - do NOT wrap it in a markdown link, just use square brackets with the time. You should take the timestamp from the beginning of the context for the quote.
+3. **IMPORTANT**: Format individual insights within each section as H3 headings (###). For example: `### The Strategic Pause: Fleet Fungibility Over Rapid Expansion` followed by the description paragraph. Do NOT use bold text (**text**) for insight titles.
 
 ## Format
 

@@ -7,10 +7,19 @@
 
 ---
 
+# AI Robots for Your Laundry w/Lindon Gao LIVE FROM CLEAN - S6E103 The Laundromat Millionaire Show✈️
+
+**Podcast:** One-off Episodes
+**Date:** 2025-09-04
+**Video ID:** wpslRUFa6Tg
+**Video URL:** https://www.youtube.com/watch?v=wpslRUFa6Tg
+
+---
+
 [00:00:00] Hello, welcome to the Clean Show. This is David Carleman from Laundra Bat Millionaire and we are coming live from the Dyna Robotics booth.
-[00:00:11] Host or Interviewer: If you are at the Clean Show, you need to come and check this out. We are at the 867.
-[00:00:17] Host or Interviewer: I'm here with us. We have Lyndon Gaff and Dyna Robotics. And we have Craig Taylor, one of the first Dyna Robotics users.
-[00:00:26] Host or Interviewer: So today we're going to be learning all about these folding robots. They look amazing. So you definitely want to catch this.
+[00:00:11] David Carleman: If you are at the Clean Show, you need to come and check this out. We are at the 867.
+[00:00:17] David Carleman: I'm here with us. We have Lyndon Gaff and Dyna Robotics. And we have Craig Taylor, one of the first Dyna Robotics users.
+[00:00:26] David Carleman: So today we're going to be learning all about these folding robots. They look amazing. So you definitely want to catch this.
 [00:00:33] David Carleman: Yeah, I got to tell you guys, I've been telling you for a couple of years now. This was coming, right? Now I didn't know Lyndon. I didn't know the Dyna team, but I told you robotics is coming. We all knew AI was coming.
 [00:00:45] David Carleman: They've combined. They're here and we are excited to click off, kick off the Clean Show live from all of our channels across the platform of Laundra Bat Millionaire to show you what this is all about.
 [00:00:56] David Carleman: And like I told Lyndon before we got online, the truth is a little selfishly. I'm curious because I got like a million questions for these guys.
@@ -18,7 +27,7 @@
 [00:01:15] David Carleman: And we're going to show you live what it's about. So if you're not at the Clean Show, you're going to get a sneak peek of what it looks like to be out the show and get to see one of the coolest exhibits in the entire show.
 [00:01:26] Hello and welcome to another episode of the Laundra Bat Millionaire shows sponsored by HM Company at DreamTross.com.
 [00:01:35] David Carleman: The future of laundry technology is here today guys. This is a tool to help us augment our staff's ability to do a new wash drive.
-[00:01:44] Host or Interviewer: First, Lyndon, can you tell us a little bit about this company? First off, what in the world made you want to go into creating laundry robots?
+[00:01:44] David Carleman: First, Lyndon, can you tell us a little bit about this company? First off, what in the world made you want to go into creating laundry robots?
 [00:01:54] Well, this is a very, very good question. So a little bit of a mystery about myself. Start of first, my first company, Wild Sports, set it all on that way.
 [00:02:04] David Carleman: Oh, no, no. What did he show off? I was figuring out business places. I was four, right?
 [00:02:12] Lindon Gao: And my third company is Paul Tipper. We started building smart shopping cart. You know these physical shopping carts.
@@ -52,16 +61,16 @@
 [00:05:30] Lindon Gao: And the model needs to be smart enough to navigate itself out of that format such that it could become a foldable state.
 [00:05:37] Lindon Gao: So that is one of the biggest, biggest challenges that we've been able to solve.
 [00:05:41] Whether you already have a laundromat or looking to get into the laundry industry, everyone needs proper drainage.
-[00:05:48] Host or Interviewer: We use HM company drain trots. Their drain trots were first created in 1991 and they have been the leading drain trot manufacturer ever since.
-[00:05:59] Host or Interviewer: They're made in the USA and their drain trots are fully customizable to meet your needs.
-[00:06:05] Host or Interviewer: That's why we've used them ever since entering the industry. They're easy to clean for our staff and plenty sturdy when we need to walk on them when servicing our washers.
+[00:05:48] David Carleman: We use HM company drain trots. Their drain trots were first created in 1991 and they have been the leading drain trot manufacturer ever since.
+[00:05:59] David Carleman: They're made in the USA and their drain trots are fully customizable to meet your needs.
+[00:06:05] David Carleman: That's why we've used them ever since entering the industry. They're easy to clean for our staff and plenty sturdy when we need to walk on them when servicing our washers.
 [00:06:15] With the ability to span up to 25 feet, our trots rarely need to be connected together, creating an easy installation.
-[00:06:23] Host or Interviewer: Want to slope your trot like we do? No problem. Just let the experts at HM company know.
-[00:06:30] Host or Interviewer: For more information, go to their website at draintrots.com. That is drain trots.com.
-[00:06:39] Host or Interviewer: HM company drain trots. They've been leading the industry since 1991. Check them out today.
+[00:06:23] David Carleman: Want to slope your trot like we do? No problem. Just let the experts at HM company know.
+[00:06:30] David Carleman: For more information, go to their website at draintrots.com. That is drain trots.com.
+[00:06:39] David Carleman: HM company drain trots. They've been leading the industry since 1991. Check them out today.
 [00:06:47] Wow. This idea tells a question, but how is A.O. Robotics different than another robot?
-[00:06:55] Host or Interviewer: Like you said, because it can problem solve and get itself out of a situation. It's also like, do you train the robot?
-[00:07:02] Host or Interviewer: Like we were to buy these robots. We have to train it.
+[00:06:55] David Carleman: Like you said, because it can problem solve and get itself out of a situation. It's also like, do you train the robot?
+[00:07:02] David Carleman: Like we were to buy these robots. We have to train it.
 [00:07:06] This is a really good question. How are the A.O. Robotics work? That's very different from traditional machines.
 [00:07:15] Lindon Gao: It's not traditional machines are programmed on traditional rules. What that means is the entire machine is programmed on an if statement.
 [00:07:24] Lindon Gao: So let's say in a typical machine is the food press button A that will do action B.
@@ -98,15 +107,15 @@
 [00:10:39] David Carleman: As far as folding laundry as far as folding laundry. No, but I think the one thing I cannot do is turn it closed inside out.
 [00:10:48] Lindon Gao: That's probably there. Yeah. Okay. Well, that's pretty important as we know.
 [00:10:52] David Carleman: Well, it's able to. I mean,
-[00:10:55] Host or Interviewer: see the laundry and determine what type it is and how to fold it or to you.
-[00:11:00] Host or Interviewer: So you don't have to tell it. Oh, this is a kids shirt versus this is a pair of.
-[00:11:05] Host or Interviewer: Yeah. Yeah. What the item is. So.
-[00:11:08] Host or Interviewer: It's a sort of laundry too. Yes. I mean, there's sort of right there.
+[00:10:55] David Carleman: see the laundry and determine what type it is and how to fold it or to you.
+[00:11:00] David Carleman: So you don't have to tell it. Oh, this is a kids shirt versus this is a pair of.
+[00:11:05] David Carleman: Yeah. Yeah. What the item is. So.
+[00:11:08] David Carleman: It's a sort of laundry too. Yes. I mean, there's sort of right there.
 [00:11:12] Lindon Gao: Wow. This is okay. I'm going to pass the place.
 [00:11:17] David Carleman: Now, I do want to say so. Craig, I know yours is even out in your facility.
-[00:11:21] Host or Interviewer: Where your self serve customers see it. Absolutely.
-[00:11:24] Host or Interviewer: Uh, behind you have like a barrier. Yeah.
-[00:11:27] Host or Interviewer: Interact with it. But what kind of reaction have you got?
+[00:11:21] David Carleman: Where your self serve customers see it. Absolutely.
+[00:11:24] David Carleman: Uh, behind you have like a barrier. Yeah.
+[00:11:27] David Carleman: Interact with it. But what kind of reaction have you got?
 [00:11:30] Craig Taylor: We've gotten things from people kind of going, oh, no, to other.
 [00:11:34] Craig Taylor: Most people, the reaction is. Wow. What's that?
 [00:11:38] Craig Taylor: They immediately went out their phone. They're taking videos of it, sharing with their friends.
@@ -117,7 +126,7 @@
 [00:11:59] David Carleman: It does seem to fold pretty slow.
 [00:12:02] David Carleman: If I compare that to my people, which granted they are amazing and they've been doing this three years, it's pretty slow.
 [00:12:08] David Carleman: But it doesn't take breaks or you don't have to pay a waste.
-[00:12:11] Host or Interviewer: For sure. But there's definitely some benefits.
+[00:12:11] David Carleman: For sure. But there's definitely some benefits.
 [00:12:14] David Carleman: But one of my questions is, will it speed up and another in a side question that is,
 [00:12:19] David Carleman: will it speed up as it gets better? Is that what is waiting on?
 [00:12:23] David Carleman: Okay. Yes. So what more data does collect it? Right?
@@ -138,7 +147,7 @@
 [00:13:43] You know what that means, but yes, put it in the bag and see a lead.
 [00:13:48] Lindon Gao: Yes, yes, that's slightly a little more difficult, but yeah, it's doable as well. Okay.
 [00:13:54] Okay. So Craig, honest assessment, how do you feel about the quality of the folds?
-[00:14:00] Host or Interviewer: They are adequate. I think they think that's a matter of time in more iterations, more trained.
+[00:14:00] David Carleman: They are adequate. I think they think that's a matter of time in more iterations, more trained.
 [00:14:08] Craig Taylor: So it's going to get better and better over a month that we've watching this thing.
 [00:14:12] Craig Taylor: It is absolutely true. Is your robot run 24 7 or no?
 [00:14:17] Craig Taylor: You need the volume to do exactly. So you have to feed it.
@@ -160,8 +169,8 @@
 [00:15:39] SPEAKER_06: And being able to what I call optimize your laundromat to generate more profit and more revenue out of the existing facility, that's the key to taking your life from good to great financially speaking with laundromats.
 [00:15:50] SPEAKER_06: And that's what made us laundromat millionaires.
 [00:15:53] SPEAKER_06: You don't have to just listen to us.
-[00:15:55] Host or Interviewer: Listen to what some of our past attendees have to say about our wash dry fold pick up and delivery workshop in Cincinnati, Ohio.
-[00:16:02] Host or Interviewer: It was the best workshop I've attended in over 25 years.
+[00:15:55] David Carleman: Listen to what some of our past attendees have to say about our wash dry fold pick up and delivery workshop in Cincinnati, Ohio.
+[00:16:02] David Carleman: It was the best workshop I've attended in over 25 years.
 [00:16:07] SPEAKER_00: And what you guys have put together is nothing short of phenomenal.
 [00:16:10] SPEAKER_00: I think that you guys have put together both strategic and tactical systems that will make an individual who wants to own the laundromat profitable within months, not years.
 [00:16:26] It was a workshop worth investment without a doubt, it was definitely worth the investment.
@@ -173,8 +182,8 @@
 [00:17:12] SPEAKER_03: I cannot say that enough.
 [00:17:14] SPEAKER_03: This was such a blessing and I am so very grateful that Dave and Carla put this together and are sharing their knowledge and experience with others to have this to have this to grow their business and to become more successful.
 [00:17:27] SPEAKER_03: Thank you guys.
-[00:17:29] Host or Interviewer: So are you interested? Go to laundromatmillionaire.com to learn more and see where you can register.
-[00:17:36] Host or Interviewer: All right, so London, tell us about your baby that doesn't have a name.
+[00:17:29] David Carleman: So are you interested? Go to laundromatmillionaire.com to learn more and see where you can register.
+[00:17:36] David Carleman: All right, so London, tell us about your baby that doesn't have a name.
 [00:17:41] David Carleman: What is that?
 [00:17:42] David Carleman: Okay, we named ours Sophie.
 [00:17:44] David Carleman: So, so she's really awesome.
@@ -195,7 +204,7 @@
 [00:18:46] And there's a camera down low.
 [00:18:48] Yes, okay, wow.
 [00:18:50] Lindon Gao: Wow, I'd expect that as well.
-[00:18:52] Host or Interviewer: So, right now, I see like trying to figure out what the article of clothing is and then just get it smooth.
+[00:18:52] David Carleman: So, right now, I see like trying to figure out what the article of clothing is and then just get it smooth.
 [00:18:58] Lindon Gao: Yes, so it's looking for ways to find a find the towel.
 [00:19:02] Lindon Gao: So, and that's that's traditionally a very very different ball of individual box right?
 [00:19:07] Lindon Gao: Because it's all it's nearly impossible to take a plumble towel.
@@ -232,20 +241,20 @@
 [00:20:56] Lindon Gao: You'll probably have a you'll be exactly and you'll be able to pick what have a full you want.
 [00:21:00] Lindon Gao: I've called how how an garment that you want to be folded.
 [00:21:03] Lindon Gao: I've been always just learned by myself. Wow.
-[00:21:05] Host or Interviewer: How long has this actually been like released to the market at this point?
-[00:21:09] Host or Interviewer: So right now it's fairly on the slows, but no, but we're we're live in restaurants.
+[00:21:05] David Carleman: How long has this actually been like released to the market at this point?
+[00:21:09] David Carleman: So right now it's fairly on the slows, but no, but we're we're live in restaurants.
 [00:21:18] Lindon Gao: We're live in Lodromeats.
 [00:21:20] Lindon Gao: Okay.
 [00:21:21] Lindon Gao: We're also live in fitness centers.
 [00:21:23] Lindon Gao: So we are curl as as we're pushing the boundaries of folding where obvious are missions to get this to full faster and you environments and also different types of barfits.
 [00:21:34] Lindon Gao: Get a lot better at that.
 [00:21:35] Lindon Gao: Have you ever thought about having so our our process here is that you are folding you split fold works.
-[00:21:42] Host or Interviewer: You know what those are.
-[00:21:43] Host or Interviewer: Yes.
-[00:21:44] Host or Interviewer: What about having and do the slip over?
-[00:21:46] Host or Interviewer: Yes.
-[00:21:47] Host or Interviewer: Yes.
-[00:21:48] Host or Interviewer: Yes.
+[00:21:42] David Carleman: You know what those are.
+[00:21:43] David Carleman: Yes.
+[00:21:44] David Carleman: What about having and do the slip over?
+[00:21:46] David Carleman: Yes.
+[00:21:47] David Carleman: Yes.
+[00:21:48] David Carleman: Yes.
 [00:21:49] Lindon Gao: It's we have we haven't because that's an easier way.
 [00:21:52] Lindon Gao: That's a solution.
 [00:21:53] Lindon Gao: That's a cop out way.
@@ -266,8 +275,8 @@
 [00:22:33] David Carleman: And it's because it's the consistent.
 [00:22:35] David Carleman: I said every product.
 [00:22:36] David Carleman: I just think it would make him consistent faster.
-[00:22:39] Host or Interviewer: It does for our workers.
-[00:22:41] Host or Interviewer: It does.
+[00:22:39] David Carleman: It does for our workers.
+[00:22:41] David Carleman: It does.
 [00:22:42] Lindon Gao: For sure.
 [00:22:43] Lindon Gao: Yeah.
 [00:22:44] Lindon Gao: Maybe I should.
@@ -332,15 +341,15 @@
 [00:24:50] Lindon Gao: Can I do this?
 [00:24:51] David Carleman: Maybe the tips.
 [00:24:52] David Carleman: Maybe the tips would have to be different
-[00:24:55] Host or Interviewer: where it has a barcode that basically gives them
-[00:24:58] Host or Interviewer: all the information for that order.
-[00:25:00] Host or Interviewer: Where they read it differently.
-[00:25:02] Host or Interviewer: They're not reading like,
-[00:25:02] Host or Interviewer: are people read like a printout of English?
-[00:25:06] Host or Interviewer: It just has a barcode.
-[00:25:07] Host or Interviewer: It knows it's order number 162.
-[00:25:09] Host or Interviewer: And this is what I do.
-[00:25:10] Host or Interviewer: That's right.
+[00:24:55] David Carleman: where it has a barcode that basically gives them
+[00:24:58] David Carleman: all the information for that order.
+[00:25:00] David Carleman: Where they read it differently.
+[00:25:02] David Carleman: They're not reading like,
+[00:25:02] David Carleman: are people read like a printout of English?
+[00:25:06] David Carleman: It just has a barcode.
+[00:25:07] David Carleman: It knows it's order number 162.
+[00:25:09] David Carleman: And this is what I do.
+[00:25:10] David Carleman: That's right.
 [00:25:11] David Carleman: OK, now I'm going to get nerdy or more nerdy.
 [00:25:15] David Carleman: Do you think someday there's a possibility
 [00:25:18] David Carleman: of integrating this into the software that we use?
@@ -388,10 +397,10 @@
 [00:26:35] Lindon Gao: we'll help us to do the things in work.
 [00:26:38] Lindon Gao: Very, very simple.
 [00:26:39] Lindon Gao: So just for about the year,
-[00:26:41] Host or Interviewer: it's next to the end of the towels.
-[00:26:43] Host or Interviewer: All the towels are the same size.
-[00:26:46] Host or Interviewer: But you've been up random objects
-[00:26:49] Host or Interviewer: and what it'd be able to hold them.
+[00:26:41] David Carleman: it's next to the end of the towels.
+[00:26:43] David Carleman: All the towels are the same size.
+[00:26:46] David Carleman: But you've been up random objects
+[00:26:49] David Carleman: and what it'd be able to hold them.
 [00:26:52] Yes.
 [00:26:53] Lindon Gao: So in the case of random objects, for example,
 [00:26:57] Lindon Gao: we have done it in, we have tried
@@ -423,11 +432,11 @@
 [00:27:57] Craig Taylor: But I was like incredible.
 [00:27:59] Craig Taylor: That it was.
 [00:28:00] Craig Taylor: That's your every time I look over here,
-[00:28:01] Host or Interviewer: you get the golf smooth.
-[00:28:02] Host or Interviewer: I'm like, oh, my god.
+[00:28:01] David Carleman: you get the golf smooth.
+[00:28:02] David Carleman: I'm like, oh, my god.
 [00:28:05] That's the mom and the teacher.
 [00:28:06] David Carleman: I know.
-[00:28:08] Host or Interviewer: Do what to praise, everybody.
+[00:28:08] David Carleman: Do what to praise, everybody.
 [00:28:09] David Carleman: Does it recognize praise?
 [00:28:12] Lindon Gao: Of course, my head doesn't.
 [00:28:13] Lindon Gao: But I love having a reward model where
@@ -524,12 +533,12 @@
 [00:31:43] David Carleman: putting it on the thing and it could take that bundle of laundry and put it on the appropriate shelf.
 [00:31:48] And then that goes into the delivery, the delivery person comes and grabs it off the shelf.
 [00:31:52] Craig Taylor: For the delivery robot.
-[00:31:54] Host or Interviewer: Oh, yeah.
-[00:31:55] Host or Interviewer: Oh, yeah.
-[00:31:56] Host or Interviewer: Let's do a whole new problem.
-[00:31:58] Host or Interviewer: Automatic car.
-[00:31:59] Host or Interviewer: I mean.
-[00:32:00] Host or Interviewer: Oh, yeah.
+[00:31:54] David Carleman: Oh, yeah.
+[00:31:55] David Carleman: Oh, yeah.
+[00:31:56] David Carleman: Let's do a whole new problem.
+[00:31:58] David Carleman: Automatic car.
+[00:31:59] David Carleman: I mean.
+[00:32:00] David Carleman: Oh, yeah.
 [00:32:01] Craig Taylor: Oh, yeah.
 [00:32:03] What are your thoughts on how crazy we are?
 [00:32:05] Lindon Gao: That's what we need.
@@ -581,15 +590,15 @@
 [00:34:07] Lindon Gao: It could wash your dishes for you.
 [00:34:09] Lindon Gao: Yes, it's all source of feelings.
 [00:34:11] Lindon Gao: Yes.
-[00:34:12] Host or Interviewer: How's work became a breeze with this robotic whirling dirtish?
-[00:34:15] Host or Interviewer: Let's go home, Rose.
+[00:34:12] David Carleman: How's work became a breeze with this robotic whirling dirtish?
+[00:34:15] David Carleman: Let's go home, Rose.
 [00:34:17] Never fear while Rosie is here.
-[00:34:20] Host or Interviewer: It's Rosie to the rescue.
+[00:34:20] David Carleman: It's Rosie to the rescue.
 [00:34:23] David Carleman: Let's do all that.
 [00:34:24] David Carleman: I think your robot needs to come to our workshop.
-[00:34:27] Host or Interviewer: Yes.
+[00:34:27] David Carleman: Yes.
 [00:34:28] David Carleman: I agree.
-[00:34:29] Host or Interviewer: Is your laundromat ready to become the neighborhood's number one choice?
+[00:34:29] David Carleman: Is your laundromat ready to become the neighborhood's number one choice?
 [00:34:35] SPEAKER_04: Laundra Boost has proven strategies to help your business flourish.
 [00:34:38] SPEAKER_04: I think we saw changes pretty quick before that four month range.
 [00:34:41] SPEAKER_07: I'm in that four month range now and Borcian changes love to cry.
@@ -606,15 +615,15 @@
 [00:35:15] SPEAKER_04: Ready to level up your laundromat?
 [00:35:18] SPEAKER_04: Visit LaundraBoostMarketing.com and book a call with us for a free consultation.
 [00:35:22] SPEAKER_04: One thing I think especially people who are here at the clean show are going to be wondering
-[00:35:27] Host or Interviewer: because you can't see all the robot is how much space is needed for one of these just
-[00:35:33] Host or Interviewer: just for folding.
-[00:35:34] Host or Interviewer: You're not moving around yet.
-[00:35:35] Host or Interviewer: How much space is needed for just a holding robot?
-[00:35:37] Host or Interviewer: This is it.
+[00:35:27] David Carleman: because you can't see all the robot is how much space is needed for one of these just
+[00:35:33] David Carleman: just for folding.
+[00:35:34] David Carleman: You're not moving around yet.
+[00:35:35] David Carleman: How much space is needed for just a holding robot?
+[00:35:37] David Carleman: This is it.
 [00:35:38] I know.
 [00:35:39] Lindon Gao: So why would you estimate that?
-[00:35:40] Host or Interviewer: That's what like for fee wide by about four foot by four foot.
-[00:35:45] Host or Interviewer: Four by four I think.
+[00:35:40] David Carleman: That's what like for fee wide by about four foot by four foot.
+[00:35:45] David Carleman: Four by four I think.
 [00:35:47] This robot will actually get even smaller.
 [00:35:49] Lindon Gao: So the base we got a little smaller and it will be able to move around.
 [00:35:53] Lindon Gao: So we'll get small footwork.
@@ -626,20 +635,20 @@
 [00:36:09] Lindon Gao: Yes.
 [00:36:10] Lindon Gao: Concept.
 [00:36:11] Okay.
-[00:36:12] Host or Interviewer: Yeah.
-[00:36:13] Host or Interviewer: Because you could narrow it like narrow shoulders.
-[00:36:14] Host or Interviewer: This has pretty wide shoulders.
-[00:36:15] Host or Interviewer: Yes.
-[00:36:16] Host or Interviewer: So the narrow the shoulders.
+[00:36:12] David Carleman: Yeah.
+[00:36:13] David Carleman: Because you could narrow it like narrow shoulders.
+[00:36:14] David Carleman: This has pretty wide shoulders.
+[00:36:15] David Carleman: Yes.
+[00:36:16] David Carleman: So the narrow the shoulders.
 [00:36:17] Lindon Gao: So it'll be a lot easier to manipulate this.
 [00:36:21] Lindon Gao: Wonderful.
-[00:36:22] Host or Interviewer: Awesome.
-[00:36:23] Host or Interviewer: And then what about as far as power?
-[00:36:24] Host or Interviewer: It looks like it's just plugging into a regular outlet.
-[00:36:27] Host or Interviewer: Yeah.
+[00:36:22] David Carleman: Awesome.
+[00:36:23] David Carleman: And then what about as far as power?
+[00:36:24] David Carleman: It looks like it's just plugging into a regular outlet.
+[00:36:27] David Carleman: Yeah.
 [00:36:28] David Carleman: Just regular outlet.
-[00:36:29] Host or Interviewer: And that's all I know.
-[00:36:30] Host or Interviewer: It's not special.
+[00:36:29] David Carleman: And that's all I know.
+[00:36:30] David Carleman: It's not special.
 [00:36:31] David Carleman: What that needed?
 [00:36:32] David Carleman: No.
 [00:36:33] David Carleman: That is awesome.
@@ -651,10 +660,10 @@
 [00:36:39] Lindon Gao: So in the future we'll do some about this little laptop inside.
 [00:36:41] Lindon Gao: Okay.
 [00:36:42] Lindon Gao: Okay.
-[00:36:43] Host or Interviewer: So they won't need to plug into a laptop.
-[00:36:45] Host or Interviewer: That is, it'll be part.
-[00:36:46] Host or Interviewer: Is that a lot of it?
-[00:36:47] Host or Interviewer: It has an inferencing engine that's underneath the tape.
+[00:36:43] David Carleman: So they won't need to plug into a laptop.
+[00:36:45] David Carleman: That is, it'll be part.
+[00:36:46] David Carleman: Is that a lot of it?
+[00:36:47] David Carleman: It has an inferencing engine that's underneath the tape.
 [00:36:51] Craig Taylor: But that'll consolidate on sure.
 [00:36:53] Craig Taylor: Yes.
 [00:36:54] Craig Taylor: Yeah.
@@ -668,7 +677,7 @@
 [00:37:06] David Carleman: you said 11 months ago.
 [00:37:08] Is that a, is that a literal thing?
 [00:37:10] David Carleman: Like the company was found and it didn't exist until one month ago.
-[00:37:14] Host or Interviewer: That one when the first robot came out.
+[00:37:14] David Carleman: That one when the first robot came out.
 [00:37:16] David Carleman: Yeah.
 [00:37:17] David Carleman: That didn't exist.
 [00:37:18] David Carleman: I did not.
@@ -689,8 +698,8 @@
 [00:37:36] David Carleman: Yeah.
 [00:37:37] David Carleman: Yeah.
 [00:37:38] David Carleman: Yeah.
-[00:37:39] Host or Interviewer: Yeah.
-[00:37:40] Host or Interviewer: Yeah.
+[00:37:39] David Carleman: Yeah.
+[00:37:40] David Carleman: Yeah.
 [00:37:41] Yeah.
 [00:37:42] David Carleman: Yeah.
 [00:37:52] Lindon Gao: Yeah.
@@ -699,24 +708,24 @@
 [00:37:53] Lindon Gao: Yeah.
 [00:37:52] Lindon Gao: six, six, seven months. Wow.
 [00:37:54] Lindon Gao: Yes. So did it look a whole lot different than what we're seeing now.
-[00:37:57] Host or Interviewer: It looked a lot different. And it was a lot worse than this is there was a lot of
+[00:37:57] David Carleman: It looked a lot different. And it was a lot worse than this is there was a lot of
 [00:38:03] Lindon Gao: wires hanging around and it did not hold it very well.
 [00:38:06] Lindon Gao: I thought it was looking around on your website because that was very
-[00:38:10] Host or Interviewer: very intrigued by all this and I thought the arms actually like clicked on to the table.
-[00:38:15] Host or Interviewer: Did it start off that way? Yes. Okay.
-[00:38:17] Host or Interviewer: So why did you move away from it? Because one thing the arms clicked on there would take up
-[00:38:22] Host or Interviewer: less space. Why did you move away from that?
-[00:38:25] Host or Interviewer: It's a lot easier to scale this way so that there's different tables that do
+[00:38:10] David Carleman: very intrigued by all this and I thought the arms actually like clicked on to the table.
+[00:38:15] David Carleman: Did it start off that way? Yes. Okay.
+[00:38:17] David Carleman: So why did you move away from it? Because one thing the arms clicked on there would take up
+[00:38:22] David Carleman: less space. Why did you move away from that?
+[00:38:25] David Carleman: It's a lot easier to scale this way so that there's different tables that do
 [00:38:29] Lindon Gao: perform that different width and so forth.
 [00:38:31] Lindon Gao: That's just at the end of it we still need to compute everything else.
 [00:38:35] Lindon Gao: It's much easier to just integrate into what unit so they'll be just deploying to new environments.
 [00:38:39] Lindon Gao: And you can put it on me also.
-[00:38:42] Host or Interviewer: It's ready for the next step of washing and drying.
-[00:38:46] Host or Interviewer: I have packaging and I love it to your customers.
+[00:38:42] David Carleman: It's ready for the next step of washing and drying.
+[00:38:46] David Carleman: I have packaging and I love it to your customers.
 [00:38:49] Lindon Gao: Yes.
 [00:38:50] Lindon Gao: I'm loading a truck.
 [00:38:50] Lindon Gao: Exactly.
-[00:38:51] Host or Interviewer: We'll get there.
+[00:38:51] David Carleman: We'll get there.
 [00:38:52] Lindon Gao: We'll get there.
 [00:38:53] Lindon Gao: We'll hold the truck and maybe you could have mealed for you on your way.
 [00:38:56] Lindon Gao: I love it.
@@ -795,7 +804,7 @@
 [00:42:01] So if we put someone like Marlene next to Dina or Sophie and they just watch her do laundry,
 [00:42:09] David Carleman: would that be a?
 [00:42:09] David Carleman: And they learn?
-[00:42:11] Host or Interviewer: With her way of learning or am I really increasing that?
+[00:42:11] David Carleman: With her way of learning or am I really increasing that?
 [00:42:14] David Carleman: Of course, really you are.
 [00:42:15] Lindon Gao: A little crazy now.
 [00:42:17] David Carleman: I'm trying to see how far I could take a lead, but that was pretty far.
@@ -849,8 +858,8 @@
 [00:44:53] Lindon Gao: And these are a folks up just advancing the hardware for tech, for technology.
 [00:44:58] Lindon Gao: Okay.
 [00:44:59] Lindon Gao: And I thought about making the fingers.
-[00:45:01] Host or Interviewer: So right now you kind of just have ventures.
-[00:45:03] Host or Interviewer: We thought about making them more like fingers.
+[00:45:01] David Carleman: So right now you kind of just have ventures.
+[00:45:03] David Carleman: We thought about making them more like fingers.
 [00:45:06] Yes.
 [00:45:06] So these, basically the finger technology right now, this time,
 [00:45:11] Lindon Gao: I will say commercial already yet, because we have a lot of joins.
@@ -969,8 +978,8 @@
 [00:49:21] Lindon Gao: But yes, it will also be able to detect stains.
 [00:49:24] Lindon Gao: It's next wow.
 [00:49:25] Lindon Gao: So how like if it sees a stain like shove it aside,
-[00:49:28] Host or Interviewer: like do you need something with that?
-[00:49:29] Host or Interviewer: Yes.
+[00:49:28] David Carleman: like do you need something with that?
+[00:49:29] David Carleman: Yes.
 [00:49:31] Now, if Lyndon, I was talking to one of your engineers,
 [00:49:33] Craig Taylor: and she mentioned potentially the grippers, the fellow programmers,
 [00:49:37] Craig Taylor: will eventually be able to sensey touch and get a feedback there.
@@ -1003,28 +1012,28 @@
 [00:50:26] Lindon Gao: Seven point.
 [00:50:27] Lindon Gao: So since it actually helps with our overall quality and third place.
 [00:50:30] Lindon Gao: Well, I'm so excited to see this and I can't wait to see what you all are going to have.
-[00:50:36] Host or Interviewer: And a month from now, a year from now,
-[00:50:38] Host or Interviewer: I can't believe you did this in like six months.
-[00:50:41] Host or Interviewer: This is amazing.
-[00:50:42] Host or Interviewer: Yes.
-[00:50:43] Host or Interviewer: Um, for those of you out there,
-[00:50:44] Host or Interviewer: if you are at the clean show,
-[00:50:45] Host or Interviewer: you've got to stop by 867 and check out the Diner robots.
-[00:50:50] Host or Interviewer: They are amazing.
-[00:50:52] Host or Interviewer: Now we've been focusing on just this how-folding robot,
-[00:50:54] Host or Interviewer: but there is also a sorting robot.
-[00:50:57] Host or Interviewer: Yep.
-[00:50:57] Host or Interviewer: And it's whatever here that's holding my shirts and stuff too.
-[00:51:00] Host or Interviewer: So you're going to come and see it all.
-[00:51:03] Host or Interviewer: But thank you so much, Linda.
-[00:51:05] Host or Interviewer: Yes.
-[00:51:05] Host or Interviewer: Before having a listen.
-[00:51:06] Host or Interviewer: Thank you, my friend.
+[00:50:36] David Carleman: And a month from now, a year from now,
+[00:50:38] David Carleman: I can't believe you did this in like six months.
+[00:50:41] David Carleman: This is amazing.
+[00:50:42] David Carleman: Yes.
+[00:50:43] David Carleman: Um, for those of you out there,
+[00:50:44] David Carleman: if you are at the clean show,
+[00:50:45] David Carleman: you've got to stop by 867 and check out the Diner robots.
+[00:50:50] David Carleman: They are amazing.
+[00:50:52] David Carleman: Now we've been focusing on just this how-folding robot,
+[00:50:54] David Carleman: but there is also a sorting robot.
+[00:50:57] David Carleman: Yep.
+[00:50:57] David Carleman: And it's whatever here that's holding my shirts and stuff too.
+[00:51:00] David Carleman: So you're going to come and see it all.
+[00:51:03] David Carleman: But thank you so much, Linda.
+[00:51:05] David Carleman: Yes.
+[00:51:05] David Carleman: Before having a listen.
+[00:51:06] David Carleman: Thank you, my friend.
 [00:51:07] David Carleman: Thank you so much for having me.
 [00:51:08] David Carleman: Thank you so much.
-[00:51:09] Host or Interviewer: Thank you for sharing your experience with us.
-[00:51:12] Host or Interviewer: Absolutely.
-[00:51:13] Host or Interviewer: The future of laundry technology is here today, guys.
+[00:51:09] David Carleman: Thank you for sharing your experience with us.
+[00:51:12] David Carleman: Absolutely.
+[00:51:13] David Carleman: The future of laundry technology is here today, guys.
 [00:51:17] David Carleman: It isn't coming in two years.
 [00:51:18] David Carleman: Now, perfection is coming in two years.
 [00:51:20] David Carleman: Ha ha ha ha.
@@ -1040,5 +1049,5 @@
 [00:51:36] David Carleman: If you are here, come and talk to all these vendors.
 [00:51:39] David Carleman: Because man, exciting stuff happened in the industry.
 [00:51:41] David Carleman: This is the end of this episode,
-[00:51:43] Host or Interviewer: sponsored by HN Company at dreamtross.com.
-[00:51:47] Host or Interviewer: We'll see you next time.
+[00:51:43] David Carleman: sponsored by HN Company at dreamtross.com.
+[00:51:47] David Carleman: We'll see you next time.

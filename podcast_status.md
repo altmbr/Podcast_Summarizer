@@ -7793,8 +7793,8 @@
 **Total Episodes:** 67
 
 **Status Summary:**
-- discovered: 62
-- summarized: 5
+- discovered: 61
+- summarized: 6
 
 **Episodes:**
 
@@ -8194,11 +8194,11 @@
   - Status: `summarized`
   - Discovered: 2025-11-11 09:29:02
 
-- 🔍 **How End-to-End Learning Created Autonomous Driving 2.0: Wayve CEO Alex Kendall**
+- ✅ **How End-to-End Learning Created Autonomous Driving 2.0: Wayve CEO Alex Kendall**
   - ID: `8x_O8BeGNTw`
   - Published: 2025-11-18
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-11-18 19:46:39
 
 ---
 
@@ -8342,10 +8342,10 @@
 
 ## Ben & Mark Show
 
-**Total Episodes:** 32
+**Total Episodes:** 33
 
 **Status Summary:**
-- discovered: 32
+- discovered: 33
 
 **Episodes:**
 
@@ -8537,6 +8537,12 @@
 
 - 🔍 **[Private video]**
   - ID: `jO-SWlW6DFY`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `rCj-dTWQlNw`
   - Published: 0
   - Status: `discovered`
   - Discovered: None
@@ -14882,7 +14888,8 @@
 
 **Status Summary:**
 - discovered: 13
-- summarized: 3
+- summarized: 2
+- transcribed: 1
 
 **Episodes:**
 
@@ -14976,10 +14983,10 @@
   - Status: `discovered`
   - Discovered: None
 
-- ✅ **120. Xpeng's Newly Appointed Liu Xianming's First Interview: Language is Poison,**
+- 📝 **120. Xpeng's Newly Appointed Liu Xianming's First Interview: Language is Poison,**
   - ID: `691c3670cbba038b421f74a4`
   - Published: 2025-11-18
-  - Status: `summarized`
+  - Status: `transcribed`
   - Discovered: 2025-11-18 10:59:45
 
 ---
