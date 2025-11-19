@@ -3483,6 +3483,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "4-VzXoZqAH0": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -8502,6 +8509,13 @@
           "region": "Western"
         },
         "rCj-dTWQlNw": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "OqYUH7r96i4": {
           "title": "[Private video]",
           "upload_date": "0",
           "discovered_date": null,
@@ -15038,7 +15052,7 @@
           "title": "120. Xpeng's Newly Appointed Liu Xianming's First Interview: Language is Poison, Remove the L, Simplicity is Beauty, Leadership Change, Xpeng's AI Transformation",
           "upload_date": "20251118",
           "discovered_date": "2025-11-18 10:59:45",
-          "status": "transcribed",
+          "status": "summarized",
           "region": "Chinese"
         }
       }
@@ -23810,6 +23824,13 @@
           "discovered_date": "2025-11-17 21:21:18",
           "status": "summarized",
           "region": "Western"
+        },
+        "RDc0D0VKROA": {
+          "title": "I Failed 12 Times Before Making $1,000,000 (Here's Every Failure)",
+          "upload_date": "20251119",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -24236,6 +24257,13 @@
           "title": "Parker Conrad\u2019s Revenge Fantasy",
           "upload_date": "20251114",
           "discovered_date": "2025-11-16 10:15:39",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "JSQCA7Y1SKY": {
+          "title": "Parker Conrad\u2019s Revenge Fantasy",
+          "upload_date": "20251119",
+          "discovered_date": "2025-11-19 07:34:35",
           "status": "summarized",
           "region": "Western"
         }

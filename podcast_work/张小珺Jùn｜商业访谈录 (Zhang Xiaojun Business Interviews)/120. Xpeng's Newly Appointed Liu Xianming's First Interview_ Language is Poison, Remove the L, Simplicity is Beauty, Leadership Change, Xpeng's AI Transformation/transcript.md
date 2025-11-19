@@ -7,6 +7,15 @@
 
 ---
 
+# 120. Xpeng's Newly Appointed Liu Xianming's First Interview: Language is Poison, Remove the L, Simplicity is Beauty, Leadership Change, Xpeng's AI Transformation
+
+**Podcast:** 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
+**Date:** 2025-11-18
+**Video ID:** 691c3670cbba038b421f74a4
+**Video URL:** https://www.xiaoyuzhoufm.com/episode/691c3670cbba038b421f74a4
+
+---
+
 [00:00:00] 来小朋友就是那个时候大师兄
 [00:00:07] 就是跟我咱们对估办公室
 [00:00:09] 有了一个小时之前还得犹豫

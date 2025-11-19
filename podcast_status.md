@@ -2654,10 +2654,10 @@
 
 ## No Priors
 
-**Total Episodes:** 138
+**Total Episodes:** 139
 
 **Status Summary:**
-- discovered: 135
+- discovered: 136
 - summarized: 3
 
 **Episodes:**
@@ -3487,6 +3487,12 @@
 - 🔍 **No Priors Ep. 140 | With Benchling Co-Founder and CEO Sajith Wickramasekara**
   - ID: `JwyX7fDERBc`
   - Published: 2025-11-13
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `4-VzXoZqAH0`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
@@ -8342,10 +8348,10 @@
 
 ## Ben & Mark Show
 
-**Total Episodes:** 33
+**Total Episodes:** 34
 
 **Status Summary:**
-- discovered: 33
+- discovered: 34
 
 **Episodes:**
 
@@ -8543,6 +8549,12 @@
 
 - 🔍 **[Private video]**
   - ID: `rCj-dTWQlNw`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `OqYUH7r96i4`
   - Published: 0
   - Status: `discovered`
   - Discovered: None
@@ -14888,8 +14900,7 @@
 
 **Status Summary:**
 - discovered: 13
-- summarized: 2
-- transcribed: 1
+- summarized: 3
 
 **Episodes:**
 
@@ -14983,10 +14994,10 @@
   - Status: `discovered`
   - Discovered: None
 
-- 📝 **120. Xpeng's Newly Appointed Liu Xianming's First Interview: Language is Poison,**
+- ✅ **120. Xpeng's Newly Appointed Liu Xianming's First Interview: Language is Poison,**
   - ID: `691c3670cbba038b421f74a4`
   - Published: 2025-11-18
-  - Status: `transcribed`
+  - Status: `summarized`
   - Discovered: 2025-11-18 10:59:45
 
 ---
@@ -18970,10 +18981,10 @@
 
 ## My First Million
 
-**Total Episodes:** 593
+**Total Episodes:** 594
 
 **Status Summary:**
-- discovered: 590
+- discovered: 591
 - summarized: 3
 
 **Episodes:**
@@ -22536,6 +22547,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-17 21:21:18
 
+- 🔍 **I Failed 12 Times Before Making $1,000,000 (Here's Every Failure)**
+  - ID: `RDc0D0VKROA`
+  - Published: 2025-11-19
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## One-off Episodes
@@ -22911,10 +22928,10 @@
 
 ## Long Strange Trip w Brian Halligan
 
-**Total Episodes:** 1
+**Total Episodes:** 2
 
 **Status Summary:**
-- summarized: 1
+- summarized: 2
 
 **Episodes:**
 
@@ -22923,6 +22940,12 @@
   - Published: 2025-11-14
   - Status: `summarized`
   - Discovered: 2025-11-16 10:15:39
+
+- ✅ **Parker Conrad’s Revenge Fantasy**
+  - ID: `JSQCA7Y1SKY`
+  - Published: 2025-11-19
+  - Status: `summarized`
+  - Discovered: 2025-11-19 07:34:35
 
 ---
 
