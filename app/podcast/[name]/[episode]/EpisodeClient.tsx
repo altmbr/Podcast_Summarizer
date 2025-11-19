@@ -6,9 +6,10 @@ import MarkdownRenderer from '@/components/MarkdownRenderer'
 interface EpisodeClientProps {
   summary?: string
   transcript?: string
+  episodeUrl: string
 }
 
-export default function EpisodeClient({ summary, transcript }: EpisodeClientProps) {
+export default function EpisodeClient({ summary, transcript, episodeUrl }: EpisodeClientProps) {
   const [activeTab, setActiveTab] = useState<'summary' | 'transcript'>('summary')
 
   return (
@@ -38,9 +39,9 @@ export default function EpisodeClient({ summary, transcript }: EpisodeClientProp
 
       <div>
         {activeTab === 'summary' && summary ? (
-          <MarkdownRenderer content={summary} />
+          <MarkdownRenderer content={summary} episodeUrl={episodeUrl} enableInsightSharing={true} />
         ) : activeTab === 'transcript' && transcript ? (
-          <MarkdownRenderer content={transcript} />
+          <MarkdownRenderer content={transcript} episodeUrl={episodeUrl} enableInsightSharing={false} />
         ) : (
           <p style={{ color: 'var(--muted-foreground)' }}>No content available</p>
         )}

@@ -133,7 +133,11 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
       </header>
 
       {/* Client Component for tabs */}
-      <EpisodeClient summary={episode.summary} transcript={episode.transcript} />
+      <EpisodeClient
+        summary={episode.summary}
+        transcript={episode.transcript}
+        episodeUrl={`https://teahose.com/podcast/${name}/${episodeSlug}`}
+      />
 
       {/* Footer */}
       <footer style={{ borderTopColor: 'var(--border)' }} className="border-t mt-16 md:mt-20">
