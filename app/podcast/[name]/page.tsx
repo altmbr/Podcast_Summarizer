@@ -36,13 +36,16 @@ export async function generateMetadata({ params }: PodcastPageProps): Promise<Me
   const title = `${podcastName} - Podcast Summaries | Teahose`
   const description = `Browse ${episodes.length} episode${episodes.length !== 1 ? 's' : ''} from ${podcastName}. AI-generated summaries and transcripts for tech podcast episodes.`
 
+  // Use consistent URL encoding for canonical and social sharing
+  const canonicalUrl = `https://teahose.com/podcast/${encodeURIComponent(podcastName)}`
+
   return {
     title,
     description,
     openGraph: {
       title,
       description,
-      url: `https://teahose.com/podcast/${name}`,
+      url: canonicalUrl,
       siteName: 'Teahose',
       type: 'website',
       images: [
@@ -61,7 +64,7 @@ export async function generateMetadata({ params }: PodcastPageProps): Promise<Me
       images: ['/og-image.png'],
     },
     alternates: {
-      canonical: `https://teahose.com/podcast/${name}`,
+      canonical: canonicalUrl,
     },
   }
 }
