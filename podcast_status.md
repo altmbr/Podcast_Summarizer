@@ -2654,11 +2654,11 @@
 
 ## No Priors
 
-**Total Episodes:** 139
+**Total Episodes:** 142
 
 **Status Summary:**
-- discovered: 136
-- summarized: 3
+- discovered: 138
+- summarized: 4
 
 **Episodes:**
 
@@ -3490,9 +3490,27 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- ✅ **No Priors Ep. 141 | With Sunday Robotics Co-Founders Tony Zhao and Cheng Chi**
   - ID: `4-VzXoZqAH0`
-  - Published: 0
+  - Published: 2025-11-20
+  - Status: `summarized`
+  - Discovered: 2025-11-21 09:58:25
+
+- 🔍 **No Priors Ep. 133 | With Alpha School Principal Joe Liemandt**
+  - ID: `ol_pDIlL71U`
+  - Published: 2025-10-22
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No Priors Ep. 135 | With Humans& Founder Eric Zelikman**
+  - ID: `Oh0oQnKn9dw`
+  - Published: 2025-10-22
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No Priors Ep. 129 | With U.S. Under Secretary of State (E) Designate Jacob Helbe**
+  - ID: `hIQjOCNidb0`
+  - Published: 2025-09-22
   - Status: `discovered`
   - Discovered: None
 
@@ -5294,12 +5312,12 @@
 
 ## More or Less
 
-**Total Episodes:** 125
+**Total Episodes:** 126
 
 **Status Summary:**
 - discovered: 110
 - downloaded: 12
-- summarized: 3
+- summarized: 4
 
 **Episodes:**
 
@@ -6053,6 +6071,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-14 15:36:35
 
+- ✅ **Google Just Won AI, TikTok’s “Self-Control Badges”, ChatGPT Enters Group Chats**
+  - ID: `ahZTkLfJTyk`
+  - Published: 2025-11-21
+  - Status: `summarized`
+  - Discovered: 2025-11-21 09:19:47
+
 ---
 
 ## Uncapped
@@ -6243,10 +6267,10 @@
 
 ## Sourcery
 
-**Total Episodes:** 93
+**Total Episodes:** 94
 
 **Status Summary:**
-- discovered: 86
+- discovered: 87
 - summarized: 7
 
 **Episodes:**
@@ -6808,6 +6832,12 @@
   - Published: 2025-11-18
   - Status: `summarized`
   - Discovered: 2025-11-18 10:45:36
+
+- 🔍 **$635M Exit → $600M Fund: David Ulevitch on Building a16z’s Hottest New Fund**
+  - ID: `P7SrvpieY7c`
+  - Published: 2025-11-21
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -7515,10 +7545,10 @@
 
 ## Invest like the best
 
-**Total Episodes:** 42
+**Total Episodes:** 44
 
 **Status Summary:**
-- discovered: 40
+- discovered: 42
 - summarized: 2
 
 **Episodes:**
@@ -7774,6 +7804,18 @@
   - Published: 2025-11-11
   - Status: `summarized`
   - Discovered: 2025-11-11 09:22:51
+
+- 🔍 **Inside Ari Emanuel’s "Anti-AI" Bet on Live Entertainment**
+  - ID: `xDuqUlZZ8Vk`
+  - Published: 2025-11-21
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Anatomy of Ramp's Hyper-Growth | Karim Atiyeh Interview**
+  - ID: `Rt7_Uk4yVnk`
+  - Published: 2025-10-22
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -8553,9 +8595,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **Ben Horowitz & Marc Andreessen: Why Silicon Valley Turned Against Defense (And H**
   - ID: `OqYUH7r96i4`
-  - Published: 0
+  - Published: 2025-11-20
   - Status: `discovered`
   - Discovered: None
 
@@ -12274,11 +12316,11 @@
 
 ## Uncapped Founders
 
-**Total Episodes:** 10
+**Total Episodes:** 11
 
 **Status Summary:**
 - discovered: 8
-- summarized: 2
+- summarized: 3
 
 **Episodes:**
 
@@ -12342,15 +12384,21 @@
   - Status: `summarized`
   - Discovered: 2025-11-12 18:42:38
 
+- ✅ **Robinhood’s Vlad Tenev on AI, Prediction Markets, and the Future of Trading**
+  - ID: `3Gh7Yr4n4kA`
+  - Published: 2025-11-21
+  - Status: `summarized`
+  - Discovered: 2025-11-21 09:27:56
+
 ---
 
 ## Lenny's
 
-**Total Episodes:** 294
+**Total Episodes:** 295
 
 **Status Summary:**
 - discovered: 292
-- summarized: 2
+- summarized: 3
 
 **Episodes:**
 
@@ -14117,6 +14165,12 @@
   - Published: 2025-11-16
   - Status: `summarized`
   - Discovered: 2025-11-16 10:00:33
+
+- ✅ **Mental models for building products people love ft. Stewart Butterfield**
+  - ID: `kLe-zy5r0Mk`
+  - Published: 2025-11-21
+  - Status: `summarized`
+  - Discovered: 2025-11-21 09:35:06
 
 ---
 
@@ -18981,10 +19035,10 @@
 
 ## My First Million
 
-**Total Episodes:** 594
+**Total Episodes:** 595
 
 **Status Summary:**
-- discovered: 591
+- discovered: 592
 - summarized: 3
 
 **Episodes:**
@@ -22553,6 +22607,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **The Billionaire Pickup Line That Broke the Internet**
+  - ID: `DSI2YN5eau8`
+  - Published: 2025-11-21
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## One-off Episodes
@@ -22928,10 +22988,10 @@
 
 ## Long Strange Trip w Brian Halligan
 
-**Total Episodes:** 2
+**Total Episodes:** 3
 
 **Status Summary:**
-- summarized: 2
+- summarized: 3
 
 **Episodes:**
 
@@ -22947,14 +23007,21 @@
   - Status: `summarized`
   - Discovered: 2025-11-19 07:34:35
 
+- ✅ **Intuit CEO Sasan Goodarzi’s Grown-Up CEO Playbook**
+  - ID: `uQaipciNW5o`
+  - Published: 2025-11-21
+  - Status: `summarized`
+  - Discovered: 2025-11-21 09:46:50
+
 ---
 
 ## Stanford AI Speaker Series
 
-**Total Episodes:** 1
+**Total Episodes:** 2
 
 **Status Summary:**
 - discovered: 1
+- summarized: 1
 
 **Episodes:**
 
@@ -22963,6 +23030,12 @@
   - Published: 2025-10-20
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **Stanford AI Club: Guillermo Rauch on Building the AI Cloud**
+  - ID: `Uac2ZCpuU2Y`
+  - Published: 2025-11-21
+  - Status: `summarized`
+  - Discovered: 2025-11-21 09:54:43
 
 ---
 
