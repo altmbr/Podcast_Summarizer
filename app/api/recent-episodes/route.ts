@@ -50,10 +50,10 @@ export async function GET() {
       }
     }
 
-    // Sort by date, newest first, and take top 5
+    // Sort by date, newest first, and take top 10
     const recentEpisodes = allEpisodes
       .sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime())
-      .slice(0, 5)
+      .slice(0, 10)
       .map(({ dateObj, ...episode }) => episode) // Remove dateObj from response
 
     return Response.json(recentEpisodes)
