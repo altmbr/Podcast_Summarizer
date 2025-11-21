@@ -1,5 +1,5 @@
 'use client'
-
+// Updated to show 10 recent episodes
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import ShareButton from '@/components/ShareButton'
