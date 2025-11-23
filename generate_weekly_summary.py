@@ -172,6 +172,13 @@ def sanitize_filename(filename):
     filename = filename.strip('. ')
     return filename
 
+def get_teahose_url(podcast_name, episode_slug):
+    """Generate teahose.com URL for an episode"""
+    from urllib.parse import quote
+    encoded_podcast = quote(podcast_name)
+    encoded_slug = quote(episode_slug)
+    return f"https://teahose.com/podcast/{encoded_podcast}/{encoded_slug}"
+
 def read_summary_file(summary_path):
     """Read a summary file and return its content"""
     try:
@@ -197,6 +204,21 @@ def generate_weekly_summary_with_ai(episodes, weekly_prompt):
         print("❌ Error: ANTHROPIC_API_KEY not set in .env file")
         sys.exit(1)
 
+    # Build episode URL mapping for teahose.com
+    episode_urls = []
+    for ep in episodes:
+        # Extract episode slug from the summary path (parent folder name)
+        episode_slug = ep["summary_path"].parent.name
+        teahose_url = get_teahose_url(ep["podcast_name"], episode_slug)
+        episode_urls.append(f'- **{ep["title"]}** → {teahose_url}')
+
+    # Insert episode URLs into the prompt
+    episode_urls_section = "\n".join(episode_urls)
+    weekly_prompt_with_urls = weekly_prompt.replace(
+        "[Episode URLs will be automatically injected here by the script]",
+        episode_urls_section
+    )
+
     # Build the combined content from all episode summaries
     combined_summaries = []
     for ep in episodes:
@@ -218,7 +240,7 @@ def generate_weekly_summary_with_ai(episodes, weekly_prompt):
 
     # Combine all summaries with the prompt
     all_content = "\n\n".join(combined_summaries)
-    full_prompt = f"""{weekly_prompt}
+    full_prompt = f"""{weekly_prompt_with_urls}
 
 ---
 
