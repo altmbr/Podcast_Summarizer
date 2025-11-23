@@ -45,6 +45,11 @@ __pycache__/
 *.part
 *.ytdl
 
+# Generated files
+*.pdf
+*.backup
+synergy_analysis.csv
+
 # Newsletter email data (private)
 data/
 data/newsletter-emails.json
