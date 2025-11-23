@@ -291,7 +291,9 @@ def save_weekly_summary(summary_text, episodes, days=7):
 
 """
     for ep in episodes:
-        temp_content += f"- **{ep['podcast_name']}** - {ep['title']} ({ep['upload_date_formatted']})\n"
+        episode_slug = ep["summary_path"].parent.name
+        teahose_url = get_teahose_url(ep["podcast_name"], episode_slug)
+        temp_content += f"- **{ep['podcast_name']}** - [{ep['title']}]({teahose_url}) ({ep['upload_date_formatted']})\n"
 
     temp_content += "\n---\n\n" + summary_text
 
@@ -327,7 +329,9 @@ def save_weekly_summary(summary_text, episodes, days=7):
                 # List episodes included
                 f.write("## Episodes Included\n\n")
                 for ep in episodes:
-                    f.write(f"- **{ep['podcast_name']}** - {ep['title']} ({ep['upload_date_formatted']})\n")
+                    episode_slug = ep["summary_path"].parent.name
+                    teahose_url = get_teahose_url(ep["podcast_name"], episode_slug)
+                    f.write(f"- **{ep['podcast_name']}** - [{ep['title']}]({teahose_url}) ({ep['upload_date_formatted']})\n")
 
                 f.write("\n---\n\n")
                 f.write(summary_text)
