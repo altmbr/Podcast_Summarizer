@@ -2,6 +2,29 @@
 
 A comprehensive podcast downloading, transcription, and summarization system that intelligently manages YouTube playlists with interactive episode selection.
 
+## Current Status (November 2025)
+
+✅ **Fully Operational** - Processing 30+ podcasts from YouTube and Xiaoyuzhou platforms
+✅ **Published Online** - All content auto-deployed to [teahose.com](https://teahose.com)
+✅ **Cost Optimized** - Free transcription with MLX-Whisper (M1/M2 GPU) = ~20-30% cost reduction
+✅ **SEO Optimized** - 200+ pages indexed with structured data and sitemap
+
+### Recent Major Updates
+
+**November 2025:**
+- 🚀 **Switched to MLX-Whisper** - Local GPU-accelerated transcription (FREE, no API costs)
+- 💰 **Cost Reduction** - ~$0.10-0.30 per episode savings on transcription
+- ⚡ **Faster Processing** - M1/M2 GPU acceleration for transcription
+- 📊 **Monthly Savings** - $20-50/month for high-volume users (200 episodes)
+
+**Key Features:**
+- MLX-Whisper for local transcription (M1/M2 Macs)
+- Voice-based speaker diarization with pyannote
+- Claude Sonnet 4.5 for comprehensive 16K token summaries
+- Chinese podcast support via Xiaoyuzhou platform
+- One-off episode processing with auto-cleanup
+- Weekly summary generation with AI-generated header images
+
 ## Overview
 
 This system automates the process of:
@@ -9,7 +32,7 @@ This system automates the process of:
 2. Processing one-off episodes from individual URLs (with automatic cleanup after completion)
 3. Allowing you to interactively select which episodes to process
 4. Downloading audio files
-5. Transcribing audio to text using OpenAI's Whisper
+5. Transcribing audio to text using MLX-Whisper (local GPU-accelerated on M1/M2 Macs)
 6. Identifying speakers using voice diarization and Claude AI
 7. Generating comprehensive AI-powered summaries using Claude Sonnet 4.5 (16K tokens)
 8. Automatically translating Chinese titles to English and tracking content region
@@ -266,15 +289,21 @@ Contains API keys and configuration.
 
 **Required:**
 ```
-OPENAI_API_KEY=sk-proj-...       # For Whisper transcription only
 ANTHROPIC_API_KEY=sk-ant-...     # For speaker identification (Haiku) and summarization (Sonnet 4.5)
 ```
 
-The system requires both API keys:
-- **OPENAI_API_KEY**: Used exclusively for Whisper audio transcription
-- **ANTHROPIC_API_KEY**: Used for both speaker identification (Claude Haiku 3.5) and summarization (Claude Sonnet 4.5)
+**Optional/Legacy:**
+```
+OPENAI_API_KEY=sk-proj-...       # Legacy - no longer used (transcription now uses local mlx-whisper)
+HUGGINGFACE_TOKEN=hf_...         # Optional - for pyannote speaker diarization
+```
 
-The system will warn you at startup if either key is missing.
+The system now uses:
+- **MLX-Whisper** (local, GPU-accelerated): Audio transcription on M1/M2 Macs - FREE, no API costs
+- **ANTHROPIC_API_KEY**: Speaker identification (Claude Haiku 3.5) and summarization (Claude Sonnet 4.5)
+- **HUGGINGFACE_TOKEN** (optional): Voice-based speaker diarization with pyannote.audio
+
+The system will warn you at startup if the Anthropic API key is missing.
 
 ## Workflow
 
@@ -324,7 +353,9 @@ For each selected episode:
 - Saves as `raw_podcast.mp3`
 
 **Step 2: Transcribe**
-- Uses OpenAI's Whisper for transcription
+- Uses MLX-Whisper (local, GPU-accelerated) for transcription on M1/M2 Macs
+- Model: `mlx-community/whisper-base-mlx` (configurable: tiny, base, small, medium, large)
+- Runs locally with M1/M2 GPU acceleration - no API costs
 - Includes segment timestamps `[HH:MM:SS]`
 - Adds metadata header (title, podcast, date, URL)
 - Saves initial transcript to `transcript_raw.md`
@@ -398,25 +429,41 @@ Day 8: Podcast now has 13 episodes
   → User downloads all 3 new episodes
 ```
 
+## System Requirements
+
+**Recommended (for optimal performance):**
+- **Apple M1/M2/M3 Mac** - Required for GPU-accelerated MLX-Whisper transcription
+- **macOS 12.0+** - For Metal Performance Shaders (MPS) support
+- **16GB+ RAM** - For handling large audio files and models
+- **Python 3.8+** - Required for all dependencies
+
+**Alternative (slower):**
+- Any Mac/Linux system - MLX-Whisper falls back to CPU (significantly slower)
+- Consider using OpenAI Whisper API instead on non-M1/M2 systems (requires OPENAI_API_KEY)
+
+**Storage:**
+- ~1-2GB for MLX-Whisper models (cached in `~/.cache/huggingface/`)
+- Variable storage for episodes (audio files ~20-50MB each, transcripts ~50-200KB each)
+
 ## Dependencies
 
 ### Python Packages
 ```
-openai           # Whisper transcription API
+mlx-whisper      # Local GPU-accelerated transcription on M1/M2 Macs (FREE - no API costs)
 anthropic        # Claude API for speaker identification and summarization
 python-dotenv    # Load .env configuration
 pyannote.audio   # Voice-based speaker diarization (optional but recommended)
+yt-dlp           # Download audio/video from YouTube and other platforms
 ```
 
 ### System Tools
-- `yt-dlp` - Download audio from YouTube
-- `whisper` - Transcribe audio to text (OpenAI)
-- `ffmpeg` - Audio processing
+- `ffmpeg` - Audio processing and format conversion
+- `python3` - Python 3.8+ required
 
 ### API Keys
-- **OpenAI API key** - For Whisper transcription
-- **Anthropic API key** - For speaker identification (Haiku 3.5) and summarization (Sonnet 4.5)
+- **Anthropic API key** (required) - For speaker identification (Haiku 3.5) and summarization (Sonnet 4.5)
 - **HuggingFace token** (optional) - For pyannote speaker diarization
+- **OpenAI API key** (legacy/unused) - Previously used for Whisper API, now using local mlx-whisper instead (FREE)
 
 ## Core Functions
 
@@ -430,7 +477,7 @@ pyannote.audio   # Voice-based speaker diarization (optional but recommended)
 ### Processing
 - `process_single_video(video_info, video_index, podcast_name, podcast_url, custom_prompt, status_data)` - Download, transcribe, identify speakers, and summarize one episode (4-step pipeline)
 - `download_video_audio(video_url, output_audio_path)` - Download audio via yt-dlp
-- `transcribe_audio_to_text(audio_file_path, transcript_file_path)` - Transcribe via Whisper with segment timestamps
+- `transcribe_audio_to_text(audio_file_path, transcript_file_path)` - Transcribe via MLX-Whisper (local, GPU-accelerated) with segment timestamps
 - `format_transcript_with_timestamps(whisper_data)` - Format Whisper JSON output with [HH:MM:SS] timestamps
 - `extract_video_metadata(video_url)` - Extract title, description, channel, and uploader from YouTube video
 - `parse_guest_names_from_description(description, title)` - Parse guest names from video description using regex patterns
@@ -727,9 +774,16 @@ Note: This can take a while for large podcast libraries (438+ episodes). The scr
 
 ## Troubleshooting
 
-### "OPENAI_API_KEY not set"
-- Add `OPENAI_API_KEY=sk-...` to `.env` file
+### "ANTHROPIC_API_KEY not set"
+- Add `ANTHROPIC_API_KEY=sk-ant-...` to `.env` file
 - Ensure `.env` is in the project root
+- This is the only required API key (transcription now uses local MLX-Whisper)
+
+### "mlx-whisper not found" or transcription errors
+- Install: `pip install mlx-whisper`
+- Requires M1/M2 Mac for GPU acceleration
+- Falls back to CPU if GPU unavailable
+- Check model is downloaded: models cached in `~/.cache/huggingface/`
 
 ### "yt-dlp not found"
 - Install: `pip install yt-dlp`
@@ -738,9 +792,7 @@ Note: This can take a while for large podcast libraries (438+ episodes). The scr
 ### "ffmpeg not found"
 - Install: `brew install ffmpeg` (macOS)
 - Or appropriate package manager for your OS
-
-### "whisper not found"
-- Install: `pip install openai-whisper`
+- Required for audio format conversion
 
 ### Script appears to hang
 - Check if it's waiting for user input in Phase 2
@@ -778,20 +830,25 @@ If a run is interrupted:
 
 ### Per Episode Processing Costs
 
-**With Voice-Based Diarization (Recommended):**
-- Transcription (Whisper): ~$0.10-0.30
-- Diarization (pyannote, local): $0.00 (runs locally)
+**Current System (Recommended Configuration):**
+- Transcription (MLX-Whisper, local GPU): **$0.00** (runs locally on M1/M2 Macs)
+- Diarization (pyannote, local): **$0.00** (runs locally)
 - Speaker ID (Claude Haiku, 15 min): ~$0.05-0.20
 - Title Translation (Claude Haiku, if Chinese): ~$0.01-0.03
 - Summarization (Claude Sonnet 4.5, 16K tokens): ~$0.30-1.50
-- **Total: ~$0.45-2.00 per episode**
+- **Total: ~$0.35-1.75 per episode** (was ~$0.45-2.00 with OpenAI Whisper API)
 
 **Without Voice-Based Diarization:**
-- Transcription (Whisper): ~$0.10-0.30
+- Transcription (MLX-Whisper, local GPU): **$0.00** (runs locally)
 - Speaker ID (Claude Haiku, 15 min): ~$0.05-0.20 (less accurate without SPEAKER_XX labels)
 - Title Translation (Claude Haiku, if Chinese): ~$0.01-0.03
 - Summarization (Claude Sonnet 4.5, 16K tokens): ~$0.30-1.50
-- **Total: ~$0.45-2.00 per episode**
+- **Total: ~$0.35-1.75 per episode**
+
+**Key Cost Savings:**
+- **Free transcription** with MLX-Whisper (previously ~$0.10-0.30 per episode with OpenAI API)
+- **Free speaker diarization** with pyannote (local processing)
+- **Only API costs:** Claude Haiku for speaker ID + title translation, Claude Sonnet for summaries
 
 **Cost Considerations:**
 - Using Haiku (not Sonnet) for speaker ID and translation: ~10x cheaper
@@ -810,18 +867,22 @@ If a run is interrupted:
 ### Monthly Cost Examples
 
 **Episode Processing:**
-- **Light usage** (10 episodes/month): $4.50-20.00
-- **Medium usage** (50 episodes/month): $22.50-100.00
-- **Heavy usage** (200 episodes/month): $90-400
+- **Light usage** (10 episodes/month): $3.50-17.50 (previously $4.50-20.00)
+- **Medium usage** (50 episodes/month): $17.50-87.50 (previously $22.50-100.00)
+- **Heavy usage** (200 episodes/month): $70-350 (previously $90-400)
 
 **Weekly Summaries:**
 - 4 weekly summaries/month: ~$2.16-8.32
 
 **Total Monthly (Medium Usage):**
-- 50 episodes + 4 weekly summaries: ~$24.66-108.32
+- 50 episodes + 4 weekly summaries: ~$19.66-95.82 (previously ~$24.66-108.32)
+
+**Cost Savings with MLX-Whisper:**
+- ~20-30% reduction in per-episode costs compared to OpenAI Whisper API
+- Savings increase with volume (200 episodes/month = $20-50 saved)
 
 Note: Costs vary based on:
-- Episode length (longer = more transcription cost)
+- Episode length (no longer affects transcription cost with local processing)
 - Transcript complexity (affects summarization tokens)
 - Number of speakers (minimal impact with voice diarization)
 - Number of episodes per weekly summary
@@ -989,6 +1050,9 @@ Potential improvements:
 ## License & Attribution
 
 Built with:
-- OpenAI (Whisper, GPT-4o-mini)
-- yt-dlp (YouTube downloading)
-- Python community libraries
+- **MLX-Whisper** (Apple MLX framework) - Local GPU-accelerated speech recognition
+- **Anthropic Claude** (Haiku 3.5, Sonnet 4.5) - Speaker identification and summarization
+- **pyannote.audio** - Voice-based speaker diarization
+- **yt-dlp** - YouTube and video platform downloading
+- **OpenAI** (GPT-image-1) - Weekly summary header image generation
+- Python community libraries (python-dotenv, etc.)

@@ -81,6 +81,17 @@ The website reads data from the local filesystem at **build time** (SSG):
 - Episode metadata parsed from summary.md frontmatter
 - No runtime database or API calls needed
 
+### Content Generation
+
+Episodes are processed by the **Podcast Summarizer** Python backend:
+- **MLX-Whisper** - Local GPU-accelerated transcription (M1/M2 Macs, FREE)
+- **pyannote.audio** - Voice-based speaker diarization
+- **Claude Sonnet 4.5** - AI-powered summaries (16K tokens)
+- Supports YouTube playlists and Xiaoyuzhou (Chinese) podcasts
+- One-off episode processing with automatic cleanup
+
+For full details on the processing pipeline, see `.claude/CLAUDE.md`
+
 ## Local Development
 
 ### Prerequisites
