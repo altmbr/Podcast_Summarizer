@@ -12394,10 +12394,10 @@
 
 ## Lenny's
 
-**Total Episodes:** 295
+**Total Episodes:** 296
 
 **Status Summary:**
-- discovered: 292
+- discovered: 293
 - summarized: 3
 
 **Episodes:**
@@ -14172,6 +14172,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-21 09:35:06
 
+- 🔍 **A guide to difficult conversations, building high-trust teams, and designing a l**
+  - ID: `1GDVum5IarI`
+  - Published: 2025-11-23
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Zhang Xiaoyun's
@@ -15267,10 +15273,10 @@
 
 ## A16z Podcast
 
-**Total Episodes:** 626
+**Total Episodes:** 627
 
 **Status Summary:**
-- discovered: 621
+- discovered: 622
 - summarized: 5
 
 **Episodes:**
@@ -19031,6 +19037,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-17 16:50:42
 
+- 🔍 **[Private video]**
+  - ID: `TbFSGiQdCaw`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## My First Million
@@ -22718,11 +22730,11 @@
 
 ## SaaStr
 
-**Total Episodes:** 43
+**Total Episodes:** 44
 
 **Status Summary:**
 - discovered: 41
-- summarized: 2
+- summarized: 3
 
 **Episodes:**
 
@@ -22984,6 +22996,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- ✅ **6 Months Later, How Our AI SDRs Actually Work as AI Runs GTM with SaaStr's CEO a**
+  - ID: `6YrzIuvhi5k`
+  - Published: 2025-11-23
+  - Status: `summarized`
+  - Discovered: 2025-11-23 10:25:13
+
 ---
 
 ## Long Strange Trip w Brian Halligan
@@ -23017,11 +23035,11 @@
 
 ## Stanford AI Speaker Series
 
-**Total Episodes:** 2
+**Total Episodes:** 3
 
 **Status Summary:**
 - discovered: 1
-- summarized: 1
+- summarized: 2
 
 **Episodes:**
 
@@ -23036,6 +23054,12 @@
   - Published: 2025-11-21
   - Status: `summarized`
   - Discovered: 2025-11-21 09:54:43
+
+- ✅ **Stanford AI Club: Jeff Dean on Important AI Trends**
+  - ID: `AnTw_t21ayE`
+  - Published: 2025-11-23
+  - Status: `summarized`
+  - Discovered: 2025-11-23 10:35:58
 
 ---
 

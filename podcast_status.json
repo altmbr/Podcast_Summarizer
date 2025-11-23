@@ -14107,6 +14107,13 @@
           "discovered_date": "2025-11-21 09:35:06",
           "status": "summarized",
           "region": "Western"
+        },
+        "1GDVum5IarI": {
+          "title": "A guide to difficult conversations, building high-trust teams, and designing a life you love",
+          "upload_date": "20251123",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -19731,6 +19738,13 @@
           "discovered_date": "2025-11-17 16:50:42",
           "status": "summarized",
           "region": "Western"
+        },
+        "TbFSGiQdCaw": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -24317,6 +24331,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "6YrzIuvhi5k": {
+          "title": "6 Months Later, How Our AI SDRs Actually Work as AI Runs GTM with SaaStr's CEO and Chief AI Officer",
+          "upload_date": "20251123",
+          "discovered_date": "2025-11-23 10:25:13",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -24360,6 +24381,13 @@
           "title": "Stanford AI Club: Guillermo Rauch on Building the AI Cloud",
           "upload_date": "20251121",
           "discovered_date": "2025-11-21 09:54:43",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "AnTw_t21ayE": {
+          "title": "Stanford AI Club: Jeff Dean on Important AI Trends",
+          "upload_date": "20251123",
+          "discovered_date": "2025-11-23 10:35:58",
           "status": "summarized",
           "region": "Western"
         }
