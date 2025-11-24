@@ -150,6 +150,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
           episodeTitle={episode.title}
           episodeSummary={episode.summary}
           videoUrl={episode.videoUrl}
+          podcastName={podcastName}
         />
       )}
 

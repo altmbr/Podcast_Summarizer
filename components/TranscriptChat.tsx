@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, ReactElement } from 'react'
 import { X, Send, Sparkles, Loader2 } from 'lucide-react'
+import { usePostHog } from 'posthog-js/react'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -13,9 +14,10 @@ interface TranscriptChatProps {
   episodeTitle: string
   episodeSummary?: string
   videoUrl?: string
+  podcastName?: string
 }
 
-export default function TranscriptChat({ transcript, episodeTitle, episodeSummary, videoUrl }: TranscriptChatProps) {
+export default function TranscriptChat({ transcript, episodeTitle, episodeSummary, videoUrl, podcastName }: TranscriptChatProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [message, setMessage] = useState('')
   const [messages, setMessages] = useState<Message[]>([
@@ -26,6 +28,7 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
   ])
   const [isLoading, setIsLoading] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
+  const posthog = usePostHog()
 
   // Debug: Log videoUrl when component mounts
   useEffect(() => {
@@ -105,6 +108,13 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
           className="underline hover:opacity-70"
           onClick={(e) => {
             console.log('Timestamp clicked:', matchText, 'URL:', youtubeUrl)
+            // Track timestamp clicked
+            posthog?.capture('chat_timestamp_clicked', {
+              timestamp: matchText,
+              youtube_url: youtubeUrl,
+              podcast_name: podcastName,
+              episode_title: episodeTitle,
+            })
           }}
         >
           {matchText}
@@ -131,6 +141,15 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
     setMessages(prev => [...prev, { role: 'user', content: userMessage }])
     setIsLoading(true)
 
+    // Track message sent
+    posthog?.capture('chat_message_sent', {
+      message: userMessage,
+      podcast_name: podcastName,
+      episode_title: episodeTitle,
+      video_url: videoUrl,
+      message_length: userMessage.length,
+    })
+
     try {
       const response = await fetch('/api/chat', {
         method: 'POST',
@@ -151,7 +170,18 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
       }
 
       const data = await response.json()
-      setMessages(prev => [...prev, { role: 'assistant', content: data.response }])
+      const aiResponse = data.response
+      setMessages(prev => [...prev, { role: 'assistant', content: aiResponse }])
+
+      // Track AI response received
+      posthog?.capture('chat_ai_response_received', {
+        user_message: userMessage,
+        ai_response: aiResponse,
+        podcast_name: podcastName,
+        episode_title: episodeTitle,
+        video_url: videoUrl,
+        response_length: aiResponse.length,
+      })
     } catch (error) {
       console.error('Chat error:', error)
       setMessages(prev => [
@@ -161,6 +191,13 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
           content: 'Sorry, I encountered an error. Please try again.'
         }
       ])
+
+      // Track error
+      posthog?.capture('chat_error', {
+        error: error instanceof Error ? error.message : 'Unknown error',
+        podcast_name: podcastName,
+        episode_title: episodeTitle,
+      })
     } finally {
       setIsLoading(false)
     }
@@ -177,7 +214,15 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
     <>
       {/* Trigger Button - Fixed on right side */}
       <button
-        onClick={() => setIsOpen(true)}
+        onClick={() => {
+          setIsOpen(true)
+          // Track chat opened
+          posthog?.capture('chat_opened', {
+            podcast_name: podcastName,
+            episode_title: episodeTitle,
+            video_url: videoUrl,
+          })
+        }}
         style={{
           backgroundColor: '#ffffff',
           borderColor: '#e8e6e1',
@@ -217,7 +262,15 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
               </h3>
             </div>
             <button
-              onClick={() => setIsOpen(false)}
+              onClick={() => {
+                setIsOpen(false)
+                // Track chat closed
+                posthog?.capture('chat_closed', {
+                  podcast_name: podcastName,
+                  episode_title: episodeTitle,
+                  messages_sent: messages.filter(m => m.role === 'user').length,
+                })
+              }}
               style={{ color: '#7f7f7f' }}
               className="hover:opacity-70"
               aria-label="Close chat"
