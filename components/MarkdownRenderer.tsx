@@ -17,10 +17,30 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
         remarkPlugins={[remarkGfm]}
         components={{
           h1: ({ node, ...props }) => (
-            <h1 style={{ color: 'var(--foreground)' }} className="text-3xl font-light tracking-tight mt-8 mb-4" {...props} />
+            <h1
+              style={{
+                color: 'var(--foreground)',
+                fontSize: 'var(--text-4xl)',
+                fontWeight: 'var(--font-weight-light)',
+                lineHeight: 'var(--leading-tight)',
+                letterSpacing: '-0.02em'
+              }}
+              className="mt-8 mb-4"
+              {...props}
+            />
           ),
           h2: ({ node, ...props }) => (
-            <h2 style={{ color: 'var(--foreground)' }} className="text-2xl font-light tracking-tight mt-6 mb-3" {...props} />
+            <h2
+              style={{
+                color: 'var(--foreground)',
+                fontSize: 'var(--text-3xl)',
+                fontWeight: 'var(--font-weight-light)',
+                lineHeight: 'var(--leading-tight)',
+                letterSpacing: '-0.02em'
+              }}
+              className="mt-6 mb-3"
+              {...props}
+            />
           ),
           h3: ({ node, children, ...props }) => {
             // Extract text content for sharing (remove markdown formatting)
@@ -45,8 +65,14 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
 
             return (
               <h3
-                style={{ color: 'var(--foreground)' }}
-                className="text-xl font-light tracking-tight mt-5 mb-2 flex items-start gap-2"
+                style={{
+                  color: 'var(--foreground)',
+                  fontSize: 'var(--text-2xl)',
+                  fontWeight: 'var(--font-weight-light)',
+                  lineHeight: 'var(--leading-tight)',
+                  letterSpacing: '-0.02em'
+                }}
+                className="mt-5 mb-2 flex items-start gap-2"
                 {...props}
               >
                 <span className="flex-1">{children}</span>
@@ -57,20 +83,55 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
             )
           },
           p: ({ node, ...props }) => (
-            <p style={{ color: 'var(--foreground)' }} className="mb-4 leading-relaxed" {...props} />
+            <p
+              style={{
+                color: 'var(--foreground)',
+                fontSize: 'var(--text-base)',
+                lineHeight: 'var(--leading-relaxed)'
+              }}
+              className="mb-4"
+              {...props}
+            />
           ),
           ul: ({ node, ...props }) => (
-            <ul style={{ color: 'var(--foreground)' }} className="list-disc list-inside mb-4 space-y-2" {...props} />
+            <ul
+              style={{
+                color: 'var(--foreground)',
+                fontSize: 'var(--text-base)',
+                lineHeight: 'var(--leading-relaxed)'
+              }}
+              className="list-disc list-inside mb-4 space-y-2"
+              {...props}
+            />
           ),
           ol: ({ node, ...props }) => (
-            <ol style={{ color: 'var(--foreground)' }} className="list-decimal list-inside mb-4 space-y-2" {...props} />
+            <ol
+              style={{
+                color: 'var(--foreground)',
+                fontSize: 'var(--text-base)',
+                lineHeight: 'var(--leading-relaxed)'
+              }}
+              className="list-decimal list-inside mb-4 space-y-2"
+              {...props}
+            />
           ),
           li: ({ node, ...props }) => (
-            <li style={{ color: 'var(--foreground)' }} {...props} />
+            <li
+              style={{
+                color: 'var(--foreground)',
+                fontSize: 'var(--text-base)'
+              }}
+              {...props}
+            />
           ),
           blockquote: ({ node, ...props }) => (
             <blockquote
-              style={{ borderLeftColor: 'var(--accent)', color: 'var(--muted-foreground)' }}
+              style={{
+                borderLeftColor: 'var(--accent)',
+                color: 'var(--muted-foreground)',
+                fontSize: 'var(--text-base)',
+                lineHeight: 'var(--leading-relaxed)'
+              }}
               className="border-l-4 pl-4 italic my-4"
               {...props}
             />
@@ -79,16 +140,24 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
             const isInline = !className
             return isInline ? (
               <code
-                style={{ backgroundColor: 'var(--secondary)', color: 'var(--foreground)' }}
-                className="px-2 py-1 rounded font-mono text-sm"
+                style={{
+                  backgroundColor: 'var(--secondary)',
+                  color: 'var(--foreground)',
+                  fontSize: 'var(--text-sm)'
+                }}
+                className="px-2 py-1 rounded font-mono"
                 {...props}
               >
                 {children}
               </code>
             ) : (
               <code
-                style={{ backgroundColor: 'var(--secondary)', color: 'var(--foreground)' }}
-                className="block p-4 rounded overflow-x-auto my-4 font-mono text-sm"
+                style={{
+                  backgroundColor: 'var(--secondary)',
+                  color: 'var(--foreground)',
+                  fontSize: 'var(--text-sm)'
+                }}
+                className="block p-4 rounded overflow-x-auto my-4 font-mono"
                 {...props}
               >
                 {children}

@@ -28,8 +28,10 @@ export default function ShareButton({ url, title }: ShareButtonProps) {
       style={{
         color: 'var(--foreground)',
         borderColor: 'var(--border)',
+        backgroundColor: 'var(--background)',
+        fontSize: 'var(--text-sm)'
       }}
-      className="px-3 py-2 text-sm border rounded-sm hover:opacity-70 transition-opacity bg-[var(--background)] whitespace-nowrap"
+      className="px-3 py-2 border rounded-sm hover:opacity-70 transition-opacity whitespace-nowrap"
       aria-label="Copy link to clipboard"
     >
         {copied ? (

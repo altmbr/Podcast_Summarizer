@@ -101,6 +101,48 @@ export async function getEpisodesForPodcast(podcastName: string): Promise<Episod
 }
 
 /**
+ * Strip metadata header and first h1 from episode summary if present
+ * Only strips if we detect the standard episode metadata format
+ */
+function stripMetadataHeader(content: string): string {
+  // Look for --- separator, but only in first 2000 chars to avoid
+  // false positives from thematic breaks in the actual content
+  const startSection = content.substring(0, 2000)
+  const separatorMatch = startSection.match(/\n---\n/)
+
+  if (!separatorMatch || separatorMatch.index === undefined) {
+    // No separator found in expected location
+    return content
+  }
+
+  // Check if the content before separator has episode metadata fields
+  const beforeSeparator = content.substring(0, separatorMatch.index)
+  const hasEpisodeMetadata =
+    beforeSeparator.includes('**Podcast:**') &&
+    beforeSeparator.includes('**Date:**') &&
+    beforeSeparator.includes('**Transcript:**')
+
+  if (hasEpisodeMetadata) {
+    // This is a standard episode format - strip the metadata header
+    const afterSeparatorIndex = separatorMatch.index + 5 // '\n---\n' is 5 chars
+    let strippedContent = content.substring(afterSeparatorIndex).trim()
+
+    // Also strip the first H1 heading if it starts with "# " or "# Podcast Summary"
+    // This removes duplicate titles like "# Podcast Summary: Andrew Ng on AI"
+    const lines = strippedContent.split('\n')
+    if (lines[0] && (lines[0].startsWith('# Podcast Summary') || lines[0].startsWith('# '))) {
+      // Remove first line and any empty lines after it
+      strippedContent = lines.slice(1).join('\n').trim()
+    }
+
+    return strippedContent
+  }
+
+  // Not standard format - return original content
+  return content
+}
+
+/**
  * Get a specific episode by podcast name and episode slug
  */
 export async function getEpisode(podcastName: string, episodeSlug: string): Promise<Episode | null> {
@@ -133,7 +175,7 @@ export async function getEpisode(podcastName: string, episodeSlug: string): Prom
       region: metadata.region,
       videoId: metadata.videoId,
       videoUrl: metadata.videoUrl,
-      summary: summaryContent,
+      summary: stripMetadataHeader(summaryContent),
       transcript: transcriptContent,
     }
   } catch (err) {

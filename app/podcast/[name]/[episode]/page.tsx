@@ -132,7 +132,8 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
             <ShareButton title={episode.title} />
           </div>
           {episode.date && <p style={{ color: 'var(--muted-foreground)' }} className="text-sm mb-2">{formatDate(episode.date)}</p>}
-          {episode.participants && <p style={{ color: 'var(--muted-foreground)' }} className="text-sm">{episode.participants}</p>}
+          {episode.participants && <p style={{ color: 'var(--muted-foreground)' }} className="text-sm mb-2">{episode.participants}</p>}
+          {episode.podcast && <p style={{ color: 'var(--muted-foreground)' }} className="text-sm">{episode.podcast}</p>}
         </div>
       </header>
 

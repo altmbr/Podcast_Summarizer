@@ -104,7 +104,7 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
           href={youtubeUrl}
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: '#5b7f9e' }}
+          style={{ color: 'var(--accent)' }}
           className="underline hover:opacity-70"
           onClick={(e) => {
             console.log('Timestamp clicked:', matchText, 'URL:', youtubeUrl)
@@ -224,14 +224,14 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
           })
         }}
         style={{
-          backgroundColor: '#ffffff',
-          borderColor: '#e8e6e1',
-          color: '#000000'
+          backgroundColor: 'var(--card)',
+          borderColor: 'var(--border)',
+          color: 'var(--foreground)'
         }}
         className="fixed right-0 top-1/2 -translate-y-1/2 border border-r-0 rounded-l-lg px-3 py-6 shadow-lg hover:opacity-90 flex flex-col items-center gap-2 z-40 transition-all"
         aria-label="Open chat"
       >
-        <Sparkles className="w-5 h-5" style={{ color: '#000000' }} />
+        <Sparkles className="w-5 h-5" style={{ color: 'var(--foreground)' }} />
         <span className="text-sm font-medium" style={{ writingMode: 'vertical-rl' }}>
           Chat
         </span>
@@ -245,19 +245,25 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
       >
         <div
           style={{
-            backgroundColor: '#ffffff',
-            borderLeftColor: '#e8e6e1'
+            backgroundColor: 'var(--card)',
+            borderLeftColor: 'var(--border)'
           }}
           className="h-full border-l shadow-2xl flex flex-col"
         >
           {/* Header */}
           <div
-            style={{ borderBottomColor: '#e8e6e1' }}
+            style={{ borderBottomColor: 'var(--border)' }}
             className="flex items-center justify-between p-4 border-b"
           >
             <div className="flex items-center gap-2">
-              <Sparkles className="w-5 h-5" style={{ color: '#000000' }} />
-              <h3 style={{ color: '#000000' }} className="font-medium text-sm md:text-base">
+              <Sparkles className="w-5 h-5" style={{ color: 'var(--foreground)' }} />
+              <h3
+                style={{
+                  color: 'var(--foreground)',
+                  fontSize: 'var(--text-base)',
+                  fontWeight: 'var(--font-weight-medium)'
+                }}
+              >
                 Chat with Episode
               </h3>
             </div>
@@ -271,7 +277,7 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
                   messages_sent: messages.filter(m => m.role === 'user').length,
                 })
               }}
-              style={{ color: '#7f7f7f' }}
+              style={{ color: 'var(--muted-foreground)' }}
               className="hover:opacity-70"
               aria-label="Close chat"
             >
@@ -288,10 +294,12 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
               >
                 <div
                   style={{
-                    backgroundColor: msg.role === 'user' ? '#e8e6e1' : '#f0f0f0',
-                    color: '#000000'
+                    backgroundColor: msg.role === 'user' ? 'var(--secondary)' : 'var(--muted)',
+                    color: 'var(--foreground)',
+                    fontSize: 'var(--text-sm)',
+                    lineHeight: 'var(--leading-relaxed)'
                   }}
-                  className="max-w-[85%] rounded-lg px-4 py-2 text-sm leading-relaxed"
+                  className="max-w-[85%] rounded-lg px-4 py-2"
                 >
                   {makeTimestampsClickable(msg.content)}
                 </div>
@@ -301,10 +309,11 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
               <div className="flex justify-start">
                 <div
                   style={{
-                    backgroundColor: '#f0f0f0',
-                    color: '#000000'
+                    backgroundColor: 'var(--muted)',
+                    color: 'var(--foreground)',
+                    fontSize: 'var(--text-sm)'
                   }}
-                  className="rounded-lg px-4 py-2 text-sm flex items-center gap-2"
+                  className="rounded-lg px-4 py-2 flex items-center gap-2"
                 >
                   <Loader2 className="w-4 h-4 animate-spin" />
                   Thinking...
@@ -316,7 +325,7 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
 
           {/* Input */}
           <div
-            style={{ borderTopColor: '#e8e6e1' }}
+            style={{ borderTopColor: 'var(--border)' }}
             className="p-4 border-t pb-24 md:pb-20"
           >
             <div className="flex gap-2">
@@ -328,18 +337,19 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
                 placeholder="Ask about the episode..."
                 disabled={isLoading}
                 style={{
-                  backgroundColor: '#f8f8f8',
-                  color: '#000000',
-                  borderColor: '#e8e6e1'
+                  backgroundColor: 'var(--input)',
+                  color: 'var(--foreground)',
+                  borderColor: 'var(--border)',
+                  fontSize: 'var(--text-sm)'
                 }}
-                className="flex-1 px-3 py-2 text-sm border rounded disabled:opacity-50"
+                className="flex-1 px-3 py-2 border rounded disabled:opacity-50"
               />
               <button
                 onClick={handleSend}
                 disabled={!message.trim() || isLoading}
                 style={{
-                  backgroundColor: '#000000',
-                  color: '#ffffff'
+                  backgroundColor: 'var(--primary)',
+                  color: 'var(--primary-foreground)'
                 }}
                 className="px-4 py-2 rounded hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed"
                 aria-label="Send message"
@@ -348,8 +358,11 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
               </button>
             </div>
             <p
-              style={{ color: '#7f7f7f' }}
-              className="text-xs mt-2"
+              style={{
+                color: 'var(--muted-foreground)',
+                fontSize: 'var(--text-xs)'
+              }}
+              className="mt-2"
             >
               Powered by Gemini 2.0 Flash
             </p>

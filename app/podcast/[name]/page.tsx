@@ -111,30 +111,28 @@ export default async function PodcastPage({ params }: PodcastPageProps) {
 
       {/* Episodes */}
       <section className="container py-12 md:py-16">
-        <div className="space-y-4 md:space-y-6">
+        <div className="grid gap-6 md:gap-8">
           {episodes.map((episode) => (
             <Link
               key={episode.slug}
               href={`/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episode.slug)}`}
-              className="group block p-6 rounded-sm hover:opacity-80 transition-all"
+              className="group block p-6 md:p-8 rounded-sm hover:opacity-80 transition-all"
               style={{
                 backgroundColor: 'var(--card)',
                 borderColor: 'var(--border)',
                 color: 'var(--foreground)',
               }}
             >
-              <div className="flex items-start justify-between gap-4">
-                <div className="flex-1 min-w-0">
-                  <h3 className="text-lg md:text-xl group-hover:underline transition-colors">
-                    {episode.title}
-                    {episode.date && (
-                      <span style={{ color: 'var(--muted-foreground)' }} className="text-base font-normal ml-2">
-                        [{formatDate(episode.date)}]
-                      </span>
-                    )}
-                  </h3>
-                </div>
-                <span style={{ color: 'var(--accent)' }} className="font-light text-lg flex-shrink-0">→</span>
+              <h3 className="text-2xl md:text-3xl group-hover:underline transition-colors mb-2">
+                {episode.title}
+              </h3>
+              <div className="flex items-center justify-between">
+                {episode.date && (
+                  <span style={{ color: 'var(--muted-foreground)' }} className="text-sm">
+                    {formatDate(episode.date)}
+                  </span>
+                )}
+                <span style={{ color: 'var(--accent)' }} className="font-light">→</span>
               </div>
             </Link>
           ))}

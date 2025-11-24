@@ -23,6 +23,54 @@
     --border: #e8e6e1;
     --input: #f0ede8;
     --ring: #5b7f9e;
+
+    /* Semantic colors */
+    --color-error: #d97706;
+    --color-success: #5b7f9e;
+    --color-warning: #f59e0b;
+    --color-info: #3b82f6;
+
+    /* Interactive states */
+    --color-hover: rgba(91, 127, 158, 0.1);
+    --color-active: rgba(91, 127, 158, 0.2);
+    --color-disabled: #e5e5e5;
+
+    /* Font weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Font sizes - Mobile first (automatically responsive via media queries below) */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+
+    /* Line heights */
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.75;
+
+    /* Spacing scale (4px base unit) */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
   }
 
   .dark {

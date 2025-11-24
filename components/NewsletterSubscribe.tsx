@@ -66,8 +66,24 @@ export default function NewsletterSubscribe() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <div className="flex-1 min-w-0">
-            <p style={{ color: 'var(--foreground)' }} className="font-medium text-sm sm:text-base">Weekly Summary</p>
-            <p style={{ color: 'var(--muted-foreground)' }} className="text-xs sm:text-sm hidden sm:block">Get podcast summaries in your inbox</p>
+            <p
+              style={{
+                color: 'var(--foreground)',
+                fontSize: 'var(--text-base)',
+                fontWeight: 'var(--font-weight-medium)'
+              }}
+            >
+              Weekly Summary
+            </p>
+            <p
+              style={{
+                color: 'var(--muted-foreground)',
+                fontSize: 'var(--text-sm)'
+              }}
+              className="hidden sm:block"
+            >
+              Get podcast summaries in your inbox
+            </p>
           </div>
 
           <form onSubmit={handleSubmit} className="flex gap-2 w-full sm:w-auto">
@@ -81,14 +97,18 @@ export default function NewsletterSubscribe() {
                 backgroundColor: 'var(--input)',
                 borderColor: 'var(--border)',
                 color: 'var(--foreground)',
+                fontSize: 'var(--text-sm)',
                 '--tw-ring-color': 'var(--accent)',
               } as any}
-              className="flex-1 sm:flex-none px-3 py-1.5 border rounded-sm text-xs sm:text-sm placeholder:opacity-50 disabled:opacity-50 transition-colors focus:outline-none focus:ring-1"
+              className="flex-1 sm:flex-none px-3 py-1.5 border rounded-sm placeholder:opacity-50 disabled:opacity-50 transition-colors focus:outline-none focus:ring-1"
             />
             <button
               type="submit"
               disabled={loading}
-              className="btn-primary text-xs sm:text-sm px-3 py-1.5 whitespace-nowrap disabled:opacity-50"
+              style={{
+                fontSize: 'var(--text-sm)'
+              }}
+              className="btn-primary px-3 py-1.5 whitespace-nowrap disabled:opacity-50"
             >
               {loading ? 'Loading...' : 'Subscribe'}
             </button>
@@ -98,9 +118,10 @@ export default function NewsletterSubscribe() {
         {message && (
           <p
             style={{
-              color: message.type === 'success' ? 'var(--accent)' : '#d97706',
+              color: message.type === 'success' ? 'var(--color-success)' : 'var(--color-error)',
+              fontSize: 'var(--text-sm)'
             }}
-            className="text-xs mt-2"
+            className="mt-2"
           >
             {message.text}
           </p>

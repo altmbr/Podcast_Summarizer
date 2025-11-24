@@ -20,8 +20,10 @@ export default function EpisodeClient({ summary, transcript, episodeUrl }: Episo
           style={{
             color: activeTab === 'summary' ? 'var(--accent)' : 'var(--muted-foreground)',
             borderBottomColor: activeTab === 'summary' ? 'var(--accent)' : 'transparent',
+            fontSize: 'var(--text-sm)',
+            fontWeight: 'var(--font-weight-medium)'
           }}
-          className="px-4 py-2 text-sm font-medium transition-colors border-b-2"
+          className="px-4 py-2 transition-colors border-b-2"
         >
           Summary
         </button>
@@ -30,8 +32,10 @@ export default function EpisodeClient({ summary, transcript, episodeUrl }: Episo
           style={{
             color: activeTab === 'transcript' ? 'var(--accent)' : 'var(--muted-foreground)',
             borderBottomColor: activeTab === 'transcript' ? 'var(--accent)' : 'transparent',
+            fontSize: 'var(--text-sm)',
+            fontWeight: 'var(--font-weight-medium)'
           }}
-          className="px-4 py-2 text-sm font-medium transition-colors border-b-2"
+          className="px-4 py-2 transition-colors border-b-2"
         >
           Transcript
         </button>
