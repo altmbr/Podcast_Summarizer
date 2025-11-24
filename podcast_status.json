@@ -2649,6 +2649,20 @@
           "discovered_date": "2025-11-17 14:22:37",
           "status": "summarized",
           "region": "Western"
+        },
+        "VHo7HYwosGg": {
+          "title": "Base44\u2019s Founder, Maor Shlomo: How Vibe Coding Will Kill SaaS & Why Vibe Coding Has No Defensibility",
+          "upload_date": "20251124",
+          "discovered_date": "2025-11-24 12:11:16",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "61uwoVVsbBI": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -6818,6 +6832,13 @@
           "upload_date": "20251121",
           "discovered_date": null,
           "status": "discovered",
+          "region": "Western"
+        },
+        "niosgDC-QHU": {
+          "title": "Inside Thrive Capital: Investing in OpenAI, Wiz, Cursor, Nudge, Physical Intelligence",
+          "upload_date": "20251124",
+          "discovered_date": "2025-11-24 12:21:52",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -12262,6 +12283,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "OdP-4tZo0jw": {
+          "title": "Coca-Cola: How a sugar water formula came to represent America, Happiness, and... Christmas",
+          "upload_date": "20251124",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -15356,6 +15384,13 @@
           "title": "140: AI for Science, From the Beginning to Now | Dialogue with Zhang Linfeng and Sun Weijie from DeepWisdom",
           "upload_date": "20251110",
           "discovered_date": "2025-11-10 15:32:16",
+          "status": "summarized",
+          "region": "Chinese"
+        },
+        "6923997b83aceb424d94f667": {
+          "title": "141: The Former Head of DJI LiDAR Developed an \"Electric Wheelchair\"? Talking Entrepreneurship with Strutt's Hong Xiaoping After Two and a Half Years: Not Doing Humanoid Robots Can Still Lead to Embodied Intelligence",
+          "upload_date": "20251123",
+          "discovered_date": "2025-11-24 12:48:18",
           "status": "summarized",
           "region": "Chinese"
         }
@@ -19747,10 +19782,10 @@
           "region": "Western"
         },
         "TbFSGiQdCaw": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "The 2045 Superintelligence Timeline: Epoch AI\u2019s Data-Driven Forecast",
+          "upload_date": "20251124",
+          "discovered_date": "2025-11-24 12:29:52",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -23921,6 +23956,13 @@
           "upload_date": "20251121",
           "discovered_date": null,
           "status": "discovered",
+          "region": "Western"
+        },
+        "nSCWNIHBA5U": {
+          "title": "$1B founder explains how to come up with a great startup idea",
+          "upload_date": "20251124",
+          "discovered_date": "2025-11-24 12:37:43",
+          "status": "summarized",
           "region": "Western"
         }
       }

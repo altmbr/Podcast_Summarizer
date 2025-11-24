@@ -87,7 +87,7 @@ def generate_pithy_summary(full_summary_content, pithy_prompt):
 
     response = client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=8000,
+        max_tokens=16000,  # Increased from 8000 to match full weekly summary capacity
         messages=[
             {
                 "role": "user",
@@ -113,6 +113,31 @@ def save_pithy_summary(pithy_content, original_path):
 
     with open(pithy_path, 'w') as f:
         f.write(pithy_content)
+
+    # Also generate HTML version
+    print("→ Generating HTML version for email...")
+    html_filename = original_path.stem + "_pithy.html"
+    html_path = original_path.parent / html_filename
+
+    # Import the HTML generation function from generate_weekly_summary
+    from generate_weekly_summary import generate_html_version
+    from datetime import datetime
+
+    # Extract date range from filename (format: weekly_summary_YYYY-MM-DD_to_YYYY-MM-DD.md)
+    import re
+    date_match = re.search(r'(\d{4}-\d{2}-\d{2})_to_(\d{4}-\d{2}-\d{2})', original_path.stem)
+    if date_match:
+        start_date = datetime.strptime(date_match.group(1), '%Y-%m-%d')
+        end_date = datetime.strptime(date_match.group(2), '%Y-%m-%d')
+
+        # Check if header image exists
+        image_filename = original_path.stem + "_header.png"
+        image_path = original_path.parent / image_filename
+        image_name = image_filename if image_path.exists() else None
+
+        # Generate HTML
+        generate_html_version(pithy_path, html_path, [], start_date, end_date, image_name)
+        print(f"  ✓ HTML version saved to: {html_path}")
 
     return pithy_path
 

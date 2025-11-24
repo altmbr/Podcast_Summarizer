@@ -257,7 +257,7 @@ def generate_weekly_summary_with_ai(episodes, weekly_prompt):
 
     response = client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=8000,
+        max_tokens=16000,  # Increased from 8000 to handle 20+ episodes comprehensively
         messages=[
             {
                 "role": "user",
@@ -345,7 +345,150 @@ def save_weekly_summary(summary_text, episodes, days=7):
         print("  Continuing without header image...")
         # Keep the temp content (already saved without image)
 
+    # Also generate HTML version for email
+    print("→ Generating HTML version for email...")
+    html_filename = f"weekly_summary_{start_date.strftime('%Y-%m-%d')}_to_{end_date.strftime('%Y-%m-%d')}.html"
+    html_output_path = WEEKLY_SUMMARIES_DIR / html_filename
+
+    # Convert markdown to HTML
+    generate_html_version(output_path, html_output_path, episodes, start_date, end_date, image_filename if panel_titles else None)
+    print(f"  ✓ HTML version saved to: {html_output_path}")
+
     return output_path
+
+def generate_html_version(md_path, html_path, episodes, start_date, end_date, image_filename=None):
+    """Generate an HTML version of the weekly summary for email"""
+    import markdown
+
+    # Read the markdown content
+    with open(md_path, 'r') as f:
+        content = f.read()
+
+    # Extract just the summary content (after the episodes list and separator)
+    # Note: Full weekly summary has 2 separators (header, Claude's header, content)
+    # Pithy summary has 1 separator (header, content)
+    # We want everything after the LAST separator
+    parts = content.split('\n---\n')
+    if len(parts) >= 2:
+        # Take everything after the LAST separator
+        # For full summary with 2 separators: parts[2] onwards
+        # For pithy summary with 1 separator: parts[1] onwards
+        # Check if parts[1] starts with "**A." to determine if it's the main content
+        if len(parts) > 2 and not parts[1].strip().startswith('**'):
+            # Full summary: skip duplicate header in parts[1], use parts[2] onwards
+            summary_content = '\n---\n'.join(parts[2:]).strip()
+        else:
+            # Pithy summary or unknown: use everything after first separator
+            summary_content = '\n---\n'.join(parts[1:]).strip()
+    else:
+        summary_content = content
+
+    # Convert markdown to HTML using markdown library
+    # Note: We'll do some preprocessing to handle the nested structure better
+    import re
+
+    # The markdown library struggles with the format:
+    # 1. **Topic**
+    # - quote
+    # So we'll preprocess to make quotes into blockquotes or paragraphs
+
+    # Replace bullet points under numbered items with proper indentation
+    lines = summary_content.split('\n')
+    processed_lines = []
+    in_numbered_list = False
+
+    for i, line in enumerate(lines):
+        # Check if this is a numbered list item with bold topic
+        if re.match(r'^\d+\.\s+\*\*', line):
+            in_numbered_list = True
+            processed_lines.append(line)
+        # Check if this is ANY bullet point under a numbered item (quotes, descriptions, etc.)
+        elif in_numbered_list and line.strip().startswith('- '):
+            # Convert to indented paragraph instead of list item
+            processed_lines.append('    ' + line.strip()[2:])  # Remove "- " and indent
+        else:
+            processed_lines.append(line)
+            # Reset if we hit a blank line or section header
+            if not line.strip() or line.startswith('**'):
+                in_numbered_list = False
+
+    processed_content = '\n'.join(processed_lines)
+
+    md_converter = markdown.Markdown(extensions=['extra', 'nl2br'])
+    summary_html = md_converter.convert(processed_content)
+
+    # Replace "link" with "Read Summary" in all citation links (old format)
+    summary_html = re.sub(r'>\s*link\s*</a>', '>Read Summary</a>', summary_html)
+
+    # Convert plain teahose.com URLs to "Read Summary" links (new format)
+    # Pattern: (Podcast, Speaker, https://teahose.com/...)
+    summary_html = re.sub(
+        r'\(([^,]+),\s*([^,]+),\s*(https://teahose\.com/[^)]+)\)',
+        r'(\1, \2, <a href="\3">Read Summary</a>)',
+        summary_html
+    )
+
+    # Build episodes list HTML from markdown (extract from parts[0])
+    episodes_html = ""
+    episode_count = 0
+    if len(parts) >= 1:
+        # Extract episodes from the first part (our header section)
+        header_part = parts[0]
+        # Find the Episodes Included section
+        episodes_match = re.search(r'## Episodes Included\n\n(.*)', header_part, re.DOTALL)
+        if episodes_match:
+            episodes_md = episodes_match.group(1).strip()
+            # Convert each line to HTML
+            for line in episodes_md.split('\n'):
+                if line.strip().startswith('- **'):
+                    # Extract podcast name, title with link, and date
+                    match = re.match(r'- \*\*([^*]+)\*\* - \[([^\]]+)\]\(([^)]+)\) \(([^)]+)\)', line)
+                    if match:
+                        podcast_name, title, url, date = match.groups()
+                        episodes_html += f'<li><strong>{podcast_name}</strong> - <a href="{url}">{title}</a> ({date})</li>\n'
+                        episode_count += 1
+
+    # Build complete HTML
+    html = f"""<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }}
+        h1 {{ color: #1a1a1a; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; }}
+        h2 {{ color: #2c2c2c; margin-top: 30px; }}
+        a {{ color: #0066cc; text-decoration: none; }}
+        a:hover {{ text-decoration: underline; }}
+        ul {{ padding-left: 20px; }}
+        li {{ margin: 8px 0; }}
+        strong {{ color: #1a1a1a; }}
+        .header {{ text-align: center; margin-bottom: 30px; }}
+        .meta {{ color: #666; font-size: 0.9em; }}
+    </style>
+</head>
+<body>
+    <div class="header">
+        {"<img src='./" + image_filename + "' style='max-width: 100%; height: auto;' />" if image_filename else ""}
+        <h1>Weekly Podcast Summary</h1>
+        <p class="meta"><strong>Period:</strong> {start_date.strftime('%B %d, %Y')} to {end_date.strftime('%B %d, %Y')}<br>
+        <strong>Episodes Analyzed:</strong> {episode_count}</p>
+    </div>
+
+    <h2>Episodes Included</h2>
+    <ul>
+{episodes_html}
+    </ul>
+
+    <hr style="margin: 40px 0; border: none; border-top: 2px solid #e0e0e0;">
+
+{summary_html}
+</body>
+</html>
+"""
+
+    # Save HTML
+    with open(html_path, 'w') as f:
+        f.write(html)
 
 def main():
     print(f"\n{'='*70}")

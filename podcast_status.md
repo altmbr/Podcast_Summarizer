@@ -2,11 +2,11 @@
 
 ## 20VC
 
-**Total Episodes:** 440
+**Total Episodes:** 442
 
 **Status Summary:**
-- discovered: 434
-- summarized: 6
+- discovered: 435
+- summarized: 7
 
 **Episodes:**
 
@@ -2650,6 +2650,18 @@
   - Status: `summarized`
   - Discovered: 2025-11-17 14:22:37
 
+- ✅ **Base44’s Founder, Maor Shlomo: How Vibe Coding Will Kill SaaS & Why Vibe Coding **
+  - ID: `VHo7HYwosGg`
+  - Published: 2025-11-24
+  - Status: `summarized`
+  - Discovered: 2025-11-24 12:11:16
+
+- 🔍 **[Private video]**
+  - ID: `61uwoVVsbBI`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## No Priors
@@ -3782,11 +3794,11 @@
 
 ## All In
 
-**Total Episodes:** 253
+**Total Episodes:** 254
 
 **Status Summary:**
 - discovered: 250
-- summarized: 3
+- summarized: 4
 
 **Episodes:**
 
@@ -5308,6 +5320,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-14 19:11:54
 
+- ✅ **Epstein Files Fallout, Nvidia Risks, Burry's Bad Bet, Google's Breakthrough, Tet**
+  - ID: `4tgV87SM-r0`
+  - Published: 2025-11-22
+  - Status: `summarized`
+  - Discovered: 2025-11-23 16:37:10
+
 ---
 
 ## More or Less
@@ -6267,11 +6285,11 @@
 
 ## Sourcery
 
-**Total Episodes:** 94
+**Total Episodes:** 95
 
 **Status Summary:**
 - discovered: 87
-- summarized: 7
+- summarized: 8
 
 **Episodes:**
 
@@ -6838,6 +6856,12 @@
   - Published: 2025-11-21
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **Inside Thrive Capital: Investing in OpenAI, Wiz, Cursor, Nudge, Physical Intelli**
+  - ID: `niosgDC-QHU`
+  - Published: 2025-11-24
+  - Status: `summarized`
+  - Discovered: 2025-11-24 12:21:52
 
 ---
 
@@ -11873,10 +11897,10 @@
 
 ## Acquired
 
-**Total Episodes:** 72
+**Total Episodes:** 73
 
 **Status Summary:**
-- discovered: 72
+- discovered: 73
 
 **Episodes:**
 
@@ -12309,6 +12333,12 @@
 - 🔍 **[Deleted video]**
   - ID: `K6_JPutP8LM`
   - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Coca-Cola: How a sugar water formula came to represent America, Happiness, and..**
+  - ID: `OdP-4tZo0jw`
+  - Published: 2025-11-24
   - Status: `discovered`
   - Discovered: None
 
@@ -15165,11 +15195,11 @@
 
 ## 晚点聊 LateTalk (Investigative Journalism)
 
-**Total Episodes:** 16
+**Total Episodes:** 17
 
 **Status Summary:**
 - discovered: 12
-- summarized: 4
+- summarized: 5
 
 **Episodes:**
 
@@ -15269,6 +15299,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-10 15:32:16
 
+- ✅ **141: The Former Head of DJI LiDAR Developed an "Electric Wheelchair"? Talking En**
+  - ID: `6923997b83aceb424d94f667`
+  - Published: 2025-11-23
+  - Status: `summarized`
+  - Discovered: 2025-11-24 12:48:18
+
 ---
 
 ## A16z Podcast
@@ -15276,8 +15312,8 @@
 **Total Episodes:** 627
 
 **Status Summary:**
-- discovered: 622
-- summarized: 5
+- discovered: 621
+- summarized: 6
 
 **Episodes:**
 
@@ -19037,21 +19073,21 @@
   - Status: `summarized`
   - Discovered: 2025-11-17 16:50:42
 
-- 🔍 **[Private video]**
+- ✅ **The 2045 Superintelligence Timeline: Epoch AI’s Data-Driven Forecast**
   - ID: `TbFSGiQdCaw`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-11-24
+  - Status: `summarized`
+  - Discovered: 2025-11-24 12:29:52
 
 ---
 
 ## My First Million
 
-**Total Episodes:** 595
+**Total Episodes:** 596
 
 **Status Summary:**
 - discovered: 592
-- summarized: 3
+- summarized: 4
 
 **Episodes:**
 
@@ -22624,6 +22660,12 @@
   - Published: 2025-11-21
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **$1B founder explains how to come up with a great startup idea**
+  - ID: `nSCWNIHBA5U`
+  - Published: 2025-11-24
+  - Status: `summarized`
+  - Discovered: 2025-11-24 12:37:43
 
 ---
 
