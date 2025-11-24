@@ -33,8 +33,16 @@ export default function NewsletterSubscribe() {
         throw new Error(data.message || 'Failed to subscribe')
       }
 
-      // Track newsletter subscription in PostHog
+      // Identify user and track newsletter subscription in PostHog
       if (posthog) {
+        // Identify the user with their email as the distinct ID
+        posthog.identify(email, {
+          email: email,
+          newsletter_subscribed: true,
+          subscription_date: new Date().toISOString(),
+        })
+
+        // Capture the subscription event
         posthog.capture('newsletter_subscribed', {
           email: email,
           timestamp: new Date().toISOString(),
