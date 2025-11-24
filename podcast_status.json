@@ -19787,6 +19787,13 @@
           "discovered_date": "2025-11-24 12:29:52",
           "status": "summarized",
           "region": "Western"
+        },
+        "3x0jhpEj_6o": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },

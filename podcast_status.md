@@ -15309,10 +15309,10 @@
 
 ## A16z Podcast
 
-**Total Episodes:** 627
+**Total Episodes:** 628
 
 **Status Summary:**
-- discovered: 621
+- discovered: 622
 - summarized: 6
 
 **Episodes:**
@@ -19078,6 +19078,12 @@
   - Published: 2025-11-24
   - Status: `summarized`
   - Discovered: 2025-11-24 12:29:52
+
+- 🔍 **[Private video]**
+  - ID: `3x0jhpEj_6o`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 

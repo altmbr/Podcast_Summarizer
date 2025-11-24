@@ -14,7 +14,12 @@ export default function EpisodeClient({ summary, transcript, episodeUrl }: Episo
 
   return (
     <section className="container py-8 md:py-12">
-      <div style={{ borderBottomColor: 'var(--border)' }} className="flex gap-2 mb-8 border-b pb-4">
+      <div
+        style={{ borderBottomColor: 'var(--border)' }}
+        className="flex gap-2 mb-8 border-b pb-4"
+        role="tablist"
+        aria-label="Episode content"
+      >
         <button
           onClick={() => setActiveTab('summary')}
           style={{
@@ -24,6 +29,10 @@ export default function EpisodeClient({ summary, transcript, episodeUrl }: Episo
             fontWeight: 'var(--font-weight-medium)'
           }}
           className="px-4 py-2 transition-colors border-b-2"
+          role="tab"
+          aria-selected={activeTab === 'summary'}
+          aria-controls="summary-panel"
+          id="summary-tab"
         >
           Summary
         </button>
@@ -36,12 +45,20 @@ export default function EpisodeClient({ summary, transcript, episodeUrl }: Episo
             fontWeight: 'var(--font-weight-medium)'
           }}
           className="px-4 py-2 transition-colors border-b-2"
+          role="tab"
+          aria-selected={activeTab === 'transcript'}
+          aria-controls="transcript-panel"
+          id="transcript-tab"
         >
           Transcript
         </button>
       </div>
 
-      <div>
+      <div
+        role="tabpanel"
+        id={activeTab === 'summary' ? 'summary-panel' : 'transcript-panel'}
+        aria-labelledby={activeTab === 'summary' ? 'summary-tab' : 'transcript-tab'}
+      >
         {activeTab === 'summary' && summary ? (
           <MarkdownRenderer content={summary} episodeUrl={episodeUrl} enableInsightSharing={true} />
         ) : activeTab === 'transcript' && transcript ? (

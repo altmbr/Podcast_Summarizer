@@ -20,12 +20,11 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
             <h1
               style={{
                 color: 'var(--foreground)',
-                fontSize: 'var(--text-4xl)',
-                fontWeight: 'var(--font-weight-light)',
+                fontWeight: 'var(--font-weight-semibold)',
                 lineHeight: 'var(--leading-tight)',
                 letterSpacing: '-0.02em'
               }}
-              className="mt-8 mb-4"
+              className="mt-8 mb-4 text-3xl sm:text-4xl md:text-5xl"
               {...props}
             />
           ),
@@ -33,12 +32,11 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
             <h2
               style={{
                 color: 'var(--foreground)',
-                fontSize: 'var(--text-3xl)',
-                fontWeight: 'var(--font-weight-light)',
+                fontWeight: 'var(--font-weight-semibold)',
                 lineHeight: 'var(--leading-tight)',
                 letterSpacing: '-0.02em'
               }}
-              className="mt-6 mb-3"
+              className="mt-6 mb-3 text-2xl sm:text-3xl md:text-4xl"
               {...props}
             />
           ),
@@ -67,12 +65,11 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
               <h3
                 style={{
                   color: 'var(--foreground)',
-                  fontSize: 'var(--text-2xl)',
-                  fontWeight: 'var(--font-weight-light)',
+                  fontWeight: 'var(--font-weight-medium)',
                   lineHeight: 'var(--leading-tight)',
                   letterSpacing: '-0.02em'
                 }}
-                className="mt-5 mb-2 flex items-start gap-2"
+                className="mt-5 mb-2 flex items-start gap-2 text-xl sm:text-2xl"
                 {...props}
               >
                 <span className="flex-1">{children}</span>
@@ -143,9 +140,10 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
                 style={{
                   backgroundColor: 'var(--secondary)',
                   color: 'var(--foreground)',
-                  fontSize: 'var(--text-sm)'
+                  fontSize: 'var(--text-sm)',
+                  borderRadius: 'var(--radius)'
                 }}
-                className="px-2 py-1 rounded font-mono"
+                className="px-2 py-1 font-mono"
                 {...props}
               >
                 {children}
@@ -155,9 +153,10 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
                 style={{
                   backgroundColor: 'var(--secondary)',
                   color: 'var(--foreground)',
-                  fontSize: 'var(--text-sm)'
+                  fontSize: 'var(--text-sm)',
+                  borderRadius: 'var(--radius-lg)'
                 }}
-                className="block p-4 rounded overflow-x-auto my-4 font-mono"
+                className="block p-4 overflow-x-auto my-4 font-mono"
                 {...props}
               >
                 {children}

@@ -62,7 +62,7 @@ export default function NewsletterSubscribe() {
   }
 
   return (
-    <div style={{ backgroundColor: '#f8f7f5', borderTopColor: 'var(--border)' }} className="fixed bottom-0 left-0 right-0 border-t z-50 shadow-lg">
+    <div style={{ backgroundColor: 'var(--background)', borderTopColor: 'var(--border)' }} className="fixed bottom-0 left-0 right-0 border-t z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <div className="flex-1 min-w-0">
@@ -98,9 +98,11 @@ export default function NewsletterSubscribe() {
                 borderColor: 'var(--border)',
                 color: 'var(--foreground)',
                 fontSize: 'var(--text-sm)',
+                borderRadius: 'var(--radius)',
                 '--tw-ring-color': 'var(--accent)',
               } as any}
-              className="flex-1 sm:flex-none px-3 py-1.5 border rounded-sm placeholder:opacity-50 disabled:opacity-50 transition-colors focus:outline-none focus:ring-1"
+              className="flex-1 sm:flex-none px-3 py-1.5 border placeholder:opacity-50 disabled:opacity-50 transition-colors focus:outline-none focus:ring-1"
+              aria-label="Email address"
             />
             <button
               type="submit"
@@ -109,6 +111,7 @@ export default function NewsletterSubscribe() {
                 fontSize: 'var(--text-sm)'
               }}
               className="btn-primary px-3 py-1.5 whitespace-nowrap disabled:opacity-50"
+              aria-label={loading ? 'Subscribing to newsletter' : 'Subscribe to newsletter'}
             >
               {loading ? 'Loading...' : 'Subscribe'}
             </button>

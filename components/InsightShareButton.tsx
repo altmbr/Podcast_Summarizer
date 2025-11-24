@@ -47,9 +47,11 @@ export default function InsightShareButton({ headingText, episodeUrl }: InsightS
       className="inline-flex items-center justify-center ml-3 p-1.5 rounded hover:opacity-70 transition-opacity"
       style={{
         backgroundColor: copied ? 'var(--accent)' : 'transparent',
-        border: '1px solid var(--border)'
+        border: '1px solid var(--border)',
+        borderRadius: 'var(--radius)'
       }}
       title="Share this insight"
+      aria-label={copied ? 'Insight copied to clipboard' : 'Share this insight'}
     >
       {copied ? (
         <svg
