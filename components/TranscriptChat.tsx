@@ -56,7 +56,7 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
     const timestampRegex = /\[(\d{1,2}):(\d{2}):(\d{2})(?:-(\d{1,2}):(\d{2}):(\d{2}))?\]/g
     const parts: (string | ReactElement)[] = []
     let lastIndex = 0
-    let match
+    let match: RegExpExecArray | null
     let matchIndex = 0
 
     while ((match = timestampRegex.exec(text)) !== null) {
