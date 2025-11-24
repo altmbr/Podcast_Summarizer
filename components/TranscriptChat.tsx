@@ -264,7 +264,7 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
           {/* Input */}
           <div
             style={{ borderTopColor: '#e8e6e1' }}
-            className="p-4 border-t pb-20"
+            className="p-4 border-t pb-24 md:pb-20"
           >
             <div className="flex gap-2">
               <input
