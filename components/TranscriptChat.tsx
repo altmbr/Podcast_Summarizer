@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, ReactElement } from 'react'
 import { X, Send, Sparkles, Loader2 } from 'lucide-react'
 
 interface Message {
@@ -41,7 +41,7 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
   }, [messages])
 
   // Function to convert timestamps to clickable YouTube links
-  const makeTimestampsClickable = (text: string): JSX.Element => {
+  const makeTimestampsClickable = (text: string): ReactElement => {
     if (!videoUrl) {
       return <>{text}</>
     }
@@ -54,7 +54,7 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
     // Match timestamps in all common formats: [HH:MM:SS], [MM:SS], [00:01:06], etc.
     // Also handles ranges like [00:01:06-00:01:32]
     const timestampRegex = /\[(\d{1,2}):(\d{2}):(\d{2})(?:-(\d{1,2}):(\d{2}):(\d{2}))?\]/g
-    const parts: (string | JSX.Element)[] = []
+    const parts: (string | ReactElement)[] = []
     let lastIndex = 0
     let match
     let matchIndex = 0
