@@ -4,6 +4,7 @@ import { Metadata } from 'next'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import StructuredData from '@/components/StructuredData'
 import ShareButton from '@/components/ShareButton'
+import TranscriptChat from '@/components/TranscriptChat'
 import { generatePodcastEpisodeSchema } from '@/lib/schema'
 import { getEpisode, getAllEpisodeParams } from '@/lib/episodes'
 import EpisodeClient from './EpisodeClient'
@@ -141,6 +142,16 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
         transcript={episode.transcript}
         episodeUrl={`https://teahose.com/podcast/${name}/${episodeSlug}`}
       />
+
+      {/* Chat with Transcript */}
+      {episode.transcript && (
+        <TranscriptChat
+          transcript={episode.transcript}
+          episodeTitle={episode.title}
+          episodeSummary={episode.summary}
+          videoUrl={episode.videoUrl}
+        />
+      )}
 
       {/* Footer */}
       <footer style={{ borderTopColor: 'var(--border)' }} className="border-t mt-16 md:mt-20">

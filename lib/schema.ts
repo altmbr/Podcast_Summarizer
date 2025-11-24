@@ -160,10 +160,18 @@ export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMet
     metadata.videoId = videoIdMatch[1].trim()
   }
 
-  // Extract video URL
+  // Extract video URL - try two methods
+  // Method 1: From explicit Video URL field
   const videoUrlMatch = summaryContent.match(/\*\*Video URL:\*\*\s+(.+)/i)
   if (videoUrlMatch) {
     metadata.videoUrl = videoUrlMatch[1].trim()
+  }
+  // Method 2: From title link [title](url) if Video URL field not found
+  else {
+    const titleLinkMatch = summaryContent.match(/^#\s+\[.+?\]\((.+?)\)$/m)
+    if (titleLinkMatch) {
+      metadata.videoUrl = titleLinkMatch[1].trim()
+    }
   }
 
   // Extract region
