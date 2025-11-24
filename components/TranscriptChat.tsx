@@ -60,9 +60,14 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
     let matchIndex = 0
 
     while ((match = timestampRegex.exec(text)) !== null) {
+      // Store match data before using in closures (TypeScript null safety)
+      const matchText = match[0]
+      const matchIndex_current = match.index
+      const matchLength = matchText.length
+
       // Add text before the timestamp
-      if (match.index > lastIndex) {
-        parts.push(text.substring(lastIndex, match.index))
+      if (matchIndex_current > lastIndex) {
+        parts.push(text.substring(lastIndex, matchIndex_current))
       }
 
       // Parse the timestamp (use first time if range)
@@ -99,14 +104,14 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
           style={{ color: '#5b7f9e' }}
           className="underline hover:opacity-70"
           onClick={(e) => {
-            console.log('Timestamp clicked:', match[0], 'URL:', youtubeUrl)
+            console.log('Timestamp clicked:', matchText, 'URL:', youtubeUrl)
           }}
         >
-          {match[0]}
+          {matchText}
         </a>
       )
 
-      lastIndex = match.index + match[0].length
+      lastIndex = matchIndex_current + matchLength
       matchIndex++
     }
 
