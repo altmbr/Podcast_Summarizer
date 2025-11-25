@@ -41,8 +41,12 @@ async function getSubscribers(): Promise<string[]> {
 
 async function getEpisodesFromLast24Hours(): Promise<Episode[]> {
   const podcastWorkDir = join(process.cwd(), 'podcast_work')
-  const cutoffDate = new Date()
-  cutoffDate.setDate(cutoffDate.getDate() - 1)
+  const now = new Date()
+  const cutoffDate = new Date(now)
+  cutoffDate.setHours(cutoffDate.getHours() - 24)
+
+  console.log('Current server time:', now.toISOString())
+  console.log('Cutoff date (24h ago):', cutoffDate.toISOString())
 
   const episodes: Episode[] = []
 
@@ -64,7 +68,9 @@ async function getEpisodesFromLast24Hours(): Promise<Episode[]> {
           const metadata = parseEpisodeMetadata(summaryContent)
 
           if (metadata.date) {
-            const episodeDate = new Date(metadata.date)
+            const episodeDate = new Date(metadata.date + 'T12:00:00Z') // Set to noon UTC to avoid edge cases
+
+            console.log(`Episode "${metadata.title}": date=${metadata.date}, parsed=${episodeDate.toISOString()}, includes=${episodeDate >= cutoffDate}`)
 
             // Only include episodes from last 24 hours
             if (episodeDate >= cutoffDate) {
@@ -77,14 +83,16 @@ async function getEpisodesFromLast24Hours(): Promise<Episode[]> {
               })
             }
           }
-        } catch {
-          // Skip episodes that can't be read
+        } catch (e) {
+          console.error(`Error reading episode ${episodeDir.name}:`, e)
         }
       }
     }
   } catch (error) {
     console.error('Error reading podcast_work directory:', error)
   }
+
+  console.log(`Found ${episodes.length} episodes from last 24 hours`)
 
   // Sort by date, newest first
   episodes.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
