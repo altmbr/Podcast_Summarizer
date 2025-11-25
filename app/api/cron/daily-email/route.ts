@@ -223,16 +223,11 @@ REQUIREMENTS:
 
   try {
     // Dynamic import for google-genai
-    const { GoogleGenAI } = await import('@google/generative-ai')
-    const genAI = new GoogleGenAI(googleApiKey)
+    const { GoogleGenerativeAI } = await import('@google/generative-ai')
+    const genAI = new GoogleGenerativeAI(googleApiKey)
 
     const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' })
-    const result = await model.generateContent({
-      contents: [{ role: 'user', parts: [{ text: prompt }] }],
-      generationConfig: {
-        responseModalities: ['image', 'text']
-      }
-    } as Parameters<typeof model.generateContent>[0])
+    const result = await model.generateContent(prompt)
 
     const response = result.response
     for (const part of response.candidates?.[0]?.content?.parts || []) {
