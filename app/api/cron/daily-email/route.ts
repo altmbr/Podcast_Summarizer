@@ -68,7 +68,20 @@ async function getEpisodesFromLast24Hours(): Promise<Episode[]> {
           const metadata = parseEpisodeMetadata(summaryContent)
 
           if (metadata.date) {
-            const episodeDate = new Date(metadata.date + 'T12:00:00Z') // Set to noon UTC to avoid edge cases
+            // Try parsing the date
+            let episodeDate: Date
+            try {
+              episodeDate = new Date(metadata.date + 'T12:00:00Z') // Set to noon UTC to avoid edge cases
+
+              // Validate the date
+              if (isNaN(episodeDate.getTime())) {
+                console.log(`Invalid date for episode "${metadata.title}": ${metadata.date}`)
+                continue
+              }
+            } catch (e) {
+              console.log(`Failed to parse date for episode "${metadata.title}": ${metadata.date}`)
+              continue
+            }
 
             console.log(`Episode "${metadata.title}": date=${metadata.date}, parsed=${episodeDate.toISOString()}, includes=${episodeDate >= cutoffDate}`)
 
@@ -230,18 +243,22 @@ REQUIREMENTS:
 - Vintage newspaper comic aesthetic`
 
   try {
-    // Dynamic import for google-genai
-    const { GoogleGenerativeAI } = await import('@google/generative-ai')
-    const genAI = new GoogleGenerativeAI(googleApiKey)
+    const { genai } = await import('@google/genai')
+    const client = genai.Client({ apiKey: googleApiKey })
 
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' })
-    const result = await model.generateContent(prompt)
+    // Use gemini-3-pro-image-preview (Nano Banana Pro) - same model that works in test script
+    const response = await client.models.generateContent({
+      model: 'gemini-3-pro-image-preview',
+      contents: [prompt],
+    })
 
-    const response = result.response
-    for (const part of response.candidates?.[0]?.content?.parts || []) {
+    // Extract and return the generated image as base64 data URL
+    for (const part of response.parts || []) {
       if (part.inlineData) {
-        // Return base64 data URL
-        return `data:${part.inlineData.mimeType};base64,${part.inlineData.data}`
+        const mimeType = part.inlineData.mimeType || 'image/png'
+        const data = part.inlineData.data
+        console.log('Image generated successfully')
+        return `data:${mimeType};base64,${data}`
       }
     }
 
