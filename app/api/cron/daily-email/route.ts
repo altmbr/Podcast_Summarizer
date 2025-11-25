@@ -14,6 +14,7 @@ interface Episode {
   date: string
   summary_content: string
   description?: string
+  participants?: string
 }
 
 // Verify this is a legitimate cron request
@@ -92,7 +93,8 @@ async function getEpisodesFromLast24Hours(): Promise<Episode[]> {
                 title: metadata.title || episodeDir.name,
                 slug: episodeDir.name,
                 date: metadata.date,
-                summary_content: summaryContent
+                summary_content: summaryContent,
+                participants: metadata.participants
               })
             }
           }
@@ -301,6 +303,10 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
       year: 'numeric'
     })
 
+    const participantsHtml = episode.participants
+      ? `<p style="color: ${colors.muted_foreground}; font-size: 13px; margin: 0 0 12px 0;">Featuring: ${episode.participants}</p>`
+      : ''
+
     episodeCards += `
         <div style="background: ${colors.card}; padding: 24px 32px; margin-bottom: 24px; border-radius: 2px; border: 1px solid ${colors.border};">
             <div style="margin-bottom: 8px;">
@@ -309,7 +315,8 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
             <h2 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 600; letter-spacing: -0.02em;">
                 <a href="${summaryUrl}" style="color: ${colors.foreground}; text-decoration: none;">${episode.title}</a>
             </h2>
-            <p style="color: ${colors.muted_foreground}; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px 0;">${episode.podcast_name}</p>
+            <p style="color: ${colors.muted_foreground}; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">${episode.podcast_name}</p>
+            ${participantsHtml}
             <p style="color: ${colors.foreground}; font-size: 15px; line-height: 1.75; margin: 0;">
                 ${episode.description || 'New episode available.'}
             </p>
