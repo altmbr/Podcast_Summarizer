@@ -73,7 +73,7 @@ export default function NewsletterSubscribe() {
                 fontWeight: 'var(--font-weight-medium)'
               }}
             >
-              Weekly Summary
+              Email Podcast Summaries
             </p>
             <p
               style={{
