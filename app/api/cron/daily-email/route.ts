@@ -92,10 +92,27 @@ async function getEpisodesFromLast24Hours(): Promise<Episode[]> {
 }
 
 function extractKeyThemes(summaryContent: string): string {
-  const themesMatch = summaryContent.match(/##?\s*(?:1\.|A\.)\s*Key\s+Themes.*?\n(.*?)(?=\n##\s*\d|\n##\s*[A-Z]|\Z)/is)
+  // Find Key Themes section and extract content until next heading
+  const lines = summaryContent.split('\n')
+  let inThemes = false
+  let themesContent: string[] = []
 
-  if (themesMatch) {
-    return themesMatch[1].trim().slice(0, 2000)
+  for (const line of lines) {
+    if (/^##?\s*(?:1\.|A\.)\s*Key\s+Themes/i.test(line)) {
+      inThemes = true
+      continue
+    }
+    if (inThemes) {
+      // Stop at next major heading
+      if (/^##\s*\d|^##\s*[A-Z]/.test(line)) {
+        break
+      }
+      themesContent.push(line)
+    }
+  }
+
+  if (themesContent.length > 0) {
+    return themesContent.join('\n').trim().slice(0, 2000)
   }
   return summaryContent.slice(0, 2000)
 }
