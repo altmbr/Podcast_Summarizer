@@ -63,6 +63,17 @@ def get_episodes_from_last_day():
             if not summary_file.exists():
                 continue
 
+            # Extract participants from summary file
+            participants = None
+            try:
+                with open(summary_file, 'r') as f:
+                    summary_content = f.read()
+                participants_match = re.search(r'\*\*Participants:\*\*\s*(.+)', summary_content)
+                if participants_match:
+                    participants = participants_match.group(1).strip()
+            except Exception:
+                pass
+
             episodes.append({
                 "podcast_name": podcast_name,
                 "title": title,
@@ -70,7 +81,8 @@ def get_episodes_from_last_day():
                 "upload_date": upload_date,
                 "summary_path": summary_file,
                 "video_url": f"https://www.youtube.com/watch?v={video_id}",
-                "region": episode_data.get("region", "Western")
+                "region": episode_data.get("region", "Western"),
+                "participants": participants
             })
 
     episodes.sort(key=lambda x: x["upload_date"], reverse=True)
@@ -78,14 +90,34 @@ def get_episodes_from_last_day():
 
 
 def extract_key_themes(summary_path):
-    """Extract key themes section from summary."""
+    """Extract key themes and contrarian perspectives sections from summary."""
     try:
         with open(summary_path, 'r') as f:
             content = f.read()
-        themes_match = re.search(r'##?\s*(?:1\.|A\.)\s*Key\s+Themes.*?\n(.*?)(?=\n##\s*\d|\n##\s*[A-Z]|\Z)', content, re.DOTALL | re.IGNORECASE)
-        if themes_match:
-            return themes_match.group(1).strip()[:2000]
-        return content[:2000]
+
+        # Extract both Key Themes and Contrarian Perspectives sections
+        lines = content.split('\n')
+        in_relevant_section = False
+        extracted_content = []
+
+        for line in lines:
+            # Start capturing at Key Themes
+            if re.match(r'^##?\s*(?:1\.|A\.)\s*Key\s+Themes', line, re.IGNORECASE):
+                in_relevant_section = True
+                continue
+            # Continue capturing at Contrarian Perspectives
+            if re.match(r'^##?\s*(?:2\.|B\.)\s*Contrarian\s+Perspectives?', line, re.IGNORECASE):
+                in_relevant_section = True
+                continue
+            if in_relevant_section:
+                # Stop at other major sections (Companies, People, etc)
+                if re.match(r'^##\s*(?:3\.|4\.|C\.|D\.)', line):
+                    break
+                extracted_content.append(line)
+
+        if extracted_content:
+            return '\n'.join(extracted_content).strip()[:3000]
+        return content[:3000]
     except Exception:
         return ""
 
@@ -99,14 +131,14 @@ def generate_description(episode):
     if not summary_excerpt:
         return "New episode available."
 
-    prompt = f"""Write ONE pithy sentence (max 15 words) capturing the most interesting insight from this podcast episode. Be specific, punchy, intriguing.
+    prompt = f"""Write a pithy, signal-dense summary (max 45 words) of this podcast episode. Cover: main discussion topics, key themes, and any contrarian insights. Be specific and punchy.
 
 Episode: {episode['title']}
 
 Key themes:
 {summary_excerpt}
 
-One sentence:"""
+Summary:"""
 
     try:
         response = requests.post(
@@ -118,7 +150,7 @@ One sentence:"""
             },
             json={
                 'model': 'claude-sonnet-4-5-20250929',
-                'max_tokens': 100,
+                'max_tokens': 150,
                 'messages': [{'role': 'user', 'content': prompt}]
             }
         )
@@ -161,24 +193,24 @@ def generate_header_image(episodes, date_str, output_path):
         layout = "1 large panel filling the entire image"
         panel_desc = f'Single Panel: "{topics[0]}"'
     elif num_topics == 2:
-        layout = "2 panels side by side"
+        layout = "2 panels stacked vertically"
         panel_desc = f'Panel 1: "{topics[0]}"\nPanel 2: "{topics[1]}"'
     elif num_topics == 3:
-        layout = "3 panels (1 large on left, 2 stacked on right)"
+        layout = "3 panels stacked vertically"
         panel_desc = f'Panel 1: "{topics[0]}"\nPanel 2: "{topics[1]}"\nPanel 3: "{topics[2]}"'
     elif num_topics == 4:
         layout = "4 panels in a 2x2 grid"
         panel_desc = '\n'.join([f'Panel {i+1}: "{t}"' for i, t in enumerate(topics)])
     elif num_topics == 5:
-        layout = "5 panels: 2 on top, 3 on bottom"
+        layout = "5 panels: 1 wide panel at top spanning full width, then 2 rows of 2 panels each below"
         panel_desc = '\n'.join([f'Panel {i+1}: "{t}"' for i, t in enumerate(topics)])
     else:
-        layout = "6 panels in a 3x2 grid"
+        layout = "6 panels in a 2x3 grid (2 columns, 3 rows)"
         panel_desc = '\n'.join([f'Panel {i+1}: "{t}"' for i, t in enumerate(topics)])
 
     prompt = f"""Create a vintage 1950s newspaper-style comic header for a daily podcast digest.
 
-LAYOUT: {layout} in LANDSCAPE format.
+LAYOUT: {layout} in PORTRAIT format.
 
 STYLE: Vintage Roy Lichtenstein pop art with Ben Day dots, bold primary colors, thick black outlines.
 
@@ -190,7 +222,7 @@ FOOTER BANNER: Bold text saying "THE DAILY TEAHOSE - {date_str}" at the bottom
 REQUIREMENTS:
 - All {num_topics} panels clearly visible
 - All text legible and bold
-- Landscape orientation
+- Portrait orientation (taller than wide)
 - Vintage newspaper comic aesthetic"""
 
     try:
@@ -245,7 +277,7 @@ def generate_email_html(episodes, date_str, header_image_path=None):
             img.save(buffer, format='JPEG', quality=85, optimize=True)
             buffer.seek(0)
             img_data = base64.b64encode(buffer.read()).decode('utf-8')
-            header_img_html = f'<img src="data:image/jpeg;base64,{img_data}" style="width: 100%; max-width: 800px; height: auto; margin-bottom: 30px;" alt="Daily Teahose Header">'
+            header_img_html = f'<img src="data:image/jpeg;base64,{img_data}" style="width: 100%; max-width: 800px; height: auto; margin: 0 0 32px 0;" alt="Daily Teahose Header">'
         except Exception as e:
             print(f"Warning: Could not embed header image: {e}")
 
@@ -259,22 +291,28 @@ def generate_email_html(episodes, date_str, header_image_path=None):
     }
 
     episode_cards = ""
-    for episode in episodes:
+    for index, episode in enumerate(episodes):
         upload_date = episode['upload_date'].strftime('%B %d, %Y')
         sanitized_title = re.sub(r'[<>:"/\\|?*]', '_', episode['title'])
         encoded_podcast = requests.utils.quote(episode['podcast_name'])
         encoded_slug = requests.utils.quote(sanitized_title)
         summary_url = f"https://teahose.com/podcast/{encoded_podcast}/{encoded_slug}"
 
+        is_last = index == len(episodes) - 1
+        margin_bottom = '0' if is_last else '24px'
+
+        participants_html = ''
+        if episode.get('participants'):
+            participants_html = f'<p style="color: {colors["foreground"]}; font-size: 14px; margin: 0 0 8px 0;">{episode["participants"]}</p>'
+
         episode_cards += f"""
-        <div style="background: {colors['card']}; padding: 24px 32px; margin-bottom: 24px; border-radius: 2px; border: 1px solid {colors['border']};">
-            <div style="margin-bottom: 8px;">
-                <span style="color: {colors['muted_foreground']}; font-size: 14px;">{upload_date}</span>
-            </div>
-            <h2 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 600; letter-spacing: -0.02em;">
+        <div style="background: {colors['card']}; padding: 24px 16px; margin-bottom: {margin_bottom}; border-radius: 2px; border: 1px solid {colors['border']};">
+            <h2 style="margin: 0 0 6px 0; font-size: 24px; font-weight: 600; letter-spacing: -0.02em;">
                 <a href="{summary_url}" style="color: {colors['foreground']}; text-decoration: none;">{episode['title']}</a>
             </h2>
-            <p style="color: {colors['muted_foreground']}; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px 0;">{episode['podcast_name']}</p>
+            <p style="color: {colors['muted_foreground']}; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">{episode['podcast_name']}</p>
+            {participants_html}
+            <p style="color: {colors['muted_foreground']}; font-size: 12px; margin: 0 0 12px 0;">{upload_date}</p>
             <p style="color: {colors['foreground']}; font-size: 15px; line-height: 1.75; margin: 0;">
                 {episode.get('description', 'New episode available.')}
             </p>
@@ -287,22 +325,20 @@ def generate_email_html(episodes, date_str, header_image_path=None):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Daily Teahose - {date_str}</title>
 </head>
-<body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: {colors['foreground']}; max-width: 896px; margin: 0 auto; padding: 20px; background-color: {colors['background']};">
+<body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: {colors['foreground']}; max-width: 896px; margin: 0 auto; padding: 10px; background-color: {colors['background']};">
 
-    <div style="background: {colors['card']}; padding: 40px; border-radius: 4px;">
+    <div style="background: {colors['card']}; padding: 32px 20px; border-radius: 4px;">
 
         {header_img_html}
-
-        <p style="color: {colors['muted_foreground']}; font-size: 14px; margin-bottom: 32px;">
-            <strong>{len(episodes)}</strong> new episode{"s" if len(episodes) != 1 else ""} published today
-        </p>
 
         {episode_cards}
     </div>
 
-    <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 1px solid {colors['border']}; color: {colors['muted_foreground']}; font-size: 14px;">
-        <p style="margin: 0 0 8px 0;">Discover the insights within each episode.</p>
-        <p style="margin: 0;"><a href="https://teahose.com" style="color: {colors['accent']}; text-decoration: underline;">teahose.com</a></p>
+    <div style="text-align: center; padding: 32px 20px; color: {colors['muted_foreground']}; font-size: 14px;">
+        <p style="margin: 0;">
+            A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
+            <a href="https://teahose.com" style="color: {colors['accent']}; text-decoration: underline; margin-top: 16px; display: inline-block;">Teahose.com</a>
+        </p>
     </div>
 
 </body>

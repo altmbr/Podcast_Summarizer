@@ -115,29 +115,35 @@ async function getEpisodesFromLast24Hours(): Promise<Episode[]> {
 }
 
 function extractKeyThemes(summaryContent: string): string {
-  // Find Key Themes section and extract content until next heading
+  // Find Key Themes and Contrarian Perspectives sections
   const lines = summaryContent.split('\n')
-  let inThemes = false
-  let themesContent: string[] = []
+  let inRelevantSection = false
+  let extractedContent: string[] = []
 
   for (const line of lines) {
+    // Start capturing at Key Themes
     if (/^##?\s*(?:1\.|A\.)\s*Key\s+Themes/i.test(line)) {
-      inThemes = true
+      inRelevantSection = true
       continue
     }
-    if (inThemes) {
-      // Stop at next major heading
-      if (/^##\s*\d|^##\s*[A-Z]/.test(line)) {
+    // Continue capturing at Contrarian Perspectives
+    if (/^##?\s*(?:2\.|B\.)\s*Contrarian\s+Perspectives?/i.test(line)) {
+      inRelevantSection = true
+      continue
+    }
+    if (inRelevantSection) {
+      // Stop at other major sections (Companies, People, etc)
+      if (/^##\s*(?:3\.|4\.|C\.|D\.)/.test(line)) {
         break
       }
-      themesContent.push(line)
+      extractedContent.push(line)
     }
   }
 
-  if (themesContent.length > 0) {
-    return themesContent.join('\n').trim().slice(0, 2000)
+  if (extractedContent.length > 0) {
+    return extractedContent.join('\n').trim().slice(0, 3000)
   }
-  return summaryContent.slice(0, 2000)
+  return summaryContent.slice(0, 3000)
 }
 
 async function generateDescription(episode: Episode): Promise<string> {
@@ -151,14 +157,14 @@ async function generateDescription(episode: Episode): Promise<string> {
     return 'New episode available.'
   }
 
-  const prompt = `Write ONE pithy sentence (max 15 words) capturing the most interesting insight from this podcast episode. Be specific, punchy, intriguing.
+  const prompt = `Write a pithy, signal-dense summary (max 45 words) of this podcast episode. Cover: main discussion topics, key themes, and any contrarian insights. Be specific and punchy.
 
 Episode: ${episode.title}
 
 Key themes:
 ${summaryExcerpt}
 
-One sentence:`
+Summary:`
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -170,7 +176,7 @@ One sentence:`
       },
       body: JSON.stringify({
         model: 'claude-sonnet-4-5-20250929',
-        max_tokens: 100,
+        max_tokens: 150,
         messages: [{ role: 'user', content: prompt }]
       })
     })
@@ -211,25 +217,25 @@ async function generateHeaderImage(episodes: Episode[], dateStr: string): Promis
     layout = '1 large panel filling the entire image'
     panelDesc = `Single Panel: "${topics[0]}"`
   } else if (numTopics === 2) {
-    layout = '2 panels side by side'
+    layout = '2 panels stacked vertically'
     panelDesc = `Panel 1: "${topics[0]}"\nPanel 2: "${topics[1]}"`
   } else if (numTopics === 3) {
-    layout = '3 panels (1 large on left, 2 stacked on right)'
+    layout = '3 panels stacked vertically'
     panelDesc = topics.map((t, i) => `Panel ${i + 1}: "${t}"`).join('\n')
   } else if (numTopics === 4) {
     layout = '4 panels in a 2x2 grid'
     panelDesc = topics.map((t, i) => `Panel ${i + 1}: "${t}"`).join('\n')
   } else if (numTopics === 5) {
-    layout = '5 panels: 2 on top, 3 on bottom'
+    layout = '5 panels: 1 wide panel at top spanning full width, then 2 rows of 2 panels each below'
     panelDesc = topics.map((t, i) => `Panel ${i + 1}: "${t}"`).join('\n')
   } else {
-    layout = '6 panels in a 3x2 grid'
+    layout = '6 panels in a 2x3 grid (2 columns, 3 rows)'
     panelDesc = topics.map((t, i) => `Panel ${i + 1}: "${t}"`).join('\n')
   }
 
   const prompt = `Create a vintage 1950s newspaper-style comic header for a daily podcast digest.
 
-LAYOUT: ${layout} in LANDSCAPE format.
+LAYOUT: ${layout} in PORTRAIT format.
 
 STYLE: Vintage Roy Lichtenstein pop art with Ben Day dots, bold primary colors, thick black outlines.
 
@@ -241,7 +247,7 @@ FOOTER BANNER: Bold text saying "THE DAILY TEAHOSE - ${dateStr}" at the bottom
 REQUIREMENTS:
 - All ${numTopics} panels clearly visible
 - All text legible and bold
-- Landscape orientation
+- Portrait orientation (taller than wide)
 - Vintage newspaper comic aesthetic`
 
   try {
@@ -288,12 +294,12 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
 
   // Use CID reference for inline image attachment
   const headerImgHtml = hasImage
-    ? `<img src="cid:header_image" style="width: 100%; max-width: 800px; height: auto; margin-bottom: 30px;" alt="Daily Teahose Header">`
+    ? `<img src="cid:header_image" style="width: 100%; max-width: 800px; height: auto; margin: 0 0 32px 0;" alt="Daily Teahose Header">`
     : ''
 
   let episodeCards = ''
 
-  for (const episode of episodes) {
+  episodes.forEach((episode, index) => {
     const encodedPodcast = encodeURIComponent(episode.podcast_name)
     const encodedSlug = encodeURIComponent(episode.slug)
     const summaryUrl = `https://teahose.com/podcast/${encodedPodcast}/${encodedSlug}`
@@ -304,24 +310,25 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
     })
 
     const participantsHtml = episode.participants
-      ? `<p style="color: ${colors.muted_foreground}; font-size: 13px; margin: 0 0 12px 0;">Featuring: ${episode.participants}</p>`
+      ? `<p style="color: ${colors.foreground}; font-size: 14px; margin: 0 0 8px 0;">${episode.participants}</p>`
       : ''
 
+    const isLast = index === episodes.length - 1
+    const marginBottom = isLast ? '0' : '24px'
+
     episodeCards += `
-        <div style="background: ${colors.card}; padding: 24px 32px; margin-bottom: 24px; border-radius: 2px; border: 1px solid ${colors.border};">
-            <div style="margin-bottom: 8px;">
-                <span style="color: ${colors.muted_foreground}; font-size: 14px;">${formattedDate}</span>
-            </div>
-            <h2 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 600; letter-spacing: -0.02em;">
+        <div style="background: ${colors.card}; padding: 24px 16px; margin-bottom: ${marginBottom}; border-radius: 2px; border: 1px solid ${colors.border};">
+            <h2 style="margin: 0 0 6px 0; font-size: 24px; font-weight: 600; letter-spacing: -0.02em;">
                 <a href="${summaryUrl}" style="color: ${colors.foreground}; text-decoration: none;">${episode.title}</a>
             </h2>
-            <p style="color: ${colors.muted_foreground}; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">${episode.podcast_name}</p>
+            <p style="color: ${colors.muted_foreground}; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">${episode.podcast_name}</p>
             ${participantsHtml}
+            <p style="color: ${colors.muted_foreground}; font-size: 12px; margin: 0 0 12px 0;">${formattedDate}</p>
             <p style="color: ${colors.foreground}; font-size: 15px; line-height: 1.75; margin: 0;">
                 ${episode.description || 'New episode available.'}
             </p>
         </div>`
-  }
+  })
 
   return `<!DOCTYPE html>
 <html>
@@ -330,22 +337,20 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Daily Teahose - ${dateStr}</title>
 </head>
-<body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: ${colors.foreground}; max-width: 896px; margin: 0 auto; padding: 20px; background-color: ${colors.background};">
+<body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: ${colors.foreground}; max-width: 896px; margin: 0 auto; padding: 10px; background-color: ${colors.background};">
 
-    <div style="background: ${colors.card}; padding: 40px; border-radius: 4px;">
+    <div style="background: ${colors.card}; padding: 32px 20px; border-radius: 4px;">
 
         ${headerImgHtml}
-
-        <p style="color: ${colors.muted_foreground}; font-size: 14px; margin-bottom: 32px;">
-            <strong>${episodes.length}</strong> new episode${episodes.length !== 1 ? 's' : ''} published today
-        </p>
 
         ${episodeCards}
     </div>
 
-    <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 1px solid ${colors.border}; color: ${colors.muted_foreground}; font-size: 14px;">
-        <p style="margin: 0 0 8px 0;">Discover the insights within each episode.</p>
-        <p style="margin: 0;"><a href="https://teahose.com" style="color: ${colors.accent}; text-decoration: underline;">teahose.com</a></p>
+    <div style="text-align: center; padding: 32px 20px; color: ${colors.muted_foreground}; font-size: 14px;">
+        <p style="margin: 0;">
+            A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
+            <a href="https://teahose.com" style="color: ${colors.accent}; text-decoration: underline; margin-top: 16px; display: inline-block;">Teahose.com</a>
+        </p>
     </div>
 
 </body>

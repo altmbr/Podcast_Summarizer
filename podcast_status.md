@@ -7565,9 +7565,9 @@
   - Status: `summarized`
   - Discovered: 2025-11-12 18:32:33
 
-- 🔍 **[Private video]**
+- 🔍 **Ilya Sutskever – We're moving from the age of scaling to the age of research**
   - ID: `aR20FWCCjAs`
-  - Published: 0
+  - Published: 2025-11-25
   - Status: `discovered`
   - Discovered: None
 
