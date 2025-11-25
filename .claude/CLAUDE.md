@@ -1,6 +1,6 @@
 # Podcast Summarizer System
 
-Automated podcast downloading, transcription, and summarization system. Publishes to [teahose.com](https://teahose.com).
+Automated podcast downloading, transcription, and summarization system. Publishes to [teahose.com](https://www.teahose.com).
 
 ## Quick Start
 
@@ -106,10 +106,19 @@ HUGGINGFACE_TOKEN=hf_...         # For local pyannote diarization (<3 hr)
 
 ## Web Publishing (teahose.com)
 
-- Auto-deploys on `git push`
+- Auto-deploys on `git push` via Vercel
 - Newsletter signups via Vercel KV (see `VERCEL_KV_SETUP.md`)
-- SEO: Dynamic sitemap, JSON-LD schemas, SSG for all pages
-- Files: `app/sitemap.ts`, `app/robots.ts`, `lib/schema.ts`
+- **SEO optimized**: Dynamic sitemap, JSON-LD schemas, SSG for all pages, canonical URLs
+- Base URL: `https://www.teahose.com` (with www for SEO consistency)
+- Files: `app/sitemap.ts`, `app/robots.ts`, `lib/schema.ts`, `app/not-found.tsx`
+
+### SEO Features
+- **Static Site Generation (SSG)**: Homepage and all podcast/episode pages pre-rendered
+- **Canonical tags**: All pages have explicit canonical URLs to prevent duplicate content
+- **Structured data**: PodcastEpisode and PodcastSeries JSON-LD schemas on all pages
+- **Sitemap**: Auto-generated at `/sitemap.xml` with all podcasts and episodes
+- **robots.txt**: Blocks transcript files and internal APIs from search engines
+- **404 page**: Custom not-found page for better UX
 
 ## Daily Email Digest
 
@@ -137,7 +146,7 @@ python test_daily_email.py altmbr@gmail.com   # Send test email
 ```
 
 ### Manual Trigger
-Visit `https://teahose.com/api/cron/daily-email` to trigger manually.
+Visit `https://www.teahose.com/api/cron/daily-email` to trigger manually.
 
 ## Dependencies
 

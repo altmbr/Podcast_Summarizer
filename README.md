@@ -13,14 +13,16 @@ A high-performance Next.js website for browsing and viewing AI-generated podcast
 - **Daily Email Digest**: Automatic daily emails with new episode summaries (via Vercel Cron)
 
 ### Performance & SEO
-- **Static Site Generation (SSG)**: 100+ pages pre-rendered at build time
+- **Static Site Generation (SSG)**: 130+ pages pre-rendered at build time (homepage + all podcasts/episodes)
 - **Edge Caching**: Instant page loads via Vercel CDN worldwide
-- **Dynamic Sitemap**: Auto-generated `/sitemap.xml` with 200+ URLs
-- **Structured Data**: JSON-LD schema for PodcastEpisode, PodcastSeries, Organization
-- **Unique Metadata**: SEO-optimized titles and descriptions per page
-- **Canonical URLs**: Prevents duplicate content issues
+- **Dynamic Sitemap**: Auto-generated `/sitemap.xml` at `https://www.teahose.com/sitemap.xml`
+- **Structured Data**: JSON-LD schema for PodcastEpisode, PodcastSeries, Organization, WebSite
+- **SEO-Optimized URLs**: Consistent www domain (`https://www.teahose.com`) for all pages
+- **Canonical URLs**: Explicit canonical tags on all pages to prevent duplicate content
+- **Custom 404 Page**: Branded not-found page for better user experience
+- **robots.txt**: Blocks transcript files and internal APIs from search crawlers
 - **Image Optimization**: Next.js automatic optimization enabled
-- **Open Graph & Twitter Cards**: Rich social media previews
+- **Open Graph & Twitter Cards**: Rich social media previews with OG images
 
 ### Design
 - **Responsive Design**: Mobile-first, works on all devices
@@ -43,11 +45,12 @@ A high-performance Next.js website for browsing and viewing AI-generated podcast
 ```
 teahose/
 ├── app/                                    # Next.js App Router
-│   ├── page.tsx                           # Homepage (client component)
-│   ├── layout.tsx                         # Root layout with schemas
+│   ├── page.tsx                           # Homepage (SSG)
+│   ├── layout.tsx                         # Root layout with metadata & schemas
+│   ├── not-found.tsx                      # Custom 404 page
 │   ├── globals.css                        # Global styles & theme
 │   ├── sitemap.ts                         # Dynamic sitemap generation
-│   ├── robots.ts                          # Robots.txt
+│   ├── robots.ts                          # Robots.txt generation
 │   ├── podcast/[name]/
 │   │   ├── page.tsx                       # Podcast page (SSG + metadata)
 │   │   └── [episode]/
