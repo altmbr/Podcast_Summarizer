@@ -3,7 +3,7 @@ import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 
 const PODCAST_WORK_DIR = join(process.cwd(), 'podcast_work')
-const BASE_URL = 'https://teahose.com'
+const BASE_URL = 'https://www.teahose.com'
 
 interface Episode {
   podcastName: string

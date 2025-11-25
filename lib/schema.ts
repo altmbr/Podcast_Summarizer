@@ -31,12 +31,12 @@ export function generatePodcastEpisodeSchema(
     '@context': 'https://schema.org',
     '@type': 'PodcastEpisode',
     name: episode.title,
-    url: `https://teahose.com/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`,
+    url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`,
     datePublished: episode.date,
     partOfSeries: {
       '@type': 'PodcastSeries',
       name: episode.podcast,
-      url: `https://teahose.com/podcast/${encodeURIComponent(podcastName)}`,
+      url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}`,
     },
   }
 
@@ -91,8 +91,8 @@ export function generateOrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Teahose',
-    url: 'https://teahose.com',
-    logo: 'https://teahose.com/og-image.png',
+    url: 'https://www.teahose.com',
+    logo: 'https://www.teahose.com/og-image.png',
     description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
     sameAs: [],
   }
@@ -106,13 +106,13 @@ export function generateWebSiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Teahose',
-    url: 'https://teahose.com',
+    url: 'https://www.teahose.com',
     description: 'Summaries of the most important tech podcasts — including China\'s.',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://teahose.com/?q={search_term_string}',
+        urlTemplate: 'https://www.teahose.com/?q={search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },

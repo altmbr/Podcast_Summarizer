@@ -15,6 +15,6 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: 'https://teahose.com/sitemap.xml',
+    sitemap: 'https://www.teahose.com/sitemap.xml',
   }
 }

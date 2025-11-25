@@ -6870,8 +6870,8 @@
 **Total Episodes:** 116
 
 **Status Summary:**
-- discovered: 114
-- summarized: 2
+- discovered: 113
+- summarized: 3
 
 **Episodes:**
 
@@ -7565,11 +7565,11 @@
   - Status: `summarized`
   - Discovered: 2025-11-12 18:32:33
 
-- 🔍 **Ilya Sutskever – We're moving from the age of scaling to the age of research**
+- ✅ **Ilya Sutskever – We're moving from the age of scaling to the age of research**
   - ID: `aR20FWCCjAs`
   - Published: 2025-11-25
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-11-25 16:18:08
 
 ---
 

@@ -8,6 +8,7 @@ import { generateOrganizationSchema, generateWebSiteSchema } from '@/lib/schema'
 import { Suspense } from 'react'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.teahose.com'),
   title: 'Teahose - Tech Podcast Summaries',
   description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
   icons: {
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Teahose - Tech Podcast Summaries',
     description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
-    url: 'https://teahose.com',
+    url: 'https://www.teahose.com',
     siteName: 'Teahose',
     images: [
       {
@@ -38,6 +39,9 @@ export const metadata: Metadata = {
     title: 'Teahose - Tech Podcast Summaries',
     description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
     images: ['/og-image.png'],
+  },
+  alternates: {
+    canonical: '/',
   },
 }
 
