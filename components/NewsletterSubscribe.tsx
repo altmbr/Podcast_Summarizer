@@ -33,7 +33,7 @@ export default function NewsletterSubscribe() {
         throw new Error(data.message || 'Failed to subscribe')
       }
 
-      // Identify user and track newsletter subscription in PostHog
+      // Identify user in PostHog (for both new and existing subscriptions)
       if (posthog) {
         // Identify the user with their email as the distinct ID
         posthog.identify(email, {
@@ -42,14 +42,19 @@ export default function NewsletterSubscribe() {
           subscription_date: new Date().toISOString(),
         })
 
-        // Capture the subscription event
-        posthog.capture('newsletter_subscribed', {
-          email: email,
-          timestamp: new Date().toISOString(),
-        })
+        // Capture the subscription event (only for new subscriptions)
+        if (!data.alreadySubscribed) {
+          posthog.capture('newsletter_subscribed', {
+            email: email,
+            timestamp: new Date().toISOString(),
+          })
+        }
       }
 
-      setMessage({ type: 'success', text: 'Thanks for subscribing!' })
+      setMessage({
+        type: 'success',
+        text: data.alreadySubscribed ? 'This email is already subscribed' : 'Thanks for subscribing!'
+      })
       setEmail('')
     } catch (error) {
       setMessage({

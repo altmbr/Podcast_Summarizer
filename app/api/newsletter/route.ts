@@ -41,8 +41,8 @@ export async function POST(request: NextRequest) {
     const emails = await getEmails()
     if (emails.includes(email)) {
       return Response.json(
-        { message: 'This email is already subscribed' },
-        { status: 400 }
+        { message: 'This email is already subscribed', alreadySubscribed: true },
+        { status: 200 }
       )
     }
 
