@@ -274,7 +274,7 @@ REQUIREMENTS:
   }
 }
 
-function generateEmailHtml(episodes: Episode[], dateStr: string, headerImageDataUrl: string | null): string {
+function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boolean): string {
   const colors = {
     background: '#f8f7f5',
     foreground: '#2c2c2c',
@@ -284,8 +284,9 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, headerImageData
     border: '#e8e6e1',
   }
 
-  const headerImgHtml = headerImageDataUrl
-    ? `<img src="${headerImageDataUrl}" style="width: 100%; max-width: 800px; height: auto; margin-bottom: 30px;" alt="Daily Teahose Header">`
+  // Use CID reference for inline image attachment
+  const headerImgHtml = hasImage
+    ? `<img src="cid:header_image" style="width: 100%; max-width: 800px; height: auto; margin-bottom: 30px;" alt="Daily Teahose Header">`
     : ''
 
   let episodeCards = ''
@@ -344,7 +345,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, headerImageData
 </html>`
 }
 
-async function sendEmail(to: string[], subject: string, htmlContent: string): Promise<boolean> {
+async function sendEmail(to: string[], subject: string, htmlContent: string, imageBase64: string | null): Promise<boolean> {
   const sendgridKey = process.env.SENDGRID_API_KEY
 
   if (!sendgridKey) {
@@ -355,6 +356,38 @@ async function sendEmail(to: string[], subject: string, htmlContent: string): Pr
   // SendGrid supports up to 1000 recipients per request
   const personalizations = to.map(email => ({ to: [{ email }] }))
 
+  // Build the request body
+  const body: Record<string, unknown> = {
+    personalizations,
+    from: {
+      email: 'agent@teahose.com',
+      name: 'The Daily Teahose'
+    },
+    subject,
+    content: [
+      {
+        type: 'text/html',
+        value: htmlContent
+      }
+    ]
+  }
+
+  // If we have an image, attach it as inline attachment
+  if (imageBase64) {
+    // Extract base64 data from data URL (remove "data:image/png;base64," prefix)
+    const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, '')
+
+    body.attachments = [
+      {
+        content: base64Data,
+        filename: 'header.png',
+        type: 'image/png',
+        disposition: 'inline',
+        content_id: 'header_image'
+      }
+    ]
+  }
+
   try {
     const response = await fetch(SENDGRID_API_URL, {
       method: 'POST',
@@ -362,20 +395,7 @@ async function sendEmail(to: string[], subject: string, htmlContent: string): Pr
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${sendgridKey}`
       },
-      body: JSON.stringify({
-        personalizations,
-        from: {
-          email: 'agent@teahose.com',
-          name: 'The Daily Teahose'
-        },
-        subject,
-        content: [
-          {
-            type: 'text/html',
-            value: htmlContent
-          }
-        ]
-      })
+      body: JSON.stringify(body)
     })
 
     if (!response.ok) {
@@ -444,14 +464,14 @@ export async function GET(request: NextRequest) {
 
   // Generate header image
   console.log('Generating header image...')
-  const headerImageDataUrl = await generateHeaderImage(episodes, dateStr)
+  const headerImageBase64 = await generateHeaderImage(episodes, dateStr)
 
-  // Generate email HTML
-  const htmlContent = generateEmailHtml(episodes, dateStr, headerImageDataUrl)
+  // Generate email HTML (pass boolean for whether image exists)
+  const htmlContent = generateEmailHtml(episodes, dateStr, !!headerImageBase64)
   const subject = `The Daily Teahose - ${dateStr}`
 
-  // Send email
-  const success = await sendEmail(subscribers, subject, htmlContent)
+  // Send email with image attachment
+  const success = await sendEmail(subscribers, subject, htmlContent, headerImageBase64)
 
   if (success) {
     console.log('Daily email sent successfully!')
