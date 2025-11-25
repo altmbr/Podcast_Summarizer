@@ -7545,6 +7545,13 @@
           "discovered_date": "2025-11-12 18:32:33",
           "status": "summarized",
           "region": "Western"
+        },
+        "aR20FWCCjAs": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -7830,6 +7837,13 @@
           "upload_date": "20251022",
           "discovered_date": null,
           "status": "discovered",
+          "region": "Western"
+        },
+        "a34VyGpf8s4": {
+          "title": "Inside General Atlantic: How a $100B Growth Equity Firm Invests",
+          "upload_date": "20251125",
+          "discovered_date": "2025-11-25 10:35:31",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -8383,6 +8397,13 @@
           "title": "Satya Nadella describes how lessons from Microsoft\u2019s history apply to today\u2019s boom",
           "upload_date": "20251118",
           "discovered_date": "2025-11-18 10:50:58",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "a_i39TTzGQw": {
+          "title": "Julia DeWahl of Antares on building nuclear reactors for the US military",
+          "upload_date": "20251125",
+          "discovered_date": "2025-11-25 10:44:37",
           "status": "summarized",
           "region": "Western"
         }
@@ -12287,8 +12308,8 @@
         "OdP-4tZo0jw": {
           "title": "Coca-Cola: How a sugar water formula came to represent America, Happiness, and... Christmas",
           "upload_date": "20251124",
-          "discovered_date": null,
-          "status": "discovered",
+          "discovered_date": "2025-11-24 21:12:00",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -15391,6 +15412,13 @@
           "title": "141: The Former Head of DJI LiDAR Developed an \"Electric Wheelchair\"? Talking Entrepreneurship with Strutt's Hong Xiaoping After Two and a Half Years: Not Doing Humanoid Robots Can Still Lead to Embodied Intelligence",
           "upload_date": "20251123",
           "discovered_date": "2025-11-24 12:48:18",
+          "status": "summarized",
+          "region": "Chinese"
+        },
+        "6924e4b1c5874e9c773350cb": {
+          "title": "142: How a Self-Teaching AI Product Emerges | Dialogue with Zebra CPO Xiu Jiaming",
+          "upload_date": "20251124",
+          "discovered_date": "2025-11-25 10:50:24",
           "status": "summarized",
           "region": "Chinese"
         }
@@ -24880,6 +24908,1243 @@
         "CiiWoOXJDnM": {
           "title": "How AI Will Enhance Human Potential, Not Replace It: Reid Hoffman",
           "upload_date": "20250419",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        }
+      }
+    },
+    "https://www.youtube.com/playlist?list=PL_PCVNzWaozJPwHqi-_g26mDH_Jwx70Gp": {
+      "podcast_name": "Pivot",
+      "episodes": {
+        "GEs9UclPHj0": {
+          "title": "Nvidia Earnings Show AI Bubble Isn\u2019t Popping\u2026 Yet | Pivot",
+          "upload_date": "20251122",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "KclPJrhPOBw": {
+          "title": "What's Behind Trump's Epstein Files Reversal? | Pivot",
+          "upload_date": "20251119",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "3CzUgetspgE": {
+          "title": "Tech Stock Troubles: Cause for Concern or Healthy Reset? | Pivot",
+          "upload_date": "20251118",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "agiExO4ko_0": {
+          "title": "JB Pritzker Fires Back at  Trump\u2019s \"Demented\" Attacks on Chicago | Pivot",
+          "upload_date": "20251115",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "dwsUmlUvdjY": {
+          "title": "Shutdown Ending: Did Democrats Cave for Nothing? | Pivot",
+          "upload_date": "20251113",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "UZVn1F-EfPg": {
+          "title": "Can We Get Back Together With Canada? | Pivot",
+          "upload_date": "20251112",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "1PoJ8NRl3NQ": {
+          "title": "Scott Galloway and Kara Swisher Agree to Disagree on Zohran Mamdani's\u00a0Policies | Pivot",
+          "upload_date": "20251111",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "FVtKTQhL9bc": {
+          "title": "Elon Musk\u2019s Flying Car Tease is Just Another Distraction | Pivot",
+          "upload_date": "20251111",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Tpj8WsFCSV4": {
+          "title": "OpenAI\u2019s Trillion-Dollar Future: \u201cThis Will Be a Monster IPO\" | Pivot",
+          "upload_date": "20251104",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "tbKoHSe0ous": {
+          "title": "Why Canada\u2019s Ronald Reagan Tariff Ad Was So Effective | Pivot",
+          "upload_date": "20251104",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "CUiNY_cXMww": {
+          "title": "Will Nepo Billionaire Buy Warner Bros. Discovery? | Pivot",
+          "upload_date": "20251025",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "_qAEY16FZOM": {
+          "title": "Why is Peter Thiel Warning About the Antichrist? | Pivot",
+          "upload_date": "20251025",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "__CoiPSwH0w": {
+          "title": "Sam Altman Says OpenAI Not \"Moral Police\" After Backlash | Pivot",
+          "upload_date": "20251025",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "wv0IsAs7JKI": {
+          "title": "The AI Spending Boom is Propping Up Wall Street \u2014 and Trump | Pivot",
+          "upload_date": "20251025",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Kd-tquUXeSU": {
+          "title": "\u201cManufactured Division\u201d: How Social Media Is Driving Anger and Polarization | Pivot",
+          "upload_date": "20251025",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "CsoK5h2npB8": {
+          "title": "Why Scott Galloway Pulled the Plug on AI Bot | Pivot",
+          "upload_date": "20251025",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "aU_p_eVqosQ": {
+          "title": "Consumers Force Companies to Cave on Kimmel | Pivot",
+          "upload_date": "20251025",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "9ZMy6sDmrJc": {
+          "title": "Late Night TV & Tylenol Face Washington Pressure | Pivot",
+          "upload_date": "20251025",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "yGX5YvMm__E": {
+          "title": "Jimmy Kimmel Returns \u2014 Disney Under Pressure | Pivot",
+          "upload_date": "20250925",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Eawp9f_7D7k": {
+          "title": "Jimmy Kimmel\u2019s Removal Proves America Is Now a \"Full Oligarchy\" | Pivot",
+          "upload_date": "20250925",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "hb1hmdqBuk8": {
+          "title": "Charlie Kirk Assassination Fuels Rage and Retaliation | Pivot",
+          "upload_date": "20250925",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Z9_SOe7tBm4": {
+          "title": "Charlie Kirk Suspect was \"Extremely Online\" | Pivot",
+          "upload_date": "20250925",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "PjFOd7m-LuY": {
+          "title": "Charlie Kirk Assassination: Condemnation, Division, and Conspiracies | Pivot",
+          "upload_date": "20250925",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "qxQ5tgeOst4": {
+          "title": "Kara Swisher Slams Tech CEOs\u2019 \u201cGrotesque\u201d Dinner with Trump | Pivot",
+          "upload_date": "20250925",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "5L04cQ-kayA": {
+          "title": "Trump\u2019s Health: Cause for Concern or Convenient Distraction? | Pivot",
+          "upload_date": "20250925",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "ynVFmrY8Un8": {
+          "title": "Why Gavin Newsom Won't Stop Trolling Trump | Pivot",
+          "upload_date": "20250925",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "qHTycoe1_sk": {
+          "title": "Will Ghislaine's DOJ Interview End MAGA\u2019s Epstein Obsession? | Pivot",
+          "upload_date": "20250925",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "QB8ybgbMeQw": {
+          "title": "South Park, The Smithsonian, and Trump's Culture War | Pivot",
+          "upload_date": "20250825",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Jr99dyiQjOE": {
+          "title": "Will Gavin Newsom\u2019s Trump Trolling Deliver Real Results? | Pivot",
+          "upload_date": "20250825",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "yLhjKI-nmUw": {
+          "title": "Rachel Maddow: Trump\u2019s Alaska Summit With Putin Is an \u2018Abject Humiliation\u2019 | Pivot",
+          "upload_date": "20250825",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "B2iwSb8WsTc": {
+          "title": "Trump\u2019s D.C. Crackdown: Straight Out of the Authoritarian Playbook? | Pivot",
+          "upload_date": "20250825",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "UzJH5TsnQys": {
+          "title": "Can AI Replace Therapists? | Pivot",
+          "upload_date": "20250825",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "U944dHbCzz8": {
+          "title": "Anthony Scaramucci Blasts Trump\u2019s Current Chaos | Pivot",
+          "upload_date": "20250825",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Gz1bMRECESc": {
+          "title": "Kara and Scott Shred Zuck\u2019s Vision for AI | Pivot",
+          "upload_date": "20250825",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "RQcfBZP41kM": {
+          "title": "A Pardon for Silence on Epstein? Ghislaine Maxwell Speaks | Pivot",
+          "upload_date": "20250825",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "0yQFcVdPrYk": {
+          "title": "Trump\u2019s Latest Distraction from Epstein? Obama | Pivot",
+          "upload_date": "20250825",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "BPegVZ9CU4A": {
+          "title": "Colbert Canceled: Is Late Night TV Over? | Pivot",
+          "upload_date": "20250725",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "0k2LGdWtl9g": {
+          "title": "Are You Falling for Trump\u2019s Distraction Tactics? | Pivot",
+          "upload_date": "20250725",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "71-sbygEFgk": {
+          "title": "MAGA\u2019s Uproar Over the Epstein Files Heats Up | Pivot",
+          "upload_date": "20250725",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "1TSzQMjwpgo": {
+          "title": "What's Elon's Next Move After X CEO Exit? | Pivot",
+          "upload_date": "20250725",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "-a5EibCmkrQ": {
+          "title": "Who\u2019s to Blame After Texas Flooding Tragedy \u2014 And What Needs to Change | Pivot",
+          "upload_date": "20250725",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "4tcfsNql7jo": {
+          "title": "Elon vs. Trump: The Feud That Never Ends | Pivot",
+          "upload_date": "20250725",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "ORciOB-sKVA": {
+          "title": "How Young People Can Compete with AI | Pivot",
+          "upload_date": "20250725",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "s4XLqTHm838": {
+          "title": "Mamdani's Primary Win for NYC Mayor Matters to All Americans | Pivot",
+          "upload_date": "20250725",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "noMRwuobSBo": {
+          "title": "Trump\u2019s Military Parade Backfires as 'No Kings' Protesters Hit the Streets",
+          "upload_date": "20250625",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "l0GgRFMTdRQ": {
+          "title": "Did Gavin Newsom Just Become the Best Democratic Nominee for President? | Pivot",
+          "upload_date": "20250625",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "PC5XoLxFaBM": {
+          "title": "Trump Sends Military After Protesters in Authoritarian Move | Pivot",
+          "upload_date": "20250625",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "_GaJe4bnL6c": {
+          "title": "Elon & Trump Fight! The Breakup of the Summer | Pivot",
+          "upload_date": "20250625",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "LKcFos2WaZ0": {
+          "title": "Elon\u2019s Ketamine Denial Hits New High | Pivot",
+          "upload_date": "20250625",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "cf3fn3trH7M": {
+          "title": "Kara and Scott's AI Video Experiment Will Haunt Your Dreams | Pivot",
+          "upload_date": "20250625",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "O1nhO3w0Gp0": {
+          "title": "Elon Musk\u2019s Political Spending Spree Is Over | Pivot",
+          "upload_date": "20250525",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "t3AQ-wxJXOA": {
+          "title": "America\u2019s Credit Rating Dropped and You\u2019re Going to Pay for It | Pivot",
+          "upload_date": "20250525",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "JGDoFsMVMuI": {
+          "title": "Trump\u2019s Deal-a-Palooza in the Middle East | Pivot",
+          "upload_date": "20250525",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "n69KBkY-V64": {
+          "title": "Gift or Grift? Trump\u2019s $400M Qatar Jet Deal | Pivot",
+          "upload_date": "20250525",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "a5TucH9X7eE": {
+          "title": "The 'Creepy' Truth About Meta's New AI App | Pivot",
+          "upload_date": "20250525",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "7P2ozfTSkgU": {
+          "title": "Trump\u2019s Movie Tariff Threat Puts Hollywood on Edge | Pivot",
+          "upload_date": "20250525",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "MWWz7L8QFBA": {
+          "title": "Was Tesla Trying to Replace Elon Musk as CEO? | Pivot",
+          "upload_date": "20250525",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "vbtf1wnksXE": {
+          "title": "Is Trump's Pay-to-Play Dinner His Biggest Grift Yet? | Pivot",
+          "upload_date": "20250525",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "iSJZd9Z3Gdc": {
+          "title": "Trump's Tariffs and Tirades Fuel Market Mayhem | Pivot",
+          "upload_date": "20250525",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "r4N7BKtgJHo": {
+          "title": "How Trump Plans to Incentivize a Baby Boom | Pivot",
+          "upload_date": "20250425",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "LWi7rVR9TCw": {
+          "title": "Inside Elon Musk\u2019s Obsession With Building a \u2018Legion\u2019 of Super Babies | Pivot",
+          "upload_date": "20250425",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "zKL6ivyZlfs": {
+          "title": "Will Meta Pay the Price for 'Buy or Bury' Strategy at Antitrust Trial? | Pivot",
+          "upload_date": "20250425",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "KBQH-wwrL_M": {
+          "title": "Trump\u2019s Tariff Pause: Panic Move or Power Play? | Pivot",
+          "upload_date": "20250425",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "D0duHTwc28Y": {
+          "title": "Trump Tariff Fallout: Who Wins, Who Loses, and What\u2019s Next | Pivot",
+          "upload_date": "20250425",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "6HkHJnBkrqE": {
+          "title": "Trump's Tariffs Spark Global Backlash and Market Meltdowns | Pivot",
+          "upload_date": "20250425",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "-9C2BGkKCw0": {
+          "title": "Kara Swisher Doesn't Think Trump and Elon Are Breaking Up Anytime Soon | Pivot",
+          "upload_date": "20250425",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "S3fSpyVArW4": {
+          "title": "Deny and Deflect: Will Anyone Be Held Responsible for Signalgate? | Pivot",
+          "upload_date": "20250425",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "pSLKhMczbPg": {
+          "title": "Elon Musk's Daughter Calls Him 'Cringe' in New Interview | Pivot",
+          "upload_date": "20250425",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "4Jr6c65tFjs": {
+          "title": "Will Trump Triumph in Battle Against the Courts? | Pivot",
+          "upload_date": "20250325",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "syv4nObFFys": {
+          "title": "Has Dems' Infighting Reached a Breaking Point? | Pivot",
+          "upload_date": "20250325",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "beQkiCyxidg": {
+          "title": "How Trump's Tariff Chaos Is Costing America | Pivot",
+          "upload_date": "20250325",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Hkre1mFzGhA": {
+          "title": "Kara Swisher Asks Scott Galloway the Ultimate Question at SXSW | Pivot",
+          "upload_date": "20250325",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "wa0pL8Pbjw0": {
+          "title": "Why Democrats' Trump Resistance is Failing | Pivot",
+          "upload_date": "20250325",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "el7d_7-XTnY": {
+          "title": "Trump's Third Term Tease | Pivot",
+          "upload_date": "20250325",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "nqDLSalNx4A": {
+          "title": "How Elon Backlash is Creating Problems for Tesla | Pivot",
+          "upload_date": "20250325",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "P7upK7nHM1Q": {
+          "title": "As DOGE Brings Chaos, What is Elon Musk's Endgame? | Pivot",
+          "upload_date": "20250225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Jpd792HryLI": {
+          "title": "Elon Musk Takes His Son To Work in Weird Oval Office Presser | Pivot",
+          "upload_date": "20250225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Wgz8KM_zO8w": {
+          "title": "What's Really Behind Elon Musk's $97 Billion Power Grab for OpenAI | Pivot",
+          "upload_date": "20250225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "53nuJFYSZnE": {
+          "title": "How Trump's Chaos Distracts from Elon's Power Play | Pivot",
+          "upload_date": "20250225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "GQaBLQ6BKXE": {
+          "title": "What Is Going On with Trump's Trade War? | Pivot",
+          "upload_date": "20250225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "S3FZcGjPGRY": {
+          "title": "Trump's 'Mob' Tactics and Corporate Capitulation  | Pivot",
+          "upload_date": "20250225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "yu9rGenHSv8": {
+          "title": "How DeepSeek Shocked Silicon Valley & Crashed Nvidia | Pivot",
+          "upload_date": "20250225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "0OdbBsmj-ew": {
+          "title": "Kara Swisher Breaks Down Feud Between Elon Musk and Sam Altman | Pivot",
+          "upload_date": "20250125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "SoAkDu_Yy6A": {
+          "title": "Trump Meme Coins and the New Era of Digital Political Corruption  | Pivot",
+          "upload_date": "20250125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "0_uStkr82TM": {
+          "title": "Big Tech CEOs Kiss the Ring at Donald Trump\u2019s Inauguration | Pivot",
+          "upload_date": "20250125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "VBlSl0_F24g": {
+          "title": "What Mark Zuckerberg Gets Wrong About \"Masculine Energy\" | Pivot",
+          "upload_date": "20250125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "frXE9WMzp1o": {
+          "title": "Mark Zuckerberg and Meta's Dangerous Decision to End Fact Checking | Pivot",
+          "upload_date": "20250125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "HeOguS2Z78I": {
+          "title": "Kara Swisher Explains Plan to Buy The Washington Post | Pivot",
+          "upload_date": "20250125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "2jPpH-MKOBY": {
+          "title": "Kara Swisher and Scott Galloway's 2025 Predictions on AI, IPOs, Podcasts, and Trump | Pivot",
+          "upload_date": "20250125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "GZcfvzQyq4I": {
+          "title": "The Price of Power: Donald Trump and the Tech Broligarchs | Pivot",
+          "upload_date": "20241225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "dU6TiV9zgtQ": {
+          "title": "What's Behind the Internet's Fascination with Luigi Mangione? | Pivot",
+          "upload_date": "20241225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "88gmkSpCONo": {
+          "title": "Healthy Financial Habits for 2025 and Finding Your Ikigai | Pivot",
+          "upload_date": "20241225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "4VthWlNbH-k": {
+          "title": "Who Would Be in Your Dream Cabinet? | Pivot",
+          "upload_date": "20241225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "OrmnU0SAW3E": {
+          "title": "Pete Hegseth, Kash Patel, and Tulsi Gabbard: Trump's Picks Raise Concerns | Pivot",
+          "upload_date": "20241225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "71ZvecLo5vA": {
+          "title": "Bluesky Challenges Threads and X for Social Media Dominance  | Pivot",
+          "upload_date": "20241225",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "bZCfcZrwNYA": {
+          "title": "Google Forced to Sell Chrome? DOJ's Bombshell Breakup Plan | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "VzXmSThAMpo": {
+          "title": "RFK Jr. Nomination Sparks Market Downturn and Public Health Concerns | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "fzeXp9gnm0s": {
+          "title": "The Chaos of Donald Trump's Cabinet Picks | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "dA_0rDKofQk": {
+          "title": "Right Wing Media Charts a New Course for Power and Influence | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "VxnuUel_udM": {
+          "title": "What Donald Trump's Victory Means for Elon Musk and Big Tech | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "wJMaUX3cKy0": {
+          "title": "Will Election Betting Markets Get It Right? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "kQjXvjWDB4o": {
+          "title": "Could Donald Trump's Madison Square Garden Rally Swing the Election? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "U7_oHUjRFjM": {
+          "title": "Scott Galloway Explains Why Young Men Should Vote for Kamala Harris | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "K3qb8bB5r5Q": {
+          "title": "Elon Musk, Peter Thiel, and the Political Calculus of a Trump Victory | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "EfOM6wMEsRQ": {
+          "title": "Scams and Fears: How to Navigate Senior Finances | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "7CKk4mnW_1M": {
+          "title": "How Donald Trump Created a Facade of Success | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "zSMjnXLLLtI": {
+          "title": "Elon Musk Goes Viral for Cringey Leap at Trump Rally | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "dLNhfaXoodY": {
+          "title": "Did VP Debate Preview JD Vance's Future? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Ze3R2dgGcrE": {
+          "title": "The Benefits of \"Disagreeable\" Leader at the Helm | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "NW-Zr5cCQIM": {
+          "title": "Can Nike Gets Its \"Cool Factor\" Back? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "nLUBe1H8fYA": {
+          "title": "Justin Theroux on AI, Scriptwriting, and the Hollywood State of Play | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "BbghWxYeTXo": {
+          "title": "Shein and Temu Face Major Crackdown with New Shipping Rules | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "sDN-Y4Be6UI": {
+          "title": "Sue Bird and Megan Rapinoe on the Booming Business of Women's Sports | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "zijDTmIoUFM": {
+          "title": "The Dangers of Elon Musk and Donald Trump's Growing Alliance | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "2tHnRFNEhBQ": {
+          "title": "How Long Covid Derailed the Career Paths of Millions | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "4Bd-vdw4ed4": {
+          "title": "Kamala Harris and the Democrats are Running on Joy \u2014 Is That a Winning Strategy? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "R0H__Wm4qNc": {
+          "title": "How Kamala Harris's Campaign is Leaning Into Comedy | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "VEGI-iNqpgk": {
+          "title": "Are Major Changes Coming to Donald Trump's Campaign? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "RoAjYNrwZ7I": {
+          "title": "Elon Musk's Latest Lawsuit: X vs. Advertisers | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "s3bNDms6g1U": {
+          "title": "Stock Market Sell-Off: Why Disruption is a Good Thing | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "g1xBuR7C4hk": {
+          "title": "Will Meta and Microsoft's AI Investments Pay Off? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "aHBBar1VF4Q": {
+          "title": "How the Murdoch Family Feud Is Like \"Succession\" | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "iilBt5jJHGY": {
+          "title": "Tech Stocks Take a Dive | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "EfOi1ShkNtU": {
+          "title": "Joe Biden Passes the Torch to Kamala Harris | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "_Qm52YoIh7Y": {
+          "title": "How J.D. Vance Got Tech Billionaire Backing | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "CkzFRZVmjS4": {
+          "title": "Trump Assassination Attempt Fuels Social Media Conspiracy Theories | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "jkF0r6EXA7A": {
+          "title": "Examining Trump's 2024 Agenda: \"This is How We Move Away From a Democracy\" | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "r9XbGd9FVUg": {
+          "title": "Will Donors Stick with Joe Biden? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "sBmK58YHjjY": {
+          "title": "Amazon Gets Ready to Compete with Shein and Temu | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "HPdMwp26Shc": {
+          "title": "Is It Too Late To Invest In Nvidia? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "baPewgsLYXQ": {
+          "title": "Biden vs. Trump: Debate Strategies | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "OHwsCoYauSE": {
+          "title": "What Do OpenAI's Latest Moves Reveal About a Future IPO? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "8lK6CnhROvs": {
+          "title": "Why Did Paramount Kill the Skydance Merger? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "gVhX2o6mh-0": {
+          "title": "Texas Stock Exchange: A New Challenger to NYSE & NASDAQ? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "CzvzWkaAqN8": {
+          "title": "Google Document Leak and AI Failures | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "qAbhE5eQfI8": {
+          "title": "Melinda French Gates, MacKenzie Scott, and the New Era of Giving | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "LAUlWCCdGUs": {
+          "title": "OpenAI Battles Safety Concerns and High-Profile Exits | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "2sTjewqbDx4": {
+          "title": "OpenAI and Google Reveal Plans for AI Future | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "773akK2CGig": {
+          "title": "Debating an RFK Jr. Interview | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Aj0gcp3FQp0": {
+          "title": "Why Did Disney's Latest Earnings Cause Shares to Plunge? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "BxxIl_y3NQg": {
+          "title": "Amazon Earnings Unpacked | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "RrTUb-k0KSg": {
+          "title": "California Forever CEO Explains Plans to Build a New Community  | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "QQC072ls_rE": {
+          "title": "Meta and Tesla Earnings Unpacked | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "5WR7p3zqBVE": {
+          "title": "Will TikTok Ban Be Challenged in Court? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Utt7fcgVOPo": {
+          "title": "Tesla Asks Shareholders to Approve Elon Musk's Multi-Billion Payout | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "2r2AZHMFdKg": {
+          "title": "What is a Supercommunicator? (And Why Do We Want to Be One?) | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "e7QLVSV-C-I": {
+          "title": "Can Chili Crunch Be Trademarked? | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "TqrABtgKmQk": {
+          "title": "The Dangers of Donald Trump's Dictator Praise | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "BjYkQahARME": {
+          "title": "Swing State Polls, Celebrity Endorsements, and Gen Z Voters | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "HNmVRYaMsLQ": {
+          "title": "Futurist Explains Why Dystopia Is Not Inevitable | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "FNDnXqBuiUI": {
+          "title": "Reddit, Trump Media, and the Return of Meme Stocks | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "-NtpDtDToZI": {
+          "title": "Donald Trump's Truth Social Goes Public",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "F36_xq_it3A": {
+          "title": "How Reddit's IPO Will Impact the Market",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "nqdEShcFvMk": {
+          "title": "Scott Galloway Discusses Ketamine Experience",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "FQjShnxri90": {
+          "title": "Don Lemon Explains What Happened in Elon Musk Interview",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "SQRuClrca4o": {
+          "title": "Savannah Guthrie Opens Up About Faith and Family",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "emIN6qqQdFY": {
+          "title": "OpenAI Shares New Details About History with Elon Musk",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "dnR686OY_e4": {
+          "title": "Elon Musk Sues OpenAI and Sam Altman",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "kYJnaszBDf0": {
+          "title": "Was Apple's Car Project Doomed to Fail?",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "n4gubGljzCE": {
+          "title": "Will Reddit's IPO Be Successful?",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Wj-xtWhklbs": {
+          "title": "Lawsuit Claims Dating Apps Encourage Compulsive Use",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "kk1lgHyeKnY": {
+          "title": "New Report Raises Questions About Biden's Age",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "tYB74pBWYN0": {
+          "title": "Will Adam Neumann Buy Back WeWork?",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "8WHVZ4wFoE8": {
+          "title": "What's Next for Elon Musk After Judge Voids Tesla Pay Package",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "jmtLvjlIABs": {
+          "title": "The Case for Crypto",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "ydgFINNenuM": {
+          "title": "What Good News on the Economy Means for Investors",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "GBdJ3MXYKxQ": {
+          "title": "Kara and Scott Take Questions from Pivot Fans",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "lYzr0u0-Rpo": {
+          "title": "Don Lemon Announces He's Launching New Show on X",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "iAk83y0pG2M": {
+          "title": "Elon Musk Drug Use Concerns Business Leaders | Pivot",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "k1CHGFwCDb0": {
+          "title": "2024 Predictions on Tech, Business, and the Election",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "YI6fbgHeh-w": {
+          "title": "What the Latest Polls Tell Us About the 2024 Race",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Y0TYDnmJzaE": {
+          "title": "Can X CEO Linda Yaccarino Recover?",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "jDTk1rqMr7E": {
+          "title": "Elon Musk Torches Advertisers in DealBook Summit Interview",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "IHCd50nswpc": {
+          "title": "OpenAI Rebooted: What's Next for the Company?",
+          "upload_date": "20241125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "AxTNg8o76SQ": {
+          "title": "Sam Altman announces GPT Store at OpenAI DevDay",
+          "upload_date": "20231125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "mUYTgHgwyHM": {
+          "title": "How Foreign Trolls on X Are Manipulating U.S. Politics | Pivot",
+          "upload_date": "20251125",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"

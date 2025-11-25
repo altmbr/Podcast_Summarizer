@@ -6867,10 +6867,10 @@
 
 ## Dwarkesh
 
-**Total Episodes:** 115
+**Total Episodes:** 116
 
 **Status Summary:**
-- discovered: 113
+- discovered: 114
 - summarized: 2
 
 **Episodes:**
@@ -7565,15 +7565,21 @@
   - Status: `summarized`
   - Discovered: 2025-11-12 18:32:33
 
+- 🔍 **[Private video]**
+  - ID: `aR20FWCCjAs`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Invest like the best
 
-**Total Episodes:** 44
+**Total Episodes:** 45
 
 **Status Summary:**
 - discovered: 42
-- summarized: 2
+- summarized: 3
 
 **Episodes:**
 
@@ -7840,6 +7846,12 @@
   - Published: 2025-10-22
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **Inside General Atlantic: How a $100B Growth Equity Firm Invests**
+  - ID: `a34VyGpf8s4`
+  - Published: 2025-11-25
+  - Status: `summarized`
+  - Discovered: 2025-11-25 10:35:31
 
 ---
 
@@ -8276,11 +8288,11 @@
 
 ## Cheeky Pint
 
-**Total Episodes:** 21
+**Total Episodes:** 22
 
 **Status Summary:**
 - discovered: 18
-- summarized: 3
+- summarized: 4
 
 **Episodes:**
 
@@ -8409,6 +8421,12 @@
   - Published: 2025-11-18
   - Status: `summarized`
   - Discovered: 2025-11-18 10:50:58
+
+- ✅ **Julia DeWahl of Antares on building nuclear reactors for the US military**
+  - ID: `a_i39TTzGQw`
+  - Published: 2025-11-25
+  - Status: `summarized`
+  - Discovered: 2025-11-25 10:44:37
 
 ---
 
@@ -11900,7 +11918,8 @@
 **Total Episodes:** 73
 
 **Status Summary:**
-- discovered: 73
+- discovered: 72
+- summarized: 1
 
 **Episodes:**
 
@@ -12336,11 +12355,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **Coca-Cola: How a sugar water formula came to represent America, Happiness, and..**
+- ✅ **Coca-Cola: How a sugar water formula came to represent America, Happiness, and..**
   - ID: `OdP-4tZo0jw`
   - Published: 2025-11-24
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-11-24 21:12:00
 
 ---
 
@@ -15195,11 +15214,11 @@
 
 ## 晚点聊 LateTalk (Investigative Journalism)
 
-**Total Episodes:** 17
+**Total Episodes:** 18
 
 **Status Summary:**
 - discovered: 12
-- summarized: 5
+- summarized: 6
 
 **Episodes:**
 
@@ -15304,6 +15323,12 @@
   - Published: 2025-11-23
   - Status: `summarized`
   - Discovered: 2025-11-24 12:48:18
+
+- ✅ **142: How a Self-Teaching AI Product Emerges | Dialogue with Zebra CPO Xiu Jiamin**
+  - ID: `6924e4b1c5874e9c773350cb`
+  - Published: 2025-11-24
+  - Status: `summarized`
+  - Discovered: 2025-11-25 10:50:24
 
 ---
 
@@ -23495,6 +23520,1073 @@
 - 🔍 **How AI Will Enhance Human Potential, Not Replace It: Reid Hoffman**
   - ID: `CiiWoOXJDnM`
   - Published: 2025-04-19
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## Pivot
+
+**Total Episodes:** 176
+
+**Status Summary:**
+- discovered: 176
+
+**Episodes:**
+
+- 🔍 **Nvidia Earnings Show AI Bubble Isn’t Popping… Yet | Pivot**
+  - ID: `GEs9UclPHj0`
+  - Published: 2025-11-22
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What's Behind Trump's Epstein Files Reversal? | Pivot**
+  - ID: `KclPJrhPOBw`
+  - Published: 2025-11-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tech Stock Troubles: Cause for Concern or Healthy Reset? | Pivot**
+  - ID: `3CzUgetspgE`
+  - Published: 2025-11-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JB Pritzker Fires Back at  Trump’s "Demented" Attacks on Chicago | Pivot**
+  - ID: `agiExO4ko_0`
+  - Published: 2025-11-15
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Shutdown Ending: Did Democrats Cave for Nothing? | Pivot**
+  - ID: `dwsUmlUvdjY`
+  - Published: 2025-11-13
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Can We Get Back Together With Canada? | Pivot**
+  - ID: `UZVn1F-EfPg`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Scott Galloway and Kara Swisher Agree to Disagree on Zohran Mamdani's Policies |**
+  - ID: `1PoJ8NRl3NQ`
+  - Published: 2025-11-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk’s Flying Car Tease is Just Another Distraction | Pivot**
+  - ID: `FVtKTQhL9bc`
+  - Published: 2025-11-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI’s Trillion-Dollar Future: “This Will Be a Monster IPO" | Pivot**
+  - ID: `Tpj8WsFCSV4`
+  - Published: 2025-11-04
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why Canada’s Ronald Reagan Tariff Ad Was So Effective | Pivot**
+  - ID: `tbKoHSe0ous`
+  - Published: 2025-11-04
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Nepo Billionaire Buy Warner Bros. Discovery? | Pivot**
+  - ID: `CUiNY_cXMww`
+  - Published: 2025-10-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why is Peter Thiel Warning About the Antichrist? | Pivot**
+  - ID: `_qAEY16FZOM`
+  - Published: 2025-10-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Sam Altman Says OpenAI Not "Moral Police" After Backlash | Pivot**
+  - ID: `__CoiPSwH0w`
+  - Published: 2025-10-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The AI Spending Boom is Propping Up Wall Street — and Trump | Pivot**
+  - ID: `wv0IsAs7JKI`
+  - Published: 2025-10-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **“Manufactured Division”: How Social Media Is Driving Anger and Polarization | Pi**
+  - ID: `Kd-tquUXeSU`
+  - Published: 2025-10-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why Scott Galloway Pulled the Plug on AI Bot | Pivot**
+  - ID: `CsoK5h2npB8`
+  - Published: 2025-10-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Consumers Force Companies to Cave on Kimmel | Pivot**
+  - ID: `aU_p_eVqosQ`
+  - Published: 2025-10-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Late Night TV & Tylenol Face Washington Pressure | Pivot**
+  - ID: `9ZMy6sDmrJc`
+  - Published: 2025-10-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jimmy Kimmel Returns — Disney Under Pressure | Pivot**
+  - ID: `yGX5YvMm__E`
+  - Published: 2025-09-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jimmy Kimmel’s Removal Proves America Is Now a "Full Oligarchy" | Pivot**
+  - ID: `Eawp9f_7D7k`
+  - Published: 2025-09-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Charlie Kirk Assassination Fuels Rage and Retaliation | Pivot**
+  - ID: `hb1hmdqBuk8`
+  - Published: 2025-09-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Charlie Kirk Suspect was "Extremely Online" | Pivot**
+  - ID: `Z9_SOe7tBm4`
+  - Published: 2025-09-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Charlie Kirk Assassination: Condemnation, Division, and Conspiracies | Pivot**
+  - ID: `PjFOd7m-LuY`
+  - Published: 2025-09-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kara Swisher Slams Tech CEOs’ “Grotesque” Dinner with Trump | Pivot**
+  - ID: `qxQ5tgeOst4`
+  - Published: 2025-09-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump’s Health: Cause for Concern or Convenient Distraction? | Pivot**
+  - ID: `5L04cQ-kayA`
+  - Published: 2025-09-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why Gavin Newsom Won't Stop Trolling Trump | Pivot**
+  - ID: `ynVFmrY8Un8`
+  - Published: 2025-09-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Ghislaine's DOJ Interview End MAGA’s Epstein Obsession? | Pivot**
+  - ID: `qHTycoe1_sk`
+  - Published: 2025-09-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **South Park, The Smithsonian, and Trump's Culture War | Pivot**
+  - ID: `QB8ybgbMeQw`
+  - Published: 2025-08-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Gavin Newsom’s Trump Trolling Deliver Real Results? | Pivot**
+  - ID: `Jr99dyiQjOE`
+  - Published: 2025-08-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Rachel Maddow: Trump’s Alaska Summit With Putin Is an ‘Abject Humiliation’ | Piv**
+  - ID: `yLhjKI-nmUw`
+  - Published: 2025-08-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump’s D.C. Crackdown: Straight Out of the Authoritarian Playbook? | Pivot**
+  - ID: `B2iwSb8WsTc`
+  - Published: 2025-08-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Can AI Replace Therapists? | Pivot**
+  - ID: `UzJH5TsnQys`
+  - Published: 2025-08-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Anthony Scaramucci Blasts Trump’s Current Chaos | Pivot**
+  - ID: `U944dHbCzz8`
+  - Published: 2025-08-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kara and Scott Shred Zuck’s Vision for AI | Pivot**
+  - ID: `Gz1bMRECESc`
+  - Published: 2025-08-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **A Pardon for Silence on Epstein? Ghislaine Maxwell Speaks | Pivot**
+  - ID: `RQcfBZP41kM`
+  - Published: 2025-08-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump’s Latest Distraction from Epstein? Obama | Pivot**
+  - ID: `0yQFcVdPrYk`
+  - Published: 2025-08-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Colbert Canceled: Is Late Night TV Over? | Pivot**
+  - ID: `BPegVZ9CU4A`
+  - Published: 2025-07-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Are You Falling for Trump’s Distraction Tactics? | Pivot**
+  - ID: `0k2LGdWtl9g`
+  - Published: 2025-07-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **MAGA’s Uproar Over the Epstein Files Heats Up | Pivot**
+  - ID: `71-sbygEFgk`
+  - Published: 2025-07-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What's Elon's Next Move After X CEO Exit? | Pivot**
+  - ID: `1TSzQMjwpgo`
+  - Published: 2025-07-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Who’s to Blame After Texas Flooding Tragedy — And What Needs to Change | Pivot**
+  - ID: `-a5EibCmkrQ`
+  - Published: 2025-07-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon vs. Trump: The Feud That Never Ends | Pivot**
+  - ID: `4tcfsNql7jo`
+  - Published: 2025-07-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Young People Can Compete with AI | Pivot**
+  - ID: `ORciOB-sKVA`
+  - Published: 2025-07-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mamdani's Primary Win for NYC Mayor Matters to All Americans | Pivot**
+  - ID: `s4XLqTHm838`
+  - Published: 2025-07-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump’s Military Parade Backfires as 'No Kings' Protesters Hit the Streets**
+  - ID: `noMRwuobSBo`
+  - Published: 2025-06-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Did Gavin Newsom Just Become the Best Democratic Nominee for President? | Pivot**
+  - ID: `l0GgRFMTdRQ`
+  - Published: 2025-06-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump Sends Military After Protesters in Authoritarian Move | Pivot**
+  - ID: `PC5XoLxFaBM`
+  - Published: 2025-06-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon & Trump Fight! The Breakup of the Summer | Pivot**
+  - ID: `_GaJe4bnL6c`
+  - Published: 2025-06-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon’s Ketamine Denial Hits New High | Pivot**
+  - ID: `LKcFos2WaZ0`
+  - Published: 2025-06-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kara and Scott's AI Video Experiment Will Haunt Your Dreams | Pivot**
+  - ID: `cf3fn3trH7M`
+  - Published: 2025-06-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk’s Political Spending Spree Is Over | Pivot**
+  - ID: `O1nhO3w0Gp0`
+  - Published: 2025-05-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **America’s Credit Rating Dropped and You’re Going to Pay for It | Pivot**
+  - ID: `t3AQ-wxJXOA`
+  - Published: 2025-05-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump’s Deal-a-Palooza in the Middle East | Pivot**
+  - ID: `JGDoFsMVMuI`
+  - Published: 2025-05-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Gift or Grift? Trump’s $400M Qatar Jet Deal | Pivot**
+  - ID: `n69KBkY-V64`
+  - Published: 2025-05-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The 'Creepy' Truth About Meta's New AI App | Pivot**
+  - ID: `a5TucH9X7eE`
+  - Published: 2025-05-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump’s Movie Tariff Threat Puts Hollywood on Edge | Pivot**
+  - ID: `7P2ozfTSkgU`
+  - Published: 2025-05-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Was Tesla Trying to Replace Elon Musk as CEO? | Pivot**
+  - ID: `MWWz7L8QFBA`
+  - Published: 2025-05-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Is Trump's Pay-to-Play Dinner His Biggest Grift Yet? | Pivot**
+  - ID: `vbtf1wnksXE`
+  - Published: 2025-05-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump's Tariffs and Tirades Fuel Market Mayhem | Pivot**
+  - ID: `iSJZd9Z3Gdc`
+  - Published: 2025-05-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Trump Plans to Incentivize a Baby Boom | Pivot**
+  - ID: `r4N7BKtgJHo`
+  - Published: 2025-04-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Inside Elon Musk’s Obsession With Building a ‘Legion’ of Super Babies | Pivot**
+  - ID: `LWi7rVR9TCw`
+  - Published: 2025-04-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Meta Pay the Price for 'Buy or Bury' Strategy at Antitrust Trial? | Pivot**
+  - ID: `zKL6ivyZlfs`
+  - Published: 2025-04-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump’s Tariff Pause: Panic Move or Power Play? | Pivot**
+  - ID: `KBQH-wwrL_M`
+  - Published: 2025-04-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump Tariff Fallout: Who Wins, Who Loses, and What’s Next | Pivot**
+  - ID: `D0duHTwc28Y`
+  - Published: 2025-04-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump's Tariffs Spark Global Backlash and Market Meltdowns | Pivot**
+  - ID: `6HkHJnBkrqE`
+  - Published: 2025-04-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kara Swisher Doesn't Think Trump and Elon Are Breaking Up Anytime Soon | Pivot**
+  - ID: `-9C2BGkKCw0`
+  - Published: 2025-04-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Deny and Deflect: Will Anyone Be Held Responsible for Signalgate? | Pivot**
+  - ID: `S3fSpyVArW4`
+  - Published: 2025-04-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk's Daughter Calls Him 'Cringe' in New Interview | Pivot**
+  - ID: `pSLKhMczbPg`
+  - Published: 2025-04-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Trump Triumph in Battle Against the Courts? | Pivot**
+  - ID: `4Jr6c65tFjs`
+  - Published: 2025-03-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Has Dems' Infighting Reached a Breaking Point? | Pivot**
+  - ID: `syv4nObFFys`
+  - Published: 2025-03-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Trump's Tariff Chaos Is Costing America | Pivot**
+  - ID: `beQkiCyxidg`
+  - Published: 2025-03-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kara Swisher Asks Scott Galloway the Ultimate Question at SXSW | Pivot**
+  - ID: `Hkre1mFzGhA`
+  - Published: 2025-03-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why Democrats' Trump Resistance is Failing | Pivot**
+  - ID: `wa0pL8Pbjw0`
+  - Published: 2025-03-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump's Third Term Tease | Pivot**
+  - ID: `el7d_7-XTnY`
+  - Published: 2025-03-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Elon Backlash is Creating Problems for Tesla | Pivot**
+  - ID: `nqDLSalNx4A`
+  - Published: 2025-03-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **As DOGE Brings Chaos, What is Elon Musk's Endgame? | Pivot**
+  - ID: `P7upK7nHM1Q`
+  - Published: 2025-02-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk Takes His Son To Work in Weird Oval Office Presser | Pivot**
+  - ID: `Jpd792HryLI`
+  - Published: 2025-02-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What's Really Behind Elon Musk's $97 Billion Power Grab for OpenAI | Pivot**
+  - ID: `Wgz8KM_zO8w`
+  - Published: 2025-02-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Trump's Chaos Distracts from Elon's Power Play | Pivot**
+  - ID: `53nuJFYSZnE`
+  - Published: 2025-02-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Is Going On with Trump's Trade War? | Pivot**
+  - ID: `GQaBLQ6BKXE`
+  - Published: 2025-02-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump's 'Mob' Tactics and Corporate Capitulation  | Pivot**
+  - ID: `S3FZcGjPGRY`
+  - Published: 2025-02-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How DeepSeek Shocked Silicon Valley & Crashed Nvidia | Pivot**
+  - ID: `yu9rGenHSv8`
+  - Published: 2025-02-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kara Swisher Breaks Down Feud Between Elon Musk and Sam Altman | Pivot**
+  - ID: `0OdbBsmj-ew`
+  - Published: 2025-01-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump Meme Coins and the New Era of Digital Political Corruption  | Pivot**
+  - ID: `SoAkDu_Yy6A`
+  - Published: 2025-01-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Big Tech CEOs Kiss the Ring at Donald Trump’s Inauguration | Pivot**
+  - ID: `0_uStkr82TM`
+  - Published: 2025-01-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Mark Zuckerberg Gets Wrong About "Masculine Energy" | Pivot**
+  - ID: `VBlSl0_F24g`
+  - Published: 2025-01-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mark Zuckerberg and Meta's Dangerous Decision to End Fact Checking | Pivot**
+  - ID: `frXE9WMzp1o`
+  - Published: 2025-01-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kara Swisher Explains Plan to Buy The Washington Post | Pivot**
+  - ID: `HeOguS2Z78I`
+  - Published: 2025-01-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kara Swisher and Scott Galloway's 2025 Predictions on AI, IPOs, Podcasts, and Tr**
+  - ID: `2jPpH-MKOBY`
+  - Published: 2025-01-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Price of Power: Donald Trump and the Tech Broligarchs | Pivot**
+  - ID: `GZcfvzQyq4I`
+  - Published: 2024-12-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What's Behind the Internet's Fascination with Luigi Mangione? | Pivot**
+  - ID: `dU6TiV9zgtQ`
+  - Published: 2024-12-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Healthy Financial Habits for 2025 and Finding Your Ikigai | Pivot**
+  - ID: `88gmkSpCONo`
+  - Published: 2024-12-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Who Would Be in Your Dream Cabinet? | Pivot**
+  - ID: `4VthWlNbH-k`
+  - Published: 2024-12-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Pete Hegseth, Kash Patel, and Tulsi Gabbard: Trump's Picks Raise Concerns | Pivo**
+  - ID: `OrmnU0SAW3E`
+  - Published: 2024-12-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Bluesky Challenges Threads and X for Social Media Dominance  | Pivot**
+  - ID: `71ZvecLo5vA`
+  - Published: 2024-12-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Google Forced to Sell Chrome? DOJ's Bombshell Breakup Plan | Pivot**
+  - ID: `bZCfcZrwNYA`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **RFK Jr. Nomination Sparks Market Downturn and Public Health Concerns | Pivot**
+  - ID: `VzXmSThAMpo`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Chaos of Donald Trump's Cabinet Picks | Pivot**
+  - ID: `fzeXp9gnm0s`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Right Wing Media Charts a New Course for Power and Influence | Pivot**
+  - ID: `dA_0rDKofQk`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Donald Trump's Victory Means for Elon Musk and Big Tech | Pivot**
+  - ID: `VxnuUel_udM`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Election Betting Markets Get It Right? | Pivot**
+  - ID: `wJMaUX3cKy0`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Could Donald Trump's Madison Square Garden Rally Swing the Election? | Pivot**
+  - ID: `kQjXvjWDB4o`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Scott Galloway Explains Why Young Men Should Vote for Kamala Harris | Pivot**
+  - ID: `U7_oHUjRFjM`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk, Peter Thiel, and the Political Calculus of a Trump Victory | Pivot**
+  - ID: `K3qb8bB5r5Q`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Scams and Fears: How to Navigate Senior Finances | Pivot**
+  - ID: `EfOM6wMEsRQ`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Donald Trump Created a Facade of Success | Pivot**
+  - ID: `7CKk4mnW_1M`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk Goes Viral for Cringey Leap at Trump Rally | Pivot**
+  - ID: `zSMjnXLLLtI`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Did VP Debate Preview JD Vance's Future? | Pivot**
+  - ID: `dLNhfaXoodY`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Benefits of "Disagreeable" Leader at the Helm | Pivot**
+  - ID: `Ze3R2dgGcrE`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Can Nike Gets Its "Cool Factor" Back? | Pivot**
+  - ID: `NW-Zr5cCQIM`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Justin Theroux on AI, Scriptwriting, and the Hollywood State of Play | Pivot**
+  - ID: `nLUBe1H8fYA`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Shein and Temu Face Major Crackdown with New Shipping Rules | Pivot**
+  - ID: `BbghWxYeTXo`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Sue Bird and Megan Rapinoe on the Booming Business of Women's Sports | Pivot**
+  - ID: `sDN-Y4Be6UI`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Dangers of Elon Musk and Donald Trump's Growing Alliance | Pivot**
+  - ID: `zijDTmIoUFM`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Long Covid Derailed the Career Paths of Millions | Pivot**
+  - ID: `2tHnRFNEhBQ`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kamala Harris and the Democrats are Running on Joy — Is That a Winning Strategy?**
+  - ID: `4Bd-vdw4ed4`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Kamala Harris's Campaign is Leaning Into Comedy | Pivot**
+  - ID: `R0H__Wm4qNc`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Are Major Changes Coming to Donald Trump's Campaign? | Pivot**
+  - ID: `VEGI-iNqpgk`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk's Latest Lawsuit: X vs. Advertisers | Pivot**
+  - ID: `RoAjYNrwZ7I`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Stock Market Sell-Off: Why Disruption is a Good Thing | Pivot**
+  - ID: `s3bNDms6g1U`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Meta and Microsoft's AI Investments Pay Off? | Pivot**
+  - ID: `g1xBuR7C4hk`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How the Murdoch Family Feud Is Like "Succession" | Pivot**
+  - ID: `aHBBar1VF4Q`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tech Stocks Take a Dive | Pivot**
+  - ID: `iilBt5jJHGY`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Biden Passes the Torch to Kamala Harris | Pivot**
+  - ID: `EfOi1ShkNtU`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How J.D. Vance Got Tech Billionaire Backing | Pivot**
+  - ID: `_Qm52YoIh7Y`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump Assassination Attempt Fuels Social Media Conspiracy Theories | Pivot**
+  - ID: `CkzFRZVmjS4`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Examining Trump's 2024 Agenda: "This is How We Move Away From a Democracy" | Piv**
+  - ID: `jkF0r6EXA7A`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Donors Stick with Joe Biden? | Pivot**
+  - ID: `r9XbGd9FVUg`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Amazon Gets Ready to Compete with Shein and Temu | Pivot**
+  - ID: `sBmK58YHjjY`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Is It Too Late To Invest In Nvidia? | Pivot**
+  - ID: `HPdMwp26Shc`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Biden vs. Trump: Debate Strategies | Pivot**
+  - ID: `baPewgsLYXQ`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Do OpenAI's Latest Moves Reveal About a Future IPO? | Pivot**
+  - ID: `OHwsCoYauSE`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why Did Paramount Kill the Skydance Merger? | Pivot**
+  - ID: `8lK6CnhROvs`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Texas Stock Exchange: A New Challenger to NYSE & NASDAQ? | Pivot**
+  - ID: `gVhX2o6mh-0`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Google Document Leak and AI Failures | Pivot**
+  - ID: `CzvzWkaAqN8`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Melinda French Gates, MacKenzie Scott, and the New Era of Giving | Pivot**
+  - ID: `qAbhE5eQfI8`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI Battles Safety Concerns and High-Profile Exits | Pivot**
+  - ID: `LAUlWCCdGUs`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI and Google Reveal Plans for AI Future | Pivot**
+  - ID: `2sTjewqbDx4`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Debating an RFK Jr. Interview | Pivot**
+  - ID: `773akK2CGig`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why Did Disney's Latest Earnings Cause Shares to Plunge? | Pivot**
+  - ID: `Aj0gcp3FQp0`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Amazon Earnings Unpacked | Pivot**
+  - ID: `BxxIl_y3NQg`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **California Forever CEO Explains Plans to Build a New Community  | Pivot**
+  - ID: `RrTUb-k0KSg`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Meta and Tesla Earnings Unpacked | Pivot**
+  - ID: `QQC072ls_rE`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will TikTok Ban Be Challenged in Court? | Pivot**
+  - ID: `5WR7p3zqBVE`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tesla Asks Shareholders to Approve Elon Musk's Multi-Billion Payout | Pivot**
+  - ID: `Utt7fcgVOPo`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What is a Supercommunicator? (And Why Do We Want to Be One?) | Pivot**
+  - ID: `2r2AZHMFdKg`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Can Chili Crunch Be Trademarked? | Pivot**
+  - ID: `e7QLVSV-C-I`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Dangers of Donald Trump's Dictator Praise | Pivot**
+  - ID: `TqrABtgKmQk`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Swing State Polls, Celebrity Endorsements, and Gen Z Voters | Pivot**
+  - ID: `BjYkQahARME`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Futurist Explains Why Dystopia Is Not Inevitable | Pivot**
+  - ID: `HNmVRYaMsLQ`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Reddit, Trump Media, and the Return of Meme Stocks | Pivot**
+  - ID: `FNDnXqBuiUI`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Donald Trump's Truth Social Goes Public**
+  - ID: `-NtpDtDToZI`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Reddit's IPO Will Impact the Market**
+  - ID: `F36_xq_it3A`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Scott Galloway Discusses Ketamine Experience**
+  - ID: `nqdEShcFvMk`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Don Lemon Explains What Happened in Elon Musk Interview**
+  - ID: `FQjShnxri90`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Savannah Guthrie Opens Up About Faith and Family**
+  - ID: `SQRuClrca4o`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI Shares New Details About History with Elon Musk**
+  - ID: `emIN6qqQdFY`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk Sues OpenAI and Sam Altman**
+  - ID: `dnR686OY_e4`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Was Apple's Car Project Doomed to Fail?**
+  - ID: `kYJnaszBDf0`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Reddit's IPO Be Successful?**
+  - ID: `n4gubGljzCE`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Lawsuit Claims Dating Apps Encourage Compulsive Use**
+  - ID: `Wj-xtWhklbs`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **New Report Raises Questions About Biden's Age**
+  - ID: `kk1lgHyeKnY`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Adam Neumann Buy Back WeWork?**
+  - ID: `tYB74pBWYN0`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What's Next for Elon Musk After Judge Voids Tesla Pay Package**
+  - ID: `8WHVZ4wFoE8`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Case for Crypto**
+  - ID: `jmtLvjlIABs`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Good News on the Economy Means for Investors**
+  - ID: `ydgFINNenuM`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kara and Scott Take Questions from Pivot Fans**
+  - ID: `GBdJ3MXYKxQ`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Don Lemon Announces He's Launching New Show on X**
+  - ID: `lYzr0u0-Rpo`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk Drug Use Concerns Business Leaders | Pivot**
+  - ID: `iAk83y0pG2M`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **2024 Predictions on Tech, Business, and the Election**
+  - ID: `k1CHGFwCDb0`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What the Latest Polls Tell Us About the 2024 Race**
+  - ID: `YI6fbgHeh-w`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Can X CEO Linda Yaccarino Recover?**
+  - ID: `Y0TYDnmJzaE`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk Torches Advertisers in DealBook Summit Interview**
+  - ID: `jDTk1rqMr7E`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI Rebooted: What's Next for the Company?**
+  - ID: `IHCd50nswpc`
+  - Published: 2024-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Sam Altman announces GPT Store at OpenAI DevDay**
+  - ID: `AxTNg8o76SQ`
+  - Published: 2023-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Foreign Trolls on X Are Manipulating U.S. Politics | Pivot**
+  - ID: `mUYTgHgwyHM`
+  - Published: 2025-11-25
   - Status: `discovered`
   - Discovered: None
 

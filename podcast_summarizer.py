@@ -559,11 +559,158 @@ def download_xiaoyuzhou_audio(episode_url, output_audio_path):
     if not success:
         raise Exception("Failed to download Xiaoyuzhou audio")
 
+def get_audio_duration_seconds(audio_file_path):
+    """Get audio duration in seconds using ffprobe"""
+    try:
+        result = subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+             "-of", "default=noprint_wrappers=1:nokey=1", str(audio_file_path)],
+            capture_output=True, text=True
+        )
+        return float(result.stdout.strip())
+    except:
+        return 0
+
+def transcribe_with_openai_api(audio_file_path, transcript_file_path):
+    """Transcribe audio using OpenAI Whisper API (for long episodes)"""
+    print(f"  → Transcribing with OpenAI Whisper API (cloud)...")
+
+    if not OPENAI_API_KEY:
+        raise ValueError("OPENAI_API_KEY not set - required for long episode transcription")
+
+    client = OpenAI(api_key=OPENAI_API_KEY)
+
+    # OpenAI Whisper API has 25MB limit, so we need to chunk large files
+    file_size_mb = audio_file_path.stat().st_size / (1024 * 1024)
+
+    if file_size_mb > 24:
+        # Split audio into chunks and transcribe each
+        print(f"  → Audio file is {file_size_mb:.1f}MB, splitting into chunks...")
+        return transcribe_chunked_with_openai(audio_file_path, transcript_file_path, client)
+
+    # Single file transcription
+    with open(audio_file_path, "rb") as audio_file:
+        response = client.audio.transcriptions.create(
+            model="whisper-1",
+            file=audio_file,
+            response_format="verbose_json",
+            timestamp_granularities=["segment"]
+        )
+
+    # Format with timestamps
+    transcript_text = format_openai_whisper_response(response)
+
+    with open(transcript_file_path, 'w') as f:
+        f.write(transcript_text)
+
+    print(f"  ✓ Transcription complete ({len(transcript_text)} characters)")
+    return transcript_text
+
+def transcribe_chunked_with_openai(audio_file_path, transcript_file_path, client):
+    """Split audio into chunks and transcribe with OpenAI API"""
+    import tempfile
+
+    # Get total duration
+    duration = get_audio_duration_seconds(audio_file_path)
+    chunk_duration = 600  # 10 minutes per chunk (keeps file size manageable)
+    num_chunks = int(duration / chunk_duration) + 1
+
+    print(f"  → Splitting into {num_chunks} chunks of {chunk_duration//60} minutes each...")
+
+    all_segments = []
+    time_offset = 0
+
+    for i in range(num_chunks):
+        start_time = i * chunk_duration
+
+        # Create temp file for chunk
+        with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as tmp:
+            tmp_path = tmp.name
+
+        try:
+            # Extract chunk with ffmpeg
+            subprocess.run([
+                "ffmpeg", "-y", "-i", str(audio_file_path),
+                "-ss", str(start_time), "-t", str(chunk_duration),
+                "-acodec", "libmp3lame", "-q:a", "4",
+                tmp_path
+            ], capture_output=True, check=True)
+
+            # Transcribe chunk
+            print(f"  → Transcribing chunk {i+1}/{num_chunks}...")
+            with open(tmp_path, "rb") as audio_file:
+                response = client.audio.transcriptions.create(
+                    model="whisper-1",
+                    file=audio_file,
+                    response_format="verbose_json",
+                    timestamp_granularities=["segment"]
+                )
+
+            # Add segments with adjusted timestamps
+            if hasattr(response, 'segments') and response.segments:
+                for seg in response.segments:
+                    all_segments.append({
+                        "start": seg.start + start_time,
+                        "end": seg.end + start_time,
+                        "text": seg.text
+                    })
+        finally:
+            # Clean up temp file
+            if os.path.exists(tmp_path):
+                os.unlink(tmp_path)
+
+    # Format all segments
+    transcript_text = format_transcript_with_timestamps({"segments": all_segments})
+
+    with open(transcript_file_path, 'w') as f:
+        f.write(transcript_text)
+
+    print(f"  ✓ Transcription complete ({len(transcript_text)} characters)")
+    return transcript_text
+
+def format_openai_whisper_response(response):
+    """Format OpenAI Whisper API response with timestamps"""
+    formatted_lines = []
+
+    if hasattr(response, 'segments') and response.segments:
+        for segment in response.segments:
+            start_time = segment.start
+            text = segment.text.strip()
+
+            if text:
+                hours = int(start_time // 3600)
+                minutes = int((start_time % 3600) // 60)
+                seconds = int(start_time % 60)
+                timestamp = f"[{hours:02d}:{minutes:02d}:{seconds:02d}]"
+                formatted_lines.append(f"{timestamp} {text}")
+
+        print(f"  → Found {len(response.segments)} segments with timestamps")
+    else:
+        # Fallback to full text
+        if hasattr(response, 'text') and response.text:
+            formatted_lines.append(response.text)
+            print(f"  ⚠ No segments available, using full text")
+
+    return "\n".join(formatted_lines)
+
+# Threshold for using OpenAI API instead of local MLX-Whisper (3 hours in seconds)
+LONG_EPISODE_THRESHOLD_SECONDS = 3 * 60 * 60
+
 def transcribe_audio_to_text(audio_file_path, transcript_file_path):
-    """Transcribe audio using mlx-whisper with Apple Silicon GPU acceleration"""
-    print(f"  → Transcribing audio with mlx-whisper (GPU-accelerated)...")
+    """Transcribe audio - uses OpenAI API for 3+ hour episodes, MLX-Whisper otherwise"""
     # Create parent directories if needed
     transcript_file_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Check audio duration
+    duration = get_audio_duration_seconds(audio_file_path)
+    duration_hours = duration / 3600
+
+    if duration >= LONG_EPISODE_THRESHOLD_SECONDS:
+        print(f"  → Long episode detected ({duration_hours:.1f} hours) - using OpenAI Whisper API")
+        return transcribe_with_openai_api(audio_file_path, transcript_file_path)
+
+    # Use local MLX-Whisper for shorter episodes
+    print(f"  → Transcribing audio with mlx-whisper (GPU-accelerated)...")
 
     # Map model names to MLX community format (note: -mlx suffix required except for tiny)
     model_mapping = {
@@ -631,12 +778,88 @@ def format_transcript_with_timestamps(whisper_data):
 
     return "\n".join(formatted_lines)
 
-def add_speaker_diarization_to_transcript(audio_file_path, transcript_text):
-    """Add speaker labels to transcript using pyannote voice diarization"""
-    print(f"  → Running voice-based speaker diarization (this may take a while)...")
+def diarize_with_assemblyai(audio_file_path, transcript_text):
+    """Use AssemblyAI for cloud-based speaker diarization (for long episodes)"""
+    print(f"  → Running AssemblyAI speaker diarization (cloud)...")
+
+    assemblyai_key = os.environ.get("ASSEMBLYAI_API_KEY")
+    if not assemblyai_key:
+        print("  ⚠ ASSEMBLYAI_API_KEY not set - skipping cloud diarization")
+        return transcript_text
+
+    try:
+        import assemblyai as aai
+    except ImportError:
+        print("  ⚠ assemblyai not installed. Install with: pip install assemblyai")
+        return transcript_text
+
+    try:
+        aai.settings.api_key = assemblyai_key
+
+        # Configure for diarization only (we already have transcript)
+        config = aai.TranscriptionConfig(speaker_labels=True)
+
+        transcriber = aai.Transcriber()
+        print(f"  → Uploading audio to AssemblyAI...")
+        transcript_result = transcriber.transcribe(str(audio_file_path), config=config)
+
+        if transcript_result.status == aai.TranscriptStatus.error:
+            print(f"  ⚠ AssemblyAI error: {transcript_result.error}")
+            return transcript_text
+
+        # Build speaker timeline from AssemblyAI utterances
+        speaker_timeline = []
+        if transcript_result.utterances:
+            for utterance in transcript_result.utterances:
+                speaker_timeline.append({
+                    "start": utterance.start / 1000,  # Convert ms to seconds
+                    "end": utterance.end / 1000,
+                    "speaker": utterance.speaker
+                })
+
+        if not speaker_timeline:
+            print("  ⚠ No speaker data from AssemblyAI")
+            return transcript_text
+
+        # Apply speaker labels to our transcript
+        lines = transcript_text.strip().split('\n')
+        diarized_lines = []
+
+        for line in lines:
+            match = re.match(r'\[(\d{2}):(\d{2}):(\d{2})\]\s*(.*)', line)
+            if match:
+                hours, minutes, seconds = map(int, match.groups()[:3])
+                text = match.group(4)
+                timestamp_seconds = hours * 3600 + minutes * 60 + seconds
+
+                # Find speaker at this timestamp
+                speaker_label = None
+                for seg in speaker_timeline:
+                    if seg["start"] <= timestamp_seconds <= seg["end"]:
+                        speaker_label = f"SPEAKER_{seg['speaker']}"
+                        break
+
+                if speaker_label:
+                    timestamp_str = f"[{hours:02d}:{minutes:02d}:{seconds:02d}]"
+                    diarized_lines.append(f"{timestamp_str} {speaker_label}: {text}")
+                else:
+                    diarized_lines.append(line)
+            else:
+                diarized_lines.append(line)
+
+        print(f"  ✓ AssemblyAI speaker diarization complete")
+        return '\n'.join(diarized_lines)
+
+    except Exception as e:
+        print(f"  ⚠ AssemblyAI diarization failed: {e}")
+        return transcript_text
+
+def diarize_with_pyannote(audio_file_path, transcript_text):
+    """Add speaker labels to transcript using local pyannote voice diarization"""
+    print(f"  → Running local pyannote speaker diarization...")
 
     if not HUGGINGFACE_TOKEN:
-        print("  ⚠ HUGGINGFACE_TOKEN not set - skipping diarization")
+        print("  ⚠ HUGGINGFACE_TOKEN not set - skipping local diarization")
         return transcript_text
 
     try:
@@ -645,7 +868,6 @@ def add_speaker_diarization_to_transcript(audio_file_path, transcript_text):
         import warnings
     except ImportError:
         print("  ⚠ pyannote.audio not installed. Install with: pip install pyannote.audio")
-        print("  → Skipping diarization")
         return transcript_text
 
     try:
@@ -718,13 +940,29 @@ def add_speaker_diarization_to_transcript(audio_file_path, transcript_text):
         return '\n'.join(diarized_lines)
 
     except Exception as e:
-        print(f"  ⚠ Speaker diarization failed: {e}")
-        print(f"  → Using transcript without speaker labels")
-
-        # Clean up memory even on failure
+        print(f"  ⚠ Local diarization failed: {e}")
         clear_memory()
-
         return transcript_text
+
+def add_speaker_diarization_to_transcript(audio_file_path, transcript_text):
+    """Add speaker labels - uses AssemblyAI for 3+ hour episodes, pyannote locally otherwise"""
+
+    # Check audio duration
+    duration = get_audio_duration_seconds(audio_file_path)
+    duration_hours = duration / 3600
+
+    if duration >= LONG_EPISODE_THRESHOLD_SECONDS:
+        print(f"  → Long episode ({duration_hours:.1f} hours) - using cloud diarization")
+        # Try AssemblyAI first for long episodes
+        result = diarize_with_assemblyai(audio_file_path, transcript_text)
+        if result != transcript_text:
+            return result
+        # Fall back to skipping diarization for long episodes if no API key
+        print("  → Skipping diarization for long episode (no cloud API available)")
+        return transcript_text
+
+    # Use local pyannote for shorter episodes
+    return diarize_with_pyannote(audio_file_path, transcript_text)
 
 def extract_video_metadata(video_url):
     """Extract metadata from YouTube video (title, description, channel)"""
