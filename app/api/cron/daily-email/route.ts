@@ -253,12 +253,16 @@ REQUIREMENTS:
     })
 
     // Extract and return the generated image as base64 data URL
-    for (const part of response.parts || []) {
-      if (part.inlineData) {
-        const mimeType = part.inlineData.mimeType || 'image/png'
-        const data = part.inlineData.data
-        console.log('Image generated successfully')
-        return `data:${mimeType};base64,${data}`
+    const candidates = response.candidates || []
+    for (const candidate of candidates) {
+      const parts = candidate.content?.parts || []
+      for (const part of parts) {
+        if (part.inlineData) {
+          const mimeType = part.inlineData.mimeType || 'image/png'
+          const data = part.inlineData.data
+          console.log('Image generated successfully')
+          return `data:${mimeType};base64,${data}`
+        }
       }
     }
 
