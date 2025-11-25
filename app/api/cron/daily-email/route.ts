@@ -243,11 +243,11 @@ REQUIREMENTS:
 - Vintage newspaper comic aesthetic`
 
   try {
-    const { genai } = await import('@google/genai')
-    const client = genai.Client({ apiKey: googleApiKey })
+    const { GoogleGenAI } = await import('@google/genai')
+    const ai = new GoogleGenAI({ apiKey: googleApiKey })
 
     // Use gemini-3-pro-image-preview (Nano Banana Pro) - same model that works in test script
-    const response = await client.models.generateContent({
+    const response = await ai.models.generateContent({
       model: 'gemini-3-pro-image-preview',
       contents: [prompt],
     })
