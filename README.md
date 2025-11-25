@@ -9,7 +9,8 @@ A high-performance Next.js website for browsing and viewing AI-generated podcast
 - **Podcast Pages**: List of all episodes per podcast, sorted by date
 - **Episode Pages**: Full AI-generated summaries with clickable YouTube timestamps
 - **Transcript Viewing**: Full transcripts with speaker identification and timestamps
-- **Newsletter Subscription**: Email capture for weekly digest (stored in Vercel KV)
+- **Newsletter Subscription**: Email capture for daily digest (stored in Vercel KV)
+- **Daily Email Digest**: Automatic daily emails with new episode summaries (via Vercel Cron)
 
 ### Performance & SEO
 - **Static Site Generation (SSG)**: 100+ pages pre-rendered at build time
@@ -54,6 +55,7 @@ teahose/
 │   │       └── EpisodeClient.tsx          # Tab switching (client)
 │   ├── api/
 │   │   ├── newsletter/route.ts            # Newsletter subscription
+│   │   ├── cron/daily-email/route.ts      # Daily email cron job
 │   │   └── podcasts/                      # Podcast data APIs
 │   └── providers.tsx                      # PostHog provider
 ├── components/
@@ -138,11 +140,17 @@ The build process:
 - `KV_REST_API_URL` - Vercel KV endpoint
 - `KV_REST_API_TOKEN` - Vercel KV auth token
 
+**Required for Daily Email Digest:**
+- `SENDGRID_API_KEY` - SendGrid API key for sending emails
+- `ANTHROPIC_API_KEY` - For generating episode descriptions
+- `GOOGLE_API_KEY` - For generating header images (Gemini)
+- `CRON_SECRET` - Optional: secure the cron endpoint
+
 **Required for Analytics (optional):**
 - `NEXT_PUBLIC_POSTHOG_KEY` - PostHog project key
 - `NEXT_PUBLIC_POSTHOG_HOST` - PostHog API host
 
-The site works without these - they only enable newsletter subscriptions and analytics tracking.
+The site works without these - they only enable newsletter subscriptions, daily emails, and analytics tracking.
 
 ## Deployment to Vercel
 
@@ -271,6 +279,7 @@ All URLs are human-readable and encode special characters properly.
 - Episode pages with summaries and transcripts
 - Tab switching (Summary/Transcript)
 - Newsletter subscription banner
+- Daily email digest (Vercel Cron + SendGrid)
 - Responsive design
 - Static site generation (SSG)
 - SEO optimization (sitemap, metadata, structured data)
