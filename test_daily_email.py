@@ -311,7 +311,7 @@ def generate_email_html(episodes, date_str, header_image_path=None):
         sanitized_title = re.sub(r'[<>:"/\\|?*]', '_', episode['title'])
         encoded_podcast = requests.utils.quote(episode['podcast_name'])
         encoded_slug = requests.utils.quote(sanitized_title)
-        summary_url = f"https://teahose.com/podcast/{encoded_podcast}/{encoded_slug}"
+        summary_url = f"https://teahose.com/podcast/{encoded_podcast}/{encoded_slug}?ref=email"
 
         is_last = index == len(episodes) - 1
         margin_bottom = '0' if is_last else '24px'
@@ -354,7 +354,7 @@ def generate_email_html(episodes, date_str, header_image_path=None):
     <div style="text-align: center; padding: 32px 20px; color: {colors['muted_foreground']}; font-size: 14px;">
         <p style="margin: 0;">
             A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
-            <a href="https://teahose.com" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 16px; display: inline-block;">Teahose.com</a>
+            <a href="https://teahose.com?ref=email" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 16px; display: inline-block;">Teahose.com</a>
         </p>
     </div>
 

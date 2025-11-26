@@ -350,7 +350,7 @@ def generate_html_email(episodes, descriptions, header_image_path, date_str):
         sanitized_title = re.sub(r'[<>:"/\\|?*]', '_', title)
         encoded_podcast = urllib.parse.quote(podcast_name)
         encoded_slug = urllib.parse.quote(sanitized_title)
-        summary_url = f"https://teahose.com/podcast/{encoded_podcast}/{encoded_slug}"
+        summary_url = f"https://teahose.com/podcast/{encoded_podcast}/{encoded_slug}?ref=email"
 
         html += f"""
         <!-- Episode Card -->
@@ -376,7 +376,7 @@ def generate_html_email(episodes, descriptions, header_image_path, date_str):
     <!-- Footer -->
     <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 3px solid {colors['border']}; color: {colors['muted_foreground']}; font-size: 14px;">
         <p style="margin: 0 0 8px 0;">Discover the insights within each episode.</p>
-        <p style="margin: 0;"><a href="https://teahose.com" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px;">teahose.com</a></p>
+        <p style="margin: 0;"><a href="https://teahose.com?ref=email" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px;">teahose.com</a></p>
     </div>
 
 </body>
