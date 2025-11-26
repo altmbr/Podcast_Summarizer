@@ -7,33 +7,41 @@
 
 @layer base {
   :root {
-    /* Light mode - elegant cream and charcoal */
-    --background: #f8f7f5;
-    --foreground: #2c2c2c;
-    --card: #fdfcfb;
-    --card-foreground: #2c2c2c;
-    --primary: #2c2c2c;
-    --primary-foreground: #f8f7f5;
-    --secondary: #e8e6e1;
-    --secondary-foreground: #2c2c2c;
-    --muted: #d9d6d1;
-    --muted-foreground: #5a5a5a;
-    --accent: #5b7f9e;
-    --accent-foreground: #f8f7f5;
-    --border: #e8e6e1;
-    --input: #f0ede8;
-    --ring: #5b7f9e;
+    /* Comic style - warm background with bold pop art accents */
+    --background: #f7f4f0;
+    --foreground: #1a1a1a;
+    --card: #fffefa;
+    --card-foreground: #1a1a1a;
+    --primary: #1a1a1a;
+    --primary-foreground: #fffefa;
+    --secondary: #f0ebe5;
+    --secondary-foreground: #1a1a1a;
+    --muted: #e8e2da;
+    --muted-foreground: #555555;
+    --accent: #c41e3a;
+    --accent-foreground: #fffefa;
+    --border: #1a1a1a;
+    --input: #fffefa;
+    --ring: #c41e3a;
+
+    /* Comic color palette - warm base with bold pop art accents */
+    --comic-cream: #f5f0e8;
+    --comic-red: #c41e3a;
+    --comic-yellow: #f4c430;
+    --comic-blue: #2d5a7b;
+    --comic-teal: #457b7b;
+    --comic-black: #1a1a1a;
 
     /* Semantic colors */
-    --color-error: #d97706;
-    --color-success: #5b7f9e;
-    --color-warning: #f59e0b;
-    --color-info: #3b82f6;
+    --color-error: #e63946;
+    --color-success: #457b9d;
+    --color-warning: #f77f00;
+    --color-info: #457b9d;
 
     /* Interactive states */
-    --color-hover: rgba(91, 127, 158, 0.1);
-    --color-active: rgba(91, 127, 158, 0.2);
-    --color-disabled: #e5e5e5;
+    --color-hover: rgba(230, 57, 70, 0.1);
+    --color-active: rgba(230, 57, 70, 0.2);
+    --color-disabled: #d9d6d1;
 
     /* Font weights */
     --font-weight-light: 300;
@@ -42,7 +50,7 @@
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
 
-    /* Font sizes - Mobile first (automatically responsive via media queries below) */
+    /* Font sizes - Mobile first */
     --text-xs: 0.75rem;
     --text-sm: 0.875rem;
     --text-base: 1rem;
@@ -72,14 +80,19 @@
     --space-20: 5rem;
     --space-24: 6rem;
 
-    /* Border radius */
-    --radius-sm: 0.125rem;
-    --radius-md: 0.25rem;
-    --radius-lg: 0.375rem;
-    --radius: 0.25rem;
+    /* Border radius - sharper for comic style */
+    --radius-sm: 0;
+    --radius-md: 0;
+    --radius-lg: 2px;
+    --radius: 0;
+
+    /* Comic-specific */
+    --border-width: 3px;
+    --shadow-comic: 4px 4px 0 var(--comic-black);
   }
 
   .dark {
+    /* Keep original dark mode for now */
     --background: #1a1a1a;
     --foreground: #e8e6e1;
     --card: #262625;
@@ -98,7 +111,7 @@
   }
 
   *:focus-visible {
-    outline: 2px solid var(--ring);
+    outline: 3px solid var(--ring);
     outline-offset: 2px;
   }
 
@@ -106,65 +119,72 @@
     background-color: var(--background);
     color: var(--foreground);
     font-family: var(--font-sans);
+    /* Subtle halftone stipple pattern - aged paper texture */
+    background-image:
+      radial-gradient(circle, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+    background-size: 4px 4px;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-sans);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   h1, h2 {
-    font-weight: 600;
+    font-weight: 700;
   }
 
   h3, h4 {
-    font-weight: 500;
+    font-weight: 600;
   }
 
   h5, h6 {
-    font-weight: 500;
+    font-weight: 600;
   }
 
   h1 {
     font-size: 2.25rem;
-    line-height: 1.2;
+    line-height: 1.1;
   }
 
   @media (min-width: 768px) {
     h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
   }
 
   h2 {
     font-size: 1.875rem;
-    line-height: 1.3;
+    line-height: 1.2;
   }
 
   @media (min-width: 768px) {
     h2 {
-      font-size: 2.25rem;
+      font-size: 2.5rem;
     }
   }
 
   h3 {
     font-size: 1.5rem;
-    line-height: 1.4;
+    line-height: 1.3;
   }
 
   h4 {
     font-size: 1.25rem;
-    line-height: 1.4;
+    line-height: 1.3;
   }
 
   a {
     opacity: 1;
-    transition: opacity 0.2s ease-in-out;
+    transition: all 0.15s ease-in-out;
     color: inherit;
   }
 
   a:hover {
-    opacity: 0.7;
+    opacity: 1;
+    transform: translateY(-1px);
   }
 
   code {
@@ -173,15 +193,17 @@
     padding: 0.125rem 0.375rem;
     border-radius: var(--radius);
     font-size: 0.875em;
+    border: 2px solid var(--border);
   }
 
   pre {
     background-color: var(--card);
-    border: 1px solid var(--border);
+    border: var(--border-width) solid var(--border);
     border-radius: var(--radius-lg);
     padding: 1rem;
     overflow-x: auto;
     margin: 1.5rem 0;
+    box-shadow: var(--shadow-comic);
   }
 
   pre code {
@@ -190,14 +212,17 @@
     border-radius: 0;
     font-size: 0.875rem;
     line-height: 1.7;
+    border: none;
   }
 
   blockquote {
-    border-left: 3px solid var(--accent);
+    border-left: 5px solid var(--accent);
     padding-left: 1rem;
     margin: 1.5rem 0;
     color: var(--muted-foreground);
     font-style: italic;
+    background-color: var(--card);
+    padding: 1rem;
   }
 
   ul, ol {
@@ -211,7 +236,7 @@
 
   hr {
     border: none;
-    border-top: 1px solid var(--border);
+    border-top: var(--border-width) solid var(--border);
     margin: 2rem 0;
   }
 
@@ -219,23 +244,27 @@
     max-width: 100%;
     height: auto;
     border-radius: var(--radius-lg);
+    border: var(--border-width) solid var(--border);
+    box-shadow: var(--shadow-comic);
   }
 
   table {
     width: 100%;
     border-collapse: collapse;
     margin: 1.5rem 0;
+    border: var(--border-width) solid var(--border);
   }
 
   th, td {
-    border: 1px solid var(--border);
+    border: 2px solid var(--border);
     padding: 0.75rem;
     text-align: left;
   }
 
   th {
     background-color: var(--muted);
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 }
 
@@ -265,24 +294,29 @@
   .btn-primary {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: var(--primary);
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    background-color: var(--comic-red);
     color: var(--primary-foreground);
     border-radius: var(--radius);
-    font-weight: 500;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
     opacity: 1;
-    transition: opacity 0.2s;
+    transition: all 0.15s;
     cursor: pointer;
-    border: none;
+    border: var(--border-width) solid var(--border);
+    box-shadow: var(--shadow-comic);
   }
 
   .btn-primary:hover {
-    opacity: 0.9;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 var(--comic-black);
   }
 
   .btn-primary:active {
-    opacity: 0.85;
+    transform: translate(4px, 4px);
+    box-shadow: none;
   }
 
   .btn-primary:disabled {
@@ -293,22 +327,29 @@
   .btn-secondary {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
     background-color: var(--card);
     color: var(--foreground);
-    border: 1px solid var(--border);
+    border: var(--border-width) solid var(--border);
     border-radius: var(--radius);
-    transition: all 0.2s;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    transition: all 0.15s;
     cursor: pointer;
+    box-shadow: var(--shadow-comic);
   }
 
   .btn-secondary:hover {
-    background-color: var(--secondary);
+    background-color: var(--comic-cream);
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 var(--comic-black);
   }
 
   .btn-secondary:active {
-    background-color: var(--muted);
+    transform: translate(4px, 4px);
+    box-shadow: none;
   }
 
   .btn-secondary:disabled {
@@ -318,9 +359,41 @@
 
   .card {
     background-color: var(--card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
+    border: var(--border-width) solid var(--border);
+    border-radius: var(--radius-lg);
     padding: 1.5rem;
+    box-shadow: var(--shadow-comic);
+    transition: all 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--comic-black);
+  }
+
+  /* Comic panel cards with pop art tints */
+  .card-cream {
+    background-color: var(--comic-cream);
+    border: var(--border-width) solid var(--border);
+    box-shadow: var(--shadow-comic);
+  }
+
+  .card-red {
+    background-color: #fdf5f5;
+    border: var(--border-width) solid var(--border);
+    box-shadow: var(--shadow-comic);
+  }
+
+  .card-blue {
+    background-color: #f5f8fa;
+    border: var(--border-width) solid var(--border);
+    box-shadow: var(--shadow-comic);
+  }
+
+  .card-yellow {
+    background-color: #fffcf0;
+    border: var(--border-width) solid var(--border);
+    box-shadow: var(--shadow-comic);
   }
 
   .prose {
@@ -339,18 +412,20 @@
   }
 
   .prose strong {
-    font-weight: 600;
+    font-weight: 700;
     color: var(--foreground);
   }
 
   .prose a {
     color: var(--accent);
     text-decoration: underline;
-    text-underline-offset: 2px;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
   }
 
   .prose a:hover {
-    opacity: 0.8;
+    opacity: 1;
+    text-decoration-thickness: 3px;
   }
 }
 
@@ -367,5 +442,35 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  /* Halftone dots pattern utility */
+  .dots-pattern {
+    background-image:
+      radial-gradient(circle, rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+    background-size: 4px 4px;
+  }
+
+  /* Comic text shadow */
+  .text-comic-shadow {
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* Halftone effect for images */
+  .halftone {
+    filter: contrast(1.1);
+    position: relative;
+  }
+
+  .halftone::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 3px 3px;
+    pointer-events: none;
   }
 }

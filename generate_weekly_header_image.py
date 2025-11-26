@@ -137,14 +137,13 @@ CRITICAL LAYOUT REQUIREMENTS:
 - Leave NO empty space at top - maximize space for the 10 panels
 - Ensure the entire 5x2 grid fits within the image height
 
-ARTISTIC STYLE:
-- Vintage 1950s-1960s comic book art style
-- Bold, simple line art with thick black outlines
-- Ben Day dots and halftone shading patterns
-- Limited color palette: primarily yellow, red, blue, and beige/cream backgrounds
-- Roy Lichtenstein pop art aesthetic
-- High contrast, flat colors
-- Clean grid layout with equal-sized rectangular panels
+ARTISTIC STYLE - Vintage 1950s Roy Lichtenstein pop art:
+- BACKGROUND: Warm aged cream paper (#f7f4f0) with subtle halftone dot texture
+- BORDERS: Thick black outlines (3px) around all panels and main border
+- COLORS: Bold pop art accents - cardinal red (#c41e3a), golden yellow (#f4c430), deep blue (#2d5a7b)
+- SHADOWS: Black comic drop shadows (not brown)
+- TEXTURE: Ben Day halftone dots for shading, stipple patterns
+- OVERALL: Clean vintage newspaper comic with warm cream base + bold accent colors
 
 PANEL TITLES AND THEMES:
 {panel_list}
@@ -152,21 +151,24 @@ PANEL TITLES AND THEMES:
 PANEL CONTENT REQUIREMENTS:
 Each panel should contain:
 - Relevant symbolic imagery representing the theme
-- Human figures in vintage comic book style when appropriate
+- Human figures in vintage comic book style when appropriate with halftone shading
 - Visual metaphors and symbols (brains for AI, scales for justice, money symbols, etc.)
 - Dynamic compositions with visual interest
-- No text beyond the panel titles
+- No text beyond the UPPERCASE panel titles
 - Simple, iconic imagery that reads well at small sizes
+- Thick black outlines around all elements
 
 COLOR SCHEME:
-- Panel backgrounds should alternate between: bright yellow, red, blue, and cream
-- Use bold, saturated colors
-- Black outlines and details
-- White highlights and Ben Day dot patterns for shading
-- Maintain visual variety across all 10 panels
+- Overall background: warm cream aged paper (#f7f4f0)
+- Panel backgrounds rotate between: soft red tint (#fdf5f5), soft yellow tint (#fffcf0), soft blue tint (#f5f8fa), cream (#f5f0e8)
+- Bold accent colors for main elements: cardinal red, golden yellow, deep blue
+- Thick black borders and outlines (3px)
+- Black comic drop shadows on panels
+- Ben Day dot patterns for shading
 
 OVERALL AESTHETIC:
 - Clean, professional newspaper comic section appearance
+- Warm cream aged paper base with bold pop art accents
 - Nostalgic 1950s-60s mid-century modern design
 - Educational and thought-provoking imagery
 - Sophisticated but accessible visual metaphors

@@ -210,20 +210,35 @@ def generate_header_image(episodes, date_str, output_path):
 
     prompt = f"""Create a vintage 1950s newspaper-style comic header for a daily podcast digest.
 
-LAYOUT: {layout} in PORTRAIT format.
+LAYOUT: {layout} in PORTRAIT format (taller than wide).
 
-STYLE: Vintage Roy Lichtenstein pop art with Ben Day dots, bold primary colors, thick black outlines.
+STYLE: Vintage 1950s Roy Lichtenstein pop art aesthetic with these specific characteristics:
+- BACKGROUND: Warm aged cream paper (#f7f4f0) with subtle halftone dot texture
+- BORDERS: Thick black outlines (3px) around all panels
+- COLORS: Bold pop art accents - cardinal red (#c41e3a), golden yellow (#f4c430), deep blue (#2d5a7b)
+- SHADOWS: Black comic drop shadows (not brown)
+- TEXTURE: Ben Day halftone dots for shading, stipple patterns
+- OVERALL: Clean vintage newspaper comic with warm base + bold accent colors
 
-PANEL CONTENT:
+PANEL CONTENT (each panel must have):
+- Visual metaphor representing the topic (characters, objects, symbols)
+- Bold sans-serif UPPERCASE text labels
+- Each panel uses one bold accent color (rotate red/yellow/blue)
+- Thick black panel borders
+- 1950s comic book character style with halftone shading
+
+TOPICS FOR {num_topics} PANELS:
 {panel_desc}
 
-FOOTER BANNER: Bold text saying "THE DAILY TEAHOSE - {date_str}" at the bottom
+FOOTER BANNER: Bold black text "THE DAILY TEAHOSE - {date_str}" on cream background strip
 
 REQUIREMENTS:
-- All {num_topics} panels clearly visible
-- All text legible and bold
+- All {num_topics} panels clearly visible and equal-sized
+- Warm cream aged paper background throughout
+- Bold red/yellow/blue accents only (no orange, no bright green)
+- All text UPPERCASE and highly legible
 - Portrait orientation (taller than wide)
-- Vintage newspaper comic aesthetic"""
+- Professional vintage newspaper comic quality"""
 
     try:
         client = genai.Client(api_key=google_api_key)

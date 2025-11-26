@@ -101,9 +101,9 @@ export default async function HomePage() {
             <ShareButton />
           </div>
           <p style={{ color: 'var(--muted-foreground)' }} className="text-lg">
-            Summaries of the most important tech podcasts — including China's.
+            A distillation of the highest signal podcasts in technology and business — including China's — curated by Bryan Altman (<a href="https://x.com/altmbr" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)' }}>@altmbr</a>).
             <br />
-            Browse episodes here, and subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.
+            Browse episode summaries here, and subscribe for the daily briefing that distills 2-3+ hours of podcasts into a 30-second digest.
           </p>
         </div>
       </header>

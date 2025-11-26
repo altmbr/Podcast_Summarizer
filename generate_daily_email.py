@@ -206,25 +206,33 @@ def generate_header_image(episodes, date_str, output_path):
 
 LAYOUT: {layout} in LANDSCAPE format (wider than tall).
 
-STYLE: Vintage Roy Lichtenstein pop art with Ben Day dots, bold primary colors (red, blue, yellow), thick black outlines, 1950s advertisement aesthetic.
+STYLE: Vintage 1950s Roy Lichtenstein pop art aesthetic with these specific characteristics:
+- BACKGROUND: Warm aged cream paper (#f7f4f0) with subtle halftone dot texture
+- BORDERS: Thick black outlines (3px) around all panels
+- COLORS: Bold pop art accents - cardinal red (#c41e3a), golden yellow (#f4c430), deep blue (#2d5a7b)
+- SHADOWS: Black comic drop shadows (not brown)
+- TEXTURE: Ben Day halftone dots for shading, stipple patterns
+- OVERALL: Clean vintage newspaper comic with warm base + bold accent colors
 
 PANEL CONTENT (each panel must have):
-- Visual metaphor representing the topic
-- Bold sans-serif text label clearly readable
-- Distinct vibrant color scheme
-- 1950s comic book style
+- Visual metaphor representing the topic (characters, objects, symbols)
+- Bold sans-serif UPPERCASE text labels
+- Each panel uses one bold accent color (rotate red/yellow/blue)
+- Thick black panel borders
+- 1950s comic book character style with halftone shading
 
 TOPICS FOR {num_topics} PANELS:
 {panel_desc}
 
-FOOTER BANNER: Bold text saying "THE DAILY TEAHOSE - {date_str}" at the bottom
+FOOTER BANNER: Bold black text "THE DAILY TEAHOSE - {date_str}" on cream background strip
 
 REQUIREMENTS:
-- All {num_topics} panels clearly visible and appropriately sized
-- All text must be legible and bold
+- All {num_topics} panels clearly visible and equal-sized
+- Warm cream aged paper background throughout
+- Bold red/yellow/blue accents only (no orange, no bright green)
+- All text UPPERCASE and highly legible
 - Landscape orientation
-- Vintage newspaper comic aesthetic
-- Professional quality suitable for email header"""
+- Professional vintage newspaper comic quality"""
 
     try:
         google_api_key = os.environ.get("GOOGLE_API_KEY")
