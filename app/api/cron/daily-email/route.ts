@@ -195,15 +195,32 @@ async function generateHeaderImage(episodes: Episode[], dateStr: string): Promis
     return null
   }
 
-  // Extract topics from episode titles
+  // Extract key insights from episode titles (max 60 chars)
   const topics: string[] = []
   for (const ep of episodes.slice(0, 6)) {
     let title = ep.title
-    title = title.replace(/^.*?:\s*/, '')
+
+    // Remove person/company prefixes (everything before colon)
+    title = title.replace(/^[^:]+:\s*/, '')
+
+    // Take first meaningful part before pipe/dash
     title = title.split(/\s*[\|\-]\s*/)[0]
-    if (title.length > 50) {
-      title = title.slice(0, 47) + '...'
+
+    // Smart compression: keep the core insight
+    if (title.length > 60) {
+      // Remove verbose question words and filler
+      title = title
+        .replace(/^(Why|How|What|When|Where|Are|Is|Do|Does|Can|Will)\s+/i, '')
+        .replace(/\b(the|a|an|and|or|but|in|on|at|to|for|of|with|from|that|this|these|those)\b/gi, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+
+      // If still too long, take first 60 chars at word boundary
+      if (title.length > 60) {
+        title = title.slice(0, 60).replace(/\s+\S*$/, '').trim()
+      }
     }
+
     topics.push(title)
   }
 
