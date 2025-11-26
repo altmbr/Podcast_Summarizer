@@ -5,13 +5,31 @@ import { useState } from 'react'
 interface ShareButtonProps {
   url?: string
   title?: string
+  refSource?: string // e.g., 'home', 'podcast-page', 'episode-page'
+  podcast?: string
+  episode?: string
 }
 
-export default function ShareButton({ url, title }: ShareButtonProps) {
+export default function ShareButton({ url, title, refSource, podcast, episode }: ShareButtonProps) {
   const [copied, setCopied] = useState(false)
 
   const handleCopy = async () => {
-    const shareUrl = url || window.location.href
+    let shareUrl = url || window.location.href
+
+    // Add ref parameter based on context
+    if (refSource) {
+      const urlObj = new URL(shareUrl, window.location.origin)
+
+      if (refSource === 'home') {
+        urlObj.searchParams.set('ref', 'share-home')
+      } else if (refSource === 'podcast-page' && podcast) {
+        urlObj.searchParams.set('ref', `share-podcast-${encodeURIComponent(podcast)}`)
+      } else if (refSource === 'episode-page' && podcast && episode) {
+        urlObj.searchParams.set('ref', `share-episode-${encodeURIComponent(podcast)}-${encodeURIComponent(episode)}`)
+      }
+
+      shareUrl = urlObj.toString()
+    }
 
     try {
       await navigator.clipboard.writeText(shareUrl)

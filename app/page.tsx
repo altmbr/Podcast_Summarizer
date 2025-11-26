@@ -98,7 +98,7 @@ export default async function HomePage() {
         <div className="container pt-12 md:pt-16 pb-6">
           <div className="flex items-center justify-between mb-6">
             <h1 style={{ color: 'var(--foreground)' }}>Teahose</h1>
-            <ShareButton />
+            <ShareButton refSource="home" />
           </div>
           <p style={{ color: 'var(--muted-foreground)' }} className="text-lg">
             A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.

@@ -101,7 +101,11 @@ export default async function PodcastPage({ params }: PodcastPageProps) {
           </Link>
           <div className="flex items-center justify-between mb-2">
             <h1 style={{ color: 'var(--foreground)' }}>{podcastName}</h1>
-            <ShareButton title={`${podcastName} - Podcast Summaries`} />
+            <ShareButton
+              title={`${podcastName} - Podcast Summaries`}
+              refSource="podcast-page"
+              podcast={podcastName}
+            />
           </div>
           <p style={{ color: 'var(--muted-foreground)' }} className="text-sm">
             {episodes.length} episode{episodes.length !== 1 ? 's' : ''}

@@ -129,7 +129,12 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
           </Link>
           <div className="flex items-start justify-between gap-4 mb-4">
             <h1 style={{ color: 'var(--foreground)' }} className="flex-1">{episode.title}</h1>
-            <ShareButton title={episode.title} />
+            <ShareButton
+              title={episode.title}
+              refSource="episode-page"
+              podcast={podcastName}
+              episode={decodedSlug}
+            />
           </div>
           {episode.date && <p style={{ color: 'var(--muted-foreground)' }} className="text-sm mb-2">{formatDate(episode.date)}</p>}
           {episode.participants && <p style={{ color: 'var(--muted-foreground)' }} className="text-sm mb-2">{episode.participants}</p>}
