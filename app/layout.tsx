@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: 'Teahose',
     images: [
       {
-        url: '/og-image.png',
+        url: '/og-image.png?v=2',
         width: 1536,
         height: 1024,
         alt: 'Teahose - Tech podcast summaries',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Teahose - Tech Podcast Summaries',
     description: 'A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.',
-    images: ['/og-image.png'],
+    images: ['/og-image.png?v=2'],
   },
   alternates: {
     canonical: '/',
