@@ -11768,9 +11768,10 @@
 
 ## Theory Ventures Office Hours
 
-**Total Episodes:** 1
+**Total Episodes:** 17
 
 **Status Summary:**
+- discovered: 16
 - summarized: 1
 
 **Episodes:**
@@ -11780,6 +11781,102 @@
   - Published: 2025-10-31
   - Status: `summarized`
   - Discovered: 2025-11-08 18:18:40
+
+- 🔍 **Office Hours with Barr Moses  Rethinking Pricing Models  A Look Inside Monte Car**
+  - ID: `NcVmzypt4JM`
+  - Published: 2025-05-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Office Hours with Maggie Hott: GTM Mistakes**
+  - ID: `poN6jfAXfa4`
+  - Published: 2025-05-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mastering Positioning, Branding & GTM Alignment in the AI Era - Alan Hsia, VP Ma**
+  - ID: `5WK9xyTZy5Y`
+  - Published: 2025-04-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Office Hours with Benn Stancil: BI's Third Form**
+  - ID: `ZxiB8mqTeOQ`
+  - Published: 2024-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Office Hours with Jordan Tigani: Modern Data Architectures**
+  - ID: `j5dcfEVnfdI`
+  - Published: 2024-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Office Hours - SUI Generis: Building the Future of Blockchains with Evan Cheng**
+  - ID: `HaXoNcnH9GE`
+  - Published: 2024-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Office Hours with Tom Tunguz**
+  - ID: `ACmgtHn594w`
+  - Published: 2024-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Theory Ventures Office Hours with Tom Tunguz & Colin Zima**
+  - ID: `Uqmvl0m3TGM`
+  - Published: 2024-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Theory Ventures Office Hours with Tom Tunguz & Steven Goldfeder**
+  - ID: `AqjJ1RgDlxg`
+  - Published: 2024-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Theory Ventures Office Hours with Tom Tunguz & Philip Zelitchenko**
+  - ID: `tiGuVnGKG9Q`
+  - Published: 2024-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Theory Ventures Office Hours with Raj Sarkar**
+  - ID: `PDb7ARUnBTs`
+  - Published: 2023-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Theory Ventures Office Hours with Tom Tunguz & Oliver Jay**
+  - ID: `78yUukGnlYA`
+  - Published: 2023-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Office Hours with Tomasz Tunguz & Fredrik Haga**
+  - ID: `XejmTCf1ym4`
+  - Published: 2023-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Office Hours with with Tomasz Tunguz & Lars Nilsson**
+  - ID: `Ftc1oSpwtlI`
+  - Published: 2022-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Office Hours with Tomasz Tunguz & Claire Hughes Johnson**
+  - ID: `8LWzn-WUTFU`
+  - Published: 2022-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Office Hours with Tomasz Tunguz: Lee Kirkpatrick, CFO at Twilio on Managing thro**
+  - ID: `MkUJDjVIMZA`
+  - Published: 2022-11-27
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -22813,8 +22910,8 @@
 **Total Episodes:** 45
 
 **Status Summary:**
-- discovered: 42
-- summarized: 3
+- discovered: 41
+- summarized: 4
 
 **Episodes:**
 
@@ -23082,11 +23179,11 @@
   - Status: `summarized`
   - Discovered: 2025-11-23 10:25:13
 
-- 🔍 **How We Use 20+ AI Agents for Marketing & Go-to-Market with SaaStr's CEO and Chie**
+- ✅ **How We Use 20+ AI Agents for Marketing & Go-to-Market with SaaStr's CEO and Chie**
   - ID: `3mnXnyHFT2A`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-11-26
+  - Status: `summarized`
+  - Discovered: 2025-11-26 16:55:43
 
 ---
 
@@ -41227,9 +41324,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **Joe Rogan Experience #2418 - Chris Williamson**
   - ID: `F8qxwts_bE4`
-  - Published: 0
+  - Published: 2025-11-26
   - Status: `discovered`
   - Discovered: None
 
@@ -41237,10 +41334,10 @@
 
 ## DOAC
 
-**Total Episodes:** 445
+**Total Episodes:** 447
 
 **Status Summary:**
-- discovered: 445
+- discovered: 447
 
 **Episodes:**
 
@@ -43910,6 +44007,18 @@
 
 - 🔍 **[Private video]**
   - ID: `KpLvcl9mULk`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `BFU1OCkhBwo`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `q40Z2lq1tzw`
   - Published: 0
   - Status: `discovered`
   - Discovered: None
