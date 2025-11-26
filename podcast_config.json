@@ -1,0 +1,83 @@
+{
+  "20VC": {
+    "hosts": ["Harry Stebbings"]
+  },
+  "Acquired": {
+    "hosts": ["Ben Gilbert", "David Rosenthal"]
+  },
+  "All In": {
+    "hosts": ["Jason Calacanis", "David Sacks", "Chamath Palihapitiya", "David Friedberg"]
+  },
+  "A16z Podcast": {
+    "hosts": ["Erik Torenberg", "Marc Andreessen", "Ben Horowitz"],
+    "notes": "Rotating hosts - various a16z partners may host different episodes"
+  },
+  "BG2": {
+    "hosts": ["Brad Gerstner"]
+  },
+  "Cheeky Pint": {
+    "hosts": ["John Collison"]
+  },
+  "Dialectic": {
+    "hosts": ["Jackson Dahl"]
+  },
+  "Dwarkesh": {
+    "hosts": ["Dwarkesh Patel"]
+  },
+  "Invest like the best": {
+    "hosts": ["Patrick O'Shaughnessy"]
+  },
+  "Lenny's": {
+    "hosts": ["Lenny Rachitsky"]
+  },
+  "Lex Fridman": {
+    "hosts": ["Lex Fridman"]
+  },
+  "Lightcone": {
+    "hosts": ["Garry Tan", "Diana Hu", "Harj Taggar", "Jared Friedman"]
+  },
+  "Long Strange Trip w Brian Halligan": {
+    "hosts": ["Brian Halligan"]
+  },
+  "More or Less": {
+    "hosts": ["Dave Morin", "Jessica Lessin", "Brit Morin", "Sam Lessin"]
+  },
+  "My First Million": {
+    "hosts": ["Sam Parr", "Shaan Puri"]
+  },
+  "No Priors": {
+    "hosts": ["Sarah Guo", "Elad Gil"]
+  },
+  "SaaStr": {
+    "hosts": ["Jason Lemkin"]
+  },
+  "Sourcery": {
+    "hosts": ["Molly O'Shea"]
+  },
+  "Stanford AI Speaker Series": {
+    "hosts": [],
+    "notes": "Speaker series format - no fixed hosts"
+  },
+  "Theory Ventures Office Hours": {
+    "hosts": ["Tomasz Tunguz"],
+    "notes": "Theory Ventures team may co-host"
+  },
+  "Training Data": {
+    "hosts": ["George Robson", "Pat Grady"]
+  },
+  "Uncapped": {
+    "hosts": ["Jack Altman"]
+  },
+  "Uncapped Founders": {
+    "hosts": ["Jack Altman"]
+  },
+  "张小珺Jùn｜商业访谈录": {
+    "hosts": ["Zhang Xiaojun", "张小珺"]
+  },
+  "晚点聊 LateTalk": {
+    "hosts": ["Manchi", "晚点团队"]
+  },
+  "Zhang Xiaoyun's": {
+    "hosts": ["Zhang Xiaoyun", "张小芸"]
+  }
+}

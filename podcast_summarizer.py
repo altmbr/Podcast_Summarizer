@@ -24,6 +24,7 @@ PODCAST_STATUS_MD_FILE = Path("./podcast_status.md")
 PROCESSING_LOCK_FILE = Path("./processing.lock")
 SUMMARIZATION_PROMPT_FILE = Path("./summarization_prompt.md")
 ONE_OFF_EPISODES_FILE = Path("./one_off_episodes.txt")
+PODCAST_CONFIG_FILE = Path("./podcast_config.json")
 CLAUDE_MODEL = "claude-sonnet-4-5-20250929"  # For summarization (latest Sonnet 4.5)
 HAIKU_MODEL = "claude-3-5-haiku-20241022"  # For speaker identification (latest Haiku)
 HUGGINGFACE_TOKEN = os.environ.get("HUGGINGFACE_TOKEN")
@@ -1017,7 +1018,23 @@ def parse_guest_names_from_description(description, title):
 
     return list(dict.fromkeys(guest_names))  # Remove duplicates while preserving order
 
-def identify_and_replace_speakers(diarized_transcript, video_metadata, video_title):
+def load_podcast_hosts(podcast_name):
+    """Load known hosts for a podcast from podcast_config.json"""
+    if not PODCAST_CONFIG_FILE.exists():
+        return None
+
+    try:
+        with open(PODCAST_CONFIG_FILE, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+
+        podcast_config = config.get(podcast_name, {})
+        hosts = podcast_config.get("hosts", [])
+        return hosts if hosts else None
+    except Exception as e:
+        print(f"  ⚠ Warning: Could not load podcast config: {e}")
+        return None
+
+def identify_and_replace_speakers(diarized_transcript, video_metadata, video_title, podcast_name=None):
     """Use Claude Haiku to identify speaker names from first 10-15 minutes and replace SPEAKER_XX placeholders"""
     print(f"  → Identifying speakers with AI (using first 15 minutes)...")
 
@@ -1028,6 +1045,9 @@ def identify_and_replace_speakers(diarized_transcript, video_metadata, video_tit
         print("  → Skipping speaker identification")
         return diarized_transcript
 
+    # Load known hosts for this podcast
+    known_hosts = load_podcast_hosts(podcast_name) if podcast_name else None
+
     # Parse guest names from metadata
     guest_names = parse_guest_names_from_description(video_metadata.get("description", ""), video_title)
 
@@ -1036,9 +1056,14 @@ def identify_and_replace_speakers(diarized_transcript, video_metadata, video_tit
         guest_names = parse_guest_names_from_description(video_metadata.get("title", ""), "")
 
     # Build context for Claude
+    host_context = ""
+    if known_hosts:
+        host_context = f"\nKnown hosts for {podcast_name}: {', '.join(known_hosts)}"
+        host_context += "\nNote: Not all hosts may appear in every episode."
+
     metadata_context = f"""Video Title: {video_title}
 Channel/Uploader: {video_metadata.get('uploader', 'Unknown')}
-Possible Guests: {', '.join(guest_names) if guest_names else 'Not found in description'}"""
+Possible Guests: {', '.join(guest_names) if guest_names else 'Not found in description'}{host_context}"""
 
     # Extract first 10-15 minutes of transcript (900 seconds = 15 minutes)
     lines = diarized_transcript.strip().split('\n')
@@ -1060,12 +1085,22 @@ Possible Guests: {', '.join(guest_names) if guest_names else 'Not found in descr
     first_15_min = '\n'.join(first_15_min_lines)
 
     # Create prompt for Claude to identify speakers
+    host_instruction = ""
+    if known_hosts:
+        host_instruction = f"""
+IMPORTANT: This podcast's known hosts are: {', '.join(known_hosts)}
+- First, identify which SPEAKER_XX labels correspond to these known hosts
+- Then identify any guest speakers based on the conversation context
+- Note that not all hosts may appear in every episode"""
+
     identification_prompt = f"""I have a podcast transcript with speaker diarization labels (SPEAKER_00, SPEAKER_01, etc) from voice analysis.
 
 I need you to identify who these speakers are based on:
-1. The dialogue context and what each speaker says about themselves
-2. Possible guest names from the video metadata
-3. Natural conversational cues (host vs guest dynamics)
+1. Known host information (if provided)
+2. The dialogue context and what each speaker says about themselves
+3. Possible guest names from the video metadata
+4. Natural conversational cues (host vs guest dynamics)
+{host_instruction}
 
 Metadata:
 {metadata_context}
@@ -1077,14 +1112,14 @@ Your task:
 Analyze the transcript to identify who each SPEAKER_XX label represents. Return your response as JSON ONLY in this exact format:
 
 {{
-  "SPEAKER_00": "Name or Host",
-  "SPEAKER_01": "Name or Guest",
-  "SPEAKER_02": "Name or Guest 2"
+  "SPEAKER_00": "Full Name",
+  "SPEAKER_01": "Full Name",
+  "SPEAKER_02": "Full Name"
 }}
 
 Rules:
 - Only include speakers that appear in the excerpt
-- If you cannot confidently identify a speaker, use "Unknown" as the value
+- If you cannot confidently identify a speaker, use "Unknown Host" or "Unknown Guest" as appropriate
 - Use FULL NAMES whenever possible (e.g., "Harry Stebbings" not just "Harry")
 - Return ONLY valid JSON, no other text"""
 
@@ -1185,7 +1220,7 @@ def make_timestamps_clickable(text, video_id, video_url):
 
     return re.sub(timestamp_pattern, replace_timestamp, text)
 
-def summarize_transcript_with_ai(transcript_text, video_title, custom_prompt):
+def summarize_transcript_with_ai(transcript_text, video_title, custom_prompt, podcast_name=None):
     """Summarize transcript using Claude Sonnet 4.5"""
     print(f"  → Generating AI summary...")
 
@@ -1197,8 +1232,15 @@ def summarize_transcript_with_ai(transcript_text, video_title, custom_prompt):
 
     client = Anthropic()
 
+    # Add host context if available
+    host_context = ""
+    if podcast_name:
+        known_hosts = load_podcast_hosts(podcast_name)
+        if known_hosts:
+            host_context = f"\n\nNote: The podcast host(s) for {podcast_name} are: {', '.join(known_hosts)}. Not all hosts may appear in every episode."
+
     # Combine custom prompt with the transcript
-    full_prompt = f"{custom_prompt}\n\n---\n\nTranscript:\n{transcript_text}"
+    full_prompt = f"{custom_prompt}{host_context}\n\n---\n\nTranscript:\n{transcript_text}"
 
     response = client.messages.create(
         model=CLAUDE_MODEL,
@@ -1324,7 +1366,7 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
     if transcript_text and get_episode_status(status_data, podcast_url, video_id) == "transcribed":
         print(f"  → Step 3: Identifying speakers...")
         # Identify speakers and replace SPEAKER_XX with actual names
-        transcript_text, identified_speakers = identify_and_replace_speakers(transcript_text, video_metadata, episode_title)
+        transcript_text, identified_speakers = identify_and_replace_speakers(transcript_text, video_metadata, episode_title, podcast_name)
         # Update transcript file with speaker-identified version
         with open(transcript_path, 'w') as f:
             # Keep the metadata header from before
@@ -1342,7 +1384,7 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
     # Step 4: Summarize
     if transcript_text and get_episode_status(status_data, podcast_url, video_id) == "transcribed":
         print(f"  → Step 4: Generating summary...")
-        summary_text = summarize_transcript_with_ai(transcript_text, episode_title, custom_prompt)
+        summary_text = summarize_transcript_with_ai(transcript_text, episode_title, custom_prompt, podcast_name)
         set_episode_status(status_data, podcast_url, video_id, episode_title, "summarized")
         print(f"  ✓ Summarized")
     elif get_episode_status(status_data, podcast_url, video_id) == "summarized":

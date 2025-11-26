@@ -48,7 +48,9 @@ def get_episodes_from_last_day():
                 continue
 
             try:
+                # Parse date and set to noon UTC to avoid edge cases (matches cron behavior)
                 upload_date = datetime.strptime(upload_date_str, "%Y%m%d")
+                upload_date = upload_date.replace(hour=12, minute=0, second=0, microsecond=0)
             except ValueError:
                 continue
 
