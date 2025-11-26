@@ -8435,7 +8435,8 @@
 **Total Episodes:** 34
 
 **Status Summary:**
-- discovered: 34
+- discovered: 33
+- summarized: 1
 
 **Episodes:**
 
@@ -8625,11 +8626,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- ✅ **The Secret Marketing Strategy That Built a16z: From Zero to Legendary VC Firm**
   - ID: `jO-SWlW6DFY`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-11-26
+  - Status: `summarized`
+  - Discovered: 2025-11-26 09:43:22
 
 - 🔍 **[Private video]**
   - ID: `rCj-dTWQlNw`
@@ -19114,11 +19115,11 @@
 
 ## My First Million
 
-**Total Episodes:** 596
+**Total Episodes:** 597
 
 **Status Summary:**
 - discovered: 592
-- summarized: 4
+- summarized: 5
 
 **Episodes:**
 
@@ -22698,6 +22699,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-24 12:37:43
 
+- ✅ **$10M Business ideas w/ The Most Interesting Guy In Tech**
+  - ID: `QDjs_Wem9zI`
+  - Published: 2025-11-26
+  - Status: `summarized`
+  - Discovered: 2025-11-26 09:52:57
+
 ---
 
 ## One-off Episodes
@@ -22803,10 +22810,10 @@
 
 ## SaaStr
 
-**Total Episodes:** 44
+**Total Episodes:** 45
 
 **Status Summary:**
-- discovered: 41
+- discovered: 42
 - summarized: 3
 
 **Episodes:**
@@ -23074,6 +23081,12 @@
   - Published: 2025-11-23
   - Status: `summarized`
   - Discovered: 2025-11-23 10:25:13
+
+- 🔍 **How We Use 20+ AI Agents for Marketing & Go-to-Market with SaaStr's CEO and Chie**
+  - ID: `3mnXnyHFT2A`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -24587,6 +24600,19476 @@
 - 🔍 **How Foreign Trolls on X Are Manipulating U.S. Politics | Pivot**
   - ID: `mUYTgHgwyHM`
   - Published: 2025-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## Huberman
+
+**Total Episodes:** 344
+
+**Status Summary:**
+- discovered: 344
+
+**Episodes:**
+
+- 🔍 **Female Hormone Health, PCOS, Endometriosis, Fertility & Breast Cancer | Dr. Thaï**
+  - ID: `hMzfGZnaPN8`
+  - Published: 2025-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Science of Building Strong Social Bonds with Family, Friends & Roman**
+  - ID: `25PtptE7mWk`
+  - Published: 2025-11-21
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Speak Clearly & With Confidence | Matt Abrahams**
+  - ID: `ZtTUfMHuioA`
+  - Published: 2025-11-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Breathing for Mental & Physical Health & Performance | Dr. Jack Feld**
+  - ID: `Y3NUEPNZDMA`
+  - Published: 2025-11-14
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Your Thoughts Are Built & How You Can Shape Them | Dr. Jennifer Groh**
+  - ID: `tb6ApBIXr1k`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Erasing Fears & Traumas Using Modern Neuroscience | Huberman Lab Essentials**
+  - ID: `tpntW9Tte4M`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Existing Drugs in New Ways to Treat & Cure Diseases of Brain & Body | Dr. **
+  - ID: `PCbD3hFyfCk`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: The Biology of Slowing & Reversing Aging | Dr. David Sinclair**
+  - ID: `Ykvkg2Jz3X8`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Improve Your Lymphatic System for Overall Health & Appearance**
+  - ID: `KBkl3I645c8`
+  - Published: 2025-10-29
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Gratitude & How to Build a Gratitude Practice | Huberman Lab Esse**
+  - ID: `9gJLWk3W5GQ`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Overcome Inner Resistance | Steven Pressfield**
+  - ID: `cpKsogGdem4`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: How Your Brain Functions & Interprets the World | Dr. David Berson**
+  - ID: `-zI0ZgKM0xA`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Protect & Improve Your Hearing & Brain Health | Dr. Konstantina Stankovic**
+  - ID: `xGmGBFpmdhQ`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Time Perception, Memory & Focus | Huberman Lab Essentials**
+  - ID: `vXTK0Ac9i1Q`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Make Yourself Unbreakable | DJ Shipley**
+  - ID: `WwRc2SEo-VI`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: How Humans Select & Keep Romantic Partners in the Short & Long Term **
+  - ID: `VqiPNN4Jblk`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Enhance Your Learning Speed & Health Using Neuroscience Based Protocols | Dr. Po**
+  - ID: `MlmFj1-mOtg`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Your Nervous System to Enhance Your Immune System | Huberman Lab Essential**
+  - ID: `pN1UL1M9sqc`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Build Your Ideal Physique | Dr. Bret Contreras**
+  - ID: `7SIjcX5B1Vs`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: How to Exercise for Strength Gains & Hormone Optimization | Dr. Dunc**
+  - ID: `dy_iLCJggO0`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Expand Your Consciousness | Dr. Christof Koch**
+  - ID: `2t4vswC-3mY`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Food & Supplements for Brain Health & Cognitive Performance | Huberman Lab Essen**
+  - ID: `cIla9axQRyM`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Transform Your Metabolic Health & Longevity by Knowing Your Unique Biology | Dr.**
+  - ID: `cjAvD-U5so0`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Science of Mindsets for Health & Performance | Dr. Alia Crum**
+  - ID: `alVWRl_X_AA`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Set & Achieve Massive Goals | Alex Honnold**
+  - ID: `4TsOnsPDKKY`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Effects of Fasting & Time Restricted Eating on Fat Loss & Health | Huberman Lab **
+  - ID: `D61jJJPIQeo`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Science & Health Benefits of Belief in God & Religion | Dr. David DeSteno**
+  - ID: `Whe2Jh9q6jI`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Timing Light for Better Sleep, Energy & Mood | Dr. Samer Hattar**
+  - ID: `2XMb3MD6g6Q`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Curing Autism, Epilepsy & Schizophrenia with Stem Cells | Dr. Sergiu Pașca**
+  - ID: `H4mMZ0vliMo`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Controlling Your Dopamine for Motivation, Focus & Satisfaction | Huberman Lab Es**
+  - ID: `XeN6eGO6FVQ`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Rewire Your Brain & Learn Faster | Dr. Michael Kilgard**
+  - ID: `rcAyjg-oy84`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Increase Strength & Endurance with Cooling Protocols | Dr. Craig Hel**
+  - ID: `aZklQpFa2kE`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Control Your Cortisol & Overcome Burnout**
+  - ID: `Ibj1k3IZTNU`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **ADHD & How Anyone Can Improve Their Focus | Huberman Lab Essentials**
+  - ID: `LAwBdRR4wQk`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Male vs. Female Brain Differences & How They Arise From Genes & Hormones | Dr. N**
+  - ID: `k8SBJzsIWAo`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Psychedelics for Treating Mental Disorders | Dr. Matthew Johnson**
+  - ID: `OvHbhzArbfE`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Health Effects & Risks of Kratom, Opioids & Other Natural Occurring Medicines | **
+  - ID: `gyE6Z4GLEeM`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Healthy Eating & Eating Disorders - Anorexia, Bulimia, Binging | Huberman Lab Es**
+  - ID: `mJv1_esiJ8g`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Nature & Other Physical Environments Impact Your Focus, Cognition & Health |**
+  - ID: `ewnvjnuFTOY`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Science of Stress, Testosterone, Aggression & Motivation | Dr. Rober**
+  - ID: `WxtxzRdJFTI`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Lose Fat & Gain Muscle With Nutrition | Alan Aragon**
+  - ID: `h_1zlead9ZU`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Understanding & Conquering Depression | Huberman Lab Essentials**
+  - ID: `HWcphoKlbxY`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Chemistry of Food & Taste | Dr. Harold McGee**
+  - ID: `zqANjUGarAw`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Understanding & Treating Addiction | Dr. Anna Lembke**
+  - ID: `i4gvIeA3RcI`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Control Your Vagus Nerve to Improve Mood, Alertness & Neuroplasticity**
+  - ID: `CLbVW3Pj46A`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Control Your Sense of Pain & Pleasure | Huberman Lab Essentials**
+  - ID: `vm1GbSPx48g`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Grow From Doing Hard Things | Michael Easter**
+  - ID: `SsKkZTjUJEk`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science & Practice of Perfecting Your Sleep | Huberman Lab Essentials**
+  - ID: `JaRGJVrJBQ8`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Improving Science & Restoring Trust in Public Health | Dr. Jay Bhattacharya**
+  - ID: `2Y_PxTxLFVg`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Improving Health With Stronger Brain-Body Connection | Huberman Lab Essentials**
+  - ID: `2ZkJtIouKzE`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Healing From Grief & Loss | Dr. Mary-Frances O'Connor**
+  - ID: `inUkNZe5H3k`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Machines, Creativity & Love | Dr. Lex Fridman**
+  - ID: `SCzecagKBjY`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Behaviors That Alter Your Genes to Improve Your Health & Performance | Dr. Melis**
+  - ID: `ijdpvG24IkE`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Maximize Productivity, Physical & Mental Health With Daily Tools | Huberman Lab **
+  - ID: `Pmd6knanPKw`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science & Art of Comedy & Creativity | Tom Segura**
+  - ID: `HTJ8lDtJOg4`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Essentials: Understanding & Healing the Mind | Dr. Karl Deisseroth**
+  - ID: `RSnol_TVrzQ`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Different Diets Impact Your Health | Dr. Christopher Gardner**
+  - ID: `9vQZT2igXN4`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Hearing & Balance Enhance Focus & Learning | Huberman Lab Essentials**
+  - ID: `fSBgDq2ttCw`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Contracts of Love & Money That Make or Break Relationships | James Sexton**
+  - ID: `zpkwefXtbfk`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Smell, Taste & Pheromones Shape Behavior | Huberman Lab Essentials**
+  - ID: `_eDg9yOvvrQ`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Pets Actually Want & Need | Dr. Karolina Westlund**
+  - ID: `6ck9fa6_C8c`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #19: Collagen vs. Whey Protein, Creatine, Smelling Salts, Stimulants & More**
+  - ID: `q-wRvsiGYIs`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Protocols to Improve Vision & Eyesight | Huberman Lab Essentials**
+  - ID: `ssmwxKPFMFU`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tools for Overcoming Substance & Behavioral Addictions | Ryan Soave**
+  - ID: `J7yn4tJEmJU`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Build Endurance | Huberman Lab Essentials**
+  - ID: `7MEhDlw1e9k`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve Your Vitality & Heal From Disease | Dr. Mark Hyman**
+  - ID: `UyneMnERmnI`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Build Muscle Size, Increase Strength & Improve Recovery | Huberman Lab Essential**
+  - ID: `jgaoLdS82vw`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Find & Be a Great Romantic Partner | Lori Gottlieb**
+  - ID: `lYK4UFf8mlc`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Lose Fat With Science-Based Tools | Huberman Lab Essentials**
+  - ID: `f4cdu-QiKHo`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Transform Your Mental Health With Diet & Lifestyle | Dr. Chris Palmer**
+  - ID: `hCyvqRq5YmM`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Learn Skills Faster | Huberman Lab Essentials**
+  - ID: `VnEy78RL2YY`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve Your Teeth & Oral Microbiome for Brain & Body Health | Dr. Staci **
+  - ID: `_oOEKKiwdDE`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Supercharge Exercise Performance & Recovery with Cooling | Huberman Lab Essentia**
+  - ID: `5--yogtN6oM`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Increase Your Speed, Mobility & Longevity with Plyometrics & Sprinting | **
+  - ID: `U3cSnzdyyXU`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Boost Your Energy & Immune System with Cortisol & Adrenaline | Huberman Lab Esse**
+  - ID: `wFucddupQlk`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Improve Focus with Behavioral Tools & Medication for ADHD | Dr. John Kruse**
+  - ID: `NtQ-kdLlQiU`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Control Your Metabolism by Thyroid & Growth Hormone | Huberman Lab Essent**
+  - ID: `Nmo4bxfFzM0`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Achieve Inner Peace & Healing | Dr. Richard Schwartz**
+  - ID: `KuuoLT-fq4s`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Control Hunger, Eating & Satiety | Huberman Lab Essentials**
+  - ID: `c9JmHOUp6VU`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Enhance Your Immune System | Dr. Roger Seheult**
+  - ID: `N5DAW8mkJ6Y`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Optimize Testosterone & Estrogen | Huberman Lab Essentials**
+  - ID: `v4HRWgwjP_k`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Make Better Decisions | Dr. Michael Platt**
+  - ID: `bAWUYuygS_U`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Hormones Shape Sexual Development | Huberman Lab Essentials**
+  - ID: `FCFQx3cA0Lg`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Build Strength, Endurance & Flexibility at Any Age | Pavel Tsatsouline**
+  - ID: `Z3OpxT65fKw`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Emotions & Relationships | Huberman Lab Essentials**
+  - ID: `qdk7XuBgSjw`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Your Mind to Control Your Physical Health & Longevity | Dr. Ellen Langer**
+  - ID: `QYAgf_lfio4`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Increase Motivation & Drive | Huberman Lab Essentials**
+  - ID: `OLQRAMZi--c`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Art of Learning & Living Life | Josh Waitzkin**
+  - ID: `wAnDWfEIwoE`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Foods & Nutrients Control Our Moods | Huberman Lab Essentials**
+  - ID: `Q4qWzbP0q7I`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Charting the Architecture of the Universe & Human Life | Dr. Brian Keating**
+  - ID: `3-ukCGQJk2c`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tools for Managing Stress & Anxiety | Huberman Lab Essentials**
+  - ID: `qUz93CyNIz0`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Overcoming Guilt & Building Tenacity in Kids & Adults | Dr. Becky Kennedy**
+  - ID: `qi4VwpEs3LE`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Control Pain & Heal Faster With Your Brain | Huberman Lab Essentials**
+  - ID: `SjPJn4QP0dk`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Use Exercise to Improve Your Brain’s Health, Longevity & Performance**
+  - ID: `J2oqi41dCNc`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Optimize Your Learning & Creativity With Science-Based Tools | Huberman Lab Esse**
+  - ID: `D97TQuy946k`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Best Guide Your Life Decisions & Path | Dr. Jordan Peterson**
+  - ID: `K0hkhbGYaGQ`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Learn Faster by Using Failures, Movement & Balance | Huberman Lab Essenti**
+  - ID: `jwChiek_aRY`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Achieve True Happiness Using Science-Based Protocols | Dr. Laurie Santos**
+  - ID: `Phm-Alz1Zjo`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Focus to Change Your Brain | Huberman Lab Essentials**
+  - ID: `4AwyVTHEU3s`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Use Curiosity & Focus to Create a Joyful & Meaningful Life | Dr. Bernardo**
+  - ID: `tR73Ny4Dt9s`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Understand and Use Dreams to Learn and Forget | Huberman Lab Essentials**
+  - ID: `hF32FvBH4gI`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve Your Mobility, Posture & Flexibility | Dr. Kelly Starrett**
+  - ID: `8N7mdkrXgbc`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Defeat Jet Lag, Shift Work & Sleeplessness | Huberman Lab Essentials**
+  - ID: `In9Bq4EJMZw`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Understand & Apply the Psychology of Money to Gain Greater Happiness | Morgan Ho**
+  - ID: `z5W74QC3v2I`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Science to Optimize Sleep, Learning & Metabolism | Huberman Lab Essentials**
+  - ID: `q-H_A_dQUxQ`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Control Your Inner Voice & Increase Your Resilience | Dr. Ethan Kross**
+  - ID: `Og56hmAspV8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Master Your Sleep & Be More Alert When Awake | Huberman Lab Essentials**
+  - ID: `lIo9FcrljDk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve at Learning Using Neuroscience & AI | Dr. Terry Sejnowski**
+  - ID: `etbfLTHD_VU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Your Brain Works & Changes | Huberman Lab Essentials**
+  - ID: `HiyzzcuaAac`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Relationships Shape Your Brain | Dr. Allan Schore**
+  - ID: `rZkMpVLcVsg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Safeguard Your Hormone Health & Fertility | Dr. Shanna Swan**
+  - ID: `i5611OvTFGM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Deal With High Conflict People | Bill Eddy**
+  - ID: `SuR0DaYoe0Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Effects of Microplastics on Your Health**
+  - ID: `vfRtLI6cJrk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Create Your Ideal Future Using Science-Based Protocols | Ari Wallach**
+  - ID: `kgr22uMsJ5o`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Peptide & Hormone Therapies for Health, Performance & Longevity | Dr. Craig Koni**
+  - ID: `wRsX_ZkzxvQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve Memory & Focus Using Science Protocols | Dr. Charan Ranganath**
+  - ID: `jC8Pu9HBd48`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Heal From Post-Traumatic Stress Disorder (PTSD) | Dr. Victor Carrión**
+  - ID: `4RFEkGKKhdE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Find, Build & Maintain Healthy Romantic Relationships | Esther Perel**
+  - ID: `ajneRM-ET1Q`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Increase Your Emotional Intelligence | Dr. Marc Brackett**
+  - ID: `kG5Qb9sr0YQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Cultivate a Positive, Growth-Oriented Mindset | Dr. Jamil Zaki**
+  - ID: `U2BPitASUh0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Optimal Protocols for Studying & Learning**
+  - ID: `ddq8JIMhz7c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve & Protect Your Skin Health & Appearance | Dr. Teo Soleymani**
+  - ID: `wgUjIRtote8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tools for Nutrition & Fitness | Dr. Layne Norton**
+  - ID: `CD0bRU1e1ZM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Access Your Best Self With Mind-Body Practices, Belief Testing & Imagination | D**
+  - ID: `nOgypsWKjm4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #18: Cold Therapy Advice, Skin Health Tips, Motivation, Learning Strategies **
+  - ID: `Gf-kC30SLtc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Supplements for Longevity & Their Efficacy | Dr. Peter Attia**
+  - ID: `79p1X_7rAMo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Female-Specific Exercise & Nutrition for Health, Performance & Longevity | Dr. S**
+  - ID: `pZX8ikmWvEU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Build a Strong, Pain-Proof Back | Dr. Stuart McGill**
+  - ID: `mAlt_HKX4as`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Cannabis Impacts Health & the Potential Risks | Dr. Matthew Hill**
+  - ID: `jouFvyRZntk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve Skin Health & Appearance**
+  - ID: `1CxJVdeyltw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Exercise & Eat for Optimal Health & Longevity | Dr. Gabrielle Lyon**
+  - ID: `WFcYF_pxLgA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Hunger & Medications to Combat Obesity | Dr. Zachary Knight**
+  - ID: `C5KpIXjpzdY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Smartphones & Social Media Impact Mental Health & the Realistic Solutions | **
+  - ID: `csubiPlvFWk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **LIVE EVENT Q&A: Dr. Andrew Huberman at the Brisbane Convention & Exhibition Cent**
+  - ID: `-e9ErUozQo4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Navigate Menopause & Perimenopause for Maximum Health & Vitality | Dr. Ma**
+  - ID: `6P8hrzjnetU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Your Gut Sense & the Gut-Brain Axis | Dr. Diego Bohórquez**
+  - ID: `SZSRgyl7pyQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve Brain Health & Offset Neurodegeneration | Dr. Gary Steinberg**
+  - ID: `nqNEtdHVUjM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **LIVE EVENT Q&A: Dr. Andrew Huberman at the ICC Sydney Theatre**
+  - ID: `yOoVz9E9kfQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Find Your True Purpose & Create Your Best Life | Dr. James Hollis**
+  - ID: `SyWC8ZFVxGo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Matt Walker: The Science of Dreams, Nightmares & Lucid Dreaming | Huberman L**
+  - ID: `Jy4rJcYmtUM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Transform Your Health by Improving Metabolism, Hormone & Blood Sugar Regulation **
+  - ID: `8qaBpM73NSk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Matt Walker: Improve Sleep to Boost Mood & Emotional Regulation | Huberman L**
+  - ID: `S_SrHS8FvMM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #17: Making Time for Fitness, Top Sleep Tools & Best Learning Strategies**
+  - ID: `jGZ1mR9uLU0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Protocols to Strengthen & Pain Proof Your Back**
+  - ID: `PVmQOLYckKQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Matt Walker: Using Sleep to Improve Learning, Creativity & Memory | Huberman**
+  - ID: `F9KrZd_-ge0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Vaping, Alcohol Use & Other Risky Youth Behaviors | Dr. Bonnie Halpern-Felsher**
+  - ID: `zlc4VrDx_qk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **LIVE EVENT Q&A: Dr. Andrew Huberman at the Sydney Opera House**
+  - ID: `GA89kjVY6Ik`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Matt Walker: How to Structure Your Sleep, Use Naps & Time Caffeine | Huberma**
+  - ID: `4F_RBc1akC8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Master Growth Mindset to Improve Performance | Dr. David Yeager**
+  - ID: `etEJrznE-c0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Matt Walker: Protocols to Improve Your Sleep | Huberman Lab Guest Series**
+  - ID: `hvPGfcAgk9Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Overcoming Physical & Emotional Challenges | Coleman Ruiz**
+  - ID: `acgz0C-z-gc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Matt Walker: The Biology of Sleep & Your Unique Sleep Needs | Huberman Lab G**
+  - ID: `-OBCwiPPfEU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Benefits & Risks of Peptide Therapeutics for Physical & Mental Health**
+  - ID: `zU5EYw06wtw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Magic & Mind Reading Reveal About the Brain | Asi Wind**
+  - ID: `kpTJqwIfHcM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **LIVE EVENT Q&A: Dr. Andrew Huberman Question & Answer in Melbourne, AU**
+  - ID: `ttNxNbqNQK4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How the Brain Works, Curing Blindness & How to Navigate a Career Path | Dr. E.J.**
+  - ID: `oL3SkPV1_Ik`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Enhance Focus and Improve Productivity | Dr. Cal Newport**
+  - ID: `p4ZfkezDTXQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Placebo Effects Work to Change Our Biology & Psychology**
+  - ID: `gdUNjPijwA8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #16: Sleep, Vertigo, TBI, OCD, Tips for Travelers, Gut-Brain Axis & More**
+  - ID: `gE0_8AjTFaM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Protocols for Excellent Parenting & Improving Relationships of All Kinds | Dr. B**
+  - ID: `XT_6Lvkhxvo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Optimize Cognitive Function & Brain Health | Dr. Mark D'Esposito**
+  - ID: `HYVeP4F0GNU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve Oral Health & Its Critical Role in Brain & Body Health**
+  - ID: `zVCaYyUWWSw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Biology of Social Interactions & Emotions | Dr. Kay Tye**
+  - ID: `V0Sdgn0_kFM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #15: Fluoride Benefits/Risks & Vagus Nerve Stimulation**
+  - ID: `j2sMqSDLd4k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tools to Enhance Working Memory & Attention**
+  - ID: `CQlTmOFM4Qs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Journal Club with Dr. Peter Attia | Effects of Light & Dark on Mental Health & T**
+  - ID: `TG8VM5-CTfw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tools to Reduce & Manage Pain | Dr. Sean Mackey**
+  - ID: `K9lORz2_XSU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Prevent & Treat Colds & Flu**
+  - ID: `AtChcxeaukQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Build Immense Inner Strength | David Goggins**
+  - ID: `nDLb8_wgX50`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #14: 2023 Philanthropy, Evening Routine, Light Therapy, Health Metrics & Mor**
+  - ID: `zbpb1wd-wvs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Protocols to Access Creative Energy and Process | Rick Rubin**
+  - ID: `GpgqXCkRO-w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Sugar & Processed Foods Impact Your Health | Dr. Robert Lustig**
+  - ID: `n28W4AmvMDE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Causes & Treatments for Autism | Dr. Karen Parker**
+  - ID: `ccrbE0QHy94`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **A Process for Finding & Achieving Your Unique Purpose | Robert Greene**
+  - ID: `50BZQRT1dAg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #13: Winter Months & Sickness, Wim Hof Breathing & Stressors**
+  - ID: `xTtM2AvCRyA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Unlock Your Potential, Motivation & Unique Abilities | Dr. Adam Grant**
+  - ID: `3gtvNYa3Nd8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **A Science-Supported Journaling Protocol to Improve Mental & Physical Health**
+  - ID: `wAZn9dF3XTo`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **LIVE EVENT Q&A: Dr. Andrew Huberman Question & Answer in Toronto, ON**
+  - ID: `eC9fiJBdMG0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Female Hormone Health, Fertility & Vitality | Dr. Natalie Crawford**
+  - ID: `EhlIkzJwPlk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Improving Male Sexual Health, Function & Fertility | Dr. Michael Eisenberg**
+  - ID: `pkJi9Raxikg`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #12: Thoughts on Longevity Supplements (Resveratrol, NR, NMN, Etc.) & How to**
+  - ID: `qJ3uV7coZbA`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mental Health Toolkit: Tools to Bolster Your Mood & Mental Health**
+  - ID: `CJIXbibQ0jI`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Curing All Human Diseases & the Future of Health & Technology | Mark Zuckerberg **
+  - ID: `1Wo6SqLNmLk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Understand Emotions | Dr. Lisa Feldman Barrett**
+  - ID: `FeRgqJVALMQ`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Increase Your Willpower & Tenacity | Huberman Lab Podcast**
+  - ID: `cwakOgHIT0E`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Succeed at Hard Conversations | Chris Voss**
+  - ID: `q8CHXefn7B4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Paul Conti: Tools and Protocols for Mental Health | Huberman Lab Guest Serie**
+  - ID: `yOJvm_ri_hk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Efforts & Challenges in Promoting Public Health | Dr. Vivek Murthy**
+  - ID: `qNzl12g0Dd8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Paul Conti: How to Build and Maintain Healthy Relationships | Huberman Lab G**
+  - ID: `eMqWH3LYiII`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Use Music to Boost Motivation, Mood & Improve Learning | Huberman Lab Pod**
+  - ID: `gveDhZW-rUk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Paul Conti: How to Improve Your Mental Health | Huberman Lab Guest Series**
+  - ID: `qPKd99Pa2iU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Journal Club with Dr. Peter Attia | Metformin for Longevity & The Power of Belie**
+  - ID: `z8c6EyMNd0A`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Paul Conti: How to Understand & Assess Your Mental Health | Huberman Lab Gue**
+  - ID: `tLRCS48Ens4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Risk Taking, Innovation & Artificial Intelligence Transform Human Experience**
+  - ID: `yixIc1Ai6jM`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #10: Benefits of Nature & “Grounding," Hearing Loss Research & Avoiding Alti**
+  - ID: `eJU6Df_ffAE`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Life, Death & the Neuroscience of Your Unique Experience | Dr. David Linden**
+  - ID: `29n0WG317tM`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Improving Sexual & Urological Health in Males and Females | Dr. Rena Malik**
+  - ID: `F54qXuTpgfM`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ketamine: Benefits and Risks for Depression, PTSD & Neuroplasticity | Huberman L**
+  - ID: `Rxmv7rT9leo`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Harnessing Passion, Drive & Persistence for Lifelong Success | Tony Hawk**
+  - ID: `VOfwbcveP84`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #9: Kratom Risks, Does Infrared Sauna Work & Journaling Benefits**
+  - ID: `HoH93judXmE`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Shape Your Identity & Goals | Dr. Maya Shankar**
+  - ID: `X8Hw8zeCDTA`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Enhance Performance & Learning by Applying a Growth Mindset**
+  - ID: `aQDOU3hPci0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Your Brain’s Reward Circuits Drive Your Choices | Dr. Robert Malenka**
+  - ID: `RI112zW8GDw`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Science-Supported Tools to Accelerate Your Fitness Goals**
+  - ID: `LYYyQcAJZfk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Improve Your Eye Health & Offset Vision Loss | Dr. Jeffrey Goldberg**
+  - ID: `_ltcLEM-5HU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #8: Balancing Caffeine, Decision Fatigue & Social Isolation**
+  - ID: `FE0lTEUa7EY`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Learn Better & Create Your Best Future | Tim Ferriss**
+  - ID: `doupx8SAs5Y`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of MDMA & Its Therapeutic Uses: Benefits & Risks | Huberman Lab Podc**
+  - ID: `slUCmZJDXrk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Emotions & Social Factors Impact Learning | Dr. Mary Helen Immordino-Yang**
+  - ID: `S8jWFcDGz4Y`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AMA #7: Cold Exposure, Maximizing REM Sleep & My Next Scientific Studies**
+  - ID: `dicP_kA-RA0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Adderall, Stimulants & Modafinil for ADHD: Short- & Long-Term Effects | Huberman**
+  - ID: `sxgCC4H1dl8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Psychedelics for Mental Health | Dr. Robin Carhart-Harris**
+  - ID: `fcxjwA4C4Cw`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Use Cold & Heat Exposure to Improve Your Health | Dr. Susanna Søberg**
+  - ID: `x3MgDtZovks`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Psilocybin Can Rewire Our Brain, Its Therapeutic Benefits & Its Risks | Hube**
+  - ID: `eIxVfln02Ss`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Smells Influence Our Hormones, Health & Behavior | Dr. Noam Sobel**
+  - ID: `cS7cNaBrkxo`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Science-Based Mental Training & Visualization for Improved Learning | Huberman L**
+  - ID: `0RYyQRQFgFk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Neuralink & Technologies to Enhance Human Brains | Dr. Matthew MacDougall**
+  - ID: `3ZGItIAUQmI`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Healthy Hair, Hair Loss and How to Regrow Hair | Huberman Lab Pod**
+  - ID: `6ZrlsVx85ek`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Control Stress for Healthy Eating, Metabolism & Aging | Dr. Elissa Epel**
+  - ID: `ulHrUVV3Kq4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Leverage Dopamine to Overcome Procrastination & Optimize Effort | Huberman Lab P**
+  - ID: `K-TW2Chpz4k`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Improve Vitality, Emotional & Physical Health & Lifespan | Dr. Peter Attia**
+  - ID: `ufsIA5NARIo`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Intermittent Fasting to Improve Health, Cognition & Longevity | Dr. Satchin Pand**
+  - ID: `7R3-3HR6-u4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Optimize Your Water Quality & Intake for Health**
+  - ID: `at37Y8rKDlA`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Genes & the Inheritance of Memories Across Generations | Dr. Oded Rechavi**
+  - ID: `CDUetQMKM6g`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Andy Galpin: Optimal Nutrition & Supplementation for Fitness | Huberman Lab **
+  - ID: `q37ARYnRDGc`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Breathe Correctly for Optimal Health, Mood, Learning & Performance | Hube**
+  - ID: `x4m_PdFbu-s`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Andy Galpin: Maximize Recovery to Achieve Fitness & Performance Goals | Hube**
+  - ID: `juD99_sPWGU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Use Sleep to Enhance Learning, Memory & Emotional State | Dr. Gina Poe**
+  - ID: `BMTt8gSl13s`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Andy Galpin: Optimize Your Training Program for Fitness & Longevity | Huberm**
+  - ID: `UIy-WQCZd4M`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Stop Headaches Using Science-Based Approaches | Huberman Lab Podcast**
+  - ID: `CGjdgy0cwGk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Andy Galpin: How to Build Physical Endurance & Lose Fat | Huberman Lab Guest**
+  - ID: `oNkDA2F7CjM`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Optimize Female Hormone Health for Vitality & Longevity | Dr. Sara Gottfr**
+  - ID: `GVRDGQhoEYQ`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Andy Galpin: Optimal Protocols to Build Strength & Grow Muscles | Huberman L**
+  - ID: `CyDLbrZK75U`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Optimize Fertility in Males & Females**
+  - ID: `O1YRwWmue4Y`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Andy Galpin: How to Assess & Improve All Aspects of Your Fitness | Huberman **
+  - ID: `zEYE-vcVKy8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Access Your Creativity | Rick Rubin**
+  - ID: `ycOBZZeVeAc`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Developing a Rational Approach to Supplementation for Health & Performance | Hub**
+  - ID: `tLS6t3FVOTI`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Meditation to Focus, View Consciousness & Expand Your Mind | Dr. Sam Harri**
+  - ID: `-wIt_WsJGfw`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Become Resilient, Forge Your Identity & Lead Others | Jocko Willink**
+  - ID: `__RAXBLt1iM`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Creativity & How to Enhance Creative Innovation | Huberman Lab Po**
+  - ID: `KPlJcD-o-4Q`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tools for Hormone Optimization in Males | Dr. Kyle Gillett**
+  - ID: `O640yAgq5f8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Caffeine to Optimize Mental & Physical Performance | Huberman Lab Podcast **
+  - ID: `iw97uvIge7c`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Navigating Conflict, Finding Purpose & Maintaining Drive | Dr Lex Fridman**
+  - ID: `6I5I56uVvLw`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Diet & Nutrition for Mental Health | Dr. Chris Palmer**
+  - ID: `xjEFo3a1AnI`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Science-Based Tools for Increasing Happiness | Huberman Lab Podcast #98**
+  - ID: `LTGGyQS1fZE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Eating for Health, Fat Loss & Lean Muscle | Dr. Layne Norton**
+  - ID: `K4Ze-Sp6aUE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Meditation Works & Science-Based Effective Meditations | Huberman Lab Podcas**
+  - ID: `wTBSGgbIvsY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Learning & Speaking Languages | Dr. Eddie Chang**
+  - ID: `Z7MU6zrAXsM`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Fitness Toolkit: Protocol & Tools to Optimize Physical Health | Huberman Lab Pod**
+  - ID: `q1Ss8sTbFBY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams**
+  - ID: `X4QE6t-MkYE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Effects of Cannabis (Marijuana) on the Brain & Body | Huberman Lab Podcast #**
+  - ID: `gXvuJu1kt48`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Biology & Treatments for Compulsive Eating & Behaviors | Dr. Casey Halpern**
+  - ID: `Nr5xb-QCBGA`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Nicotine’s Effects on the Brain & Body & How to Quit Smoking or Vaping | Huberma**
+  - ID: `uXs-zPc63kM`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Biology of Aggression, Mating, & Arousal | Dr. David Anderson**
+  - ID: `uxZFl4BDOGk`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Focus Toolkit: Tools to Improve Your Focus & Concentration | Huberman Lab Podcas**
+  - ID: `yb5zpo5WDG4`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Neuroscience of Speech, Language & Music | Dr. Erich Jarvis**
+  - ID: `LVxL_p_kToc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Alcohol Does to Your Body, Brain & Health**
+  - ID: `DkS1pkKpILY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Exercise, Nutrition, Hormones for Vitality & Longevity | Dr. Peter Attia**
+  - ID: `DTCmprPCDqc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Sleep Toolkit: Tools for Optimizing Sleep & Sleep-Wake Timing | Huberman Lab Pod**
+  - ID: `h2aWYjSA1Jc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tools for Setting & Achieving Goals | Dr. Emily Balcetis**
+  - ID: `7YGZZcXqKxE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science & Treatment of Bipolar Disorder | Huberman Lab Podcast #82**
+  - ID: `m_OazsImOiI`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Biology of Taste Perception & Sugar Craving | Dr. Charles Zuker**
+  - ID: `UChhXiFPRgg`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Optimize & Control Your Brain Chemistry to Improve Health & Performance | Huberm**
+  - ID: `T65RDBiB5Hs`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Optimize Your Exercise Program with Science-Based Tools | Jeff Cavaliere**
+  - ID: `UNCwdFxPtE8`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science & Treatment of Obsessive Compulsive Disorder (OCD) | Huberman Lab Po**
+  - ID: `OadokY8fcAA`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science & Practice of Movement | Ido Portal**
+  - ID: `a9yFKPmPZ90`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Improve Flexibility with Research-Supported Stretching Protocols**
+  - ID: `tkH2-_jMCSk`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Therapy, Treating Trauma & Other Life Challenges | Dr. Paul Conti**
+  - ID: `IOl28gj_RXw`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science & Process of Healing From Grief**
+  - ID: `dzOvi0Aa2EA`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Boost Attention & Memory with Science-Based Tools | Dr. Wendy Suzuki**
+  - ID: `099hgtRoUZw`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Understand & Improve Memory Using Science-Based Tools | Huberman Lab Podcast #72**
+  - ID: `szqPAPKE5tQ`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Understanding & Controlling Aggression | Huberman Lab Podcast #71**
+  - ID: `RBK5KLA5Jjg`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Micronutrients for Health & Longevity | Dr. Rhonda Patrick**
+  - ID: `XcvhERcZpWw`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science & Health Benefits of Deliberate Heat Exposure | Huberman Lab Podcast**
+  - ID: `EQ3GjpGq5Y8`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Light (Sunlight, Blue Light & Red Light) to Optimize Health | Huberman Lab**
+  - ID: `UF0nqolsNZc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett**
+  - ID: `ncSoor2Iw8k`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Deliberate Cold Exposure for Health and Performance | Huberman Lab Podcast**
+  - ID: `pq6WHJzOkno`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Andy Galpin: How to Build Strength, Muscle Size & Endurance**
+  - ID: `IAnhFUUCq6c`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Controlling Sugar Cravings & Metabolism with Science-Based Tools | Huberman Lab **
+  - ID: `VAEzZeaV5zM`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Salt to Optimize Mental & Physical Performance | Huberman Lab Podcast #63**
+  - ID: `azb3Ih68awQ`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Build, Maintain & Repair Gut Health | Dr. Justin Sonnenburg**
+  - ID: `ouCWNRvPk20`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Enhance Your Gut Microbiome for Brain & Overall Health**
+  - ID: `15R2pMqU2ok`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Hypnosis to Enhance Health & Performance | Dr. David Spiegel**
+  - ID: `PctD-ki8dCc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Love, Desire and Attachment**
+  - ID: `gMRph_BvHB4`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Play to Rewire & Improve Your Brain**
+  - ID: `BwyZIWeBpRw`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Optimizing Workspace for Productivity, Focus, & Creativity**
+  - ID: `Ze2pc6NwsHQ`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Science of Mindsets for Health & Performance | Dr. Alia Crum**
+  - ID: `dFR_wFN23ZY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Setting & Achieving Goals**
+  - ID: `t1F7EEGPQwo`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Breathing for Mental & Physical Health & Performance | Dr. Jack Feldman**
+  - ID: `GLgKkG44MGo`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Making & Breaking Habits**
+  - ID: `Wcs2PFz5q6g`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Biology of Slowing & Reversing Aging | Dr. David Sinclair**
+  - ID: `n9IxomBusuw`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Science of Social Bonding in Family, Friendship & Romantic Love**
+  - ID: `RgAcOqVRfYA`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Your Brain's Logic & Function | Dr. David Berson**
+  - ID: `oC3fhUjg30E`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Erasing Fears & Traumas Based on the Modern Neuroscience of Fear**
+  - ID: `31wjVhCcI5Y`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Humans Select & Keep Romantic Partners in Short & Long Term | Dr. David Buss**
+  - ID: `HXzTbCEqCJc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Gratitude & How to Build a Gratitude Practice**
+  - ID: `KVjfFN89qvQ`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Time Perception & Entrainment by Dopamine, Serotonin & Hormones**
+  - ID: `8IWDAqodDas`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Exercise for Strength Gains & Hormone Optimization | Dr. Duncan French**
+  - ID: `iMvtHqLmEkI`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Your Nervous System to Enhance Your Immune System**
+  - ID: `poOf8b2WE2g`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Timing Light, Food, & Exercise for Better Sleep, Energy & Mood | Dr. Samer Hatta**
+  - ID: `oUu3f0ETMJQ`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Nutrients For Brain Health & Performance | Huberman Lab Podcast #42**
+  - ID: `E7W4OQfJWdw`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Effects of Fasting & Time Restricted Eating on Fat Loss & Health | Huberman Lab **
+  - ID: `9tRohh0gErM`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Temperature for Performance, Brain & Body Health | Dr. Craig Heller**
+  - ID: `77CdVSpnUX4`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Controlling Your Dopamine For Motivation, Focus & Satisfaction**
+  - ID: `QmOF0crdyRU`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Psychedelics for Treating Mental Disorders | Dr. Matthew Johnson**
+  - ID: `GzvzWO0NU50`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **ADHD & How Anyone Can Improve Their Focus**
+  - ID: `hFL6qRIJZ_Y`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Healthy Eating & Eating Disorders - Anorexia, Bulimia, Binging**
+  - ID: `2XGREPnlI8U`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Science of Stress, Testosterone & Free Will | Dr. Robert Sapolsky**
+  - ID: `DtmwtjOoSYU`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Understanding & Conquering Depression**
+  - ID: `Xu1FMCxoEFc`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Understanding & Treating Addiction | Dr. Anna Lembke**
+  - ID: `p3JLaF_4Tz8`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Control Your Sense of Pain & Pleasure**
+  - ID: `xmhsWAqP_0Y`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science & Practice of Perfecting Your Sleep | Dr. Matt Walker**
+  - ID: `gbQFSMayJxk`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Optimize Your Brain-Body Function & Health**
+  - ID: `rW9QKc-iFoY`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Machines, Creativity & Love | Dr. Lex Fridman**
+  - ID: `VRvn3Oj5r3E`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Maximizing Productivity, Physical & Mental Health with Daily Tools**
+  - ID: `aXvDEmo6uS4`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Hearing, Balance & Accelerated Learning**
+  - ID: `JVRyzYB9JSY`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Understanding & Healing the Mind | Dr. Karl Deisseroth**
+  - ID: `w9MXqXBZy9U`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Smell, Taste & Pheromone-Like Chemicals Control You**
+  - ID: `Mwz8JprPeMc`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Vision, Eye Health & Seeing Better**
+  - ID: `ObtW353d5i0`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Build Endurance in Your Brain & Body**
+  - ID: `VQLU7gpk_X8`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Science of Muscle Growth, Increasing Strength & Muscular Recovery**
+  - ID: `XLr2RKoD-oY`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Lose Fat with Science-Based Tools**
+  - ID: `GqPGXG5TlZw`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Learn Skills Faster**
+  - ID: `xJ0IBzCjEPk`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Supercharge Exercise Performance & Recovery with Cooling**
+  - ID: `xaE9XyMMAHY`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Cortisol & Adrenaline to Boost Our Energy & Immune System Function**
+  - ID: `JPX8g8ibKFc`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Control Your Metabolism by Thyroid & Growth Hormone**
+  - ID: `x7qbJeRxWGw`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Our Hormones Control Our Hunger, Eating & Satiety**
+  - ID: `17O5mgXZ9ZU`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of How to Optimize Testosterone & Estrogen**
+  - ID: `qJXKhu5UZwk`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Hormones Shape Sexual Development**
+  - ID: `J7SrAEacyf8`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Science of Emotions & Relationships**
+  - ID: `hcuMLQVAgEg`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Increase Motivation & Drive**
+  - ID: `vA50EK70whE`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Foods and Nutrients Control Our Moods**
+  - ID: `XfURDjegrAw`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tools for Managing Stress & Anxiety**
+  - ID: `ntfcfJ28eiU`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Control Pain & Heal Faster with Your Brain**
+  - ID: `mcPSRWUYCv0`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Optimize Your Learning & Creativity With Science-Based Tools**
+  - ID: `uuP-1ioh4LY`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Learn Faster Using Failures, Movement & Balance**
+  - ID: `hx3U64IXFOY`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Focus to Change Your Brain**
+  - ID: `LG53Vxum0as`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Understand and Use Dreams to Learn and Forget**
+  - ID: `FFwA0QFmpQ4`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Defeat Jet Lag, Shift Work & Sleeplessness**
+  - ID: `NAATB55oxeQ`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Using Science to Optimize Sleep, Learning & Metabolism**
+  - ID: `nwSkFq4tyC0`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Master Your Sleep & Be More Alert When Awake**
+  - ID: `nm1TxQj9IsQ`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Your Brain Works & Changes**
+  - ID: `H-XfCl-HpRM`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Welcome to the Huberman Lab Podcast**
+  - ID: `4b6bwcWK6GE`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `t_2mXGlDkqM`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## Joe Rogan
+
+**Total Episodes:** 2424
+
+**Status Summary:**
+- discovered: 2424
+
+**Episodes:**
+
+- 🔍 **Joe Rogan Experience #2417 - Ben van Kerkwyk**
+  - ID: `dzdblMCp5a4`
+  - Published: 2025-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2416 - Dan Farah**
+  - ID: `NSFaaq3vhfY`
+  - Published: 2025-11-22
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2415 - Adam Ray**
+  - ID: `Z-MIlZvjpus`
+  - Published: 2025-11-21
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2414 - Brian Simpson**
+  - ID: `FM463bp-UdM`
+  - Published: 2025-11-20
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2413 - Theo Von**
+  - ID: `OOUc_0-oKRE`
+  - Published: 2025-11-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2412 - Adam Carolla**
+  - ID: `mzSapYmzA_g`
+  - Published: 2025-11-15
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2411 - Gavin de Becker**
+  - ID: `u04t4fkBIeM`
+  - Published: 2025-11-14
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2410 - Jeff Dye**
+  - ID: `AXez6WQzvEU`
+  - Published: 2025-11-13
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2409 - Brian Redban**
+  - ID: `_5tIELL-2XQ`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2408 - Bret Weinstein**
+  - ID: `gXbsq5nVmT0`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2407 - Billy Bob Thornton**
+  - ID: `0loSsJ1mHVE`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2406 - Russell Crowe**
+  - ID: `P4G2KGEkSyI`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2405 - Luis J Gomez & Big Jay Oakerson**
+  - ID: `J1WyFLHPqro`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2404 - Elon Musk**
+  - ID: `O4wBUysNe2k`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2403 - Andrew Gallimore**
+  - ID: `IErO3RuGTXE`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2402 - Miranda Lambert**
+  - ID: `oTwB8R6qmm8`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2401 - Avi Loeb**
+  - ID: `EaAun27gftk`
+  - Published: 2025-10-29
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2400 - Katee Sackhoff**
+  - ID: `TZu7jymfHrU`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2399 - Daryl Davis & Jeff Schoep**
+  - ID: `HwpYMYnAsz4`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2398 - Francis Foster & Konstantin Kisin**
+  - ID: `0sdLHGb5Wzs`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2397 - Richard Lindzen & William Happer**
+  - ID: `Zt32chvO_iY`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2396 - Andrew Schulz**
+  - ID: `ko5htRmVIrU`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2395 - Mariana van Zeller**
+  - ID: `5P4Mu4X_zk4`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2394 - Palmer Luckey**
+  - ID: `-9LFj6YOK2U`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2393 - Bryan Callen**
+  - ID: `TvuQr0g5oXI`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2392 - John Kiriakou**
+  - ID: `TZqADzuu73g`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2391 - Duncan Trussell**
+  - ID: `idMttGtm76M`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2390 - Jack Carr**
+  - ID: `mpVrOM66khc`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2389 - Sal Vulcano**
+  - ID: `J4gQ7k6meHs`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #170 with Michael "Venom" Page**
+  - ID: `5Er_88yJov4`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2388 - Lionel Richie**
+  - ID: `MiDNZJgnRRQ`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2387 - Gregg Braden**
+  - ID: `J3Wqw8Az7TA`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2386 - The Red Clay Strays**
+  - ID: `ImyXm4Oag5M`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2385 - Rick Strassman**
+  - ID: `qxj8M4ewjS0`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2384 - Mark Kerr**
+  - ID: `A0htXxbbq84`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2383 - Ian Edwards**
+  - ID: `tFWuq28dkYs`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2382 - Andrew Santino**
+  - ID: `6djZKYdz5ig`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2381 - Taylor Kitsch**
+  - ID: `nwvOXG9ViRM`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2380 - Jordan Jensen**
+  - ID: `laLx9PryjFE`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2379 - Matthew McConaughey**
+  - ID: `GqsA7DYn5BA`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2378 - Charlie Sheen**
+  - ID: `sRj5pxG2JPk`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2377 - Carrot Top**
+  - ID: `q8mveWHwC4E`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2376 - Brigham Buhler**
+  - ID: `By17xYkP6jg`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE Fight Companion - September 6, 2025**
+  - ID: `2yRz_hRFVoU`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2375 - Tim Dillon**
+  - ID: `uB8BcRimf78`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2374 - Ben van Kerkwyk**
+  - ID: `KOVGNkSk5CQ`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2373 - Dave Landau**
+  - ID: `2k8xnF1tg-g`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2372 - Garry Nolan**
+  - ID: `B7y3qcgSRY8`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2371 - Fedor Gorst**
+  - ID: `gT5oTp-3VuI`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2370 - Dave Smith**
+  - ID: `U-4tp0XJ1O8`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2369 - Ed Calderon**
+  - ID: `j7Bxv_auSSk`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2368 - Michael Button**
+  - ID: `wiaA9s-OBoQ`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2367 - Jesse Welles**
+  - ID: `VB5V6ciwu2s`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2366 - Sam Tripoli**
+  - ID: `Rx8BcDThVeQ`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #169 - Protect Ya Neck**
+  - ID: `kExttMUph4U`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2365 - Rep. Anna Paulina Luna**
+  - ID: `v-yPOBaYDOo`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2364 - Brandon Epstein**
+  - ID: `m9qJki__i1k`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2363 - David Kipping**
+  - ID: `VJNaciADLVs`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2362 - Ralph Barbosa**
+  - ID: `jvksIC1Nolo`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2361 - Graham Linehan**
+  - ID: `03V2ZnXyEDA`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2360 - Caroline Fraser**
+  - ID: `X-MwP-HotfE`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2359 - Mike Maxwell**
+  - ID: `ajMlhHjt3gk`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2358 - Chadd Wright**
+  - ID: `xpM-pGPb8kc`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2357 - Sarko Gergerian**
+  - ID: `Eq4y2vh8TD8`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2356 - Mike Vecchione**
+  - ID: `HRo96sQIFJs`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2355 - Mike Baker**
+  - ID: `idNM_AiGb40`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #168 with Khalil Rountree Jr.**
+  - ID: `rAVzLFL5sPs`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2354 - Joe DeRosa**
+  - ID: `TmfWdsmos2Y`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2353 - Shaka Senghor**
+  - ID: `2x9r4E5_5EQ`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2352 - James Talarico**
+  - ID: `_jOGPvMftb8`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2351 - James McCann**
+  - ID: `CZw9BnPBwWo`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2350 - Ryan Callaghan**
+  - ID: `D7HlnKdkz7M`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2349 - Danny Jones**
+  - ID: `89IEFOiW-Z0`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2348 - Lukas Nelson**
+  - ID: `LiZC7ztBC-U`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2347 - Paul Stamets**
+  - ID: `hwRD0NvAnbs`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2346 - Jim Lampley**
+  - ID: `nCEijFwQFOw`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2345 - Roman Yampolskiy**
+  - ID: `j2i9D24KQ5k`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2344 - Amjad Masad**
+  - ID: `WfmrEa0L08E`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2343 - Joe Pistone**
+  - ID: `ljqm4jVfcG4`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #167 with Cory Sandhagen**
+  - ID: `DKUCkIkB4Zw`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2342 - Jim Norton**
+  - ID: `nZrt8odCj5s`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2341 - Bernie Sanders**
+  - ID: `mYVzme2fybU`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2340 - Charley Crockett**
+  - ID: `9nK4g6vgRDg`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2339 - Luis J. Gomez & Big Jay Oakerson**
+  - ID: `EWEqyjFdQo8`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2338 - Beth Shapiro**
+  - ID: `PsMH1-Bbqr0`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2337 - Oliver Anthony**
+  - ID: `dmR9wnz1-yg`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2336 - Ken Burns**
+  - ID: `FmlhA3dpxnc`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2335 - Dr. Mary Talley Bowden**
+  - ID: `Ru7BIqXQZns`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2334 - Kash Patel**
+  - ID: `C81bFx8CSA8`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2333 - Protect Our Parks 15**
+  - ID: `EDBFFgs6Ifs`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2332 - Oz Pearlman**
+  - ID: `mYvGKBCM3Ps`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2331 - Jesse Michels**
+  - ID: `r9Ldl70x5Fg`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2330 - Bono**
+  - ID: `qe64ayAbDjM`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2329 - Ehsan Ahmad**
+  - ID: `RNJ82qpiZME`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2328 - Luke Caverns**
+  - ID: `m28yl1TZee4`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2327 - AJ Gentile**
+  - ID: `BVOkGp5w14I`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2326 - Jimmy Carr**
+  - ID: `r63cwSWbFME`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2325 - Aaron Rodgers**
+  - ID: `Xj_dO-7Ct_4`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2324 - Amanda Knox**
+  - ID: `uDG6A7B7jRg`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2323 - Guy Fieri**
+  - ID: `NzBNVGNY_FA`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2322 - Rebecca Lemov**
+  - ID: `qDkHCaNAo_w`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2321 - Dr. Zahi Hawass**
+  - ID: `i4dbLZTJjZY`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2320 - Tom Segura**
+  - ID: `DKAKkM5R6eU`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2319 - Rick Doblin**
+  - ID: `llgBlytRttc`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2318 - Harold "Sonny" White**
+  - ID: `i9mLICnWEpU`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2317 - Cody Tucker**
+  - ID: `3oZSxMidp7E`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2316 - Cameron Hanes**
+  - ID: `kF7M_lltatw`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2315 - José Andrés**
+  - ID: `PkHhBi2R3lU`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2314 - Hal Puthoff**
+  - ID: `Gf_tKn9TaP8`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2313 - Jillian Michaels**
+  - ID: `JVP2dwURrD0`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2312 - Jeremy Renner**
+  - ID: `7Ei_oa-vaJA`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2311 - Jeremie & Edouard Harris**
+  - ID: `Wwp1BFEw3cA`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2310 - Robert Rodriguez**
+  - ID: `KxGtxPV1xoc`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2309 - Joey Diaz**
+  - ID: `XLi_Vr8hm9s`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2308 - Jordan Peterson**
+  - ID: `QBEZhjnZTks`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2307 - Tim Dillon**
+  - ID: `K1ry_B1XNUk`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2306 - Deric Poston**
+  - ID: `lqL-OQukxlY`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #166 with Ilia Topuria**
+  - ID: `5RmF0ryPA-k`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2305 - Rich Vos**
+  - ID: `Fz1S-GyYB0U`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2304 - Gary Brecka**
+  - ID: `nhC8lLPpGl4`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2303 - Dave Smith & Douglas Murray**
+  - ID: `Ah6kirkSwTg`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2302 - Ron White**
+  - ID: `nNxzn-vRodY`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2301 - Ben Lamm**
+  - ID: `NRVEkc9lxH0`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2300 - Kyle Dunnigan**
+  - ID: `-9shy1j8wjM`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2299 - Dave Smith**
+  - ID: `EmNE6yNxruc`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2298 - Kurt Metzger**
+  - ID: `bJbKgC_bMpI`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2297 - Francis Foster & Konstantin Kisin**
+  - ID: `bMsJHjtS5Do`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2296 - Big Jay Oakerson**
+  - ID: `TFLLmFpomLM`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2295 - Scott Payne**
+  - ID: `ZQHIDX1lC3k`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2294 - Dr. Suzanne Humphries**
+  - ID: `207W1A_bJqI`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE Fight Companion - March 22, 2025**
+  - ID: `Xr-DqSmJEXI`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2293 - Chris Williamson**
+  - ID: `MjhXtJB_ZbU`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2292 - Josh Waitzkin**
+  - ID: `xsqbdBiidWE`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2291 - Bert Kreischer**
+  - ID: `FjaGb87pjMc`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2290 - Michael Kosta**
+  - ID: `d4m1MOSI5n8`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2289 - Darryl Cooper**
+  - ID: `DE9oFxGoMvE`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2288 - Jacques Vallée**
+  - ID: `vZEcVY2iZsk`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2287 - Josh Dubin & J.D. Tomlinson**
+  - ID: `Mx8813RLUtc`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2286 - Antonio Brown**
+  - ID: `NZBjSE6HQ0I`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2285 - Andrew Schulz**
+  - ID: `ihfM3qgWz6I`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2284 - Ian Carroll**
+  - ID: `jJeRWPioGbQ`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2283 - Billy Corgan**
+  - ID: `OFt_pIzTrHU`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2282 - Bill Murray**
+  - ID: `f_fM6v64-NQ`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2281 - Elon Musk**
+  - ID: `sSOxPJD-VNo`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2280 - Peter Berg**
+  - ID: `XMmkaD9OqYE`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2278 - Chase Hughes**
+  - ID: `_R2JwJ0A1QE`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2277 - Woody Harrelson**
+  - ID: `ztXzOIH7x10`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2276 - Felipe Esparza**
+  - ID: `bYFJN50o9LM`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2275 - Magnus Carlsen**
+  - ID: `ybuJ_nIXwGE`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2274 - Mike Baker**
+  - ID: `hRH02-Z8F34`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2273 - Adam Curry**
+  - ID: `IYGG84s1a28`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2272 - Mike Benz**
+  - ID: `XPPc8OVNngg`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2271 - John Reeves**
+  - ID: `JTd43tFzuG4`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2270 - Bridget Phetasy**
+  - ID: `HigVe4IqsBM`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2269 - Bret Weinstein**
+  - ID: `7ted-qUqqU4`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2268 - Rick Caruso**
+  - ID: `-44tAVI7OEg`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2267 - Dan Richards**
+  - ID: `Ol7PofIyZPI`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2266 - Brian Simpson**
+  - ID: `ZBCf4SogPpI`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2265 - Kurt Metzger**
+  - ID: `CSPkPOFzQvE`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2264 - Lenval Logan & Jason Sands**
+  - ID: `PJ2YwE0R-xM`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2263 - Gad Saad**
+  - ID: `vhJ_6YyOU2A`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #165 with Jiri Prochazka**
+  - ID: `lpfgsPUMCaM`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2262 - Dr. Mark Gordon**
+  - ID: `WZDckDvN4sA`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2261 - Warren Smith**
+  - ID: `m7Hrq8WL1-g`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2260 - Lex Fridman**
+  - ID: `I94u4_Wb82E`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2259 - Thomas Campbell**
+  - ID: `tQR6SFK7lFc`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2258 - Steven Rinella**
+  - ID: `Nc5oIzZpyLs`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2257 - Bryan Callen**
+  - ID: `qOSGaYEAJMw`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2255 - Mark Zuckerberg**
+  - ID: `7k1ehaE0bdU`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2254 - Mel Gibson**
+  - ID: `1rYtrS5IbrQ`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2253 - Theo Von**
+  - ID: `8G4jB0MMl1U`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2252 - Wesley Huff**
+  - ID: `HwyAX69xG1Q`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2251 - Rick Perry & W. Bryan Hubbard**
+  - ID: `pcCKDDa3MzY`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2250 - Raekwon**
+  - ID: `HXg71gE_cZU`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2249 - Yannis Pappas & Chris Distefano**
+  - ID: `DbyBSPGsURE`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2248 - Michael Waddell**
+  - ID: `Y3o2PppiJIo`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2247 - Duncan Trussell**
+  - ID: `ONV76ZfcPao`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2246 - James Fox**
+  - ID: `3yrKVu35uSE`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2245 - Rod Blagojevich**
+  - ID: `k3q7IpptOUo`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2244 - Ryan Graves**
+  - ID: `P4t8UgcjKfM`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2242 - Bert Sorin**
+  - ID: `8a0_KkmRSe0`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2241 - Rick Strassman**
+  - ID: `_UmIlHby5h8`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2240 - Roger Avary & Quentin Tarantino**
+  - ID: `0u5vPHuAXXg`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2239 - Derek, More Plates More Dates**
+  - ID: `E0mudvCm-bo`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2238 - John McPhee**
+  - ID: `8E1hrK77GLI`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2237 - Mike Benz**
+  - ID: `rrJhQpvlkLA`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2235 - Mike Rowe**
+  - ID: `dpx_2eUyvqc`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2234 - Marc Andreessen**
+  - ID: `ye8MOfxD5nU`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2233 - Scott Storch**
+  - ID: `bvKNjXawwSc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2232 - Josh Brolin**
+  - ID: `FzPlfjTtxlc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2231 - Jimmy Corsetti & Dan Richards**
+  - ID: `SbW6FTU69bw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2230 - Evan Hafer**
+  - ID: `hCepzIrkbDE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2229 - Jeff Dye**
+  - ID: `nN7Xnj9uR1M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2228 - Josh Dubin**
+  - ID: `mZkHwI7cX4Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2227 - Adrienne Iapalucci**
+  - ID: `D_kUi6BsGe4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2226 - Theo Von**
+  - ID: `IfSjQyFd7aU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2225 - Dave Smith**
+  - ID: `Lr5FEZUCJG8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2224 - Tim Dillon**
+  - ID: `LXaYH-owS50`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2223 - Elon Musk**
+  - ID: `7qZl_5xHoBw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2222 - John Fetterman**
+  - ID: `_y-59phRHRM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2221 - JD Vance**
+  - ID: `fRyyTAs1XY8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2220 - Francis Foster & Konstantin Kisin**
+  - ID: `t5_EdPRLHuE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2219 - Donald Trump**
+  - ID: `hBMoPUAeLnY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2218 - Sam Tripoli**
+  - ID: `q1Eso459GZM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2217 - Brian Cox**
+  - ID: `Rc7OHXJtWco`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2216 - Luke Bryan**
+  - ID: `wdBH9pYnRUY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2215 - Graham Hancock**
+  - ID: `qSLs1-KwasM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2214 - Shane Smith**
+  - ID: `hCq5lKpkUaI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2213 - Diane K. Boyd**
+  - ID: `-FYv4yjOi2Q`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2212 - Jelly Roll**
+  - ID: `ws2ZsG3NNQc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2211 - Michael Shellenberger**
+  - ID: `dK3HK5Yy1AI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2210 -  Calley Means & Casey Means, MD**
+  - ID: `G0lTyhvOeJs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #164 with Israel Adesanya**
+  - ID: `LMYRySmH5vc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2209 - Paul Rosolie**
+  - ID: `oXMQQbmrBvM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2208 - Brigham Buhler**
+  - ID: `af26fn9_rw8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2207 - Shawn Ryan**
+  - ID: `gcgC532OPhw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2206 - Chamath Palihapitiya**
+  - ID: `we-mZ-KTe-8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2205 - Legion of Skanks**
+  - ID: `1b4bQdJ1Vv8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2204 - Matt Walsh**
+  - ID: `v2B28O6YjI0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2203 - Eric Goode & Jeremy McBride**
+  - ID: `3LhRFF02vSA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2202 - Tom Segura**
+  - ID: `9IitdaHy6Q8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #163 - Protect Ya Neck**
+  - ID: `AMDdsINNITk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2201 - Robert Epstein**
+  - ID: `Azu8XnZdxeA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2200 - Kat Timpf**
+  - ID: `yKLoqc2qHeA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2199 - Chris Harris**
+  - ID: `5Kx0S2Y6hJI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2198 - Bret Weinstein**
+  - ID: `iOQdjgdRcfA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #162 with Belal Muhammad**
+  - ID: `c9MTmo-SLZI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2197 - Mike Baker**
+  - ID: `eZYmWRnNLyw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2196 - Greg Fitzsimmons**
+  - ID: `ibMmr4i46as`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2195 - Andrew Huberman**
+  - ID: `spq8UKib3Zw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2194 - Luis Elizondo**
+  - ID: `9gLPtRwXgCM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2193 - Jack Symes**
+  - ID: `aV6VucHGrcI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2192 - Raanan Hershberg**
+  - ID: `6Unt5z8hJr4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2191 - Russell Crowe**
+  - ID: `embQ1r9udaI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2190 - Peter Thiel**
+  - ID: `klRb0_BAX9g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2189 - Dennis Quaid**
+  - ID: `LItpn8ilHRg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2188 - Adam Ray**
+  - ID: `Agb3Y2EYQkY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2187 - Adam Sandler**
+  - ID: `4T_0Tcts6aM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2186 - Ari Matti**
+  - ID: `VU2oPssIuAM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2185 - Bob Gymlan**
+  - ID: `MtoPEub7XwA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2184 - Sara Imari Walker**
+  - ID: `6o8OFTrSTpk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2183 - Norman Ohler**
+  - ID: `yUsJIcqwARk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #161 with Khalil Rountree Jr.**
+  - ID: `T1EbT055Iv8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2182 - Michael Malice**
+  - ID: `h3fA-zGu-EU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2181 - Alan Graham**
+  - ID: `aHyNE_13V9w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2180 - Jordan Peterson**
+  - ID: `r_3yOQl9E4I`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2179 - Bridget Phetasy**
+  - ID: `eUP-wcXFF8Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #160 with Francis Ngannou**
+  - ID: `LJ0eCBdqwvY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2178 - Sam Morril**
+  - ID: `my3ylLkGJmU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2177 - Chris Robinson**
+  - ID: `EeRHbaj194I`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2176 - Chad Daniels**
+  - ID: `UbsUw05I5_Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2175 - Sam Tallent**
+  - ID: `6m2EOZQtb50`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2174 - Annie Jacobsen**
+  - ID: `EqCpT3bLgBM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #159 with Quinton "Rampage" Jackson**
+  - ID: `qcQG3PeMIaI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2173 - Jimmy Dore**
+  - ID: `VGSyGrWWbhA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2172 - Sebastian Junger**
+  - ID: `LmRrJUHvk-M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2171 - Eric Weinstein & Terrence Howard**
+  - ID: `nrOaFxNex7U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2170 - Max Lugavere**
+  - ID: `_tnCsKVltdE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2168 - Tyler Fischer**
+  - ID: `SgG0arz96nc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE Fight Companion - June 22, 2024**
+  - ID: `scA5R14ojCg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2167 - Noland Arbaugh**
+  - ID: `Bfo2xIeaOAE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2166 - Enhanced Games**
+  - ID: `qRLAiEZLpVg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2165 - Jack Carr**
+  - ID: `HDgn-qAs_DM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2164 - Action Bronson**
+  - ID: `GfeCwj3Bdoc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2163 - Freeway Rick Ross**
+  - ID: `_uYtb_grkAo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2162 - Tim Dillon**
+  - ID: `zJyYFFydVPM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #158 with Tank Abbott**
+  - ID: `mXoSopi55p8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2161 - Tony Hinchcliffe**
+  - ID: `vgL6F4cajas`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2160 - Billy Carson**
+  - ID: `livgMzeO-ZY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2159 - Sal Vulcano**
+  - ID: `I13JHxPaY20`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2158 - Harland Williams**
+  - ID: `pCGCu_v77Do`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2157 - Duncan Trussell**
+  - ID: `01O3uTGtX7w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #157 with Craig Jones**
+  - ID: `FzAxtfdDHnY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2156 - Jeremie & Edouard Harris**
+  - ID: `c6JdeL90ans`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2155 - Brian Redban**
+  - ID: `1L6mboUGXtE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2154 - Remi Warren**
+  - ID: `VlrLibwDTZU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2153 - Dave Smith**
+  - ID: `KBwNaW8j800`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2152 - Terrence Howard**
+  - ID: `g197xdRZsW0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2151 - Rizwan Virk**
+  - ID: `4iCPYVQ9ICQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #156 with Royce Gracie**
+  - ID: `asOlKAk1DN0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2150 - Greg Overton**
+  - ID: `teEZZk7I_sE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2149 - Sebastian Maniscalco**
+  - ID: `PC9svktwGng`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2148 - Gad Saad**
+  - ID: `zzU_UrhmCEs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2147 - Mike Baker**
+  - ID: `AI73AyWaODo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2146 - Deric Poston**
+  - ID: `0r23Hzu6VPw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2145 - Colin Quinn**
+  - ID: `_7WfCtF7Rik`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2144 - Chris Distefano**
+  - ID: `reQgoSdOYBs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2143 - Tulsi Gabbard**
+  - ID: `UQrNRtxvCJc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2142 - Christopher Dunn**
+  - ID: `R6xHjdF4jSU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #155 with Max Holloway**
+  - ID: `srRQQXoPqGg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2141 -  Bart Sibrel**
+  - ID: `P7xu0t9dTbI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2140 - Francis Foster & Konstantin Kisin**
+  - ID: `stuqMni6_x0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2139 - Akaash Singh**
+  - ID: `yGBzg1xVtUM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2138 - Tucker Carlson**
+  - ID: `DfTU5LA_kw8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2137 - Michelle Dowd**
+  - ID: `ELGY6HfkENg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2136 - Graham Hancock & Flint Dibble**
+  - ID: `-DL1_EMIw6w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2135 - Neal Brennan**
+  - ID: `iBRl6XECIbM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2134 - Paul Stamets**
+  - ID: `f8ELCqEq0tg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2133 - Brendan O'Neill**
+  - ID: `bEhU9VgkJq0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2132 - Andrew Schulz**
+  - ID: `B75H_HkJQvE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2131 - Brian Simpson**
+  - ID: `9wpcJHkczBQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #154 with Matt Serra, Din Thomas & John Rallo**
+  - ID: `n4T-AJ1alag`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2130 - Coleman Hughes**
+  - ID: `wNYtG8iZ71E`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2129 - David Holthouse**
+  - ID: `kWo6QNgr-zA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2128 - Joey Diaz**
+  - ID: `NHiaDhgqVbc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2127 - Eleanor Kerrigan**
+  - ID: `jRZeJz2k88w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2126 - Donnell Rawlings**
+  - ID: `mWO40xAksOg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2125 - Kurt Metzger**
+  - ID: `_FPUuL2W2oI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2124 - Dave Attell & Ian Fidance**
+  - ID: `4XYv75Myreo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2123 - Gary Clark Jr.**
+  - ID: `GCsMmwMpAXk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2122 - Protect Our Parks 11**
+  - ID: `cV71YMAwIXY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2121 - Jonathan Haidt**
+  - ID: `jOC-RyoBcbQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2120 - That Mexican OT**
+  - ID: `3dpV18GUn7A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2119 - James Lindsay**
+  - ID: `8IlRNjBQm5Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2118 - The Black Keys**
+  - ID: `r-LUhv0aZNQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2117 - Ray Kurzweil**
+  - ID: `w4vrOUau2iY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2116 - Kevin James**
+  - ID: `syatvaQkcyg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2115 - Riley Gaines**
+  - ID: `q-kinevyxJg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2114 - Zack Snyder**
+  - ID: `KD1--GoDzkA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2113 - Christopher Rufo**
+  - ID: `WwYn7ZZrt8Q`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2112 - Dan Soder**
+  - ID: `7be7OxPr1Lo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2111 - Katt Williams**
+  - ID: `1zb2SuW-jug`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2110 - Fahim Anwar**
+  - ID: `rQO0ohBq6Vk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2109 - Abigail Shrier**
+  - ID: `WTNjc8HyOaE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2108 - Tom Green**
+  - ID: `vvLrMU2efOE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2107 - Billy Walters**
+  - ID: `6ck0drTI00w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2106 - Kid Rock**
+  - ID: `L0puYyp47MY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2105 - Dr. Phil**
+  - ID: `ZjiKJfuJ2Gc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2104 - Chris Williamson**
+  - ID: `G5ECkzB2efA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2103 - Sam Morril**
+  - ID: `tLzl1CRmupE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2102 - Will Storr**
+  - ID: `8Ct-q6sJOOY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2101 - Bret Weinstein**
+  - ID: `A78LaTBt3Ss`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2100 - Steven Rinella & Cameron Hanes**
+  - ID: `Sunle1RDy5g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2099 - Aaron Rodgers**
+  - ID: `c8rqfCDZlGc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2098 - Matt McCusker & Shane Gillis**
+  - ID: `AW-9AfIcyWQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2097 - Jeff Dye**
+  - ID: `FD-T6QIuxj8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2096 - Josh Dubin & Sheldon Johnson**
+  - ID: `C9QVqtasEhk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2095 - Moshe Kasher**
+  - ID: `R4pTEXSZE-E`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2094 - Colion Noir**
+  - ID: `u2B96QvPR98`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2093 - Sober October Crew**
+  - ID: `WBURsKmyJWo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2092 - Mariana van Zeller**
+  - ID: `vS35NFFFg6k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2091 - Diana Walsh Pasulka**
+  - ID: `71XphFGuORY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2090 - Bobby Lee**
+  - ID: `q1rvwbzZdJ8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2089 - Joey Diaz**
+  - ID: `TVaV1N0pal0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2088 - Yannis Pappas**
+  - ID: `DWPNdqKP0D4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #153 with Joe Pyfer**
+  - ID: `NuQb11rSCXw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2087 - Ron White**
+  - ID: `X095ZicHkM8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2086 - Jim Norton**
+  - ID: `oSAk9O3PVHc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #152  with Sean Brady**
+  - ID: `hHHgCVIrnyE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2085 - Charles Wesley Godwin**
+  - ID: `ils46iDwU-c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2084 - Jim Breuer**
+  - ID: `n0i9S9DFpIo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2083 - Taylor Sheridan**
+  - ID: `Fm9N-lyNQms`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2081 - Tony Hinchcliffe**
+  - ID: `c2Cx6dD909E`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2080 - John Reeves**
+  - ID: `uxkd3k1qb9U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2079 - Brigham Buhler**
+  - ID: `LpfVaiM-jxI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2078 - Duncan Trussell**
+  - ID: `rz0g7kptNHo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #151 with Bo Nickal**
+  - ID: `XX8bR9Ql2mU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2077 - Tim Dillon**
+  - ID: `30y-HWipWOQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2076 - Tristan Harris & Aza Razkin**
+  - ID: `cyuoux4DpKs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2075 - Protect Our Parks 10 (Part 2)**
+  - ID: `deK4KCn2hbI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2075 - Protect Our Parks 10 (Part 1)**
+  - ID: `ocePykx_OQI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2074 - Shane Gillis**
+  - ID: `0m6aoc0Uhc8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2073 - Derek, More Plates More Dates**
+  - ID: `bsH0IAPJHjU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #150 with Daniel Cormier**
+  - ID: `9wAvD84gKnk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2072 - Stavros Halkias**
+  - ID: `V4WiRrHcWVQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2071 - Kim Congdon & Sara Weinshenk**
+  - ID: `nfmLQIdA_1M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2070 - Evan Hafer**
+  - ID: `YZdgDQJZlrI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2069 - Dr. Shawn Baker**
+  - ID: `VftiRHObhcU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2068 - Cameron Hanes**
+  - ID: `HNBupGBFBvE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2067 - Dave Smith**
+  - ID: `eqOeB9rtBvg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2066 - Ralph Barbosa**
+  - ID: `6ERHbwFD_5Q`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2065 - David Grusch**
+  - ID: `R8TqBrrqL4U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2064 - Mike Baker**
+  - ID: `wwRVmSOEga8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2063 - The Rock**
+  - ID: `vbde_-KgvTw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2062 - Will & Jenni Harris**
+  - ID: `SuouquRl3kg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2061 - Whitney Cummings**
+  - ID: `OnWs-_ql-tc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2060 - Gary Brecka**
+  - ID: `EGIzJbNWKfM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2059 - Adam Greentree**
+  - ID: `u1CerRv90Zc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2058 - Elliott West**
+  - ID: `R1sP4QidA6U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2057 - Dale Brisby**
+  - ID: `6vtF5vLJ_Vo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2056 - David Blaine**
+  - ID: `1VgHCqtApzY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2055 - Tim Kennedy**
+  - ID: `U_5EL89vzlU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2054 - Elon Musk**
+  - ID: `tAJUwiAqW38`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2053 - Danny & Michael Philippou**
+  - ID: `j3qfmkJNMmA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2052 - Shane Dorian**
+  - ID: `8NBu5PNyjhU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2051 - Graham Hancock**
+  - ID: `nWY_BXHZNAY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #149 with Dan Henderson**
+  - ID: `Iimru_xblBQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2050 - Ehsan Ahmad**
+  - ID: `f9-icmVJtSI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2049 - Coleman Hughes**
+  - ID: `AODTaG6-uGY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2048 - Reggie Watts**
+  - ID: `mcxHM9gxQoA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2047 - Brian Muraresku**
+  - ID: `lXaQwedJ7Os`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2046 - Brian Redban**
+  - ID: `GUZ9B7fbwNk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2045 - Jimmy Carr**
+  - ID: `evgbokun5k0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2044 - Sam Altman**
+  - ID: `7dCPytNTnjk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #148 with Bernard Hopkins**
+  - ID: `8I3hBXRrxdQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2043  - Francis Foster & Konstantin Kisin**
+  - ID: `YpHqQ15zXFQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2042 - Joe List**
+  - ID: `KlP2msooaK0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #147 with Sean O'Malley & Tim Welch**
+  - ID: `AjpGwfyWwlw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2041 - Steve Strope**
+  - ID: `SKk9szXwgqc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2040 - Eddie Bravo**
+  - ID: `sEZ414cngfo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2039 - Michael Easter**
+  - ID: `tnNZQ-0IqoM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #146 with Francis Ngannou**
+  - ID: `n1VAZy7eLLc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2038 - Trae Tha Truth**
+  - ID: `b-sACrk9V2A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2037 - Alex Berenson**
+  - ID: `tznvMq2v5lU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2036 - Kurt Angle**
+  - ID: `sgHt-fCEjm0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2035 - Brian Simpson**
+  - ID: `fBZtlsEFzkk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2034 - Jeremy Jones**
+  - ID: `FBpFt3FupdY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2033 - Matt Rife**
+  - ID: `b2TjpguCYzU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2032 - BJ Penn & Tulsi Gabbard**
+  - ID: `PjJomguV-tU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2031 - Luis J. Gomez**
+  - ID: `6AgFjjiWTj0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2030 - Protect Our Parks 9**
+  - ID: `cbjw2-fygQA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2029 - Bill Maher**
+  - ID: `DDbKeOpj11g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2028 - Jermey Corbell & George Knapp**
+  - ID: `dre-5Zy4f7c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2027 - Oliver Anthony**
+  - ID: `pOXqSnhNUE8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2026 - Peter Berg**
+  - ID: `IIh6765-BrQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2025 - Dave Smith**
+  - ID: `esV5aeHv57w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2024 - Hulk Hogan**
+  - ID: `4o1rnl8w6Rg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2023 - Brian Keating**
+  - ID: `tR92dSkBhbg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #145 with Terence Crawford**
+  - ID: `Wi0nMTtLr48`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2022 - Jeremy Gerber, Phil Gerber, & Josh Henning**
+  - ID: `h-kjjuHc55E`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2021 - Mike Baker**
+  - ID: `5HRznpUe01g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2020 - Python Cowboy**
+  - ID: `in_e8xJVKy8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2019 - Tim Dillon**
+  - ID: `pM9juJuqrJc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2018 - Post Malone**
+  - ID: `VvBKI3B0HCg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2017 - Bryan Callen**
+  - ID: `sPkr0DSgnQU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #144 with Jared Cannonier**
+  - ID: `mdxN32QiaJU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2015 - Zach Bryan**
+  - ID: `ZGYcAuVR7Bc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2014 - Jim Gaffigan**
+  - ID: `GZG-l5krNEQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2013 - Paul Rosolie**
+  - ID: `I0UShlEjxys`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2012 - Gad Saad**
+  - ID: `nRkcmPc0DaQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2011 - Tony Woods**
+  - ID: `FL8FOmkEgdQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2010 - Marc Andreessen**
+  - ID: `8quXLOR_iVE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2009 - Duncan Trussell**
+  - ID: `KfW_rjccp-A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2008 - Stephen C Meyer**
+  - ID: `COyRH27wc84`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2007 - Adrienne Iapalucci**
+  - ID: `PxfYndaXlIA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2006 - Brian Simpson**
+  - ID: `gobHGmLMj6c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #143 with Sean Strickland**
+  - ID: `XF_lAWmSVoU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #142 with Matt Serra, Din Thomas & John Rallo**
+  - ID: `dgrbS9FdKvk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2005 - Tom Segura**
+  - ID: `4Fy5kpTaja8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2004 - Ice Cube**
+  - ID: `-Xpp1A1KJyU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2003 - Killer Mike**
+  - ID: `Go0OmztyEqo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2002 - Amanda Feilding**
+  - ID: `KoM8f5Gp3kE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2001 - Gabriel Iglesias**
+  - ID: `yuIkpur2xd0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #141 with Mike Perry**
+  - ID: `tgXgCpfECBo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2000 - Duncan Trussell**
+  - ID: `FqMsJZ2SRHo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1999 - Robert Kennedy Jr.**
+  - ID: `p6LJXPOv4SM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1998 - Ali Siddiq**
+  - ID: `ILPjTRdpP-U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1997 - Cameron Hanes**
+  - ID: `n398J-SBF-g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1995 - Chad Stahelski**
+  - ID: `O9Qovn60uQQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1994 - Theo Von**
+  - ID: `lGPC18DTPdo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1993 - Josh Dubin & Bruce Bryan**
+  - ID: `05HmZBHiByQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #140 with Gillian Robertson**
+  - ID: `j_38dIc2aUQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1992 - Oliver Stone**
+  - ID: `hw-ibiz-M04`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1991 - Protect Our Parks 8**
+  - ID: `xWGkyl1tOKQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1990 - Bert Kreischer**
+  - ID: `Na9GQBTKS80`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1989 - Andrew Dice Clay**
+  - ID: `m8PK0NQAsko`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #139 with Bas Rutten**
+  - ID: `_775vpoyMZs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1988 - James Reed**
+  - ID: `z_kTGMYbHiA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1987 - Jelly Roll**
+  - ID: `7frzhxAReSE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1986 - Jack Carr**
+  - ID: `YeX2RUPXsaM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1985 - Steven Wright**
+  - ID: `hA7pkDE4-dc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1984 - Brian Redban**
+  - ID: `Ivpri7bA0ls`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1983 - Kim Congdon & Sara Weinshenk**
+  - ID: `MoEVbHN9ifY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1982 - John Hennessey**
+  - ID: `wFmuPcyAg2U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1981 - Pauly Shore**
+  - ID: `XRrLxKgyK4M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1980 - Michio Kaku**
+  - ID: `JU1fORbpsE4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1979 - Dr. Aseem Malhotra**
+  - ID: `CV-Qbbl_e6o`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1978 - Ms Pat**
+  - ID: `6SHj7OipzlI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1977 - Dave Smith**
+  - ID: `cSaHiF1oqg4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1976 - James Fox**
+  - ID: `ERMnvDv2exE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1975 - Dan Flores**
+  - ID: `yGH6cHufJbo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1974 - Ric Flair**
+  - ID: `fF9YZYyYhl4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1973 - Joey Diaz**
+  - ID: `-kJ_8HwWtlA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1972 - Jim Breuer**
+  - ID: `szdiIh2CL6g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1971 - Howie Mandel**
+  - ID: `tYpWORulv1o`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1970 - Bill Ottman**
+  - ID: `AEOWKY0MCR4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1969 - Sam Tallent**
+  - ID: `fFKVYl9vj6s`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1968 - Jason Everman**
+  - ID: `pYQvlTnT4QM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #138 with Cory Sandhagen**
+  - ID: `mjtdfoZCUv0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1967 - Mike Vecchione**
+  - ID: `ZX5OVf_YjD8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1966 - Big Jay  Oakerson & Ari Shaffir**
+  - ID: `eXB33KM_RfU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1965 - David Choe**
+  - ID: `BBArizQhDgk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1964 - Rick Doblin**
+  - ID: `jYfAhupxaTs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1963 - Michael Shellenberger**
+  - ID: `7WK4sRwHg9Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1962 - Eddie Huang**
+  - ID: `xGtF4saXtP4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1961 - Peter Attia**
+  - ID: `2K6cADLXp3c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1960 - Andrew Schulz**
+  - ID: `IVZ-qJ92y2I`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1959 - David Buss**
+  - ID: `I_6rEB-YG4M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #137 with Jorge Masvidal**
+  - ID: `pQO9obvNhUo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1958 - Andrew Huberman**
+  - ID: `xVvSe9xJoys`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1957 - Shane Gillis**
+  - ID: `zyEcoElh244`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1956 - Luke Combs**
+  - ID: `Ddn_IjiqrGY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1955 - Cliff Gray**
+  - ID: `FezipID12Rs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1954 - Bert Kreischer**
+  - ID: `VykPavc_NP4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1953 - Duncan Trussell**
+  - ID: `wKZAp3jUasI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1952 - Michael Malice**
+  - ID: `iqcUpp0dHm0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1951 - Coffeezilla**
+  - ID: `rOBE9HEs6gw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1950 - Derek Wolfe**
+  - ID: `9jDb81-S2RQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1948 - Tony Hinchcliffe & Brian Redban**
+  - ID: `tlzUDRwCVgs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1947 - Chris Distefano**
+  - ID: `NxqM_x6GKrM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1946 - Protect Our Parks 7**
+  - ID: `zBqqf7fREPQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1945 - Eric Weinstein**
+  - ID: `h7CJoGKvx3U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1944 - Ryan Long**
+  - ID: `lrbTDAvqr6U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1943 - Joel Turner**
+  - ID: `Yc7q6vUJCbA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1942 - Mark Greaney**
+  - ID: `NUh8F2rUl78`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1941 - Bridget Phetasy**
+  - ID: `IjldZehUCVA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1940 - Matt Taibbi**
+  - ID: `lT7Ls9vQ7mI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #136 with Jamahal Hill**
+  - ID: `1YES-G0fATk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1939 - B-Real**
+  - ID: `OPM6a2ZsrFw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1938 - Mariana van Zeller**
+  - ID: `wQxI-QN3bok`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1937 - Punkie Johnson**
+  - ID: `N-jA_KpH46s`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1936 - Krystal Ball & Saagar Enjeti**
+  - ID: `iN8m6Wrlqho`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1935 - Kyle Kulinski**
+  - ID: `OZYaYl5JCkQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #135 with Paul Felder**
+  - ID: `ED-2YGEJKWE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1934 - Lex Fridman**
+  - ID: `9Dkk9-cPpH8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1933 - Jordan Peterson**
+  - ID: `oU-AQ2Rfmn4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1932 - Merlin Tuttle**
+  - ID: `Gace_3mMAJE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1931 - Mike Glover**
+  - ID: `VFo9j4P5Lq0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1929 - Louis CK**
+  - ID: `NNHLeMjgOSU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #134 with Belal Muhammad**
+  - ID: `SARIgtw_NiQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1928 - Jimmy Corsetti & Ben van Kerkwyk**
+  - ID: `xBekFQbwAGk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1927 - Forrest Galante**
+  - ID: `d8XDniI08WY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1926 - Matt McCusker & Shane Gillis**
+  - ID: `R-OomvFbR4g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1925 - Sonny, from Best Ever Food Review Show**
+  - ID: `fxpIx5DOFY4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1924 - Andrew Santino**
+  - ID: `qHkTIZD7rM0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1923 - Mike Baker**
+  - ID: `i6wTyVfDe8A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1922 - Sam & Colby**
+  - ID: `7HoFQdKD9Rk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1921 - Peter Zeihan**
+  - ID: `jJTw3SzrlQM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1920 - Dave Portnoy**
+  - ID: `bA4dbkrYMQI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1919 - Bret Weinstein**
+  - ID: `WGOkX9dZhCQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1918 - John from The Boneyard Alaska**
+  - ID: `iCBJR32zzxQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1917 - Fedor Gorst**
+  - ID: `ln--cSLox6M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1916 - Jon Bernthal**
+  - ID: `mfXxdBMkvhs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1915 - Brian Simpson**
+  - ID: `ZFarwiXKSng`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1914 - Siddharth Kara**
+  - ID: `RTrXk4geQFg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1913 - Brian Redban**
+  - ID: `iZ0oNgfRUCo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1912 - Steven Rinella**
+  - ID: `QhBx0CZDJFA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1911 - Mark Boal**
+  - ID: `94Dk7cqpC78`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1910 - Mark Laita**
+  - ID: `J8aE1MOPjMs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1909 - Stavros Halkias**
+  - ID: `dxusL6n5BZQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1908 - Erika Thompson**
+  - ID: `RJdXM2FZreA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1907 - Protect Our Parks 6**
+  - ID: `nUyUSp6S9N8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1906 - David Goggins**
+  - ID: `AbDT2JTSnA8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1905 - Derek, More Plates More Dates**
+  - ID: `h6NWaynfRz4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1904 - Neil deGrasse Tyson**
+  - ID: `e8_vmWakyn4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1903 - Kurt Metzger**
+  - ID: `PQGjSzldd3A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #133 with Sean O'Malley**
+  - ID: `_SsCrupNHKA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1902 - Danny Brown**
+  - ID: `TzG0sxSQaRI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1901 - Steven Pressfield**
+  - ID: `8M8jBaA8_Gk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1900 - Steve-O**
+  - ID: `IZ0AgO0yASo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1899 - Yannis Pappas**
+  - ID: `oZzZ2JzQkxs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1898 - Neal Brennan**
+  - ID: `2naqT4-F8e4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #132 with Joaquin Buckley**
+  - ID: `JvpcMhqkjOk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1897 - Graham Hancock & Randall Carlson**
+  - ID: `EGJ1hyYmmTc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1896 - Bjorn Lomborg**
+  - ID: `I81A6sG7IUU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1895 - Matt Walsh**
+  - ID: `yAZXLphZAdo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1894 - Suzanne Santo**
+  - ID: `UlFrS6jpP7M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1893 - Will Harris**
+  - ID: `ozNK2sgJmcg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1892 - Sober October 4 Recap**
+  - ID: `oJKXPy82HRI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1891 - Duncan Trussell**
+  - ID: `qHIBF3abE6Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1890 - Bridget Phetasy**
+  - ID: `Wtf2QIGH_uo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1889 - Dr. Phil**
+  - ID: `jnnTjB4BWtg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #131 with Mighty Mouse**
+  - ID: `3_rlUox7Ctg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1888 - Michael Shermer**
+  - ID: `HDgQBk1wl3M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1887 - Maynard James Keenan**
+  - ID: `kJ8TXWPFHGQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1886 - Robert Kelly**
+  - ID: `lY1u20cx02A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1885   Andy Stumpf & Mike Sarraille**
+  - ID: `RcgYSGMbW3g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1884 - Anthony Kiedis**
+  - ID: `LQxyrCU7ies`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1883 - Ryan Graves**
+  - ID: `muxP-2pDzH0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1882 - Iliza Shlesinger**
+  - ID: `bIGINvpZOdU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1881 - Rick Rubin**
+  - ID: `uFiR3nVtYKY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1880 - Tulsi Gabbard**
+  - ID: `1w01QRhD3e0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1879 - Sober October 4**
+  - ID: `30-827tF_Nk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1878 - Roger Waters**
+  - ID: `V5gEso2nkXQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1877 - Jann Wenner**
+  - ID: `j7pz6lewGvY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1876 - Greg Fitzsimmons**
+  - ID: `-gktSDD3BAs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1875 - Dave Smith**
+  - ID: `oRT-bxjY7So`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1874 - Dave Attell**
+  - ID: `9RMe7IFjNEk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1872 - Tony Hinchcliffe & Hans Kim**
+  - ID: `roYHf3MTsno`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1871 - Jon Peters**
+  - ID: `Ckqxr6zMBO0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1870 - Max Lugavere**
+  - ID: `Jz1q2gqcYp8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1869 - Dr. Gabor Mate**
+  - ID: `zv8pjyJH4Ok`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #129 with Gordon Ryan & Mo Jassim**
+  - ID: `d5_TT5sEPbU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1868 - Sam Morrill**
+  - ID: `oxhKxR0w9Dc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #128 with Kamaru Usman**
+  - ID: `4lqLsqkmiRY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1866 - Protect Our Parks 5**
+  - ID: `OxgMyhLlgEg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1865 - Aaron Rodgers**
+  - ID: `zpRuH7jJNic`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1864 - Alex Berenson**
+  - ID: `UmUC3BolHa8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1863 - Mark Zuckerberg**
+  - ID: `0XR4x1ssblQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1862 - Mike Baker**
+  - ID: `5_IHM6HI0rs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1861 - Dave Mustaine**
+  - ID: `2mlQCMNh83E`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1860 - Tim Dillon**
+  - ID: `A_vYgnS1HGQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1859 - Louis CK & Joe List**
+  - ID: `HzXDpJ0BLMM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1858 - Josh Dubin & Derrick Hamilton**
+  - ID: `13Cg6yXWAhA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1857 - Seth Dillon**
+  - ID: `vlWa1L-siy4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1856 - Nate Bargatze**
+  - ID: `dbNDyBS3CZo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1855 - Chris Best**
+  - ID: `6_p1IAT86ig`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1854 - Rick Strassman**
+  - ID: `YMKSan4TpI0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1853 - Jeremy Corbell**
+  - ID: `trf_OKyotyQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1852 - Sam Tripoli**
+  - ID: `CnMWWRV7oeQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1851 - Chris Williamson**
+  - ID: `5hyjzyAwj0A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1850 - Whitney Cummings**
+  - ID: `-neDlW8f67c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1849 - Rich Benoit**
+  - ID: `HahM2jZ_8aA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1848 - Francis Foster & Konstanin Kisin**
+  - ID: `0fNF9Pf869U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1847 - Theo Von**
+  - ID: `9YbCvAFWzGs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1846 - Andrew Schulz**
+  - ID: `4ZUdaT--MJI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #127 with Mikey Musumeci**
+  - ID: `_x5jBgMQsj8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1845 - Zachary Levi**
+  - ID: `YTB069ZQlkk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1844 - Tom Segura**
+  - ID: `DSzhHIFo22g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1843 - Paul VIrzi**
+  - ID: `LqfEsmlyUeY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1842 - Andrew Huberman**
+  - ID: `2ANL4Nyd0js`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1841 - Brian Redban**
+  - ID: `ySVJcHqZ4cM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1840 - Marc Andreesson**
+  - ID: `isr0B7nn_FE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1838 - Brian Simpson**
+  - ID: `jWcQvbSwFa0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #126 with Eryk Anders**
+  - ID: `9yKO7EPTOoI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1837 - Gina Carano**
+  - ID: `VuJHZhVDDIU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1836 - Ryan Holiday**
+  - ID: `_PMesNbFuFQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1835 - Mike Judge**
+  - ID: `xqH1N83KE9k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1834 - Ari Shaffir, Shane Gillis & Mark Normand**
+  - ID: `x1GIUqy6_Bo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1833 - Tim Kennedy**
+  - ID: `fXql6paUf7E`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1832 - Charlie Walker**
+  - ID: `VEdIBcBAqtY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1831 - Colion Noir**
+  - ID: `rJ0PlhohYWY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1830 - Meghan Murphy**
+  - ID: `PCFfHBf8B1Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1829 - Bobby Azarian**
+  - ID: `5EOpplSyxN0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1828 - Michio Kaku**
+  - ID: `mNPM0yUiyNs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1827 - Kristin Beck**
+  - ID: `OM8lp6y9c4U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1826 - Fahim Anwar**
+  - ID: `jKdzs9O3WMk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1825 - Ali Siddiq**
+  - ID: `g4cHeGt1CDA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1824 - Lex Fridman**
+  - ID: `5zlEvwmVOhA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1823 - Neal Brennan**
+  - ID: `SpcpBzQG7i8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1822 - Chris DiStefano**
+  - ID: `mgVpwYUrsRU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1821 - Bert Kreischer & Tony Hinchcliffe**
+  - ID: `_np61LrdTu4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1820 - Jack Carr**
+  - ID: `xBAarhHCNLc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1819 - Cameron Hanes**
+  - ID: `6UI7K-Mr8WI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1818 - Christina P**
+  - ID: `HqMzM3Hd-bQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1817 - Hotep Jesus**
+  - ID: `n5mXqFpy8a4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1816 - Gad Saad**
+  - ID: `wTE2PHTA6sg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1815 - The Black Keys**
+  - ID: `mYsNKI_Reic`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1814 - Radio Rahim**
+  - ID: `yEB_7GYJQXY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1813 - Tony Hinchcliffe**
+  - ID: `rbWCXJUd00w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1812 - Doug Stanhope**
+  - ID: `aKHqPssPuAg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #124 with Khalil Rountree**
+  - ID: `WUandKsXcQ4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1811 - Brendan Schaub**
+  - ID: `qqI1FRdSk88`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1810 - Remi Warren**
+  - ID: `sw0wNZWs-0Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #123 with BJ Penn**
+  - ID: `vZ_vLEUIF5U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1809 - Jessica Kirson**
+  - ID: `stv5s8dFZ_I`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1808 - Dan Soder**
+  - ID: `pLfIS3OGUlU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1807 - Douglas Murray**
+  - ID: `gQsSC1Np9-E`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #122 with Jake Shields**
+  - ID: `HpfYRH3X8ys`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1806 - Duncan Trussell**
+  - ID: `-V7Qq6qtJ0Q`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1805 - Mike Tyson**
+  - ID: `tRRMhk-b9DA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #121 with Bobby Green**
+  - ID: `CYHubjH3xno`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1804 - Bill Maher**
+  - ID: `T-1U8NPwp8U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1803 - Greg Fitzsimmons**
+  - ID: `YZsdLNRJf6U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1802 - Protect Our Parks 3**
+  - ID: `MjgGzYRLYQU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #120 with Jim Miller**
+  - ID: `GZwv5yCf7pk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1801 - David Mamet**
+  - ID: `xVJOEQveErc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1800 - Gavin de Becker**
+  - ID: `y_PJ6TNCVrA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1799 - Yannis Pappas**
+  - ID: `kv8Rh5lG8nI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1798 - Michael Shellenberger**
+  - ID: `i0_rVGnfYns`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1797 - Josh Barnett**
+  - ID: `ftRIY3ANvuA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1796 - Ali Siddiq**
+  - ID: `NL1MV3OlAkI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1795 - Antonio Garcia Martinez**
+  - ID: `Y1M7XlYySnM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1794 - Monty Franklin**
+  - ID: `HUBAdmcJeNw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1793 - Mike Baker**
+  - ID: `wu6USAUpGDg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1792 - Daryl Davis & Bill Ottman**
+  - ID: `rMNW-orIpU8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1791 - Sadhguru**
+  - ID: `_cPD7l1LEDA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1790 - Nims Purja**
+  - ID: `II41I5KzJAk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1789 - Tom Papa**
+  - ID: `7yOP1BGH7cg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1788 - Mr. Beast**
+  - ID: `cLRLEnPaJLM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #119 with Michael Bisping**
+  - ID: `b3XTS0KFPCo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1787 - Dakota Meyer**
+  - ID: `d-FVySWRRy0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1786 - Freddie Gibbs & Brian Moses**
+  - ID: `KUVBgFztObs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1785 - Earthquake**
+  - ID: `7OODwd3fRUk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1784 - Diana Rodgers & Robb Wolf**
+  - ID: `25CiMHawflk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1783 - Ben Burgis**
+  - ID: `zZee_5h55mo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1782 - Daniel Holzman**
+  - ID: `mv4HOaDFzxU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1781 - Coleman Hughes**
+  - ID: `GIhHdL2fKiE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1780 - Maajid Nawaz**
+  - ID: `ARaqe-0MKmI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1779 - Michael Osterholm**
+  - ID: `wyr3WHXMy5k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1778 - Joey Diaz**
+  - ID: `L14Ng6c5OeQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1777 - Andrew Dessler**
+  - ID: `n3diFwO6ZoQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1776 - Steven E. Koonin**
+  - ID: `OBjX0O7gOmw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1775 - Dave Smith**
+  - ID: `Q81-QHr81dI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1774 - Josh Dubin**
+  - ID: `3BWt2USIWR4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1773 - Akaash Singh**
+  - ID: `T2bjtpRfVmY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1772 - Randall Carlson**
+  - ID: `nJZV0k6LwvQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1771 - Andy Stumpf**
+  - ID: `QBW4dZw9Zjw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #118 with Julianna Peña**
+  - ID: `lA0EwdW7svg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1770 - Valentine Thomas**
+  - ID: `wARWEzXIeAw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1769 - Jordan Peterson**
+  - ID: `OT1LOTyFBaY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1768 - Dr. Robert Epstein**
+  - ID: `TIRtBfUBMmk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1767 - James Lindsay**
+  - ID: `ARozBsz169w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1766 - Ben Patrick**
+  - ID: `Lqi12hqe_lQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1765 - Philip Frankland Lee**
+  - ID: `lClqxlhA0ZQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1764 - Ari Shaffir, Shane Gillis & Mark Normand**
+  - ID: `CZzkkN1vMfo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1763 - General H.R. McMaster**
+  - ID: `0AAfzXxjCZ0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1762 - Josh Szeps**
+  - ID: `n6pvnYpZsuo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1761 - Jim Gaffigan**
+  - ID: `GP6iyunJq1U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1760 - Adam Curry**
+  - ID: `dxq5sfoP_Fs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1759 - Oliver Stone**
+  - ID: `9pVgh7__CZg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1758 - Carrot Top**
+  - ID: `lN6irnDV_VA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1756 - John Abramson**
+  - ID: `Pg_uZGohUiU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1755 - Tony Woods**
+  - ID: `BOOhFVEQhZY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1754 - Suzanne Santo**
+  - ID: `jEPKSUIGuy4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1753 - Brian Redban**
+  - ID: `3Do-i4OFz1M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1752 - Tim Dillon**
+  - ID: `4WT-GbKEOuQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1751 - Brian Simpson**
+  - ID: `LpYLZioia3w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1750 - Ari Shaffir & Tony Hinchcliffe**
+  - ID: `jgRUiibGcpU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1749 - Shane Dorian**
+  - ID: `WTFPlbFGF1Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #117 with Marlon "Chito" Vera**
+  - ID: `ru2vsy64Q6k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1748 - Beeple**
+  - ID: `7YAwloeYvhQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1746 - Blaire White**
+  - ID: `AGv9HIEZUyY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #116 with George Kambosos**
+  - ID: `N6tz6toAguE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1745 - Matt Taibbi**
+  - ID: `LIPK0ENmzDc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1744 - Derek from More Plates More Dates**
+  - ID: `LiWyf3wNEmQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1743 - Stephen Pinker**
+  - ID: `qVEwIx2uG1A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1742 - Jimmy Corsetti**
+  - ID: `l_Y3tUZRvOE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1741 - Ted Nugent**
+  - ID: `gDHpvjEXV2k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1739 - Philip Goff**
+  - ID: `xiCcrk0eT2E`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1738 - Ben O'Brien**
+  - ID: `0rj7OGXX_RA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1737 - Tim Pool**
+  - ID: `YBJImac3uec`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1736 - Tristan Harris & Daniel Schmachtenberger**
+  - ID: `sLNEojqZlUE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1735 - Peter Attia**
+  - ID: `NW8-XztWvDo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1734 - Ron White**
+  - ID: `FMvtGIrjwWM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1733 - Snoop Dogg**
+  - ID: `AW9nwZN3A5Q`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1732 - Ben Shapiro**
+  - ID: `apBsz5uUA_s`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1730 - Cameron Hanes**
+  - ID: `DN1QhGU4e_U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1729 - Gilbert Gottfried**
+  - ID: `S4CvHquOG5s`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1728 - Ari Shaffir, Shane Gillis & Mark Normand**
+  - ID: `TwB2EmpVIPk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1727 - Rob Kearney**
+  - ID: `m5yZHiDV4AI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1726 - Chuck Palahniuk**
+  - ID: `-n5lYfCcwR8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1725 - Bridget Phetasy**
+  - ID: `-8XupKujtu0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1724 - Jewel**
+  - ID: `CCfvZ0l2z1g`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #115 with Valentina Schevchenko**
+  - ID: `CIvUWfBup1o`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1723 - Amishi Jha**
+  - ID: `WDqWc_ucs-o`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1722 - Bartow Elmore**
+  - ID: `R1TNFqwnM9A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1721 - Michael Malice**
+  - ID: `jqVg7-7AAfY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1720 - Tony Hinchcliffe & Brian Redban**
+  - ID: `w5u781ill8A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1719 - Michael Shellenberger**
+  - ID: `fmFic-h2u84`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1718 - Dr. Sanjay Gupta**
+  - ID: `QLdRZlrwvAI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1717 - Alex Berenson**
+  - ID: `piIcePucjgI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1716 - Steven Rinella**
+  - ID: `C6Y1AhB53Vg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1715 - Jessica Kirson**
+  - ID: `VqPRsMu8qpg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1714 - Josh Dubin & Robert Jones**
+  - ID: `bgOgTTQejtE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1713 - Mike Baker**
+  - ID: `e3PXLkhAzyk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1712 - Bert Kreischer Part 2**
+  - ID: `Xm7iHlXPOH0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1712 - Bert Kreischer Part 1**
+  - ID: `eedblsYa_G0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1711 - Patrick Bet-David**
+  - ID: `3wLTm-GiB38`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1710 - Cullen Hoback**
+  - ID: `jQfQ-rQHeNM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1709 - Amanda Knox**
+  - ID: `rjcWON18_i8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1708 - Anne Lembke**
+  - ID: `bgQUYNDmejg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1707 - Kyle Dunnigan & Kurt Metzger**
+  - ID: `Apt6GxP2NZ8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1706 - Billy Corben**
+  - ID: `YsPmt_DLvjA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1704 - C.K. Chin**
+  - ID: `KTf-iM1_AKo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1703 - Tom Segura**
+  - ID: `LLSq3ebAJ6s`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1702 - Laurie Woolever**
+  - ID: `omm_JFNgr7s`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1701 - Rhonda Patrick**
+  - ID: `Yx9viPghp4o`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1700 - Eleanor Kerrigan**
+  - ID: `9QXe3dokGHQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1699 - Meghan Murphy**
+  - ID: `hflVc-t1eDY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1698 - Neill Blomkamp**
+  - ID: `YUws_3BbHG8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1696 - Lex Fridman**
+  - ID: `AoYlTGyRVvE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1695 - Andrew Schulz**
+  - ID: `t04h_IyFD9U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1694 - Ms. Pat & Jordan E. Cooper**
+  - ID: `OlfatqQkduM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #114 with Rickson Gracie**
+  - ID: `REml9TDwClA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1693 - Evan Hafer**
+  - ID: `ptAcJrtGMrg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1692 - Jason Wilson**
+  - ID: `qCV6dmzW9C8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #113 with Chad Mendes**
+  - ID: `0Ou7erlVnbE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1691 - Yeonmi Park**
+  - ID: `ZGJm4bjRaaE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1689 - Yannis Pappas**
+  - ID: `X0Hd8DYTnJg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1688 - Greg Fitzsimmons**
+  - ID: `bmq4yKbknMU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1687 - Jimmy Dore**
+  - ID: `l75Gy4Gx4oE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1686 - Ari Shaffir**
+  - ID: `CefLCTEPLug`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1685 - Shane Gillis**
+  - ID: `bQtP7p7Q99U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1684 - Abby Martin**
+  - ID: `toBL3_nWpJU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1683 - Andrew Huberman**
+  - ID: `-s2d7cojsog`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1682 - Jesse Singal**
+  - ID: `azm7wCa8V18`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1681 - Brian Simpson**
+  - ID: `6ulPl5L_F_8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1680 - Jakob Dylan**
+  - ID: `1Ch4ACJ_OKE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1679 - Adam Curry**
+  - ID: `3GNTvkxLuSA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1678 - Michael Pollan**
+  - ID: `8S0cEV70NK0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1677 - Tim Dillon**
+  - ID: `A2Gsm1yAs0M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1676 - Jesse Griffiths**
+  - ID: `qIjcHv59Qz4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1674 - Clay Newcomb**
+  - ID: `KCIWv5b7ijU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1673 - Colin Wright**
+  - ID: `mxg4Nq2JYQ0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1672 - Iliza**
+  - ID: `vB-l7skM7tY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #112 with Don Frye**
+  - ID: `caKf2bEphfQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1671 - Bret Weinstein & Dr. Pierre Kory**
+  - ID: `lmLnvBmX5b8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1670 - David Sinclair**
+  - ID: `2jIJh1EgPFg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1669 - Kyle Kulinski**
+  - ID: `Vk1tI3Lu9_M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1668 - Krystal & Saagar**
+  - ID: `UFnHWqhy2Ro`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1667 - Annie Lederman**
+  - ID: `zrGqWefphHw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1666 - Duncan Trussell**
+  - ID: `n1dB2iSpeOU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1665 - Carole Hooven**
+  - ID: `LQJv1zfzRc8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1664 - Josh Dubin**
+  - ID: `qgm-ogN4GdI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1663 - Edward Slingerland**
+  - ID: `LksPQP0YaxA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1662 - Tom Papa**
+  - ID: `u9XXzBkbmqQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1661 - Rick Doblin**
+  - ID: `3qda8HxLnN0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1660 - David Lee Roth**
+  - ID: `67IcIzxa_NE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1659 - Scott Eastwood**
+  - ID: `jAOKaU_Lw5I`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #111 with John Danaher**
+  - ID: `Uy-kpbvv_-w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #110 with Craig Jones & Alex Volkanovski**
+  - ID: `H1Lg6MDaEjg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1658 - Neil deGrasse Tyson**
+  - ID: `qiP1E6iAVS8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1657 - Mayor Steve Adler**
+  - ID: `tNaB3gnfOCE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1656 - Adam Duritz**
+  - ID: `BVfDJ7GYFnQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1655 - Sebastian Junger**
+  - ID: `CiKtWUclJE8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1654 - Whitney Cummings**
+  - ID: `4m1Zc04LAFA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1653 - Andy Norman**
+  - ID: `MXuwPUqSczo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1652 - Anthony Cumia**
+  - ID: `50E268yxE5c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1651 - Joe List**
+  - ID: `13Ta2tEXq-o`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1650 - Russell Peters**
+  - ID: `4aCjiBE415M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1649 - Michael Easter**
+  - ID: `JZUNipWsXe0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1648 - Reggie Watts**
+  - ID: `feyCi9rSpyc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1647 - Dave Chappelle**
+  - ID: `yg8aTu1cyCw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1646 - David Holthouse**
+  - ID: `VI1Rvk0ORb4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1645 - Christopher Mellon**
+  - ID: `h8vjx6-ZFvI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1644 - Ethan Suplee**
+  - ID: `GKYE2jxF_Qs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #109 with Gordon Ryan**
+  - ID: `spRiboB_pMo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1643 - Jonathan Zimmerman**
+  - ID: `_lJJhjfreb4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1642 - Andrew Santino**
+  - ID: `a_n7285eYMc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1641 - Matty Matheson**
+  - ID: `uT7I392TNnM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1640 - Josh Rogin**
+  - ID: `6_TOnNrHmis`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1639 - Dave Smith**
+  - ID: `7IrbZUQnl_0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #108 with Stephen Thompson**
+  - ID: `Ax9NbMpwl0s`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1638 - Dr. Shanna Swan**
+  - ID: `2DGXoLiwLkE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1637 - Action Bronson**
+  - ID: `26nkRLeU1jk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1636 - Colion Noir**
+  - ID: `vRPvkslHLv4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1635 - Katie Spotz**
+  - ID: `NB9AtjKLb1Q`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1634 - Jack Carr**
+  - ID: `Ly4gOLkWoIk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1633 - Ali Macofsky**
+  - ID: `lSHPOujy9_M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1632 - Tom Segura**
+  - ID: `tkQmmRU_v_k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1631 - Brian Greene**
+  - ID: `_60eju-9DUo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #107 with Georges St-Pierre**
+  - ID: `t7CF9J90O5U`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1630 - Dan Crenshaw**
+  - ID: `nJ2pJypO-X0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1629 - Lara Beitz**
+  - ID: `w_WZnbr4eUM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1628 - Eric Weinstein**
+  - ID: `6vktDo8IWzY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1627 - Dan Gable**
+  - ID: `LzMAEhRuVjY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1626 - Alex Honnold**
+  - ID: `N-YH0ErrYQ4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1625 - Demi Lovato**
+  - ID: `sJ1WG5Fc4wk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1624 - Mark Sisson**
+  - ID: `OeOD_KfA_dM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1623 - Doug Stanhope**
+  - ID: `fVXiMrzzMjw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1622 - Marcus Luttrell**
+  - ID: `nZB8sB9HJUE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1621 - Jim Breuer**
+  - ID: `krMhxLj5VYs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #106 with Leon Edwards**
+  - ID: `1fGR_d9DNpU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1620 - Nate Bargatze**
+  - ID: `3LcLIVDVyso`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1619 - Claressa Shields**
+  - ID: `6-geFpxUWp8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #105 with Derrick Lewis**
+  - ID: `Er9QJp82xzk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1618 - Mat Fraser**
+  - ID: `d0Hki1GGzUY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1617 - Mike Baker**
+  - ID: `wRDnL61LiPc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1616 - Jamie Metzl**
+  - ID: `wGnXltIBgRs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #104 with Cory Sandhagen**
+  - ID: `Xl9przvAU2M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1615 - Hamilton Morris**
+  - ID: `PPL2xnRdGr4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1614 - Tiller Russell**
+  - ID: `5FHOeiU-ka0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1613 - Ayaan Hirsi Ali**
+  - ID: `KK9c2rtqrlQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #103 with Max Holloway**
+  - ID: `rCfFfA-rWq4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #102 with Dustin Poirier**
+  - ID: `tPWuR870Gug`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1612 - Robert Bigelow**
+  - ID: `xPbZ19A03Hw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #101 with Kevin Holland & Travis Lutter**
+  - ID: `FXjt1tB3UAE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1611 - Freddie Gibbs & Brian Moses**
+  - ID: `uNoQgxEaEAk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1610 - Snowpacalypse with Tim Dillon**
+  - ID: `U1MqrFYyZrk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #100 with Cody Garbrandt**
+  - ID: `eqkCdypeRIk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1609 - Elon Musk**
+  - ID: `Gbb2rV7Vpnw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #99 with Francis Ngannou**
+  - ID: `lN2-yCSHrZ4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1607 - Fahim Anwar**
+  - ID: `QtV0TS0zo2w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1606 - Ali Siddiq**
+  - ID: `vItq_i1We2Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1605 - Mark Smith**
+  - ID: `_goUU_KNSn0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1604 - Jamar Neighbors**
+  - ID: `4g4R2vR-r1I`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1603 - Brendan Schaub**
+  - ID: `q1OgN79hdek`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1602 - Justin Wren**
+  - ID: `KLDL2zCdytQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1601 - Brian Redban**
+  - ID: `QzhShogOhxc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1600 - Lex Fridman**
+  - ID: `tlOyZSAZh2k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1599 - Tulsi Gabbard**
+  - ID: `YNhMcGwRPvw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1598 - The Undertaker**
+  - ID: `Ya0X5numTZs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1596 - Avi Loeb**
+  - ID: `EhU-yzauNWE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1595 - Ira Glasser**
+  - ID: `1rM8mWhgIl0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1594 - Yannis Pappas**
+  - ID: `QsL9ZbaWNgQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1593 - Dr. Carl Hart**
+  - ID: `72KBQzWcEQc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1592 - Bryan Fogel**
+  - ID: `qQ8LQhwbCqM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1591 - Jordan Burroughs**
+  - ID: `PRd4U0gADas`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1589 - Dr. Mark Gordon & Andrew Marr**
+  - ID: `zK53GZHS9Rc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1588 - Lawrence Wright**
+  - ID: `q7hWj2iS0As`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1587 - Mark Normand**
+  - ID: `tWgSVc7hSn8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1586 - Tony Hinchcliffe**
+  - ID: `7u2icXLfZO8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1585 - Michael Kosta**
+  - ID: `hwMfm7ZHqts`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1584 - Todd White**
+  - ID: `5WiNA-33uds`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1583 - John Terzian & Craig Susser**
+  - ID: `d-XBVk1tE3w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1582 - Alex Berenson**
+  - ID: `9kNuV0fgYdU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1581 - J. Prince**
+  - ID: `wdxpZHk3kSc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1580 - Andrew Schulz**
+  - ID: `-VRO6Z49ALs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1579 - Suzanne Santo & Gary Clark Jr.**
+  - ID: `XEmDWhEUwrQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1578 - Richard Rawlings**
+  - ID: `1vWnMOqXHo0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1577 - Terry Virts**
+  - ID: `xOelOfg88MY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1576 - Mariana van Zeller**
+  - ID: `1F14XGgwVdM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1575 - Bill Burr**
+  - ID: `Pypp9AYDbMI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1574 - Jacques Vallee & James Fox**
+  - ID: `xz7jtzGsa-k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1573 - Matthew Yglesias**
+  - ID: `8vjhgiHI1hE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1572 - Moxie Marlinspike**
+  - ID: `WDe-mUxR7P0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE - End Of The World #2**
+  - ID: `Fy_OztGwivQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1571 - Emily Harrington**
+  - ID: `6540Nct67uw`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1570 - Willie D & Mike Judge**
+  - ID: `bvzs-VbEzds`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1569 - John Mackey**
+  - ID: `CHXIQhvI8cw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1568 - Tom Green**
+  - ID: `2Wk6SL4ofG0`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1567 - Donnell Rawlings & Dave Chappelle**
+  - ID: `C7t_LxpzYTg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1566 - Nicholas Christakis**
+  - ID: `Sc5oa6MqPDg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1565 - Gary Laderman**
+  - ID: `GmHwG2p_esE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1564 - Adam Alter**
+  - ID: `J68gMp9nVE0`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1563 - Tony Hinchcliffe**
+  - ID: `th17n7kjBYg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1562 - Dave Smith**
+  - ID: `5PrLGhJnO7I`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1561 - Kermit Pattison**
+  - ID: `C8M1ZRYt-2Q`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1560 - Mike Baker**
+  - ID: `jH4dl2coorM`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1559 - Steven Rinella**
+  - ID: `surnFz_pZE4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE End Of The World #2**
+  - ID: `KkjxSKrcbOg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #98 with Luke Thomas**
+  - ID: `3sFl7J3xskY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1558 - Tristan Harris**
+  - ID: `OaTKaHKCAFg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1557 - Gad Saad**
+  - ID: `4ugp6FBq6E0`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1556 - Glenn Greenwald**
+  - ID: `t0rcLsoIKgA`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1555 - Alex Jones & Tim Dillon**
+  - ID: `jdVso9FSkmE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1554 - Kanye West**
+  - ID: `qxOeWuAHOiw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1553 - Maynard James Keenan**
+  - ID: `cz0ka4DuxPw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1552 - Matthew McConaughey**
+  - ID: `BBCl9A9NlRw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1551 - Paul Saladino**
+  - ID: `s8tJ-R28HX8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1550 - Wesley Hunt**
+  - ID: `a_7s1EKhSwo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1549 - Tom Papa**
+  - ID: `-D2bNqpLbtE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1548 - Roy Jones Jr.**
+  - ID: `wC5TVZ3p_H4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1547 - Colin Quinn**
+  - ID: `ckjwkCbGIu8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1546 - Evan Hafer & Mat Best**
+  - ID: `A9PfeA9qFp8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1545 - W. Keith Campbell**
+  - ID: `j-bSjzIPRro`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1544 - Tim Dillon**
+  - ID: `ikJq6wcgrXI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1543 - Brian Muraresku & Graham Hancock**
+  - ID: `gzAQ7SklDxo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1542 - Cameron Hanes**
+  - ID: `EURQLMDNdw8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1541 - Bridget Phetasy**
+  - ID: `DYpotjw_KTw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1540 - Frank von Hippel**
+  - ID: `Kv3dsPkTvhY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1539 - Jenny Kleeman**
+  - ID: `EED-LEWOCv0`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1538 - Douglas Murray**
+  - ID: `t7uqHosIj4s`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1537 - Lex Fridman**
+  - ID: `9iOGfAAticY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1536 - Edward Snowden**
+  - ID: `_Rl82OQDoOc`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1535 - Tim Kennedy**
+  - ID: `TDKYSLDq6es`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1534 - Ron White**
+  - ID: `1mgN8r1mwvM`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1533 - Adam Curry**
+  - ID: `fTPQ9KR5j8k`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1532 - Mike Tyson**
+  - ID: `hcPUoxTvw5g`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1531 - Miley Cyrus**
+  - ID: `D7WUMXKV-FE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1530 - Duncan Trussell**
+  - ID: `8xRz8ra9mdI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1529 - Whitney Cummings & Annie Lederman**
+  - ID: `5UXpbbX9-Wo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1529 - Whitney Cummings & Annie Lederman**
+  - ID: `mCgX3vS0h1E`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1528 - Nikki Glaser**
+  - ID: `KUCkrZKslr4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1527 - David Blaine**
+  - ID: `NY3Zg37nIHo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1526 - Ali Macofsky**
+  - ID: `7eRR7j1OCOs`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1525 - Tim Dillon**
+  - ID: `h9XzuUXj6Gc`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1524 - Ron Funches**
+  - ID: `PjLW5irADoM`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1523 - Joey Diaz & Brian Redban**
+  - ID: `INSy7D2LBfU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1522 - Rob Lowe**
+  - ID: `pw8dkF-jotk`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1521 - Josh Dubin & Jason Flom**
+  - ID: `Trh7YWo2Bmo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1520 - Dr. Debra Soh**
+  - ID: `j9NeQTkJjIs`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1519 - Mike Baker**
+  - ID: `yR-GXnXw2wU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1518 - David Choe**
+  - ID: `j7T6__UbhBI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1517 - Nancy Panza**
+  - ID: `6adKh-LYk3s`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1516 - Post Malone**
+  - ID: `G42RJ4mKj1k`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1515 - Dr. Bradley Garrett**
+  - ID: `_kDKAOncclU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1514 - Joe De Sena**
+  - ID: `wCSDF0RNuXY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1513 - Andrew Huberman**
+  - ID: `gLJowTOkZVo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1512 - Ben Shapiro**
+  - ID: `hl0iNRXcUbE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1511 - Oliver Stone**
+  - ID: `QOrOYUxzX3o`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1510 - George Knapp & Jeremy Corbell**
+  - ID: `Hc6pbG4wICA`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1509 - Abigail Shrier**
+  - ID: `CtftWcgXjdg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1508 - Peter Schiff**
+  - ID: `OK2zgeJLVwU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1507 - Bob Saget**
+  - ID: `BY3CY36WAec`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1506 - James Nestor**
+  - ID: `U5o9b2RVC2E`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1505 - Hannibal Buress**
+  - ID: `amyaoTtZaRE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1504 - Alan Levinovitz**
+  - ID: `NpOxxzOhZyg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1503 - Josh Barnett**
+  - ID: `VAoo7oXtyy4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1502 - Russell Peters**
+  - ID: `MNvjRzcfcx0`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1501 - James Lindsay**
+  - ID: `FtNW3I1FZ5o`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1500 - Barbara Freese**
+  - ID: `cP0D2_jhqPU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experienced #1499 - Aron Snyder**
+  - ID: `VmgYeeE31_8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1498 - Jon Stewart**
+  - ID: `SXOUCRLW2UI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1497 - Joe Schilling**
+  - ID: `4me69rP0mPM`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1496 - Colion Noir**
+  - ID: `fgxaD7u28A4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1495 - Kyle Dunnigan**
+  - ID: `U_yasKdeo8c`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1494 - Bret Weinstein**
+  - ID: `pRCzZp1J0v0`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1493 - Steve Schirripa & Michael Imperioli**
+  - ID: `MdLTWICADhM`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1492 - Jocko Willink**
+  - ID: `bL5RzI5LyVc`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1491 - Bill Burr**
+  - ID: `GO_rW0Bvy1I`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1490 - Jimmy O Yang**
+  - ID: `j3sT8WpkDco`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1489 - Ronnie Coleman**
+  - ID: `mi5OlUE3BLc`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1488 - Andrew Schulz**
+  - ID: `LimytC6bNZ0`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #97 with Henry Cejudo**
+  - ID: `xFEWPtIFTAg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1487 - Janet Zuccarini & Evan Funke**
+  - ID: `vUw8dqDHcB4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1486 - Honey Honey**
+  - ID: `KqXYKjkVf9Q`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1485 - Krystal & Saagar**
+  - ID: `eA9Tpf5Uuxs`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1484 - Reggie Watts**
+  - ID: `Mcle87Uvh8Y`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1483 - Jesus Trejo**
+  - ID: `TxEZcP5hmP8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1482 - Jordan Jonas**
+  - ID: `vrCNpDigVxA`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #96 with Justin Gaethje & Trevor Wittman**
+  - ID: `ICrqTmO3Eo4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1481 - Adam Eget**
+  - ID: `TvHqvYesr9M`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1480 - Kevin Hart**
+  - ID: `vzx6h2sAGTU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1479 - David Pakman**
+  - ID: `Wf93nfm2U2o`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1478 - Joel Salatin**
+  - ID: `4-7O3fOXXKo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1477 - Tony Hawk**
+  - ID: `At4kjSXFr-U`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1476 - Patton Oswalt**
+  - ID: `KluBn073YjY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1475 - Bridget Phetasy**
+  - ID: `2LQFV0ct3X8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1474 - Dr. Rhonda Patrick**
+  - ID: `4_ZJ8YDOX6g`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1473 - Tom Papa**
+  - ID: `EToUmoEYGuU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1472 - Michael Yo**
+  - ID: `KdDPhoyypcg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #95 with Brendan Schaub**
+  - ID: `kyX2HaJSIco`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1471 - Tony Hinchcliffe**
+  - ID: `wKaySfPomOI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1470 - Elon Musk**
+  - ID: `RcYjXbSJBN8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1469 - Adam Perry Lang**
+  - ID: `EATOIfG2ISk`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1468 - Alonzo Bodden**
+  - ID: `2cOnu-HMmUk`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1467 - Jack Carr**
+  - ID: `Ra4522ikFoU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1466 - Jessimae Peluso**
+  - ID: `sqsBfhCbMjw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1465 - Tim Pool**
+  - ID: `Cs_mDpIkUOY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1464 - Duncan Trussell**
+  - ID: `4YqZ08GxV1c`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1463 - Tom Green**
+  - ID: `CzqONHtFiHQ`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1462 - Kurt Metzger**
+  - ID: `17pIBFcGB0k`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1461 - Owen Smith**
+  - ID: `mrNZUaaaEtI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1460 - Donnell Rawlings**
+  - ID: `IXFlwSr5u_k`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1459 - Tom O'Neill**
+  - ID: `J36xPWBLcG8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1457 - Tim Dillon**
+  - ID: `ig9yh8iVZWI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #94 with Brendan Schaub**
+  - ID: `cF7_AaY9tCg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1456 - Michael Shermer**
+  - ID: `TOiTI5LrCSA`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1455 - Lex Fridman**
+  - ID: `g4OJooMbgRE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1454 - Dan Crenshaw**
+  - ID: `B-DiuM5KsPM`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1453 - Eric Weinstein**
+  - ID: `wf0_nMaQ6tA`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1452 - Greg Fitzsimmons**
+  - ID: `W8ASnyzZ534`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1451 - Dr. Peter Hotez**
+  - ID: `Q9Q53KWZFMU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1450 - Brian Redban**
+  - ID: `iS3te7kM6DY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1449   Bryan Callen**
+  - ID: `fy29eXpK0TM`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1448 - Joey Diaz**
+  - ID: `Xb-g4cACOEc`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1447 - Tom Segura**
+  - ID: `e4Xx24EqAFU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1446 - Bert Kreischer**
+  - ID: `Q0V6KIZiXco`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1445 - Andy Stumpf**
+  - ID: `OlFJm2wK7eo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1444 - Duncan Trussell**
+  - ID: `r4iO0GpgnlQ`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1443 - Jonathan Ward**
+  - ID: `Xd1IF8_FKBo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1442 - Shannon O'Loughlin**
+  - ID: `UL3RvjhFu_s`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1441 - Hugo Martin**
+  - ID: `gzUuvAa2jPY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1440 - Fortune Feimster**
+  - ID: `ack8IjOdo3c`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #93 with Alexander Volkanovski**
+  - ID: `jUiUUCt_TWg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1439 - Michael Osterholm**
+  - ID: `E3URhJx0NSw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1438 - Andrew Santino**
+  - ID: `eDzGRT06er0`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1437 - Stephen Dubner**
+  - ID: `DETj3ncN19g`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1436 - Adam Curry**
+  - ID: `NaPKrZTUoUs`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1435 - Suzanne Santo & Gary Clark Jr.**
+  - ID: `PhRRq6SXSB8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1434 - Trevor Thompson**
+  - ID: `E3nSqQhlCmA`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1433 - Michael Yo**
+  - ID: `bYmfnvCbqzY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1432 - Aubrey de Grey**
+  - ID: `9-z0kglwpwo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1431 - Owen Smith**
+  - ID: `A1Q4vhC4Ink`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1430 - Raghunath Cappo**
+  - ID: `UAx1Sq6usRg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1429 - Colin O'Brady**
+  - ID: `4H_5J4qcij4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1428 - Brian Greene**
+  - ID: `r4wQsmAtZoc`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #92 with Angela Hill**
+  - ID: `yTCgRIA0RYo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1427 - Melissa Chen**
+  - ID: `6SLVjWbER4M`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #91 with Radio Rahim**
+  - ID: `15Ff4I6qsfU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1426 - Justin Martindale**
+  - ID: `_TStVaAMT3U`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #90 with Rashad Evans**
+  - ID: `auslk18GgIE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1425 - Garrett Reisman**
+  - ID: `3RG5pXTpLBI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1424 - Tom Papa**
+  - ID: `5ihph3nrgt0`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1423 - Andrew Doyle**
+  - ID: `NIxhH85cQMY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1422 - Lex Fridman**
+  - ID: `ZIcQwDkcaWk`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1421 - Jim Norton**
+  - ID: `yXZn2DkrXig`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1420 - Mark Normand**
+  - ID: `DEWgei2u6vM`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1419 - Daryl Davis**
+  - ID: `oGTQ0Wj6yIg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #89 with Rafael Lovato Jr**
+  - ID: `nZ7j2KFd0D4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #88 with Frankie Edgar**
+  - ID: `QtIa_UQ09Ko`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #87 with Kamaru Usman**
+  - ID: `hIQTPo262rQ`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #86 with Josh Thomson**
+  - ID: `8zkXLwBnORg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1418 - Don Gavin**
+  - ID: `vPDRlhgblZg`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1417 - Kevin Ross**
+  - ID: `XiWYB_xTd9k`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1416 - Rob Kearney**
+  - ID: `74TaVlSuipo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1415 - Bari Weiss**
+  - ID: `nL-YwrjKqZU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1414 - Mike Baker**
+  - ID: `wQ0GD9SpH_o`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1413 - Bill Maher**
+  - ID: `-KQGZa773sI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1412 - Jimmy Dore**
+  - ID: `amx14K9N5CY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1411 - Robert Downey Jr.**
+  - ID: `d5XTDmm0KUQ`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1410 - Ash Dykes**
+  - ID: `RGLgfGT032s`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1409 - Joey Diaz**
+  - ID: `6iYxbRZ21bw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - January 9, 2020**
+  - ID: `fM5IYSZeGCY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1408 - Ed Calderon**
+  - ID: `xPBejhoKlb8`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1407 - Michael Malice**
+  - ID: `83ysf_GO2aw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1406 - Brian Redban**
+  - ID: `joGS1O-Uto4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1405 - Sober October 3 Recap**
+  - ID: `H4gdLhOp3OE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1404 - Bryan Callen**
+  - ID: `cyj5AfaJfVo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1403 - Forrest Galante**
+  - ID: `tCRjz1fyOE4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #85 with Max Holloway**
+  - ID: `4N2FjjLAS6E`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1402 - Boyan Slat**
+  - ID: `whRVyywTov4`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1401 - Iliza Shlesinger**
+  - ID: `4ZamJraVSxo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1400 - Tony Hinchcliffe**
+  - ID: `HKa6m9HpWUU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1399 - Pavel Tsatsouline**
+  - ID: `Rm0GNWSKzYs`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1398 - Lil Duval**
+  - ID: `UYp5KoDc3mE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1397 - S.C. Gwynne**
+  - ID: `Iq8Ss9yg6bo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1396 - Michelle Wolf**
+  - ID: `zOT7UCaCJHY`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1395 - Glenn Villeneuve**
+  - ID: `PNocQzhPyac`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1394 - Matt Farah**
+  - ID: `Imi5ODmIckw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1393 - James Wilks & Chris Kresser - The Game Changers Deb**
+  - ID: `s0zgNY_kqlI`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #84 with Brendan Schaub**
+  - ID: `Frw-IBgu-Qw`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1392 - Zach Bitter**
+  - ID: `ofj3EHrK96U`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #83 with Firas Zahabi**
+  - ID: `GgrspAOucvM`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1391- Tulsi Gabbard & Jocko Willink**
+  - ID: `PdYud9re7-Q`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1390 - Tim Dillon**
+  - ID: `-0sKkbjQYqw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1389 - Chris Kresser Debunks "The Gamechangers" Documentar**
+  - ID: `Dq4Apc2Xk7Q`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1388 - Louie Psihoyos**
+  - ID: `xCSVI6gfjs8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1387 - Josh Homme**
+  - ID: `XPf0swdYOxI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1386 - Matt Taibbi**
+  - ID: `2GJaLAIM1Ho`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1385 - Paul Stamets**
+  - ID: `xJ6Ym719urg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1384 - Ari Shaffir**
+  - ID: `xaBHLCIBoEc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1383 - Malcolm Gladwell**
+  - ID: `Okg2LH6XKzY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1382 - RZA & Donnell Rawlings**
+  - ID: `FDzDNcglUdo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1381 - Donnell Rawlings**
+  - ID: `HaEDlGzrVIg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #82 with Israel Adesanya**
+  - ID: `yZKhfZ25L4o`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1380 - Pete Dominick**
+  - ID: `f2aYNheer8I`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1379 - Ben Westhoff**
+  - ID: `gxwgwaLS7KI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1378 - Greg Fitzsimmons**
+  - ID: `ZDni5sKbAII`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1377 - Rick Baker**
+  - ID: `cRUy8E6ueeo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1376 - Artie Lange**
+  - ID: `UjMGOaDPav8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1375 - Edward Norton**
+  - ID: `wUn1TbCINpk`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1374 - Justin Wren**
+  - ID: `6qGhSAeFV0Y`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1373 - Kyle Kulinski**
+  - ID: `0HWh52wdUmY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1372 - Kevin Smith**
+  - ID: `9yji9vIxkwY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1371 - Andrew Santino**
+  - ID: `HAxSo38-2Kg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #81 with Dave Leduc**
+  - ID: `O1mo5D3UF7s`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1370 - Brian Grazer**
+  - ID: `6Zo_FTUNDBI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1369 - Christopher Ryan**
+  - ID: `ylQrshWAjuE`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1368 - Edward Snowden**
+  - ID: `efs3QRr8LWw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1367 - Bridget Phetasy**
+  - ID: `0G64Hs7iZpU`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1366 - Richard Dawkins**
+  - ID: `_bN4spt3744`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1365 - Cameron Hanes**
+  - ID: `qEcWyjJ20k0`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1364 - Brian Redban**
+  - ID: `h2fUl0Ldxgg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1363 - Dakota Meyer**
+  - ID: `PlDUYhZvU9s`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #80 with Evander Holyfield**
+  - ID: `LyUAzkDdZ9g`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1362 - Lenny Clarke**
+  - ID: `dTuSEyiqzzk`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1361 - Cmdr. David Fravor & Jeremy Corbell**
+  - ID: `Eco2s3-0zsQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1360 - Nikki Glaser**
+  - ID: `TqUAIrhzDP8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1359 - Roseanne Barr**
+  - ID: `R0ufbsXbsEM`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1358 - Sober October 3**
+  - ID: `EnFAfg4gQDQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1357 - Ari Shaffir**
+  - ID: `x5hNJ0GR_Wk`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1356 - Sturgill Simpson & His Band**
+  - ID: `8OW6fYFCxAg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1355 - Mark Normand**
+  - ID: `EWU5mt0DFDc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1354 - The Black Keys**
+  - ID: `izjGX8XJZ4g`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #79 with Vinny Shoreman & Liam Harrison**
+  - ID: `nHrXYiM72Co`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1353 - Rob Zombie**
+  - ID: `KDLeJ5Rasuo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1352 - Sean Carroll**
+  - ID: `TP5W2MG8Jjs`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1351 - Dan Aykroyd**
+  - ID: `4LIsLD3j0oQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1350 - Nick Bostrom**
+  - ID: `5c4cv7rVlE8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1349 - David Sinclair**
+  - ID: `ZGLL77wYxe8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1348 - Bill Burr**
+  - ID: `--SCDa1zsYI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - September 7, 2019**
+  - ID: `Vmq87QcvSno`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1347 - Neil deGrasse Tyson**
+  - ID: `0pmviUS1Zac`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1346 - Zuby**
+  - ID: `ffwbNfjNRTw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1345 - Steve Aoki**
+  - ID: `OfEUrEUS9Qk`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1344 - Joseph LeDoux**
+  - ID: `Tnr4EyTegcs`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #78 with Andre Ward**
+  - ID: `hi7dtuTk16s`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1343 - Penn Jillette**
+  - ID: `1OnBVqeW5JA`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1342 - John Carmack**
+  - ID: `udlMSe5-zP8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1341 - Steven Rinella**
+  - ID: `1UsBOOwgq28`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #77 with Cedric Doumbe**
+  - ID: `WrfohqHpKQc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1340 - John Nores**
+  - ID: `avZpWVEpiV8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1339 - Everlast**
+  - ID: `p6Dp0KJzMPI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1338 - Roy Wood Jr**
+  - ID: `Iaf5g9oT0mA`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1337 - Dan Crenshaw**
+  - ID: `MIWrmgPNUqQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #76 with Terence Crawford**
+  - ID: `eKUf_nL28Pc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1336 - Legion of Skanks**
+  - ID: `7q44OJasErI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #75 with Dan Hardy**
+  - ID: `D1XCWUm-GAI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1335 - Jim Gaffigan**
+  - ID: `yx7EjrIrOng`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1334 - Fahim Anwar**
+  - ID: `nV3miitxG08`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1333 - Tom Papa**
+  - ID: `ck5dsmTs3K4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #74 with Brendan Schaub**
+  - ID: `vIroVHH2IIA`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1332 - Annie Lederman**
+  - ID: `xyE_w00AYXw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1331 - Alonzo Bodden**
+  - ID: `lJAx6M7RiwI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1330 - Bernie Sanders**
+  - ID: `2O-iLk1G_ng`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #73 with Jean Jacques Machado**
+  - ID: `TQabA3GvnPU`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1329 - Brian Moses**
+  - ID: `-VZEcwBCNwM`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #72 with Andy Ruiz**
+  - ID: `_KmiPV0ZAFw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1328 - Whitney Cummings**
+  - ID: `9hhc90mpKNc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1327 - Mike Baker**
+  - ID: `nhBePYuPZ9E`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1326 - Maynard James Keenan**
+  - ID: `9-w-LFBw8Co`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #71 with Rico Verhoeven**
+  - ID: `B4jsmvNoXP4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1325 - Dr. Cornel West**
+  - ID: `ViWvAnvT17c`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1312 - Ms Pat**
+  - ID: `IVI5i55NfN4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #70 with Aljamain Sterling**
+  - ID: `MaVTCHFDZd4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1324 - Ian Edwards**
+  - ID: `6g5UqgSdA9o`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1323 - Andy Ngo**
+  - ID: `cI2EHMy1lgs`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1322 - Reggie Watts**
+  - ID: `GW2si8__T7c`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1321 - Robert Oberst**
+  - ID: `pTZm0Y_G78M`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1320 - Eric Weinstein**
+  - ID: `_EWCN3CPhTI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #69 with Yves Edwards**
+  - ID: `huYE-nW3JY8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1319 - Joey Diaz**
+  - ID: `J1H8vYEi128`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1318 - Hotep Jesus**
+  - ID: `cdP3L73yySM`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1317 - Andrew Santino**
+  - ID: `HsD_J7S2cz4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1316 - Abby Martin**
+  - ID: `O51yryBeNuY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #68 with Will Harris**
+  - ID: `Z3M0Oy_HAfQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Swapcast - Podcast On A Plane with John Dudley (Audio Only)**
+  - ID: `4NdU1F3b84Y`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1315 - Bob Lazar & Jeremy Corbell**
+  - ID: `BEWz4SXfyCQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1314 - Charlamagne tha God & Andrew Schulz**
+  - ID: `tiOFmHOjXH0`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1313 - Duncan Trussell**
+  - ID: `RD-9Ghvt480`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1311- David Pakman**
+  - ID: `VIlI-Se-pk8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1310 - Sober October 2019 Preview**
+  - ID: `-oexK5maDVY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1309 - Naval Ravikant**
+  - ID: `3qHkcs3kG44`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1308 - Eddie Bravo**
+  - ID: `5PxPOz_SZC8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1307 - Greg Fitzsimmons**
+  - ID: `IL0ufqBeoBA`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1306 - Wiz Khalifa**
+  - ID: `fTAPaHcLAhw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1305 - JD & John Witherspoon**
+  - ID: `3AzPmYxJwdY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #66 with Michelle Waterson**
+  - ID: `lFqqHszPSMY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1304 - Brendan Schaub**
+  - ID: `01Uj1eNnZ8o`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1303 - Tommy Chong**
+  - ID: `4rHLLmQPqLY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1302 - Ed Calderon**
+  - ID: `llhb2ymtsw8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1301-  Laird Hamilton**
+  - ID: `FYsvhzhAK2g`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1300 - Michael Malice**
+  - ID: `PY5PgLBTkbk`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1299 - Annie Jacobsen**
+  - ID: `5VoVIpIzj_c`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1298 - Neal Brennan**
+  - ID: `oOpQnnGyDfQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1297 - Phil Demers**
+  - ID: `QmfFbwZcVx4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1296 - Joe List**
+  - ID: `uRjOsCftRJ0`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1295 - Tulsi Gabbard**
+  - ID: `kR8UcnwLH24`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1294 - Jamie Metzl**
+  - ID: `VBPnjte2UV8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1293 - Andrew Santino**
+  - ID: `3Dp4RrpbWqo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1292 - Lex Fridman**
+  - ID: `ikMmkHzlTpk`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1291 - C.T. Fletcher**
+  - ID: `Q7ctD2TBcmg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1290 - Bryan Callen**
+  - ID: `hgdJnpVccWg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1289 - Eddie Izzard**
+  - ID: `3KngXMPhxzg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1288 - Jon Reep**
+  - ID: `UYU-Jdmypmc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1287 - Rich Benoit**
+  - ID: `qAfWYD7HK9M`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1286 - Anthony Jeselnik**
+  - ID: `OU6E31jA1Cc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #65 with Corey Anderson**
+  - ID: `9aiJ1HaDsx0`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #64 with Khalil Rountree Jr.**
+  - ID: `OOSFef1lIAQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1285 - B-Real**
+  - ID: `Jo61b3Ex6Ag`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1284 - Graham Hancock**
+  - ID: `Rxmw9eizOAo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1283 - Russell Brand**
+  - ID: `rY5jCvRHEFk`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1282 - Adam Conover**
+  - ID: `JHmktXPdOrQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #63 with Jorge Masvidal**
+  - ID: `yTDScKcwEKk`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #62 with Brendan Schaub**
+  - ID: `Fo_ymT8NJwY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1281 - Tom Papa**
+  - ID: `mgLAhLzw2s8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #61 with Herb Dean**
+  - ID: `_TiGMStO5G4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1280 - Michael Yo**
+  - ID: `aFlAD18qltw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1279 - Jessimae Peluso**
+  - ID: `JM-GwDh73Wc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1278 - Kevin Hart**
+  - ID: `XW_KhFq4LQo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1277 - Gabrielle Reece**
+  - ID: `zTHahHrdaZw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1276 - Ben Shapiro**
+  - ID: `sCD9zjf_YRU`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #60 with Forrest Griffin, Clint Wattenberg & Dr. Duncan French**
+  - ID: `Gdb4DFq_7x4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1275 - Luis J. Gomez**
+  - ID: `x2j5JH8Lcuo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1274 - Nicholas Christakis**
+  - ID: `4PnkZx3kwTM`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1273 - Ron Funches**
+  - ID: `YBS0tQn15cM`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1272 - Lindsey Fitzharris**
+  - ID: `uT48whuAaCw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1271 - Billy Corben**
+  - ID: `mDm5YXIal48`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1270 - Lenny Clarke**
+  - ID: `YDQxXKwOA7Q`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1269 - Bryan Callen**
+  - ID: `DAkV6EwDXN4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1268 - Ron White**
+  - ID: `1K1KYIU6Eoc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1267 - Gary Taubes & Stephan Guyenet**
+  - ID: `vA3QavPp1Ho`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1266 - Ben Anderson**
+  - ID: `KOilZ69NwIc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #59 with Kamaru Usman**
+  - ID: `rwiGxmYJTEI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1265 - Andrew Schulz**
+  - ID: `8m_RhpT6xCg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1264 - Timothy Denevi**
+  - ID: `wfJUdYp-TPg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1263 - Renée DiResta**
+  - ID: `UAGZcGi1OP8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1262 - Pat McNamara**
+  - ID: `RMw8u0VrELs`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1261 - Peter Hotez**
+  - ID: `dodsGp37M50`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1260 - Lennox Lewis & Russell Peters**
+  - ID: `qdKgBatTe_E`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1259 - David Wallace-Wells**
+  - ID: `RoWXvMQ3xqg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1258 - Jack Dorsey, Vijaya Gadde & Tim Pool**
+  - ID: `DZCBRHOg3PQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #58 with Brendan Schaub**
+  - ID: `CLgPhMUOmDw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1257 - Steve Sweeney**
+  - ID: `qZHzO_x_bYY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1256 - David Lee Roth**
+  - ID: `Y5ZFKYtHdsM`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1254 - Dr. Phil**
+  - ID: `65epASHLblo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1253 - Ioan Grillo**
+  - ID: `edZR_nPp1l8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1252 - Dave Foley & Paul Greenberg**
+  - ID: `KmkEZKgeQQg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1251 - Tim Dillon**
+  - ID: `WNlqsuTJu2Q`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1250 - Johann Hari**
+  - ID: `CDpjvFn4wgM`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1249 - Donnell Rawlings**
+  - ID: `E4dcvItSGPc`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1248 - Bill Ottman**
+  - ID: `mJowz_-pj4U`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1247 - Andy Stumpf**
+  - ID: `bz1Masw5QDs`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - February 17, 2019**
+  - ID: `hWugDUjm2WU`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1246 - Pot Debate - Alex Berenson & Dr. Michael Hart**
+  - ID: `YHwSmwEwmV4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1245 - Andrew Yang**
+  - ID: `cTsEzmFamZ8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1244 - Colin O'Brady**
+  - ID: `1Gtrg6R7b3w`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1243 - Rafinha Bastos**
+  - ID: `jqrBuzHy5vY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1242 - Tim Pool**
+  - ID: `02ux1dKNPXo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1241 - Sam Harris**
+  - ID: `ZA106wrMUe4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1240 - Forrest Galante**
+  - ID: `OT0ZIq-yWEM`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1239 - Travis Barker**
+  - ID: `Hf8aG4sK4XE`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1238 - Brian Redban**
+  - ID: `O00gaA5u6BI`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1237 - Sebastian Maniscalco**
+  - ID: `uBkFF_inHgE`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1236 - Jack Dorsey**
+  - ID: `_mP9OmOFxc4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #57 with TJ Dillashaw**
+  - ID: `nIVWyuC2AB8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1235 - Ben Greenfield**
+  - ID: `8ylL8YIs7C0`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1234 - David Sinclair**
+  - ID: `HOTS0HS7aq4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1233 - Brian Cox**
+  - ID: `wieRZoJSVtw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - January 26, 2019**
+  - ID: `5-uDhcnL07A`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1232 - Nick Di Paolo**
+  - ID: `q_CeQlkMC_g`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1231 - Matt Braunger**
+  - ID: `Otbe3J1YcLU`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1230 - Killer Mike**
+  - ID: `w7HMOsRUFS8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1229 - Richard Rawlings**
+  - ID: `QA9DbqEvnPg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1228 - Bari Weiss**
+  - ID: `T77uFdw9HJA`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1227 - Mike Tyson**
+  - ID: `7MNv4_rTkfU`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1226 - Mike Baker**
+  - ID: `bce29LIRKiU`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #56 with Brendan Schaub**
+  - ID: `HvNJaZuzDDE`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1225 - Theo Von**
+  - ID: `qwogNykaAH8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1224 - Adam Greentree**
+  - ID: `YgzGWS28I2k`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1223 - Greg Fitzsimmons**
+  - ID: `XBJu_cri2f4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1222 - Michael Shermer**
+  - ID: `-p5D-pN8tQw`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #55 with Kelly Pavlik**
+  - ID: `LJdcAIfoh_A`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #54 with Din Thomas**
+  - ID: `iTLbaarXoW8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1221 - Jonathan Haidt**
+  - ID: `FG6HbWw2RF4`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #53 with Jeff Novitzky**
+  - ID: `so3qOEMZXDQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1220 - Joey Diaz**
+  - ID: `ll4E3-kP_54`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1219 - Bill Burr**
+  - ID: `cS1KWv0das8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1217 - Nimesh Patel**
+  - ID: `1cZYXScrJyU`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1216 - Sir Roger Penrose**
+  - ID: `GEw0ePZUMHA`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1215 - Ben O'Brien**
+  - ID: `tAithqQBFdQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1214 - Lawrence Lessig**
+  - ID: `Igc_1TPfK9Y`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1213 - Dr. Andrew Weil**
+  - ID: `WjYYdMNUXF8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #52 with Michael Bisping**
+  - ID: `MD-DaEa0Tpg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1212 - David Goggins**
+  - ID: `BvWB7B8tXK8`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #50 with Yves Edwards**
+  - ID: `wGODg5ByuVo`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1211 - Dr. Ben Goertzel**
+  - ID: `-qfB8clUIaY`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1210 - Tom Papa**
+  - ID: `lIUV5GBEo2M`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1209 - Anthony Cumia**
+  - ID: `suSqW0qW6nU`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1208 - Jordan Peterson**
+  - ID: `vIeFt88Hm8s`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #49 with Miriam Nakamoto**
+  - ID: `okl266f1LBg`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1207 - Jeff Ross & Dave Attell**
+  - ID: `TLZgdmGN2JQ`
+  - Published: 2019-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - November 24, 2018**
+  - ID: `d7eQcuBRnYA`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1205 - Jake "The Snake" Roberts & Tony Hinchcliffe**
+  - ID: `9DxeMowxDTU`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1204 - Steven Rinella**
+  - ID: `j7r7E0DNjaw`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1203 - Eric Weinstein**
+  - ID: `X9JLij1obHY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1202 - Fred Morin & David McMillan**
+  - ID: `lzujdxJxLIQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1201 - William von Hippel**
+  - ID: `7Dtv8ibI1vk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1200 - Ross Edgley**
+  - ID: `68azjW5Hhok`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1199 - Tom Segura & Sean Anders**
+  - ID: `tingHmTUNqI`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - November 10, 2018**
+  - ID: `MwLUCreNy5I`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1198 - Derren Brown**
+  - ID: `n_tpWrv76Q8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1196 - Dale Earnhardt Jr.**
+  - ID: `_BTNmNpoAro`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1195 - Christina P**
+  - ID: `KqX557kt3d4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1194 - Sober October 2 Recap**
+  - ID: `5blSRUZpYrU`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1193 - Shane Dorian**
+  - ID: `N8roQPPTe4Q`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1192 - Tony Hinchcliffe**
+  - ID: `mq-MEgcv5Zs`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #48 with Henry Cejudo & Eric Albarracin**
+  - ID: `SO-jiCZWfEw`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1191 - Peter Boghossian & James Lindsay**
+  - ID: `AZZNvT1vaJg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1190 - Joey Diaz**
+  - ID: `NCkAC5OcJMI`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #47 with Tyson Fury**
+  - ID: `vNZtibrPo0g`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1189 - Alex Honnold**
+  - ID: `2OhHkBmbb5Y`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1188 - Lex Fridman**
+  - ID: `j5FOumrXyww`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1186 - Marques Brownlee**
+  - ID: `QSGaMUBC4Mc`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1185 - Kelly Slater**
+  - ID: `H3qI3RWgNok`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #46 with Ari Shaffir**
+  - ID: `-WL2Ue7hGa0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #45 with Justin Wren & Rafael Lovato Jr.**
+  - ID: `aLRIQADKrak`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1184 - Roseanne Barr**
+  - ID: `wTAfy_nzJiw`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1183 - Andrew Santino**
+  - ID: `hsI3iUF3V38`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1182 - Nick Kroll**
+  - ID: `IEKvPzZLq7A`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #44 with John Kavanagh & George Lockhart**
+  - ID: `ARAT9HQY6e4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1181 - John Dudley**
+  - ID: `4FX71oBDVvY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1180 - Everlast**
+  - ID: `KJKL0fzlnYk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #43 with Brendan Schaub**
+  - ID: `OYSk66YiFwQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1179 - Nikki Glaser**
+  - ID: `JyTGcgOYQxE`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1178 - Dr. Rhonda Patrick**
+  - ID: `9M8X_bs_fzI`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #43 with Brendan Schaub**
+  - ID: `BoVXS7e0NRw`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1177 - Sober October 2**
+  - ID: `Z-XkTegWKPE`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1176 - Dom D'Agostino & Layne Norton**
+  - ID: `u93oh9kC-rU`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1175 - Chris Kresser & Dr. Joel Kahn**
+  - ID: `ULtqCBimr6U`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1174 - Vinnie Paz**
+  - ID: `nokrWA2f7-Y`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1173 - Geoffrey Miller**
+  - ID: `3MWvDgdRWQ4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #42 with Teddy Atlas**
+  - ID: `BEwq64YTSO8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1172 - Morgan Fallon**
+  - ID: `HiMNwcnUDoc`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #41 with TJ Dillashaw & Duane Ludwig**
+  - ID: `BB7tpgwvg1g`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1171 - Nick Yarris**
+  - ID: `AIc5XYpRc1M`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1170 - Tulsi Gabbard**
+  - ID: `oIb2lmHgd5s`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1169 - Elon Musk**
+  - ID: `ycPr5-27vSI`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #40 with Eddie Bravo**
+  - ID: `zkvUWvJdFWU`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1168 - Mareko Maumasi**
+  - ID: `2Hn6wGOxohg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1167 - Larry Sharpe**
+  - ID: `nSmggQZno6w`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1166 - Diamond Dallas Page**
+  - ID: `W0Bs56G9KAQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1165 - Tom Papa**
+  - ID: `rXSCahR6az8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1164 - Mikhaila Peterson**
+  - ID: `PF_7688Zk6s`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #39 with Donald "Cowboy" Cerrone**
+  - ID: `Yvi7y10yNyg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #39 with Donald "Cowboy" Cerrone**
+  - ID: `Z4TKUEpbtJ8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1163 - Banachek**
+  - ID: `j9M4DT8nieM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1162 - Valentine Thomas**
+  - ID: `JVgsyGbREVY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1161 - Jerrod Carmichael & Jamar Neighbors**
+  - ID: `5Q_jkO9V034`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1160 - Bert Kreischer**
+  - ID: `XBi1M3bcPfM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1159 - Neil deGrasse Tyson**
+  - ID: `vGc4mg5pul4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1158 - Chuck Palahniuk**
+  - ID: `v8ZCX0eywXw`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1157 - Shooter Jennings**
+  - ID: `6zXXj1mNoPQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1156 - Jimmy Dore**
+  - ID: `k3YcGRCGEuY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1155 - Henry Rollins**
+  - ID: `XdV9SwVtG18`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1154 - Doug Duren & Bryan Richards**
+  - ID: `E3s6p2UP57Q`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1153 - Macaulay Culkin**
+  - ID: `Oyb1xz7waY8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #38 with Gaston Bolanos & Kirian Fitzgibbons**
+  - ID: `WAik24xe3HE`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #37 with Mark DellaGrotte**
+  - ID: `FwlOPJzJGCg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1152 - John Joseph**
+  - ID: `_5dMj7iFfGM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1151 - Sean Carroll**
+  - ID: `ZtxzMb9CpTM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1150 - Felipe Esparza**
+  - ID: `CexD7dZo_nc`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1149 - Michael Scott Moore**
+  - ID: `gQzRcjRGFNg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1148 - Andrew Santino**
+  - ID: `kQ2UGALEmFk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1148 - Andrew Santino**
+  - ID: `yi0dq1AjVq8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1147 - Dr. Debra Soh**
+  - ID: `Zere8WRepGo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #36 with Brendan Schaub & Bryan Callen**
+  - ID: `WW2fjwpdb9E`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1146 - Jeff Garlin**
+  - ID: `eaf9Zn6juts`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1145 - Peter Schiff**
+  - ID: `3u7kDfEtKfs`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1144 - Doug Stanhope**
+  - ID: `4RyL6qqzp8o`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1143 - Candice Thompson**
+  - ID: `vY25O9TIY78`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #35 with Israel Adesanya**
+  - ID: `VUnRxNRsikk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1142 - Tony Rock**
+  - ID: `XFuvnieExAo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #34 with Josh Barnett**
+  - ID: `tk1cQEBEWLg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1140 - Joey Diaz**
+  - ID: `fXvgZF01OTk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #33 with Brendan Schaub**
+  - ID: `_yTxzwSW6pk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1139 - Jordan Peterson**
+  - ID: `9Xc7DN-noAc`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1138 - Ted Nugent**
+  - ID: `-Yp6ZdCIE3k`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1137 - Duncan Trussell**
+  - ID: `SIwSXODoJuU`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1136 - Hamilton Morris**
+  - ID: `HM8WDZIhs3M`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1135 - Ari Shaffir**
+  - ID: `p9ulSZyzRtg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1134 - Kyle Dunnigan**
+  - ID: `ANeILT_kkDM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1133 - Dennis McKenna**
+  - ID: `9OQ6wFocx9M`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #32 with Firas Zahabi**
+  - ID: `xDsoWp743gM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1132 - Kyle Kingsbury**
+  - ID: `lA18kveydd4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1131 - Dave Rubin**
+  - ID: `Ev3-7HLcZ5o`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #31 with Daniel Straus & Joe Schilling**
+  - ID: `lCR0Je9J4to`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1130 - Adam Frank**
+  - ID: `MfHk_93x8_0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1129 - Tom Papa**
+  - ID: `vsiQffJA2h8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1128 - Ryan Sickler**
+  - ID: `VX4qn8syLn0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #30 with Sean O'Malley & Tim Welch**
+  - ID: `abT95p5iBkU`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1127 - Jesse Itzler**
+  - ID: `b0GIO4lYFls`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1126 - Erik Griffin**
+  - ID: `WsoWyanP5qo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1125 - Candace Owens**
+  - ID: `7Nnzpy5GRak`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1124 - Robert Schoch**
+  - ID: `Vka2ZgzZTvo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1123 - Kevin Smith**
+  - ID: `aC7p0Upkh34`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1122 - Donnie Vincent**
+  - ID: `WnClnjjJHhg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #29 with Cat Zingano**
+  - ID: `kUa8UOkL4Mo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - May 27, 2018**
+  - ID: `zu5hilGmfzs`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1121 - Michael Pollan**
+  - ID: `tz4CrWE_P0g`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #28 with Georges St-Pierre**
+  - ID: `deVoaRTfVqs`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1120 - Ben Greenfield**
+  - ID: `v9A3Jy7s5qY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #27 with Robin Black**
+  - ID: `VoYLwjHSQAo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1119 - Howard Bloom**
+  - ID: `-8X32zNup1o`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1118 - Theo Von**
+  - ID: `dnpVNfHMlY4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1117 - Tim Kennedy**
+  - ID: `iaL3EEWspLo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1116 - Steven Tyler**
+  - ID: `0HqLk_ZbHmI`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #26 with Big John McCarthy**
+  - ID: `TXiG10Q00hE`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1115 - Mike Baker**
+  - ID: `V7iUoq9PZf8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1114 - Matt Taibbi**
+  - ID: `EB9JHwzzyX4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1113 - Brian Redban**
+  - ID: `QL8voe1u7Ys`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #25 with Michael Chandler**
+  - ID: `6eF59X5auFo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1112 - Cameron Hanes**
+  - ID: `-WLPRX5C2Vc`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - April 28, 2018**
+  - ID: `EaeObBIUPZw`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1111 - Abby Martin**
+  - ID: `HCRefZ1_yNY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1110 - Zach Bitter**
+  - ID: `RsO61ZsihQM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1109 - Matthew Walker**
+  - ID: `pwaWilO_Pig`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1108 - Peter Attia**
+  - ID: `gP1NA5f4LfE`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #24 with Kevin Lee**
+  - ID: `h4XkP10BQNo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1107 - Sam Harris & Maajid Nawaz**
+  - ID: `lGdPcC0zBIQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1106 - Colion Noir**
+  - ID: `T8eea1pgrBM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1105 - Michael Hunter**
+  - ID: `8EkIKtHQz5Q`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #23 with Alexander Gustafsson**
+  - ID: `bepFvVY9MuM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1104 - Boyan Slat**
+  - ID: `J145vnEZX6w`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1102 - Matt Farah**
+  - ID: `5NKTtKVZjZk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #22 with Bas Rutten**
+  - ID: `tP0KA2yI-QY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1101 - Chris & Mark Bell**
+  - ID: `0JWjwJS_XZk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1100 - Liz Phair**
+  - ID: `i9wqutwe-1w`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #21 with Brendan Schaub**
+  - ID: `SsR9ohalUp0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1099 - Christopher Ryan**
+  - ID: `H_RLYuROOqY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1098 - Eddie Bravo**
+  - ID: `qZ1vOS1cnME`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #20 with Yves Edwards**
+  - ID: `fq8Fs8AhdVM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1097 - Legion of Skanks**
+  - ID: `Hb1AqvYR0zI`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1096 - Todd Glass**
+  - ID: `2_acNtmiikY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1095 - TJ English & Joey Diaz**
+  - ID: `Uui869yDoX0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #19 with Vinny Shoreman & Liam Harrison**
+  - ID: `PXkiN5SCe9Y`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #18 with Pat Miletich**
+  - ID: `5MVvslEdX94`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1094 - Brian Redban**
+  - ID: `3xbmnYHhIr0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1092 - Mary Lynn Rajskub**
+  - ID: `Vl8uClhAgNs`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1091 - Daniele Bolelli**
+  - ID: `u3dzsfJ8TEQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1090 - Andrew Santino**
+  - ID: `6Ga2h-qMD6g`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #17 with Yoel Romero & Joey Diaz**
+  - ID: `y8sCWdR7Dyk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1089 - John Dudley**
+  - ID: `pN41VwpDS20`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1088 - Bryan Callen**
+  - ID: `9o_ZwmgXDHQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #16 with Brendan Schaub**
+  - ID: `wAAmtur_8m4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1087 - Sturgill Simpson**
+  - ID: `R0IqNaE513w`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1086 - Rory Albanese**
+  - ID: `yi9z3SFFq0U`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1085 - Kyle Kulinski**
+  - ID: `Sq1rX54u69U`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1084 - Douglas Murray**
+  - ID: `rBp4afbDeLk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1083 - Dom Irrera**
+  - ID: `vNc-9Y1057Y`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1082 - Greg Fitzsimmons**
+  - ID: `PiVNd7gXczY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1081 - Bret Weinstein & Heather Heying**
+  - ID: `HYJFgyqs0sM`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1080 - David Goggins**
+  - ID: `5tSTk1083VY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1079 - Tony Hinchcliffe**
+  - ID: `UnI2Lap4yJo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #15 with Brendan Schaub**
+  - ID: `rgResrM_LoA`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1078 - Jimmy Dore**
+  - ID: `G-2_Bc_7Pos`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1077 - Johann Hari**
+  - ID: `DQUgd9GQtoQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1076 - Phil Demers**
+  - ID: `fE3SOIKO9pg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1075 - Duncan Trussell**
+  - ID: `qNAScKkzgtg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #14 with Matt Brown**
+  - ID: `ogb-ix9uuHk`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1074 - Cameron Hanes**
+  - ID: `lQTQlGs6nBI`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1073 - Steven Pinker**
+  - ID: `VUDAdOdF6Zg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1072 - Joey Diaz**
+  - ID: `rsFWbDl-ICw`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1071 - Steven Crowder & NotGay Jared**
+  - ID: `PS_XL1tBnWw`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1070 - Jordan Peterson**
+  - ID: `6T7pUEZfgdI`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1069 - Ben Greenfield**
+  - ID: `ehfdd1eH4g4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1068 - Michael Shermer**
+  - ID: `x2qwRJT4WGY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #13 with Rose Namajunas & Pat Barry**
+  - ID: `FoyodyNJxhA`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1067 - Whitney Cummings**
+  - ID: `cn-Olrfv31U`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #12 with Ben Askren**
+  - ID: `Ec4OKbrCl3I`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1066 - Mel Gibson & Dr. Neil Riordan**
+  - ID: `OtL1fEEtLaA`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1065 - Danica Patrick**
+  - ID: `iB_XgqdeU1o`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1064 - Eddie Huang & Jessica Rosenworcel**
+  - ID: `gShvnz-LJfE`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #11 with John Danaher**
+  - ID: `qkBXzkD6tis`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - January 14, 2018**
+  - ID: `WE-lvHDQX8o`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #10 with Tyron Woodley**
+  - ID: `BOSEE09BkFY`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1063 - Tom Segura**
+  - ID: `nznRgMaGna4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1062 - Dan Harris & Jeff Warren**
+  - ID: `QtPs6Kuqjs0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1061 - Tom Papa**
+  - ID: `kD-b_mpsPFQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1060 - Remi Warren**
+  - ID: `PBTrYJ9UIGA`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #9 with Jeff Novitzky**
+  - ID: `-xxfT301Ii8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #8 with Jimmy Smith**
+  - ID: `e-8zbeH_kCg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1059 - Brian Redban**
+  - ID: `F1tjuM5-6Y0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1058 - Nina Teicholz**
+  - ID: `2_kEmYTiHtc`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1057 - Eddie Pepitone**
+  - ID: `ft4m6u3rAJ4`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1056 -  Dr. Mark Gordon & Andrew Marr**
+  - ID: `9jN6eBH8CFc`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #7 with Brendan Schaub & Bryan Callen**
+  - ID: `fQjBxSQNA9k`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #6 with Eddie Bravo**
+  - ID: `PTubxW2tz58`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1055 - Bret Weinstein**
+  - ID: `LzAgSp_O03I`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1054 - Dr. Rhonda Patrick**
+  - ID: `A9Mj0Q9y084`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1053 - Neal Brennan**
+  - ID: `2YDKs9TdWGo`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #5 with Stipe Miocic**
+  - ID: `5czmY2tK07Y`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1052 - Mick West**
+  - ID: `7A8Q8aEfGJg`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1051 - Duncan Trussell & Christopher Ryan**
+  - ID: `XSdWHeSf86U`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1050 - Dr. Shawn Baker**
+  - ID: `Yj_Bc9hdHa0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1049 - Chris Stapleton**
+  - ID: `26JaoS-zbz8`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #4 with Justin Wren**
+  - ID: `tk2jKc2U2Z0`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1048 - Doug Stanhope**
+  - ID: `Z0LMYKsaUYs`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1047 - Andy Stumpf**
+  - ID: `kRo_9g0g9-k`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #3 with Brendan Schaub**
+  - ID: `xNGjFN2ET0s`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1046 - Owen Smith**
+  - ID: `J-DdgS0zhjQ`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1045 - Bryan Callen**
+  - ID: `_ERIRyhQ_34`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1044 - C.T. Fletcher**
+  - ID: `D2HVKlqYwks`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1043 - Brian Redban**
+  - ID: `_T4JubS9c10`
+  - Published: 2018-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #2 (Audio Only)**
+  - ID: `3Y85g9rpC8E`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1042 - Krystyna Hutchinson & Corinne Fisher**
+  - ID: `GezkCeOCoys`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1041- Dan Carlin**
+  - ID: `ceItMiYZe9Y`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **JRE MMA Show #1**
+  - ID: `PzNPk8iksls`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1040 - Brian Regan**
+  - ID: `xJdyXBjMQx4`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1039 - Iliza Shlesinger**
+  - ID: `xBVbkPxSV1c`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1038 - Billy Corgan**
+  - ID: `sb-mU6wgeF8`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1037 - Chris Kresser**
+  - ID: `bYOIhmZ0Osg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1035 - Paul Stamets**
+  - ID: `mPqWstVnRjQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - UFC Recap w/ Brendan Schaub**
+  - ID: `MkRuJVq-9C4`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1034 - Sebastian Junger**
+  - ID: `iurXFfNriyg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1032 - Colin Moriarty**
+  - ID: `NeTHwruEjhM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1031 - Jamie Kilstein**
+  - ID: `_fa_ZA9k5t4`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1030 - Joey Diaz**
+  - ID: `kRtwWV32f0k`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1029 - Tom DeLonge**
+  - ID: `5n_3mnJfHzY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1028 - Adam Greentree**
+  - ID: `1uvKczCPQok`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1027 - Courtney Dauwalter**
+  - ID: `V8DfjXnIk6c`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1026 - Brian Redban**
+  - ID: `cTdE-vlbm58`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1025 - Greg Fitzsimmons**
+  - ID: `ca30mO_8NDY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - October 21, 2017**
+  - ID: `ZyBsE7UyKkE`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1024 - Bert Kreischer**
+  - ID: `ELUCUFQp1_k`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1023 - Christina P**
+  - ID: `K1XrqZsV0-Y`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1022 - Eric Weinstein**
+  - ID: `lMzjEaNFbAk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1021 - Russell Brand**
+  - ID: `iZPH6r_ZDvM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1020 - Amy Alkon**
+  - ID: `YKBbN4bxg0U`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1019 - Bryan Fogel**
+  - ID: `P2FCBIpKCdI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1018 - Alonzo Bodden**
+  - ID: `R5ddRZFtZTM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1017 - Jim Norton**
+  - ID: `9AwFGXHLCuI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1016 - Whitney Cummings**
+  - ID: `zefq4BACQn4`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1015 - Reggie Watts**
+  - ID: `B8oZV2CSsAY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1014 - Dave Smith**
+  - ID: `Lgxu9Zetj10`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1013 - Cameron Hanes**
+  - ID: `0mBDcyX6WGk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - September 16, 2017**
+  - ID: `dpuLT-ldISs`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1012 - Brendan Schaub**
+  - ID: `1aVtVX1-j5E`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1011 - Tom Papa**
+  - ID: `k9PAuyB2IVQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1010 - Brian Redban**
+  - ID: `mAJyHE8RAFY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1009 - James Damore**
+  - ID: `uQ1JeII0eGo`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1008 - Cody Garbrandt & Urijah Faber**
+  - ID: `q5_9sLvLsEM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1007 - Ari Shaffir, Bert Kreischer & Tom Segura**
+  - ID: `tjegWo2oPVg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - September 2, 2017**
+  - ID: `eSUbAroTW6s`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1006 - Jordan Peterson & Bret Weinstein**
+  - ID: `6G59zsjM2UI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1005 - Hannibal Buress**
+  - ID: `Z736qeg4Z1Y`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1004 - W. Kamau Bell**
+  - ID: `6RzIwA7CVRQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Mayweather vs. McGregor Recap with Brendan Schaub**
+  - ID: `qs6e-3KsHi8`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1003 - Sean Carroll**
+  - ID: `hHMSvSqCDKc`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1002 - Peter Schiff**
+  - ID: `by1OgqQQANg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1001 - Mike Baker**
+  - ID: `FL_tzFPyVVk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1000 - Joey Diaz & Tom Segura**
+  - ID: `qStaxEpnj1M`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #999 - Tom Bilyeu**
+  - ID: `Hkz2greEJuc`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Breakdown - Mayweather vs. McGregor**
+  - ID: `v1xePSUC3I4`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #997 - Pauly Shore**
+  - ID: `r-Gr3xm89-k`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #996 - Dr. Andy Galpin**
+  - ID: `2Gc3ZftYmHg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #995 - Jon Ronson**
+  - ID: `shwRkoAkPyY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #994 - Dom D'Agostino**
+  - ID: `keSoSyu9m7c`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #993 - Ben Shapiro**
+  - ID: `UQTfyjhvfH8`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #992 - Ian Edwards**
+  - ID: `VAgbfrRogHY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #991 - Eddie Bravo**
+  - ID: `GJziBQ6OLoQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #990 - Jamie Foxx**
+  - ID: `A_7RmheFRz0`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #989 - Dorian Yates**
+  - ID: `cu-7WSjaVyU`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #988 - Nick Swardson**
+  - ID: `_uR1OASCg4U`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #669 - Joey Diaz   **Re-Upload****
+  - ID: `Ii0PKGLAdyE`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #987 - Ben O'Brien**
+  - ID: `zKsZQlDYq6w`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #986 - Maynard James Keenan**
+  - ID: `J68gH5PiSZg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #985 - Gad Saad**
+  - ID: `rks0RpzXhzI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #984 - Yvette d'Entremont**
+  - ID: `RS-uCW7Jrks`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #983 - Natasha Leggero & Moshe Kasher**
+  - ID: `bPcY-JPEvAM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #982 - Honey Honey**
+  - ID: `_f8jVhsXM5A`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #981 - Josh Barnett**
+  - ID: `f2U2FKHDEic`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #978 - Judd Apatow**
+  - ID: `cOqHlD9zSJw`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #977 - Jeff Evans & Bud Brutsman**
+  - ID: `FYMXjYRDAjc`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #976 - Morgan Murphy**
+  - ID: `n839IbPGJ4U`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Podcast In Paradise (Audio Only)**
+  - ID: `JAqAr9ufmM0`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #975 - Sebastian Junger**
+  - ID: `W4KiOECVGLg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #974 - Megan Phelps-Roper**
+  - ID: `hOnefFVBEb0`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #973 - Wheeler Walker, Jr.**
+  - ID: `7krasbTLmBE`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #972 - Ari Shaffir**
+  - ID: `MHKtVo6kskk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #971 - Steven Rinella**
+  - ID: `ht3UXqk-6CM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - June 3, 2017**
+  - ID: `riYgqo12jkU`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #970 - Bret Weinstein**
+  - ID: `xq4Y87idawk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #969 - Andrew Santino**
+  - ID: `7MRBsKInVDk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #968 - Kelly Brogan**
+  - ID: `cunSB69gaec`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #967 - Bill Burr**
+  - ID: `k0uXPjSC4kU`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - May 28, 2017**
+  - ID: `_ga-FnSeHVU`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #966 - Tom Papa**
+  - ID: `Q7kWkyYP8oY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #965 -  Robert Sapolsky**
+  - ID: `obmt_PkIfBE`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #964 - Everlast**
+  - ID: `F5oH2Asi5Y0`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #962 - Jocko Willink**
+  - ID: `nFYvmTWHhnc`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #961 - Graham Hancock, Randall Carlson & Michael Shermer**
+  - ID: `tFlAFo78xoQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Podcast On A Plane UFC 211 Recap**
+  - ID: `wGJGa53ViBE`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #960 - Steve-O**
+  - ID: `F4HthqlmCao`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #959 - Mick West**
+  - ID: `kvitm0bMHyA`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #958 - Jordan Peterson**
+  - ID: `USg3NR76XpQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #957 - Cameron Hanes**
+  - ID: `Xg6MvPJhyr4`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #956 - Guy Ritchie**
+  - ID: `CMejeTP2edI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #955 - Al Madrigal**
+  - ID: `FyiT-z33gU8`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #954 - Justin Brown**
+  - ID: `1YSybjsqJc8`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #953 - Shirley Manson**
+  - ID: `GwbxhZJDS6U`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #952 - Thaddeus Russell**
+  - ID: `XhoNnZm5IDQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #951 - Dan Doty**
+  - ID: `EADjBjYLoQk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #950 - Abby Martin**
+  - ID: `0yp7a7f3VGw`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #949 - Josh Zepps**
+  - ID: `QGvET3i7ucc`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #949 - Josh Zepps**
+  - ID: `gpSZo-nb2lQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #948 - Brendan Schaub & Eddie Bravo**
+  - ID: `McAGTNINJkE`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #947 - Ron Miscavige**
+  - ID: `FVVdCikBDQk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #946 - Dennis McKenna**
+  - ID: `oKiKfAmysrI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #945 - Dr. Roddy McGee**
+  - ID: `foTkLE0GNK0`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #944 - Scott Eastwood & Cameron Hanes**
+  - ID: `f40GaoC_pNk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #943 - Moshe Kasher**
+  - ID: `nNJ5p6sAn6I`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #942 - Dan Flores**
+  - ID: `LH1RUk1w_xk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #941 - Greg Fitzsimmons**
+  - ID: `vN2jAio0djg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #940 - Sam Harris & Dan Harris**
+  - ID: `S4utkb6vSyQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #939 - Chris Cage**
+  - ID: `A0yd5vAf3Gk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #938 - Lawrence Krauss**
+  - ID: `bDhHK8nk_V0`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #936 - Colin Moriarty**
+  - ID: `UcONcwP93Lw`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #937 - Justin Wren**
+  - ID: `fAmvCrObdoM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #935 - Robb Wolf**
+  - ID: `DrnGCExhsnM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #934 - John Dudley**
+  - ID: `4OjTuxC4K9c`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #933 - Julie Kedzie**
+  - ID: `J8HeRcXtD7U`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #932 - TJ Kirk**
+  - ID: `LquBMLBI9CY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #931 - Jim Norton**
+  - ID: `g5754-P8Avs`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #930 - Will MacAskill**
+  - ID: `buyBzK5yM-s`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - March 12, 2017**
+  - ID: `1E2-rhrz28o`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #929 - Dan Peña**
+  - ID: `WoqIRSZ818M`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #928 - Arian Foster**
+  - ID: `neVsniQdOnM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #927 - Tom Papa**
+  - ID: `fvUGnN4VF38`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #926 - Joey Diaz & Alberto Gallazzi**
+  - ID: `-mQjF-tPdiI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #924 - Rory Albanese**
+  - ID: `bxjvW8CUgUQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #923 - Whitney Cummings**
+  - ID: `v_P55Bexc5s`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #922 - Philip DeFranco**
+  - ID: `1WlB_S6r3sQ`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #921 - Dominick Cruz**
+  - ID: `l7L-KB__GxM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #919 - Neil deGrasse Tyson**
+  - ID: `PhHtBqsGAoA`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #918 - Frank Castillo**
+  - ID: `JBUaH3JbL_E`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #917 - Steven Crowder**
+  - ID: `LKSTg9CgQq8`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #916 - Fight Recap**
+  - ID: `-81h4-sYIbk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #915 - Nick DiPaolo**
+  - ID: `Rmkb6mmmvGg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #914 - Ryan Callaghan & Kenton Carruth**
+  - ID: `ssx1Ev5SF9Y`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #913 - Christopher Ryan**
+  - ID: `_vCN5cYf2q0`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #910 - Gary Vaynerchuk**
+  - ID: `OLHdzLpMg-s`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #909 - Bill Burr**
+  - ID: `b9GWqfNlWHI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #908 - Leah Remini**
+  - ID: `AJ0-VeWMr-A`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - January 29, 2017**
+  - ID: `i2fFT_Eow2o`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #907 - Mike Baker**
+  - ID: `LUfe_p-cHqk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #906 - Henry Rollins**
+  - ID: `ruN9DY6Oaw4`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #905 - Shane Smith**
+  - ID: `4lAv_JQtF-8`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #904 - Gary Taubes**
+  - ID: `q0ffswUVoxA`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #903 - Tony Hinchcliffe & Brian Redban**
+  - ID: `p6amtf1-UgY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #902 - Live Underground from The Comedy Store**
+  - ID: `OYK84qCWz_M`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #901 - Dr. Rhonda Patrick**
+  - ID: `uxM_CLsvieE`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #900 - Joseph Valtellini**
+  - ID: `UlNvTTfUJ1A`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - January 15, 2017**
+  - ID: `CxxS_vCSOfk`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #899 - Bryan Callen**
+  - ID: `aZ3IVET8b_M`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #898 - Bas Rutten & Mauro Ranallo**
+  - ID: `rlaNNbBXzAM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #896 - CES Review with Young Jamie**
+  - ID: `EyPYLhAjh5Q`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #897 - Hunter Maats**
+  - ID: `nZJwvRcaBaI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #895 - #WhoIsFat Weigh-in - Day 2**
+  - ID: `5r-vP3N2uAg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #894 - #WhoIsFat Weigh-in - Day 1**
+  - ID: `gw_jzesLHVw`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #893 - Fight Recap**
+  - ID: `l5rwIv41ACM`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #892 - Greg Fitzsimmons**
+  - ID: `VUXwEiFodms`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #891 - Zach Leary**
+  - ID: `g5AKVbx2M38`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #890 - Fight Breakdown**
+  - ID: `AKp5ea8h-Jw`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #889 - Brian Redban**
+  - ID: `lA0atLQJ5Aw`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #888 - Ron White**
+  - ID: `tka857PmVXg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #887 - James Hetfield**
+  - ID: `5O6QPTawR14`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #886 - Hank Shaw**
+  - ID: `ACokM8ybgnw`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #885 - Tom Segura**
+  - ID: `vEv-vSu78IY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #884 - Joey Diaz**
+  - ID: `RUNNavAIZJg`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #883 - Kevin Smith**
+  - ID: `FCL9n8mMqJw`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #882 - Tom Papa**
+  - ID: `ChAl0c5ipiY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - December 3, 2016**
+  - ID: `AJEsIBxxfdY`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #881 - Lee Camp**
+  - ID: `mvNP6blyg4E`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #880 - Jon Jones**
+  - ID: `cBSwJnZpUI8`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #879 - Steven Rinella**
+  - ID: `9KjHdnNdcjI`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #878 - Aubrey Marcus**
+  - ID: `2xplJOx3Vjw`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #877 - Jordan Peterson**
+  - ID: `04wyGK6k6HE`
+  - Published: 2017-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #876 - Chris Bell**
+  - ID: `Q-9J5-KCHCU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #875 - Shannon Briggs**
+  - ID: `iNxq97ictVw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #874 - Scott Adams**
+  - ID: `NJCJpmUAy0s`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #872 - Graham Hancock & Randall Carlson**
+  - ID: `0H5LCLljJho`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #871 - Brendan Schaub**
+  - ID: `BBLt67Va21Y`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #870 - Bert Kreischer**
+  - ID: `lwn8gv_rWWk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #869 - Dave Rubin**
+  - ID: `EIFZV89Zhp8`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #867 - Joey Diaz**
+  - ID: `l1DXJ3uDVkQ`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #866 - Christine Hassler**
+  - ID: `1OppNik5nSM`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #865 - Wim Hof**
+  - ID: `H2NtdOKn630`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #864 - Kevin Ross & Gaston Bolanos**
+  - ID: `ANigdGqsAlE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - October 21, 2016**
+  - ID: `YOzR2Z91NU8`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #863 - Duncan Trussell**
+  - ID: `sh8xuequtdo`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #862 - Trevor Valle**
+  - ID: `w0tG7a2nn8A`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #861 - Bryan Callen**
+  - ID: `LSILESmMWm4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #860 - Russell Peters**
+  - ID: `bGQxsgvOtqw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #859 - Brian Redban**
+  - ID: `4YxQVPES1fw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #858 - Jesse Ventura**
+  - ID: `d2P1L_7uHrY`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience  #857 - Dan Bilzerian**
+  - ID: `RX5Iw-XsWu4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience  - Fight Companion - October 8, 2016**
+  - ID: `QLAUYeCl5Pg`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #855 - Tom Segura & Christina Pazsitzky**
+  - ID: `riYY_tWgcIY`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #853 - Adam Greentree**
+  - ID: `Xcq9BhnNa7w`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #852 - John Anthony West**
+  - ID: `bGu7MLp574A`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #851 - Shane Mauss**
+  - ID: `JBSzuTvd7Kk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #850 - George Perez**
+  - ID: `Wnb6jXg0VB4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #849 - James Kingston**
+  - ID: `19bAXOQ-BEA`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #848 - Bryan Callen**
+  - ID: `oxGQ-1WOZhk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - September 17, 2016**
+  - ID: `_d3fmShgl4I`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #847 - Dan Carlin**
+  - ID: `VgNq12jnj1s`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #846 - Michael Shermer**
+  - ID: `V-hYHqnyhvI`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #845 - TJ Dillashaw, Duane Ludwig & Bas Rutten**
+  - ID: `c7cHV_35F6E`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #844 - Andreas Antonopoulos**
+  - ID: `1sOxtBiBpE4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #843 - Tony Hinchcliffe**
+  - ID: `gRkeaH1WmnE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #842 - Chris Kresser**
+  - ID: `v_2vNj8pshY`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - September 3, 2016**
+  - ID: `AHGWAsSOstw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #841 - Greg Fitzsimmons**
+  - ID: `XUXtHzOFOqE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #840 - Donald Cerrone**
+  - ID: `dIFjasurnb0`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #839 - Tom Papa**
+  - ID: `-elDJUd6Tqw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - August 27, 2016**
+  - ID: `2gakDsVOEf0`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #837 - Gad Saad**
+  - ID: `TjBgeuTvnnk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #836 - Hannibal Buress**
+  - ID: `K0rPG8AkpDI`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #835 - Louis Theroux**
+  - ID: `uXyS-74sRTE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #834 - Dan Doty**
+  - ID: `z22axzm3ias`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #833 - Brian Redban**
+  - ID: `JGakNyTMyNY`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #832 - Vinny Shoreman**
+  - ID: `DLH3C_EJE-w`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #831 - Byron Bowers**
+  - ID: `zcIl0woE7nI`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - August 6, 2016**
+  - ID: `WH7llf2vaKQ`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #830 - Neal Brennan**
+  - ID: `Y9Us4QH7JbY`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #829 - Wayne Federman**
+  - ID: `_0OoG7OKnZY`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #828 - Duncan Trussell**
+  - ID: `UJd1Q6hFff8`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #827 - Twitter Q&A with Joe**
+  - ID: `iwcP6dAAffs`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #826 - Justin Wren**
+  - ID: `GBlXxfoGkpU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #825 - Jeremy Stephens**
+  - ID: `jUKV8xbXod8`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #824 - Bryan Callen**
+  - ID: `5CZPbcrZhOc`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #823 - Eleanor Kerrigan**
+  - ID: `XMu33bKLdhw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #822 - Chael Sonnen**
+  - ID: `rAnLPKGbytU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - #821 & Fight Companion - Joey Diaz**
+  - ID: `Gg8TPNFrLCk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #819 - Brendan Schaub**
+  - ID: `Kh0hhkPcIEA`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #818 - Mike Schmidt**
+  - ID: `VW_mTW_p5yQ`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #817 - Jason Hairston & Brendan Burns**
+  - ID: `Bv7X8aW3raI`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #816 - Joe Schilling**
+  - ID: `ujXxrgSwnYc`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #815 - Cameron Hanes**
+  - ID: `9ZDR6uTc3rE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #814 - Ari Shaffir**
+  - ID: `WsS7kE2ig-k`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #813 - Shane Dorian**
+  - ID: `SJ3t-htSrdQ`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #812 - Russell Brand & Jim Breuer**
+  - ID: `GEc1qeD7UQc`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #811 - Jim Breuer**
+  - ID: `29mVxHoX76g`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - June 18, 2016 - Part 2**
+  - ID: `IntJ33xvpn4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - June 18, 2016 - Part 1**
+  - ID: `LGaayhaIIU4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #809 - Aubrey Marcus**
+  - ID: `5kedW7tX2zY`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #808 - Michael Wood, Jr.**
+  - ID: `PG_xHE9LLsc`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #807 - Gino & AJ, from Speedweed**
+  - ID: `BtQzPS0kYno`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #806 - Dave Smith**
+  - ID: `2pbRNSMkDDc`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #805 - Steve Hofstetter**
+  - ID: `cr6WRxNYRiI`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #804 - Sam Harris**
+  - ID: `RJ5_hAEsLkU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #803 - Joey Diaz & Lee Syatt**
+  - ID: `Z5appHMWLJU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - May 29, 2016**
+  - ID: `UkpiU_q-9OY`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #802 - Tom Papa**
+  - ID: `RnvxVwhecJI`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #801 - Gary Johnson**
+  - ID: `KQIuHGbKckY`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #800 - Bobcat Goldthwait**
+  - ID: `yn5NjiE98tQ`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #799 - Brendan Schaub & Bryan Callen**
+  - ID: `_TdWzFVe7vM`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #798 - Alison Rosen**
+  - ID: `EswYHJdD63E`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #797 - Alex & Allyson Grey**
+  - ID: `9emNEgLP3Ds`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #796 - Josh Zepps**
+  - ID: `CoeuH8B8t58`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #795 - Ian Edwards**
+  - ID: `SoXa3nAqtY4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #794 - Miesha Tate**
+  - ID: `TylX6z-8egk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #793 - Whitney Cummings**
+  - ID: `yoM1tFJZ3rE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #792 - Lewis, from Unbox Therapy**
+  - ID: `eDgZnEO2lJ4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #791 - Steve Schirripa**
+  - ID: `CEuWo95DpTI`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #790 - Steve Maxwell**
+  - ID: `wltxTeZpzkw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #789 - Dan Auerbach**
+  - ID: `WwBfIbF4g0M`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #788 - Brendan Schaub**
+  - ID: `zfmARkj0LeM`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #787 - Eddie Huang**
+  - ID: `m4ZsVVunUeM`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #786 - Wheeler Walker, Jr.**
+  - ID: `31phykl9D_E`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #785 - Dom Irrera**
+  - ID: `GtECvxqbz00`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #784 - Brian Redban**
+  - ID: `DqhkAZPU5CQ`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #783 - John Dudley**
+  - ID: `JRli5x_pHWk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #782 - Rick Doblin**
+  - ID: `Prxam5Lp4S4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #781 - Kevin Rose**
+  - ID: `yKy-PYCn6mo`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #780 - Sturgill Simpson**
+  - ID: `zwcAyE5lQd8`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #779 - Andrew Dice Clay & Joey Diaz**
+  - ID: `JpmyjdxGZzs`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #778 - Ari Shaffir**
+  - ID: `rH2SJQhoAQU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #777 - Brian Redban**
+  - ID: `L_WaIhnUyQM`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #776 - Adam Cropp**
+  - ID: `7Vv4y0_TBa0`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #775 - Greg Fitzsimmons**
+  - ID: `zxHmduVll7w`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #774 - Brendan Schaub & Bryan Callen**
+  - ID: `k5kZFFcmZcA`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #773 - Dr. Rhonda Patrick**
+  - ID: `dDJdk0j4xnM`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #772 - Mark & Chris Bell**
+  - ID: `REyhiN5nRfk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #771 - Eddie Bravo**
+  - ID: `bjGgTFw_3iw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #770 - Michael Shermer**
+  - ID: `2iNpECn_8WQ`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #769 - Bert Kreischer**
+  - ID: `QT34Zqln-Fw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #768 - Ian McCall, Brendan Schaub & Bryan Callen**
+  - ID: `4xSeDCsl43Q`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #767 - Mike Baker**
+  - ID: `ONYJ2BoQDnw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #766 - Gad Saad**
+  - ID: `SDhtTHP16aA`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #765 - Tovar Cerulli**
+  - ID: `FqfMcayaGHw`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #764 - Duncan Trussell**
+  - ID: `GHyep0OROGA`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #763 - Action Bronson**
+  - ID: `FCLKoT6sDZE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - February 21, 2016**
+  - ID: `ZeN_w927bhU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #762 - Robin Black**
+  - ID: `IA63U3_J944`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #761 - Bas Rutten**
+  - ID: `oq2x8SC9RGo`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #760 - Doug Duren & Nathan Ihde**
+  - ID: `mzXF2cwfG-Y`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #759 - Cameron Hanes**
+  - ID: `uMifGXEEAA4`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #758 - Tom Papa**
+  - ID: `pv18Kh4-vIg`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #757 - Gary Clark, Jr.**
+  - ID: `VbezdN75RKE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience  - Fight Companion - February 6, 2016**
+  - ID: `rWxAvq1DCDc`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #756 - Kyle Kingsbury**
+  - ID: `Omg6sITstr0`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #755 - Daniele Bolelli**
+  - ID: `tM_COshDEMU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #754 - Brian Redban**
+  - ID: `BPGxqivgLd8`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #753 - Hannibal Buress**
+  - ID: `bA5PDh-9hjk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #752 - Mark Sisson**
+  - ID: `Nwd6InD2nDk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #751 - Doug Stanhope**
+  - ID: `wL9IXNw-lSE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #749 - Carlos Condit & Erwan Le Corre**
+  - ID: `JMyZjQlK7wM`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #748 - Jenny Johnson**
+  - ID: `s2-x_YOn7EA`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #747 - Tony Hinchcliffe**
+  - ID: `NHeecBsC2ik`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #745 - Ari Shaffir**
+  - ID: `SF6h9ZGkqnI`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #744 - Tom Segura**
+  - ID: `DqmbYFUuhls`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #743 - Phil Demers**
+  - ID: `OCvjelzBBa0`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #741 - Joey Diaz**
+  - ID: `kwHYqeN97oc`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #740 - Thaddeus Russell**
+  - ID: `eUDwTM4j3y0`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #739 - Duncan Trussell & Christopher Ryan**
+  - ID: `ii2xTW1pT1E`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - UFC Recap - Brendan Schaub & Eddie Bravo**
+  - ID: `i-CuQnbM3MM`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #738 - Molly Crabapple**
+  - ID: `kn1BHVoumPU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #737 - Lance Armstrong**
+  - ID: `rEfSdPz1WtA`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #736 - Brendan Schaub & Bryan Callen**
+  - ID: `nn2BVILWRT0`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #735 - Peter Boghossian**
+  - ID: `WZvucbACmZQ`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #734 - Brendan Schaub**
+  - ID: `Xoe2Iju6DsI`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #733 - Judah Friedlander**
+  - ID: `UBLFhv54dUU`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #732 - Whitney Cummings**
+  - ID: `ZKiKVWDac7k`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #731 - Bert Kreischer**
+  - ID: `3euP8g3434A`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #730 - Demetrious Johnson**
+  - ID: `QGp9bQzl1Wk`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #729 - Jocko Willink**
+  - ID: `NnKcquMobHQ`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - November 28, 2015**
+  - ID: `9quu4PrdQGE`
+  - Published: 2016-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #727 - Bill Burr**
+  - ID: `MxrHlhTXUPE`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #726 - Josh Zepps**
+  - ID: `6aA50THi-VI`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #725 - Graham Hancock & Randall Carlson**
+  - ID: `aDejwCGdUV8`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #724 - Christina Sommers**
+  - ID: `S_hS-JXoTMk`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #723 - Dana White & Tony Hinchcliffe (Audio Only)**
+  - ID: `b_LL_H7L_Tg`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #722 - Tony Hinchcliffe (Audio Only)**
+  - ID: `QQ4klklA9Qc`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #721 - Eddie Bravo**
+  - ID: `VFY45O6wXQw`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #720 - Tait Fletcher & Andy Stumpf**
+  - ID: `GtD8oMMJK_k`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #719 - Josh Olin**
+  - ID: `WFDfWOIFKnQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #718 - Christopher Ryan**
+  - ID: `w1Y6uau7NRQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #717 - Steve-O**
+  - ID: `16J-lCSSMVA`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #716 - Daniele Bolelli**
+  - ID: `kDzNZyrDiWc`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #715 - Remi Warren**
+  - ID: `dkZv4AR56EI`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #714 - John Wayne Parr**
+  - ID: `NMR_-8RBWvQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #713 - Dave Rubin**
+  - ID: `vBWv9yaf_w4`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #712 - Wim Hof**
+  - ID: `Np0jGp6442A`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #711 - Brian Redban**
+  - ID: `_WmGqdrmDqQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #709 - Steven Rinella**
+  - ID: `Bkk11KSSVgY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #708 - Steven Crowder**
+  - ID: `v4IyBf0iPsY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #707 - Michael Dowd**
+  - ID: `TVt2CJewjFE`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #706 - Brendan Schaub & Fight Companion ? (Part 2)**
+  - ID: `vA892WDF4xk`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #706 - Brendan Schaub & Fight Companion ? (Part 1)**
+  - ID: `YfnQWBExTYg`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #705 - Tait Fletcher**
+  - ID: `lKsUXScjhgI`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #704 - Alonzo Bodden**
+  - ID: `3bQf5R4bEwY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #703 - Brian Redban**
+  - ID: `KVdYipxFa9M`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #701 - Honey Honey (Part 2)**
+  - ID: `yfYYhJaQTmU`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #701 - Honey Honey (Part 1)**
+  - ID: `BGBN_97XzkY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - Sept. 26, 2015**
+  - ID: `AcAUUYxNzYg`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #700 - Dr. Mark Gordon & Andrew Marr**
+  - ID: `RIQC3zHfVaI`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #699 - Donald Cerrone**
+  - ID: `aqM4E6LxMCM`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #698 - Dr. Carl Hart**
+  - ID: `SMsquUcea-E`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #697 - Christopher Ryan**
+  - ID: `D3RRIv4tR_c`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #696 - Lewis, from Unbox Therapy**
+  - ID: `amB2kDXhpqs`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #695 - Sebastian Maniscalco**
+  - ID: `wkC7HjRlDEU`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #694 - Jane McGonigal**
+  - ID: `5Qh20XWwxMY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #693 - Tom Segura**
+  - ID: `G0Fzg5RB0e4`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #692 - Jay Leno**
+  - ID: `wvdM_u4NZQw`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #691 - Bryan Callen**
+  - ID: `ZYtZP0B5JIE`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #690 - Ronda Rousey & Edmond Tarverdyan**
+  - ID: `AL2ampi5uqs`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #689 - Abby Martin**
+  - ID: `1xDGNdWU8rQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #688 - Brian Redban**
+  - ID: `OPackriEUow`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #687 - Justin Wren**
+  - ID: `TghK2L9wO4A`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - August 23, 2015**
+  - ID: `QGIxvN4PlV0`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #686 - Jeff Ross**
+  - ID: `qfrDmHnixCI`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #685 - Jeff Novitzky**
+  - ID: `rR7IqzwgGeU`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #684 - Brian Redban**
+  - ID: `sddZCAGXYqY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #683 - Ethan Nadelmann**
+  - ID: `lSNs0R8F-vU`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #682 - Mark & Chris Bell**
+  - ID: `rMSGMuumwu0`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #681 - Gad Saad**
+  - ID: `vXjbc0jh3pY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - August 8, 2015**
+  - ID: `yuO3HKSlM1w`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #680 - Steven Hassan**
+  - ID: `oQrsGjT0Sn4`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #679 - Barry Crimmins & Bobcat Goldthwait**
+  - ID: `izr3Jsjee0s`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #678 - Jonathan Ward**
+  - ID: `XR65yF73R0Y`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #677 - Josh Zepps**
+  - ID: `FbuLWDZhDo4`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #676 - Esther Ku**
+  - ID: `2X5cQ3vSas8`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #675 - Kirik Jenness & Chris Palmquist**
+  - ID: `rT6qjIc9_5M`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #673 - Nick DiPaolo & Adam Lowery**
+  - ID: `g7HAl-PerxA`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #672 - Dr. Rhonda Patrick**
+  - ID: `FApCVOXoweU`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - July 11, 2015**
+  - ID: `mgumau1KiRw`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #671 - Brendan Schaub & Bryan Callen**
+  - ID: `P2wDH68rvDU`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #670 - Michael A. Wood, Jr.**
+  - ID: `Ndg-JGmYryA`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #669 - Joey Diaz**
+  - ID: `7z6kp146ITo`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #668 - Jon Ronson**
+  - ID: `rUuFMjhRkmU`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #667 - Kurt Metzger**
+  - ID: `hknnVPHRBWk`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #666 - Duncan Trussell**
+  - ID: `1GaviDYQvFA`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #665 - Neal Brennan**
+  - ID: `X8m2wwMXx-M`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #663 - Dominic Monaghan**
+  - ID: `AeeDKfq7OtQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - June 20, 2015**
+  - ID: `OXesE6KGd1k`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #662 - Vinny Shoreman**
+  - ID: `QL3G5NNX3RY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #661 - Rutledge Wood**
+  - ID: `3POk1WaIuEM`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #660 - Jim Florentine**
+  - ID: `cGlGVXoK1yY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #659 - Dean Delray**
+  - ID: `iU23iskG1Us`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #658 - Greg Fitzsimmons**
+  - ID: `xouGf8Y2ew0`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #657 - Corey Knowlton**
+  - ID: `8A1D-f_meFY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #656 - Bryan Callen**
+  - ID: `TKGPaop7hog`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #655 - Kevin Folta**
+  - ID: `vW8U8ZAhGW8`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #654 - Rich Vos**
+  - ID: `mf2bhc0BGfM`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #653 - Natasha Leggero**
+  - ID: `9n4v9PBKXZg`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #652 - Ricky Schroder**
+  - ID: `rTt70azpVB8`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #651 - Jordan Gilbert (c9n0thing)**
+  - ID: `gPPFhL_g5Mo`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #650 - Nick Curson**
+  - ID: `ZJmYFlvKloE`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #649 - Jonathan Gottschall**
+  - ID: `1_5_zDYceeM`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - May 16, 2015 (Part 2)**
+  - ID: `yKairs4-bXs`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - May 16, 2015 (Part 1)**
+  - ID: `iva_tp-QSAc`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #648 - Adam Scorgie**
+  - ID: `UR2wxWxGhr4`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #647 - Dom Irrera**
+  - ID: `FEJ9dXJHrNU`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #646 - Dr. Dan Engle & Aubrey Marcus**
+  - ID: `V5vRbSuijgs`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #645 - Joe Schilling**
+  - ID: `P2uW5mlq0Ug`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #644 - Brad Williams**
+  - ID: `_aZ6mcKQwRQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #643 - "Big" Jay Oakerson**
+  - ID: `xtwl-lu6goE`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #642 - Rich Roll**
+  - ID: `PS3xIdFDMFs`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #641 - Sam Harris**
+  - ID: `Gm8xFaM-raY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #639 - Greg Proops**
+  - ID: `3g13syFwFwY`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #638 - Aubrey de Grey**
+  - ID: `LeCpHugyI80`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #637 - Remi Warren**
+  - ID: `yI6mHeDvOGI`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #636 - Bryan Callen**
+  - ID: `7fnnZm_pQv8`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #635 - Jim Norton**
+  - ID: `pcR4QxSqjn0`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #634 - Abby Martin**
+  - ID: `75LirHTjHzA`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #633 - Alex Winter**
+  - ID: `BJMjGLcdtOA`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - April 11, 2015 (Part 2)**
+  - ID: `KgOaVqs_QdE`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - April 11, 2015 (Part 1)**
+  - ID: `KwinucZ69jM`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #632 - Les Stroud**
+  - ID: `ciRHOJb1F20`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #631 - Josh Barnett**
+  - ID: `jTqSMi80CDM`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #630 - Duncan Trussell**
+  - ID: `kbcfkYJ-zvM`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #629 - Andrew Hill, PhD**
+  - ID: `06olLYiMvM4`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #628 - Garry Tonon & Eddie Bravo**
+  - ID: `HXGUmKeCDQo`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #627 - Joey Diaz**
+  - ID: `4LO0Uf1sqI8`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #626 - Trevor Moore**
+  - ID: `ZGKqw9lu158`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #625 - Steve Maxwell**
+  - ID: `-LIn2KqkW-M`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #624 - Tom Segura**
+  - ID: `d1SZAceBcTk`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #623 - Ari Shaffir**
+  - ID: `AnzjQcrB_IQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #622 - Adam Carolla**
+  - ID: `gjUBJRb7p7Q`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #621 - Aubrey Marcus**
+  - ID: `lAYYmfoyLCI`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #620 - Bert Kreischer**
+  - ID: `3uM_dwZizIA`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #619 - Bryan Callen & Brendan Schaub**
+  - ID: `FCVFCI9m-48`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #617 - Brian Regan**
+  - ID: `XH7MCpD1j-I`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #618 - Artie Lange**
+  - ID: `1MrhsUTAnU8`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #616 - John Wayne Parr**
+  - ID: `GofZQEWc6as`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - February 22, 2015**
+  - ID: `4kvUgZFAz5c`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #615 - Greg Fitzsimmons**
+  - ID: `ie5IPWK26gg`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #614 - Christopher Ryan, PhD**
+  - ID: `MQAZTB1gkN0`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #613 - Ms. Pat**
+  - ID: `iwzw3dlR838`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - February 14, 2015**
+  - ID: `rCXWyZCJfS4`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #612 - Billy Corben**
+  - ID: `U1S_qDWxmYk`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #611 - Josh McDermitt**
+  - ID: `uOi9XP5MrpM`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #610 - Brian Cox**
+  - ID: `QZl3ohphHSE`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #609 - Tom Papa**
+  - ID: `h45YAb2Gv6U`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #608 - Ali Rizvi**
+  - ID: `9-L626DnAuM`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #607 - Joe Schilling**
+  - ID: `y41bc_vzV-M`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #606 - Randall Carlson**
+  - ID: `G0Cp7DrvNLQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #605 - Barry Rothbart**
+  - ID: `Vb9HcOHXRzw`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #603 - Justin Wren**
+  - ID: `jDZN_L2H05Q`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #604 - Eddie Huang & Randall Park**
+  - ID: `b0sn2a3cMjs`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #602 - Ari Shaffir & Duncan Trussell**
+  - ID: `5-lTjWrg4lo`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #601 - Katy Bowman**
+  - ID: `0ub5OLNnN-o`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #600 - Ari Shaffir**
+  - ID: `hXfNAiX9d_Y`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #599 - Shane Smith**
+  - ID: `xICbf4iCFMQ`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #598 - Joey "CoCo" Diaz**
+  - ID: `By-zQN2g0DE`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #597 - Magnus Walker & Alex Ross**
+  - ID: `mNsJum3ilWs`
+  - Published: 2015-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - October 25, 2014**
+  - ID: `yS3vXAAl7vw`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #567 - Cameron Hanes**
+  - ID: `CMPrxj2ldyo`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #566 - Sue Aikens**
+  - ID: `WUBUFiBtgQg`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #565 - Trevor Valle**
+  - ID: `PDMFutnJlLA`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #564 - Sturgill Simpson**
+  - ID: `g2KP8-zV9mc`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #563 - David Choe**
+  - ID: `2Xw5EgZdNvQ`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #562 - Paul Stanley**
+  - ID: `NgwoHp5cfls`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #561 - Bruce Damer**
+  - ID: `SSf2bVpibmw`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #560 - Anthony Cumia**
+  - ID: `qN8GevAI7xk`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #559 - Keith Weber**
+  - ID: `NXKq3fuiEJk`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #558 - Honey Honey**
+  - ID: `B0vfos5yMS4`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #557 - Bryan Callen**
+  - ID: `CbCTYVP0mQo`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #556 - Bryan Callen**
+  - ID: `aaSgP1nIiLY`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #555 - Rory Albanese**
+  - ID: `jFL6Spqt8RE`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #554 - W. Kamau Bell**
+  - ID: `9HruqwjK_uA`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #553 - Thaddeus Russell**
+  - ID: `AjMX4_4faX4`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #552 - Kid Cudi**
+  - ID: `zwiZ0tLyNLU`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - Sept. 20, 2014**
+  - ID: `Daa3IkFW4c0`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #551 - Graham Hancock**
+  - ID: `W7zfnNH1GD0`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #550 - Rupert Sheldrake**
+  - ID: `ZklRSn92ek4`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #549 - Big Jay Oakerson**
+  - ID: `gCIGXplxRi4`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #548 - Tim Burnett**
+  - ID: `tIh9BBb24SI`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #547 - Joe DeRosa**
+  - ID: `HZhos-kYy6Y`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #546 - Mike Dolce**
+  - ID: `gU4_mW_HCUc`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #545 - Tony Hinchcliffe**
+  - ID: `JLgu1UngAwY`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #544 - Dom Irrera**
+  - ID: `W7bql6oNBbo`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #543 - Sam Harris**
+  - ID: `w8Q6CWv7IXo`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #542 - Greg Fitzsimmons**
+  - ID: `ASk-uFGou4U`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #541 - Mike Baker**
+  - ID: `mRnXxrELhag`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #540 - Steven Rinella**
+  - ID: `NpN_AcIy3m4`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #539 - Cara Santa Maria**
+  - ID: `Gad0gG7SABU`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #536 - Joe Quirk**
+  - ID: `gpBLqm2nYf8`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #535 - Scroobius Pip**
+  - ID: `DUaQTNWAyks`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #534 - Robin Black**
+  - ID: `GgU019YhN3c`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #532 - Shooter Jennings**
+  - ID: `NqsH-DBfk0o`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #531 - Nick Youssef**
+  - ID: `0EI-6l7SSkc`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #530 - Vince & Emily Horn, from Buddhist Geeks**
+  - ID: `dLfi4lSFwg8`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #529 - Abby Martin**
+  - ID: `cbM0aCeNGl8`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #528 - Michael Stevens, from VSauce**
+  - ID: `YHpbXtDtcoY`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #527 - Ms. Pat**
+  - ID: `uhIRGGh_Iu0`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #526 - Isaac Haxton**
+  - ID: `AVqtXh7T1HY`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #524 - Rickson Gracie & Eddie Bravo**
+  - ID: `QH5dBdpIiJw`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #523 - Jim Norton**
+  - ID: `1qMFgw8KC1Y`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - July 16, 2014**
+  - ID: `WJG61a8qwFU`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #522 - CJ Werleman**
+  - ID: `ETEUC8AcjwU`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #521 - Lewis, from Unbox Therapy**
+  - ID: `0W4I4wbD2Bg`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #519 - Gad Saad**
+  - ID: `YfsNP-qgdZo`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - July 7, 2014**
+  - ID: `FnzBKQhhGvE`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #518 - Matt Fulchiron**
+  - ID: `xZ5fWlNi2xI`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #517 - Crash, from Float Lab**
+  - ID: `2TPyx-H1MVc`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #517 - Crash, from Float Lab (Part 2)**
+  - ID: `W9VLQqQ52Gk`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - June 28, 2014 (Part 2)**
+  - ID: `KWUPoO0uBME`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - June 28, 2014 (Part 1)**
+  - ID: `2jFVhNYGnZ8`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #516 - Lewis, from Unbox Therapy**
+  - ID: `NPVNEQE4R3M`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #515 - Ari Shaffir**
+  - ID: `eVEBupwo51I`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #515 - Ari Shaffir (Part 2)**
+  - ID: `AkZwLQCBVeo`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #514 - Duke Roufus**
+  - ID: `o1KCTcjSS5U`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #513 - Joey "CoCo" Diaz**
+  - ID: `VetG5f6GJMk`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #511 - Enson Inoue**
+  - ID: `xtbWsYplUt0`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #510 - Tony Hinchcliffe**
+  - ID: `7hvQ0M997ks`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #509 - Steve Hilton**
+  - ID: `y_CC3a4bObs`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #508 - TJ Dillashaw & Duane Ludwig**
+  - ID: `KxrPM1Q-Xeg`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - May 31, 2014**
+  - ID: `axxd9N0w8H0`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #507 - Bert Kreischer**
+  - ID: `czB0QWCQND8`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #505 - Matt Farah & Alex Ross**
+  - ID: `E7-GjzIUs14`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #504 - Steve Maxwell**
+  - ID: `RpufW6nCy0E`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #503 - Sam Tripoli**
+  - ID: `XvwO1PJxjRU`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #502 - Dr. Rhonda Patrick**
+  - ID: `DgSLkakMDfE`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #501 - Randall Carlson**
+  - ID: `R31SXuFeX0A`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #500 - Doug Stanhope & Tom Rhodes**
+  - ID: `HBUoXxLscA4`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #499 - Cenk Uygur**
+  - ID: `u6snP_ZoaZo`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #498 - Aubrey Marcus**
+  - ID: `x-cZehoKj5w`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience - Fight Companion - May 10, 2014**
+  - ID: `k8XGRoECMOg`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #497 - Tim Kennedy**
+  - ID: `F2MoOM1ctiE`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #496 - Nick Cutter**
+  - ID: `6VXdosvVpQ0`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #492 - Dave Attell**
+  - ID: `zpvI-JD2dSs`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #491 - Steve Maxwell**
+  - ID: `RictLTGVUwc`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #490 - Andreas Antonopoulos**
+  - ID: `EnhGlgCm4MU`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #489 - Liam & Dylan Resnekov**
+  - ID: `imgP7bfWldE`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #486 - Brendan Schaub & Bryan Callen**
+  - ID: `mrbfnT5-QbU`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #485 - Amy Schumer**
+  - ID: `pHcF7iC984U`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #484 - Alexis Ohanian**
+  - ID: `PreO9uPeMw8`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #483 - Mark Kendall**
+  - ID: `gdBVYDnImco`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #482 - Rob MacCachren & Bud Brutsman**
+  - ID: `bWToVLYXr4Q`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #479 - Joel Salatin**
+  - ID: `7ZVUoQd-P6o`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #478 - Eddie Bravo**
+  - ID: `iF0MpB89ELc`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #477 - Dennis McKenna & Josh Wickerham**
+  - ID: `72P_9jmrOVI`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #476 - Honey Honey**
+  - ID: `rng8ToHDjaY`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #475 - Adam Carolla**
+  - ID: `C-UVwPqs8Go`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #474 - Hannibal Buress**
+  - ID: `irV0M5GNUbk`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #473 - Jim Jefferies**
+  - ID: `uJ8Y3zrQWnc`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #472 - Shane Smith**
+  - ID: `l1YuUpg3RM0`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #470 - Amber Lyon**
+  - ID: `WZ1Dm-dcl68`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #469 - Dr. Carl Hart**
+  - ID: `T5jMC8j7ElI`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #468 - Duncan Trussell, Christopher Ryan**
+  - ID: `SrPz5o2_z3U`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #467 - Peter Giuliano**
+  - ID: `G8LtKdikuTE`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #464 - Robert Greene, Aubrey Marcus**
+  - ID: `kmB8_DNeg5k`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #460 - Kron Gracie**
+  - ID: `KVRcd4QbrWw`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #459 - Dr. Rhonda Patrick**
+  - ID: `qh0xB4OJdpQ`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #457 - Ari Shaffir**
+  - ID: `3Fhvsoh0Jws`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #452 - Immortal Technique & Chino XL**
+  - ID: `jdXs_SAlF4I`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #451 - Aubrey Marcus**
+  - ID: `Zp8BeJM5nSQ`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #450 - Cameron Hanes**
+  - ID: `7XTtHSObaS0`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #449 - Justin Martindale**
+  - ID: `wgnn0oNHG2U`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #448 - Tom Segura**
+  - ID: `kS9HjxXEeqY`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #446 - Andreas Antonopoulos**
+  - ID: `1cexawnOlR8`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #445 - Peter Schiff**
+  - ID: `8IHU42j3evQ`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #442 - Steven Rinella**
+  - ID: `RqmJsKkloCc`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #440 - Dom Irrera**
+  - ID: `Ec_BcTJI9sE`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #438 - Dr. Mark Gordon**
+  - ID: `aJeGeclGDpQ`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #437 - Scott Sigler**
+  - ID: `K5_cTGoEGgY`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #436 - Stefan Molyneux**
+  - ID: `5Xq_ZYB8rew`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #434 - Roseanne Barr**
+  - ID: `leI4IvhTVRI`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #431 - Matt Fulchiron (Part 1)**
+  - ID: `pAm5l-XiKNk`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #424 - Brody Stevens**
+  - ID: `BgbS0ObVdJE`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #421 - Christopher Ryan**
+  - ID: `ah5Nxb9Of-0`
+  - Published: 2014-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #419 - Lorenzo Hagerty (Part 2)**
+  - ID: `0Z9wmqlypUk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #418 - Jeremy Stephens, Eddie Bravo**
+  - ID: `62wXeZPEhao`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #417 - Graham Hancock**
+  - ID: `1cbnCrHwVSg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #416 - Ana Kasparian**
+  - ID: `ntbFS2hzW0Q`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #415 - Justin Foster**
+  - ID: `Slzg6X53xo0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #414 - Cmdr. Chris Hadfield**
+  - ID: `OS0laJvgVxo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #413 - Dan Carlin, Daniele Bolelli**
+  - ID: `ruY9Zvmef0Y`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #412 - Maynard James Keenan**
+  - ID: `LFbws0IIqqg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #410 - Sam Harris**
+  - ID: `FHhTWCknDLs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #408 - Todd Glass**
+  - ID: `vWH-8v_x68Y`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #407 - Eddie Bravo**
+  - ID: `icZhxnE7rlM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #406 - Tom Segura, Christina Pazsitzky**
+  - ID: `7ofRCZboG30`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #405 - Steven Pressfield, Aubrey Marcus**
+  - ID: `4p3tN_iFHY0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #400 - Joey "CoCo" Diaz, Duncan Trussell**
+  - ID: `TjQcaK2Oa4w`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #399 - Buck Angel**
+  - ID: `vFe1xEGtpjA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #398 - Sam Tripoli**
+  - ID: `IiUUuXeTtqA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #396 - Stefan Molyneux**
+  - ID: `mFxU5veg0Cw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #393 - Tom Segura**
+  - ID: `kiFM2QDPbw4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #392 - David Choe**
+  - ID: `i8cDwucTSbo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #390 - Mac Lethal**
+  - ID: `U_lUHyN-4ZA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #387 - Everlast**
+  - ID: `SBgj3sdJJRk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #386 - Joey "CoCo" Diaz**
+  - ID: `i_HqR46dU_8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #385 - Duane Ludwig, TJ Dillashaw**
+  - ID: `Xm27e0oc1lM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #384 - Ian McCall**
+  - ID: `hk8NfFhRKpw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #383 - Jim Norton**
+  - ID: `bst7GJGTVgo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #382 - Greg Fitzsimmons**
+  - ID: `zgQW7LlidFs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #381 - Abby Martin**
+  - ID: `zbjrwJG54XA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #380 - Tony Hinchcliffe**
+  - ID: `ITEFUm6m3nc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #377 - Duncan Trussell**
+  - ID: `7-IOCUCDL28`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #376 - Bryan Callen**
+  - ID: `9tZq_n1_yXc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #373 - Joey "CoCo" Diaz**
+  - ID: `8CiguIt9Ir0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #372 - Mariana van Zeller**
+  - ID: `P7cB6Vik7xw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #371 - Rick Doblin**
+  - ID: `5DRQP2CiMHU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #369 - Jason Silva, Duncan Trussell, Ari Shaffir**
+  - ID: `TyODZ4IjBVI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #367 - Aubrey Marcus**
+  - ID: `sGFFPJDzN-4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #366 - Bobcat Goldthwait**
+  - ID: `ipEtAkxrm1w`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #365 - Kelly Starrett, Glen Cordoza**
+  - ID: `fcVy7EEgqNM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #363 - Everlast**
+  - ID: `3K7rhvXe0aE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #268 - Joey "CoCo" Diaz**
+  - ID: `jkcN-MRgpjc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #270 - Kevin Pereira**
+  - ID: `jehPP5TEBlg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #269 - Tait Fletcher**
+  - ID: `qguKsY5dO58`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #267 - Mac Danzig**
+  - ID: `Sglov6tOLsI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #266 - Rich Roll**
+  - ID: `JPs2bma7j70`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #262 - "Freeway" Rick Ross**
+  - ID: `A0C1b-r59v0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #261 - Ari Shaffir**
+  - ID: `heIHNShzWrw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #264 - Tom Segura (Part 2)**
+  - ID: `vfLSu_c3UhY`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #264 - Tom Segura (Part 1)**
+  - ID: `pz6uMRfxZOk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #263 - Kat Von D, Eddie Bravo**
+  - ID: `URWgCkdwyao`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #260 - Greg Fitzsimmons**
+  - ID: `bDmtMYMrVSs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #259 - Mike Birbiglia**
+  - ID: `J_MW6ZFA2NU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #258 - Bryan Callen**
+  - ID: `O5bSOiuJSRY`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #255 - Duncan Trussell**
+  - ID: `xgekVV-5C1c`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #252 - Jamie Kilstein**
+  - ID: `8jIiqIvqaiE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #254 - Everlast**
+  - ID: `36R4uUICnQM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #253 - Andrew Dice Clay**
+  - ID: `UPZkQD9Dt0M`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #251 - Bryan Callen**
+  - ID: `ij1j0R4V0Cc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #250 - Joey "CoCo" Diaz**
+  - ID: `KcUW1oVLQnE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #249 - Bert Kreischer**
+  - ID: `EGMQTVlNaHw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #245 - Robb Wolf**
+  - ID: `fhenEHRrLxQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #244 - Immortal Technique**
+  - ID: `sZ2-AybDTYI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #241 - James "Bobo" Fay**
+  - ID: `x3e-qoH1_3g`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #240 - Aubrey Marcus**
+  - ID: `b0cJqCVqa4Y`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #237 - Tommy Chong**
+  - ID: `rWtoPKPwTWU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #235 - Josh Barnett (Part 2)**
+  - ID: `Cvdaf0EMZyQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #235 - Josh Barnett (Part 1)**
+  - ID: `Pc-ih-uYpNU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #236 - Eddie Bravo**
+  - ID: `EVjpNnKJ61U`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #234 - Adam Scorgie**
+  - ID: `DicFHors_QI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #362 - Eddie Ifft**
+  - ID: `fZ3Gu4szudI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #360 - Graham Hancock**
+  - ID: `tsu2-I2q6dg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #359 - Alex Grey**
+  - ID: `Q01yjj-2NkI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #357 - Daniele Bolelli**
+  - ID: `IkoT6-7drP0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #356 - Dan Hardy**
+  - ID: `Qcb_EDwQc_w`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #355 - Dom Irrera**
+  - ID: `HWkLKU0KlDQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #228 - Bill Burr**
+  - ID: `v_lDUmJkpZk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #231 - Dom Irrera**
+  - ID: `dtewc68ut8o`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #224 - Brian Redban**
+  - ID: `QoL1LbkMkpM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #226 - John Anthony West**
+  - ID: `G1hFBZfcZhQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #222 - Mike Dolce, Joey Diaz**
+  - ID: `P9Wc28j5_38`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #221 - Shane Smith**
+  - ID: `HFO6L4Z6aWM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #220 - Bert Kreischer**
+  - ID: `0h7085QF6fI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #219 - Joey Diaz**
+  - ID: `oUKhqeSU2ew`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #218 - Dom Irrera**
+  - ID: `CVAva4D0jyw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #217 - Michael Ruppert**
+  - ID: `Hj8a6vs5lM8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #216 - Chael Sonnen**
+  - ID: `C_UF2sw2Th4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #215 - Andrew Dice Clay**
+  - ID: `g1H3TuNK-4g`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #214 - Duncan Trussell**
+  - ID: `LKk1jrLqpUU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #212 - Bryan Callen**
+  - ID: `2iEeWaIe-jE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #211 - Ari Shaffir (Part 1)**
+  - ID: `aAhEvBIu23M`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #211 - Ari Shaffir (Part 2)**
+  - ID: `cc5MOp3SmYA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #209 - Eddie Ifft**
+  - ID: `2lnTmFKNJMU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #208 - Freeway Rick Ross**
+  - ID: `xZ1xDnuUM5Q`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #207 - Tom Segura, Christina Pazsitzky**
+  - ID: `DGarUxOGbBE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #206  Eddie Bravo**
+  - ID: `PQK9vsR6azI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #205  Neal Brennan**
+  - ID: `jO1HabI-Vuc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #352 - Tom Segura**
+  - ID: `tO2TXneMdUQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #351 - Georges St. Pierre**
+  - ID: `rmFsUV5ICKk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #350 - Tony Hinchcliffe**
+  - ID: `LHL9XtH3LuE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #348 - Steven Rinella, Bryan Callen, Cam Edwards**
+  - ID: `sY_5zs-47A0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #347 - Joey Diaz**
+  - ID: `L-POgaxl6vA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #200 - Duncan Trussell**
+  - ID: `KzIz_eRcDZE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #204 - Amy Schumer**
+  - ID: `1Euby_x-fLo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #203 - Jim Jefferies**
+  - ID: `D68x7V0iWrk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #202 - Dom Irrera**
+  - ID: `33VDAPxA1jo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #201 - EverLast**
+  - ID: `TFMO_xknagc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #199 - Joey Diaz**
+  - ID: `VZ7FGp0_QBU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #197 - Ari Shaffir**
+  - ID: `fnqsUUm7vww`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #196 - Matt Paxton**
+  - ID: `AoYqzStWHsk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #194 - Jason Silva**
+  - ID: `eg6wXH9QqJc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #192 - Sam Harris**
+  - ID: `WHBfB7usIcU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #193 - Jim Gaffigan**
+  - ID: `gZ7Xdyl5mAo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #190 - Greg Fitzsimmons**
+  - ID: `K96ot8_1Zf0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #189 -- B-Real**
+  - ID: `aN39ZW4zNIE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #188 - Amy Schumer**
+  - ID: `uD6HuOqACww`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #187 - Daniele Bolelli**
+  - ID: `b-7shLy5bsA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #186 - Ari Shaffir**
+  - ID: `CZgcZxEq5y0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #185 - Tom Segura**
+  - ID: `8IFYLXtfMeg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #184 - DEADMAU5, Russell Peters, Eddie Bravo**
+  - ID: `tjbEWvtsNcI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #346 - Douglas Rushkoff**
+  - ID: `QHfOR-byUyU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #345 - Bryan Callen**
+  - ID: `k65aHBrDrYk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #181 - Iliza Shlesinger**
+  - ID: `cVtjPXr7ycc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #180 - Joey Diaz, Eddie Bravo, Denny Prokopos**
+  - ID: `Cvw9l4SJw0o`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #179 - Duncan Trussell**
+  - ID: `nqbRepVizzE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #178 - Joey Diaz**
+  - ID: `_AhelDPxnpk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #177 - Hamilton Morris**
+  - ID: `sp6JkY3d0sw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #339 - Jacob Ward**
+  - ID: `stb0v6ZXu9o`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #175 - Ari Shaffir**
+  - ID: `1-l7LBVgcdc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #173 - Peter Joseph**
+  - ID: `_if5-OLoxCk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #172 - Bryan Callen**
+  - ID: `B6EE_j-H01s`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #171 - EverLast (Part 1)**
+  - ID: `_RaBGG_KNCE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #338 - Shane Smith**
+  - ID: `i2RCpvil-fs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #337 - Justin Wren**
+  - ID: `MWUDckvf2Lo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #336 - Scott Sigler**
+  - ID: `eGuwtdAcjOk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #335 - Bas Rutten**
+  - ID: `MhXiCpQoWDo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #334 - Dr. Amit Goswami**
+  - ID: `xzfSPK9eE_E`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #333 - David Lee Roth**
+  - ID: `aiIHEyvjNdA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #332 - Tom Segura**
+  - ID: `4BHAAD21K7M`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #166 - Duncan Trussell**
+  - ID: `hsjv_d8gUkM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #170 - Michael Ruppert**
+  - ID: `-ni_bI8l4u8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #167 - Aubrey Marcus**
+  - ID: `5AS_eOoeYg4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #330 - Eddie Huang**
+  - ID: `5kW_BJ9d2d0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #329 - Duncan Trussell**
+  - ID: `7wpixVId0b4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #328 - Dan Carlin**
+  - ID: `nvqwztjcSNg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #325 - James "The Colossus" Thompson**
+  - ID: `E39Ez358jcM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #156 - Duncan Trussell**
+  - ID: `JCsWOgTsd8E`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #161 - Bert Kreischer**
+  - ID: `qKQAm5pMgq4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #163 - Doug Stanhope & Joey Diaz**
+  - ID: `SRfsAp8WBJ0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #158 - Doug Benson**
+  - ID: `lHvhJ9zlh7Y`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #157 - Tom Segura, Christina Pazsitzky**
+  - ID: `GF_-j9RDs2Q`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #165  - Bruce Lipton PHD (Part Two)**
+  - ID: `vKuThiiD_WA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #165  - Bruce Lipton PHD (PART ONE)**
+  - ID: `80qaxo5iRn4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #153 - Joey Diaz**
+  - ID: `m_wMSgIzmVY`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #154 - Sam Tripoli**
+  - ID: `FisrIcISldM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #151 - Josh McDermitt**
+  - ID: `A9nVZL0BKRQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #162 -- Daniele Bolelli**
+  - ID: `gsbbecrgXvo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #277 - Victor Conte**
+  - ID: `17FGgWghDOE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #271 - London Real**
+  - ID: `U-w1Jy9y1KE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #274 - Alex Grey**
+  - ID: `Jx50h9CMo1w`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #272 - Duncan Trussell, Joey Diaz, Ian Edwards**
+  - ID: `drfpvqIomLM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #273 - Amber Lyon**
+  - ID: `FbGVEXR1GQs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #280 - Philip Coppens**
+  - ID: `GS2luv4Kbmc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #323 - "Freeway" Rick Ross**
+  - ID: `8fEN8g6cGCw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #322 - Ari Shaffir**
+  - ID: `uDS51WxvT_c`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #321 - Melissa Etheridge**
+  - ID: `gy0u9dxfVQM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #278 - Ari Shaffir**
+  - ID: `_75pBkerC0Y`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #279 - Duncan Trussell**
+  - ID: `Q6p59HpclqA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #150 - Bryan Callen (Part One)**
+  - ID: `NjTvcv5ECZQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #150 - Bryan Callen (Part Two)**
+  - ID: `i63Kq-oLDos`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #143 - Mayhem Miller**
+  - ID: `qdV-VEg6dwI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #148 - Kevin Pereira**
+  - ID: `_jwssNoWsg8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #144 - Eddie Bravo**
+  - ID: `IUVK9ZL6h_U`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #146 - Ari Shaffir**
+  - ID: `3a2BZdXJijY`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #147 - Duncan Trussell**
+  - ID: `sJkQuLLC0bQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #145 Bert Kreischer**
+  - ID: `dJj4QtCr6Es`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #142 - Graham Hancock, Duncan Trussell**
+  - ID: `3ODaWxBJNPk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #141 Duncan Trussell**
+  - ID: `kzb7PdqOmaA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #319 - Alex Honnold**
+  - ID: `OusYaNWBy08`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #135 - Joey Diaz & John Heffron**
+  - ID: `EcMRWjpVWDc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #140 - Brendon Walsh (Part 3)**
+  - ID: `MKnqKTHZZUg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #140 - Brendon Walsh (Part 2)**
+  - ID: `YT4iE0f0ZWg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #136 - Daniel Pinchbeck (Part 3)**
+  - ID: `w9SrS2BbDGo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #134 - Kevin Smith (Part 3)**
+  - ID: `6R89jdvJWso`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #127 - Aubrey Marcus (Part 2)**
+  - ID: `4eURXT8pXg4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #131 - Neal Brennan**
+  - ID: `hLapHkLLANo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #140 - Brendon Walsh (Part 1)**
+  - ID: `jnCGlObn_BU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #139 - Duncan Trussell**
+  - ID: `FplOwu--GE4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #127 - Aubrey Marcus (Part 1)**
+  - ID: `w86KSFjrsw0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #134 - Kevin Smith (Part 2)**
+  - ID: `FVK0EJKAwKs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #130 - Duncan Trussell**
+  - ID: `R8Um3CEzyH4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #126 - Freddy Lockhart (Part 2)**
+  - ID: `Jsm8pmqqkNs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #138 - Anthony Bourdain**
+  - ID: `28Qzxz5wsA0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #129 - Ari Shaffir**
+  - ID: `VsaaYpqHFCQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #136 - Daniel Pinchbeck (Part 2)**
+  - ID: `3RtlSCAKi2s`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #134 - Kevin Smith (Part 1)**
+  - ID: `7NO7ABF6Xww`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #137 - Tim Ferriss**
+  - ID: `rzHVQBtPcDA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #126 - Freddy Lockhart (Part 1)**
+  - ID: `h2Ih2S5EYfc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #133 - Charlie Murphy & Freeze Love**
+  - ID: `A3HaH2Dxkdg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #136 - Daniel Pinchbeck (Part 1)**
+  - ID: `9DBIUNoj_b0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #125 - Giorgio A. Tsoukalos, Eddie Bravo**
+  - ID: `OfkKlekmIBo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #317 - David Choe, Yoshi Obayashi**
+  - ID: `pkhmOG9hx3c`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #124 - Michael Schiavello (Part 2)**
+  - ID: `RIXxK6YomTI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #124 - Michael Schiavello (Part 1)**
+  - ID: `pdaZ5CfU3kg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #123 - Tom Segura**
+  - ID: `61Bu_AbRfeI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #117 - Eddie Bravo**
+  - ID: `ealQgXFCg0U`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #121 - Bryan Callen**
+  - ID: `ILrLfoHUzj8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #316 - Enson Inoue, Chuck Lidell**
+  - ID: `rt1aL58hxms`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #115 - Maz Jobrani**
+  - ID: `-4liI74MGAs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #109 - Ari Shaffir**
+  - ID: `vVcrR0wryYw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #106 - Steve Rannazzisi**
+  - ID: `fE8H53UhiNI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #101 - Adam Carolla (Part 1)**
+  - ID: `ySO6-dq33SM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #105 - Bryan Callen (Part 2)**
+  - ID: `zWHnx5qfi9U`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #105 - Bryan Callen (Part 1)**
+  - ID: `Wr63PnZatuE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #103 - Duncan Trussell**
+  - ID: `mskyNpMvU7s`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #101 - Adam Carolla (Part 2)**
+  - ID: `77vjwQJxNAg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #100 - Brian Redban**
+  - ID: `3L7nsSNyDAQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #96 - Kevin Pereira**
+  - ID: `V6vkAaEHq84`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #95 - Bert Kreischer**
+  - ID: `rfzCp9Kj3k0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #94 - Joey Diaz (Part 4)**
+  - ID: `GBisN_-WaAs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #94 - Joey Diaz (Part 3)**
+  - ID: `dqMH6h2W8_Q`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #94 - Joey Diaz (Part 2)**
+  - ID: `c6bjKNHVS8M`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #93 - Eddie Bravo (Part 2)**
+  - ID: `yIKBxugJLgA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #94 - Joey Diaz (Part 1)**
+  - ID: `o9aDj7vnM0g`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #93 - Eddie Bravo (Part 1)**
+  - ID: `6fXj6_szRTA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #90 - Joey Diaz**
+  - ID: `ChKKbwEf54I`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #89 - Bryan Callen**
+  - ID: `e3YgJuXCo8o`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #87 - Dana Dearmond**
+  - ID: `6HV2fT5K4CY`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #84 - Duncan Trussell**
+  - ID: `3u6PNLYxk8g`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #83 - Bas Rutten**
+  - ID: `4rWsL8NAzY4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #79 - Jon Lajoie**
+  - ID: `LNh1upO_RhU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #80 - Joey Diaz & Ari Shaffir**
+  - ID: `5-fT9OFXTLo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #77 - Eddie Ifft**
+  - ID: `PtyGKGGzVpI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #76 - Bobby Lee**
+  - ID: `vLCVyQYi5bc`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #74 - Allison Sciulla**
+  - ID: `K_QO1plJ9hs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #73 - Bert Kreischer**
+  - ID: `L1M6RMW47vU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #71 - Al Madrigal**
+  - ID: `FB-kO-KNINs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #284 - Daniel H. Wilson**
+  - ID: `j5fH-o-258Y`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #59 - Ralphie May**
+  - ID: `XYqFMm-OAcg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #58 - Mayhem Miller**
+  - ID: `Y0DCa7StZuI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #54 - Eddie Bravo**
+  - ID: `d2VRwxQlZYg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #53 - Freddy Lockhart**
+  - ID: `KiGhBcu8-vk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #282 - Dr. Peter Duesberg & Bryan Callen**
+  - ID: `k1jj0mUYJ_g`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #283 - Dave Attell**
+  - ID: `akXHa3NGE6s`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #281 - Bryan Callen**
+  - ID: `Bs4QI3HRpeM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #46 - Chris Aubrey Marcus (Part 1)**
+  - ID: `w-1LAv6stBs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #46 - Chris Aubrey Marcus (Part 2)**
+  - ID: `QtZ7uat5ByU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #45 - Tom Green**
+  - ID: `EF6GrPaiOlk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #44 - Todd McCormick (Part 2)**
+  - ID: `ScQpmajQZmY`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #47 - Michael Schiavello**
+  - ID: `fMqeDBjZ6C4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #286 - Daniele Bolelli**
+  - ID: `ocUSQ7cmbQQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #285 - Tim Ferriss**
+  - ID: `IRyO_nd4aFY`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #39 - Joey Diaz, Eddie Bravo (Part 1)**
+  - ID: `pTkm9OvtV_0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #39 - Joey Diaz, Eddie Bravo (Part 2)**
+  - ID: `OA9vex8TAVI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #38 - Bryan Callen**
+  - ID: `p7CtRO1gcxM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #37 - Ricky Schroder**
+  - ID: `k6bE9flAaCo`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #35 -- Joey Diaz & Eddie Bravo**
+  - ID: `DYgJVoFjBvQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #33 -- Dane Cook**
+  - ID: `-PKbk6aXKy8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #31 -- Mayhem Miller**
+  - ID: `YudO26dxbW0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #29 - Brian Redban**
+  - ID: `JCkSeN02EIg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #28 - Joey Diaz**
+  - ID: `uGUtNujSdBk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #26 - Bill Burr**
+  - ID: `eE_ibbLtkck`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #25 - Joey Diaz**
+  - ID: `r8hggGc_IvM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #24 - Eddie Bravo**
+  - ID: `OL1VJGeCtGw`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #19 - Brian Redban**
+  - ID: `Eq0ymM_QP6E`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #18 - Brian Redban**
+  - ID: `TpY4STa32yY`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #17 - Ari Shaffir, Eddie Bravo**
+  - ID: `K1VZq949niU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #16 - Brian Redban**
+  - ID: `NT9pV7I_5jQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #15 - Brian Redban**
+  - ID: `Cgigm6zfaF0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #14 - Brian Redban**
+  - ID: `sVIHKnAc5OE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #13 - Eddie Bravo**
+  - ID: `1s8-tu6bf2w`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #11 - Ari Shaffir**
+  - ID: `ZC2pCSmVEJU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #12 - Joe Rogan**
+  - ID: `apQb75I5Srs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #7 - Brian Redban**
+  - ID: `M-CYCpjn_vE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #9 - Brian Redban (Part 2)**
+  - ID: `XYUEHO77Io8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #9 - Brian Redban (Part 1)**
+  - ID: `blZn38CF_ow`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #6 - Brian Redban**
+  - ID: `8udgf54TftQ`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #5 - Ari Shaffir & John Heffron (Part 2)**
+  - ID: `Dt1aPIk2qF8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #5 - Ari Shaffir & John Heffron (Part 1)**
+  - ID: `r8bPaqxVj94`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #3 - Ari Shaffir**
+  - ID: `tJyzTzXBM8I`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2 - Brian Redban**
+  - ID: `Psu4JK_M7V8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #1 - Brian Redban**
+  - ID: `ZWBCnvOuXK8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #288 - Greg Proops**
+  - ID: `oMterDefEFU`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #289 - Shane Smith**
+  - ID: `zC4K9w6mReg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #305 - Bert Kreischer (Part 2)**
+  - ID: `XsWMYSzngR8`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #290 - John McAfee**
+  - ID: `hrtfbXcICwE`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #293 - Cara Santamaria**
+  - ID: `F_FfLpb_nmM`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #291 - Duncan Trussell**
+  - ID: `8U3lQJKgUFI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #292 - Eddie Bravo**
+  - ID: `C4yypRQBRZA`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #295 - Tom Segura, Christina Pazsitzky**
+  - ID: `MzMYysVQFao`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #297 - Dom Irrera**
+  - ID: `4UXiWW0euNg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #298 - Dennis McKenna**
+  - ID: `51PK6Hvaddg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #299 - Honey Honey**
+  - ID: `frft2Gfd3Fg`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #300 - Joey Diaz**
+  - ID: `8HrP0PcvILs`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #301 - Doug Stanhope**
+  - ID: `t4UJ8rMW_u0`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #304 - Andrew Dice Clay**
+  - ID: `p0zNBUF-nR4`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #308 - Steve Volk**
+  - ID: `3F7y0U6L6cI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #310 - Neil Degrasse Tyson**
+  - ID: `ZpHh_TU2kcI`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #312 - Steve Rinella, Bryan Callen**
+  - ID: `WPt2Ec1QJlk`
+  - Published: 2013-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `F7r4cXPQbQ8`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `8lYyHQVL0eo`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `Fx0ugBR_kso`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `t333abojcNQ`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `MBVL4XgcZcQ`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `6kSd3-IiENY`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `whrVSEED_GE`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `Q4Uiw94i7xM`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `QvY7qn1TXok`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `Mnrs-s_DtLk`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `xmMtCBxnlz8`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `YYLdom-qQ-c`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `s4SDNrvr7k4`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `SwB48YSF6-k`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `L_VRtPAJyO4`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `CJiD3HYJlRw`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `DkrcRKEx2yE`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `nL7t66FW2eo`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `coy201c5wt4`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `yjRkgACiaXk`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `F8qxwts_bE4`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## DOAC
+
+**Total Episodes:** 445
+
+**Status Summary:**
+- discovered: 445
+
+**Episodes:**
+
+- 🔍 **Insulin Doctor: This Is The First Sign Of Dementia! The Shocking Link Between Ke**
+  - ID: `KVXnVe8eOkM`
+  - Published: 2025-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kevin Hart: They're Lying To You About How To Become A Millionaire! I Was Doing **
+  - ID: `5sCGZAcXKWg`
+  - Published: 2025-11-21
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tim Ferriss: The Hidden Nerve That Controls Trauma, Mood & Emotional Pain!**
+  - ID: `GFyijjy1KdU`
+  - Published: 2025-11-14
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Woman Who Makes Millionaires: Only 1% of People Do This! The PPF Framework W**
+  - ID: `VsTMXuIV3OM`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No.1 Brain Scientist: Your Brain Is Lying To You! Here's How I Discovered The Tr**
+  - ID: `hQaN5w3YwtM`
+  - Published: 2025-11-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Brené Brown: The Algorithms Have Forced Us Into A Hidden Epidemic, This Is The O**
+  - ID: `jroF3PH-PTs`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kamala Harris: America Is At Breaking Point & I'm Deeply Concerned About The Sta**
+  - ID: `D3lhrrXb4WI`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Longevity Debate: SHOCKING Weight Loss Truth! They've Been Hiding This For YEARS**
+  - ID: `P1CeHGJOX5g`
+  - Published: 2025-10-29
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Oz Pearlman (Mentalist): This Small Mistake Makes People Dislike You! They Do Th**
+  - ID: `4qfxHfBJ3Mw`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jürgen Klopp: Would You Go Back To Manage LFC...? The Real Reason I Fell In Love**
+  - ID: `UMy6GESNkDc`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Hormone & Fertility Experts: We've Been Lied To About Women's Health! If This Ha**
+  - ID: `kizDk8idpT8`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Neil deGrasse Tyson: The Harsh Truth About Horoscopes (sorry but it’s true)**
+  - ID: `gW3vVIFRVhw`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Louis Tomlinson: When The Police Knocked... I Just Knew! "The Room Was Cold That**
+  - ID: `lylGyddTiGg`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Savings Expert: Passive Income Is A Scam! Post-Traumatic Broke Syndrome Is C**
+  - ID: `jFlnRBO8mcg`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No. 1 Sugar Expert: You've Been Sold A Lie About "Healthy" Food!**
+  - ID: `ZE_H7rijrVk`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Atheist vs Christian vs Spiritual Thinker: Is Not Believing In God Causing More **
+  - ID: `Esu8BXLBmZ4`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Secret Agent: Authenticity Is Quietly Sabotaging You! Do This & They'll Stop Res**
+  - ID: `DazRYdqZRDI`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Insulin Doctor: The Fastest Way To Burn Dangerous Visceral Fat! I'm Finding Moul**
+  - ID: `gryta3KZKU4`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Matthew McConaughey: The Silent Crisis No One Is Talking About! I Sabotaged My O**
+  - ID: `QMzxNfX-uAg`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No.1 Money Saving Experts: Do Not Buy A House! Putting Money In A Bank Makes You**
+  - ID: `XTGlde-Pbd8`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ray Dalio: We’re Heading Into Very, Very Dark Times! America & The UK’s Decline **
+  - ID: `49RT6SQ8n0Y`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Sugar Doctor: The Simple Diet That Prevents 80% of Disease!**
+  - ID: `QXUNnXHXeVQ`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The AI Safety Expert: These Are The Only 5 Jobs That Will Remain In 2030! - Dr. **
+  - ID: `UclrVWafRAI`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **World No.1 Fasting Expert: The Link Between Cancer & Fasting That They're Hiding**
+  - ID: `jDG1m_b5Ih0`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Former CIA Spies (NEW): Leave the USA Before 2030! The CIA Tried To Ban This Sto**
+  - ID: `fu6bYPTp_kE`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Fat Burning Expert: The REAL Reason You’re Not Losing Belly Fat (and How To **
+  - ID: `3C185Gkgg0U`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Brain Experts WARNING: Watch This Before Using ChatGPT Again! (Shocking New Disc**
+  - ID: `5wXlmlIXJOI`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Neuroscientist (Dr. Tara Swart): Evidence We Can Communicate After Death!**
+  - ID: `yfEQRqFo2bI`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **5 Natural Medicines Big Pharma Are Hiding From You! No.1 Herbal Medicine Expert**
+  - ID: `5Jk5XCLAr6w`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The SIMPLE (& Proven) Way To Earn $100,000 From Nothing! | The Money Making Expe**
+  - ID: `hVlAOIUA71Y`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Anti-Aging Expert: Missing This Vitamin Is As Bad As Smoking! The Truth About Cr**
+  - ID: `JCTb3QSrGMQ`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **America Is at Breaking Point, Is Gavin Newsom America’s Next President?**
+  - ID: `1NLoTuRR3hE`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Nischa Shah: They’re Lying To You About Buying a House! My 652510 Rule Built $20**
+  - ID: `NxTsA72O5x0`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Vitamin D Expert: The Fastest Way To Dementia & The Big Lie About Sunlight!**
+  - ID: `wQJlGHVmdrA`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **You’re Watching the End of the World in Real Time - Eric Weinstein**
+  - ID: `I-iyGGPabpI`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **WW3 Threat Assessment: World War III Has Quietly Started!**
+  - ID: `8qObdS-bhRM`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. K: This Group Of Men Are Slowly Going Extinct!**
+  - ID: `dm2qDrb3UVo`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **World Expert on Love: Your Brain Already Picked Your Partner (But They’re Lying **
+  - ID: `hxsnk90VwCo`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kevin O'Leary: Every Time You Get Paid, Do This! It 10xs Your Income Without Hav**
+  - ID: `mpAZehPviLQ`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tom Aspinall Opens Up About Brain Damage & His Future In the UFC**
+  - ID: `puc5pZVsFPY`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Secret Buddhist Practice To Stop Self Hate & Overthinking!**
+  - ID: `vIbLQQ1i56Y`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **DEBATE: Feminist Women Vs Non-Feminist Women**
+  - ID: `ZHuZ_8VYCWA`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Godfather of AI: They Keep Silencing Me But I’m Trying to Warn Them!**
+  - ID: `giT0ytynSqg`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Sex Expert (Esther Perel): The Relationship Crisis No One Talks About That's Kil**
+  - ID: `QCaFWrT0j-g`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Scooter Braun: When Everything Broke, It Fixed Me**
+  - ID: `j4z25zj6bmE`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Invest in This – It’ll Be Worth $1.5 Million by 2030 | World Leading Investing E**
+  - ID: `ZznpMh0DegE`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jimmy Fallon: I Didn't Expect It To Be This Brutal! The Hate Was Something I Was**
+  - ID: `yHCtfU3syM4`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Foot Expert: Your Toes Can Predict If You’ll Die Early! This Will Fix Planta**
+  - ID: `CMzEnLkS2rQ`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Simon Sinek: You're Being Lied To About AI's Real Purpose! We're Teaching Our Ki**
+  - ID: `W4tqbEmplug`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **They Lied About Alcohol’s Effect On Your Brain! Here’s The Proof | Dr. Sarah Wak**
+  - ID: `Fg7U-BhiZGE`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Chronic Disease Doctor: We Can Now Reverse Some Stage 4 Cancer?**
+  - ID: `LgsJ3V9pIG0`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jeff Cavaliere: The TRUTH about Creatine! Melt Belly Fat With 1 Change!**
+  - ID: `epAVydG6IxI`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AI AGENTS DEBATE: These Jobs Won't Exist In 24 Months!**
+  - ID: `JMYQmGfTltY`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Chris Eubank Jr: I Was Paid $***** For The Fight! The Night Before, Dad Finally **
+  - ID: `OsAlLgGf9JM`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Business Expert: How To Build A Brand In 2025! They're Lying To You About Wo**
+  - ID: `EdlXcVu1CTs`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Michelle Obama: This Is A Scam! People Were Running From Us Because We Were Blac**
+  - ID: `D67eWcX2XYQ`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Savings Expert: The Truth About America Collapsing! The Cost Of Living Is Ab**
+  - ID: `uxu37dqVR90`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Shaolin Warrior Master: Hidden Epidemic Nobody Talks About! This Modern Habit Is**
+  - ID: `atejm2w2jWY`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Former FBI Agent: If They Do This Please RUN! Narcissists Favourite Trick To Con**
+  - ID: `ZuiIvevLg40`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **(Major Discovery) No.1 Neuroscientist: Anxiety Is Just A Predictive Error In The**
+  - ID: `rCtvAvZtJyE`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No.1 Nitric Oxide Expert: This is the anti-aging cure no one is talking about!**
+  - ID: `zECoaEZRRFU`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Body Language Expert Explains Why People Dislike You**
+  - ID: `ldizQkuWpDE`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Peter Attia: Anti-aging Cure No One Talks About! 50% Chance You’ll Die In A Year**
+  - ID: `ZxXruY7llcc`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Corrupt Cop: I Had Sex With Girls In My Police Car, Arrested Drug Dealers, Then **
+  - ID: `NSsx6mkiaf8`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Young Men Are (Quietly) Giving Up...Here’s Why!**
+  - ID: `li70iz1NaDY`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Hormone Expert: Control Your Hormones Control Your Belly Fat! Cortisol, oestroge**
+  - ID: `0GQozcTPyO0`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Exact Formula Used To Build A $130 Billion Company! I Said No to $3B From Mark Z**
+  - ID: `rBM6lGk4-fk`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **EMERGENCY DEBATE: They Lied About The Economy Recovering! Is A Financial Apocaly**
+  - ID: `4yohVh4qcas`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Speaking Coach: The One Word All Liars Use! Stop Saying This Word, It's Maki**
+  - ID: `zsuOSDb7gzQ`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Secret To Living Without Fear & Anxiety Forever! Your Mind Can Heal Itself! - Dr**
+  - ID: `G4hkYDjPSFs`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No. 1 Communication Expert: This Speaking Mistake Makes People Dislike You! Vinh**
+  - ID: `oIiv_335yus`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Truth About Creatine & Exercise! 30% Of People Will Die From This! The Healt**
+  - ID: `ffgpqk5hZBE`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Child Attachment Expert: We're Stressing Newborns & It's Causing ADHD! Hidden Da**
+  - ID: `cialLfVZqm4`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **We Are Making Dangerous, Lonely & Broken Men! - Manipulation Expert, Robert Gree**
+  - ID: `19_sGcrsWhg`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Secret Agent: If You’re Easily Offended, You’re Easily Manipulated! This 1 Trick**
+  - ID: `7l_0ZcSuRwg`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **MrBeast: If You Want To Be Liked, Don't Help People & I Lost Tens Of Millions On**
+  - ID: `FjrJ2DJN_pA`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Sex Psychologist: We're Not Having Enough Sex! Fat Makes You Attractive! Dr **
+  - ID: `9gk3mNJs2FY`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Man That Makes Millionaires: Turn $0 to $10k With This Step By Step Formula!**
+  - ID: `Kl-I7sUcAOY`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The No.1 Brain Doctor: This Parenting Mistake Ruins Your Kids Brain & Alcohol Wi**
+  - ID: `bOi_Y4ythYY`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Insulin & Glucose Doctor: This Will Strip Your Fat Faster Than Anything!**
+  - ID: `NyFSkGMWP5Q`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Charisma Teacher: Psychology Of Why People Don't Like You! People Are Attrac**
+  - ID: `zg4Ta7vXiIM`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Paul Brunson: Women Need To Lower Their Standards! If They Have These 3 Traits, **
+  - ID: `6ikIGGi859w`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Nutritional Scientist: Do Not Eat After 9pm! Link Between Chewing & Belly Fa**
+  - ID: `eOnIWDMNyfE`
+  - Published: 2025-02-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **US ELECTION DEBATE: What Trump’s Return REALLY Means For The World! Is The UK Ab**
+  - ID: `qpBnYB0I6_0`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Money Making Expert: The 7,11,4 Hack That Turns $1 Into $10K Per Month! Dani**
+  - ID: `sFkR34AMPw8`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Keto Psychiatrist: What Keto Is Really Doing To Your Body! Can It Cure 43% O**
+  - ID: `B7tnfSPySb0`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jordan B Peterson: You Need To Listen To Your Wife! We've Built A Lonely & Sexle**
+  - ID: `Hik6OY-nk4c`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Get Your Sex Life Back! What Everyone Gets Wrong About Sex, Libido & Erectile Dy**
+  - ID: `IgW1jepnJp4`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Exercise & Nutrition Scientist: The Truth About Exercise On Your Period! Take Th**
+  - ID: `It5_C6AF1pk`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dopamine Expert: Doing This Once A Day Fixes Your Dopamine! What Alcohol Is Doin**
+  - ID: `R6xbXOp7wDA`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How To Make Money.... 7 Hacks That Are PROVEN To Work!**
+  - ID: `jyCJeglqCe4`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Behaviour Expert: Instantly Read Any Room & How To Hack Your Discipline! Cha**
+  - ID: `RvjR9GM2kX8`
+  - Published: 2025-01-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Body Trauma Expert: This Eye Movement Trick Can Fix Your Trauma! The Body Ke**
+  - ID: `Qx5J5nwDBTo`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr. Martha Beck (Oprah's Life Coach): This Weird Trick Reduces Anxiety & Fixed M**
+  - ID: `fajtQSCHfvE`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Reid Hoffman, LinkedIn Founder: It’s Time To Quit Your Job When You Feel This! T**
+  - ID: `eTkFItOG3Kk`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **MrBallen (Former Navy SEAL): If You Feel Lost, Here's How To Turn Your Life Arou**
+  - ID: `rDyTyppGxSg`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Body Language Expert: Stop Using This, It’s Making People Dislike You, So Are Th**
+  - ID: `VHUrdELKjDw`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Orgasm Queen: Do This For 20 Minutes Before Having Sex & Your Sex Will Feel Bran**
+  - ID: `LLMCd3WbgGk`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Brian Keating: I’m Spending $200 Million To Explore Existence! How God Fits Into**
+  - ID: `LiIs5X56JMI`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ex-CIA Spy: China Is Preparing & We're Not Paying Attention! Here's What Happens**
+  - ID: `7-ZCglrexbo`
+  - Published: 2024-12-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Women Health Expert: Birth Control Changes Who You Are & How You Feel About Your**
+  - ID: `MGposaKNJKQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Savings Expert: Are You Under 45? You Won't Get A Pension! Don't Buy A House**
+  - ID: `RSyX_665sEw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No.1 Toxicologist: These Products Were Making Me Infertile And Are Harming Our K**
+  - ID: `rObAX1r8r0s`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ex Google CEO: AI Can Create Deadly Viruses! If We See This, We Must Turn Off AI**
+  - ID: `2Zg--ouGl7c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr Sampson: Your Oral Microbiome Is Linked To This Disease!**
+  - ID: `p3fSwd1cF08`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Investing & Crypto Expert: "We Only Have 6 Years Until Everything Changes!" **
+  - ID: `XyhhwVJB9Z4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Scott Galloway: "There Is A 33% Chance That Trump Dies In Office!"**
+  - ID: `inwyi6Zdeo8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ex-Pentagon Official: The U.S Isn't Telling The Truth! Top-Secret UFO Encounters**
+  - ID: `ZkNVSju99HY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Divorce Expert: Slippage Is Tearing Marriages Apart! If Kids Are Your Priority Y**
+  - ID: `oAgGirY-GUQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Brain Doctor: This Is The Fastest Way To Get Dementia & Its More Common Than**
+  - ID: `yelE_brGf-c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Explicit Content Debate: The Unseen Dangers Of Nofap & The Adult Industry Is Exp**
+  - ID: `8LjNUabIJOk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trevor Noah: My Depression Was Linked To ADHD! Why I Left The Daily Show!**
+  - ID: `FsztuzyXdhY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ramit Sethi: Never Split The Bill, It's A Red Flag & Renting Isn't Wasting Money**
+  - ID: `pz6jhMPA-2w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Boris Johnson: "They Were Looking at Engineering the Virus” & “The Government Tr**
+  - ID: `6bL24eHvwoc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Cancer Doctor: "This Common Food Is Making Cancer Worse!"**
+  - ID: `VaVC3PAWqLk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The No.1 Eye Doctor: They’re Lying To You About Blue Light! The Truth About Floa**
+  - ID: `SWjzjClBCO4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr K: We Are Producing Millions Of Lonely, Addicted, Purposeless Men & Women!**
+  - ID: `P1ALkQMfkjc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Anti-Obesity Doctor: If You Don't Exercise, This Is What's Happening To You!**
+  - ID: `2j3T4oYJPfI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Anti-Woke Expert: “We Are Witnessing The Fall Of The UK & The USA!” - Konsta**
+  - ID: `GbV6iW26h-Q`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Glucose Goddess: The 10 Glucose Hacks!**
+  - ID: `3esF-pNAM9c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Gottman Doctors: Affairs Can Save Your Relationship! If You See This, Walk A**
+  - ID: `H9kPmiV0B34`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Muscle Building Expert: They’re Lying To You About Workout Hours! Dr Michael**
+  - ID: `OTrTqs9FLq0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Cancelled Professor: Men Are Hardwired To Cheat! - Dr Gad Saad**
+  - ID: `1g9VX34MSUA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Yuval Noah Harari: They Are Lying About AI! The Trump Kamala Election Will Tear **
+  - ID: `78YN1e8UXdM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The No.1 Productivity Expert: 10,000 Hours Is A Lie! This Morning Habit Is Ruini**
+  - ID: `MsERVcx0Qg8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Andrew Huberman: You Must Control Your Dopamine! The Shocking Truth Behind Cold **
+  - ID: `jSqCL7Npln0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dating Doctor: "Start Dating Like It's Your Job!" Dating Apps Are Impacting Us M**
+  - ID: `PM9rgDBX9u0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mafia Boss: I Was Making $1.4 Million A Day! - Michael Franzese**
+  - ID: `S1JXKT7mf9A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Professor Banned From Speaking Out: "We Need To Start Preparing” - Dr Bret W**
+  - ID: `_cFu-b5lTMU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Codie Sanchez: They're Lying To You About How To Get Rich! How To Turn $0 Into $**
+  - ID: `IYu_PDPqKFc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Francis Ngannou Breaks Down Sharing Heartbreaking Story: “I Don’t Know How To De**
+  - ID: `4mmLOoloH3E`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Woman Who Helps NBA Stars To Sleep: Stop Having Showers Just Before Bed! Dr **
+  - ID: `fybq6V74qRk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Former Netflix CEO: “Hard Work Does Not Matter!” A $278 Billion Company Wasn’t B**
+  - ID: `HSVbD7RhOHU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Former CIA Spy Reveals How They’re Controlling You! - Andrew Bustamante**
+  - ID: `P_A8XElrAqA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Doctor That Got Banned For Speaking Out:“We've Been Lied To About Medication**
+  - ID: `R87QLweXl1A`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Healthy Ageing Doctor: Doing This For 30s Will Burn More Fat Than A Long Run**
+  - ID: `D6wTuogebU8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Entrepreneurship Expert: How To Build A $1m Business Without Hard Work!**
+  - ID: `kxLmeUIXXtU`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Scott Galloway: We’re Raising The Most Unhappy Generation In History! Hard Work **
+  - ID: `rKOx5qlLyaA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Gender Expert: Men Are Emotionally Dependent On Women, We're Treating Them Like **
+  - ID: `_J1lFZEBq2Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Ozempic Expert: Ozempic Transforms Your Gut Microbiome! People Are Being Ove**
+  - ID: `XDcESvzX58Y`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Extreme Sleep Scientist: The Painful Trick To Fix Insomnia And Poor Sleep!**
+  - ID: `Desm53JJVMA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Fasting Expert: "The Truth About Ozempic", These 3 Foods Are Leading To Canc**
+  - ID: `MrjIXLQ_OdA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Wim Hof: They’re Lying To You About Disease & Inflammation!**
+  - ID: `_vX-_fq-c50`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Sex Expert: "Casual Sex Is Almost Always Dangerous For Women!" - Louise Perr**
+  - ID: `-pdCDq_MTj4`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Simon Sinek: "Strong Thigh Muscles = More friends", This Is Why You Can't Make F**
+  - ID: `I3WUiD8HYn8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Menopause Doctor: This Diet Delays Menopause! Menopause Is Shrinking Your Br**
+  - ID: `Cgo2mD4Pc54`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Simon Cowell Opens Up About His Heartbreaking Loss & His Regrets About One Direc**
+  - ID: `BvsbCdCG8gE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Secret Agent: How To Detect A Lie Instantly! - Evy Poumpouras**
+  - ID: `iz_SJ5TpLJ0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Pregnancy Doctor: Pregnancy Is Halved Every Year After Age 32! If You Want 2**
+  - ID: `w8h4qksd6Yw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr Mike: The Top 10 Lies Health Experts Have Told You!**
+  - ID: `ToUpAWW7u4c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Charlamagne tha God Opens Up About His Depression & Childhood Trauma!**
+  - ID: `1Rd9Iuxjb5k`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Exercise Neuroscientist: NEW RESEARCH, The Shocking Link Between Exercise An**
+  - ID: `5o-tRub-0pQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Divorce Expert: 86% Of People Who Divorce Remarry! Why Sex Is Causing Divorc**
+  - ID: `-MGyiqVjdKI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Glucose Expert: The Only Proven Way To Lose Weight Fast! Calorie Counting Is**
+  - ID: `4DWKf5RqU-s`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Minute By Minute Of What Happens If A Nuclear Bomb Hits & How To Survive It!**
+  - ID: `asmaLnhaFiY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Male Fertility Doctor: Delaying Having Kids Is Impacting Your Future Kids! D**
+  - ID: `uTs6SFeny5Q`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Rebel Wilson: The Truth About Sacha Baron Cohen! Trauma Was The Reason I Couldn'**
+  - ID: `-xjneW1XZBs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Russ Cook (Hardest Geezer): I Haven't Told The Whole Truth About Africa!**
+  - ID: `hbdQPmjPHhg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Johann Hari: They’re Lying To You About The Side Effects Of Ozempic!**
+  - ID: `0YMnHNIuK3M`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mo Gawdat: A WARNING about Stress & Anxiety! This Is Causing 70% Of Heart Attack**
+  - ID: `IxVNR0Om-lA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **I Tested 100,000 People's DNA. This Diet Will Kill You - Gary Brecka**
+  - ID: `10enqcw2Qiw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jocko Willink (Former Navy Seal): Use This Weird Trick To Overcome Fear, Anxiety**
+  - ID: `3eZJ_y68wsg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jimmy Carr: "There's A Crisis Going On With Men!"**
+  - ID: `uHLAazKUU68`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Longevity Expert: Is There A Link Between Milk & Cancer? + Ozempic Can Reall**
+  - ID: `lbzn5iz8Mbo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ronda Rousey: I Kept This A Secret My Entire Career! WWE Is A Mess!**
+  - ID: `ojNTQRW-SXM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tim Dillon (Comedian): The Boomers Are A Selfish Generation And Gen Z Has Expose**
+  - ID: `J5lAgTvbGS8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Better-Sex Doctor: The Link Between Masturbating & Prostate Cancer! Dr Rena **
+  - ID: `HUoPA6oP6do`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Gottman Doctors: Women Tend to Be More Unhappily Married & Non-Cuddlers Have**
+  - ID: `mS3bfCt0K88`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **From My Garden Shed To $100m Business Empire! “That Letter Was The End Of Repres**
+  - ID: `sb2kXdfJmww`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Leading Childhood Trauma Doctor: 10 Lies They Told You About Your Childhood Trau**
+  - ID: `USE89i0kiiQ`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Manipulation Expert: You're Being Manipulated! Use Jealousy To Manipulate Pe**
+  - ID: `yrwSOMFZvHY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Calories Expert: Health Experts Are Wrong About Calories & Diet Coke! Layne **
+  - ID: `Znoi6tBtYRc`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **This Statistically Is The Best Age To Get Married So You Don't Get A Divorce!**
+  - ID: `SNuHbJbuUZE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr K: "There Is A Crisis Going On With Men!", “We’ve Produced Millions Of Lonely**
+  - ID: `B_5N_aDu3u0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **CIA Spy: "Leave The USA Before 2030!" Why You Shouldn't Trust Your Gut! - Andrew**
+  - ID: `QVVe2rCHtN0`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Narcissism Doctor: "1 In 6 People Are Narcissists!" How To Spot Them & Can T**
+  - ID: `hTkKXDvSJvo`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Muscle Growth Doctor: Exercise At Night Is A Terrible Idea! Grip Strength = **
+  - ID: `hQ78Hpwrt80`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Money Making Expert: The Exact Formula For Turning $100 into $100k Per Month**
+  - ID: `u0o3IlsEQbI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Orgasm Expert: THIS Is How Often You Should Be Having Sex & Stop Inviting Pe**
+  - ID: `E5swtIjpxxA`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Hinge CEO: The Truth About Dating Apps, Attraction And Finding Love In 2024!**
+  - ID: `AVSn8EYQ43I`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Adam Grant: 10 CRAZY Stats About Why Only 2% of the People Becomes Successful!**
+  - ID: `uPXjt6beYbg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Brain Doctor: 5 Popular Habits That Will Kill Your Brain Health!**
+  - ID: `WLWbFVKFffM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Paul Brunson: "The 70/30 Body Shape Is Scientifically The Most Sexy" & THIS Pred**
+  - ID: `i2sHBL8BjWI`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Harvard Professor: They’re Lying To You About Running, Breathing & Sitting! - Da**
+  - ID: `A-8tPmQtYqs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Leading Harvard Doctor: The Shocking Link Between Your Diet ADHD & Autism!**
+  - ID: `3GVInaBCn_c`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Exercise Doesn't Make You Lose Weight! Doctor Jason Fung**
+  - ID: `8RuWp3s6Uxk`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Happiness Expert: Single Friends Will Keep You Single & Obesity Is Contagiou**
+  - ID: `qRY-foz-ZAw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Mental Health Doctor: Your Phone Screen & Sitting Is Destroying Your Brain!**
+  - ID: `FN0_ow76hU8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Yuval Noah Harari: An Urgent Warning They Hope You Ignore. More War Is Coming!**
+  - ID: `UzOJiqN_DpM`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Thierry Henry: I Was Depressed, Crying & Dealing With Trauma!**
+  - ID: `aivpDPCP7Q8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Fitness Scientist: "Even A Little Alcohol Is Hurting Your Health!" Kristen H**
+  - ID: `-Hwlvkfp698`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The No.1 Poo & Gut Scientist: If Your Poo Looks Like This Go To A Doctor! Dr Wil**
+  - ID: `qqabbfk9wV8`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Love Expert: The REAL Reason We’re Lonely, Loveless, Depressed - Alain De Bo**
+  - ID: `oI7BxBNp1uE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Top 7 Belly Fat Burning Hacks For 2024 That Are PROVEN To Work!**
+  - ID: `WJcIfLUR6gg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Michael Buble: "I Will NEVER Be Carefree Again!", Rejection, Cancer & Stealing!**
+  - ID: `2bUfUN9wUrs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The No.1 Menopause Doctor: They’re Lying To You About Menopause! Mary Claire Hav**
+  - ID: `oQqcnYcKx68`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **“Dynamo Is Dead!” The Heartbreaking True Story Of Why Dynamo Vanished For Years!**
+  - ID: `TTzgD6Tn9DY`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Casey Neistat: Why I Quit YouTube & What I'm Doing Now!**
+  - ID: `vFuyiCnROzs`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Esther Perel: The 3 Attachment Styles & Why You’re Struggling With Love!**
+  - ID: `nTWXfo7narw`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mel Robbins: Saying These 2 Words Could Fix Your Anxiety! (Brand New Trick)**
+  - ID: `iEo48f_Rs4w`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Man Who Followed Elon Musk Everywhere: 7 Elon Secrets! Walter Isaacson**
+  - ID: `9BDmC5u_MLE`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Busta Rhymes Finally Opens Up About His Grief, Depression & Recovery!**
+  - ID: `cRjzQuzX-tg`
+  - Published: 2024-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jordan Peterson: STOP LYING TO YOURSELF! How To Turn Your Life Around In 2024!**
+  - ID: `IRCZ1Mt2a8M`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Coffee Expert: The Surprising Link Between Coffee & Your Mental Health! Jame**
+  - ID: `TqNrJNhcf5g`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No.1 Neuroscientist: NEW RESEARCH Your Life, Your Work & Your Sex Life Will Get **
+  - ID: `7KTwmEGsY5g`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **I've PROVEN This Food Keeps You Young & This Oil Reduces Inflammation by 85%! Br**
+  - ID: `Htg3HCgrJK4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Savings Expert: “Do Not Buy A House!” Do THIS Instead! - Morgan Housel**
+  - ID: `vOvLFT4v4LQ`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Exercise Expert: This Popular Lifestyle Is Killing 1 Person Every 33 Seconds**
+  - ID: `jnYrxVXQKS0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The ADHD Doctor: “I’ve Scanned 250,000 Brains” You (Steven Bartlett) Have ADHD!!**
+  - ID: `ycTZ_t-aiuU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Love Expert: Why Women Are Addicted To Toxic Men,"Have A Boring Relationship**
+  - ID: `ow3ao6YsCgQ`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Junk Food Doctor: "THIS Food Is Worse Than Smoking!" - Chris Van Tulleken Ul**
+  - ID: `dzUDhstqXbg`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Sadhguru PREDICTION: Why We Are Now On "The Brink Of Extinction!"**
+  - ID: `PACpvHgJ9HM`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jada Pinkett Smith: “I Just wanted to stay alive until 4pm!”**
+  - ID: `vwFxptz77II`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Doctor Gabor Mate: The Shocking Link Between Kindness & Illness!**
+  - ID: `L7zWT3l3DV0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Airbnb CEO: “Airbnb Was Worth $100 BILLION & I Was Lonely & Deeply Sad!”**
+  - ID: `ia6Di_ytiSE`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Food Doctor: Extra Protein Is Making You Fatter!? 6 Food Lies Everyone Still**
+  - ID: `7XrntcEUjLM`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **“It’s An Emergency!” The Number Of Men Having No Sex Increased 180%! - The Relat**
+  - ID: `KRxhnSkgxtk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Spotify Founder: How A 23 Year Old Introvert Built A $31 Billion Business!**
+  - ID: `w_35cUaU_NA`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Leading Neuroscientist: Stress Leaks Through Skin, Is Contagious, Gives You Bell**
+  - ID: `hCW2NHbWNwA`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Nick Cannon: How I ACCIDENTALLY Built A $1.3 Billion Business!**
+  - ID: `YY7Jeh_jCww`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The No.1 Celebrity Therapist: The WEIRD Trick To Get Your Sex Life Back! - Maris**
+  - ID: `_y_vSmiNpBE`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ashley Walters: The Unheard TRUTH About Top Boy! "Me & Kano Didn't Have The Grea**
+  - ID: `4C7aWQ0aSU8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trinny Woodall: How She Went From Drug Addict To $300m Business Empire!**
+  - ID: `amUpZsEl5Rs`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Breathing Expert: Mouth Breathing Linked To ADHD, Diabetes & Child Sickness!**
+  - ID: `FyLwVyJ9uXw`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **CEO Of Microsoft AI: AI Is Becoming More Dangerous And Threatening! - Mustafa Su**
+  - ID: `CTxnLsYHWuI`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Body Language Expert: 4 Body Language Tricks That Will Make People Love You **
+  - ID: `YEM3nWkB-EE`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Rainn Wilson: "I was so unhappy during The Office!" (Dwight Schrute)**
+  - ID: `DeMv_qeCV88`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Discipline Expert: 2,000 Years Of Research PROVES Successful People Do One T**
+  - ID: `PafvhTSC4yE`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ivan Toney Finally Opens Up About His Ban & Reveals His Preferred Future Team!**
+  - ID: `XtT4fI-NkXU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **"He Put A Gun In My Mouth, Then Beat Me Up!" - Molly Bloom (Molly's Game)**
+  - ID: `q3Rf_9GFico`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr Joe Dispenza: You MUST Do This Before 10am!**
+  - ID: `rOYlOdDgYUU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **CMO Of Netflix: "Work Life Balance" Is BAD Advice! I Lost My Baby & My Husband!**
+  - ID: `cuVTVOdkmek`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **WARNING: ChatGPT Could Be The Start Of The End! Sam Harris**
+  - ID: `GmlrEgLGozw`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Man Thats Ageing Backwards: “I Was 45, I’m Now 18!” - Bryan Johnson**
+  - ID: `1yfoonW1InE`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **will.i.am Opens Up: Depression, Creativity & ADHD!**
+  - ID: `1m-2QhqdlfI`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Shocking TRUE Story: “I Lost Both Of My Legs Because Of A Tampon” (Health Warnin**
+  - ID: `NB4jZCxRkTw`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The LIFE-EXTENSION Doctor: "The ONE thing that's increasing your chance of early**
+  - ID: `eqPnptAtBJk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How To Make Money..."Do Not Buy A House!" 10 Ways To Make REAL Money: Ramit Seth**
+  - ID: `ORqd9QAC8OY`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Rita Ora: “I Lived With Constant Anxiety”…After Being Signed By Jay-Z At 18!!!**
+  - ID: `om3RWW9GQQ4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Frank Lampard Finally Speaks Out About What REALLY Happened At Chelsea | E264**
+  - ID: `OEDzn83BxFo`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Harvard Professor: REVEALING The 7 Big LIES About Exercise, Sleep, Running, Canc**
+  - ID: `ujRwf1HdNjk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Steve-O: Childhood Trauma, Addiction, Mocking Death & Craving Attention!**
+  - ID: `YSWvtGdmUA4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Psychology Expert: How Colours, Your First Name And Your Location Might Be Ruini**
+  - ID: `cI2rMEd6GW4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Memory Expert: Do You Want A Perfect Memory? WATCH.**
+  - ID: `1cRmjpBBn7s`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Money Expert: From $0 to Millions In 2 Years Without Any Hard Work!: Codie S**
+  - ID: `XkxZCJ2pYqs`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Queer Eye Star Opens Up About Hitting Rock Bottom: Jonathan Van Ness**
+  - ID: `SkAZRNg-VWY`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Miracle Doctor: Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! D**
+  - ID: `e2mQOGzHtQc`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Unlock The Secrets Of Your Mind, Boost Productivity & Reduce Stress! - Yung Pueb**
+  - ID: `l5WybwqCZic`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **TRANSFORM Your Life At Any Moment: Alcoholic Lawyer That Became "Fittest Man On **
+  - ID: `hUZ_WcBQFds`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola K**
+  - ID: `PDg7m489d1M`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ex-Google Officer Speaks Out On The Dangers Of AI! - Mo Gawdat | E252**
+  - ID: `bk-nQ7HF6k4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Editor Of Vogue (Edward Enninful OBE): How To Become No.1 In Your Industry Again**
+  - ID: `4YZCUb1DNJk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jack Whitehall's Emotional Confession About His Dad, His Biggest Fear & His New **
+  - ID: `p7O0Zyn0SkM`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **No.1 Habit & Procrastination Expert: We've Got ADHD Wrong! Break Any Habit & Nev**
+  - ID: `rDdoUbCFn24`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mia Khalifa Opens Up About The Dark Side Of The Adult Entertainment Industry | E**
+  - ID: `GHxXHKpMBm8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Leading Sex Expert: How To Have Great Sex EVERY Time! (And Fix Bad Sex): Tra**
+  - ID: `2Ait0WaCNCw`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **10 Life-changing Lessons From The Longest Ever Study On Human Happiness! Dr. Rob**
+  - ID: `Itg00I2q8lk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Shopify President: How To Become A Millionaire For The Price Of A Starbucks Coff**
+  - ID: `F6PxgTV-BJk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Macklemore: How You Can Overcome Your Darkest Days & Hardest Battles!**
+  - ID: `gTnLQ3cobBM`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Scary New Research On Sugar & How They Made You Addicted To It! Jessie Incha**
+  - ID: `DnEJrgc1BCk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Surprising & Unbelievable Dark Side Of Open Relationships: Aubrey Marcus | E**
+  - ID: `zEJX6WzET6Q`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Deepak Chopra: The 5 Simple Steps That Will Make Your Mind Limitless! | E241**
+  - ID: `t_pZ2D_nlD0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Heart Surgeon: Cardio Is A Waste Of Time For Weight Loss! Philip Ovadia | E2**
+  - ID: `V7a8X8AB8yU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **NastyGal Founder: I Was A Stripper! A Shoplifter! Then Built A $400m Business! S**
+  - ID: `V7AYmOBahsU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Josh Peck: The Surprising Truth Behind The 127lb Weight Loss | E238**
+  - ID: `ULSEjCKTGZ0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Chris Williamson: The Shocking New Research On Why Men And Women Are No Longer C**
+  - ID: `K2tGt2XWd9Q`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Doctor & Therapist To The Worlds Superstars: Justin Bieber, Miley Cyrus, Bella H**
+  - ID: `oMwAN30FJAQ`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Man That Makes Millionaires: How To Turn $1,000 Into $100 Million!: Alex Hor**
+  - ID: `x3e73Qn6NOo`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Alex Cooper: The Truth I Never Planned to Share...**
+  - ID: `knPqBc2qJ8E`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tony Hawk: The Man With The $1.4 Billion Name! Burnout, Obsession & Regrets**
+  - ID: `H0lbv1pgMc0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Robert Greene: How To Seduce Anyone, Build Confidence & Become Powerful | E232**
+  - ID: `Qv70RMUFlu0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Fix Your Gut Health! The 4 Foods Fueling Inflammation & Disease! - Dr Will Cole**
+  - ID: `R-5H70SfbG8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Simon Sinek: "I FEEL LONELY!" How To Deal With Loneliness! | E230**
+  - ID: `D46zvJI-njU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cole Sprouse: My Narcissistic Mum Sacrificed My Childhood For Fame! | E229**
+  - ID: `3XP9J3UyTUo`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The World’s No.1 Sleep Expert: The 6 Sleep Hacks You NEED! Matthew Walker**
+  - ID: `Us8n8VBQn_c`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Seth Rogen Opens Up About His Self-Doubts & Struggles That Nobody Sees!**
+  - ID: `jR8Zq0xuCz8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Man Who Can Predict How Long You Have Left To Live (To The Nearest Month): G**
+  - ID: `r3atRG5wvtg`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Lucy Hale Opens Up For The First Time About Eating Disorders, Relationships & Ad**
+  - ID: `xlYbp36HPb0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Health Expert: The One Food (WE ALL EAT) That's Killing Us Slowly: Max Lugav**
+  - ID: `It5DFXULOq0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Behaviour Change Scientist: How I Lost 120lbs With Kindness: Shahroo Izadi | E22**
+  - ID: `44iAPrQoYU8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Richard Hammond: The Untold Story Of My 320mph Crash & My 1 Minute Memory! | E22**
+  - ID: `ygn3tMlp1-M`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Romesh Ranganathan: There's A Dark Voice In My Head That I've Learnt To Control **
+  - ID: `DYCPtL43VE4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The "Happy Life" Scientist: How To FINALLY Beat Stress, Worry & Uncertainty! Dac**
+  - ID: `NO_GdfSe9To`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Weight Loss Scientist: You've Been LIED To About Calories, Dieting & Losing **
+  - ID: `Gy_vcL1cpP8`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jay Shetty: 8 Rules For Perfect Love & Amazing Sex! | E217**
+  - ID: `cLTUA1lneS0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Sadiq Khan: The Dark Side Of The Police. How Safe Are We REALLY? | E216**
+  - ID: `2q69Id3-Amk`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jesse Lingard Reveals The Problem With Man United Today & Why He Moved To Nottin**
+  - ID: `MoxkayJ8SnA`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **David Moyes Reveals The Truth About Man United, West Ham & His Future | E213**
+  - ID: `YWnaf_Zd5_Y`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Derren Brown: UNLOCK The Secret Power Of Your Mind! | E212**
+  - ID: `AVblCpr_qAc`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Feeling Lost? Neuroscience Explains Why! The Science Behind Happiness! - Dr Tali**
+  - ID: `0DZK1nawEXQ`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Davina McCall: How To Overcome ANY Trauma & Live The Life You Deserve | E210**
+  - ID: `acjj3NsokSo`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Doctor Tim Spector: The Shocking New Truth About Weight Loss, Calories & Diets |**
+  - ID: `66hWntvp0_4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **5 Scientific Rules for Making & Breaking Habits! | E208**
+  - ID: `v9VtjcRaRWc`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Gary Vee’s Emotional Confession About His Success & Family! | E207**
+  - ID: `ji_N6orURuw`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jamie Carragher: The Untold Story of Liverpool Legend That Pushed Himself Too Fa**
+  - ID: `Y7QgYVMJ5u4`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Neil deGrasse Tyson: Do THIS Every Morning To Find Happiness & Meaning In Your L**
+  - ID: `_yZiNnQftxU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Barbara Corcoran: Turning $1,000 to $1Billion! | E204**
+  - ID: `e6d9PJLAQmE`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Richard Branson: How A Dyslexic Drop-out Build A Billion Dollar Empire!**
+  - ID: `-Fmiqik4jh0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Billy McFarland: The Man Behind The Infamous Fyre Festival Disaster | E202**
+  - ID: `xyP0ypFKtZ0`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Stephen Fry: “Lost, alone and I wanted to take my life” | E201**
+  - ID: `UnMGuZUPCxg`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Charlie Sloth: From Homeless, To Fire In The Booth, To An £800 Million Business!**
+  - ID: `pktiT3JVpVU`
+  - Published: 2023-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Louis Theroux: "The Thing That Makes Me Great At Work, Makes Me Bad At Life!" | **
+  - ID: `cj8ojSVgU9I`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Labrinth: The Musical Genius Behind Euphoria!**
+  - ID: `D27OchSqU-Q`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Peter Crouch Opens Up About His Dark Times & Crying Himself To Sleep | E196**
+  - ID: `ZAYg2zQ0arE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Fighting Sexism & Winning: The Founder Behind The $1Billion Dollar Tech Company **
+  - ID: `ca5h47tJsdE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **I Spent 12 Years In Jail For A Murder I Did Not Commit! Raphael Rowe**
+  - ID: `kMouTbVeRNY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Gabor Mate: The Childhood Lie That’s Ruining All Of Our Lives. | E193**
+  - ID: `uPup-1pDepY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dame Dash: The Man That DISCOVERED & Built Jay-z & Kanye West!  | E192**
+  - ID: `NpmAsMs_m2g`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Gabby Logan Opens Up About Her Heartbreaking Past | E191**
+  - ID: `s_Ig-M8IAAY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Number One Reason This Generation Is Struggling: Scott Galloway  | E190**
+  - ID: `vHpZEMesriU`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Whoop Founder: How I Built A $3.6 BILLION Company & BEAT Apple! Will Ahmed | E18**
+  - ID: `qDw8zT7pCdQ`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Richard Osman: The Untold Story Of A TV Legend's Addiction!**
+  - ID: `kXGYIFuQ2Es`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **World’s No.1 Matchmaker: How To FIND And KEEP Real Love!: Paul Brunson | E187**
+  - ID: `H4EYLof2_HU`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Man Behind Red Bull Racing's Success! Christian Horner**
+  - ID: `FR570m_YzNg`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **David Harewood: The Chilling Story Of How A Hollywood Star Lost His Mind | E185**
+  - ID: `iDsYrU2o2R8`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **World Leading Life Coach: 3 Steps To Figuring Out ANYTHING You Want: Marie Forle**
+  - ID: `gEAMi3p1hO0`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How I Became The Worlds Best DJ With Only One Arm: Black Coffee | E183**
+  - ID: `FfBhj5H93pI`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Alex Scott: I’ve Never Told The FULL Truth About My Past | E182**
+  - ID: `VcFNahUxd3k`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Maisie Williams: The Painful Past Of A Game Of Thrones Star | E181**
+  - ID: `Jpw_DbRqy5Q`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Speaking Expert: How To Speak So Everyone Hears You! Julian Treasure**
+  - ID: `vE1KnWX2thQ`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mel C: The Harsh Reality Of Being In The World’s Biggest Girl Band | E179**
+  - ID: `dfzFFQgG2zU`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Lewis Capaldi: The Untold Story Of Becoming A Global Superstar At 22 | E178**
+  - ID: `ktl0UdZtL1A`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Chris Kamara: The Untold Heartbreaking Story Of A Football Legend!**
+  - ID: `PYkkRlx-IK4`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Simon Sinek: The Advice Young People NEED To Hear | E176**
+  - ID: `NcaQUH2K-wo`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **4 Moments On The Diary Of A CEO That Changed My Life | E175**
+  - ID: `gelTkUE_YdE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **James Smith: Become Confident In 100 Minutes | E174**
+  - ID: `tWvF2RzSnd4`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Pret & Itsu Founder: How I Built TWO Billion Dollar Brands At The Same Time!: Ju**
+  - ID: `uViyOJsc6O4`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Growing A 10+ Million Youtube Following At The Age of 22: Joe Sugg | E172**
+  - ID: `AZCUFvVQyLo`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Liver King Responds To Steroid Accusations! | E171**
+  - ID: `78_jmynAjLw`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Gary Neville: From Football Legend To Building A Business Empire | E170**
+  - ID: `cMCucLELzd0`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Meta’s VP on Leadership, Resilience, and Overcoming Challenges While Battling Ca**
+  - ID: `wvwCZO9UKZE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Five Guys CEO: How we built a burger empire WITHOUT ANY Marketing: John Eckbert **
+  - ID: `lGSZqhFFhoI`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The More Successful You Are The Longer You'll Live! Will Storr**
+  - ID: `qC-U7qy7cH4`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **James Bay: Imposter Syndrome, Trauma & Controlling The Voice In Your Head | E166**
+  - ID: `tKIFHQShPnA`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Marketing Secrets Apple & Tesla Always Use: Rory Sutherland | E165**
+  - ID: `Hz3RWxJck68`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Krept: From Rapper To Building A £17.5 Million Baby Business! | E164**
+  - ID: `bxdMrA36qhE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Soho House Founder: How I Built The World’s Most Exclusive Club: Nick Jones | E1**
+  - ID: `5zhEVdBuPDo`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Malcolm Gladwell: Working From Home Is Destroying Us! | E162**
+  - ID: `mgEs61k2mxY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Coinbase Founder: The Crazy Journey Of Building A $100 Billion Company: Brian Ar**
+  - ID: `TB0yceuXmrI`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Victimhood & Self-sabotage Is Destroying The World In 2022: Africa Brooke | E160**
+  - ID: `q6KGsI6QzD4`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Chris Eubank Jr. Opens Up About His Grief, Living In His Father's Shadow & His F**
+  - ID: `VQpETBh0GOc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Michael Pollan: How To Change Your Mind | E158**
+  - ID: `1o343YfhaYU`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Brewdog Founder: The Untold Story Of One Britain’s Fastest Growing Companies: Ja**
+  - ID: `_5gfJdpgXvc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tony Bellew: Nothing Made Me Happy Until I Found This | E156**
+  - ID: `Kj5yp0PrfqA`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Bear Grylls: Man VS Failure, Anxiety & Imposter Syndrome | E155**
+  - ID: `V6mZJRb9MZY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **World Leading Therapist: 3 Simple Steps To Remove Your Negative Thoughts: Marisa**
+  - ID: `bzilnhq3Mkg`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How I Raised $700 Million: Charity: Water Founder: Scott Harrison | E153**
+  - ID: `RsLCmp3KiQI`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Example: The Dark Side Of Money & Fame | E152**
+  - ID: `HgOZZpq1-wc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What No One Tells You About Success And Mental Health! - Building A $240M Dollar**
+  - ID: `0KDESUdPRXs`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Marketing Genius Behind Nike: Greg Hoffman | E150**
+  - ID: `nWwnm-z6mOw`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How I Taught Millions Of Women The Most Important Skill: Girls Who Code Founder:**
+  - ID: `SgPVgPYnT_M`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Strava Founder: How I Motivated 100 Million People To Stay Active: Michael Horva**
+  - ID: `Mvcu6UfY7d4`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **FBI’s Top Hostage Negotiator: The Art Of Negotiating To Get Whatever You Want: C**
+  - ID: `8bUGVETockI`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Tom Bilyeu: From Broke & Sleeping On The Floor To A $1 Billion Business!**
+  - ID: `ct2k6iXLurg`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Simon Sinek: The Number One Reason Why You’re Not Succeeding | E145**
+  - ID: `Q-zuTZuYeCg`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Happiness Expert: Retrain Your Brain For Maximum Happiness! Mo Gawdat**
+  - ID: `8yVP1cCM4AU`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Man Who Coached Michael Jordan AND Kobe Bryant To WIN! Tim Grover**
+  - ID: `PjSFlFqxyGc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Matthew Hussey: The Secret To Building A Perfect Relationship | E142**
+  - ID: `GZt1acKg_bI`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Classpass Founder: Quitting My 9-5 Led To A $1 Billion Business: Payal Kadakia |**
+  - ID: `6ZA9pCkc7Qk`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How To Find Ultimate Fulfilment At Work: Marcus Buckingham | E140**
+  - ID: `NZd9luVXB80`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jessie J: I Quit Music, Deleted An Album, Then Changed My Mind | E139**
+  - ID: `-eOSj-gsAf8`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Terry Crews Breaks Down About His Sexual Abuse & Beating Up His Dad!**
+  - ID: `fJjsbgk6e0A`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Piers Morgan: Dealing With Repeat Failure, Death Threats & Regrets | E137**
+  - ID: `mW6jgKCKqiA`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Lilly Singh: My Deepest Insecurities Led To My Greatest Achievements | E136**
+  - ID: `kvzbh_HY1Yw`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Craig David Opens Up About His Painful Rise, Fall & Redemption | E135**
+  - ID: `H4gh63mJI1c`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Top 6 Habits Destroying Your Relationships! - Lewis Howes**
+  - ID: `I1i1kXw8L4M`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Karren Brady: How To Win At Entrepreneurship & Love (at the same time!)**
+  - ID: `cwPKlERwcGk`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jonny Wilkinson: Winning The World Cup Led To My Darkest Days | E131**
+  - ID: `qWwrcivl3qQ`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Real Trick To Long Term Motivation: Daniel Pink | E130**
+  - ID: `_vSymiIrKP8`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr Rangan Chatterjee: 3 Steps To "Core" Happiness | E129**
+  - ID: `VYta88JUbBs`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jaackmaate: The Untold Story Of My Battle With Health Anxiety & OCD | E127**
+  - ID: `1DV6I5hK6ro`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Israel Adesanya: Becoming World Champion Was The Lowest Day Of My Life!**
+  - ID: `br5jH40svQ4`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How To Finally Stop Procrastinating: Oliver Burkeman | E125**
+  - ID: `ALV6ItXdUYI`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Phones 4u Founder: The Pain Of Becoming A Billionaire: John Caudwell | E124**
+  - ID: `U-NJZJOAz88`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Roman Kemp: Why Communication Is More Important Than Ever | E123**
+  - ID: `_CLli3_Vlrc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **World Leading Psychologist: How To Detach From Overthinking & Anxiety: Dr Julie **
+  - ID: `iLlrIi9-NfQ`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Matt Hancock: Opens Up About His Affair, Mistakes & The Pandemic | E121**
+  - ID: `OMfc98lOw_M`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **James Smith: How To Create The Life You’ve Always Wanted | E120**
+  - ID: `ke6KS8WuPUk`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jay Shetty: The 3 Simple Things A Happy Life Needs | E119**
+  - ID: `nYrjhv-AFZA`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Rochelle Humes: Learning To Be At Peace With Uncertainty | E118**
+  - ID: `3j0TeHIZxHo`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Calm App Founder: From $0 To $2 Billion By Making The World Meditate: Michael Ac**
+  - ID: `DAVw-yQRUjE`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Fearne Cotton: THIS Is How To Build Confidence & Set Yourself Free | E116**
+  - ID: `o2YAqL0YkGc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The 1% Mindset: How to 1000x Your Success & Productivity! - Manchester United Di**
+  - ID: `nTiqySjdD6s`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How To Fix Your Focus & Stop Procrastinating: Johann Hari | E114**
+  - ID: `kNOX7a7-kwQ`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jordan Peterson: How To Become The Person You’ve Always Wanted To Be | E113**
+  - ID: `3uLDin9A9pc`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Gymshark CEO: How I Built A $1.5 Billion Business At 19! Ben Francis**
+  - ID: `K8UgjzJTdHw`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Subtle Art Of Not Giving A F*ck: Mark Manson | E111**
+  - ID: `BuuDztcqnko`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Molly Mae: How She Became Creative Director Of PLT At 22 | 110**
+  - ID: `6WgIOKFLrHY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Russell Howard: How To Laugh Through Fear, Anxiety & Imposter Syndrome | E109**
+  - ID: `CLcqXg0fFvY`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mel Robbins: This One Hack Will Unlock Your Happier Life | E108**
+  - ID: `0kOtvoX88J0`
+  - Published: 2022-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Starling CEO: Building a $1.5 Billion Business Against The Odds: Anne Boden | E1**
+  - ID: `bEhrajW_uGg`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jimmy Carr: The Easiest Way To Live A Happier Life | E106**
+  - ID: `roROKlZhZyo`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Patrice Evra: Learning How To Cry Saved My Life!**
+  - ID: `UbF4p4yTfIY`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Life Changing Lessons From 100 Of The World’s Greatest Minds | E104**
+  - ID: `ZTA2RJ6dEFc`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **6 BEST Pieces Of Business Advice That Made Me Millions | E103**
+  - ID: `ls9be-9C-uk`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **David Gandy: Highest Paid Male Model Opens Up About Insecurities & Imposter Synd**
+  - ID: `5rOHOGA4oME`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Happiness Expert That Made 51 Million People Happier: Mo Gawdat | E101**
+  - ID: `csA9YhzYvmk`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ann Summers CEO: The Heartbreaking Story Of One Of Britain's Richest Women! Jacq**
+  - ID: `e_TO4e5MlWg`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How I Built 5 Multi-Million Dollar Companies: Marcia Kilgore | E99**
+  - ID: `ApZZxvw0muo`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Klarna Founder: From $0 to $46 Billion: Sebastian Siemiatkowski | E98**
+  - ID: `QNYPRdyVq0s`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Moonpig Founder: How I Built A $150 Million Business WITHOUT Sacrifice: Nick Jen**
+  - ID: `Jn5S-eX5twE`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How To Take Full Control Of Your Mind: Prof. Steve Peters, The Chimp Paradox | E**
+  - ID: `lDDNI3irZMg`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How To Build A Following Of 10 Million: Mrwhosetheboss | E95**
+  - ID: `3N4p8VY8Mi8`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How I Make $1.2 Million A Year From This Podcast | E94**
+  - ID: `OpANpfEjNw8`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Productivity Expert: How To Finally Stay Productive: Ali Abdaal | E93**
+  - ID: `Ck2yqXMofoc`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **NotOnTheHighStreet.com Founder: Rapid Success Lead To My Darkest Days - Holly Tu**
+  - ID: `2PeHDoThIp8`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Patricia Bright: How She Made Her Millions | E91**
+  - ID: `qeEwAKeB4Ow`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Reggie Yates Reveals The Secret To Staying Driven & Reaching Your Potential | E9**
+  - ID: `XDYAYrvI5LM`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dr Alex George: My Hardest Day in A&E, Family Suicide & Finding TRUE Purpose. | **
+  - ID: `wdpiD1_kaUo`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Deliveroo Founder: From £0 to £5 Billion: Will Shu | E88**
+  - ID: `-Mk8Yq6ptxI`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Rise, The Fall & The Rebuild Of True Geordie | E87**
+  - ID: `YHtZZ-kSGU8`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Monzo CEO On Death Threats, Depression & Digital Banking Wars: Tom BlomField**
+  - ID: `gP2_QOCrVO4`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mary Portas: How To Stop Living A Life That Isn't True To You | E85**
+  - ID: `kSmFjdisM6Y`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **World Leading Mindset Expert: How To Reach Your Full Potential - Matthew Syed | **
+  - ID: `OqLAZuie06U`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Liam Payne Opens Up About His Darkest Moments, Failed Relationships & Entreprene**
+  - ID: `TovCz1Qh_24`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Johann Hari: Everything You Think You Know About Meaning & Happiness Is Wrong | **
+  - ID: `tXuPfMXsIyw`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ben Fogle: Overcoming My Lifelong Battle With Self-doubt | E81**
+  - ID: `kTuUtxjMCRA`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Professor Green: How To Overcome Life’s Hardest Challenges & Find A Purpose | E8**
+  - ID: `y2c-GQP2Rcs`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Russell Kane: How To Build Confidence & Stay Young | E79**
+  - ID: `teVW3Vw_B20`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jim Chapman: Overcoming Failure Anxiety, Finding Love & Life-Changing Therapy | **
+  - ID: `ExTFPDITHww`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elizabeth Day Opens Up About Heartbreak, Miscarriage & Failure | E77**
+  - ID: `QRTimA9lvZI`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Rio Ferdinand's Reveals The Training Ground & Dressing Room Secrets That Made Un**
+  - ID: `CwpSViM8MaY`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ant Middleton Opens Up About His Personal Demons, Being "Cancelled" & His Spirit**
+  - ID: `k8voKz-2vBU`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **World Leading Sex Therapist: How To Avoid Having Bad Sex: Kate Moyle | E73**
+  - ID: `R0ibd_SSXH0`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **A Billionaire’s Guide To Healing Your Mind And Extending Your Life: Christian An**
+  - ID: `yH5YplNDjJM`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Jack Maynard: The Untold Story: How Being Thrown Out The Jungle Changed My Life **
+  - ID: `6m_UrMIN3rI`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Extremely Honest Q&A | The Diary Of A CEO | E70**
+  - ID: `_wSO42jYP6Y`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Grace Beverley: How To Build A Multi-Million Pound Empire At 24 | E69**
+  - ID: `AehL3u-H7FI`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Suicidal Drug Addict To Elite Military Commando with Ben Williams | E68**
+  - ID: `GX51Wwv2GM0`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How To Chase Your Dreams Without Fear Holding You Back with Fran Millar | E67**
+  - ID: `Kj6ZssVhzW4`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Secret To Loving Your Work with Bruce Daisley | E66**
+  - ID: `3lkcGdU7BlY`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **I Won 11 World Titles Because They Said I Couldn't: Anna Hemmings MBE | E65**
+  - ID: `GGTtZpswgfg`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Secret To A Good Nights Sleep with Stephanie Romiszewski | E64**
+  - ID: `18iBvgUbSMk`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The productivity Hack I Use Everyday (part 2) | E63**
+  - ID: `RQKUt_sN2dw`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Productivity Hack I Use Everyday (part 1) | E62**
+  - ID: `d4lxJoEL8ic`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **World Leading Psychologist: How To Succeed In Life & World: Jamil Qureshi**
+  - ID: `prw1xtkdfhs`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Addiction, Childhood Trauma And Depression With Joe Wicks (The Body Coach) | E60**
+  - ID: `OZN7xRCAz58`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Lessons From 50 Of The Worlds Greatest Minds with Jake Humphrey | E59**
+  - ID: `qrX3fPA9eps`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Eddie Hearn on Selling Matchroom For 5 Billion | E58**
+  - ID: `JF-_w4gvZec`
+  - Published: 2021-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How She Built Her Confidence, and Then an Empire with Krissy Cela | E57**
+  - ID: `j1i4WkJ4qFo`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **She Cheated On Me and Thats Not All - Dr. Aria | E56**
+  - ID: `foScUA0qbNs`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why We're Getting More Depressed, Anxious and Lonely | E55**
+  - ID: `7zn7WqAyhiU`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Overcoming Depression, Burnout, Anxiety and Insomnia with Dan Murray-Serter | E5**
+  - ID: `P51RrJvsWXE`
+  - Published: 2020-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `T4ssCFmxcCk`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `KpLvcl9mULk`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## Core Memory
+
+**Total Episodes:** 19
+
+**Status Summary:**
+- discovered: 19
+
+**Episodes:**
+
+- 🔍 **The War Between Silicon Valley and Nashville**
+  - ID: `nzb98U3dn1g`
+  - Published: 2025-11-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **America Has Bet Everything On These Tiny Nuclear Reactors**
+  - ID: `iXj4MFQmwvE`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **This Machine Could Be A US Manufacturing Breakthrough**
+  - ID: `LaVioWCTISs`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Jet Engine That Will Make Drones, Planes And Even Leaf Blowers Quiet**
+  - ID: `2_WrZXxl3kI`
+  - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Robot Fight Clubs Of San Francisco**
+  - ID: `xLO2r0fhZZg`
+  - Published: 2025-09-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Best Home Cleaning Robot Ever Made: AI Has Come To Your Home**
+  - ID: `BPfuJLpwZxQ`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Swiss Robots Battling The US And China**
+  - ID: `b10oR7jebHI`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **A New Way To Reverse Aging**
+  - ID: `GSOSuROez04`
+  - Published: 2025-08-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Inside The $1 Billion Quantum Computer That Could Change Tech**
+  - ID: `ohn6iB_CZXY`
+  - Published: 2025-07-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Go For A Ride On The Boat Of The Future**
+  - ID: `b5adkhuBrKg`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **These Delivery Drones Will Beat Amazon To Your Doorstep**
+  - ID: `GAh-zCpmERY`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Next Step In Human Evolution**
+  - ID: `qEHrbncXJkQ`
+  - Published: 2025-06-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **This Stove Boils Water in Seconds and Comes from the Future**
+  - ID: `sS4rd1hpDnQ`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Mr. Smith Gets a Neuralink Brain Implant and a Visit from Elon Musk**
+  - ID: `SqrANrm-QMY`
+  - Published: 2025-05-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Space Gun Trying To Outflank SpaceX**
+  - ID: `bd7gucxyZE8`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Key To Longevity Might Be In These Boxes**
+  - ID: `a_UownvO2iM`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Your Brain's Data: What AI Can Actually See**
+  - ID: `nKDqdtXKN58`
+  - Published: 2025-04-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Supersonic Flight Is Coming Back**
+  - ID: `5GCuxXcqV3c`
+  - Published: 2025-03-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Deleted video]**
+  - ID: `AjelvCbtvMg`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## Core Memory
+
+**Total Episodes:** 1
+
+**Status Summary:**
+- discovered: 1
+
+**Episodes:**
+
+- 🔍 **Tennessee: A Journey Into A New Hard Tech Frontier**
+  - ID: `0eeLJXueKW0`
+  - Published: 2025-11-23
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## Core Memory
+
+**Total Episodes:** 1
+
+**Status Summary:**
+- discovered: 1
+
+**Episodes:**
+
+- 🔍 **This Is: How Neuralink Creates A Brain**
+  - ID: `WhG-o3M9VGU`
+  - Published: 2025-10-26
   - Status: `discovered`
   - Discovered: None
 
