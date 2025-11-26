@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Teahose - Tech Podcast Summaries',
     description: 'A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.',
-    url: 'https://www.teahose.com',
+    url: 'https://www.teahose.com/',
     siteName: 'Teahose',
     images: [
       {
