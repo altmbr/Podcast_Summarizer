@@ -140,7 +140,7 @@ export default async function HomePage() {
       </section>
 
       {/* Podcasts Section */}
-      <section className="container pt-8 md:pt-8 pb-24">
+      <section className="container pt-8 md:pt-8 pb-8">
         <h2 style={{ color: 'var(--foreground)' }} className="text-3xl md:text-4xl mb-6">Podcasts</h2>
         {podcasts.length === 0 ? (
           <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">No podcasts found</div>
