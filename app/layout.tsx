@@ -10,17 +10,19 @@ import { Suspense } from 'react'
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.teahose.com'),
   title: 'Teahose - Tech Podcast Summaries',
-  description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
+  description: 'Distillation of high-signal tech & business podcasts, including China\'s. Browse episode summaries or subscribe for daily digests — 2-5 hours → 30 seconds.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
       { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon-512x512.png', sizes: '512x512', type: 'image/png' },
     ],
     apple: { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
   },
   openGraph: {
     title: 'Teahose - Tech Podcast Summaries',
-    description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
+    description: 'Distillation of high-signal tech & business podcasts, including China\'s. Browse episode summaries or subscribe for daily digests — 2-5 hours → 30 seconds.',
     url: 'https://www.teahose.com',
     siteName: 'Teahose',
     images: [
@@ -37,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Teahose - Tech Podcast Summaries',
-    description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
+    description: 'Distillation of high-signal tech & business podcasts, including China\'s. Browse episode summaries or subscribe for daily digests — 2-5 hours → 30 seconds.',
     images: ['/og-image.png'],
   },
   alternates: {

@@ -297,12 +297,12 @@ def generate_email_html(episodes, date_str, header_image_path=None):
             print(f"Warning: Could not embed header image: {e}")
 
     colors = {
-        'background': '#f8f7f5',
-        'foreground': '#2c2c2c',
-        'card': '#fdfcfb',
-        'muted_foreground': '#5a5a5a',
-        'accent': '#5b7f9e',
-        'border': '#e8e6e1',
+        'background': '#f7f4f0',
+        'foreground': '#1a1a1a',
+        'card': '#fffefa',
+        'muted_foreground': '#555555',
+        'accent': '#c41e3a',
+        'border': '#1a1a1a',
     }
 
     episode_cards = ""
@@ -321,17 +321,19 @@ def generate_email_html(episodes, date_str, header_image_path=None):
             participants_html = f'<p style="color: {colors["foreground"]}; font-size: 14px; margin: 0 0 8px 0;">{episode["participants"]}</p>'
 
         episode_cards += f"""
-        <div style="background: {colors['card']}; padding: 24px 16px; margin-bottom: {margin_bottom}; border-radius: 2px; border: 1px solid {colors['border']};">
-            <h2 style="margin: 0 0 6px 0; font-size: 24px; font-weight: 600; letter-spacing: -0.02em;">
-                <a href="{summary_url}" style="color: {colors['foreground']}; text-decoration: none;">{episode['title']}</a>
-            </h2>
-            <p style="color: {colors['muted_foreground']}; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">{episode['podcast_name']}</p>
-            {participants_html}
-            <p style="color: {colors['muted_foreground']}; font-size: 12px; margin: 0 0 12px 0;">{upload_date}</p>
-            <p style="color: {colors['foreground']}; font-size: 15px; line-height: 1.75; margin: 0;">
-                {episode.get('description', 'New episode available.')}
-            </p>
-        </div>"""
+        <a href="{summary_url}" style="text-decoration: none; display: block;">
+            <div style="background: {colors['card']}; padding: 24px 16px; margin-bottom: {margin_bottom}; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; border-radius: 0; cursor: pointer;">
+                <h2 style="margin: 0 0 6px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; color: {colors['foreground']};">
+                    {episode['title']}
+                </h2>
+                <p style="color: {colors['muted_foreground']}; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">{episode['podcast_name']}</p>
+                {participants_html}
+                <p style="color: {colors['muted_foreground']}; font-size: 12px; margin: 0 0 12px 0;">{upload_date}</p>
+                <p style="color: {colors['foreground']}; font-size: 15px; line-height: 1.75; margin: 0;">
+                    {episode.get('description', 'New episode available.')}
+                </p>
+            </div>
+        </a>"""
 
     return f"""<!DOCTYPE html>
 <html>
@@ -342,7 +344,7 @@ def generate_email_html(episodes, date_str, header_image_path=None):
 </head>
 <body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: {colors['foreground']}; max-width: 896px; margin: 0 auto; padding: 10px; background-color: {colors['background']};">
 
-    <div style="background: {colors['card']}; padding: 32px 20px; border-radius: 4px;">
+    <div style="background: {colors['card']}; padding: 32px 20px; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; border-radius: 0;">
 
         {header_img_html}
 
@@ -352,7 +354,7 @@ def generate_email_html(episodes, date_str, header_image_path=None):
     <div style="text-align: center; padding: 32px 20px; color: {colors['muted_foreground']}; font-size: 14px;">
         <p style="margin: 0;">
             A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
-            <a href="https://teahose.com" style="color: {colors['accent']}; text-decoration: underline; margin-top: 16px; display: inline-block;">Teahose.com</a>
+            <a href="https://teahose.com" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 16px; display: inline-block;">Teahose.com</a>
         </p>
     </div>
 

@@ -305,14 +305,14 @@ def generate_html_email(episodes, descriptions, header_image_path, date_str):
             print(f"⚠ Warning: Could not embed header image: {e}")
             header_img_html = ""
 
-    # Website design tokens (from teahose.com globals.css)
+    # Comic design system (from teahose.com globals.css)
     colors = {
-        'background': '#f8f7f5',      # Elegant cream
-        'foreground': '#2c2c2c',      # Charcoal text
-        'card': '#fdfcfb',            # Card background
-        'muted_foreground': '#5a5a5a', # Secondary text
-        'accent': '#5b7f9e',          # Links/accents (muted blue)
-        'border': '#e8e6e1',          # Borders
+        'background': '#f7f4f0',      # Warm aged cream paper
+        'foreground': '#1a1a1a',      # True black text
+        'card': '#fffefa',            # Warm white cards
+        'muted_foreground': '#555555', # Secondary text
+        'accent': '#c41e3a',          # Cardinal red
+        'border': '#1a1a1a',          # Black borders
     }
 
     html = f"""<!DOCTYPE html>
@@ -324,7 +324,7 @@ def generate_html_email(episodes, descriptions, header_image_path, date_str):
 </head>
 <body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: {colors['foreground']}; max-width: 896px; margin: 0 auto; padding: 20px; background-color: {colors['background']};">
 
-    <div style="background: {colors['card']}; padding: 40px; border-radius: 4px;">
+    <div style="background: {colors['card']}; padding: 40px; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; border-radius: 0;">
 
         <!-- Header Image -->
         {header_img_html}
@@ -354,27 +354,29 @@ def generate_html_email(episodes, descriptions, header_image_path, date_str):
 
         html += f"""
         <!-- Episode Card -->
-        <div style="background: {colors['card']}; padding: 24px 32px; margin-bottom: 24px; border-radius: 2px; border: 1px solid {colors['border']};">
-            <div style="margin-bottom: 8px;">
-                <span style="color: {colors['muted_foreground']}; font-size: 14px;">{upload_date}</span>
+        <a href="{summary_url}" style="text-decoration: none; display: block;">
+            <div style="background: {colors['card']}; padding: 24px 32px; margin-bottom: 24px; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; border-radius: 0; cursor: pointer;">
+                <div style="margin-bottom: 8px;">
+                    <span style="color: {colors['muted_foreground']}; font-size: 14px;">{upload_date}</span>
+                </div>
+                <h2 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; color: {colors['foreground']};">
+                    {title}
+                </h2>
+                <p style="color: {colors['muted_foreground']}; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px 0;">{podcast_name}</p>
+                <p style="color: {colors['foreground']}; font-size: 15px; line-height: 1.75; margin: 0;">
+                    {description}
+                </p>
             </div>
-            <h2 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 600; letter-spacing: -0.02em;">
-                <a href="{summary_url}" style="color: {colors['foreground']}; text-decoration: none;">{title}</a>
-            </h2>
-            <p style="color: {colors['muted_foreground']}; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px 0;">{podcast_name}</p>
-            <p style="color: {colors['foreground']}; font-size: 15px; line-height: 1.75; margin: 0;">
-                {description}
-            </p>
-        </div>
+        </a>
 """
 
     html += f"""
     </div>
 
     <!-- Footer -->
-    <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 1px solid {colors['border']}; color: {colors['muted_foreground']}; font-size: 14px;">
+    <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 3px solid {colors['border']}; color: {colors['muted_foreground']}; font-size: 14px;">
         <p style="margin: 0 0 8px 0;">Discover the insights within each episode.</p>
-        <p style="margin: 0;"><a href="https://teahose.com" style="color: {colors['accent']}; text-decoration: underline;">teahose.com</a></p>
+        <p style="margin: 0;"><a href="https://teahose.com" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px;">teahose.com</a></p>
     </div>
 
 </body>
