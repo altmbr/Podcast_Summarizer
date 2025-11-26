@@ -28,29 +28,35 @@ def generate_favicon():
     # Prompt matching our comic design system
     prompt = """Create a square favicon/icon for "Teahose" - a tech podcast summary website.
 
-DESIGN REQUIREMENTS:
-- Simple, iconic design that works at 16x16px up to 512x512px
+CRITICAL SIZE REQUIREMENT:
+- The teacup must fill 85-90% of the entire image
+- VERY LARGE teacup taking up almost the whole square
+- Minimal background visible - just a thin border around the cup
+- NO small icons - make the cup HUGE
+
+DESIGN:
+- A single large stylized teacup with steam rising
+- Teacup viewed from the side, filling the frame
+- Simple steam wisps above the cup
 - Vintage 1950s comic book / pop art style
-- A stylized teacup or teapot with steam rising
-- The steam could subtly form a "T" or audio wave pattern
 
 COLOR PALETTE (must use these exact colors):
 - Background: Warm cream (#f7f4f0)
-- Main icon: Cardinal red (#c41e3a) or Deep blue (#2d5a7b)
-- Accent: Golden yellow (#f4c430)
-- Outline: Black (#1a1a1a) - thick bold lines
+- Teacup: Cardinal red (#c41e3a)
+- Steam/accents: Golden yellow (#f4c430)
+- Outline: Black (#1a1a1a) - thick bold lines (3-4px)
 
 STYLE:
 - Thick black outlines (comic book style)
-- Ben Day halftone dots for shading
-- High contrast, simple shapes
+- Ben Day halftone dots for shading on the cup
+- High contrast, simple bold shapes
 - Roy Lichtenstein pop art aesthetic
-- Must be recognizable at small sizes
+- Must be recognizable at 16x16px
 
 OUTPUT:
 - Square format (1:1 aspect ratio)
-- Clean edges, no text
-- Bold, simple, iconic"""
+- NO text whatsoever
+- Teacup fills the frame edge to edge"""
 
     try:
         client = genai.Client(api_key=google_api_key)

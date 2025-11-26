@@ -101,7 +101,7 @@ export default async function HomePage() {
             <ShareButton />
           </div>
           <p style={{ color: 'var(--muted-foreground)' }} className="text-lg">
-            Distillation of high-signal tech & business podcasts, including China's. Browse episode summaries or subscribe for daily digests — 2-5 hours → 30 seconds.
+            A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.
           </p>
         </div>
       </header>

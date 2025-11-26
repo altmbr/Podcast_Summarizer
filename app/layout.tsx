@@ -10,7 +10,7 @@ import { Suspense } from 'react'
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.teahose.com'),
   title: 'Teahose - Tech Podcast Summaries',
-  description: 'Distillation of high-signal tech & business podcasts, including China\'s. Browse episode summaries or subscribe for daily digests — 2-5 hours → 30 seconds.',
+  description: 'A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Teahose - Tech Podcast Summaries',
-    description: 'Distillation of high-signal tech & business podcasts, including China\'s. Browse episode summaries or subscribe for daily digests — 2-5 hours → 30 seconds.',
+    description: 'A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.',
     url: 'https://www.teahose.com',
     siteName: 'Teahose',
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Teahose - Tech Podcast Summaries',
-    description: 'Distillation of high-signal tech & business podcasts, including China\'s. Browse episode summaries or subscribe for daily digests — 2-5 hours → 30 seconds.',
+    description: 'A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.',
     images: ['/og-image.png'],
   },
   alternates: {
