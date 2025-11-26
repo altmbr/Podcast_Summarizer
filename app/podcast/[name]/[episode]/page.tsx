@@ -147,6 +147,8 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
         summary={episode.summary}
         transcript={episode.transcript}
         episodeUrl={`https://teahose.com/podcast/${name}/${episodeSlug}`}
+        podcastName={podcastName}
+        episodeTitle={episode.title}
       />
 
       {/* Chat with Transcript */}

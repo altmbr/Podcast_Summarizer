@@ -7,9 +7,11 @@ interface EpisodeClientProps {
   summary?: string
   transcript?: string
   episodeUrl: string
+  podcastName?: string
+  episodeTitle?: string
 }
 
-export default function EpisodeClient({ summary, transcript, episodeUrl }: EpisodeClientProps) {
+export default function EpisodeClient({ summary, transcript, episodeUrl, podcastName, episodeTitle }: EpisodeClientProps) {
   const [activeTab, setActiveTab] = useState<'summary' | 'transcript'>('summary')
 
   return (
@@ -60,9 +62,21 @@ export default function EpisodeClient({ summary, transcript, episodeUrl }: Episo
         aria-labelledby={activeTab === 'summary' ? 'summary-tab' : 'transcript-tab'}
       >
         {activeTab === 'summary' && summary ? (
-          <MarkdownRenderer content={summary} episodeUrl={episodeUrl} enableInsightSharing={true} />
+          <MarkdownRenderer
+            content={summary}
+            episodeUrl={episodeUrl}
+            enableInsightSharing={true}
+            podcastName={podcastName}
+            episodeTitle={episodeTitle}
+          />
         ) : activeTab === 'transcript' && transcript ? (
-          <MarkdownRenderer content={transcript} episodeUrl={episodeUrl} enableInsightSharing={false} />
+          <MarkdownRenderer
+            content={transcript}
+            episodeUrl={episodeUrl}
+            enableInsightSharing={false}
+            podcastName={podcastName}
+            episodeTitle={episodeTitle}
+          />
         ) : (
           <p style={{ color: 'var(--muted-foreground)' }}>No content available</p>
         )}

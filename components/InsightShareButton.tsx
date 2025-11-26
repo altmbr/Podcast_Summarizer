@@ -1,18 +1,39 @@
 'use client'
 
 import { useState } from 'react'
+import { usePostHog } from 'posthog-js/react'
 
 interface InsightShareButtonProps {
   headingText: string
   episodeUrl: string
+  podcastName?: string
+  episodeTitle?: string
 }
 
-export default function InsightShareButton({ headingText, episodeUrl }: InsightShareButtonProps) {
+export default function InsightShareButton({ headingText, episodeUrl, podcastName, episodeTitle }: InsightShareButtonProps) {
   const [copied, setCopied] = useState(false)
+  const posthog = usePostHog()
 
   const handleShare = async (e: React.MouseEvent) => {
     e.preventDefault()
     e.stopPropagation()
+
+    // Track PostHog event
+    if (posthog) {
+      const eventProperties: Record<string, string> = {
+        share_location: 'episode_details',
+        insight_heading: headingText,
+      }
+
+      if (podcastName) {
+        eventProperties.podcast_name = podcastName
+      }
+      if (episodeTitle) {
+        eventProperties.episode_title = episodeTitle
+      }
+
+      posthog.capture('share_button_clicked', eventProperties)
+    }
 
     // Find the next siblings after this heading until we hit another heading
     const heading = (e.currentTarget as HTMLElement).closest('h3')

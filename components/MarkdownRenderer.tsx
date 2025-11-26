@@ -8,9 +8,11 @@ interface MarkdownRendererProps {
   content: string
   episodeUrl?: string
   enableInsightSharing?: boolean
+  podcastName?: string
+  episodeTitle?: string
 }
 
-export default function MarkdownRenderer({ content, episodeUrl, enableInsightSharing = false }: MarkdownRendererProps) {
+export default function MarkdownRenderer({ content, episodeUrl, enableInsightSharing = false, podcastName, episodeTitle }: MarkdownRendererProps) {
   return (
     <div className="prose prose-sm max-w-none" style={{ color: 'var(--foreground)' }}>
       <ReactMarkdown
@@ -74,7 +76,12 @@ export default function MarkdownRenderer({ content, episodeUrl, enableInsightSha
               >
                 <span className="flex-1">{children}</span>
                 {showShareButton && (
-                  <InsightShareButton headingText={headingText} episodeUrl={episodeUrl} />
+                  <InsightShareButton
+                    headingText={headingText}
+                    episodeUrl={episodeUrl}
+                    podcastName={podcastName}
+                    episodeTitle={episodeTitle}
+                  />
                 )}
               </h3>
             )

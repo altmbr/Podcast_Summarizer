@@ -18,6 +18,33 @@ export default function ShareButton({ url, title, refSource, podcast, episode }:
   const handleCopy = async () => {
     let shareUrl = url || window.location.href
 
+    // Map refSource to share_location for PostHog event
+    let shareLocation: 'homepage' | 'podcast_header' | 'episode_header' | undefined
+    if (refSource === 'home') {
+      shareLocation = 'homepage'
+    } else if (refSource === 'podcast-page') {
+      shareLocation = 'podcast_header'
+    } else if (refSource === 'episode-page') {
+      shareLocation = 'episode_header'
+    }
+
+    // Track PostHog event
+    if (posthog && shareLocation) {
+      const eventProperties: Record<string, string> = {
+        share_location: shareLocation,
+      }
+
+      // Add episode context if available
+      if (podcast) {
+        eventProperties.podcast_name = podcast
+      }
+      if (episode) {
+        eventProperties.episode_title = episode
+      }
+
+      posthog.capture('share_button_clicked', eventProperties)
+    }
+
     // Add ref parameter based on context
     if (refSource) {
       const urlObj = new URL(shareUrl, window.location.origin)
