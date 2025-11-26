@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { usePostHog } from 'posthog-js/react'
 
 interface ShareButtonProps {
   url?: string
@@ -12,6 +13,7 @@ interface ShareButtonProps {
 
 export default function ShareButton({ url, title, refSource, podcast, episode }: ShareButtonProps) {
   const [copied, setCopied] = useState(false)
+  const posthog = usePostHog()
 
   const handleCopy = async () => {
     let shareUrl = url || window.location.href
@@ -20,12 +22,15 @@ export default function ShareButton({ url, title, refSource, podcast, episode }:
     if (refSource) {
       const urlObj = new URL(shareUrl, window.location.origin)
 
+      // Get PostHog distinct_id (user ID)
+      const userId = posthog?.get_distinct_id() || 'unknown'
+
       if (refSource === 'home') {
-        urlObj.searchParams.set('ref', 'share-home')
+        urlObj.searchParams.set('ref', `share-home-${userId}`)
       } else if (refSource === 'podcast-page' && podcast) {
-        urlObj.searchParams.set('ref', `share-podcast-${encodeURIComponent(podcast)}`)
+        urlObj.searchParams.set('ref', `share-podcast-${encodeURIComponent(podcast)}-${userId}`)
       } else if (refSource === 'episode-page' && podcast && episode) {
-        urlObj.searchParams.set('ref', `share-episode-${encodeURIComponent(podcast)}-${encodeURIComponent(episode)}`)
+        urlObj.searchParams.set('ref', `share-episode-${encodeURIComponent(podcast)}-${encodeURIComponent(episode)}-${userId}`)
       }
 
       shareUrl = urlObj.toString()
