@@ -95,8 +95,8 @@ export default async function HomePage() {
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
       {/* Header */}
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">
-        <div className="container py-12 md:py-16">
-          <div className="flex items-center justify-between mb-2">
+        <div className="container pt-12 md:pt-16 pb-6">
+          <div className="flex items-center justify-between mb-6">
             <h1 style={{ color: 'var(--foreground)' }}>Teahose</h1>
             <ShareButton />
           </div>
@@ -107,7 +107,7 @@ export default async function HomePage() {
       </header>
 
       {/* Recent Episodes Section */}
-      <section className="container pt-12 md:pt-16 pb-8 md:pb-8">
+      <section className="container pt-6 pb-8 md:pb-8">
         <h2 style={{ color: 'var(--foreground)' }} className="text-3xl md:text-4xl mb-6">Recent Episodes</h2>
         {recentEpisodes.length === 0 ? (
           <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">No recent episodes found</div>
