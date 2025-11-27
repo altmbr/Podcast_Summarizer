@@ -2,11 +2,11 @@
 
 ## 20VC
 
-**Total Episodes:** 442
+**Total Episodes:** 443
 
 **Status Summary:**
 - discovered: 435
-- summarized: 7
+- summarized: 8
 
 **Episodes:**
 
@@ -2661,6 +2661,12 @@
   - Published: 0
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **NVIDIA’s Core Business Threatened by TPUs, Sam Altman’s ‘War Mode’ & Sierra’s $1**
+  - ID: `U1sy7t_Wns8`
+  - Published: None
+  - Status: `summarized`
+  - Discovered: 2025-11-27 16:41:46
 
 ---
 
@@ -12541,10 +12547,10 @@
 
 ## Lenny's
 
-**Total Episodes:** 296
+**Total Episodes:** 297
 
 **Status Summary:**
-- discovered: 293
+- discovered: 294
 - summarized: 3
 
 **Episodes:**
@@ -14322,6 +14328,12 @@
 - 🔍 **A guide to difficult conversations, building high-trust teams, and designing a l**
   - ID: `1GDVum5IarI`
   - Published: 2025-11-23
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `RmnWHz8HD74`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
@@ -22806,10 +22818,10 @@
 
 ## One-off Episodes
 
-**Total Episodes:** 15
+**Total Episodes:** 16
 
 **Status Summary:**
-- summarized: 15
+- summarized: 16
 
 **Episodes:**
 
@@ -22902,6 +22914,12 @@
   - Published: 2025-09-04
   - Status: `summarized`
   - Discovered: 2025-11-18 14:33:50
+
+- ✅ **Founders Who Understand This AI Shift Will Own the Next Decade...**
+  - ID: `wZ1joGIUyK8`
+  - Published: 2025-11-21
+  - Status: `summarized`
+  - Discovered: 2025-11-27 16:36:06
 
 ---
 
@@ -24704,10 +24722,10 @@
 
 ## Huberman
 
-**Total Episodes:** 344
+**Total Episodes:** 345
 
 **Status Summary:**
-- discovered: 344
+- discovered: 345
 
 **Episodes:**
 
@@ -26775,14 +26793,20 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **Essentials: Using Hypnosis to Enhance Mental & Physical Health & Performance | D**
+  - ID: `SOo4yNoaAoc`
+  - Published: 2025-11-27
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Joe Rogan
 
-**Total Episodes:** 2424
+**Total Episodes:** 2427
 
 **Status Summary:**
-- discovered: 2424
+- discovered: 2427
 
 **Episodes:**
 
@@ -41330,14 +41354,33 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **[Private video]**
+  - ID: `BtA_Jp5Xges`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `HodZBmT2hbY`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2419 - John Lisle**
+  - ID: `ZrUQdGi0HF8`
+  - Published: 2025-11-27
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## DOAC
 
-**Total Episodes:** 447
+**Total Episodes:** 448
 
 **Status Summary:**
 - discovered: 447
+- summarized: 1
 
 **Episodes:**
 
@@ -44011,11 +44054,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- ✅ **AI Expert: We Have 2 Years Before Everything Changes! We Need To Start Protestin**
   - ID: `BFU1OCkhBwo`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-11-27
+  - Status: `summarized`
+  - Discovered: 2025-11-27 08:28:24
 
 - 🔍 **[Private video]**
   - ID: `q40Z2lq1tzw`
@@ -44023,14 +44066,20 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **World No.1 Sleep Expert: Magnesium Isn’t Helping You Sleep! This Habit Increases**
+  - ID: `qxxnRMT9C-8`
+  - Published: 2025-11-18
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Core Memory
 
-**Total Episodes:** 19
+**Total Episodes:** 20
 
 **Status Summary:**
-- discovered: 19
+- discovered: 20
 
 **Episodes:**
 
@@ -44148,6 +44197,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **[Private video]**
+  - ID: `SksWEuruf4Q`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Core Memory
@@ -44179,6 +44234,23 @@
 - 🔍 **This Is: How Neuralink Creates A Brain**
   - ID: `WhG-o3M9VGU`
   - Published: 2025-10-26
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## 20VC
+
+**Total Episodes:** 1
+
+**Status Summary:**
+- discovered: 1
+
+**Episodes:**
+
+- 🔍 **NVIDIA’s Core Business Threatened by TPUs, Sam Altman’s ‘War Mode’ & Sierra’s $1**
+  - ID: `U1sy7t_Wns8`
+  - Published: 2025-11-27
   - Status: `discovered`
   - Discovered: None
 

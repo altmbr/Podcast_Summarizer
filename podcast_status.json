@@ -2663,6 +2663,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "U1sy7t_Wns8": {
+          "title": "NVIDIA\u2019s Core Business Threatened by TPUs, Sam Altman\u2019s \u2018War Mode\u2019 & Sierra\u2019s $100M ARR",
+          "upload_date": null,
+          "discovered_date": "2025-11-27 16:41:46",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -14282,6 +14289,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "RmnWHz8HD74": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -24228,6 +24242,13 @@
           "discovered_date": "2025-11-18 14:33:50",
           "status": "summarized",
           "region": "Western"
+        },
+        "wZ1joGIUyK8": {
+          "title": "Founders Who Understand This AI Shift Will Own the Next Decade...",
+          "upload_date": "20251121",
+          "discovered_date": "2025-11-27 16:36:06",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -28684,6 +28705,13 @@
         "t_2mXGlDkqM": {
           "title": "[Private video]",
           "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "SOo4yNoaAoc": {
+          "title": "Essentials: Using Hypnosis to Enhance Mental & Physical Health & Performance | Dr. David Spiegel",
+          "upload_date": "20251127",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
@@ -45660,6 +45688,27 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "BtA_Jp5Xges": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "HodZBmT2hbY": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "ZrUQdGi0HF8": {
+          "title": "Joe Rogan Experience #2419 - John Lisle",
+          "upload_date": "20251127",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -48782,15 +48831,22 @@
           "region": "Western"
         },
         "BFU1OCkhBwo": {
+          "title": "AI Expert: We Have 2 Years Before Everything Changes! We Need To Start Protesting! - Tristan Harris",
+          "upload_date": "20251127",
+          "discovered_date": "2025-11-27 08:28:24",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "q40Z2lq1tzw": {
           "title": "[Private video]",
           "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
         },
-        "q40Z2lq1tzw": {
-          "title": "[Private video]",
-          "upload_date": "0",
+        "qxxnRMT9C-8": {
+          "title": "World No.1 Sleep Expert: Magnesium Isn\u2019t Helping You Sleep! This Habit Increases Heart Disease 57%!",
+          "upload_date": "20251118",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
@@ -48932,6 +48988,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "SksWEuruf4Q": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -48953,6 +49016,18 @@
         "WhG-o3M9VGU": {
           "title": "This Is: How Neuralink Creates A Brain",
           "upload_date": "20251026",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        }
+      }
+    },
+    "https://www.youtube.com/playlist?list=PLnJFlI3aINuWhaqB7cCoDFDMFBsbb8ue1": {
+      "podcast_name": "20VC",
+      "episodes": {
+        "U1sy7t_Wns8": {
+          "title": "NVIDIA\u2019s Core Business Threatened by TPUs, Sam Altman\u2019s \u2018War Mode\u2019 & Sierra\u2019s $100M ARR",
+          "upload_date": "20251127",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
