@@ -245,7 +245,7 @@ def get_latest_downloaded_episode(status_data, podcast_url):
         return None
 
     # Sort by upload_date (descending) to get the newest
-    downloaded.sort(key=lambda x: x[1].get("upload_date", "0"), reverse=True)
+    downloaded.sort(key=lambda x: x[1].get("upload_date") or "0", reverse=True)
     return downloaded[0][0]
 
 def load_summarization_prompt():

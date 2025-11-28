@@ -44241,16 +44241,214 @@
 
 ## 20VC
 
-**Total Episodes:** 1
+**Total Episodes:** 34
 
 **Status Summary:**
-- discovered: 1
+- discovered: 34
 
 **Episodes:**
 
 - 🔍 **NVIDIA’s Core Business Threatened by TPUs, Sam Altman’s ‘War Mode’ & Sierra’s $1**
   - ID: `U1sy7t_Wns8`
   - Published: 2025-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Peter Thiel and Softbank Sell NVIDIA - Why? & Why VC Will Hit $1TRN and The Open**
+  - ID: `sWkpLLH_8jQ`
+  - Published: 2025-11-21
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Michael Burry Shorts NVIDIA and Palantir & Has Defensibility Died in a World of **
+  - ID: `Euj5TAon_Q0`
+  - Published: 2025-11-14
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Is a $4.5BN Exit Enough in VC? & Harvey Raises $150M & Why Google is a Buy and A**
+  - ID: `MftJZXDzPpw`
+  - Published: 2025-11-07
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI Restructuring: Who Wins and Who Loses & Mercor Raises $350M at a $10BN Va**
+  - ID: `4PNd9qV5FzA`
+  - Published: 2025-10-31
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Are Burn Multiples BS in an AI World? & Sam Altman Needs $1TRN of Energy**
+  - ID: `j4uXoaRVoCQ`
+  - Published: 2025-10-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI's Multi-Billion Deal with AMD & Polymarket, Vercel and Supabase Raise Meg**
+  - ID: `72htG-AOykI`
+  - Published: 2025-10-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Thinking Machines Co-Founder Joins Meta for $3.5BN, Industry Venture's $665M Acq**
+  - ID: `PZAstljD60c`
+  - Published: 2025-10-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why VC Today is Worse than 2021**
+  - ID: `CJpFFKXMNQ4`
+  - Published: 2025-10-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Anthropic's $10B Round, Klarna's IPO, Inside a16z's 72 Deal Seed Investment Mach**
+  - ID: `6ky5POiQs5M`
+  - Published: 2025-09-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Anthropic Raises $13BN & OpenAI Buys Statsig for $1.1BN All Stock**
+  - ID: `ML1FtOy9JtM`
+  - Published: 2025-09-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI’s $10BN Secondary Sale, Ramp Hits $1BN ARR & Brex Hits $700M**
+  - ID: `I5vRmsMS3ms`
+  - Published: 2025-09-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Opendoor CEO, Kaz Nejatian: OpenAI and Oracle, How Can Either Afford to Do This**
+  - ID: `ujuUUduQXgQ`
+  - Published: 2025-09-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Impact of H1B Visas on Startups in the US & NVIDIA Invests $100BN Into OpenA**
+  - ID: `oZ7eeLU-G-Y`
+  - Published: 2025-09-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Why Apple Needs a Management Overhaul & Why Google is Catching Up with Hyperscal**
+  - ID: `yRJMlvxOJ9o`
+  - Published: 2025-08-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Figma's 250% Pop - The Greatest IPO Mispricing Ever? Meta & Microsoft Blowout Qu**
+  - ID: `chulY4futpI`
+  - Published: 2025-08-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Sam Altman's Masterplan or a Gift to Anthropic? Palantir & Shopify Crush Earning**
+  - ID: `rTaf9sBqZwM`
+  - Published: 2025-08-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Databricks at $100BN, CoreWeave’s $11B Debt Bet & Nubank’s $2.5B Profit Shocker **
+  - ID: `kZ5AZ6bt_r8`
+  - Published: 2025-08-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Figma’s IPO: The Full Breakdown & Why Melio’s $2.5BN Acquisition is “Discouragin**
+  - ID: `ONAVeuKxzl0`
+  - Published: 2025-07-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Daniel Gross and Nat Friedman: Acquired by Meta | Microsoft Layoff 9000 People |**
+  - ID: `OWcKAudkn3A`
+  - Published: 2025-07-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Windsurf x Google x Cognition: Full Breakdown: Who Made Money, Who Did Not**
+  - ID: `wSudjTgRm7o`
+  - Published: 2025-07-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Do All Providers Deal with Anthropic Dependency Risk & Figma IPO Breakdown: **
+  - ID: `4lFDEWFzHVk`
+  - Published: 2025-07-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI’s $6BN Jony Ive Deal & YC Is Both Chanel and Walmart, and Has Officially **
+  - ID: `nqyElN1iKs0`
+  - Published: 2025-06-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Is DPI The Only Thing That Matters? with Sam Lessin, Jason Lemkin & Rory O’Drisc**
+  - ID: `CQcOTBRmytY`
+  - Published: 2025-06-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon’s Empire: SpaceX, Tesla, Neuralink After the Storm & Anduril’s $2.6BN Power**
+  - ID: `peVPH8gBWts`
+  - Published: 2025-06-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Chime IPO: Are IPOs Hotter Than Ever?**
+  - ID: `-AguI4JLQSA`
+  - Published: 2025-06-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Navan Files to Go Public and Canva Pulls the Brakes: Why and What Happens?**
+  - ID: `m60kE-VSOdw`
+  - Published: 2025-06-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Does it Take to Be Good at Series A and B Today?**
+  - ID: `4ncnpYtJCNQ`
+  - Published: 2025-05-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Benchmark vs a16z: Why Stage Specific Firms Win**
+  - ID: `XDEaCwWRal8`
+  - Published: 2025-05-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI, SBF & Perplexity: What VCs Know That You Don’t**
+  - ID: `QxSwlAa30lY`
+  - Published: 2025-05-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Rippling vs. Deel Lawsuit: WTF Happens Now? The Future of the Late Stage Private**
+  - ID: `YH_oInuNlk8`
+  - Published: 2025-05-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **a16z's $20BN Fund & Founders Fund's $4.6BN & Why Josh Kushner Has Mastered the G**
+  - ID: `3JAY6q6LaHI`
+  - Published: 2025-04-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How LP Deployment to Venture Will Change in 2025 & Are Endowment Funds in Troubl**
+  - ID: `DgcrazZ3YmU`
+  - Published: 2025-04-28
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `JiGzDvNnvug`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
