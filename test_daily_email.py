@@ -163,8 +163,155 @@ Summary:"""
         return "New episode available."
 
 
-def generate_header_image(episodes, date_str, output_path):
-    """Generate header image using Google Gemini."""
+# Feature flag for header image style
+# true = new composite style with unified scene, nametags, worn paper texture
+# false = old panel-based style with separate panels per episode
+# To revert: set USE_COMPOSITE_HEADER = False
+USE_COMPOSITE_HEADER = True
+
+
+def generate_visual_concept(episodes):
+    """Use Claude to generate a unified visual concept from all episodes."""
+    if not ANTHROPIC_API_KEY:
+        return 'A collage of tech industry themes including AI, business strategy, and innovation.'
+
+    # Format episode information for Claude
+    episodes_text = []
+    for i, ep in enumerate(episodes[:5], 1):
+        participants_str = f" [{ep.get('participants', '')}]" if ep.get('participants') else ""
+        episodes_text.append(f"{i}. {ep['title']}{participants_str}\n   {ep.get('description', '')}")
+
+    episodes_formatted = "\n\n".join(episodes_text)
+
+    prompt = f"""You are creating a vintage 1950s newspaper-style comic illustration that combines visual elements from {len(episodes[:5])} podcast episodes into ONE unified composition.
+
+Here are the episodes:
+
+{episodes_formatted}
+
+Create a detailed description of a single unified illustration that combines visual metaphors representing all episodes. The illustration should:
+- Blend elements from all episodes into one cohesive scene (like a vintage political cartoon)
+- Use overlapping figures, symbols, and objects
+- Include human figures in 1950s comic book style representing the speakers/topics (IMPORTANT: mention participant names when known so they can be labeled)
+- Use symbolic objects (books, technology, microphones, abstract concepts)
+- Create visual interest and narrative density
+
+Describe the unified composition in 3-4 sentences. Be specific about what visual elements appear and how they interact. When describing human figures, include the participant names from the episode metadata."""
+
+    try:
+        response = requests.post(
+            'https://api.anthropic.com/v1/messages',
+            headers={
+                'Content-Type': 'application/json',
+                'x-api-key': ANTHROPIC_API_KEY,
+                'anthropic-version': '2023-06-01'
+            },
+            json={
+                'model': 'claude-sonnet-4-5-20250929',
+                'max_tokens': 300,
+                'messages': [{'role': 'user', 'content': prompt}]
+            }
+        )
+        data = response.json()
+        return data.get('content', [{}])[0].get('text', '').strip() or 'A collage of tech industry themes including AI, business strategy, and innovation.'
+    except Exception as e:
+        print(f"Warning: Could not generate visual concept: {e}")
+        return 'A collage of tech industry themes including AI, business strategy, and innovation.'
+
+
+def generate_composite_header_image(episodes, date_str, output_path):
+    """Generate composite header image with unified scene and nametags."""
+    try:
+        from google import genai
+    except ImportError:
+        print("Installing google-genai...")
+        import subprocess
+        subprocess.run(["pip", "install", "-q", "google-genai"], check=True)
+        from google import genai
+
+    google_api_key = os.environ.get("GOOGLE_API_KEY")
+    if not google_api_key:
+        print("Warning: GOOGLE_API_KEY not set")
+        return None
+
+    # Generate visual concept using Claude
+    print("  → Generating visual concept with Claude...")
+    visual_concept = generate_visual_concept(episodes)
+    print(f"  → Visual concept: {visual_concept[:100]}...")
+
+    prompt = f"""Create a vintage 1950s newspaper-style composite illustration for a podcast digest header.
+
+CRITICAL LAYOUT REQUIREMENTS:
+- LANDSCAPE format: EXACTLY 750 pixels wide × 500 pixels tall
+- Single unified composition (NOT separate panels)
+- FOOTER at bottom: Bold text "THE DAILY TEAHOSE - {date_str.upper()}" centered on cream background strip
+- Main illustration fills most of the space above the footer
+- Warm aged cream paper background (#f7f4f0)
+- Thick black border (3px) around entire image
+
+ARTISTIC STYLE - Vintage 1950s Roy Lichtenstein pop art:
+- BACKGROUND: Warm aged cream paper (#f7f4f0) with subtle halftone texture
+- PAPER TEXTURE: Add worn, aged paper effect with slight yellowing, subtle creases, and soft edge wear to give authentic vintage newspaper feel
+- COLORS: Bold pop art accents - cardinal red (#c41e3a), golden yellow (#f4c430), deep blue (#2d5a7b)
+- SHADOWS: Black comic drop shadows (not brown)
+- TEXTURE: Ben Day halftone dots for shading, stipple patterns
+- OUTLINES: Thick black outlines (3px) around all major elements
+- OVERALL: Clean vintage newspaper comic aesthetic with worn paper texture
+
+VISUAL COMPOSITION:
+{visual_concept}
+
+SPECIFIC REQUIREMENTS:
+- Human figures in vintage comic book style with halftone shading
+- NAMETAGS: Each human figure MUST wear a nametag on their chest with their name in BIG, BOLD, LEGIBLE UPPERCASE letters (like "ELON MUSK", "SAM ALTMAN", etc.)
+- Nametags should be rectangular/rounded white/cream labels with thick black outlines and large black text
+- Symbolic objects (books, technology, microphones, brains, buildings, etc.)
+- Elements should blend and overlap to create narrative density
+- Dynamic composition with depth and visual flow
+
+COLOR USAGE:
+- Overall background: warm cream (#f7f4f0)
+- Main subjects use bold accent colors (cardinal red, golden yellow, deep blue)
+- Supporting elements use lighter tints (soft red #fdf5f5, soft yellow #fffcf0, soft blue #f5f8fa)
+- All borders and outlines: true black (#1a1a1a)
+- Ben Day dot patterns for shading and depth
+
+FOOTER BANNER:
+- Bold black text: "THE DAILY TEAHOSE - {date_str.upper()}"
+- Centered at bottom on cream background
+- Clean, prominent, readable
+
+OVERALL AESTHETIC:
+- Sophisticated vintage newspaper illustration with worn paper texture
+- Educational and thought-provoking
+- Multiple narratives visible in single unified composition
+- Professional print quality with sharp lines
+- Perfect for email newsletter banner"""
+
+    try:
+        client = genai.Client(api_key=google_api_key)
+
+        response = client.models.generate_content(
+            model="gemini-3-pro-image-preview",
+            contents=[prompt],
+        )
+
+        for part in response.parts:
+            if part.inline_data is not None:
+                image = part.as_image()
+                image.save(str(output_path))
+                print(f"Composite header image generated: {output_path}")
+                return output_path
+
+        print("Warning: No image data in response")
+        return None
+    except Exception as e:
+        print(f"Warning: Could not generate composite header image: {e}")
+        return None
+
+
+def generate_panel_header_image(episodes, date_str, output_path):
+    """OLD STYLE: Panel-based header image (set USE_COMPOSITE_HEADER = False to use this)."""
     try:
         from google import genai
     except ImportError:
@@ -245,25 +392,31 @@ REQUIREMENTS:
     try:
         client = genai.Client(api_key=google_api_key)
 
-        # Use gemini-3-pro-image-preview (Nano Banana Pro) - same as generate_daily_email.py
         response = client.models.generate_content(
             model="gemini-3-pro-image-preview",
             contents=[prompt],
         )
 
-        # Extract and save the generated image
         for part in response.parts:
             if part.inline_data is not None:
                 image = part.as_image()
                 image.save(str(output_path))
-                print(f"Header image generated: {output_path}")
+                print(f"Panel header image generated: {output_path}")
                 return output_path
 
         print("Warning: No image data in response")
         return None
     except Exception as e:
-        print(f"Warning: Could not generate header image: {e}")
+        print(f"Warning: Could not generate panel header image: {e}")
         return None
+
+
+def generate_header_image(episodes, date_str, output_path):
+    """Router function to pick header image style based on feature flag."""
+    if USE_COMPOSITE_HEADER:
+        return generate_composite_header_image(episodes, date_str, output_path)
+    else:
+        return generate_panel_header_image(episodes, date_str, output_path)
 
 
 def generate_email_html(episodes, date_str, header_image_path=None):

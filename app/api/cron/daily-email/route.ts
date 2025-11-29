@@ -7,6 +7,12 @@ import { parseEpisodeMetadata } from '@/lib/schema'
 const EMAILS_KEY = 'newsletter-emails'
 const SENDGRID_API_URL = 'https://api.sendgrid.com/v3/mail/send'
 
+// Feature flag for header image style
+// true = new composite style with unified scene, nametags, worn paper texture
+// false = old panel-based style with separate panels per episode
+// To revert: set USE_COMPOSITE_HEADER = false
+const USE_COMPOSITE_HEADER = true
+
 interface Episode {
   podcast_name: string
   title: string
@@ -188,7 +194,8 @@ Summary:`
   }
 }
 
-async function generateHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
+// OLD STYLE: Panel-based header image (set USE_COMPOSITE_HEADER = false to use this)
+async function generatePanelHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
   const googleApiKey = process.env.GOOGLE_API_KEY
   if (!googleApiKey) {
     console.log('GOOGLE_API_KEY not set - skipping header image')
@@ -296,6 +303,156 @@ REQUIREMENTS:
   } catch (error) {
     console.error('Failed to generate header image:', error)
     return null
+  }
+}
+
+// NEW STYLE: Composite header image with unified scene and nametags
+async function generateVisualConcept(episodes: Episode[]): Promise<string> {
+  const anthropicKey = process.env.ANTHROPIC_API_KEY
+  if (!anthropicKey) {
+    return 'A collage of tech industry themes including AI, business strategy, and innovation.'
+  }
+
+  // Format episode information for Claude
+  const episodesText = episodes.slice(0, 5).map((ep, i) => {
+    const participantsStr = ep.participants ? ` [${ep.participants}]` : ''
+    return `${i + 1}. ${ep.title}${participantsStr}\n   ${ep.description || ''}`
+  }).join('\n\n')
+
+  const prompt = `You are creating a vintage 1950s newspaper-style comic illustration that combines visual elements from ${episodes.length} podcast episodes into ONE unified composition.
+
+Here are the episodes:
+
+${episodesText}
+
+Create a detailed description of a single unified illustration that combines visual metaphors representing all episodes. The illustration should:
+- Blend elements from all episodes into one cohesive scene (like a vintage political cartoon)
+- Use overlapping figures, symbols, and objects
+- Include human figures in 1950s comic book style representing the speakers/topics (IMPORTANT: mention participant names when known so they can be labeled)
+- Use symbolic objects (books, technology, microphones, abstract concepts)
+- Create visual interest and narrative density
+
+Describe the unified composition in 3-4 sentences. Be specific about what visual elements appear and how they interact. When describing human figures, include the participant names from the episode metadata.`
+
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': anthropicKey,
+        'anthropic-version': '2023-06-01'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-5-20250929',
+        max_tokens: 300,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    })
+
+    const data = await response.json()
+    return data.content?.[0]?.text?.trim() || 'A collage of tech industry themes including AI, business strategy, and innovation.'
+  } catch {
+    return 'A collage of tech industry themes including AI, business strategy, and innovation.'
+  }
+}
+
+async function generateCompositeHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
+  const googleApiKey = process.env.GOOGLE_API_KEY
+  if (!googleApiKey) {
+    console.log('GOOGLE_API_KEY not set - skipping header image')
+    return null
+  }
+
+  // Generate visual concept using Claude
+  console.log('Generating visual concept with Claude...')
+  const visualConcept = await generateVisualConcept(episodes)
+  console.log('Visual concept:', visualConcept.slice(0, 100) + '...')
+
+  const prompt = `Create a vintage 1950s newspaper-style composite illustration for a podcast digest header.
+
+CRITICAL LAYOUT REQUIREMENTS:
+- LANDSCAPE format: EXACTLY 750 pixels wide × 500 pixels tall
+- Single unified composition (NOT separate panels)
+- FOOTER at bottom: Bold text "THE DAILY TEAHOSE - ${dateStr.toUpperCase()}" centered on cream background strip
+- Main illustration fills most of the space above the footer
+- Warm aged cream paper background (#f7f4f0)
+- Thick black border (3px) around entire image
+
+ARTISTIC STYLE - Vintage 1950s Roy Lichtenstein pop art:
+- BACKGROUND: Warm aged cream paper (#f7f4f0) with subtle halftone texture
+- PAPER TEXTURE: Add worn, aged paper effect with slight yellowing, subtle creases, and soft edge wear to give authentic vintage newspaper feel
+- COLORS: Bold pop art accents - cardinal red (#c41e3a), golden yellow (#f4c430), deep blue (#2d5a7b)
+- SHADOWS: Black comic drop shadows (not brown)
+- TEXTURE: Ben Day halftone dots for shading, stipple patterns
+- OUTLINES: Thick black outlines (3px) around all major elements
+- OVERALL: Clean vintage newspaper comic aesthetic with worn paper texture
+
+VISUAL COMPOSITION:
+${visualConcept}
+
+SPECIFIC REQUIREMENTS:
+- Human figures in vintage comic book style with halftone shading
+- NAMETAGS: Each human figure MUST wear a nametag on their chest with their name in BIG, BOLD, LEGIBLE UPPERCASE letters (like "ELON MUSK", "SAM ALTMAN", etc.)
+- Nametags should be rectangular/rounded white/cream labels with thick black outlines and large black text
+- Symbolic objects (books, technology, microphones, brains, buildings, etc.)
+- Elements should blend and overlap to create narrative density
+- Dynamic composition with depth and visual flow
+
+COLOR USAGE:
+- Overall background: warm cream (#f7f4f0)
+- Main subjects use bold accent colors (cardinal red, golden yellow, deep blue)
+- Supporting elements use lighter tints (soft red #fdf5f5, soft yellow #fffcf0, soft blue #f5f8fa)
+- All borders and outlines: true black (#1a1a1a)
+- Ben Day dot patterns for shading and depth
+
+FOOTER BANNER:
+- Bold black text: "THE DAILY TEAHOSE - ${dateStr.toUpperCase()}"
+- Centered at bottom on cream background
+- Clean, prominent, readable
+
+OVERALL AESTHETIC:
+- Sophisticated vintage newspaper illustration with worn paper texture
+- Educational and thought-provoking
+- Multiple narratives visible in single unified composition
+- Professional print quality with sharp lines
+- Perfect for email newsletter banner`
+
+  try {
+    const { GoogleGenAI } = await import('@google/genai')
+    const ai = new GoogleGenAI({ apiKey: googleApiKey })
+
+    const response = await ai.models.generateContent({
+      model: 'gemini-3-pro-image-preview',
+      contents: [prompt],
+    })
+
+    const candidates = response.candidates || []
+    for (const candidate of candidates) {
+      const parts = candidate.content?.parts || []
+      for (const part of parts) {
+        if (part.inlineData) {
+          const mimeType = part.inlineData.mimeType || 'image/png'
+          const data = part.inlineData.data
+          console.log('Composite image generated successfully')
+          return `data:${mimeType};base64,${data}`
+        }
+      }
+    }
+
+    console.log('No image data in Gemini response')
+    return null
+  } catch (error) {
+    console.error('Failed to generate composite header image:', error)
+    return null
+  }
+}
+
+// Router function to pick header image style based on feature flag
+async function generateHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
+  if (USE_COMPOSITE_HEADER) {
+    return generateCompositeHeaderImage(episodes, dateStr)
+  } else {
+    return generatePanelHeaderImage(episodes, dateStr)
   }
 }
 
