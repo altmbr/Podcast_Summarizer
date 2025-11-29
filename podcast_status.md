@@ -6297,11 +6297,11 @@
 
 ## Sourcery
 
-**Total Episodes:** 95
+**Total Episodes:** 96
 
 **Status Summary:**
 - discovered: 87
-- summarized: 8
+- summarized: 9
 
 **Episodes:**
 
@@ -6874,6 +6874,12 @@
   - Published: 2025-11-24
   - Status: `summarized`
   - Discovered: 2025-11-24 12:21:52
+
+- ✅ **What Travis Kalanick Taught Bradley Tusk, & Why He Closed His VC Fund**
+  - ID: `CIZ2xpIDyYI`
+  - Published: 2025-11-29
+  - Status: `summarized`
+  - Discovered: 2025-11-29 11:02:19
 
 ---
 
@@ -26815,10 +26821,10 @@
 
 ## Joe Rogan
 
-**Total Episodes:** 2427
+**Total Episodes:** 2428
 
 **Status Summary:**
-- discovered: 2427
+- discovered: 2428
 
 **Episodes:**
 
@@ -41381,6 +41387,12 @@
 - 🔍 **Joe Rogan Experience #2419 - John Lisle**
   - ID: `ZrUQdGi0HF8`
   - Published: 2025-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `QBn54YNnKD0`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 

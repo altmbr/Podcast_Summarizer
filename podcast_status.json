@@ -6854,6 +6854,13 @@
           "discovered_date": "2025-11-24 12:21:52",
           "status": "summarized",
           "region": "Western"
+        },
+        "CIZ2xpIDyYI": {
+          "title": "What Travis Kalanick Taught Bradley Tusk, & Why He Closed His VC Fund",
+          "upload_date": "20251129",
+          "discovered_date": "2025-11-29 11:02:19",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -45720,6 +45727,13 @@
         "ZrUQdGi0HF8": {
           "title": "Joe Rogan Experience #2419 - John Lisle",
           "upload_date": "20251127",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "QBn54YNnKD0": {
+          "title": "[Private video]",
+          "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
