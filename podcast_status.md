@@ -5336,12 +5336,12 @@
 
 ## More or Less
 
-**Total Episodes:** 126
+**Total Episodes:** 127
 
 **Status Summary:**
 - discovered: 110
 - downloaded: 12
-- summarized: 4
+- summarized: 5
 
 **Episodes:**
 
@@ -6100,6 +6100,12 @@
   - Published: 2025-11-21
   - Status: `summarized`
   - Discovered: 2025-11-21 09:19:47
+
+- ✅ **OpenAI vs Google vs Meta: Business Model War**
+  - ID: `7BbWHm3KODw`
+  - Published: 2025-11-28
+  - Status: `summarized`
+  - Discovered: 2025-11-28 17:15:40
 
 ---
 
@@ -15115,11 +15121,11 @@
 
 ## 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
 
-**Total Episodes:** 16
+**Total Episodes:** 17
 
 **Status Summary:**
 - discovered: 13
-- summarized: 3
+- summarized: 4
 
 **Episodes:**
 
@@ -15218,6 +15224,12 @@
   - Published: 2025-11-18
   - Status: `summarized`
   - Discovered: 2025-11-18 10:59:45
+
+- ✅ **Interview with DeepMind's Jie Tan: Robotics, Cross-Embodiment, World Models, Gem**
+  - ID: `692965c0ba2292550f3551f7`
+  - Published: 2025-11-28
+  - Status: `summarized`
+  - Discovered: 2025-11-28 17:23:56
 
 ---
 
@@ -15447,8 +15459,8 @@
 **Total Episodes:** 628
 
 **Status Summary:**
-- discovered: 622
-- summarized: 6
+- discovered: 621
+- summarized: 7
 
 **Episodes:**
 
@@ -19214,11 +19226,11 @@
   - Status: `summarized`
   - Discovered: 2025-11-24 12:29:52
 
-- 🔍 **[Private video]**
+- ✅ **How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tu**
   - ID: `3x0jhpEj_6o`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-11-28
+  - Status: `summarized`
+  - Discovered: 2025-11-28 17:29:07
 
 ---
 
@@ -44197,9 +44209,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **This Startup Is Bottling Truck Exhaust (And It's Genius)**
   - ID: `SksWEuruf4Q`
-  - Published: 0
+  - Published: 2025-11-28
   - Status: `discovered`
   - Discovered: None
 

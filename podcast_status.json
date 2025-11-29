@@ -6086,6 +6086,13 @@
           "discovered_date": "2025-11-21 09:19:47",
           "status": "summarized",
           "region": "Western"
+        },
+        "7BbWHm3KODw": {
+          "title": "OpenAI vs Google vs Meta: Business Model War",
+          "upload_date": "20251128",
+          "discovered_date": "2025-11-28 17:15:40",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -15306,6 +15313,13 @@
           "discovered_date": "2025-11-18 10:59:45",
           "status": "summarized",
           "region": "Chinese"
+        },
+        "692965c0ba2292550f3551f7": {
+          "title": "Interview with DeepMind's Jie Tan: Robotics, Cross-Embodiment, World Models, Gemini Robotics 1.5, and Google",
+          "upload_date": "20251128",
+          "discovered_date": "2025-11-28 17:23:56",
+          "status": "summarized",
+          "region": "Chinese"
         }
       }
     },
@@ -19943,10 +19957,10 @@
           "region": "Western"
         },
         "3x0jhpEj_6o": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tuning",
+          "upload_date": "20251128",
+          "discovered_date": "2025-11-28 17:29:07",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -48990,8 +49004,8 @@
           "region": "Western"
         },
         "SksWEuruf4Q": {
-          "title": "[Private video]",
-          "upload_date": "0",
+          "title": "This Startup Is Bottling Truck Exhaust (And It's Genius)",
+          "upload_date": "20251128",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
