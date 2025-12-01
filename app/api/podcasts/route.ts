@@ -7,7 +7,7 @@ export async function GET() {
     const entries = await readdir(podcastWorkDir, { withFileTypes: true })
 
     const podcasts = entries
-      .filter(entry => entry.isDirectory() && entry.name !== 'one off episodes')
+      .filter(entry => entry.isDirectory())
       .map(async (entry) => {
         try {
           const podcastPath = join(podcastWorkDir, entry.name)

@@ -18,7 +18,7 @@ export async function GET() {
 
     // Iterate through all podcasts
     for (const podcastDir of podcastDirs) {
-      if (!podcastDir.isDirectory() || podcastDir.name === 'one off episodes') continue
+      if (!podcastDir.isDirectory()) continue
 
       const podcastPath = join(podcastWorkDir, podcastDir.name)
       const episodeDirs = await readdir(podcastPath, { withFileTypes: true })

@@ -36,7 +36,7 @@ def get_episodes_from_last_day():
     for podcast_url, podcast_data in status_data.get("podcasts", {}).items():
         podcast_name = podcast_data.get("podcast_name", "Unknown")
 
-        if not podcast_name or podcast_name == "None" or podcast_name == "One-off Episodes":
+        if not podcast_name or podcast_name == "None":
             continue
 
         for video_id, episode_data in podcast_data.get("episodes", {}).items():
@@ -59,7 +59,12 @@ def get_episodes_from_last_day():
 
             title = episode_data.get("title", "Unknown")
             sanitized_title = re.sub(r'[<>:"/\\|?*]', '_', title)
+
+            # Try podcast_name from JSON first, then try "one off episodes" for One-off Episodes
             episode_folder = PODCAST_WORK_DIR / podcast_name / sanitized_title
+            if not episode_folder.exists() and podcast_name == "One-off Episodes":
+                episode_folder = PODCAST_WORK_DIR / "one off episodes" / sanitized_title
+
             summary_file = episode_folder / "summary.md"
 
             if not summary_file.exists():
@@ -244,8 +249,7 @@ def generate_composite_header_image(episodes, date_str, output_path):
 CRITICAL LAYOUT REQUIREMENTS:
 - LANDSCAPE format: EXACTLY 750 pixels wide × 500 pixels tall
 - Single unified composition (NOT separate panels)
-- FOOTER at bottom: Bold text "THE DAILY TEAHOSE - {date_str.upper()}" centered on cream background strip
-- Main illustration fills most of the space above the footer
+- NO footer text or banner - the illustration should fill the entire image
 - Warm aged cream paper background (#f7f4f0)
 - Thick black border (3px) around entire image
 
@@ -275,11 +279,6 @@ COLOR USAGE:
 - Supporting elements use lighter tints (soft red #fdf5f5, soft yellow #fffcf0, soft blue #f5f8fa)
 - All borders and outlines: true black (#1a1a1a)
 - Ben Day dot patterns for shading and depth
-
-FOOTER BANNER:
-- Bold black text: "THE DAILY TEAHOSE - {date_str.upper()}"
-- Centered at bottom on cream background
-- Clean, prominent, readable
 
 OVERALL AESTHETIC:
 - Sophisticated vintage newspaper illustration with worn paper texture
@@ -379,7 +378,7 @@ PANEL CONTENT (each panel must have):
 TOPICS FOR {num_topics} PANELS:
 {panel_desc}
 
-FOOTER BANNER: Bold black text "THE DAILY TEAHOSE - {date_str}" on cream background strip
+NO FOOTER - illustration fills the entire image
 
 REQUIREMENTS:
 - All {num_topics} panels clearly visible and equal-sized
@@ -499,19 +498,60 @@ def generate_email_html(episodes, date_str, header_image_path=None):
 </head>
 <body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: {colors['foreground']}; max-width: 896px; margin: 0 auto; padding: 10px; background-color: {colors['background']};">
 
-    <div style="background: {colors['card']}; padding: 32px 20px; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; border-radius: 0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td style="background: {colors['card']}; padding: 32px 20px; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; display: block;">
+
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 24px;">
+            <tr>
+                <td align="center">
+                    <a href="https://teahose.com?ref=email" style="text-decoration: none; display: inline-block;">
+                        <h1 style="margin: 0 0 20px 0; font-size: 32px; font-weight: 900; text-transform: uppercase; color: {colors['foreground']}; letter-spacing: -0.02em;">
+                            THE DAILY TEAHOSE
+                        </h1>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <div style="border: 2px solid {colors['border']}; padding: 16px 20px; display: inline-block; max-width: 600px;">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                                <td style="padding-right: 16px;">
+                                    <p style="margin: 0; color: {colors['foreground']}; font-size: 14px; line-height: 1.5;">
+                                        Forwarded this email? Get daily summaries of top tech and business podcasts.
+                                    </p>
+                                </td>
+                                <td style="white-space: nowrap;">
+                                    <a href="https://teahose.com?ref=email" style="display: inline-block; background: {colors['foreground']}; color: {colors['card']}; padding: 10px 24px; text-decoration: none; font-weight: 600; font-size: 14px; border-radius: 4px;">
+                                        Sign Up
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="padding-top: 24px;">
+                    <hr style="border: none; border-top: 1px solid {colors['muted_foreground']}; width: 80%; margin: 0;">
+                </td>
+            </tr>
+        </table>
 
         {header_img_html}
-
         {episode_cards}
-    </div>
-
-    <div style="text-align: center; padding: 32px 20px; color: {colors['muted_foreground']}; font-size: 14px;">
-        <p style="margin: 0;">
-            A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
-            <a href="https://teahose.com?ref=email" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 16px; display: inline-block;">Teahose.com</a>
-        </p>
-    </div>
+        <div style="text-align: center; padding-top: 32px; width: 100%;">
+            <div style="border-top: 1px solid {colors['muted_foreground']}; width: 80%; margin: 0 auto; padding-top: 24px;">
+                <p style="margin: 0; color: {colors['muted_foreground']}; font-size: 14px; line-height: 1.6;">
+                    A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
+                    <a href="https://teahose.com?ref=email" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 8px; display: inline-block;">Teahose.com</a>
+                </p>
+            </div>
+        </div>
+            </td>
+        </tr>
+    </table>
 
 </body>
 </html>"""
@@ -591,11 +631,16 @@ def main():
     # Generate date string
     date_str = datetime.now().strftime("%B %d, %Y")
 
-    # Generate header image
-    print("Generating header image...")
+    # Check for existing placeholder image for faster testing
     header_image_path = Path("./daily_emails") / f"test_header_{datetime.now().strftime('%Y-%m-%d')}.png"
     header_image_path.parent.mkdir(exist_ok=True)
-    generate_header_image(episodes, date_str, header_image_path)
+
+    if header_image_path.exists():
+        print(f"Using existing header: {header_image_path.name}")
+    else:
+        # Generate new header image
+        print("Generating header image...")
+        generate_header_image(episodes, date_str, header_image_path)
 
     # Generate HTML
     html_content = generate_email_html(episodes, date_str, header_image_path)

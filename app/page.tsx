@@ -31,7 +31,7 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
     const allEpisodes: Array<RecentEpisode & { dateObj: Date }> = []
 
     for (const podcastDir of podcastDirs) {
-      if (!podcastDir.isDirectory() || podcastDir.name === 'one off episodes') continue
+      if (!podcastDir.isDirectory()) continue
 
       const podcastPath = join(podcastWorkDir, podcastDir.name)
       const episodeDirs = await readdir(podcastPath, { withFileTypes: true })
