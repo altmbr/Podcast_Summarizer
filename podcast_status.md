@@ -8894,11 +8894,11 @@
 
 ## Lex Fridman
 
-**Total Episodes:** 480
+**Total Episodes:** 481
 
 **Status Summary:**
 - discovered: 479
-- summarized: 1
+- summarized: 2
 
 **Episodes:**
 
@@ -11782,6 +11782,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-17 16:33:01
 
+- ✅ **Michael Levin: Reality is an Illusion - Alien Intelligence, Biology, Life | Lex **
+  - ID: `Qp0rCU49lMs`
+  - Published: 2025-11-30
+  - Status: `summarized`
+  - Discovered: 2025-11-30 19:06:37
+
 ---
 
 ## Theory Ventures Office Hours
@@ -12562,8 +12568,8 @@
 **Total Episodes:** 297
 
 **Status Summary:**
-- discovered: 294
-- summarized: 3
+- discovered: 293
+- summarized: 4
 
 **Episodes:**
 
@@ -14343,11 +14349,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- ✅ **Why AI won’t replace salespeople (but will change everything) | Vercel’s COO**
   - ID: `RmnWHz8HD74`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-11-30
+  - Status: `summarized`
+  - Discovered: 2025-11-30 11:08:14
 
 ---
 
@@ -15462,10 +15468,10 @@
 
 ## A16z Podcast
 
-**Total Episodes:** 628
+**Total Episodes:** 629
 
 **Status Summary:**
-- discovered: 621
+- discovered: 622
 - summarized: 7
 
 **Episodes:**
@@ -19238,6 +19244,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-28 17:29:07
 
+- 🔍 **[Private video]**
+  - ID: `4GcLgIpnxDc`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## My First Million
@@ -22836,10 +22848,10 @@
 
 ## One-off Episodes
 
-**Total Episodes:** 16
+**Total Episodes:** 17
 
 **Status Summary:**
-- summarized: 16
+- summarized: 17
 
 **Episodes:**
 
@@ -22938,6 +22950,12 @@
   - Published: 2025-11-21
   - Status: `summarized`
   - Discovered: 2025-11-27 16:36:06
+
+- ✅ **Elon Musk: A Different Conversation w/ Nikhil Kamath | Full Episode | People by **
+  - ID: `Rni7Fz7208c`
+  - Published: 2025-11-30
+  - Status: `summarized`
+  - Discovered: 2025-11-30 18:46:34
 
 ---
 
@@ -41390,9 +41408,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **Joe Rogan Experience #2420 - Chris Masterjohn**
   - ID: `QBn54YNnKD0`
-  - Published: 0
+  - Published: 2025-11-29
   - Status: `discovered`
   - Discovered: None
 
@@ -41400,10 +41418,10 @@
 
 ## DOAC
 
-**Total Episodes:** 448
+**Total Episodes:** 449
 
 **Status Summary:**
-- discovered: 447
+- discovered: 448
 - summarized: 1
 
 **Episodes:**
@@ -44093,6 +44111,12 @@
 - 🔍 **World No.1 Sleep Expert: Magnesium Isn’t Helping You Sleep! This Habit Increases**
   - ID: `qxxnRMT9C-8`
   - Published: 2025-11-18
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `xDQyLnNAXr4`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
