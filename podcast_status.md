@@ -7602,8 +7602,8 @@
 **Total Episodes:** 46
 
 **Status Summary:**
-- discovered: 43
-- summarized: 3
+- discovered: 42
+- summarized: 4
 
 **Episodes:**
 
@@ -7877,11 +7877,11 @@
   - Status: `summarized`
   - Discovered: 2025-11-25 10:35:31
 
-- 🔍 **[Private video]**
+- ✅ **How a16z Growth Invests**
   - ID: `cZB-0TVRsO8`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-02
+  - Status: `summarized`
+  - Discovered: 2025-12-02 08:57:53
 
 ---
 
@@ -7907,8 +7907,8 @@
 **Total Episodes:** 68
 
 **Status Summary:**
-- discovered: 62
-- summarized: 6
+- discovered: 61
+- summarized: 7
 
 **Episodes:**
 
@@ -8314,11 +8314,11 @@
   - Status: `summarized`
   - Discovered: 2025-11-18 19:46:39
 
-- 🔍 **Why IDEs Won't Die in the Age of AI Coding: Zed Founder Nathan Sobo**
+- ✅ **Why IDEs Won't Die in the Age of AI Coding: Zed Founder Nathan Sobo**
   - ID: `nQP4Wt_6ea8`
   - Published: 2025-12-02
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-12-02 09:08:50
 
 ---
 
@@ -23569,7 +23569,8 @@
 **Total Episodes:** 27
 
 **Status Summary:**
-- discovered: 27
+- discovered: 26
+- summarized: 1
 
 **Episodes:**
 
@@ -23729,20 +23730,20 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- ✅ **Joey Krug on Prediction Markets, Crypto Treasuries & the Next Era of On-Chain Fi**
   - ID: `6F7RcH1WdWU`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-02
+  - Status: `summarized`
+  - Discovered: 2025-12-02 09:14:26
 
 ---
 
 ## Pivot
 
-**Total Episodes:** 176
+**Total Episodes:** 177
 
 **Status Summary:**
-- discovered: 176
+- discovered: 177
 
 **Episodes:**
 
@@ -24799,6 +24800,12 @@
 - 🔍 **How Foreign Trolls on X Are Manipulating U.S. Politics | Pivot**
   - ID: `mUYTgHgwyHM`
   - Published: 2025-11-25
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `1JAHJQiL2nk`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 

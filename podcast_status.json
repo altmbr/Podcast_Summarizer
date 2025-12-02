@@ -7875,10 +7875,10 @@
           "region": "Western"
         },
         "cZB-0TVRsO8": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "How a16z Growth Invests",
+          "upload_date": "20251202",
+          "discovered_date": "2025-12-02 08:57:53",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -8304,8 +8304,8 @@
         "nQP4Wt_6ea8": {
           "title": "Why IDEs Won't Die in the Age of AI Coding: Zed Founder Nathan Sobo",
           "upload_date": "20251202",
-          "discovered_date": null,
-          "status": "discovered",
+          "discovered_date": "2025-12-02 09:08:50",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -25151,10 +25151,10 @@
           "region": "Western"
         },
         "6F7RcH1WdWU": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "Joey Krug on Prediction Markets, Crypto Treasuries & the Next Era of On-Chain Finance",
+          "upload_date": "20251202",
+          "discovered_date": "2025-12-02 09:14:26",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -26390,6 +26390,13 @@
         "mUYTgHgwyHM": {
           "title": "How Foreign Trolls on X Are Manipulating U.S. Politics | Pivot",
           "upload_date": "20251125",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "1JAHJQiL2nk": {
+          "title": "[Private video]",
+          "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
