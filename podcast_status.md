@@ -2,11 +2,11 @@
 
 ## 20VC
 
-**Total Episodes:** 443
+**Total Episodes:** 444
 
 **Status Summary:**
 - discovered: 435
-- summarized: 8
+- summarized: 9
 
 **Episodes:**
 
@@ -2667,6 +2667,12 @@
   - Published: None
   - Status: `summarized`
   - Discovered: 2025-11-27 16:41:46
+
+- ✅ **Turing CEO, Jonathan Siddharth: Who Wins in Data Labelling & Why SaaS Will Die?**
+  - ID: `yQLOicn2vPU`
+  - Published: 2025-12-01
+  - Status: `summarized`
+  - Discovered: 2025-12-01 15:21:28
 
 ---
 
@@ -7593,10 +7599,10 @@
 
 ## Invest like the best
 
-**Total Episodes:** 45
+**Total Episodes:** 46
 
 **Status Summary:**
-- discovered: 42
+- discovered: 43
 - summarized: 3
 
 **Episodes:**
@@ -7871,6 +7877,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-25 10:35:31
 
+- 🔍 **[Private video]**
+  - ID: `cZB-0TVRsO8`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## None
@@ -7892,10 +7904,10 @@
 
 ## Training Data
 
-**Total Episodes:** 67
+**Total Episodes:** 68
 
 **Status Summary:**
-- discovered: 61
+- discovered: 62
 - summarized: 6
 
 **Episodes:**
@@ -8301,6 +8313,12 @@
   - Published: 2025-11-18
   - Status: `summarized`
   - Discovered: 2025-11-18 19:46:39
+
+- 🔍 **Why IDEs Won't Die in the Age of AI Coding: Zed Founder Nathan Sobo**
+  - ID: `nQP4Wt_6ea8`
+  - Published: 2025-12-02
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -15348,10 +15366,10 @@
 
 ## 晚点聊 LateTalk (Investigative Journalism)
 
-**Total Episodes:** 18
+**Total Episodes:** 19
 
 **Status Summary:**
-- discovered: 12
+- discovered: 13
 - summarized: 6
 
 **Episodes:**
@@ -15464,14 +15482,20 @@
   - Status: `summarized`
   - Discovered: 2025-11-25 10:50:24
 
+- 🔍 **143: Continue Chat Attention: DeltaNet and Linear Attention New Improvements Use**
+  - ID: `692cd86fe4244f7e3d3ad135`
+  - Published: 2025-11-30
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## A16z Podcast
 
-**Total Episodes:** 629
+**Total Episodes:** 631
 
 **Status Summary:**
-- discovered: 622
+- discovered: 624
 - summarized: 7
 
 **Episodes:**
@@ -19250,14 +19274,26 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **The $700 Billion AI Productivity Problem No One's Talking About**
+  - ID: `VMv00WR8EaA`
+  - Published: 2025-12-01
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `t1pIIYDsdms`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## My First Million
 
-**Total Episodes:** 597
+**Total Episodes:** 598
 
 **Status Summary:**
-- discovered: 592
+- discovered: 593
 - summarized: 5
 
 **Episodes:**
@@ -22844,6 +22880,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-26 09:52:57
 
+- 🔍 **Ben Horowitz Teaches Founders How To Make Hard Decisions**
+  - ID: `VFZb42SsZWc`
+  - Published: 2025-12-01
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## One-off Episodes
@@ -23524,10 +23566,10 @@
 
 ## Generalist
 
-**Total Episodes:** 26
+**Total Episodes:** 27
 
 **Status Summary:**
-- discovered: 26
+- discovered: 27
 
 **Episodes:**
 
@@ -23684,6 +23726,12 @@
 - 🔍 **How AI Will Enhance Human Potential, Not Replace It: Reid Hoffman**
   - ID: `CiiWoOXJDnM`
   - Published: 2025-04-19
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `6F7RcH1WdWU`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
@@ -24758,10 +24806,10 @@
 
 ## Huberman
 
-**Total Episodes:** 345
+**Total Episodes:** 346
 
 **Status Summary:**
-- discovered: 345
+- discovered: 346
 
 **Episodes:**
 
@@ -26835,14 +26883,20 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **Using Red Light to Improve Metabolism & the Harmful Effects of LEDs | Dr. Glen J**
+  - ID: `iT8W6kaD-RA`
+  - Published: 2025-12-01
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Joe Rogan
 
-**Total Episodes:** 2428
+**Total Episodes:** 2429
 
 **Status Summary:**
-- discovered: 2428
+- discovered: 2429
 
 **Episodes:**
 
@@ -41414,6 +41468,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **[Private video]**
+  - ID: `yxpoZNMQcdU`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## DOAC
@@ -44114,9 +44174,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **Ex-Secret Service Agent: How To Finally Handle The Conversations You’re Terrifie**
   - ID: `xDQyLnNAXr4`
-  - Published: 0
+  - Published: 2025-12-01
   - Status: `discovered`
   - Discovered: None
 

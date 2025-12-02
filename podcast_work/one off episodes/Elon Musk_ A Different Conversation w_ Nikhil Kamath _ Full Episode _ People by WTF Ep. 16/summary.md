@@ -70,7 +70,7 @@ Musk challenged conventional philanthropy: "If you care about the reality of goo
 
 **Why Mentioned**: Revealed personal connection to India through his partner
 
-**Quote**: "My partner, Shivon, you know, she's half Indian... And one of my sons with her is, middle name is Sekka after Chandrasekhar." [[01:04:15]](https://www.youtube.com/watch?v=Rni7Fz7208c&t=1h4m5s)
+**Quote**: "My partner, Shivon, you know, she's half Indian... And one of my sons with her is, middle name is Sekka after Chandrasekhar." [[01:04:15]](https://www.youtube.com/watch?v=Rni7Fz7208c&t=1hcla4m5s)
 
 ### Dan Carlin
 **Description**: Podcaster and historian
