@@ -8883,6 +8883,13 @@
           "discovered_date": "2025-11-14 15:43:42",
           "status": "summarized",
           "region": "Western"
+        },
+        "t8co94HS6tY": {
+          "title": "Founder Habits You Need To Drop To Be A Great CEO",
+          "upload_date": "20251203",
+          "discovered_date": "2025-12-03 15:31:12",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -12543,6 +12550,13 @@
           "title": "Robinhood\u2019s Vlad Tenev on AI, Prediction Markets, and the Future of Trading",
           "upload_date": "20251121",
           "discovered_date": "2025-11-21 09:27:56",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "32tX9vxGe14": {
+          "title": "Anduril & Founders Fund\u2019s Trae Stephens on Choosing Good Quests in the Age of AI | Ep. 35",
+          "upload_date": "20251203",
+          "discovered_date": "2025-12-03 15:38:27",
           "status": "summarized",
           "region": "Western"
         }
@@ -20025,6 +20039,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "fgzr3PhzIMk": {
+          "title": "Why AI Moats Still Matter (And How They've Changed)",
+          "upload_date": "20251203",
+          "discovered_date": "2025-12-03 15:48:14",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -24216,6 +24237,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "-rEo_S0opEc": {
+          "title": "3 Killer Businesses Hidden in Plain Sight",
+          "upload_date": "20251203",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -24338,6 +24366,13 @@
           "title": "Elon Musk: A Different Conversation w/ Nikhil Kamath | Full Episode | People by WTF Ep. 16",
           "upload_date": "20251130",
           "discovered_date": "2025-11-30 18:46:34",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "MGzSt9Dvyc4": {
+          "title": "1,000x Angel Investor: \u201cStay Home!\u201d How Non-US Founders Win in AI | Fabrice Grinda",
+          "upload_date": "20251126",
+          "discovered_date": "2025-12-03 15:21:40",
           "status": "summarized",
           "region": "Western"
         }
@@ -26395,8 +26430,8 @@
           "region": "Western"
         },
         "1JAHJQiL2nk": {
-          "title": "[Private video]",
-          "upload_date": "0",
+          "title": "A.I. Christmas: How Tech Is Changing Holiday Shopping Game | Pivot",
+          "upload_date": "20251202",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
@@ -45830,10 +45865,24 @@
           "region": "Western"
         },
         "yxpoZNMQcdU": {
+          "title": "Joe Rogan Experience #2421 - Derek, More Plates More Dates",
+          "upload_date": "20251202",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "rmPt5iGEmaI": {
           "title": "[Private video]",
           "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
+          "region": "Western"
+        },
+        "3hptKYix4X8": {
+          "title": "Joe Rogan Experience #2422 - Jensen Huang",
+          "upload_date": "20251203",
+          "discovered_date": "2025-12-03 18:09:50",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -48983,6 +49032,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "P7Y-fynYsgE": {
+          "title": "Stuart Russell",
+          "upload_date": "20251203",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -49394,6 +49450,18 @@
           "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
+          "region": "Western"
+        }
+      }
+    },
+    "https://www.youtube.com/playlist?list=PL0Yg1id5olJMOyUnYF5AZnIo2ZXdyYd-L": {
+      "podcast_name": "Newcomer",
+      "episodes": {
+        "b5JkloLay6M": {
+          "title": "Reid Hoffman on Epstein, Elon Musk, and why AI is NOT a Bubble",
+          "upload_date": "20251202",
+          "discovered_date": "2025-12-03 18:26:04",
+          "status": "summarized",
           "region": "Western"
         }
       }

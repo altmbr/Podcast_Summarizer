@@ -8684,11 +8684,11 @@
 
 ## Lightcone
 
-**Total Episodes:** 36
+**Total Episodes:** 37
 
 **Status Summary:**
 - discovered: 34
-- summarized: 2
+- summarized: 3
 
 **Episodes:**
 
@@ -8907,6 +8907,12 @@
   - Published: 2025-11-14
   - Status: `summarized`
   - Discovered: 2025-11-14 15:43:42
+
+- ✅ **Founder Habits You Need To Drop To Be A Great CEO**
+  - ID: `t8co94HS6tY`
+  - Published: 2025-12-03
+  - Status: `summarized`
+  - Discovered: 2025-12-03 15:31:12
 
 ---
 
@@ -12505,11 +12511,11 @@
 
 ## Uncapped Founders
 
-**Total Episodes:** 11
+**Total Episodes:** 12
 
 **Status Summary:**
 - discovered: 8
-- summarized: 3
+- summarized: 4
 
 **Episodes:**
 
@@ -12578,6 +12584,12 @@
   - Published: 2025-11-21
   - Status: `summarized`
   - Discovered: 2025-11-21 09:27:56
+
+- ✅ **Anduril & Founders Fund’s Trae Stephens on Choosing Good Quests in the Age of AI**
+  - ID: `32tX9vxGe14`
+  - Published: 2025-12-03
+  - Status: `summarized`
+  - Discovered: 2025-12-03 15:38:27
 
 ---
 
@@ -15492,11 +15504,11 @@
 
 ## A16z Podcast
 
-**Total Episodes:** 631
+**Total Episodes:** 632
 
 **Status Summary:**
 - discovered: 624
-- summarized: 7
+- summarized: 8
 
 **Episodes:**
 
@@ -19286,14 +19298,20 @@
   - Status: `discovered`
   - Discovered: None
 
+- ✅ **Why AI Moats Still Matter (And How They've Changed)**
+  - ID: `fgzr3PhzIMk`
+  - Published: 2025-12-03
+  - Status: `summarized`
+  - Discovered: 2025-12-03 15:48:14
+
 ---
 
 ## My First Million
 
-**Total Episodes:** 598
+**Total Episodes:** 599
 
 **Status Summary:**
-- discovered: 593
+- discovered: 594
 - summarized: 5
 
 **Episodes:**
@@ -22886,14 +22904,20 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **3 Killer Businesses Hidden in Plain Sight**
+  - ID: `-rEo_S0opEc`
+  - Published: 2025-12-03
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## One-off Episodes
 
-**Total Episodes:** 17
+**Total Episodes:** 18
 
 **Status Summary:**
-- summarized: 17
+- summarized: 18
 
 **Episodes:**
 
@@ -22998,6 +23022,12 @@
   - Published: 2025-11-30
   - Status: `summarized`
   - Discovered: 2025-11-30 18:46:34
+
+- ✅ **1,000x Angel Investor: “Stay Home!” How Non-US Founders Win in AI | Fabrice Grin**
+  - ID: `MGzSt9Dvyc4`
+  - Published: 2025-11-26
+  - Status: `summarized`
+  - Discovered: 2025-12-03 15:21:40
 
 ---
 
@@ -24803,9 +24833,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **A.I. Christmas: How Tech Is Changing Holiday Shopping Game | Pivot**
   - ID: `1JAHJQiL2nk`
-  - Published: 0
+  - Published: 2025-12-02
   - Status: `discovered`
   - Discovered: None
 
@@ -26900,10 +26930,11 @@
 
 ## Joe Rogan
 
-**Total Episodes:** 2429
+**Total Episodes:** 2431
 
 **Status Summary:**
-- discovered: 2429
+- discovered: 2430
+- summarized: 1
 
 **Episodes:**
 
@@ -41475,20 +41506,32 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **Joe Rogan Experience #2421 - Derek, More Plates More Dates**
   - ID: `yxpoZNMQcdU`
+  - Published: 2025-12-02
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `rmPt5iGEmaI`
   - Published: 0
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **Joe Rogan Experience #2422 - Jensen Huang**
+  - ID: `3hptKYix4X8`
+  - Published: 2025-12-03
+  - Status: `summarized`
+  - Discovered: 2025-12-03 18:09:50
 
 ---
 
 ## DOAC
 
-**Total Episodes:** 449
+**Total Episodes:** 450
 
 **Status Summary:**
-- discovered: 448
+- discovered: 449
 - summarized: 1
 
 **Episodes:**
@@ -44187,6 +44230,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **Stuart Russell**
+  - ID: `P7Y-fynYsgE`
+  - Published: 2025-12-03
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Core Memory
@@ -44566,6 +44615,23 @@
   - Published: 0
   - Status: `discovered`
   - Discovered: None
+
+---
+
+## Newcomer
+
+**Total Episodes:** 1
+
+**Status Summary:**
+- summarized: 1
+
+**Episodes:**
+
+- ✅ **Reid Hoffman on Epstein, Elon Musk, and why AI is NOT a Bubble**
+  - ID: `b5JkloLay6M`
+  - Published: 2025-12-02
+  - Status: `summarized`
+  - Discovered: 2025-12-03 18:26:04
 
 ---
 
