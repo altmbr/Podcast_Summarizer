@@ -2,11 +2,11 @@
 
 ## 20VC
 
-**Total Episodes:** 444
+**Total Episodes:** 445
 
 **Status Summary:**
 - discovered: 435
-- summarized: 9
+- summarized: 10
 
 **Episodes:**
 
@@ -2673,6 +2673,12 @@
   - Published: 2025-12-01
   - Status: `summarized`
   - Discovered: 2025-12-01 15:21:28
+
+- ✅ **Thrive & OpenAI Partnership, Databricks $5B Raise at $134B Valuation & Why SaaS **
+  - ID: `9_P-Zf8mDsk`
+  - Published: None
+  - Status: `summarized`
+  - Discovered: 2025-12-04 17:41:53
 
 ---
 
@@ -12595,11 +12601,11 @@
 
 ## Lenny's
 
-**Total Episodes:** 297
+**Total Episodes:** 298
 
 **Status Summary:**
 - discovered: 293
-- summarized: 4
+- summarized: 5
 
 **Episodes:**
 
@@ -14384,6 +14390,12 @@
   - Published: 2025-11-30
   - Status: `summarized`
   - Discovered: 2025-11-30 11:08:14
+
+- ✅ **Why AI is eliminating traditional product management | Tomer Cohen (LinkedIn CPO**
+  - ID: `R-zCfLQD_84`
+  - Published: 2025-12-04
+  - Status: `summarized`
+  - Discovered: 2025-12-04 17:29:34
 
 ---
 
@@ -24843,10 +24855,11 @@
 
 ## Huberman
 
-**Total Episodes:** 346
+**Total Episodes:** 347
 
 **Status Summary:**
 - discovered: 346
+- summarized: 1
 
 **Episodes:**
 
@@ -26925,6 +26938,12 @@
   - Published: 2025-12-01
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **The Science of Making & Breaking Habits | Huberman Lab Essentials**
+  - ID: `HXuj7wAt7u8`
+  - Published: 2025-12-04
+  - Status: `summarized`
+  - Discovered: 2025-12-04 17:37:10
 
 ---
 
@@ -44405,10 +44424,10 @@
 
 ## 20VC
 
-**Total Episodes:** 34
+**Total Episodes:** 35
 
 **Status Summary:**
-- discovered: 34
+- discovered: 35
 
 **Episodes:**
 
@@ -44616,13 +44635,20 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **Thrive & OpenAI Partnership, Databricks $5B Raise at $134B Valuation & Why SaaS **
+  - ID: `9_P-Zf8mDsk`
+  - Published: 2025-12-04
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Newcomer
 
-**Total Episodes:** 1
+**Total Episodes:** 93
 
 **Status Summary:**
+- discovered: 92
 - summarized: 1
 
 **Episodes:**
@@ -44632,6 +44658,558 @@
   - Published: 2025-12-02
   - Status: `summarized`
   - Discovered: 2025-12-03 18:26:04
+
+- 🔍 **Which $Billion AI Startup Would You Short?**
+  - ID: `sOU0zXklPkI`
+  - Published: 2025-11-26
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AI Slop Is Destroying The Internet | Anthropic x Newcomer**
+  - ID: `gUsOixBy438`
+  - Published: 2025-11-21
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI Is Still Propping Up the U.S Economy**
+  - ID: `qILpIvnur6w`
+  - Published: 2025-11-14
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AI Startup Draft 2025: $100B Bets (OpenAI, Anthropic & More)**
+  - ID: `SZ91d32KkZs`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **This Is The Beginning of The AI Crash**
+  - ID: `NPB2aMCNLwM`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Can Billionaires Buy the Media? | Mike Solana Explains**
+  - ID: `Moe3jB6Urmo`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Inside the $Trillion AI Money Machine**
+  - ID: `DIKrtkQGFJY`
+  - Published: 2025-11-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Coming AI Crash No One Wants to Admit | Alex Heath x Newcomer Podcast**
+  - ID: `TdwtH1seIiI`
+  - Published: 2025-10-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Andreessen Horowitz’s Media Empire, Trump vs. Kimmel, Klarna’s $15B IPO Lessons**
+  - ID: `bslWomfEoh4`
+  - Published: 2025-10-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Nayeema Raza: Immortality, AI, and the Billionaire Longevity Craze**
+  - ID: `a9Ivn0WZ1LA`
+  - Published: 2025-10-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **From Deus Ex Medicina: Vinod Khosla, Bob Kocher & Annie Lamont**
+  - ID: `Tb7gurqTrtA`
+  - Published: 2025-10-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Stakes at Deus Ex Medicina**
+  - ID: `UeieMSjnBiA`
+  - Published: 2025-10-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will Hurd on Silicon Valley's Defense-Tech Gold Rush**
+  - ID: `bRbjX1umyfE`
+  - Published: 2025-09-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Casino enters the arena + Guillermo Rauch of Vercel on AI factory builders**
+  - ID: `npYekcxnqxQ`
+  - Published: 2025-09-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Ed Zitron Hater’s Guide to Generative AI**
+  - ID: `hxyNHv3cQvY`
+  - Published: 2025-09-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AI Is saving the economy. For now.**
+  - ID: `QZUkB7o8InM`
+  - Published: 2025-09-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Trump's plan to win the AI race**
+  - ID: `qm7IyHWpE_4`
+  - Published: 2025-08-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Shaun Maguire's Growth Hack**
+  - ID: `eX4hlCxRt8w`
+  - Published: 2025-08-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **VC Haves and Have Nots (with Kate Clark)**
+  - ID: `EKfRf1psK8g`
+  - Published: 2025-06-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **A Very Stable “Coin” GENIUS**
+  - ID: `t5NGv-IGU9A`
+  - Published: 2025-06-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Marc Benioff on AI Eating SaaS, San Francisco’s New Mayor & CEO Trump Pandering**
+  - ID: `FwJY9rJxJbc`
+  - Published: 2025-06-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Lux Capital's Josh Wolfe on America’s Next War and Why It Isn’t Taiwan**
+  - ID: `A1W5EpYtakw`
+  - Published: 2025-05-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The TRUTH about VC Media**
+  - ID: `yWtvVIEw-T4`
+  - Published: 2025-05-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AGI, Seriously + Foundation Model Polyamory (With Kyle Harrison)**
+  - ID: `wGzpW1CMJFs`
+  - Published: 2025-05-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Walter Bloomberg at the Wheel for the Whole Stock Market**
+  - ID: `p47eSuFpxEA`
+  - Published: 2025-05-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The bear case for OpenAI at $300B**
+  - ID: `mL2KDkzxISQ`
+  - Published: 2025-04-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Vibecode Showdown**
+  - ID: `e42uGka0KXg`
+  - Published: 2025-04-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Biggest Deal of the Year!**
+  - ID: `l1qJfx_78LQ`
+  - Published: 2025-04-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Everything's Computer**
+  - ID: `Hx6U7jcpPhU`
+  - Published: 2025-04-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Best crypto to AI pivot ever**
+  - ID: `hA0B-vnf-S8`
+  - Published: 2025-04-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **$200 Billion for Data Centers... In This Economy?**
+  - ID: `kQw35uL3lCk`
+  - Published: 2025-03-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Humane’s HP Exit & the Foundation Model Slugfest**
+  - ID: `ibX6Eo44QFA`
+  - Published: 2025-03-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Elon Musk’s Boisterous OpenAI Bid**
+  - ID: `5tBtRkcqwDo`
+  - Published: 2025-03-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **DOGE's Twitter Firestorm**
+  - ID: `DDSXGMs9zEw`
+  - Published: 2025-03-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The DeepSeek Fire Drill**
+  - ID: `Bzp_PzS3Myk`
+  - Published: 2025-02-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Grit vs Grift**
+  - ID: `Y9TD_Lgbkqk`
+  - Published: 2025-02-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Beware the "Tech Industrial Complex"**
+  - ID: `FuztpfxE4y8`
+  - Published: 2025-02-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Waymo's Next Challenge: Humanity**
+  - ID: `MoKZ-RpHY8k`
+  - Published: 2025-02-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Is the Tech IPO Window Open?**
+  - ID: `39HAWih5Pk0`
+  - Published: 2025-01-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Shake-ups at Silicon Valley's Biggest VC Firms**
+  - ID: `lCixUzLKhTQ`
+  - Published: 2025-01-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Has AI Hit a Wall? A Debate from the Cerebral Valley AI Summit**
+  - ID: `rWS_QyvtITY`
+  - Published: 2025-01-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Fear-Mongering and Forecasting: AI Predictions**
+  - ID: `4PE5kHvngVw`
+  - Published: 2024-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AI Startup Fantasy Draft (2024)**
+  - ID: `bsefC8_bTvw`
+  - Published: 2024-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Will the Trump Presidency Accelerate the Progression of AI?**
+  - ID: `3wVTcufGZpo`
+  - Published: 2024-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Venture Capital's Political Landscape, General Catalyst raises $8bn, and Stripe **
+  - ID: `pk0bCg1IAZM`
+  - Published: 2024-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Newcomer Turns Four**
+  - ID: `5pTZ64tL1Xk`
+  - Published: 2024-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Someday That NPC Could Be More Alive Than You Are (with Amy Wu & Keith Kawahata)**
+  - ID: `2h40kWhLbbo`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AI Kills Us All (with Daniel H. Wilson)**
+  - ID: `rAUQ0DrtqaQ`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley Podcast: Artificial Intelligence Becomes Reality**
+  - ID: `JhvPJGHUANA`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Life Extension Innovations, Moonshots & Snake Oil (with Celine Halioua & James P**
+  - ID: `Vl5muff14HE`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Fighting for Pro-Crypto Legislation in Sam Bankman-Fried's Shadow (with Chris Le**
+  - ID: `exQEV0POM7o`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **He Helps Rich Startup Founders Part With Their Money (with Rey Flemings) | Newco**
+  - ID: `4y-REJyZUqQ`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Hydrogen Space Balloon (with Jane Poynter & Ali Rohde)**
+  - ID: `VB6H8IEs2ns`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Spaceman Explains to Earthman How Things Work (with Delian Asparouhov) | Newcome**
+  - ID: `fKKdjfB3IpE`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Scaling People (with Claire Hughes Johnson) | Newcomer podcast**
+  - ID: `Dofw-YiBfZI`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Staying Global (with Bejul Somaia) | Newcomer Podcast**
+  - ID: `7Z6iadXOmc8`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Psychedelics, Micro Nuclear Reactors & the Venture Downturn (with Rebecca Kaden)**
+  - ID: `gaX6xfVrLOE`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Talking Threads With the Facebook Whistleblower Frances Haugen**
+  - ID: `ovIZk5oymF8`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Musk & Zuck Go Head to Head, Vying to Rule Global Online Discussion (Katie Notop**
+  - ID: `4efz-R9VMZA`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Techstars CEO Maëlle Gavet Talks Pre-Seed Deals, YC, SoftBank & `Zombie Mode' Fu**
+  - ID: `Rrxkf7p2gZI`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Apple Vision Pro: Rethinking the Metaverse (Lauren Goode & Anand Agarawala) | Th**
+  - ID: `pVPslv6BngA`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Rug Salesman Turned Valley Insider Raises a $432 Million Fund (Pejman Nozad) | T**
+  - ID: `U-__Cy6ZWG4`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **VC Contagion: Is Venture Capital Killing Itself? | The Newcomer Podcast**
+  - ID: `f9v01qT-uaE`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Consumer Startups' Tough Reality: A Deep Dive with Sarah Tavel of Benchmark | Th**
+  - ID: `_Di_BM7tNbw`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Inside Substack: A Conversation with Founders Chris Best and Hamish McKenzie | T**
+  - ID: `lzrncTj-YsA`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Traffic Jam with Ben Smith | The Newcomer Podcast**
+  - ID: `QhSr49x1xLw`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Albert Wenger on the Future: Climate Investing, UBI, and Rethinking Society | Th**
+  - ID: `VGnAvpnbY_k`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Amazon Bedrock & BabyAGI (with Jon Turow)**
+  - ID: `-J-XwiU21j4`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Ali Ghodsi (Databricks) with John Curtius (Cedar)**
+  - ID: `1StidE83-Xs`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Keith Peiris (Tome) with Max Child (Volley)**
+  - ID: `vOk1VbJ9mlc`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Daniela Amodei (Anthropic) and Hema Raghavan (Kumo) w/ Konstant**
+  - ID: `MRNKzKgjqx0`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Amjad Masad (Replit) and Clement Delangue (Hugging Face) with E**
+  - ID: `5dqXtR3R0kY`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: David Luan (Adept) and Saam Motamedi (Greylock) with Eric Newco**
+  - ID: `A5sxCWImWhs`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Yasmin Dunsky, Emily Dorsey, and Lydia Ding with James Wilsterm**
+  - ID: `O3OHF6ojXp8`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Shane Orlick (Jasper) and Cristóbal Valenzuela (Runway) w/ Cary**
+  - ID: `8sI29z_XVHA`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Leigh Marie Braswell, Bucky Moore, and Amber Yang with Eric New**
+  - ID: `kps104aklvI`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Emad Mostaque (Stability AI) with Eric Newcomer**
+  - ID: `k5d0A-05Gu4`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Deep Nishar (General Catalyst) with Eric Newcomer**
+  - ID: `8xfRde1rkbA`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Lisha Li, Medha Basu, Chun Jiang, and Caroline Zhang with Max C**
+  - ID: `75I898ZK2oU`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Cerebral Valley: Adam D'Angelo (Quora) + Harrison Chase (LangChain) with Miles G**
+  - ID: `CUCBXyJym3M`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Venture Capital Gravitational Physics (with Ravi Mhatre)**
+  - ID: `U8VLDyrj6Mk`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Peering Over the Edge of Death (with Jon McNeill)**
+  - ID: `fyCl23TOj1I`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Wall Street Veteran & Investor Laurence Tosi Explains Silicon Valley Bank's Unra**
+  - ID: `EmH7IdAiztg`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **This Kicked Off With a Dinner With Elon Musk Years Ago (with Reid Hoffman)**
+  - ID: `BRGckVX_QWA`
+  - Published: 2023-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `Uu3Hae-cjGk`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `7BpNU1rKwVs`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `0OVeWlh-zVM`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `aWfym2ZyV-A`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `Rj0thc-9Tro`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `GX8nS2sukTc`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `uY0KQXaomM0`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `cp-dt5ffzEI`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 

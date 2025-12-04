@@ -2677,6 +2677,13 @@
           "discovered_date": "2025-12-01 15:21:28",
           "status": "summarized",
           "region": "Western"
+        },
+        "9_P-Zf8mDsk": {
+          "title": "Thrive & OpenAI Partnership, Databricks $5B Raise at $134B Valuation & Why SaaS is Like Japan",
+          "upload_date": null,
+          "discovered_date": "2025-12-04 17:41:53",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -14350,6 +14357,13 @@
           "title": "Why AI won\u2019t replace salespeople (but will change everything) | Vercel\u2019s COO",
           "upload_date": "20251130",
           "discovered_date": "2025-11-30 11:08:14",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "R-zCfLQD_84": {
+          "title": "Why AI is eliminating traditional product management | Tomer Cohen (LinkedIn CPO)",
+          "upload_date": "20251204",
+          "discovered_date": "2025-12-04 17:29:34",
           "status": "summarized",
           "region": "Western"
         }
@@ -28861,6 +28875,13 @@
           "upload_date": "20251201",
           "discovered_date": null,
           "status": "discovered",
+          "region": "Western"
+        },
+        "HXuj7wAt7u8": {
+          "title": "The Science of Making & Breaking Habits | Huberman Lab Essentials",
+          "upload_date": "20251204",
+          "discovered_date": "2025-12-04 17:37:10",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -49451,6 +49472,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "9_P-Zf8mDsk": {
+          "title": "Thrive & OpenAI Partnership, Databricks $5B Raise at $134B Valuation & Why SaaS is Like Japan",
+          "upload_date": "20251204",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -49462,6 +49490,650 @@
           "upload_date": "20251202",
           "discovered_date": "2025-12-03 18:26:04",
           "status": "summarized",
+          "region": "Western"
+        },
+        "sOU0zXklPkI": {
+          "title": "Which $Billion AI Startup Would You Short?",
+          "upload_date": "20251126",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "gUsOixBy438": {
+          "title": "AI Slop Is Destroying The Internet | Anthropic x Newcomer",
+          "upload_date": "20251121",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "qILpIvnur6w": {
+          "title": "OpenAI Is Still Propping Up the U.S Economy",
+          "upload_date": "20251114",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "SZ91d32KkZs": {
+          "title": "AI Startup Draft 2025: $100B Bets (OpenAI, Anthropic & More)",
+          "upload_date": "20251105",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "NPB2aMCNLwM": {
+          "title": "This Is The Beginning of The AI Crash",
+          "upload_date": "20251105",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Moe3jB6Urmo": {
+          "title": "Can Billionaires Buy the Media? | Mike Solana Explains",
+          "upload_date": "20251105",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "DIKrtkQGFJY": {
+          "title": "Inside the $Trillion AI Money Machine",
+          "upload_date": "20251105",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "TdwtH1seIiI": {
+          "title": "The Coming AI Crash No One Wants to Admit | Alex Heath x Newcomer Podcast",
+          "upload_date": "20251005",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "bslWomfEoh4": {
+          "title": "Andreessen Horowitz\u2019s Media Empire, Trump vs. Kimmel, Klarna\u2019s $15B IPO Lessons",
+          "upload_date": "20251005",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "a9Ivn0WZ1LA": {
+          "title": "Nayeema Raza: Immortality, AI, and the Billionaire Longevity Craze",
+          "upload_date": "20251005",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Tb7gurqTrtA": {
+          "title": "From Deus Ex Medicina: Vinod Khosla, Bob Kocher & Annie Lamont",
+          "upload_date": "20251005",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "UeieMSjnBiA": {
+          "title": "The Stakes at Deus Ex Medicina",
+          "upload_date": "20251005",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "bRbjX1umyfE": {
+          "title": "Will Hurd on Silicon Valley's Defense-Tech Gold Rush",
+          "upload_date": "20250905",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "npYekcxnqxQ": {
+          "title": "The Casino enters the arena + Guillermo Rauch of Vercel on AI factory builders",
+          "upload_date": "20250905",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "hxyNHv3cQvY": {
+          "title": "Ed Zitron Hater\u2019s Guide to Generative AI",
+          "upload_date": "20250905",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "QZUkB7o8InM": {
+          "title": "AI Is saving the economy. For now.",
+          "upload_date": "20250905",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "qm7IyHWpE_4": {
+          "title": "Trump's plan to win the AI race",
+          "upload_date": "20250805",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "eX4hlCxRt8w": {
+          "title": "Shaun Maguire's Growth Hack",
+          "upload_date": "20250805",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "EKfRf1psK8g": {
+          "title": "VC Haves and Have Nots (with Kate Clark)",
+          "upload_date": "20250605",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "t5NGv-IGU9A": {
+          "title": "A Very Stable \u201cCoin\u201d GENIUS",
+          "upload_date": "20250605",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "FwJY9rJxJbc": {
+          "title": "Marc Benioff on AI Eating SaaS, San Francisco\u2019s New Mayor & CEO Trump Pandering",
+          "upload_date": "20250605",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "A1W5EpYtakw": {
+          "title": "Lux Capital's Josh Wolfe on America\u2019s Next War and Why It Isn\u2019t Taiwan",
+          "upload_date": "20250505",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "yWtvVIEw-T4": {
+          "title": "The TRUTH about VC Media",
+          "upload_date": "20250505",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "wGzpW1CMJFs": {
+          "title": "AGI, Seriously + Foundation Model Polyamory (With Kyle Harrison)",
+          "upload_date": "20250505",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "p47eSuFpxEA": {
+          "title": "Walter Bloomberg at the Wheel for the Whole Stock Market",
+          "upload_date": "20250505",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "mL2KDkzxISQ": {
+          "title": "The bear case for OpenAI at $300B",
+          "upload_date": "20250405",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "e42uGka0KXg": {
+          "title": "Vibecode Showdown",
+          "upload_date": "20250405",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "l1qJfx_78LQ": {
+          "title": "The Biggest Deal of the Year!",
+          "upload_date": "20250405",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Hx6U7jcpPhU": {
+          "title": "Everything's Computer",
+          "upload_date": "20250405",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "hA0B-vnf-S8": {
+          "title": "Best crypto to AI pivot ever",
+          "upload_date": "20250405",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "kQw35uL3lCk": {
+          "title": "$200 Billion for Data Centers... In This Economy?",
+          "upload_date": "20250305",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "ibX6Eo44QFA": {
+          "title": "Humane\u2019s HP Exit & the Foundation Model Slugfest",
+          "upload_date": "20250305",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "5tBtRkcqwDo": {
+          "title": "Elon Musk\u2019s Boisterous OpenAI Bid",
+          "upload_date": "20250305",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "DDSXGMs9zEw": {
+          "title": "DOGE's Twitter Firestorm",
+          "upload_date": "20250305",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Bzp_PzS3Myk": {
+          "title": "The DeepSeek Fire Drill",
+          "upload_date": "20250205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Y9TD_Lgbkqk": {
+          "title": "Grit vs Grift",
+          "upload_date": "20250205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "FuztpfxE4y8": {
+          "title": "Beware the \"Tech Industrial\u00a0Complex\"",
+          "upload_date": "20250205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "MoKZ-RpHY8k": {
+          "title": "Waymo's Next Challenge: Humanity",
+          "upload_date": "20250205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "39HAWih5Pk0": {
+          "title": "Is the Tech IPO Window Open?",
+          "upload_date": "20250105",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "lCixUzLKhTQ": {
+          "title": "Shake-ups at Silicon Valley's Biggest VC Firms",
+          "upload_date": "20250105",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "rWS_QyvtITY": {
+          "title": "Has AI Hit a Wall? A Debate from the Cerebral Valley AI Summit",
+          "upload_date": "20250105",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "4PE5kHvngVw": {
+          "title": "Fear-Mongering and Forecasting: AI Predictions",
+          "upload_date": "20241205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "bsefC8_bTvw": {
+          "title": "AI Startup Fantasy Draft (2024)",
+          "upload_date": "20241205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "3wVTcufGZpo": {
+          "title": "Will the Trump Presidency Accelerate the Progression of AI?",
+          "upload_date": "20241205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "pk0bCg1IAZM": {
+          "title": "Venture Capital's Political Landscape, General Catalyst raises $8bn, and Stripe acquires Bridge",
+          "upload_date": "20241205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "5pTZ64tL1Xk": {
+          "title": "Newcomer Turns Four",
+          "upload_date": "20241205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "2h40kWhLbbo": {
+          "title": "Someday That NPC Could Be More Alive Than You Are (with Amy Wu & Keith Kawahata)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "rAUQ0DrtqaQ": {
+          "title": "AI Kills Us All (with Daniel H. Wilson)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "JhvPJGHUANA": {
+          "title": "Cerebral Valley Podcast: Artificial Intelligence Becomes Reality",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Vl5muff14HE": {
+          "title": "Life Extension Innovations, Moonshots & Snake Oil (with Celine Halioua & James Peyer)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "exQEV0POM7o": {
+          "title": "Fighting for Pro-Crypto Legislation in Sam Bankman-Fried's Shadow (with Chris Lehane)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "4y-REJyZUqQ": {
+          "title": "He Helps Rich Startup Founders Part With Their Money (with Rey Flemings) | Newcomer podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "VB6H8IEs2ns": {
+          "title": "Hydrogen Space Balloon (with Jane Poynter & Ali Rohde)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "fKKdjfB3IpE": {
+          "title": "Spaceman Explains to Earthman How Things Work (with Delian Asparouhov) | Newcomer podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Dofw-YiBfZI": {
+          "title": "Scaling People (with Claire Hughes Johnson) | Newcomer podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "7Z6iadXOmc8": {
+          "title": "Staying Global (with Bejul Somaia) | Newcomer Podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "gaX6xfVrLOE": {
+          "title": "Psychedelics, Micro Nuclear Reactors & the Venture Downturn (with Rebecca Kaden) | Newcomer Podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "ovIZk5oymF8": {
+          "title": "Talking Threads With the Facebook Whistleblower Frances Haugen",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "4efz-R9VMZA": {
+          "title": "Musk & Zuck Go Head to Head, Vying to Rule Global Online Discussion (Katie Notopoulos & Tom Dotan)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Rrxkf7p2gZI": {
+          "title": "Techstars CEO Ma\u00eblle Gavet Talks Pre-Seed Deals, YC, SoftBank & `Zombie Mode' Funds",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "pVPslv6BngA": {
+          "title": "Apple Vision Pro: Rethinking the Metaverse (Lauren Goode & Anand Agarawala) | The Newcomer Podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "U-__Cy6ZWG4": {
+          "title": "Rug Salesman Turned Valley Insider Raises a $432 Million Fund (Pejman Nozad) | The Newcomer Podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "f9v01qT-uaE": {
+          "title": "VC Contagion: Is Venture Capital Killing Itself? | The Newcomer Podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "_Di_BM7tNbw": {
+          "title": "Consumer Startups' Tough Reality: A Deep Dive with Sarah Tavel of Benchmark | The Newcomer Podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "lzrncTj-YsA": {
+          "title": "Inside Substack: A Conversation with Founders Chris Best and Hamish McKenzie | The Newcomer Podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "QhSr49x1xLw": {
+          "title": "Traffic Jam with Ben Smith | The Newcomer Podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "VGnAvpnbY_k": {
+          "title": "Albert Wenger on the Future: Climate Investing, UBI, and Rethinking Society | The Newcomer Podcast",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "-J-XwiU21j4": {
+          "title": "Amazon Bedrock & BabyAGI (with Jon Turow)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "1StidE83-Xs": {
+          "title": "Cerebral Valley: Ali Ghodsi (Databricks) with John Curtius (Cedar)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "vOk1VbJ9mlc": {
+          "title": "Cerebral Valley: Keith Peiris (Tome) with Max Child (Volley)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "MRNKzKgjqx0": {
+          "title": "Cerebral Valley: Daniela Amodei (Anthropic) and Hema Raghavan (Kumo) w/ Konstantine Buhler (Sequoia)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "5dqXtR3R0kY": {
+          "title": "Cerebral Valley: Amjad Masad (Replit) and Clement Delangue (Hugging Face) with Eric Newcomer",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "A5sxCWImWhs": {
+          "title": "Cerebral Valley: David Luan (Adept) and Saam Motamedi (Greylock) with Eric Newcomer",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "O3OHF6ojXp8": {
+          "title": "Cerebral Valley: Yasmin Dunsky, Emily Dorsey, and Lydia Ding with James Wilsterman",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "8sI29z_XVHA": {
+          "title": "Cerebral Valley: Shane Orlick (Jasper) and Crist\u00f3bal Valenzuela (Runway) w/ Caryn Marooney (Coatue)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "kps104aklvI": {
+          "title": "Cerebral Valley: Leigh Marie Braswell, Bucky Moore, and Amber Yang with Eric Newcomer",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "k5d0A-05Gu4": {
+          "title": "Cerebral Valley: Emad Mostaque (Stability AI) with Eric Newcomer",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "8xfRde1rkbA": {
+          "title": "Cerebral Valley: Deep Nishar (General Catalyst) with Eric Newcomer",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "75I898ZK2oU": {
+          "title": "Cerebral Valley: Lisha Li, Medha Basu, Chun Jiang, and Caroline Zhang with Max Child",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "CUCBXyJym3M": {
+          "title": "Cerebral Valley: Adam D'Angelo (Quora) + Harrison Chase (LangChain) with Miles Grimshaw (Benchmark)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "U8VLDyrj6Mk": {
+          "title": "Venture Capital Gravitational Physics (with Ravi Mhatre)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "fyCl23TOj1I": {
+          "title": "Peering Over the Edge of Death (with Jon McNeill)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "EmH7IdAiztg": {
+          "title": "Wall Street Veteran & Investor Laurence Tosi Explains Silicon Valley Bank's Unraveling",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "BRGckVX_QWA": {
+          "title": "This Kicked Off With a Dinner With Elon Musk Years Ago (with Reid Hoffman)",
+          "upload_date": "20231205",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Uu3Hae-cjGk": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "7BpNU1rKwVs": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "0OVeWlh-zVM": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "aWfym2ZyV-A": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "Rj0thc-9Tro": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "GX8nS2sukTc": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "uY0KQXaomM0": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "cp-dt5ffzEI": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
           "region": "Western"
         }
       }
