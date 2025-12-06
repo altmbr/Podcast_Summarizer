@@ -2684,11 +2684,11 @@
 
 ## No Priors
 
-**Total Episodes:** 142
+**Total Episodes:** 143
 
 **Status Summary:**
 - discovered: 138
-- summarized: 4
+- summarized: 5
 
 **Episodes:**
 
@@ -3544,6 +3544,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- ✅ **No Priors Ep. 142 | With Harvey Co-Founder and President Gabe Pereyra**
+  - ID: `0YaJQZZACy8`
+  - Published: 2025-12-06
+  - Status: `summarized`
+  - Discovered: 2025-12-06 09:16:15
+
 ---
 
 ## BG2
@@ -3812,11 +3818,11 @@
 
 ## All In
 
-**Total Episodes:** 254
+**Total Episodes:** 255
 
 **Status Summary:**
 - discovered: 250
-- summarized: 4
+- summarized: 5
 
 **Episodes:**
 
@@ -5344,16 +5350,22 @@
   - Status: `summarized`
   - Discovered: 2025-11-23 16:37:10
 
+- ✅ **OpenAI's Code Red, Sacks vs New York Times, New Poverty Line?**
+  - ID: `Uxi6LVKanuY`
+  - Published: 2025-12-06
+  - Status: `summarized`
+  - Discovered: 2025-12-06 09:22:26
+
 ---
 
 ## More or Less
 
-**Total Episodes:** 127
+**Total Episodes:** 128
 
 **Status Summary:**
 - discovered: 110
 - downloaded: 12
-- summarized: 5
+- summarized: 6
 
 **Episodes:**
 
@@ -6119,6 +6131,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-28 17:15:40
 
+- ✅ **Code Red, Bitcoin Costs, AWS Resurgence, and Waymo Safety (Not About AI... ish)**
+  - ID: `11AF3xb27os`
+  - Published: 2025-12-05
+  - Status: `summarized`
+  - Discovered: 2025-12-06 09:39:31
+
 ---
 
 ## Uncapped
@@ -6309,11 +6327,11 @@
 
 ## Sourcery
 
-**Total Episodes:** 96
+**Total Episodes:** 97
 
 **Status Summary:**
 - discovered: 87
-- summarized: 9
+- summarized: 10
 
 **Episodes:**
 
@@ -6892,6 +6910,12 @@
   - Published: 2025-11-29
   - Status: `summarized`
   - Discovered: 2025-11-29 11:02:19
+
+- ✅ **Inside General Catalyst’s $1.5B AI Roll-Up Machine**
+  - ID: `6It7btwZMuY`
+  - Published: 2025-12-06
+  - Status: `summarized`
+  - Discovered: 2025-12-06 09:32:14
 
 ---
 
@@ -12601,10 +12625,10 @@
 
 ## Lenny's
 
-**Total Episodes:** 298
+**Total Episodes:** 299
 
 **Status Summary:**
-- discovered: 293
+- discovered: 294
 - summarized: 5
 
 **Episodes:**
@@ -14396,6 +14420,12 @@
   - Published: 2025-12-04
   - Status: `summarized`
   - Discovered: 2025-12-04 17:29:34
+
+- 🔍 **[Private video]**
+  - ID: `dduQeaqmpnI`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -19320,10 +19350,10 @@
 
 ## My First Million
 
-**Total Episodes:** 599
+**Total Episodes:** 600
 
 **Status Summary:**
-- discovered: 594
+- discovered: 595
 - summarized: 5
 
 **Episodes:**
@@ -22922,6 +22952,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **Living In a Garage to Building the $1B+ 'Savannah Bananas'**
+  - ID: `FYa_fH17Rcc`
+  - Published: 2025-12-06
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## One-off Episodes
@@ -23782,10 +23818,10 @@
 
 ## Pivot
 
-**Total Episodes:** 177
+**Total Episodes:** 180
 
 **Status Summary:**
-- discovered: 177
+- discovered: 180
 
 **Episodes:**
 
@@ -24848,6 +24884,24 @@
 - 🔍 **A.I. Christmas: How Tech Is Changing Holiday Shopping Game | Pivot**
   - ID: `1JAHJQiL2nk`
   - Published: 2025-12-02
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Kara Swisher "Cracked the Case"… and Got Dragged Into the Nuzzi-Lizza-RFK Jr**
+  - ID: `NDs2ZnhIB2A`
+  - Published: 2025-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `tFz8fu8eJBU`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `eB4992i9paQ`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
@@ -26949,10 +27003,10 @@
 
 ## Joe Rogan
 
-**Total Episodes:** 2431
+**Total Episodes:** 2432
 
 **Status Summary:**
-- discovered: 2430
+- discovered: 2431
 - summarized: 1
 
 **Episodes:**
@@ -41543,6 +41597,12 @@
   - Status: `summarized`
   - Discovered: 2025-12-03 18:09:50
 
+- 🔍 **Joe Rogan Experience #2423 - John Cena**
+  - ID: `sJ4Ho4ccuFg`
+  - Published: 2025-12-05
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## DOAC
@@ -44645,11 +44705,11 @@
 
 ## Newcomer
 
-**Total Episodes:** 93
+**Total Episodes:** 94
 
 **Status Summary:**
 - discovered: 92
-- summarized: 1
+- summarized: 2
 
 **Episodes:**
 
@@ -45210,6 +45270,12 @@
   - Published: 0
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **Inside the Sex Cult That Fooled Silicon Valley**
+  - ID: `ALbq5NCVl_0`
+  - Published: 2025-12-05
+  - Status: `summarized`
+  - Discovered: 2025-12-06 09:47:24
 
 ---
 
