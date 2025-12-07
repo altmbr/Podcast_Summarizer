@@ -513,7 +513,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
 
     episodeCards += `
         <a href="${summaryUrl}" style="text-decoration: none; display: block;">
-            <div style="background: ${colors.card}; padding: 24px 16px; margin-bottom: ${marginBottom}; border: 3px solid ${colors.border}; box-shadow: 4px 4px 0 ${colors.border}; border-radius: 0; cursor: pointer;">
+            <div style="background: ${colors.card}; padding: 24px 16px; margin-bottom: ${marginBottom}; border: 3px solid ${colors.border};">
                 <h2 style="margin: 0 0 6px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; color: ${colors.foreground};">
                     ${episode.title}
                 </h2>
