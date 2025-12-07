@@ -55,13 +55,13 @@ export async function GET(request: NextRequest) {
     const signupDate = new Date().toISOString()
 
     for (const email of emails) {
-      const subscriberData: SubscriberData = {
+      const subscriberData = {
         subscribed: true,
         signupDate
       }
 
       // Create hash entry for subscriber
-      await kv.hset(`${SUBSCRIBER_PREFIX}${email}`, subscriberData)
+      await kv.hset(`${SUBSCRIBER_PREFIX}${email}`, subscriberData as Record<string, unknown>)
 
       // Add to new email index list
       await kv.lpush(NEW_EMAILS_KEY, email)
