@@ -3,8 +3,10 @@ import type { NextRequest } from 'next/server'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { parseEpisodeMetadata } from '@/lib/schema'
+import { createHmac } from 'crypto'
 
-const EMAILS_KEY = 'newsletter-emails'
+const SUBSCRIBER_EMAILS_KEY = 'subscriber-emails'
+const SUBSCRIBER_PREFIX = 'subscriber:'
 const SENDGRID_API_URL = 'https://api.sendgrid.com/v3/mail/send'
 
 // Feature flag for header image style
@@ -36,10 +38,35 @@ function verifyCronRequest(request: NextRequest): boolean {
   return true
 }
 
+interface SubscriberData {
+  subscribed: boolean
+  signupDate: string
+  unsubscribeDate?: string
+}
+
+// Token generation utility (matches /api/unsubscribe)
+function generateUnsubscribeToken(email: string): string {
+  const secret = process.env.UNSUBSCRIBE_SECRET || process.env.CRON_SECRET || 'fallback-secret'
+  const hmac = createHmac('sha256', secret)
+  hmac.update(email)
+  const hash = hmac.digest('base64url')
+  return hash
+}
+
 async function getSubscribers(): Promise<string[]> {
   try {
-    const emails = await kv.lrange(EMAILS_KEY, 0, -1)
-    return emails as string[]
+    const allEmails = await kv.lrange(SUBSCRIBER_EMAILS_KEY, 0, -1) as string[]
+    const activeSubscribers: string[] = []
+
+    // Filter for active subscribers only (subscribed: true)
+    for (const email of allEmails) {
+      const data = await kv.hgetall(`${SUBSCRIBER_PREFIX}${email}`) as SubscriberData | null
+      if (data && data.subscribed) {
+        activeSubscribers.push(email)
+      }
+    }
+
+    return activeSubscribers
   } catch (error) {
     console.error('Failed to fetch subscribers:', error)
     return []
@@ -450,7 +477,7 @@ async function generateHeaderImage(episodes: Episode[], dateStr: string): Promis
   }
 }
 
-function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boolean): string {
+function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boolean, unsubscribeToken: string): string {
   const colors = {
     background: '#f7f4f0',
     foreground: '#1a1a1a',
@@ -554,9 +581,12 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
         ${episodeCards}
         <div style="text-align: center; padding-top: 32px; width: 100%;">
             <div style="border-top: 1px solid ${colors.muted_foreground}; width: 80%; margin: 0 auto; padding-top: 24px;">
-                <p style="margin: 0; color: ${colors.muted_foreground}; font-size: 14px; line-height: 1.6;">
+                <p style="margin: 0 0 16px 0; color: ${colors.muted_foreground}; font-size: 14px; line-height: 1.6;">
                     A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
                     <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 8px; display: inline-block;">Teahose.com</a>
+                </p>
+                <p style="margin: 0; color: ${colors.muted_foreground}; font-size: 12px;">
+                    No longer want these emails? <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.accent}; text-decoration: underline;">Unsubscribe</a>
                 </p>
             </div>
         </div>
@@ -568,7 +598,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
 </html>`
 }
 
-async function sendEmail(to: string[], subject: string, htmlContent: string, imageBase64: string | null): Promise<boolean> {
+async function sendEmail(to: string[], subject: string, episodes: Episode[], dateStr: string, imageBase64: string | null): Promise<boolean> {
   const sendgridKey = process.env.SENDGRID_API_KEY
 
   if (!sendgridKey) {
@@ -576,62 +606,74 @@ async function sendEmail(to: string[], subject: string, htmlContent: string, ima
     return false
   }
 
-  // SendGrid supports up to 1000 recipients per request
-  const personalizations = to.map(email => ({ to: [{ email }] }))
+  // Send personalized emails with unique unsubscribe tokens
+  let successCount = 0
+  let failureCount = 0
 
-  // Build the request body
-  const body: Record<string, unknown> = {
-    personalizations,
-    from: {
-      email: 'agent@teahose.com',
-      name: 'The Daily Teahose'
-    },
-    subject,
-    content: [
-      {
-        type: 'text/html',
-        value: htmlContent
-      }
-    ]
-  }
+  for (const email of to) {
+    // Generate unique unsubscribe token for this subscriber
+    const unsubscribeToken = generateUnsubscribeToken(email)
 
-  // If we have an image, attach it as inline attachment
-  if (imageBase64) {
-    // Extract base64 data from data URL (remove "data:image/png;base64," prefix)
-    const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, '')
+    // Generate personalized HTML with unsubscribe link
+    const htmlContent = generateEmailHtml(episodes, dateStr, !!imageBase64, unsubscribeToken)
 
-    body.attachments = [
-      {
-        content: base64Data,
-        filename: 'header.png',
-        type: 'image/png',
-        disposition: 'inline',
-        content_id: 'header_image'
-      }
-    ]
-  }
-
-  try {
-    const response = await fetch(SENDGRID_API_URL, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${sendgridKey}`
+    // Build the request body for this individual email
+    const body: Record<string, unknown> = {
+      personalizations: [{ to: [{ email }] }],
+      from: {
+        email: 'agent@teahose.com',
+        name: 'The Daily Teahose'
       },
-      body: JSON.stringify(body)
-    })
-
-    if (!response.ok) {
-      const errorText = await response.text()
-      console.error('SendGrid error:', response.status, errorText)
-      return false
+      subject,
+      content: [
+        {
+          type: 'text/html',
+          value: htmlContent
+        }
+      ]
     }
 
-    return true
-  } catch (error) {
-    console.error('Failed to send email:', error)
-    return false
+    // If we have an image, attach it as inline attachment
+    if (imageBase64) {
+      // Extract base64 data from data URL (remove "data:image/png;base64," prefix)
+      const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, '')
+
+      body.attachments = [
+        {
+          content: base64Data,
+          filename: 'header.png',
+          type: 'image/png',
+          disposition: 'inline',
+          content_id: 'header_image'
+        }
+      ]
+    }
+
+    try {
+      const response = await fetch(SENDGRID_API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${sendgridKey}`
+        },
+        body: JSON.stringify(body)
+      })
+
+      if (!response.ok) {
+        const errorText = await response.text()
+        console.error(`SendGrid error for ${email}:`, response.status, errorText)
+        failureCount++
+      } else {
+        successCount++
+      }
+    } catch (error) {
+      console.error(`Failed to send email to ${email}:`, error)
+      failureCount++
+    }
   }
+
+  console.log(`Email send complete: ${successCount} succeeded, ${failureCount} failed`)
+  return failureCount === 0
 }
 
 export async function GET(request: NextRequest) {
@@ -671,6 +713,24 @@ export async function GET(request: NextRequest) {
 
   console.log(`Sending to ${subscribers.length} subscriber(s)`)
 
+  // SAFETY: Only send to test email during testing phase
+  // TODO: Remove this filter before going to production
+  const testEmail = 'altmbr@gmail.com'
+  const testOnlySubscribers = subscribers.filter(email => email === testEmail)
+
+  if (testOnlySubscribers.length === 0) {
+    console.log(`⚠️  TEST MODE: ${testEmail} not in subscriber list. No emails will be sent.`)
+    return Response.json({
+      success: true,
+      message: `TEST MODE: ${testEmail} not subscribed`,
+      episodeCount: episodes.length,
+      subscriberCount: 0
+    })
+  }
+
+  console.log(`⚠️  TEST MODE: Only sending to ${testEmail} (filtered ${subscribers.length - testOnlySubscribers.length} other subscribers)`)
+  const actualSubscribers = testOnlySubscribers
+
   // Generate descriptions for each episode
   console.log('Generating episode descriptions...')
   for (const episode of episodes) {
@@ -689,28 +749,30 @@ export async function GET(request: NextRequest) {
   console.log('Generating header image...')
   const headerImageBase64 = await generateHeaderImage(episodes, dateStr)
 
-  // Generate email HTML (pass boolean for whether image exists)
-  const htmlContent = generateEmailHtml(episodes, dateStr, !!headerImageBase64)
   const subject = `The Daily Teahose - ${dateStr}`
 
-  // Send email with image attachment
-  const success = await sendEmail(subscribers, subject, htmlContent, headerImageBase64)
+  // Send personalized emails with unique unsubscribe tokens
+  const success = await sendEmail(actualSubscribers, subject, episodes, dateStr, headerImageBase64)
 
   if (success) {
     console.log('Daily email sent successfully!')
     return Response.json({
       success: true,
-      message: 'Daily email sent',
+      message: 'Daily email sent (TEST MODE)',
       episodeCount: episodes.length,
-      subscriberCount: subscribers.length
+      subscriberCount: actualSubscribers.length,
+      testMode: true,
+      testEmail
     })
   } else {
     console.error('Failed to send daily email')
     return Response.json({
       success: false,
-      message: 'Failed to send email',
+      message: 'Failed to send email (TEST MODE)',
       episodeCount: episodes.length,
-      subscriberCount: subscribers.length
+      subscriberCount: actualSubscribers.length,
+      testMode: true,
+      testEmail
     }, { status: 500 })
   }
 }
