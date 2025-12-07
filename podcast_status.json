@@ -14396,10 +14396,10 @@
           "region": "Western"
         },
         "dduQeaqmpnI": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "How this secret data company is powering the AI revolution | Edwin Chen",
+          "upload_date": "20251207",
+          "discovered_date": "2025-12-07 15:35:04",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -49130,6 +49130,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "4QLWlcneJig": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -50210,6 +50217,18 @@
           "title": "Inside the Sex Cult That Fooled Silicon Valley",
           "upload_date": "20251205",
           "discovered_date": "2025-12-06 09:47:24",
+          "status": "summarized",
+          "region": "Western"
+        }
+      }
+    },
+    "https://www.youtube.com/playlist?list=PLn5mxQAXXebxbQY3BqpmbYWYty0_zJraA": {
+      "podcast_name": "David Senra",
+      "episodes": {
+        "Se64B8TKfjA": {
+          "title": "My Conversation With James Dyson, Founder of Dyson",
+          "upload_date": "20251207",
+          "discovered_date": "2025-12-07 15:44:34",
           "status": "summarized",
           "region": "Western"
         }

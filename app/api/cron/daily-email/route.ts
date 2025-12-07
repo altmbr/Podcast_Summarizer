@@ -541,8 +541,10 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
 </head>
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: ${colors.foreground}; max-width: 700px; margin: 0 auto; padding: 20px; background-color: ${colors.background};">
 
-    <!-- Main bordered card - ALL CONTENT INCLUDING UNSUBSCRIBE INSIDE THIS DIV -->
-    <div style="background: ${colors.card}; padding: 32px; border: 3px solid ${colors.border};">
+    <!-- Main bordered card - ALL CONTENT INCLUDING UNSUBSCRIBE INSIDE THIS TABLE -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 700px; margin: 0 auto;">
+        <tr>
+            <td style="background: ${colors.card}; padding: 32px; border: 3px solid ${colors.border};">
 
         <!-- Header -->
         <div style="text-align: center; margin-bottom: 24px;">
@@ -578,7 +580,9 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
             No longer want these emails? <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.accent}; text-decoration: underline;">Unsubscribe</a>
         </p>
 
-    </div>
+            </td>
+        </tr>
+    </table>
     <!-- End main bordered card -->
 
 </body>

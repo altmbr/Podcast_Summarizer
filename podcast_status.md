@@ -12628,8 +12628,8 @@
 **Total Episodes:** 299
 
 **Status Summary:**
-- discovered: 294
-- summarized: 5
+- discovered: 293
+- summarized: 6
 
 **Episodes:**
 
@@ -14421,11 +14421,11 @@
   - Status: `summarized`
   - Discovered: 2025-12-04 17:29:34
 
-- 🔍 **[Private video]**
+- ✅ **How this secret data company is powering the AI revolution | Edwin Chen**
   - ID: `dduQeaqmpnI`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-07
+  - Status: `summarized`
+  - Discovered: 2025-12-07 15:35:04
 
 ---
 
@@ -41607,10 +41607,10 @@
 
 ## DOAC
 
-**Total Episodes:** 450
+**Total Episodes:** 451
 
 **Status Summary:**
-- discovered: 449
+- discovered: 450
 - summarized: 1
 
 **Episodes:**
@@ -44315,6 +44315,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **[Private video]**
+  - ID: `4QLWlcneJig`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Core Memory
@@ -45276,6 +45282,23 @@
   - Published: 2025-12-05
   - Status: `summarized`
   - Discovered: 2025-12-06 09:47:24
+
+---
+
+## David Senra
+
+**Total Episodes:** 1
+
+**Status Summary:**
+- summarized: 1
+
+**Episodes:**
+
+- ✅ **My Conversation With James Dyson, Founder of Dyson**
+  - ID: `Se64B8TKfjA`
+  - Published: 2025-12-07
+  - Status: `summarized`
+  - Discovered: 2025-12-07 15:44:34
 
 ---
 
