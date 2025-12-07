@@ -77,9 +77,11 @@ export async function POST(request: NextRequest) {
       // If previously unsubscribed, resubscribe them
       await kv.hset(`${SUBSCRIBER_PREFIX}${email}`, {
         subscribed: true,
-        signupDate: subscriber.signupDate, // Keep original signup date
-        unsubscribeDate: undefined // Clear unsubscribe date
+        signupDate: subscriber.signupDate // Keep original signup date
       } as Record<string, unknown>)
+
+      // Remove unsubscribeDate field if it exists
+      await kv.hdel(`${SUBSCRIBER_PREFIX}${email}`, 'unsubscribeDate')
 
       return Response.json(
         { message: 'Successfully resubscribed to newsletter' },
