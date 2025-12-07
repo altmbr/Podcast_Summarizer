@@ -553,9 +553,9 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
                     THE DAILY TEAHOSE
                 </h1>
             </a>
-            <div style="border: 2px solid ${colors.border}; padding: 12px 16px; display: inline-block;">
+            <div style="border: 2px solid ${colors.border}; padding: 12px 16px; display: inline-block; white-space: nowrap;">
                 <span style="color: ${colors.foreground}; font-size: 14px;">Forwarded this email? Get daily summaries of top tech and business podcasts. </span>
-                <a href="https://teahose.com?ref=email" style="display: inline-block; background: ${colors.foreground}; color: ${colors.card}; padding: 8px 16px; text-decoration: none; font-weight: 600; font-size: 14px; margin-left: 8px; white-space: nowrap;">Sign Up</a>
+                <a href="https://teahose.com?ref=email" style="display: inline-block; background: ${colors.foreground}; color: ${colors.card}; padding: 8px 16px; text-decoration: none; font-weight: 600; font-size: 14px; margin-left: 8px;">Sign Up</a>
             </div>
         </div>
 
