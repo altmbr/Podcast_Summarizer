@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 
@@ -12,7 +12,7 @@ type State =
   | { status: 'success'; email: string }
   | { status: 'error'; error: string }
 
-export default function UnsubscribePage() {
+function UnsubscribeContent() {
   const searchParams = useSearchParams()
   const token = searchParams.get('token')
   const [state, setState] = useState<State>({ status: 'loading' })
@@ -176,5 +176,24 @@ export default function UnsubscribePage() {
         )}
       </div>
     </div>
+  )
+}
+
+export default function UnsubscribePage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-background flex items-center justify-center p-4">
+        <div className="max-w-md w-full bg-card p-8 border-3 border-foreground shadow-brutal">
+          <h1 className="font-display text-3xl font-black uppercase mb-6 text-center">
+            Unsubscribe
+          </h1>
+          <div className="text-center text-muted-foreground">
+            <p>Loading...</p>
+          </div>
+        </div>
+      </div>
+    }>
+      <UnsubscribeContent />
+    </Suspense>
   )
 }
