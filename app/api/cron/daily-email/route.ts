@@ -568,10 +568,18 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
         ${episodeCards}
 
         <!-- Footer with Unsubscribe - INSIDE the bordered td -->
-        <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 1px solid ${colors.muted_foreground};">
-            <div style="color: ${colors.muted_foreground}; font-size: 13px; line-height: 1.6; margin-bottom: 12px;">A distillation of insight from the highest signal technology and entrepreneurship podcasts.</div>
-            <div style="color: ${colors.muted_foreground}; font-size: 13px;"><a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> · <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a></div>
-        </div>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 32px; padding-top: 24px; border-top: 1px solid ${colors.muted_foreground};">
+            <tr>
+                <td align="center" style="color: ${colors.muted_foreground}; font-size: 13px; line-height: 1.6; padding-bottom: 12px;">
+                    A distillation of insight from the highest signal technology and entrepreneurship podcasts.
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="color: ${colors.muted_foreground}; font-size: 13px;">
+                    <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> · <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a>
+                </td>
+            </tr>
+        </table>
 
             </td>
         </tr>
