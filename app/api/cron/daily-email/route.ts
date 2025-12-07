@@ -570,16 +570,8 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
         ${episodeCards}
 
         <!-- Footer with Unsubscribe - INSIDE the bordered td -->
-        <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 1px solid ${colors.muted_foreground};">
-            <div style="color: ${colors.muted_foreground}; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">
-                A distillation of insight from the highest signal technology and entrepreneurship podcasts.
-            </div>
-            <div style="margin-bottom: 16px;">
-                <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline; font-size: 14px;">Teahose.com</a>
-            </div>
-            <div style="color: ${colors.muted_foreground}; font-size: 12px;">
-                No longer want these emails? <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.accent}; text-decoration: underline;">Unsubscribe</a>
-            </div>
+        <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 1px solid ${colors.muted_foreground}; color: ${colors.muted_foreground}; font-size: 13px; line-height: 1.8;">
+            <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> · <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a>
         </div>
 
             </td>
