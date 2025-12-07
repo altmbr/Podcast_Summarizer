@@ -527,6 +527,13 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
         </a>`
   })
 
+  // EMAIL HTML STRUCTURE NOTES:
+  // - Use a single outer table for centering
+  // - Put border on an inner table, NOT on td with display:block (breaks in email clients)
+  // - All content must be INSIDE the bordered table
+  // - Avoid display:block on table cells
+  // - Use explicit widths for Outlook compatibility
+
   return `<!DOCTYPE html>
 <html>
 <head>
@@ -534,67 +541,78 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Daily Teahose - ${dateStr}</title>
 </head>
-<body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: ${colors.foreground}; max-width: 896px; margin: 0 auto; padding: 10px; background-color: ${colors.background};">
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: ${colors.foreground}; margin: 0; padding: 20px; background-color: ${colors.background};">
 
+    <!-- Outer centering table -->
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-            <td style="background: ${colors.card}; padding: 32px 20px; border: 3px solid ${colors.border}; box-shadow: 4px 4px 0 ${colors.border}; display: block;">
+            <td align="center">
+                <!-- Inner bordered card table - ALL CONTENT GOES IN HERE -->
+                <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; width: 100%; background: ${colors.card}; border: 3px solid ${colors.border};">
+                    <tr>
+                        <td style="padding: 32px 24px;">
 
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 24px;">
-            <tr>
-                <td align="center">
-                    <a href="https://teahose.com?ref=email" style="text-decoration: none; display: inline-block;">
-                        <h1 style="margin: 0 0 20px 0; font-size: 32px; font-weight: 900; text-transform: uppercase; color: ${colors.foreground}; letter-spacing: -0.02em;">
-                            THE DAILY TEAHOSE
-                        </h1>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                    <div style="border: 2px solid ${colors.border}; padding: 16px 20px; display: inline-block; max-width: 600px;">
-                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                            <tr>
-                                <td style="padding-right: 16px;">
-                                    <p style="margin: 0; color: ${colors.foreground}; font-size: 14px; line-height: 1.5;">
-                                        Forwarded this email? Get daily summaries of top tech and business podcasts.
-                                    </p>
-                                </td>
-                                <td style="white-space: nowrap;">
-                                    <a href="https://teahose.com?ref=email" style="display: inline-block; background: ${colors.foreground}; color: ${colors.card}; padding: 10px 24px; text-decoration: none; font-weight: 600; font-size: 14px; border-radius: 4px;">
-                                        Sign Up
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding-top: 24px;">
-                    <hr style="border: none; border-top: 1px solid ${colors.muted_foreground}; width: 80%; margin: 0;">
-                </td>
-            </tr>
-        </table>
+                            <!-- Header -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center" style="padding-bottom: 20px;">
+                                        <a href="https://teahose.com?ref=email" style="text-decoration: none;">
+                                            <h1 style="margin: 0; font-size: 28px; font-weight: 900; text-transform: uppercase; color: ${colors.foreground}; letter-spacing: -0.02em;">
+                                                THE DAILY TEAHOSE
+                                            </h1>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-bottom: 24px;">
+                                        <table cellpadding="0" cellspacing="0" border="0" style="border: 2px solid ${colors.border};">
+                                            <tr>
+                                                <td style="padding: 12px 16px;">
+                                                    <p style="margin: 0; color: ${colors.foreground}; font-size: 14px; line-height: 1.5;">
+                                                        Forwarded this email? Get daily summaries of top tech and business podcasts.
+                                                    </p>
+                                                </td>
+                                                <td style="padding: 12px 16px;">
+                                                    <a href="https://teahose.com?ref=email" style="display: inline-block; background: ${colors.foreground}; color: ${colors.card}; padding: 10px 20px; text-decoration: none; font-weight: 600; font-size: 14px;">
+                                                        Sign Up
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="border-top: 1px solid ${colors.muted_foreground};"></td>
+                                </tr>
+                            </table>
 
-        ${headerImgHtml}
-        ${episodeCards}
+                            <!-- Header Image -->
+                            ${headerImgHtml ? `<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 24px 0;"><tr><td>${headerImgHtml}</td></tr></table>` : ''}
 
-        <!-- Footer inside card -->
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 32px;">
-            <tr>
-                <td align="center" style="padding-top: 24px; border-top: 1px solid ${colors.muted_foreground};">
-                    <p style="margin: 0 0 16px 0; color: ${colors.muted_foreground}; font-size: 14px; line-height: 1.6;">
-                        A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
-                        <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 8px; display: inline-block;">Teahose.com</a>
-                    </p>
-                    <p style="margin: 0; color: ${colors.muted_foreground}; font-size: 12px;">
-                        No longer want these emails? <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.accent}; text-decoration: underline;">Unsubscribe</a>
-                    </p>
-                </td>
-            </tr>
-        </table>
+                            <!-- Episode Cards -->
+                            ${episodeCards}
 
+                            <!-- Footer - INSIDE the bordered card -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 32px; border-top: 1px solid ${colors.muted_foreground};">
+                                <tr>
+                                    <td align="center" style="padding-top: 24px;">
+                                        <p style="margin: 0 0 12px 0; color: ${colors.muted_foreground}; font-size: 14px; line-height: 1.6;">
+                                            A distillation of insight from the highest signal technology and entrepreneurship podcasts.
+                                        </p>
+                                        <p style="margin: 0 0 16px 0;">
+                                            <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline; font-size: 14px;">Teahose.com</a>
+                                        </p>
+                                        <p style="margin: 0; color: ${colors.muted_foreground}; font-size: 12px;">
+                                            No longer want these emails? <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.accent}; text-decoration: underline;">Unsubscribe</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                </table>
+                <!-- End bordered card -->
             </td>
         </tr>
     </table>
