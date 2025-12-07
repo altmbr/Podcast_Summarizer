@@ -579,17 +579,22 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
 
         ${headerImgHtml}
         ${episodeCards}
-        <div style="text-align: center; padding-top: 32px; width: 100%;">
-            <div style="border-top: 1px solid ${colors.muted_foreground}; width: 80%; margin: 0 auto; padding-top: 24px;">
-                <p style="margin: 0 0 16px 0; color: ${colors.muted_foreground}; font-size: 14px; line-height: 1.6;">
-                    A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
-                    <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 8px; display: inline-block;">Teahose.com</a>
-                </p>
-                <p style="margin: 0; color: ${colors.muted_foreground}; font-size: 12px;">
-                    No longer want these emails? <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.accent}; text-decoration: underline;">Unsubscribe</a>
-                </p>
-            </div>
-        </div>
+
+        <!-- Footer inside card -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 32px;">
+            <tr>
+                <td align="center" style="padding-top: 24px; border-top: 1px solid ${colors.muted_foreground};">
+                    <p style="margin: 0 0 16px 0; color: ${colors.muted_foreground}; font-size: 14px; line-height: 1.6;">
+                        A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
+                        <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 8px; display: inline-block;">Teahose.com</a>
+                    </p>
+                    <p style="margin: 0; color: ${colors.muted_foreground}; font-size: 12px;">
+                        No longer want these emails? <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.accent}; text-decoration: underline;">Unsubscribe</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
             </td>
         </tr>
     </table>
