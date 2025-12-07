@@ -554,10 +554,8 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
                 </h1>
             </a>
             <div style="border: 2px solid ${colors.border}; padding: 12px 16px; display: inline-block;">
-                <span style="color: ${colors.foreground}; font-size: 14px;">Forwarded this email? </span>
-                <a href="https://teahose.com?ref=email" style="display: inline-block; background: ${colors.foreground}; color: ${colors.card}; padding: 8px 16px; text-decoration: none; font-weight: 600; font-size: 14px; margin-left: 8px;">
-                    Sign Up
-                </a>
+                <span style="color: ${colors.foreground}; font-size: 14px;">Forwarded this email? Get daily summaries of top tech and business podcasts. </span>
+                <a href="https://teahose.com?ref=email" style="display: inline-block; background: ${colors.foreground}; color: ${colors.card}; padding: 8px 16px; text-decoration: none; font-weight: 600; font-size: 14px; margin-left: 8px; white-space: nowrap;">Sign Up</a>
             </div>
         </div>
 
@@ -570,8 +568,9 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
         ${episodeCards}
 
         <!-- Footer with Unsubscribe - INSIDE the bordered td -->
-        <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 1px solid ${colors.muted_foreground}; color: ${colors.muted_foreground}; font-size: 13px; line-height: 1.8;">
-            <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> · <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a>
+        <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 1px solid ${colors.muted_foreground};">
+            <div style="color: ${colors.muted_foreground}; font-size: 13px; line-height: 1.6; margin-bottom: 12px;">A distillation of insight from the highest signal technology and entrepreneurship podcasts.</div>
+            <div style="color: ${colors.muted_foreground}; font-size: 13px;"><a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> · <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a></div>
         </div>
 
             </td>
