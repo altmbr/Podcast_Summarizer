@@ -46,7 +46,7 @@ async function getSubscriber(email: string): Promise<SubscriberData | null> {
 }
 
 async function updateSubscriber(email: string, data: Partial<SubscriberData>): Promise<void> {
-  await kv.hset(`${SUBSCRIBER_PREFIX}${email}`, data)
+  await kv.hset(`${SUBSCRIBER_PREFIX}${email}`, data as Record<string, unknown>)
 }
 
 async function getAllSubscriberEmails(): Promise<string[]> {

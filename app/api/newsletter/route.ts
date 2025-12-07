@@ -32,11 +32,11 @@ async function getSubscriber(email: string): Promise<SubscriberData | null> {
 
 async function addEmail(email: string): Promise<void> {
   // Add to subscriber hash with metadata
-  const subscriberData: SubscriberData = {
+  const subscriberData = {
     subscribed: true,
     signupDate: new Date().toISOString()
   }
-  await kv.hset(`${SUBSCRIBER_PREFIX}${email}`, subscriberData)
+  await kv.hset(`${SUBSCRIBER_PREFIX}${email}`, subscriberData as Record<string, unknown>)
 
   // Add to email index list
   await kv.lpush(SUBSCRIBER_EMAILS_KEY, email)
@@ -79,7 +79,7 @@ export async function POST(request: NextRequest) {
         subscribed: true,
         signupDate: subscriber.signupDate, // Keep original signup date
         unsubscribeDate: undefined // Clear unsubscribe date
-      })
+      } as Record<string, unknown>)
 
       return Response.json(
         { message: 'Successfully resubscribed to newsletter' },
