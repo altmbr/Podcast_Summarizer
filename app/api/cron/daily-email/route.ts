@@ -73,14 +73,14 @@ async function getSubscribers(): Promise<string[]> {
   }
 }
 
-async function getEpisodesFromLast24Hours(): Promise<Episode[]> {
+async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]> {
   const podcastWorkDir = join(process.cwd(), 'podcast_work')
   const now = new Date()
   const cutoffDate = new Date(now)
-  cutoffDate.setHours(cutoffDate.getHours() - 24)
+  cutoffDate.setHours(cutoffDate.getHours() - hours)
 
   console.log('Current server time:', now.toISOString())
-  console.log('Cutoff date (24h ago):', cutoffDate.toISOString())
+  console.log(`Cutoff date (${hours}h ago):`, cutoffDate.toISOString())
 
   const episodes: Episode[] = []
 
@@ -676,11 +676,15 @@ export async function GET(request: NextRequest) {
 
   console.log('Starting daily email cron job...')
 
-  // Get episodes from last 24 hours
-  const episodes = await getEpisodesFromLast24Hours()
+  // Get hours parameter (default 24, can override with ?hours=48 etc.)
+  const hoursParam = request.nextUrl.searchParams.get('hours')
+  const hours = hoursParam ? parseInt(hoursParam, 10) : 24
+
+  // Get episodes from last N hours
+  const episodes = await getEpisodesFromLastNHours(hours)
 
   if (episodes.length === 0) {
-    console.log('No new episodes in the last 24 hours')
+    console.log(`No new episodes in the last ${hours} hours`)
     return Response.json({
       success: true,
       message: 'No new episodes to send',
@@ -688,7 +692,7 @@ export async function GET(request: NextRequest) {
     })
   }
 
-  console.log(`Found ${episodes.length} episode(s) from last 24 hours`)
+  console.log(`Found ${episodes.length} episode(s) from last ${hours} hours`)
 
   // Get subscribers
   const subscribers = await getSubscribers()
