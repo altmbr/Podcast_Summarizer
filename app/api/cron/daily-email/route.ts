@@ -705,23 +705,29 @@ export async function GET(request: NextRequest) {
 
   console.log(`Sending to ${subscribers.length} subscriber(s)`)
 
-  // SAFETY: Only send to test email during testing phase
-  // TODO: Remove this filter before going to production
+  // Test mode: ?test=true sends only to test email
+  const testMode = request.nextUrl.searchParams.get('test') === 'true'
   const testEmail = 'altmbr@gmail.com'
-  const testOnlySubscribers = subscribers.filter(email => email === testEmail)
 
-  if (testOnlySubscribers.length === 0) {
-    console.log(`⚠️  TEST MODE: ${testEmail} not in subscriber list. No emails will be sent.`)
-    return Response.json({
-      success: true,
-      message: `TEST MODE: ${testEmail} not subscribed`,
-      episodeCount: episodes.length,
-      subscriberCount: 0
-    })
+  let actualSubscribers: string[]
+
+  if (testMode) {
+    actualSubscribers = subscribers.filter(email => email === testEmail)
+    if (actualSubscribers.length === 0) {
+      console.log(`⚠️  TEST MODE: ${testEmail} not in subscriber list. No emails will be sent.`)
+      return Response.json({
+        success: true,
+        message: `TEST MODE: ${testEmail} not subscribed`,
+        episodeCount: episodes.length,
+        subscriberCount: 0,
+        testMode: true
+      })
+    }
+    console.log(`⚠️  TEST MODE: Only sending to ${testEmail} (filtered ${subscribers.length - 1} other subscribers)`)
+  } else {
+    actualSubscribers = subscribers
+    console.log(`Production mode: sending to all ${subscribers.length} subscribers`)
   }
-
-  console.log(`⚠️  TEST MODE: Only sending to ${testEmail} (filtered ${subscribers.length - testOnlySubscribers.length} other subscribers)`)
-  const actualSubscribers = testOnlySubscribers
 
   // Generate descriptions for each episode
   console.log('Generating episode descriptions...')
@@ -750,21 +756,19 @@ export async function GET(request: NextRequest) {
     console.log('Daily email sent successfully!')
     return Response.json({
       success: true,
-      message: 'Daily email sent (TEST MODE)',
+      message: testMode ? 'Daily email sent (TEST MODE)' : 'Daily email sent',
       episodeCount: episodes.length,
       subscriberCount: actualSubscribers.length,
-      testMode: true,
-      testEmail
+      ...(testMode && { testMode: true, testEmail })
     })
   } else {
     console.error('Failed to send daily email')
     return Response.json({
       success: false,
-      message: 'Failed to send email (TEST MODE)',
+      message: testMode ? 'Failed to send email (TEST MODE)' : 'Failed to send email',
       episodeCount: episodes.length,
       subscriberCount: actualSubscribers.length,
-      testMode: true,
-      testEmail
+      ...(testMode && { testMode: true, testEmail })
     }, { status: 500 })
   }
 }
