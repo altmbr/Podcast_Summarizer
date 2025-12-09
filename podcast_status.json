@@ -7922,6 +7922,20 @@
           "discovered_date": "2025-12-02 08:57:53",
           "status": "summarized",
           "region": "Western"
+        },
+        "cmUo4841KQw": {
+          "title": "The AI Chip Wars Explained | Gavin Baker Interview",
+          "upload_date": "20251209",
+          "discovered_date": "2025-12-09 12:23:53",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "NIPR_lx55Eo": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -15423,6 +15437,13 @@
           "title": "Interview with DeepMind's Jie Tan: Robotics, Cross-Embodiment, World Models, Gemini Robotics 1.5, and Google",
           "upload_date": "20251128",
           "discovered_date": "2025-11-28 17:23:56",
+          "status": "summarized",
+          "region": "Chinese"
+        },
+        "693834013fec3166cf262bd0": {
+          "title": "The Third Serialization of Zhu Xiaohu's Realistic Story: The Feast and Bubble of Artificial Intelligence",
+          "upload_date": "20251209",
+          "discovered_date": "2025-12-09 12:34:54",
           "status": "summarized",
           "region": "Chinese"
         }
@@ -25277,10 +25298,10 @@
           "region": "Western"
         },
         "5rCbpWdAXb0": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "Why Being a Generalist VC Is a Competitive Advantage | Aydin Senkut (Founder, Felicis Ventures)",
+          "upload_date": "20251209",
+          "discovered_date": "2025-12-09 12:39:21",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -26546,6 +26567,13 @@
           "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
+          "region": "Western"
+        },
+        "Q7PO2Hw1DQo": {
+          "title": "Paramount Goes Hostile: Inside the Battle for Warner Bros. | Pivot",
+          "upload_date": "20251209",
+          "discovered_date": "2025-12-09 12:49:31",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -46017,6 +46045,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "Qv40NUnRnZo": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -50267,6 +50302,13 @@
           "upload_date": "20251208",
           "discovered_date": "2025-12-08 16:33:53",
           "status": "summarized",
+          "region": "Western"
+        },
+        "HW9EyoiIMco": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
           "region": "Western"
         }
       }

@@ -7635,11 +7635,11 @@
 
 ## Invest like the best
 
-**Total Episodes:** 46
+**Total Episodes:** 48
 
 **Status Summary:**
-- discovered: 42
-- summarized: 4
+- discovered: 43
+- summarized: 5
 
 **Episodes:**
 
@@ -7918,6 +7918,18 @@
   - Published: 2025-12-02
   - Status: `summarized`
   - Discovered: 2025-12-02 08:57:53
+
+- ✅ **The AI Chip Wars Explained | Gavin Baker Interview**
+  - ID: `cmUo4841KQw`
+  - Published: 2025-12-09
+  - Status: `summarized`
+  - Discovered: 2025-12-09 12:23:53
+
+- 🔍 **[Private video]**
+  - ID: `NIPR_lx55Eo`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -15211,11 +15223,11 @@
 
 ## 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
 
-**Total Episodes:** 17
+**Total Episodes:** 18
 
 **Status Summary:**
 - discovered: 13
-- summarized: 4
+- summarized: 5
 
 **Episodes:**
 
@@ -15320,6 +15332,12 @@
   - Published: 2025-11-28
   - Status: `summarized`
   - Discovered: 2025-11-28 17:23:56
+
+- ✅ **The Third Serialization of Zhu Xiaohu's Realistic Story: The Feast and Bubble of**
+  - ID: `693834013fec3166cf262bd0`
+  - Published: 2025-12-09
+  - Status: `summarized`
+  - Discovered: 2025-12-09 12:34:54
 
 ---
 
@@ -23671,8 +23689,8 @@
 **Total Episodes:** 28
 
 **Status Summary:**
-- discovered: 27
-- summarized: 1
+- discovered: 26
+- summarized: 2
 
 **Episodes:**
 
@@ -23838,20 +23856,21 @@
   - Status: `summarized`
   - Discovered: 2025-12-02 09:14:26
 
-- 🔍 **[Private video]**
+- ✅ **Why Being a Generalist VC Is a Competitive Advantage | Aydin Senkut (Founder, Fe**
   - ID: `5rCbpWdAXb0`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-09
+  - Status: `summarized`
+  - Discovered: 2025-12-09 12:39:21
 
 ---
 
 ## Pivot
 
-**Total Episodes:** 180
+**Total Episodes:** 181
 
 **Status Summary:**
 - discovered: 180
+- summarized: 1
 
 **Episodes:**
 
@@ -24934,6 +24953,12 @@
   - Published: 0
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **Paramount Goes Hostile: Inside the Battle for Warner Bros. | Pivot**
+  - ID: `Q7PO2Hw1DQo`
+  - Published: 2025-12-09
+  - Status: `summarized`
+  - Discovered: 2025-12-09 12:49:31
 
 ---
 
@@ -27039,10 +27064,10 @@
 
 ## Joe Rogan
 
-**Total Episodes:** 2432
+**Total Episodes:** 2433
 
 **Status Summary:**
-- discovered: 2431
+- discovered: 2432
 - summarized: 1
 
 **Episodes:**
@@ -41639,6 +41664,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **[Private video]**
+  - ID: `Qv40NUnRnZo`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## DOAC
@@ -44747,10 +44778,10 @@
 
 ## Newcomer
 
-**Total Episodes:** 95
+**Total Episodes:** 96
 
 **Status Summary:**
-- discovered: 92
+- discovered: 93
 - summarized: 3
 
 **Episodes:**
@@ -45324,6 +45355,12 @@
   - Published: 2025-12-08
   - Status: `summarized`
   - Discovered: 2025-12-08 16:33:53
+
+- 🔍 **[Private video]**
+  - ID: `HW9EyoiIMco`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
