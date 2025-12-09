@@ -2,11 +2,11 @@
 
 ## 20VC
 
-**Total Episodes:** 445
+**Total Episodes:** 446
 
 **Status Summary:**
 - discovered: 435
-- summarized: 10
+- summarized: 11
 
 **Episodes:**
 
@@ -2679,6 +2679,12 @@
   - Published: None
   - Status: `summarized`
   - Discovered: 2025-12-04 17:41:53
+
+- ✅ **Kalshi CEO Tarek Mansour on the Polymarket Rivalry & the Future of Prediction Ma**
+  - ID: `rD5wpOmXU2o`
+  - Published: 2025-12-08
+  - Status: `summarized`
+  - Discovered: 2025-12-08 13:36:44
 
 ---
 
@@ -15546,11 +15552,11 @@
 
 ## A16z Podcast
 
-**Total Episodes:** 632
+**Total Episodes:** 633
 
 **Status Summary:**
 - discovered: 624
-- summarized: 8
+- summarized: 9
 
 **Episodes:**
 
@@ -19346,14 +19352,20 @@
   - Status: `summarized`
   - Discovered: 2025-12-03 15:48:14
 
+- ✅ **Building The Chip That Could Unlock AGI | Naveen Rao**
+  - ID: `wZ4DT20OHXE`
+  - Published: 2025-12-08
+  - Status: `summarized`
+  - Discovered: 2025-12-08 13:43:43
+
 ---
 
 ## My First Million
 
-**Total Episodes:** 600
+**Total Episodes:** 602
 
 **Status Summary:**
-- discovered: 595
+- discovered: 597
 - summarized: 5
 
 **Episodes:**
@@ -22958,6 +22970,18 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **How to actually hit your goals in 2026**
+  - ID: `xhfF7QDtuB0`
+  - Published: 2025-12-08
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `s-duNo0QInw`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## One-off Episodes
@@ -23628,13 +23652,13 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **[Deleted video]**
   - ID: `FXHk4I90AQ0`
   - Published: 0
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **[Deleted video]**
   - ID: `7RqSBEj8U9g`
   - Published: 0
   - Status: `discovered`
@@ -23644,10 +23668,10 @@
 
 ## Generalist
 
-**Total Episodes:** 27
+**Total Episodes:** 28
 
 **Status Summary:**
-- discovered: 26
+- discovered: 27
 - summarized: 1
 
 **Episodes:**
@@ -23813,6 +23837,12 @@
   - Published: 2025-12-02
   - Status: `summarized`
   - Discovered: 2025-12-02 09:14:26
+
+- 🔍 **[Private video]**
+  - ID: `5rCbpWdAXb0`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -24909,10 +24939,10 @@
 
 ## Huberman
 
-**Total Episodes:** 347
+**Total Episodes:** 348
 
 **Status Summary:**
-- discovered: 346
+- discovered: 347
 - summarized: 1
 
 **Episodes:**
@@ -26998,6 +27028,12 @@
   - Published: 2025-12-04
   - Status: `summarized`
   - Discovered: 2025-12-04 17:37:10
+
+- 🔍 **Master the Creative Process | Twyla Tharp**
+  - ID: `VnPQ4mLRG-c`
+  - Published: 2025-12-08
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -41610,8 +41646,8 @@
 **Total Episodes:** 451
 
 **Status Summary:**
-- discovered: 450
-- summarized: 1
+- discovered: 449
+- summarized: 2
 
 **Episodes:**
 
@@ -44315,11 +44351,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- ✅ **Passive Income Expert: How To Make $10k Per Month In 90 Days!**
   - ID: `4QLWlcneJig`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-08
+  - Status: `summarized`
+  - Discovered: 2025-12-08 13:49:23
 
 ---
 
@@ -44711,11 +44747,11 @@
 
 ## Newcomer
 
-**Total Episodes:** 94
+**Total Episodes:** 95
 
 **Status Summary:**
 - discovered: 92
-- summarized: 2
+- summarized: 3
 
 **Episodes:**
 
@@ -45283,13 +45319,20 @@
   - Status: `summarized`
   - Discovered: 2025-12-06 09:47:24
 
+- ✅ **OF COURSE, Trump’s AI Czar David Sacks has ALSO Invested in AI**
+  - ID: `AnAvlwEiGYc`
+  - Published: 2025-12-08
+  - Status: `summarized`
+  - Discovered: 2025-12-08 16:33:53
+
 ---
 
 ## David Senra
 
-**Total Episodes:** 1
+**Total Episodes:** 7
 
 **Status Summary:**
+- discovered: 6
 - summarized: 1
 
 **Episodes:**
@@ -45299,6 +45342,42 @@
   - Published: 2025-12-07
   - Status: `summarized`
   - Discovered: 2025-12-07 15:44:34
+
+- 🔍 **Michael Ovitz, Creative Artists Agency (CAA) | David Senra**
+  - ID: `yhh-J0zVsik`
+  - Published: 2025-11-24
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Todd Graves, Raising Cane’s | David Senra**
+  - ID: `B5rRIdQKB0A`
+  - Published: 2025-11-10
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **My Conversation With Brad Jacobs | David Senra**
+  - ID: `3WXZg4_xcGs`
+  - Published: 2025-11-08
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **My Conversation With Michael Dell, Founder of Dell Technologies | David Senra**
+  - ID: `9WSsLSq40Yw`
+  - Published: 2025-11-08
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **My Conversation With Daniel Ek, Co-founder of Spotify | David Senra**
+  - ID: `qiXH0y2V3_8`
+  - Published: 2025-10-08
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Welcome to David Senra**
+  - ID: `qK1Yvt24WYg`
+  - Published: 2025-10-08
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 

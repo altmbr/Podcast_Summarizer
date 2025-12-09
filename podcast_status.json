@@ -2684,6 +2684,13 @@
           "discovered_date": "2025-12-04 17:41:53",
           "status": "summarized",
           "region": "Western"
+        },
+        "rD5wpOmXU2o": {
+          "title": "Kalshi CEO Tarek Mansour on the Polymarket Rivalry & the Future of Prediction Markets",
+          "upload_date": "20251208",
+          "discovered_date": "2025-12-08 13:36:44",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -20095,6 +20102,13 @@
           "discovered_date": "2025-12-03 15:48:14",
           "status": "summarized",
           "region": "Western"
+        },
+        "wZ4DT20OHXE": {
+          "title": "Building The Chip That Could Unlock AGI | Naveen Rao",
+          "upload_date": "20251208",
+          "discovered_date": "2025-12-08 13:43:43",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -24300,6 +24314,20 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "xhfF7QDtuB0": {
+          "title": "How to actually hit your goals in 2026",
+          "upload_date": "20251208",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "s-duNo0QInw": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -25041,14 +25069,14 @@
           "region": "Western"
         },
         "FXHk4I90AQ0": {
-          "title": "[Private video]",
+          "title": "[Deleted video]",
           "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
         },
         "7RqSBEj8U9g": {
-          "title": "[Private video]",
+          "title": "[Deleted video]",
           "upload_date": "0",
           "discovered_date": null,
           "status": "discovered",
@@ -25246,6 +25274,13 @@
           "upload_date": "20251202",
           "discovered_date": "2025-12-02 09:14:26",
           "status": "summarized",
+          "region": "Western"
+        },
+        "5rCbpWdAXb0": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
           "region": "Western"
         }
       }
@@ -28945,6 +28980,13 @@
           "upload_date": "20251204",
           "discovered_date": "2025-12-04 17:37:10",
           "status": "summarized",
+          "region": "Western"
+        },
+        "VnPQ4mLRG-c": {
+          "title": "Master the Creative Process | Twyla Tharp",
+          "upload_date": "20251208",
+          "discovered_date": null,
+          "status": "discovered",
           "region": "Western"
         }
       }
@@ -49132,10 +49174,10 @@
           "region": "Western"
         },
         "4QLWlcneJig": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "Passive Income Expert: How To Make $10k Per Month In 90 Days!",
+          "upload_date": "20251208",
+          "discovered_date": "2025-12-08 13:49:23",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -50219,6 +50261,13 @@
           "discovered_date": "2025-12-06 09:47:24",
           "status": "summarized",
           "region": "Western"
+        },
+        "AnAvlwEiGYc": {
+          "title": "OF COURSE, Trump\u2019s AI Czar David Sacks has ALSO Invested in AI",
+          "upload_date": "20251208",
+          "discovered_date": "2025-12-08 16:33:53",
+          "status": "summarized",
+          "region": "Western"
         }
       }
     },
@@ -50230,6 +50279,48 @@
           "upload_date": "20251207",
           "discovered_date": "2025-12-07 15:44:34",
           "status": "summarized",
+          "region": "Western"
+        },
+        "yhh-J0zVsik": {
+          "title": "Michael Ovitz, Creative Artists Agency (CAA) | David Senra",
+          "upload_date": "20251124",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "B5rRIdQKB0A": {
+          "title": "Todd Graves, Raising Cane\u2019s | David Senra",
+          "upload_date": "20251110",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "3WXZg4_xcGs": {
+          "title": "My Conversation With Brad Jacobs | David Senra",
+          "upload_date": "20251108",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "9WSsLSq40Yw": {
+          "title": "My Conversation With Michael Dell, Founder of Dell Technologies | David Senra",
+          "upload_date": "20251108",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "qiXH0y2V3_8": {
+          "title": "My Conversation With Daniel Ek, Co-founder of Spotify | David Senra",
+          "upload_date": "20251008",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
+        },
+        "qK1Yvt24WYg": {
+          "title": "Welcome to David Senra",
+          "upload_date": "20251008",
+          "discovered_date": null,
+          "status": "discovered",
           "region": "Western"
         }
       }
