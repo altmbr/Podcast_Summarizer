@@ -478,6 +478,7 @@ async function generateHeaderImage(episodes: Episode[], dateStr: string): Promis
 }
 
 function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boolean, unsubscribeToken: string): string {
+  // Color palette - using full hex codes (no shorthand) for max compatibility
   const colors = {
     background: '#f7f4f0',
     foreground: '#1a1a1a',
@@ -487,11 +488,16 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
     border: '#1a1a1a',
   }
 
-  // Use CID reference for inline image attachment
+  // Header image with CID reference for inline attachment
   const headerImgHtml = hasImage
-    ? `<img src="cid:header_image" style="width: 100%; max-width: 800px; height: auto; margin: 0 0 32px 0;" alt="Daily Teahose Header">`
+    ? `<tr>
+        <td align="center" style="padding-bottom: 24px;">
+          <img src="cid:header_image" width="600" style="width: 100%; max-width: 600px; height: auto; display: block;" alt="Daily Teahose Header">
+        </td>
+      </tr>`
     : ''
 
+  // Build episode cards using table-based layout
   let episodeCards = ''
 
   episodes.forEach((episode, index) => {
@@ -504,33 +510,48 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
       year: 'numeric'
     })
 
+    // Use <div> instead of <p> inside table cells for Gmail compatibility
     const participantsHtml = episode.participants
-      ? `<p style="color: ${colors.foreground}; font-size: 14px; margin: 0 0 8px 0;">${episode.participants}</p>`
+      ? `<div style="color: ${colors.foreground}; font-size: 14px; margin: 0 0 8px 0; padding: 0;">${episode.participants}</div>`
       : ''
 
     const isLast = index === episodes.length - 1
-    const marginBottom = isLast ? '0' : '24px'
+    const paddingBottom = isLast ? '0' : '24px'
 
+    // Each episode card is a table for consistent rendering
     episodeCards += `
-        <a href="${summaryUrl}" style="text-decoration: none; display: block;">
-            <div style="background: ${colors.card}; padding: 24px 16px; margin-bottom: ${marginBottom}; border: 3px solid ${colors.border};">
-                <h2 style="margin: 0 0 6px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; color: ${colors.foreground};">
+      <tr>
+        <td style="padding-bottom: ${paddingBottom};">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="${colors.card}" style="background-color: ${colors.card}; border: 3px solid ${colors.border};">
+            <tr>
+              <td style="padding: 24px 16px;">
+                <a href="${summaryUrl}" style="text-decoration: none; color: ${colors.foreground};">
+                  <div style="margin: 0 0 6px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; color: ${colors.foreground};">
                     ${episode.title}
-                </h2>
-                <p style="color: ${colors.muted_foreground}; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">${episode.podcast_name}</p>
-                ${participantsHtml}
-                <p style="color: ${colors.muted_foreground}; font-size: 12px; margin: 0 0 12px 0;">${formattedDate}</p>
-                <p style="color: ${colors.foreground}; font-size: 15px; line-height: 1.75; margin: 0;">
+                  </div>
+                  <div style="color: ${colors.muted_foreground}; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">${episode.podcast_name}</div>
+                  ${participantsHtml}
+                  <div style="color: ${colors.muted_foreground}; font-size: 12px; margin: 0 0 12px 0;">${formattedDate}</div>
+                  <div style="color: ${colors.foreground}; font-size: 15px; line-height: 1.75; margin: 0;">
                     ${episode.description || 'New episode available.'}
-                </p>
-            </div>
-        </a>`
+                  </div>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>`
   })
 
-  // EMAIL HTML STRUCTURE NOTES:
-  // - Use simple div-based layout (works in Gmail, Apple Mail, most clients)
-  // - The Python generate_daily_email.py uses divs and works fine
-  // - Keep unsubscribe INSIDE the main bordered div
+  // EMAIL HTML BEST PRACTICES (2025):
+  // - Tables for ALL layout (email clients use Word rendering, not browser)
+  // - 600px max width (fits email preview panes)
+  // - 100% inline CSS (Gmail strips <style> tags)
+  // - No box-shadow (fails in Outlook, some Gmail configs)
+  // - No display: inline-block (breaks on email forward)
+  // - Use <div> not <p> inside <td> (Gmail can break <p> out of cells)
+  // - Double-declare: bgcolor attribute + background-color style
+  // - Use full hex codes (#ffffff not #fff)
 
   return `<!DOCTYPE html>
 <html>
@@ -539,53 +560,95 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Daily Teahose - ${dateStr}</title>
 </head>
-<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: ${colors.foreground}; max-width: 700px; margin: 0 auto; padding: 20px; background-color: ${colors.background};">
-
-    <!-- Main bordered card - ALL CONTENT INCLUDING UNSUBSCRIBE INSIDE THIS TABLE -->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 700px; margin: 0 auto;">
-        <tr>
-            <td style="background: ${colors.card}; padding: 32px; border: 3px solid ${colors.border};">
-
-        <!-- Header -->
-        <div style="text-align: center; margin-bottom: 24px;">
-            <a href="https://teahose.com?ref=email" style="text-decoration: none;">
-                <h1 style="margin: 0 0 20px 0; font-size: 28px; font-weight: 900; text-transform: uppercase; color: ${colors.foreground}; letter-spacing: -0.02em;">
-                    THE DAILY TEAHOSE
-                </h1>
-            </a>
-            <div style="border: 2px solid ${colors.border}; padding: 12px 16px; display: inline-block; white-space: nowrap;">
-                <span style="color: ${colors.foreground}; font-size: 14px;">Forwarded this email? Get daily summaries of top tech and business podcasts. </span>
-                <a href="https://teahose.com?ref=email" style="display: inline-block; background: ${colors.foreground}; color: ${colors.card}; padding: 8px 16px; text-decoration: none; font-weight: 600; font-size: 14px; margin-left: 8px;">Sign Up</a>
-            </div>
-        </div>
-
-        <hr style="border: none; border-top: 1px solid ${colors.muted_foreground}; margin: 24px 0;">
-
-        <!-- Header Image -->
-        ${headerImgHtml}
-
-        <!-- Episode Cards -->
-        ${episodeCards}
-
-        <!-- Footer with Unsubscribe - INSIDE the bordered td -->
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 32px; padding-top: 24px; border-top: 1px solid ${colors.muted_foreground};">
+<body style="margin: 0; padding: 0; background-color: ${colors.background};" bgcolor="${colors.background}">
+    <!-- Outer wrapper table for centering -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="${colors.background}" style="background-color: ${colors.background};">
+      <tr>
+        <td align="center" style="padding: 20px;">
+          <!-- Main content table (600px width for compatibility) -->
+          <table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="${colors.card}" style="background-color: ${colors.card}; border: 3px solid ${colors.border}; max-width: 600px;">
             <tr>
-                <td align="center" style="color: ${colors.muted_foreground}; font-size: 13px; line-height: 1.6; padding-bottom: 12px;">
-                    A distillation of insight from the highest signal technology and entrepreneurship podcasts.
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="color: ${colors.muted_foreground}; font-size: 13px;">
-                    <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> · <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a>
-                </td>
-            </tr>
-        </table>
+              <td style="padding: 32px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; line-height: 1.6; color: ${colors.foreground};">
 
-            </td>
-        </tr>
+                <!-- Header Title -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center" style="padding-bottom: 20px;">
+                      <a href="https://teahose.com?ref=email" style="text-decoration: none; color: ${colors.foreground};">
+                        <div style="margin: 0; font-size: 28px; font-weight: 900; text-transform: uppercase; color: ${colors.foreground}; letter-spacing: -0.02em;">
+                          THE DAILY TEAHOSE
+                        </div>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- Signup CTA Box - table-based for compatibility -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center" style="padding-bottom: 24px;">
+                      <table cellpadding="0" cellspacing="0" border="0" style="border: 2px solid ${colors.border};">
+                        <tr>
+                          <td style="padding: 12px 16px; font-size: 14px; color: ${colors.foreground};">
+                            Forwarded this email? Get daily summaries of top tech and business podcasts.
+                          </td>
+                          <td style="padding: 12px 16px 12px 8px; white-space: nowrap;">
+                            <table cellpadding="0" cellspacing="0" border="0" bgcolor="${colors.foreground}" style="background-color: ${colors.foreground};">
+                              <tr>
+                                <td style="padding: 8px 16px; white-space: nowrap;">
+                                  <a href="https://teahose.com?ref=email" style="color: ${colors.card}; text-decoration: none; font-weight: 600; font-size: 14px; white-space: nowrap;">Sign&nbsp;Up</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- Divider -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td style="border-top: 1px solid ${colors.muted_foreground}; padding-bottom: 24px; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                  </tr>
+                </table>
+
+                <!-- Header Image -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  ${headerImgHtml}
+                </table>
+
+                <!-- Episode Cards -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  ${episodeCards}
+                </table>
+
+                <!-- Footer with Unsubscribe -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 32px;">
+                  <tr>
+                    <td style="border-top: 1px solid ${colors.muted_foreground}; padding-top: 24px; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="color: ${colors.muted_foreground}; font-size: 13px; line-height: 1.6; padding-bottom: 12px;">
+                      A distillation of insight from the highest signal technology and entrepreneurship podcasts.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="color: ${colors.muted_foreground}; font-size: 13px;">
+                      <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> &middot; <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          </table>
+          <!-- End main content table -->
+        </td>
+      </tr>
     </table>
-    <!-- End main bordered card -->
-
+    <!-- End outer wrapper -->
 </body>
 </html>`
 }

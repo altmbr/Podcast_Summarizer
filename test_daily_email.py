@@ -21,8 +21,8 @@ SENDGRID_API_URL = "https://api.sendgrid.com/v3/mail/send"
 SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
-def get_episodes_from_last_day():
-    """Get all episodes published in the last 24 hours with status = summarized."""
+def get_episodes_from_last_day(days=1):
+    """Get all episodes published in the last N days with status = summarized."""
     if not PODCAST_STATUS_FILE.exists():
         print(f"Error: {PODCAST_STATUS_FILE} not found")
         return []
@@ -30,7 +30,7 @@ def get_episodes_from_last_day():
     with open(PODCAST_STATUS_FILE, 'r') as f:
         status_data = json.load(f)
 
-    cutoff_date = datetime.now() - timedelta(days=1)
+    cutoff_date = datetime.now() - timedelta(days=days)
     episodes = []
 
     for podcast_url, podcast_data in status_data.get("podcasts", {}).items():
@@ -419,17 +419,38 @@ def generate_header_image(episodes, date_str, output_path):
 
 
 def generate_email_html(episodes, date_str, header_image_path=None):
-    """Generate HTML email content."""
+    """Generate HTML email content using table-based layout for cross-client compatibility."""
     import base64
     from PIL import Image
     from io import BytesIO
+
+    # EMAIL HTML BEST PRACTICES (2025):
+    # - Tables for ALL layout (email clients use Word rendering, not browser)
+    # - 600px max width (fits email preview panes)
+    # - 100% inline CSS (Gmail strips <style> tags)
+    # - No box-shadow (fails in Outlook, some Gmail configs)
+    # - No display: inline-block (breaks on email forward)
+    # - Use <div> not <p> inside <td> (Gmail can break <p> out of cells)
+    # - Double-declare: bgcolor attribute + background-color style
+    # - Use full hex codes (#ffffff not #fff)
+
+    # Color palette - using full hex codes (no shorthand) for max compatibility
+    colors = {
+        'background': '#f7f4f0',
+        'foreground': '#1a1a1a',
+        'card': '#fffefa',
+        'muted_foreground': '#555555',
+        'accent': '#c41e3a',
+        'border': '#1a1a1a',
+    }
 
     # Process header image if provided
     header_img_html = ""
     if header_image_path and Path(header_image_path).exists():
         try:
             img = Image.open(header_image_path)
-            max_width = 800
+            # Resize to 600px for email compatibility
+            max_width = 600
             if img.width > max_width:
                 ratio = max_width / img.width
                 new_height = int(img.height * ratio)
@@ -446,19 +467,15 @@ def generate_email_html(episodes, date_str, header_image_path=None):
             img.save(buffer, format='JPEG', quality=85, optimize=True)
             buffer.seek(0)
             img_data = base64.b64encode(buffer.read()).decode('utf-8')
-            header_img_html = f'<img src="data:image/jpeg;base64,{img_data}" style="width: 100%; max-width: 800px; height: auto; margin: 0 0 32px 0;" alt="Daily Teahose Header">'
+            header_img_html = f'''<tr>
+                <td align="center" style="padding-bottom: 24px;">
+                  <img src="data:image/jpeg;base64,{img_data}" width="600" style="width: 100%; max-width: 600px; height: auto; display: block;" alt="Daily Teahose Header">
+                </td>
+              </tr>'''
         except Exception as e:
             print(f"Warning: Could not embed header image: {e}")
 
-    colors = {
-        'background': '#f7f4f0',
-        'foreground': '#1a1a1a',
-        'card': '#fffefa',
-        'muted_foreground': '#555555',
-        'accent': '#c41e3a',
-        'border': '#1a1a1a',
-    }
-
+    # Build episode cards using table-based layout
     episode_cards = ""
     for index, episode in enumerate(episodes):
         upload_date = episode['upload_date'].strftime('%B %d, %Y')
@@ -468,93 +485,135 @@ def generate_email_html(episodes, date_str, header_image_path=None):
         summary_url = f"https://teahose.com/podcast/{encoded_podcast}/{encoded_slug}?ref=email"
 
         is_last = index == len(episodes) - 1
-        margin_bottom = '0' if is_last else '24px'
+        padding_bottom = '0' if is_last else '24px'
 
+        # Use <div> instead of <p> inside table cells for Gmail compatibility
         participants_html = ''
         if episode.get('participants'):
-            participants_html = f'<p style="color: {colors["foreground"]}; font-size: 14px; margin: 0 0 8px 0;">{episode["participants"]}</p>'
+            participants_html = f'<div style="color: {colors["foreground"]}; font-size: 14px; margin: 0 0 8px 0; padding: 0;">{episode["participants"]}</div>'
 
-        episode_cards += f"""
-        <a href="{summary_url}" style="text-decoration: none; display: block;">
-            <div style="background: {colors['card']}; padding: 24px 16px; margin-bottom: {margin_bottom}; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; border-radius: 0; cursor: pointer;">
-                <h2 style="margin: 0 0 6px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; color: {colors['foreground']};">
+        # Each episode card is a table for consistent rendering
+        episode_cards += f'''
+      <tr>
+        <td style="padding-bottom: {padding_bottom};">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{colors['card']}" style="background-color: {colors['card']}; border: 3px solid {colors['border']};">
+            <tr>
+              <td style="padding: 24px 16px;">
+                <a href="{summary_url}" style="text-decoration: none; color: {colors['foreground']};">
+                  <div style="margin: 0 0 6px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; color: {colors['foreground']};">
                     {episode['title']}
-                </h2>
-                <p style="color: {colors['muted_foreground']}; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">{episode['podcast_name']}</p>
-                {participants_html}
-                <p style="color: {colors['muted_foreground']}; font-size: 12px; margin: 0 0 12px 0;">{upload_date}</p>
-                <p style="color: {colors['foreground']}; font-size: 15px; line-height: 1.75; margin: 0;">
+                  </div>
+                  <div style="color: {colors['muted_foreground']}; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 4px 0;">{episode['podcast_name']}</div>
+                  {participants_html}
+                  <div style="color: {colors['muted_foreground']}; font-size: 12px; margin: 0 0 12px 0;">{upload_date}</div>
+                  <div style="color: {colors['foreground']}; font-size: 15px; line-height: 1.75; margin: 0;">
                     {episode.get('description', 'New episode available.')}
-                </p>
-            </div>
-        </a>"""
+                  </div>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>'''
 
-    return f"""<!DOCTYPE html>
+    return f'''<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Daily Teahose - {date_str}</title>
 </head>
-<body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: {colors['foreground']}; max-width: 896px; margin: 0 auto; padding: 10px; background-color: {colors['background']};">
-
-    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr>
-            <td style="background: {colors['card']}; padding: 32px 20px; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; display: block;">
-
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 24px;">
+<body style="margin: 0; padding: 0; background-color: {colors['background']};" bgcolor="{colors['background']}">
+    <!-- Outer wrapper table for centering -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{colors['background']}" style="background-color: {colors['background']};">
+      <tr>
+        <td align="center" style="padding: 20px;">
+          <!-- Main content table (600px width for compatibility) -->
+          <table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="{colors['card']}" style="background-color: {colors['card']}; border: 3px solid {colors['border']}; max-width: 600px;">
             <tr>
-                <td align="center">
-                    <a href="https://teahose.com?ref=email" style="text-decoration: none; display: inline-block;">
-                        <h1 style="margin: 0 0 20px 0; font-size: 32px; font-weight: 900; text-transform: uppercase; color: {colors['foreground']}; letter-spacing: -0.02em;">
-                            THE DAILY TEAHOSE
-                        </h1>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                    <div style="border: 2px solid {colors['border']}; padding: 16px 20px; display: inline-block; max-width: 600px;">
-                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                            <tr>
-                                <td style="padding-right: 16px;">
-                                    <p style="margin: 0; color: {colors['foreground']}; font-size: 14px; line-height: 1.5;">
-                                        Forwarded this email? Get daily summaries of top tech and business podcasts.
-                                    </p>
+              <td style="padding: 32px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; line-height: 1.6; color: {colors['foreground']};">
+
+                <!-- Header Title -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center" style="padding-bottom: 20px;">
+                      <a href="https://teahose.com?ref=email" style="text-decoration: none; color: {colors['foreground']};">
+                        <div style="margin: 0; font-size: 28px; font-weight: 900; text-transform: uppercase; color: {colors['foreground']}; letter-spacing: -0.02em;">
+                          THE DAILY TEAHOSE
+                        </div>
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- Signup CTA Box - table-based for compatibility -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center" style="padding-bottom: 24px;">
+                      <table cellpadding="0" cellspacing="0" border="0" style="border: 2px solid {colors['border']};">
+                        <tr>
+                          <td style="padding: 12px 16px; font-size: 14px; color: {colors['foreground']};">
+                            Forwarded this email? Get daily summaries of top tech and business podcasts.
+                          </td>
+                          <td style="padding: 12px 16px 12px 8px; white-space: nowrap;">
+                            <table cellpadding="0" cellspacing="0" border="0" bgcolor="{colors['foreground']}" style="background-color: {colors['foreground']};">
+                              <tr>
+                                <td style="padding: 8px 16px; white-space: nowrap;">
+                                  <a href="https://teahose.com?ref=email" style="color: {colors['card']}; text-decoration: none; font-weight: 600; font-size: 14px; white-space: nowrap;">Sign&nbsp;Up</a>
                                 </td>
-                                <td style="white-space: nowrap;">
-                                    <a href="https://teahose.com?ref=email" style="display: inline-block; background: {colors['foreground']}; color: {colors['card']}; padding: 10px 24px; text-decoration: none; font-weight: 600; font-size: 14px; border-radius: 4px;">
-                                        Sign Up
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="padding-top: 24px;">
-                    <hr style="border: none; border-top: 1px solid {colors['muted_foreground']}; width: 80%; margin: 0;">
-                </td>
-            </tr>
-        </table>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
 
-        {header_img_html}
-        {episode_cards}
-        <div style="text-align: center; padding-top: 32px; width: 100%;">
-            <div style="border-top: 1px solid {colors['muted_foreground']}; width: 80%; margin: 0 auto; padding-top: 24px;">
-                <p style="margin: 0; color: {colors['muted_foreground']}; font-size: 14px; line-height: 1.6;">
-                    A distillation of insight from the highest signal technology and entrepreneurship podcasts.<br>
-                    <a href="https://teahose.com?ref=email" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px; margin-top: 8px; display: inline-block;">Teahose.com</a>
-                </p>
-            </div>
-        </div>
-            </td>
-        </tr>
+                <!-- Divider -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td style="border-top: 1px solid {colors['muted_foreground']}; padding-bottom: 24px; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                  </tr>
+                </table>
+
+                <!-- Header Image -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  {header_img_html}
+                </table>
+
+                <!-- Episode Cards -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  {episode_cards}
+                </table>
+
+                <!-- Footer -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 32px;">
+                  <tr>
+                    <td style="border-top: 1px solid {colors['muted_foreground']}; padding-top: 24px; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="color: {colors['muted_foreground']}; font-size: 13px; line-height: 1.6; padding-bottom: 12px;">
+                      A distillation of insight from the highest signal technology and entrepreneurship podcasts.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="color: {colors['muted_foreground']}; font-size: 13px;">
+                      <a href="https://teahose.com?ref=email" style="color: {colors['accent']}; text-decoration: underline;">Teahose.com</a>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          </table>
+          <!-- End main content table -->
+        </td>
+      </tr>
     </table>
-
+    <!-- End outer wrapper -->
 </body>
-</html>"""
+</html>'''
 
 
 def send_email(to_email, subject, html_content):
@@ -589,18 +648,20 @@ def send_email(to_email, subject, html_content):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python test_daily_email.py <email_address>")
+        print("Usage: python test_daily_email.py <email_address> [days]")
+        print("  days: number of days to look back for episodes (default: 1)")
         sys.exit(1)
 
     to_email = sys.argv[1]
+    days = int(sys.argv[2]) if len(sys.argv) > 2 else 1
     print(f"Sending test daily email to {to_email}...")
 
     # Get episodes
-    print("Finding episodes from last 24 hours...")
-    episodes = get_episodes_from_last_day()
+    print(f"Finding episodes from last {days} day(s)...")
+    episodes = get_episodes_from_last_day(days=days)
 
     if not episodes:
-        print("No episodes found in the last 24 hours. Creating test with empty content.")
+        print(f"No episodes found in the last {days} day(s). Creating test with empty content.")
         # Still send a test email even with no episodes
         date_str = datetime.now().strftime("%B %d, %Y")
         html_content = f"""<!DOCTYPE html>

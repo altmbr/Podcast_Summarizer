@@ -265,10 +265,31 @@ REQUIREMENTS:
         return None
 
 def generate_html_email(episodes, descriptions, header_image_path, date_str):
-    """Generate HTML email content"""
+    """Generate HTML email content using table-based layout for cross-client compatibility"""
     import base64
+    import urllib.parse
     from PIL import Image
     from io import BytesIO
+
+    # EMAIL HTML BEST PRACTICES (2025):
+    # - Tables for ALL layout (email clients use Word rendering, not browser)
+    # - 600px max width (fits email preview panes)
+    # - 100% inline CSS (Gmail strips <style> tags)
+    # - No box-shadow (fails in Outlook, some Gmail configs)
+    # - No display: inline-block (breaks on email forward)
+    # - Use <div> not <p> inside <td> (Gmail can break <p> out of cells)
+    # - Double-declare: bgcolor attribute + background-color style
+    # - Use full hex codes (#ffffff not #fff)
+
+    # Color palette - using full hex codes (no shorthand) for max compatibility
+    colors = {
+        'background': '#f7f4f0',      # Warm aged cream paper
+        'foreground': '#1a1a1a',      # True black text
+        'card': '#fffefa',            # Warm white cards
+        'muted_foreground': '#555555', # Secondary text
+        'accent': '#c41e3a',          # Cardinal red
+        'border': '#1a1a1a',          # Black borders
+    }
 
     # Compress and convert image to base64 for email embedding
     header_img_html = ""
@@ -277,8 +298,8 @@ def generate_html_email(episodes, descriptions, header_image_path, date_str):
             # Open and compress the image
             img = Image.open(header_image_path)
 
-            # Resize if too large (max width 800px)
-            max_width = 800
+            # Resize if too large (max width 600px for email compatibility)
+            max_width = 600
             if img.width > max_width:
                 ratio = max_width / img.width
                 new_height = int(img.height * ratio)
@@ -299,47 +320,19 @@ def generate_html_email(episodes, descriptions, header_image_path, date_str):
 
             # Convert to base64
             img_data = base64.b64encode(buffer.read()).decode('utf-8')
-            header_img_html = f'<img src="data:image/jpeg;base64,{img_data}" style="width: 100%; max-width: 800px; height: auto; margin-bottom: 30px;" alt="Daily Digest Header">'
+            header_img_html = f'''<tr>
+                <td align="center" style="padding-bottom: 24px;">
+                  <img src="data:image/jpeg;base64,{img_data}" width="600" style="width: 100%; max-width: 600px; height: auto; display: block;" alt="Daily Digest Header">
+                </td>
+              </tr>'''
 
         except Exception as e:
             print(f"⚠ Warning: Could not embed header image: {e}")
             header_img_html = ""
 
-    # Comic design system (from teahose.com globals.css)
-    colors = {
-        'background': '#f7f4f0',      # Warm aged cream paper
-        'foreground': '#1a1a1a',      # True black text
-        'card': '#fffefa',            # Warm white cards
-        'muted_foreground': '#555555', # Secondary text
-        'accent': '#c41e3a',          # Cardinal red
-        'border': '#1a1a1a',          # Black borders
-    }
-
-    html = f"""<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Podcast Digest - {date_str}</title>
-</head>
-<body style="font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif; line-height: 1.6; color: {colors['foreground']}; max-width: 896px; margin: 0 auto; padding: 20px; background-color: {colors['background']};">
-
-    <div style="background: {colors['card']}; padding: 40px; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; border-radius: 0;">
-
-        <!-- Header Image -->
-        {header_img_html}
-
-        <!-- Episode Count -->
-        <p style="color: {colors['muted_foreground']}; font-size: 14px; margin-bottom: 32px;">
-            <strong>{len(episodes)}</strong> new episode{"s" if len(episodes) != 1 else ""} published today
-        </p>
-
-        <!-- Episodes -->
-"""
-
-    import urllib.parse
-
-    for episode in episodes:
+    # Build episode cards using table-based layout
+    episode_cards_html = ""
+    for i, episode in enumerate(episodes):
         podcast_name = episode['podcast_name']
         title = episode['title']
         video_id = episode['video_id']
@@ -352,36 +345,95 @@ def generate_html_email(episodes, descriptions, header_image_path, date_str):
         encoded_slug = urllib.parse.quote(sanitized_title)
         summary_url = f"https://teahose.com/podcast/{encoded_podcast}/{encoded_slug}?ref=email"
 
-        html += f"""
-        <!-- Episode Card -->
-        <a href="{summary_url}" style="text-decoration: none; display: block;">
-            <div style="background: {colors['card']}; padding: 24px 32px; margin-bottom: 24px; border: 3px solid {colors['border']}; box-shadow: 4px 4px 0 {colors['border']}; border-radius: 0; cursor: pointer;">
-                <div style="margin-bottom: 8px;">
-                    <span style="color: {colors['muted_foreground']}; font-size: 14px;">{upload_date}</span>
-                </div>
-                <h2 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; color: {colors['foreground']};">
+        is_last = i == len(episodes) - 1
+        padding_bottom = '0' if is_last else '24px'
+
+        # Each episode card is a table for consistent rendering
+        episode_cards_html += f'''
+      <tr>
+        <td style="padding-bottom: {padding_bottom};">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{colors['card']}" style="background-color: {colors['card']}; border: 3px solid {colors['border']};">
+            <tr>
+              <td style="padding: 24px 16px;">
+                <a href="{summary_url}" style="text-decoration: none; color: {colors['foreground']};">
+                  <div style="color: {colors['muted_foreground']}; font-size: 14px; margin: 0 0 8px 0;">{upload_date}</div>
+                  <div style="margin: 0 0 6px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase; color: {colors['foreground']};">
                     {title}
-                </h2>
-                <p style="color: {colors['muted_foreground']}; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px 0;">{podcast_name}</p>
-                <p style="color: {colors['foreground']}; font-size: 15px; line-height: 1.75; margin: 0;">
+                  </div>
+                  <div style="color: {colors['muted_foreground']}; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px 0;">{podcast_name}</div>
+                  <div style="color: {colors['foreground']}; font-size: 15px; line-height: 1.75; margin: 0;">
                     {description}
-                </p>
-            </div>
-        </a>
-"""
+                  </div>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>'''
 
-    html += f"""
-    </div>
+    html = f'''<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Podcast Digest - {date_str}</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: {colors['background']};" bgcolor="{colors['background']}">
+    <!-- Outer wrapper table for centering -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{colors['background']}" style="background-color: {colors['background']};">
+      <tr>
+        <td align="center" style="padding: 20px;">
+          <!-- Main content table (600px width for compatibility) -->
+          <table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="{colors['card']}" style="background-color: {colors['card']}; border: 3px solid {colors['border']}; max-width: 600px;">
+            <tr>
+              <td style="padding: 32px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; line-height: 1.6; color: {colors['foreground']};">
 
-    <!-- Footer -->
-    <div style="text-align: center; margin-top: 32px; padding-top: 24px; border-top: 3px solid {colors['border']}; color: {colors['muted_foreground']}; font-size: 14px;">
-        <p style="margin: 0 0 8px 0;">Discover the insights within each episode.</p>
-        <p style="margin: 0;"><a href="https://teahose.com?ref=email" style="color: {colors['accent']}; text-decoration: underline; text-decoration-thickness: 2px;">teahose.com</a></p>
-    </div>
+                <!-- Header Image -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  {header_img_html}
+                </table>
 
+                <!-- Episode Count -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td style="color: {colors['muted_foreground']}; font-size: 14px; padding-bottom: 24px;">
+                      <strong>{len(episodes)}</strong> new episode{"s" if len(episodes) != 1 else ""} published today
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- Episode Cards -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  {episode_cards_html}
+                </table>
+
+                <!-- Footer -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 32px;">
+                  <tr>
+                    <td style="border-top: 1px solid {colors['muted_foreground']}; padding-top: 24px; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="color: {colors['muted_foreground']}; font-size: 14px; padding-bottom: 8px;">
+                      Discover the insights within each episode.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="font-size: 14px;">
+                      <a href="https://teahose.com?ref=email" style="color: {colors['accent']}; text-decoration: underline;">teahose.com</a>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          </table>
+          <!-- End main content table -->
+        </td>
+      </tr>
+    </table>
+    <!-- End outer wrapper -->
 </body>
-</html>
-"""
+</html>'''
 
     return html
 
