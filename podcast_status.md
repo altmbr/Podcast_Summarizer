@@ -2,11 +2,11 @@
 
 ## 20VC
 
-**Total Episodes:** 446
+**Total Episodes:** 447
 
 **Status Summary:**
 - discovered: 435
-- summarized: 11
+- summarized: 12
 
 **Episodes:**
 
@@ -2686,15 +2686,21 @@
   - Status: `summarized`
   - Discovered: 2025-12-08 13:36:44
 
+- ✅ **Airwallex Raises $330M and The Battle with Keith Rabois & Netflix Acquires Warne**
+  - ID: `-XkOqWdiHP0`
+  - Published: None
+  - Status: `summarized`
+  - Discovered: 2025-12-12 10:04:30
+
 ---
 
 ## No Priors
 
-**Total Episodes:** 143
+**Total Episodes:** 144
 
 **Status Summary:**
 - discovered: 138
-- summarized: 5
+- summarized: 6
 
 **Episodes:**
 
@@ -3555,6 +3561,12 @@
   - Published: 2025-12-06
   - Status: `summarized`
   - Discovered: 2025-12-06 09:16:15
+
+- ✅ **No Priors Ep. 143 | With ElevenLabs Co-Founder Mati Staniszewski**
+  - ID: `WHWAYiY_RnQ`
+  - Published: 2025-12-12
+  - Status: `summarized`
+  - Discovered: 2025-12-12 08:56:48
 
 ---
 
@@ -5366,10 +5378,10 @@
 
 ## More or Less
 
-**Total Episodes:** 128
+**Total Episodes:** 129
 
 **Status Summary:**
-- discovered: 110
+- discovered: 111
 - downloaded: 12
 - summarized: 6
 
@@ -6142,6 +6154,12 @@
   - Published: 2025-12-05
   - Status: `summarized`
   - Discovered: 2025-12-06 09:39:31
+
+- 🔍 **[Private video]**
+  - ID: `RiKVJD_3ziM`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -7952,11 +7970,11 @@
 
 ## Training Data
 
-**Total Episodes:** 68
+**Total Episodes:** 69
 
 **Status Summary:**
 - discovered: 61
-- summarized: 7
+- summarized: 8
 
 **Episodes:**
 
@@ -8367,6 +8385,12 @@
   - Published: 2025-12-02
   - Status: `summarized`
   - Discovered: 2025-12-02 09:08:50
+
+- ✅ **fal team on Why Generative Video Will Transform Everything from Education to Ent**
+  - ID: `s_IIjGamN3Y`
+  - Published: 2025-12-10
+  - Status: `summarized`
+  - Discovered: 2025-12-10 10:38:32
 
 ---
 
@@ -12643,10 +12667,10 @@
 
 ## Lenny's
 
-**Total Episodes:** 299
+**Total Episodes:** 300
 
 **Status Summary:**
-- discovered: 293
+- discovered: 294
 - summarized: 6
 
 **Episodes:**
@@ -14445,6 +14469,12 @@
   - Status: `summarized`
   - Discovered: 2025-12-07 15:35:04
 
+- 🔍 **[Private video]**
+  - ID: `z1ISq9Ty4Cg`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Zhang Xiaoyun's
@@ -15223,11 +15253,11 @@
 
 ## 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
 
-**Total Episodes:** 18
+**Total Episodes:** 19
 
 **Status Summary:**
 - discovered: 13
-- summarized: 5
+- summarized: 6
 
 **Episodes:**
 
@@ -15339,6 +15369,12 @@
   - Status: `summarized`
   - Discovered: 2025-12-09 12:34:54
 
+- ✅ **Interview with ONE2X Founder Wang Guan: Generative Systems, Eliminating Intermed**
+  - ID: `693bc72b37f52a644e8e2550`
+  - Published: 2025-12-12
+  - Status: `summarized`
+  - Discovered: 2025-12-12 09:04:07
+
 ---
 
 ## OnBoard! (VC Cross-Border Insights)
@@ -15444,11 +15480,11 @@
 
 ## 晚点聊 LateTalk (Investigative Journalism)
 
-**Total Episodes:** 19
+**Total Episodes:** 20
 
 **Status Summary:**
 - discovered: 13
-- summarized: 6
+- summarized: 7
 
 **Episodes:**
 
@@ -15566,15 +15602,21 @@
   - Status: `discovered`
   - Discovered: None
 
+- ✅ **From "Large and Strong" to "Small and Strong": Density Laws, RL Scaling Laws, an**
+  - ID: `693b46ec79debc3231f1d7bf`
+  - Published: 2025-12-11
+  - Status: `summarized`
+  - Discovered: 2025-12-12 09:45:27
+
 ---
 
 ## A16z Podcast
 
-**Total Episodes:** 633
+**Total Episodes:** 635
 
 **Status Summary:**
-- discovered: 624
-- summarized: 9
+- discovered: 625
+- summarized: 10
 
 **Episodes:**
 
@@ -19376,14 +19418,26 @@
   - Status: `summarized`
   - Discovered: 2025-12-08 13:43:43
 
+- 🔍 **[Private video]**
+  - ID: `AvkAXsap72g`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- ✅ **Everyone Needs an Assistant. Here’s Why.**
+  - ID: `MT4l_XrrRNc`
+  - Published: 2025-12-10
+  - Status: `summarized`
+  - Discovered: 2025-12-10 12:57:19
+
 ---
 
 ## My First Million
 
-**Total Episodes:** 602
+**Total Episodes:** 603
 
 **Status Summary:**
-- discovered: 597
+- discovered: 598
 - summarized: 5
 
 **Episodes:**
@@ -23000,6 +23054,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **Billionaire Lawyer spills his $250M side hustles (pick one)**
+  - ID: `zdpFZFyGlnA`
+  - Published: 2025-12-10
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## One-off Episodes
@@ -23123,10 +23183,10 @@
 
 ## SaaStr
 
-**Total Episodes:** 45
+**Total Episodes:** 46
 
 **Status Summary:**
-- discovered: 41
+- discovered: 42
 - summarized: 4
 
 **Episodes:**
@@ -23401,14 +23461,20 @@
   - Status: `summarized`
   - Discovered: 2025-11-26 16:55:43
 
+- 🔍 **We Deployed 20+ AI Agents and Replaced Our Entire SDR Team. Here's What Actually**
+  - ID: `h8iy9bVxFfw`
+  - Published: 2025-12-10
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Long Strange Trip w Brian Halligan
 
-**Total Episodes:** 3
+**Total Episodes:** 4
 
 **Status Summary:**
-- summarized: 3
+- summarized: 4
 
 **Episodes:**
 
@@ -23429,6 +23495,12 @@
   - Published: 2025-11-21
   - Status: `summarized`
   - Discovered: 2025-11-21 09:46:50
+
+- ✅ **Scaling AI Rocketships: ElevenLabs’ Mati Staniszewski & Lovable’s Anton Osika**
+  - ID: `TqAgejIX7uU`
+  - Published: 2025-12-12
+  - Status: `summarized`
+  - Discovered: 2025-12-12 09:28:25
 
 ---
 
@@ -23866,10 +23938,10 @@
 
 ## Pivot
 
-**Total Episodes:** 181
+**Total Episodes:** 182
 
 **Status Summary:**
-- discovered: 180
+- discovered: 181
 - summarized: 1
 
 **Episodes:**
@@ -24960,15 +25032,21 @@
   - Status: `summarized`
   - Discovered: 2025-12-09 12:49:31
 
+- 🔍 **[Private video]**
+  - ID: `1SrVFwalEP4`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Huberman
 
-**Total Episodes:** 348
+**Total Episodes:** 349
 
 **Status Summary:**
 - discovered: 347
-- summarized: 1
+- summarized: 2
 
 **Episodes:**
 
@@ -27060,14 +27138,20 @@
   - Status: `discovered`
   - Discovered: None
 
+- ✅ **Essentials: Build a Healthy Gut Microbiome | Dr. Justin Sonnenburg**
+  - ID: `n_MVhE63ZQQ`
+  - Published: 2025-12-12
+  - Status: `summarized`
+  - Discovered: 2025-12-12 09:37:39
+
 ---
 
 ## Joe Rogan
 
-**Total Episodes:** 2433
+**Total Episodes:** 2435
 
 **Status Summary:**
-- discovered: 2432
+- discovered: 2434
 - summarized: 1
 
 **Episodes:**
@@ -41664,9 +41748,21 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **JRE MMA Show #171 with Brendan Allen**
   - ID: `Qv40NUnRnZo`
-  - Published: 0
+  - Published: 2025-12-09
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2424 - Jelly Roll**
+  - ID: `UWz6_CXt5T8`
+  - Published: 2025-12-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Joe Rogan Experience #2425 - Ethan Hawke**
+  - ID: `yTLPVl0y1v4`
+  - Published: 2025-12-11
   - Status: `discovered`
   - Discovered: None
 
@@ -41674,10 +41770,10 @@
 
 ## DOAC
 
-**Total Episodes:** 451
+**Total Episodes:** 452
 
 **Status Summary:**
-- discovered: 449
+- discovered: 450
 - summarized: 2
 
 **Episodes:**
@@ -44388,14 +44484,20 @@
   - Status: `summarized`
   - Discovered: 2025-12-08 13:49:23
 
+- 🔍 **Discipline Expert: The Habit That Will Make Or Break Your Entire 2026!**
+  - ID: `rtufWBLOXgw`
+  - Published: 2025-12-12
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Core Memory
 
-**Total Episodes:** 20
+**Total Episodes:** 21
 
 **Status Summary:**
-- discovered: 20
+- discovered: 21
 
 **Episodes:**
 
@@ -44519,6 +44621,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **[Private video]**
+  - ID: `oswGdRTyppg`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Core Memory
@@ -44557,10 +44665,10 @@
 
 ## 20VC
 
-**Total Episodes:** 35
+**Total Episodes:** 36
 
 **Status Summary:**
-- discovered: 35
+- discovered: 36
 
 **Episodes:**
 
@@ -44774,6 +44882,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **Airwallex Raises $330M and The Battle with Keith Rabois & Netflix Acquires Warne**
+  - ID: `-XkOqWdiHP0`
+  - Published: 2025-12-11
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Newcomer
@@ -44781,8 +44895,8 @@
 **Total Episodes:** 96
 
 **Status Summary:**
-- discovered: 93
-- summarized: 3
+- discovered: 92
+- summarized: 4
 
 **Episodes:**
 
@@ -45356,11 +45470,11 @@
   - Status: `summarized`
   - Discovered: 2025-12-08 16:33:53
 
-- 🔍 **[Private video]**
+- ✅ **OpenAI Code Red: The Drama Before the Next Big Drop**
   - ID: `HW9EyoiIMco`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-12
+  - Status: `summarized`
+  - Discovered: 2025-12-12 09:42:16
 
 ---
 
@@ -45413,6 +45527,551 @@
 - 🔍 **Welcome to David Senra**
   - ID: `qK1Yvt24WYg`
   - Published: 2025-10-08
+  - Status: `discovered`
+  - Discovered: None
+
+---
+
+## AI & I
+
+**Total Episodes:** 89
+
+**Status Summary:**
+- discovered: 89
+
+**Episodes:**
+
+- 🔍 **Why Opus 4.5 Just Became the Most Influential AI Model**
+  - ID: `F6O7r9LqhC0`
+  - Published: 2025-12-05
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Best of the Pod: The Pivot of a Lifetime - How Arc Became Dia**
+  - ID: `fzNOEYF3Nu4`
+  - Published: 2025-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Best of the Pod: Run Parallel Agents With Claude Code (and Ship Faster)**
+  - ID: `hQA6mdiLZsY`
+  - Published: 2025-11-20
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Building AI Agents That Launch a Million Businesses**
+  - ID: `myl1P1z1oHQ`
+  - Published: 2025-11-13
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Spiral: Building an AI Ghostwriter You Can Actually Use**
+  - ID: `U2a0xDcqsoU`
+  - Published: 2025-11-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Jason Fried Learned from 26 Years of Building Great Products**
+  - ID: `7SaxOv03TSI`
+  - Published: 2025-11-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Salesforce Is Using AI to Power the Enterprise**
+  - ID: `K20bOHtTOZY`
+  - Published: 2025-11-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Secrets of Claude Code From the Engineers Who Built It**
+  - ID: `IDSAMqip6ms`
+  - Published: 2025-11-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **We Taught AI to Play Games—Now It’s a $3.6 Million Company**
+  - ID: `u6J0zKP1_8c`
+  - Published: 2025-11-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **MCP Servers: Teaching AI to Use the Internet Like Humans**
+  - ID: `lctDoa5M880`
+  - Published: 2025-10-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Box CEO Aaron Levie on Why AI Agents Won’t Take Your Job**
+  - ID: `_eiomzvxf4Q`
+  - Published: 2025-10-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Cognition Built the World's First AI Coding Agent—Before Claude Code**
+  - ID: `ectyyex0IBo`
+  - Published: 2025-10-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **One Developer Got Thousands of Users Before His AI App Launched**
+  - ID: `xopZ4mvGyHE`
+  - Published: 2025-10-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Best of the Pod: She Built an AI Product Manager Bringing in Six Figures—As A Si**
+  - ID: `jnZoJoG2y6c`
+  - Published: 2025-09-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Best of the Pod: Vercel's Guillermo Rauch on AI and the Future of Coding**
+  - ID: `bonHTmhD1RM`
+  - Published: 2025-09-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Claude Code Can Be Your Second Brain**
+  - ID: `8V9tZwgjiRs`
+  - Published: 2025-09-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **This AI Makes a Video Game World in 40 Milliseconds**
+  - ID: `E23cV48Iv9A`
+  - Published: 2025-09-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Best of the Pod: How to Prepare for AGI According to Reid Hoffman**
+  - ID: `3Re_8ZeivHA`
+  - Published: 2025-09-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Best of the Pod: Dwarkesh Patel’s Quest to Learn Everything**
+  - ID: `w30Pc_YyOrQ`
+  - Published: 2025-08-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Intentional Tech: Designing AI for Human Flourishing | Alex Komoroske**
+  - ID: `AgCIbh0uixs`
+  - Published: 2025-07-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Arc Had Millions of Users. Why They Left It Behind for Dia.**
+  - ID: `210zavw00y4`
+  - Published: 2025-07-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How We Built Our AI Email Assistant: A Behind-the-Scenes Look at Cora**
+  - ID: `Mowv4d_OsdU`
+  - Published: 2025-07-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Inside OpenAI: Coaching the People Creating AGI | Joe Hudson, Founder of The Art**
+  - ID: `LRSSBX8Jht4`
+  - Published: 2025-07-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Claude Code: How Two Engineers Ship Like a Team of 15**
+  - ID: `Lh_X32t9_po`
+  - Published: 2025-07-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Future of AI in Medicine: From Rules to Intuition | Awais Aftab, Psychiatris**
+  - ID: `B0H_DNiJoVY`
+  - Published: 2025-06-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **GitHub CEO on the AI Coding Arms Race: One Agent, 150M+ Devs**
+  - ID: `g_tdb0PHPoA`
+  - Published: 2025-06-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kevin Scott on The Future of Programming, AI Agents, and Microsoft’s Big Bet on **
+  - ID: `jYHLKtWM164`
+  - Published: 2025-06-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **OpenAI Launches Codex: An Autonomous Programming Agent**
+  - ID: `qIhdpIP1d-I`
+  - Published: 2025-06-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The $10B Hedge Fund CEO Who’s Betting Big on AI | Will England, Walleye Capital**
+  - ID: `7SPHYmlkGMY`
+  - Published: 2025-06-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Jhana Meditation Can Teach Us About LLMs | Nadia Asparouhova, Author and re**
+  - ID: `HdU1XDXN7nQ`
+  - Published: 2025-05-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Next AI Wave Will Be Social, Not Solo | Sarah Tavel, Benchmark and ex-Pinter**
+  - ID: `mwB5Vi-2Bvo`
+  - Published: 2025-05-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How WIRED’s Kevin Kelly Predicts the Future After 40 Years in Tech**
+  - ID: `E-gXcRh4HVk`
+  - Published: 2025-05-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How This AI Alien Brings In $4M a Year in Revenue - Ep. 56 with Quinten Farmer a**
+  - ID: `YsCl5xnsE-0`
+  - Published: 2025-05-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Future of Design Is Art Direction, Not Pixel Pushing - Ep. 55 with Lucas Cre**
+  - ID: `lHaskGVkdY4`
+  - Published: 2025-04-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Makes Us Human In the AI Age? - Ep. 54 with Dr. Alan Lightman**
+  - ID: `cX_I2amHBaA`
+  - Published: 2025-04-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **He Uploaded His Entire Life to ChatGPT—Now It's His 24/7 Coach - Ep. 53 with Jon**
+  - ID: `6MznN07AzKo`
+  - Published: 2025-04-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **I Interviewed New Jersey Governor Phil Murphy about AI - Ep. 52 with Governor Ph**
+  - ID: `MwfN8yzCyfA`
+  - Published: 2025-04-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Prompt Your Way To Personal Growth - Ep. 51 with Steve Schlafman**
+  - ID: `bwF9bZtUsKU`
+  - Published: 2025-04-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **You Don’t Need More Money—Just A Better AI Strategy - Ep. 50 with Mike Maples**
+  - ID: `04lvrcdDdYk`
+  - Published: 2025-03-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **He Built an AI Audience Simulator. It’s the Future of Customer Research. - Ep. 4**
+  - ID: `eREPh47BZbE`
+  - Published: 2025-03-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How He Made $200,000 in a Week Teaching AI - Ep. 48 with Nat Eliason**
+  - ID: `GSY-TU8AySg`
+  - Published: 2025-03-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Vercel's Guillermo Rauch on AI and the Future of Coding - Ep. 47**
+  - ID: `MQw_zncxk-E`
+  - Published: 2025-02-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Prepare for AGI According to Reid Hoffman - Ep. 46**
+  - ID: `lQF0RuddS4g`
+  - Published: 2025-02-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **This Venture Capitalist Finds the Best AI Products—Before They Win - Ep. 45 with**
+  - ID: `IsZh-nLyfBA`
+  - Published: 2025-02-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **He Built an AI App With 10,000 Signups in 1 Month - Ep. 44 w/ Kieran Klaassen, B**
+  - ID: `MhKKKBG28a4`
+  - Published: 2025-02-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How AI Will Change Science Forever - Ep. 43 with Alice Albrecht**
+  - ID: `D5jABTx-_3s`
+  - Published: 2025-01-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Secret to Building A STICKY AI Product- Ep. 42 with Chris Pedregal**
+  - ID: `9fzlurQY6GA`
+  - Published: 2025-01-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **ChatGPT Is Changing Our Understanding of the Human Intellect**
+  - ID: `cuBzfIsXyII`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Do 60-Minute Coding Tasks in 60 Seconds—With AI - Ep. 41 with Steve Krouse**
+  - ID: `b3wexHXT2os`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How We Incubate and Launch New Products With AI - Ep. 40 with Danny Aziz, Brando**
+  - ID: `7HAzIVLmpC8`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **His GPT Wrapper Has Half a Million Users—And Keeps Growing - Ep. 39 with Vicente**
+  - ID: `ELYaeUYjy48`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Win With Prompt Engineering - Ep. 38 with Jared Zoneraich**
+  - ID: `exzPO4hAD9s`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Notion Cofounder Simon Last Builds AI for Millions of Users - Ep. 37 with Si**
+  - ID: `E5EgUuzzH5I`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Union Square Ventures Built an AI Brain for Venture Capital - Ep. 36 with Ma**
+  - ID: `WVKgeSDVBow`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Building AI That Builds Itself - Ep. 35 with Yohei Nakajima**
+  - ID: `864X81BuQbI`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Use AI to Become a Learning Machine - Ep. 34 with Simon Eskildsen**
+  - ID: `D_4AYLr_hFI`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Supercharge Your Writing With AI - Ep. 33 with Evan Armstrong**
+  - ID: `xh54WgXEI8o`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Browser Company Is Building a Brand That Drives Viral Growth - Ep. 32 with N**
+  - ID: `g_s7O_hlJ2E`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How We Built a Media and Software Empire With AI - Ep. 31 with Brandon Gell**
+  - ID: `JrjL95uZ48w`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Be a Smarter Reader in the Age of AI - Ep. 30 with Alex Wieckowski**
+  - ID: `PBgb4Gk-pcA`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Packy McCormick Finds His Next Big Idea - Ep. 29**
+  - ID: `AcgrFWKQdoQ`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How a Top Podcaster Rides the AI Wave - Ep. 28 with Nathaniel Whittemore**
+  - ID: `HHZFFdslU4g`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Dwarkesh Patel’s Quest to Learn Everything - Ep. 27**
+  - ID: `Vm49oIPtyRE`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Internet Creator's Guide to the Future - Ep. 26 with Steph Smith**
+  - ID: `rAzq-YNNL8Q`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The AI-powered Era of Scientific Discovery Is Here - Ep. 25 with Dr. Bradley Lov**
+  - ID: `tNRMWNfrkxc`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **She Built an AI Product Manager Bringing in Six Figures—As A Side Hustle - Ep. 2**
+  - ID: `necYAKkWqjg`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **What Do LLMs Tell Us About the Nature of Language—And Ourselves? - Ep. 23 with R**
+  - ID: `3ChNkbULAH8`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Kevin Roose Has 18 New Best Friends—And They're All AIs - Ep. 21**
+  - ID: `Hj5TyWUcK8o`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Is NotebookLM—Google’s Research Assistant—the Ultimate Tool for Thought? - Ep.22**
+  - ID: `8fiiWhma-iA`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Is Prompting the Future of Coding? - Ep. 20 with Nick Dobos**
+  - ID: `wK6UpkjPd4I`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **He Built an AI Model That Can Decode Your Emotions - Ep 19. with Alan Cowen**
+  - ID: `pSX88xKNUzI`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Reid Hoffman on How AI is Answering Our Biggest Questions—Ep. 18 with Reid Hoffm**
+  - ID: `n4PVZ_fxaFU`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **This Best-selling Author Wrote a Book in 30 Days—With ChatGPT - Ep. 17 with Seth**
+  - ID: `wbkv0waHT60`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Take Your Business From Zero to One With AI - Ep. 16 with Nicholas Thorne**
+  - ID: `x3mofmR9KJA`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Technology is Changing the Way We See Ourselves - Ep.15 with Peter D. Kramer**
+  - ID: `Ou94Bmjp-dg`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Run a Profitable One-person Internet Business Using AI - Ep. 14 with Ben **
+  - ID: `tQe1Rfh4A68`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Can Gemini 1.5 Pro Beat Our Best Stock Trade? - Ep. 13 with Jesse Beyroutey**
+  - ID: `EONHTpg_fag`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **You Can Make a Movie with AI (in 60 Minutes) - Ep. 12 with Dave Clark**
+  - ID: `DCSGZIHXWeQ`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **She’s Running a Business, Writing a Book, and Getting a PhD—with ChatGPT - Ep.11**
+  - ID: `SYtzwK6VoHU`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Find Your Next Big Idea Hiding on the Internet - Ep. 10 with Steph Smith**
+  - ID: `1XzKXz9CmvM`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Watch an OpenAI employee BUILD a custom GPT - Ep. 9 with Logan Kilpatrick**
+  - ID: `3TLORk-eZAw`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **You can change your life with ChatGPT. - Ep. 8 with Dr. Gena Gorlin**
+  - ID: `T7g2YoAw52k`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Economist Tyler Cowen on How ChatGPT Is Changing Your Job - Ep. 7 with Tyler Cow**
+  - ID: `5JZtPE8LU-4`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How David Perell Uses ChatGPT to Write for Millions - Ep. 6 with David Perell**
+  - ID: `f36mxOicyTQ`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **You Can Build an App in 60 Minutes with ChatGPT - Ep. 5 with Geoffrey Litt**
+  - ID: `oy7uMpPrGMA`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How to Use ChatGPT as a Copilot for Learning - Ep. 4 with Nathan Labenz**
+  - ID: `ncQHS8gqhTc`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Inside the Mind of an AI Researcher: ChatGPT and Notion AI Experiments - Ep. 3 w**
+  - ID: `OeKEXnNP2yA`
+  - Published: 2024-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How A Writing Pro Uses ChatGPT for Reading, Writing, and SEO - Ep. 2 with Nat El**
+  - ID: `rxG-7a-gmIs`
+  - Published: 2023-12-11
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **How Gumroad's CEO uses ChatGPT - Ep. 1 with Sahil Lavingia**
+  - ID: `SOxYgUIVq6g`
+  - Published: 2023-12-11
   - Status: `discovered`
   - Discovered: None
 
