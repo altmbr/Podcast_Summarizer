@@ -3836,10 +3836,10 @@
 
 ## All In
 
-**Total Episodes:** 255
+**Total Episodes:** 256
 
 **Status Summary:**
-- discovered: 250
+- discovered: 251
 - summarized: 5
 
 **Episodes:**
@@ -5374,6 +5374,12 @@
   - Status: `summarized`
   - Discovered: 2025-12-06 09:22:26
 
+- 🔍 **Tucker Carlson: Rise of Nick Fuentes, Paramount vs Netflix, Anti-AI Sentiment, H**
+  - ID: `cY5UFw2AIZo`
+  - Published: 2025-12-13
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## More or Less
@@ -5381,9 +5387,9 @@
 **Total Episodes:** 129
 
 **Status Summary:**
-- discovered: 111
+- discovered: 110
 - downloaded: 12
-- summarized: 6
+- summarized: 7
 
 **Episodes:**
 
@@ -6155,11 +6161,11 @@
   - Status: `summarized`
   - Discovered: 2025-12-06 09:39:31
 
-- 🔍 **[Private video]**
+- ✅ **Paramount vs Netflix: Who Really Wins Warner Bros And What's Next?**
   - ID: `RiKVJD_3ziM`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-12
+  - Status: `summarized`
+  - Discovered: 2025-12-12 16:36:42
 
 ---
 
@@ -6351,10 +6357,10 @@
 
 ## Sourcery
 
-**Total Episodes:** 97
+**Total Episodes:** 98
 
 **Status Summary:**
-- discovered: 87
+- discovered: 88
 - summarized: 10
 
 **Episodes:**
@@ -6940,6 +6946,12 @@
   - Published: 2025-12-06
   - Status: `summarized`
   - Discovered: 2025-12-06 09:32:14
+
+- 🔍 **Misunderstood Power: Emil Michael on the Truth About the DoW & Defense Tech**
+  - ID: `6Lfst-RXX9k`
+  - Published: 2025-12-13
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -8990,10 +9002,10 @@
 
 ## Lex Fridman
 
-**Total Episodes:** 481
+**Total Episodes:** 482
 
 **Status Summary:**
-- discovered: 479
+- discovered: 480
 - summarized: 2
 
 **Episodes:**
@@ -11884,6 +11896,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-30 19:06:37
 
+- 🔍 **Irving Finkel: Deciphering Secrets of Ancient Civilizations & Flood Myths | Lex **
+  - ID: `_bBRVNkAfkQ`
+  - Published: 2025-12-12
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Theory Ventures Office Hours
@@ -14469,9 +14487,9 @@
   - Status: `summarized`
   - Discovered: 2025-12-07 15:35:04
 
-- 🔍 **[Private video]**
+- 🔍 **Why humans are AGI's biggest bottleneck (and what's coming in 2026) | Alexander **
   - ID: `z1ISq9Ty4Cg`
-  - Published: 0
+  - Published: 2025-12-14
   - Status: `discovered`
   - Discovered: None
 
@@ -15253,10 +15271,10 @@
 
 ## 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
 
-**Total Episodes:** 19
+**Total Episodes:** 20
 
 **Status Summary:**
-- discovered: 13
+- discovered: 14
 - summarized: 6
 
 **Episodes:**
@@ -15374,6 +15392,12 @@
   - Published: 2025-12-12
   - Status: `summarized`
   - Discovered: 2025-12-12 09:04:07
+
+- 🔍 **124. Year-End Review [Standing Outside 2025] Chatting with Dai Yusheng about 202**
+  - ID: `693d7c172a383da167ecfcde`
+  - Published: 2025-12-13
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -15612,11 +15636,11 @@
 
 ## A16z Podcast
 
-**Total Episodes:** 635
+**Total Episodes:** 636
 
 **Status Summary:**
 - discovered: 625
-- summarized: 10
+- summarized: 11
 
 **Episodes:**
 
@@ -19430,14 +19454,20 @@
   - Status: `summarized`
   - Discovered: 2025-12-10 12:57:19
 
+- ✅ **Will AI be bigger than the internet?**
+  - ID: `RH9vJNxFKDA`
+  - Published: 2025-12-12
+  - Status: `summarized`
+  - Discovered: 2025-12-12 16:47:20
+
 ---
 
 ## My First Million
 
-**Total Episodes:** 603
+**Total Episodes:** 604
 
 **Status Summary:**
-- discovered: 598
+- discovered: 599
 - summarized: 5
 
 **Episodes:**
@@ -23060,6 +23090,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **[Private video]**
+  - ID: `kEK5CZy17Ng`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## One-off Episodes
@@ -23941,8 +23977,8 @@
 **Total Episodes:** 182
 
 **Status Summary:**
-- discovered: 181
-- summarized: 1
+- discovered: 180
+- summarized: 2
 
 **Episodes:**
 
@@ -25032,11 +25068,11 @@
   - Status: `summarized`
   - Discovered: 2025-12-09 12:49:31
 
-- 🔍 **[Private video]**
+- ✅ **CEOs Grovel to Trump — And It’s Working | Pivot**
   - ID: `1SrVFwalEP4`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-12
+  - Status: `summarized`
+  - Discovered: 2025-12-12 17:42:40
 
 ---
 
@@ -41770,10 +41806,10 @@
 
 ## DOAC
 
-**Total Episodes:** 452
+**Total Episodes:** 453
 
 **Status Summary:**
-- discovered: 450
+- discovered: 451
 - summarized: 2
 
 **Episodes:**
@@ -44490,6 +44526,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **[Private video]**
+  - ID: `TYXzR5KahEg`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## Core Memory
@@ -44497,7 +44539,8 @@
 **Total Episodes:** 21
 
 **Status Summary:**
-- discovered: 21
+- discovered: 20
+- summarized: 1
 
 **Episodes:**
 
@@ -44621,11 +44664,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- ✅ **Inside Sam Altman's Secret Nuclear Fusion Lab**
   - ID: `oswGdRTyppg`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-12
+  - Status: `summarized`
+  - Discovered: 2025-12-13 09:53:15
 
 ---
 
@@ -44892,10 +44935,10 @@
 
 ## Newcomer
 
-**Total Episodes:** 96
+**Total Episodes:** 98
 
 **Status Summary:**
-- discovered: 92
+- discovered: 94
 - summarized: 4
 
 **Episodes:**
@@ -45475,6 +45518,18 @@
   - Published: 2025-12-12
   - Status: `summarized`
   - Discovered: 2025-12-12 09:42:16
+
+- 🔍 **IF NETFLIX WINS WITH WARNER BROS... They’ll STILL Lose to YouTube**
+  - ID: `h9QF38K_8jk`
+  - Published: 2025-12-12
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `bdauPRYW03Q`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
