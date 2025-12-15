@@ -1,0 +1,27 @@
+# Transcription (CPU version - faster-whisper works on CPU)
+faster-whisper>=1.0.0
+openai-whisper>=20231117
+
+# Diarization (CPU version)
+pyannote.audio>=3.1.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio/Video
+yt-dlp>=2024.1.0
+pydub>=0.25.0
+
+# AI APIs
+anthropic>=0.18.0
+
+# Google Cloud
+google-cloud-storage>=2.14.0
+google-cloud-secret-manager>=2.18.0
+
+# Git operations
+GitPython>=3.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+requests>=2.31.0

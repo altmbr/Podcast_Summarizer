@@ -65,3 +65,8 @@ v0code2/
 /*.psd
 /*.ai
 /*.sketch
+
+# Cloud migration working files (may contain sensitive notes)
+CLOUD_MIGRATION_PLAN.md
+cloud-setup.sh
+cloud-deploy.tar.gz
