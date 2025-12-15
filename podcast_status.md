@@ -11906,10 +11906,10 @@
 
 ## Theory Ventures Office Hours
 
-**Total Episodes:** 17
+**Total Episodes:** 18
 
 **Status Summary:**
-- discovered: 16
+- discovered: 17
 - summarized: 1
 
 **Episodes:**
@@ -12013,6 +12013,12 @@
 - 🔍 **Office Hours with Tomasz Tunguz: Lee Kirkpatrick, CFO at Twilio on Managing thro**
   - ID: `MkUJDjVIMZA`
   - Published: 2022-11-27
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `zTsEmtlSeaU`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
@@ -12151,11 +12157,11 @@
 
 ## Acquired
 
-**Total Episodes:** 73
+**Total Episodes:** 74
 
 **Status Summary:**
 - discovered: 72
-- summarized: 1
+- summarized: 2
 
 **Episodes:**
 
@@ -12597,6 +12603,12 @@
   - Status: `summarized`
   - Discovered: 2025-11-24 21:12:00
 
+- ✅ **10 Years of Acquired (with Michael Lewis)**
+  - ID: `d6EMk6dyrOU`
+  - Published: 2025-12-15
+  - Status: `summarized`
+  - Discovered: 2025-12-15 08:03:57
+
 ---
 
 ## Uncapped Founders
@@ -12688,8 +12700,8 @@
 **Total Episodes:** 300
 
 **Status Summary:**
-- discovered: 294
-- summarized: 6
+- discovered: 293
+- summarized: 7
 
 **Episodes:**
 
@@ -14487,11 +14499,11 @@
   - Status: `summarized`
   - Discovered: 2025-12-07 15:35:04
 
-- 🔍 **Why humans are AGI's biggest bottleneck (and what's coming in 2026) | Alexander **
+- ✅ **Why humans are AGI's biggest bottleneck (and what's coming in 2026) | Alexander **
   - ID: `z1ISq9Ty4Cg`
   - Published: 2025-12-14
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-12-15 08:38:39
 
 ---
 
@@ -15274,8 +15286,8 @@
 **Total Episodes:** 20
 
 **Status Summary:**
-- discovered: 14
-- summarized: 6
+- discovered: 13
+- summarized: 7
 
 **Episodes:**
 
@@ -15393,11 +15405,11 @@
   - Status: `summarized`
   - Discovered: 2025-12-12 09:04:07
 
-- 🔍 **124. Year-End Review [Standing Outside 2025] Chatting with Dai Yusheng about 202**
+- ✅ **124. Year-End Review [Standing Outside 2025] Chatting with Dai Yusheng about 202**
   - ID: `693d7c172a383da167ecfcde`
   - Published: 2025-12-13
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-12-15 08:49:08
 
 ---
 
@@ -15636,10 +15648,10 @@
 
 ## A16z Podcast
 
-**Total Episodes:** 636
+**Total Episodes:** 637
 
 **Status Summary:**
-- discovered: 625
+- discovered: 626
 - summarized: 11
 
 **Episodes:**
@@ -19460,6 +19472,12 @@
   - Status: `summarized`
   - Discovered: 2025-12-12 16:47:20
 
+- 🔍 **[Private video]**
+  - ID: `DiuWHLlsW9A`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## My First Million
@@ -23090,9 +23108,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **25 Years of Business Advice in 27 Minutes**
   - ID: `kEK5CZy17Ng`
-  - Published: 0
+  - Published: 2025-12-15
   - Status: `discovered`
   - Discovered: None
 
@@ -25078,10 +25096,10 @@
 
 ## Huberman
 
-**Total Episodes:** 349
+**Total Episodes:** 350
 
 **Status Summary:**
-- discovered: 347
+- discovered: 348
 - summarized: 2
 
 **Episodes:**
@@ -27179,6 +27197,12 @@
   - Published: 2025-12-12
   - Status: `summarized`
   - Discovered: 2025-12-12 09:37:39
+
+- 🔍 **[Private video]**
+  - ID: `nMkQUlBtFlk`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -41809,8 +41833,8 @@
 **Total Episodes:** 453
 
 **Status Summary:**
-- discovered: 451
-- summarized: 2
+- discovered: 450
+- summarized: 3
 
 **Episodes:**
 
@@ -44526,11 +44550,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- ✅ **Harvard’s Behaviour Expert: The Psychology Of Why People Don't Like You!**
   - ID: `TYXzR5KahEg`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-15
+  - Status: `summarized`
+  - Discovered: 2025-12-15 08:23:08
 
 ---
 

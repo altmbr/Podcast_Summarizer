@@ -2138,9 +2138,9 @@
 [01:19:45] Alexander Embiricos: feature.
 [01:19:45] Alexander Embiricos: And I've mentioned a few times today.
 [01:19:49] Alexander Embiricos: I think it's really interesting to think about how to build
-[01:19:51] Alexander Embiricos: an extended initiative software that makes you feel
-[01:19:53] Alexander Embiricos: maximally empowered as a human, maximally in control,
-[01:19:56] Alexander Embiricos: but yet you're getting a lot of help.
+[01:19:51] Alexander Embiricos: an extra initiative software that makes you feel
+[01:19:53] Alexander Embiricos: maximally empowered as a human, maximally in control.
+[01:19:56] Alexander Embiricos: But yet, you're getting a lot of help.
 [01:19:58] And I think they did a really good job
 [01:20:00] Alexander Embiricos: with enabling the car to drive itself.
 [01:20:03] Alexander Embiricos: But all these different ways that you
@@ -2154,8 +2154,8 @@
 [01:20:21] Alexander Embiricos: This reminds me, Nick Tureley's whole mantra
 [01:20:23] Lenny Rachitsky: was, are we maximally accelerated?
 [01:20:26] Lenny Rachitsky: Yeah.
-[01:20:26] Lenny Rachitsky: It's completely infiltrated, everything
-[01:20:28] Lenny Rachitsky: out of putting eye, which makes sense.
+[01:20:26] Lenny Rachitsky: It's completely infiltrated.
+[01:20:28] Lenny Rachitsky: Everything is opening eye, which makes sense.
 [01:20:30] Lenny Rachitsky: That tracks two more questions.
 [01:20:33] Lenny Rachitsky: Do you have a life motto that you often think about,
 [01:20:36] Lenny Rachitsky: come back to in worker and life that's been helpful?

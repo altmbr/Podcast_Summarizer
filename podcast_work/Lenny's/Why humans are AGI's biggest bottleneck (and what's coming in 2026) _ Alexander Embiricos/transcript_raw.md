@@ -2138,9 +2138,9 @@
 [01:19:45] SPEAKER_01: feature.
 [01:19:45] SPEAKER_01: And I've mentioned a few times today.
 [01:19:49] SPEAKER_01: I think it's really interesting to think about how to build
-[01:19:51] SPEAKER_01: an extended initiative software that makes you feel
-[01:19:53] SPEAKER_01: maximally empowered as a human, maximally in control,
-[01:19:56] SPEAKER_01: but yet you're getting a lot of help.
+[01:19:51] SPEAKER_01: an extra initiative software that makes you feel
+[01:19:53] SPEAKER_01: maximally empowered as a human, maximally in control.
+[01:19:56] SPEAKER_01: But yet, you're getting a lot of help.
 [01:19:58] And I think they did a really good job
 [01:20:00] SPEAKER_01: with enabling the car to drive itself.
 [01:20:03] SPEAKER_01: But all these different ways that you
@@ -2154,8 +2154,8 @@
 [01:20:21] SPEAKER_01: This reminds me, Nick Tureley's whole mantra
 [01:20:23] SPEAKER_00: was, are we maximally accelerated?
 [01:20:26] SPEAKER_00: Yeah.
-[01:20:26] SPEAKER_00: It's completely infiltrated, everything
-[01:20:28] SPEAKER_00: out of putting eye, which makes sense.
+[01:20:26] SPEAKER_00: It's completely infiltrated.
+[01:20:28] SPEAKER_00: Everything is opening eye, which makes sense.
 [01:20:30] SPEAKER_00: That tracks two more questions.
 [01:20:33] SPEAKER_00: Do you have a life motto that you often think about,
 [01:20:36] SPEAKER_00: come back to in worker and life that's been helpful?

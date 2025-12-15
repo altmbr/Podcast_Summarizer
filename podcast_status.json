@@ -12012,6 +12012,13 @@
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
+        },
+        "zTsEmtlSeaU": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -12582,6 +12589,13 @@
           "title": "Coca-Cola: How a sugar water formula came to represent America, Happiness, and... Christmas",
           "upload_date": "20251124",
           "discovered_date": "2025-11-24 21:12:00",
+          "status": "summarized",
+          "region": "Western"
+        },
+        "d6EMk6dyrOU": {
+          "title": "10 Years of Acquired (with Michael Lewis)",
+          "upload_date": "20251215",
+          "discovered_date": "2025-12-15 08:03:57",
           "status": "summarized",
           "region": "Western"
         }
@@ -14475,8 +14489,8 @@
         "z1ISq9Ty4Cg": {
           "title": "Why humans are AGI's biggest bottleneck (and what's coming in 2026) | Alexander Embiricos",
           "upload_date": "20251214",
-          "discovered_date": null,
-          "status": "discovered",
+          "discovered_date": "2025-12-15 08:38:39",
+          "status": "summarized",
           "region": "Western"
         }
       }
@@ -15513,8 +15527,8 @@
         "693d7c172a383da167ecfcde": {
           "title": "124. Year-End Review [Standing Outside 2025] Chatting with Dai Yusheng about 2026 Expectations, The Year of R, Callbacks, How We Place Our Bets",
           "upload_date": "20251213",
-          "discovered_date": null,
-          "status": "discovered",
+          "discovered_date": "2025-12-15 08:49:08",
+          "status": "summarized",
           "region": "Chinese"
         }
       }
@@ -20228,6 +20242,13 @@
           "discovered_date": "2025-12-12 16:47:20",
           "status": "summarized",
           "region": "Western"
+        },
+        "DiuWHLlsW9A": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
+          "region": "Western"
         }
       }
     },
@@ -24456,8 +24477,8 @@
           "region": "Western"
         },
         "kEK5CZy17Ng": {
-          "title": "[Private video]",
-          "upload_date": "0",
+          "title": "25 Years of Business Advice in 27 Minutes",
+          "upload_date": "20251215",
           "discovered_date": null,
           "status": "discovered",
           "region": "Western"
@@ -29155,6 +29176,13 @@
           "upload_date": "20251212",
           "discovered_date": "2025-12-12 09:37:39",
           "status": "summarized",
+          "region": "Western"
+        },
+        "nMkQUlBtFlk": {
+          "title": "[Private video]",
+          "upload_date": "0",
+          "discovered_date": null,
+          "status": "discovered",
           "region": "Western"
         }
       }
@@ -49377,10 +49405,10 @@
           "region": "Western"
         },
         "TYXzR5KahEg": {
-          "title": "[Private video]",
-          "upload_date": "0",
-          "discovered_date": null,
-          "status": "discovered",
+          "title": "Harvard\u2019s Behaviour Expert: The Psychology Of Why People Don't Like You!",
+          "upload_date": "20251215",
+          "discovered_date": "2025-12-15 08:23:08",
+          "status": "summarized",
           "region": "Western"
         }
       }
