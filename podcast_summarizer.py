@@ -1309,7 +1309,7 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
             try:
                 from datetime import datetime
                 date_obj = datetime.strptime(video_info['upload_date'], '%Y%m%d')
-                formatted_date = date_obj.strftime('%B %d, %Y')
+                formatted_date = date_obj.strftime('%Y-%m-%d')  # ISO format for consistency
             except:
                 formatted_date = video_info['upload_date']
 
@@ -1395,13 +1395,13 @@ def process_single_video(video_info, video_index, podcast_name, podcast_url, cus
         print(f"  ⚠ Cannot summarize - episode not transcribed")
         return None, summary_path
 
-    # Format upload date (YYYYMMDD -> Month DD, YYYY)
+    # Format upload date (YYYYMMDD -> YYYY-MM-DD)
     formatted_date = "Unknown"
     if video_info.get('upload_date') and video_info['upload_date'] != '0':
         try:
             from datetime import datetime
             date_obj = datetime.strptime(video_info['upload_date'], '%Y%m%d')
-            formatted_date = date_obj.strftime('%B %d, %Y')
+            formatted_date = date_obj.strftime('%Y-%m-%d')  # ISO format for consistency
         except:
             formatted_date = video_info['upload_date']
 

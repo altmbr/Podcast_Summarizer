@@ -1,7 +1,7 @@
 # [Does OpenAI Need a Bailout? Mamdani Wins, Socialism Rising, Filibuster Nuclear Option](https://www.youtube.com/watch?v=6uYEPfiBMAE)
 
 **Podcast:** All In
-**Date:** November 07, 2025
+**Date:** 2025-11-07
 **Region:** Western
 **Video ID:** 6uYEPfiBMAE
 **Video URL:** https://www.youtube.com/watch?v=6uYEPfiBMAE

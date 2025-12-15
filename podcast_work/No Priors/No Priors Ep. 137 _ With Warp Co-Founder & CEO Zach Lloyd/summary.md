@@ -1,7 +1,7 @@
 # [No Priors Ep. 137 | With Warp Co-Founder & CEO Zach Lloyd](https://www.youtube.com/watch?v=62zPmXzVDTo)
 
 **Podcast:** No Priors
-**Date:** October 23, 2025
+**Date:** 2025-10-23
 **Region:** Western
 **Video ID:** 62zPmXzVDTo
 **Video URL:** https://www.youtube.com/watch?v=62zPmXzVDTo

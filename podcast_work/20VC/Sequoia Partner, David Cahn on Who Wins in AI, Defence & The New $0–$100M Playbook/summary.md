@@ -1,7 +1,7 @@
 # [Sequoia Partner, David Cahn on Who Wins in AI, Defence & The New $0–$100M Playbook](https://www.youtube.com/watch?v=aGoUu5VLvLY)
 
 **Podcast:** 20VC
-**Date:** October 27, 2025
+**Date:** 2025-10-27
 **Region:** Western
 **Video ID:** aGoUu5VLvLY
 **Video URL:** https://www.youtube.com/watch?v=aGoUu5VLvLY

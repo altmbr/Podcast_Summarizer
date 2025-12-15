@@ -1,7 +1,7 @@
 # [Kimi Linear, Minimax M2? Exploring the historical variations of Yang Songlin's archaeological algorithms and previewing future architectural improvements](https://www.youtube.com/watch?v=858HR43pegk)
 
 **Podcast:** Zhang Xiaoyun's
-**Date:** November 05, 2025
+**Date:** 2025-11-05
 **Participants:** Yang Songlin, Zhang Xiaojun
 **Region:** Chinese
 **Video ID:** 858HR43pegk

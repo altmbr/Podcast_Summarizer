@@ -1,7 +1,7 @@
 # [All things AI w @altcap @sama & @satyanadella.  A Halloween Special.  🎃🔥BG2 w/ Brad Gerstner](https://www.youtube.com/watch?v=Gnl833wXRz0)
 
 **Podcast:** BG2
-**Date:** October 31, 2025
+**Date:** 2025-10-31
 **Region:** Western
 **Video ID:** Gnl833wXRz0
 **Video URL:** https://www.youtube.com/watch?v=Gnl833wXRz0

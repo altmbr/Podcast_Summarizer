@@ -6,6 +6,7 @@
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { parseEpisodeMetadata } from './schema'
+import { parseEpisodeDate } from './dates'
 
 const PODCAST_WORK_DIR = join(process.cwd(), 'podcast_work')
 
@@ -89,9 +90,14 @@ export async function getEpisodesForPodcast(podcastName: string): Promise<Episod
     if (!a.date) return 1
     if (!b.date) return -1
 
-    // Convert date strings to Date objects for proper chronological comparison
-    const dateA = new Date(a.date)
-    const dateB = new Date(b.date)
+    // Use robust date parsing for proper chronological comparison
+    const dateA = parseEpisodeDate(a.date)
+    const dateB = parseEpisodeDate(b.date)
+
+    // Handle unparseable dates
+    if (!dateA && !dateB) return 0
+    if (!dateA) return 1
+    if (!dateB) return -1
 
     // Sort newest first (descending order)
     return dateB.getTime() - dateA.getTime()

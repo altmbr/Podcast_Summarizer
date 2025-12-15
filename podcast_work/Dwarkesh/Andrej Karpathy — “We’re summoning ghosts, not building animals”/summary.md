@@ -1,7 +1,7 @@
 # [Andrej Karpathy — “We’re summoning ghosts, not building animals”](https://www.youtube.com/watch?v=lXUZvyajciY)
 
 **Podcast:** Dwarkesh
-**Date:** October 17, 2025
+**Date:** 2025-10-17
 **Region:** Western
 **Video ID:** lXUZvyajciY
 **Video URL:** https://www.youtube.com/watch?v=lXUZvyajciY

@@ -1,7 +1,7 @@
 # [Incubating Brain Co: Elad Gil’s AI Bet with Jared Kushner’s Affinity Partners](https://www.youtube.com/watch?v=fS7eZ3uKZMk)
 
 **Podcast:** Sourcery
-**Date:** October 20, 2025
+**Date:** 2025-10-20
 **Region:** Western
 **Video ID:** fS7eZ3uKZMk
 **Video URL:** https://www.youtube.com/watch?v=fS7eZ3uKZMk

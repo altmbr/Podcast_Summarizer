@@ -1,7 +1,7 @@
 # [The Playbook on Buying and Running Companies Forever](https://www.youtube.com/watch?v=uLSXhmRHpFU)
 
 **Podcast:** Invest like the best
-**Date:** November 04, 2025
+**Date:** 2025-11-04
 **Region:** Western
 **Video ID:** uLSXhmRHpFU
 **Video URL:** https://www.youtube.com/watch?v=uLSXhmRHpFU

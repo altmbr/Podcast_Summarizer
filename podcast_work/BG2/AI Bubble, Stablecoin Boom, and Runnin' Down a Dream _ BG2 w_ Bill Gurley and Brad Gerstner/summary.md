@@ -1,7 +1,7 @@
 # [AI Bubble, Stablecoin Boom, and Runnin' Down a Dream | BG2 w/ Bill Gurley and Brad Gerstner](https://www.youtube.com/watch?v=KX6q6lvoYtM)
 
 **Podcast:** BG2
-**Date:** October 14, 2025
+**Date:** 2025-10-14
 **Participants:** Bill Gurley, Brad Gerstner
 **Region:** Western
 **Video ID:** KX6q6lvoYtM

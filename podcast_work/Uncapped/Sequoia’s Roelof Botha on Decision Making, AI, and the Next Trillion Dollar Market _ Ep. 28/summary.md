@@ -1,7 +1,7 @@
 # [Sequoia’s Roelof Botha on Decision Making, AI, and the Next Trillion Dollar Market | Ep. 28](https://www.youtube.com/watch?v=z8njhsYUNNk)
 
 **Podcast:** Uncapped
-**Date:** October 15, 2025
+**Date:** 2025-10-15
 **Region:** Western
 **Video ID:** z8njhsYUNNk
 **Video URL:** https://www.youtube.com/watch?v=z8njhsYUNNk

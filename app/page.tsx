@@ -4,6 +4,7 @@ import { getAllPodcasts } from '@/lib/episodes'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { parseEpisodeMetadata } from '@/lib/schema'
+import { parseEpisodeDate } from '@/lib/dates'
 
 interface Podcast {
   name: string
@@ -45,14 +46,17 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
           const metadata = parseEpisodeMetadata(summaryContent)
 
           if (metadata.date) {
-            allEpisodes.push({
-              slug: episodeDir.name,
-              title: metadata.title || episodeDir.name,
-              date: metadata.date,
-              podcast: podcastDir.name,
-              podcastName: metadata.podcast || podcastDir.name,
-              dateObj: new Date(metadata.date)
-            })
+            const dateObj = parseEpisodeDate(metadata.date)
+            if (dateObj) {
+              allEpisodes.push({
+                slug: episodeDir.name,
+                title: metadata.title || episodeDir.name,
+                date: metadata.date,
+                podcast: podcastDir.name,
+                podcastName: metadata.podcast || podcastDir.name,
+                dateObj
+              })
+            }
           }
         } catch {
           // Skip episodes that can't be read

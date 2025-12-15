@@ -1,7 +1,7 @@
 # [Benchmark's GP, Everett Randle: Why Margins Matter Less in AI & OpenAI vs Anthropic: Who Wins Coding](https://www.youtube.com/watch?v=xs7bhb3NEFc)
 
 **Podcast:** 20VC
-**Date:** November 10, 2025
+**Date:** 2025-11-10
 **Participants:** Everett Randle, Harry Stebbings
 **Region:** Western
 **Video ID:** xs7bhb3NEFc

@@ -1,7 +1,7 @@
 # [Good News For Startups: Enterprise Is Bad At AI](https://www.youtube.com/watch?v=DULfEcPR0Gc)
 
 **Podcast:** Lightcone
-**Date:** October 31, 2025
+**Date:** 2025-10-31
 **Participants:** Andy, Jared
 **Region:** Western
 **Video ID:** DULfEcPR0Gc

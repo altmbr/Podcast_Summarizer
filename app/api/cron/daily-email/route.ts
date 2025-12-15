@@ -3,6 +3,7 @@ import type { NextRequest } from 'next/server'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { parseEpisodeMetadata } from '@/lib/schema'
+import { parseEpisodeDate, isWithinLastNHours } from '@/lib/dates'
 import { createHmac } from 'crypto'
 
 const SUBSCRIBER_EMAILS_KEY = 'subscriber-emails'
@@ -102,25 +103,18 @@ async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]>
           const metadata = parseEpisodeMetadata(summaryContent)
 
           if (metadata.date) {
-            // Try parsing the date
-            let episodeDate: Date
-            try {
-              episodeDate = new Date(metadata.date + 'T12:00:00Z') // Set to noon UTC to avoid edge cases
+            // Use robust date parsing
+            const episodeDate = parseEpisodeDate(metadata.date)
 
-              // Validate the date
-              if (isNaN(episodeDate.getTime())) {
-                console.log(`Invalid date for episode "${metadata.title}": ${metadata.date}`)
-                continue
-              }
-            } catch (e) {
+            if (!episodeDate) {
               console.log(`Failed to parse date for episode "${metadata.title}": ${metadata.date}`)
               continue
             }
 
-            console.log(`Episode "${metadata.title}": date=${metadata.date}, parsed=${episodeDate.toISOString()}, includes=${episodeDate >= cutoffDate}`)
+            console.log(`Episode "${metadata.title}": date=${metadata.date}, parsed=${episodeDate.toISOString()}, includes=${isWithinLastNHours(episodeDate, hours)}`)
 
-            // Only include episodes from last 24 hours
-            if (episodeDate >= cutoffDate) {
+            // Only include episodes from last N hours
+            if (isWithinLastNHours(episodeDate, hours)) {
               episodes.push({
                 podcast_name: metadata.podcast || podcastDir.name,
                 title: metadata.title || episodeDir.name,
@@ -140,10 +134,15 @@ async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]>
     console.error('Error reading podcast_work directory:', error)
   }
 
-  console.log(`Found ${episodes.length} episodes from last 24 hours`)
+  console.log(`Found ${episodes.length} episodes from last ${hours} hours`)
 
   // Sort by date, newest first
-  episodes.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  episodes.sort((a, b) => {
+    const dateA = parseEpisodeDate(a.date)
+    const dateB = parseEpisodeDate(b.date)
+    if (!dateA || !dateB) return 0
+    return dateB.getTime() - dateA.getTime()
+  })
   return episodes
 }
 

@@ -1,7 +1,7 @@
 # Epstein Files Fallout, Nvidia Risks, Burry's Bad Bet, Google's Breakthrough, Tether's Boom
 
 **Podcast:** All In
-**Date:** November 22, 2025
+**Date:** 2025-11-22
 **Video ID:** 4tgV87SM-r0
 **Video URL:** https://www.youtube.com/watch?v=4tgV87SM-r0
 

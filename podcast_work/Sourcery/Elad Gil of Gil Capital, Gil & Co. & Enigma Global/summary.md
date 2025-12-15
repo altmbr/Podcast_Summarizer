@@ -1,7 +1,7 @@
 # [Elad Gil of Gil Capital, Gil & Co. & Enigma Global](https://www.youtube.com/watch?v=PdKV3hivwRs)
 
 **Podcast:** Sourcery
-**Date:** October 17, 2025
+**Date:** 2025-10-17
 **Region:** Western
 **Video ID:** PdKV3hivwRs
 **Video URL:** https://www.youtube.com/watch?v=PdKV3hivwRs

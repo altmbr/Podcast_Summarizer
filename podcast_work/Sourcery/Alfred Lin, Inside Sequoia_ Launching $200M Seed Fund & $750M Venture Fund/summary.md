@@ -1,7 +1,7 @@
 # [Alfred Lin, Inside Sequoia: Launching $200M Seed Fund & $750M Venture Fund](https://www.youtube.com/watch?v=7FnDah-9oS4)
 
 **Podcast:** Sourcery
-**Date:** October 27, 2025
+**Date:** 2025-10-27
 **Participants:** the next generation of outlier founders at the start of their journey., stories from OpenAI, DoorDash, Kalshi, Commure, Zipline, more., founders four st, ard deviations above the mean, why efficiency matters more than capital, the role of pivots in scaling, how to distinguish quality revenue from experimental revenue in today’s AI-driven market., integrated expense management, banking, bill pay, travel., confidence.
 **Region:** Western
 **Video ID:** 7FnDah-9oS4

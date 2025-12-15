@@ -1,7 +1,7 @@
 # 119. Kimi Linear、Minimax M2？和杨松琳考古算法变种史，并预演未来架构改进方案
 
 **Podcast:** 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
-**Date:** November 03, 2025
+**Date:** 2025-11-03
 **Region:** Western
 **Video ID:** 6908b9c80ceab2a71c48668c
 **Video URL:** https://www.xiaoyuzhoufm.com/episode/6908b9c80ceab2a71c48668c

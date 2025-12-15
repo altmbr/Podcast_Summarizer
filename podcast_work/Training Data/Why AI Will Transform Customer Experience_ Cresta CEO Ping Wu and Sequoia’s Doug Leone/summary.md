@@ -1,7 +1,7 @@
 # [Why AI Will Transform Customer Experience: Cresta CEO Ping Wu and Sequoia’s Doug Leone](https://www.youtube.com/watch?v=7h-pGSAfOFM)
 
 **Podcast:** Training Data
-**Date:** October 19, 2025
+**Date:** 2025-10-19
 **Participants:** Ping Wu, Host, Doug Leone
 **Region:** Western
 **Video ID:** 7h-pGSAfOFM

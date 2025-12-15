@@ -1,7 +1,7 @@
 # 140: AI for Science, From the Beginning to Now | Dialogue with Zhang Linfeng and Sun Weijie from DeepWisdom
 
 **Podcast:** 晚点聊 LateTalk (Investigative Journalism)
-**Date:** November 10, 2025
+**Date:** 2025-11-10
 **Participants:** 曼奇, 孫惠傑, 張林峰
 **Region:** Chinese
 **Video ID:** 69112f61af4fc00da7ee9684

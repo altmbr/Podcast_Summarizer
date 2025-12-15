@@ -1,7 +1,7 @@
 # [Apple Chooses Gemini, Sequoia's Leadership Shake-up, and Meme Coins](https://www.youtube.com/watch?v=zv4VdtKpQQk)
 
 **Podcast:** More or Less
-**Date:** November 08, 2025
+**Date:** 2025-11-08
 **Participants:** Dave, Sam, Jess
 **Region:** Western
 **Video ID:** zv4VdtKpQQk

@@ -1,7 +1,7 @@
 # [Sequoia’s Alfred Lin: Backing Founders Who Redefine Markets](https://www.youtube.com/watch?v=Zy2Uvm7_ky8)
 
 **Podcast:** Sourcery
-**Date:** October 30, 2025
+**Date:** 2025-10-30
 **Region:** Western
 **Video ID:** Zy2Uvm7_ky8
 **Video URL:** https://www.youtube.com/watch?v=Zy2Uvm7_ky8

@@ -1,7 +1,7 @@
 # [How Ryan Serhant Sold $20B in Real Estate with Media & AI](https://www.youtube.com/watch?v=G1Nvc0-IpxM)
 
 **Podcast:** Sourcery
-**Date:** November 03, 2025
+**Date:** 2025-11-03
 **Region:** Western
 **Video ID:** G1Nvc0-IpxM
 **Video URL:** https://www.youtube.com/watch?v=G1Nvc0-IpxM

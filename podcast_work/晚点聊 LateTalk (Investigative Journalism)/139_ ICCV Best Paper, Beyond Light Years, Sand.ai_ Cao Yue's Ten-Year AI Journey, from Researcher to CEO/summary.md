@@ -1,7 +1,7 @@
 # 139: ICCV Best Paper, Beyond Light Years, Sand.ai: Cao Yue's Ten-Year AI Journey, from Researcher to CEO
 
 **Podcast:** 晚点聊 LateTalk (Investigative Journalism)
-**Date:** October 31, 2025
+**Date:** 2025-10-31
 **Participants:** Manqi, Cao Yue
 **Region:** Chinese
 **Video ID:** 6903e7a6a1bd8d0681071241

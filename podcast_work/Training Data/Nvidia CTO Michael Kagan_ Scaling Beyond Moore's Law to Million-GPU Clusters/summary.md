@@ -1,7 +1,7 @@
 # [Nvidia CTO Michael Kagan: Scaling Beyond Moore's Law to Million-GPU Clusters](https://www.youtube.com/watch?v=H9JjlTA2Il8)
 
 **Podcast:** Training Data
-**Date:** October 29, 2025
+**Date:** 2025-10-29
 **Participants:** Unknown Host, Unknown Host, Michael Kagan
 **Region:** Western
 **Video ID:** H9JjlTA2Il8

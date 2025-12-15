@@ -1,7 +1,7 @@
 # [OpenAI Sora 2 Team: How Generative Video Will Unlock Creativity and World Models](https://www.youtube.com/watch?v=w9oTtvbyLP8)
 
 **Podcast:** Training Data
-**Date:** November 07, 2025
+**Date:** 2025-11-07
 **Participants:** Rohan Sahai, Thomas Dimson, Bill, Thomas Dimson
 **Region:** Western
 **Video ID:** w9oTtvbyLP8

@@ -1,7 +1,7 @@
 # [Interview with Li Xiang (Part 2): CEO Large Model, MoE, Liang Wenfeng, VLA, Energy, Memory, Confronting Human Nature, Intimate Relationships, Human Wisdom](https://www.youtube.com/watch?v=RxXVq7-sJzM)
 
 **Podcast:** Zhang Xiaoyun's
-**Date:** October 31, 2025
+**Date:** 2025-10-31
 **Participants:** Li Xiang
 **Region:** Chinese
 **Video ID:** RxXVq7-sJzM

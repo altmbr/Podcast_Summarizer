@@ -1,7 +1,7 @@
 # [$1M to $10M: The enterprise sales playbook with Jen Abel](https://www.youtube.com/watch?v=37fKFWdrMyA)
 
 **Podcast:** Lenny's
-**Date:** November 09, 2025
+**Date:** 2025-11-09
 **Participants:** Lenny (Host), Jen Abel
 **Region:** Western
 **Video ID:** 37fKFWdrMyA

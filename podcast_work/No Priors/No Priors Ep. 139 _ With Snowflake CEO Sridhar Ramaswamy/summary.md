@@ -1,7 +1,7 @@
 # [No Priors Ep. 139 | With Snowflake CEO Sridhar Ramaswamy](https://www.youtube.com/watch?v=UIDMhKgpqkg)
 
 **Podcast:** No Priors
-**Date:** November 06, 2025
+**Date:** 2025-11-06
 **Participants:** Harry Stebbings, Sridhar Ramaswamy
 **Region:** Western
 **Video ID:** UIDMhKgpqkg

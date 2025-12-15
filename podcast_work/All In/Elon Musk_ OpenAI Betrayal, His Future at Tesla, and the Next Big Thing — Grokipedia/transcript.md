@@ -1,7 +1,7 @@
 # Elon Musk: OpenAI Betrayal, His Future at Tesla, and the Next Big Thing — Grokipedia
 
 **Podcast:** All In
-**Date:** October 31, 2025
+**Date:** 2025-10-31
 **Video ID:** j6_VfR-CyuM
 **Video URL:** https://www.youtube.com/watch?v=j6_VfR-CyuM
 

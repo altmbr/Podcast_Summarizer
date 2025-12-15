@@ -1,7 +1,7 @@
 # Interview with Li Xiang Part 2: CEO Large Model, MoE, Liang Wenfeng, VLA, Energy, Memory, Confronting Human Nature, Intimate Relationships, Human Wisdom
 
 **Podcast:** 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
-**Date:** October 30, 2025
+**Date:** 2025-10-30
 **Participants:** Li Xiang, Tian Zhen Xiao Jun
 **Region:** Chinese
 **Video ID:** 6902c5f7abb5e1cf581296be

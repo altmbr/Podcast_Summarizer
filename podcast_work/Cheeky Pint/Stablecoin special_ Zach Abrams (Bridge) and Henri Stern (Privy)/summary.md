@@ -1,7 +1,7 @@
 # [Stablecoin special: Zach Abrams (Bridge) and Henri Stern (Privy)](https://www.youtube.com/watch?v=4FsGlsfIIkc)
 
 **Podcast:** Cheeky Pint
-**Date:** November 05, 2025
+**Date:** 2025-11-05
 **Participants:** Zach Abrams, Host (Unnamed), Henri Stern
 **Region:** Western
 **Video ID:** 4FsGlsfIIkc

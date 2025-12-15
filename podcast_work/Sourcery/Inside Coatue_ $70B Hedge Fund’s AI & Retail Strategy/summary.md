@@ -1,7 +1,7 @@
 # [Inside Coatue: $70B Hedge Fund’s AI & Retail Strategy](https://www.youtube.com/watch?v=sLlmQoCZe2A)
 
 **Podcast:** Sourcery
-**Date:** October 23, 2025
+**Date:** 2025-10-23
 **Region:** Western
 **Video ID:** sLlmQoCZe2A
 **Video URL:** https://www.youtube.com/watch?v=sLlmQoCZe2A

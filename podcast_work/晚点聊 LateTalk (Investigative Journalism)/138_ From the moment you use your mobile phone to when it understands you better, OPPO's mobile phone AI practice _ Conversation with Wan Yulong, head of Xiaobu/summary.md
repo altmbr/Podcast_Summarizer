@@ -1,7 +1,7 @@
 # 138: From the moment you use your mobile phone to when it understands you better, OPPO's mobile phone AI practice | Conversation with Wan Yulong, head of Xiaobu
 
 **Podcast:** 晚点聊 LateTalk (Investigative Journalism)
-**Date:** October 23, 2025
+**Date:** 2025-10-23
 **Participants:** Wan Yulong, Manqi
 **Region:** Chinese
 **Video ID:** 68faad2749540bd15c2ee589

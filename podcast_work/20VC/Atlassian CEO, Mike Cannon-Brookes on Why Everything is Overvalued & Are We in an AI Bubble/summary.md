@@ -1,7 +1,7 @@
 # [Atlassian CEO, Mike Cannon-Brookes on Why Everything is Overvalued & Are We in an AI Bubble](https://www.youtube.com/watch?v=JEqzQ1UweEg)
 
 **Podcast:** 20VC
-**Date:** October 13, 2025
+**Date:** 2025-10-13
 **Participants:** Mike Cannon-Brookes
 **Region:** Western
 **Video ID:** JEqzQ1UweEg

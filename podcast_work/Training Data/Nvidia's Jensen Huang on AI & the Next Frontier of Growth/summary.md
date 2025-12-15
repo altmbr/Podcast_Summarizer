@@ -1,7 +1,7 @@
 # [Nvidia's Jensen Huang on AI & the Next Frontier of Growth](https://www.youtube.com/watch?v=m1wfJOqDUv4)
 
 **Podcast:** Training Data
-**Date:** October 19, 2025
+**Date:** 2025-10-19
 **Participants:** Jensen Huang, Constantine Bueller
 **Region:** Western
 **Video ID:** m1wfJOqDUv4

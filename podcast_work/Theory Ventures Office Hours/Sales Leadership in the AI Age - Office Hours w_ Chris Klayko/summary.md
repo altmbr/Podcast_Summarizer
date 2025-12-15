@@ -1,7 +1,7 @@
 # [Sales Leadership in the AI Age - Office Hours w/ Chris Klayko](https://www.youtube.com/watch?v=1FJfC1q6Uv4)
 
 **Podcast:** Theory Ventures Office Hours
-**Date:** October 31, 2025
+**Date:** 2025-10-31
 **Participants:** Chris Klayko
 **Region:** Western
 **Video ID:** 1FJfC1q6Uv4

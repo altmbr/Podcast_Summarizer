@@ -1,7 +1,7 @@
 # [Figma's Dylan Field on the Future of Design | Ep. 31](https://www.youtube.com/watch?v=tPoH3WuqgPQ)
 
 **Podcast:** Uncapped Founders
-**Date:** November 07, 2025
+**Date:** 2025-11-07
 **Participants:** Dylan Field, Unknown (Host)
 **Region:** Western
 **Video ID:** tPoH3WuqgPQ

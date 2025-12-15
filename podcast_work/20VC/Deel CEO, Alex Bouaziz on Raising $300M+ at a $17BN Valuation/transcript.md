@@ -1,7 +1,7 @@
 # Deel CEO, Alex Bouaziz on Raising $300M+ at a $17BN Valuation
 
 **Podcast:** 20VC
-**Date:** October 20, 2025
+**Date:** 2025-10-20
 **Video ID:** OPG52e3xwCk
 **Video URL:** https://www.youtube.com/watch?v=OPG52e3xwCk
 

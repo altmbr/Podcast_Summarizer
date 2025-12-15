@@ -1,7 +1,7 @@
 # 137: Agent is an opportunity, and the tools for creating Agent are also | Starting from a chat with OpenAI developers
 
 **Podcast:** 晚点聊 LateTalk (Investigative Journalism)
-**Date:** October 16, 2025
+**Date:** 2025-10-16
 **Participants:** Henry In, Nawmisha, Manqi
 **Region:** Chinese
 **Video ID:** 68f1727052f01d1dd2a00523

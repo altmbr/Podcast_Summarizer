@@ -1,7 +1,7 @@
 # [Stuart Landesberg's Plan to Save the American West from Wildfires](https://www.youtube.com/watch?v=v7iOALPPhAA)
 
 **Podcast:** More or Less
-**Date:** October 31, 2025
+**Date:** 2025-10-31
 **Participants:** Jess running The Information's massive WTF conference, Sam off-grid on a mountain, Brit, Dave hold down the fort with Stuart L, esberg, CEO of Seneca, a Slow-, Offline-backed startup building autonomous firefighting drones. Between deep tech inside jokes, Stuart coins pro-America tech, Seneca’s model of detect early, respond fast, outperforms retrofitting homes or relying on pilots. With dem, rising from cities, utilities, insurers protecting $5T in assets, Stuart’s focused on building long-term enterprise value, not chasing the AI hype cycle., us here:
 **Region:** Western
 **Video ID:** v7iOALPPhAA

@@ -1,7 +1,7 @@
 # [No Priors Ep. 138 | The Best of 2025 (So Far) with Sarah Guo and Elad Gil](https://www.youtube.com/watch?v=OdEJjJq1I28)
 
 **Podcast:** No Priors
-**Date:** October 31, 2025
+**Date:** 2025-10-31
 **Region:** Western
 **Video ID:** OdEJjJq1I28
 **Video URL:** https://www.youtube.com/watch?v=OdEJjJq1I28
