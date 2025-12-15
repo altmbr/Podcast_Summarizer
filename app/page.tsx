@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
+import HomeContent from '@/components/HomeContent'
 import { getAllPodcasts } from '@/lib/episodes'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
@@ -62,7 +62,6 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
 
     return allEpisodes
       .sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime())
-      .slice(0, 10)
       .map(({ dateObj, ...episode }) => episode)
   } catch {
     return []
@@ -106,71 +105,8 @@ export default async function HomePage() {
         </div>
       </header>
 
-      {/* Recent Episodes Section */}
-      <section className="container pt-6 pb-8 md:pb-8">
-        <h2 style={{ color: 'var(--foreground)' }} className="text-3xl md:text-4xl mb-6">Recent Episodes</h2>
-        {recentEpisodes.length === 0 ? (
-          <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">No recent episodes found</div>
-        ) : (
-          <div className="grid gap-6 md:gap-8">
-            {recentEpisodes.map((episode) => (
-              <Link
-                key={`${episode.podcast}-${episode.slug}`}
-                href={`/podcast/${encodeURIComponent(episode.podcast)}/${encodeURIComponent(episode.slug)}`}
-                className="group block p-6 md:p-8 rounded-sm transition-all hover:opacity-80"
-                style={{
-                  backgroundColor: 'var(--card)',
-                  borderColor: 'var(--border)',
-                  color: 'var(--foreground)',
-                }}
-              >
-                <h3 className="text-2xl md:text-3xl group-hover:underline transition-colors mb-2">
-                  {episode.title}
-                </h3>
-                <div className="flex items-center justify-between">
-                  <span style={{ color: 'var(--muted-foreground)' }} className="text-sm">
-                    {episode.date}
-                  </span>
-                  <span style={{ color: 'var(--accent)' }} className="font-light">→</span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        )}
-      </section>
-
-      {/* Podcasts Section */}
-      <section className="container pt-8 md:pt-8 pb-8">
-        <h2 style={{ color: 'var(--foreground)' }} className="text-3xl md:text-4xl mb-6">Podcasts</h2>
-        {podcasts.length === 0 ? (
-          <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">No podcasts found</div>
-        ) : (
-          <div className="grid gap-6 md:gap-8">
-            {podcasts.map((podcast) => (
-              <Link
-                key={podcast.name}
-                href={`/podcast/${encodeURIComponent(podcast.name)}`}
-                className="group block p-6 md:p-8 rounded-sm transition-all hover:opacity-80"
-                style={{
-                  backgroundColor: 'var(--card)',
-                  borderColor: 'var(--border)',
-                  color: 'var(--foreground)',
-                }}
-              >
-                <h3 className="text-2xl md:text-3xl group-hover:underline transition-colors mb-2">
-                  {podcast.title}
-                </h3>
-                <div className="flex items-center justify-between">
-                  <span style={{ color: 'var(--muted-foreground)' }} className="text-sm">
-                    {podcast.episodeCount || 0} episodes
-                  </span>
-                  <span style={{ color: 'var(--accent)' }} className="font-light">→</span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        )}
-      </section>
+      {/* Content with tabs */}
+      <HomeContent podcasts={podcasts} recentEpisodes={recentEpisodes} />
     </main>
   )
 }
