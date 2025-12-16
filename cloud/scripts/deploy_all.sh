@@ -37,7 +37,7 @@ gcloud run jobs create podcast-processor \
   --max-retries 1 \
   --task-timeout 180m \
   --service-account $SA_EMAIL \
-  --set-secrets "ANTHROPIC_API_KEY=ANTHROPIC_API_KEY:latest,HUGGINGFACE_TOKEN=HUGGINGFACE_TOKEN:latest,GITHUB_TOKEN=GITHUB_TOKEN:latest" \
+  --set-secrets "ANTHROPIC_API_KEY=ANTHROPIC_API_KEY:latest,HUGGINGFACE_TOKEN=HUGGINGFACE_TOKEN:latest,GITHUB_TOKEN=GITHUB_TOKEN:latest,EVOMI_PROXY_USERNAME=EVOMI_PROXY_USERNAME:latest,EVOMI_PROXY_PASSWORD=EVOMI_PROXY_PASSWORD:latest" \
   --set-env-vars "GCS_BUCKET=${PROJECT_ID}-podcast-data,GCP_PROJECT=${PROJECT_ID}" \
   || gcloud run jobs update podcast-processor \
     --image "${REGION}-docker.pkg.dev/${PROJECT_ID}/podcast-summarizer/processor:latest" \
