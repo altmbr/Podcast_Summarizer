@@ -10,10 +10,14 @@ ENV PYTHONUNBUFFERED=1
 # ============================================================================
 # LAYER 1: System dependencies (rarely changes - good cache layer)
 # ============================================================================
+# Install curl_cffi dependencies for browser impersonation
 RUN apt-get update && apt-get install -y \
     ffmpeg \
     git \
     nodejs \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app

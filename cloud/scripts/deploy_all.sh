@@ -42,7 +42,9 @@ gcloud run jobs create podcast-processor \
   || gcloud run jobs update podcast-processor \
     --image "${REGION}-docker.pkg.dev/${PROJECT_ID}/podcast-summarizer/processor:latest" \
     --region $REGION \
-    --project $PROJECT_ID
+    --project $PROJECT_ID \
+    --set-secrets "ANTHROPIC_API_KEY=ANTHROPIC_API_KEY:latest,HUGGINGFACE_TOKEN=HUGGINGFACE_TOKEN:latest,GITHUB_TOKEN=GITHUB_TOKEN:latest,EVOMI_PROXY_USERNAME=EVOMI_PROXY_USERNAME:latest,EVOMI_PROXY_PASSWORD=EVOMI_PROXY_PASSWORD:latest" \
+    --set-env-vars "GCS_BUCKET=${PROJECT_ID}-podcast-data,GCP_PROJECT=${PROJECT_ID}"
 
 echo "✓ Cloud Run Job deployed"
 
