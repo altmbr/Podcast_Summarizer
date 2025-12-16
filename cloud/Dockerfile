@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     libcurl4-openssl-dev \
     libssl-dev \
+    libffi-dev \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 

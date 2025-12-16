@@ -8,7 +8,7 @@ torch>=2.0.0
 torchaudio>=2.0.0
 
 # Audio/Video
-yt-dlp[curl-cffi]>=2024.1.0  # Includes curl_cffi with proper compilation
+yt-dlp[default,curl-cffi]>=2024.1.0  # Includes curl_cffi with proper compilation
 pydub>=0.25.0
 
 # AI APIs
