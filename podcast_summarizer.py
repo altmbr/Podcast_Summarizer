@@ -29,6 +29,10 @@ CLAUDE_MODEL = "claude-sonnet-4-5-20250929"  # For summarization (latest Sonnet 
 HAIKU_MODEL = "claude-3-5-haiku-20241022"  # For speaker identification (latest Haiku)
 HUGGINGFACE_TOKEN = os.environ.get("HUGGINGFACE_TOKEN")
 
+# Proxy configuration (Evomi residential proxies)
+EVOMI_PROXY_USERNAME = os.environ.get("EVOMI_PROXY_USERNAME")
+EVOMI_PROXY_PASSWORD = os.environ.get("EVOMI_PROXY_PASSWORD")
+
 # Episode status states
 STATUS_STATES = {
     "discovered": 1,      # Found in playlist, not downloaded yet
@@ -499,6 +503,7 @@ def get_playlist_videos(playlist_url, first_run=False):
         "yt-dlp",
         "--flat-playlist",
         "-j",  # JSON output
+        "--impersonate", "chrome-110:windows-10",  # Bypass TLS fingerprinting
         "--extractor-args", "youtubetab:approximate_date",  # Get upload dates
         playlist_url
     ]
@@ -533,7 +538,7 @@ def get_playlist_videos(playlist_url, first_run=False):
     return videos
 
 def download_video_audio(video_url, output_audio_path):
-    """Download audio from URL using yt-dlp"""
+    """Download audio from URL using yt-dlp with anti-blocking measures"""
     print(f"  → Downloading video audio...")
     # Create parent directories if needed
     output_audio_path.parent.mkdir(parents=True, exist_ok=True)
@@ -543,8 +548,24 @@ def download_video_audio(video_url, output_audio_path):
         "-x",  # Extract audio only
         "--audio-format", "mp3",
         "-o", str(output_audio_path),
-        video_url
+        "--no-write-thumbnail",  # Save bandwidth
     ]
+
+    # Add browser impersonation to bypass TLS fingerprinting (CRITICAL for avoiding blocks)
+    cmd.extend(["--impersonate", "chrome-110:windows-10"])
+
+    # Use Android client API (more lenient than web client)
+    cmd.extend(["--extractor-args", "youtube:player_client=android"])
+
+    # Add residential proxy if configured (Evomi)
+    if EVOMI_PROXY_USERNAME and EVOMI_PROXY_PASSWORD:
+        # Use sticky session (same IP for entire download - critical for large files)
+        # Note: Make sure "Sticky Session" is selected in Evomi dashboard, NOT "Rotating"
+        proxy_url = f"http://{EVOMI_PROXY_USERNAME}:{EVOMI_PROXY_PASSWORD}@core-residential.evomi.com:1000"
+        cmd.extend(["--proxy", proxy_url])
+        print(f"  → Using Evomi residential proxy (sticky session enabled)")
+
+    cmd.append(video_url)
     subprocess.run(cmd, check=True)
     print(f"  ✓ Audio downloaded")
 
@@ -972,6 +993,7 @@ def extract_video_metadata(video_url):
             "yt-dlp",
             "-j",  # JSON output
             "--no-warnings",
+            "--impersonate", "chrome-110:windows-10",  # Bypass TLS fingerprinting
             video_url
         ]
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
@@ -1722,6 +1744,7 @@ def main():
                             "yt-dlp",
                             "-j",
                             "--no-warnings",
+                            "--impersonate", "chrome-110:windows-10",  # Bypass TLS fingerprinting
                             episode_url
                         ]
                         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)

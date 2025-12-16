@@ -9,6 +9,7 @@ torchaudio>=2.0.0
 
 # Audio/Video
 yt-dlp>=2024.1.0
+curl-cffi>=0.5.10  # Required for yt-dlp browser impersonation (anti-blocking)
 pydub>=0.25.0
 
 # AI APIs

@@ -52,13 +52,27 @@ def download_audio(video_url: str, output_path: Path) -> Path:
         "--audio-format", "mp3",
         "--audio-quality", "0",  # Best quality
         "--verbose",  # Verbose output for debugging
-        "--js-runtimes", "node",  # Use Node.js for JavaScript challenges
+        "--no-write-thumbnail",  # Save bandwidth
+        "--impersonate", "chrome-110:windows-10",  # CRITICAL: Bypass TLS fingerprinting
+        "--extractor-args", "youtube:player_client=android",  # Android client is more lenient
         "--cookies", COOKIE_FILE_WRITABLE,  # Use writable cookie file
-        "--user-agent", USER_AGENT,  # Match browser User-Agent (critical for Cloudflare)
-        "--extractor-args", "youtube:player_client=web",  # Use web client
         "-o", str(output_path),
-        video_url
     ]
+
+    # Add Evomi residential proxy if configured (from GCP environment variables)
+    evomi_username = os.getenv("EVOMI_PROXY_USERNAME")
+    evomi_password = os.getenv("EVOMI_PROXY_PASSWORD")
+
+    if evomi_username and evomi_password:
+        # Use sticky session (same IP for entire download - critical for large files)
+        # Note: Make sure "Sticky Session" is selected in Evomi dashboard, NOT "Rotating"
+        proxy_url = f"http://{evomi_username}:{evomi_password}@core-residential.evomi.com:1000"
+        cmd.extend(["--proxy", proxy_url])
+        print(f"✓ Using Evomi residential proxy (sticky session enabled)")
+    else:
+        print("⚠ Evomi proxy credentials not found - running without proxy (may get blocked)")
+
+    cmd.append(video_url)
 
     print(f"Running command: {' '.join(cmd[:8])}...")  # Print first part of command
     result = subprocess.run(cmd, capture_output=True, text=True)
