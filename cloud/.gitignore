@@ -24,6 +24,7 @@ build/
 *.pem
 secrets/
 *.secret
+youtube-cookies.txt
 
 # Local testing
 .pytest_cache/

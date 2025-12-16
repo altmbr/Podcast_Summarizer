@@ -2,11 +2,11 @@
 
 ## 20VC
 
-**Total Episodes:** 447
+**Total Episodes:** 448
 
 **Status Summary:**
 - discovered: 435
-- summarized: 12
+- summarized: 13
 
 **Episodes:**
 
@@ -2691,6 +2691,12 @@
   - Published: None
   - Status: `summarized`
   - Discovered: 2025-12-12 10:04:30
+
+- ✅ **a16z's David George on How $BN Funds Can 5× & Do Margins and Revenue Matter in A**
+  - ID: `IxoGRY6TXwk`
+  - Published: 2025-12-15
+  - Status: `summarized`
+  - Discovered: 2025-12-15 22:22:26
 
 ---
 
@@ -6357,11 +6363,11 @@
 
 ## Sourcery
 
-**Total Episodes:** 98
+**Total Episodes:** 99
 
 **Status Summary:**
 - discovered: 88
-- summarized: 10
+- summarized: 11
 
 **Episodes:**
 
@@ -6952,6 +6958,12 @@
   - Published: 2025-12-13
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **Inside Anduril: Exclusive HQ Tour w/ Palmer Luckey, Brian Schimpf, Matt Grimm & **
+  - ID: `RBXXYpjs9TE`
+  - Published: 2025-12-15
+  - Status: `summarized`
+  - Discovered: 2025-12-15 22:31:58
 
 ---
 
@@ -7982,10 +7994,10 @@
 
 ## Training Data
 
-**Total Episodes:** 69
+**Total Episodes:** 70
 
 **Status Summary:**
-- discovered: 61
+- discovered: 62
 - summarized: 8
 
 **Episodes:**
@@ -8403,6 +8415,12 @@
   - Published: 2025-12-10
   - Status: `summarized`
   - Discovered: 2025-12-10 10:38:32
+
+- 🔍 **[Private video]**
+  - ID: `VQXivhM8I-g`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -15648,11 +15666,11 @@
 
 ## A16z Podcast
 
-**Total Episodes:** 637
+**Total Episodes:** 638
 
 **Status Summary:**
 - discovered: 626
-- summarized: 11
+- summarized: 12
 
 **Episodes:**
 
@@ -19477,6 +19495,12 @@
   - Published: 0
   - Status: `discovered`
   - Discovered: None
+
+- ✅ **The “Factory Thinking” Mindset Transforming Companies | a16z 2026 Big Ideas**
+  - ID: `JUAj9o6xCwg`
+  - Published: 2025-12-15
+  - Status: `summarized`
+  - Discovered: 2025-12-15 22:37:39
 
 ---
 
@@ -23992,10 +24016,10 @@
 
 ## Pivot
 
-**Total Episodes:** 182
+**Total Episodes:** 185
 
 **Status Summary:**
-- discovered: 180
+- discovered: 183
 - summarized: 2
 
 **Episodes:**
@@ -25091,6 +25115,24 @@
   - Published: 2025-12-12
   - Status: `summarized`
   - Discovered: 2025-12-12 17:42:40
+
+- 🔍 **[Private video]**
+  - ID: `MsWnn-pxd1U`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `NZK6fe8IdOQ`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `98aQh7e6qh0`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -27198,9 +27240,9 @@
   - Status: `summarized`
   - Discovered: 2025-12-12 09:37:39
 
-- 🔍 **[Private video]**
+- 🔍 **Improve Energy & Longevity by Optimizing Mitochondria | Dr. Martin Picard**
   - ID: `nMkQUlBtFlk`
-  - Published: 0
+  - Published: 2025-12-15
   - Status: `discovered`
   - Discovered: None
 
@@ -27208,10 +27250,10 @@
 
 ## Joe Rogan
 
-**Total Episodes:** 2435
+**Total Episodes:** 2436
 
 **Status Summary:**
-- discovered: 2434
+- discovered: 2435
 - summarized: 1
 
 **Episodes:**
@@ -41826,6 +41868,12 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **[Private video]**
+  - ID: `bdhaUe6dhvM`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## DOAC
@@ -44962,8 +45010,8 @@
 **Total Episodes:** 98
 
 **Status Summary:**
-- discovered: 94
-- summarized: 4
+- discovered: 93
+- summarized: 5
 
 **Episodes:**
 
@@ -45549,11 +45597,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- ✅ **Sam Altman Is NO Steve Jobs: Why He FAILED to Sell AI on Jimmy Fallon**
   - ID: `bdauPRYW03Q`
-  - Published: 0
-  - Status: `discovered`
-  - Discovered: None
+  - Published: 2025-12-15
+  - Status: `summarized`
+  - Discovered: 2025-12-15 22:38:54
 
 ---
 
