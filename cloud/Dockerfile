@@ -32,6 +32,14 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # ============================================================================
+# LAYER 2.5: Pre-download ML models (saves ~10 min per job execution)
+# ============================================================================
+# faster-whisper large-v3 model (~3GB) - downloads once at build time
+# Without this, Cloud Run downloads fresh on every job (ephemeral filesystem)
+ENV HF_HOME=/app/models
+RUN python3 -c "from faster_whisper import WhisperModel; WhisperModel('large-v3', device='cpu', compute_type='int8')"
+
+# ============================================================================
 # LAYER 3: Application code (changes frequently - invalidates only this layer)
 # ============================================================================
 # Copy code LAST so that code changes don't invalidate dependency layers above

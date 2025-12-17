@@ -60,6 +60,21 @@ def process_episode(episode: dict, config: Config, repo: GitRepo, work_dir: Path
         print("\nStep 2/6: Transcribing with Faster-Whisper...")
         segments = transcribe_audio(audio_path, model_size="large-v3")
 
+        # Save transcript immediately after transcription (before diarization)
+        # This ensures we have the transcript even if diarization fails
+        # Using a separate file so we don't overwrite transcript_raw.md
+        transcript_whisper_path = episode_dir / "transcript_whisper.md"
+        transcript_lines = []
+        for seg in segments:
+            start_min = int(seg["start"] // 60)
+            start_sec = int(seg["start"] % 60)
+            timestamp = f"[{start_min:02d}:{start_sec:02d}]"
+            transcript_lines.append(f"{timestamp} {seg['text'].strip()}")
+        initial_transcript = "\n\n".join(transcript_lines)
+        with open(transcript_whisper_path, "w") as f:
+            f.write(f"# Transcript (Whisper only - no speaker labels)\n\n{initial_transcript}")
+        print(f"  ✓ Saved Whisper transcript: {transcript_whisper_path}")
+
         # Step 3: Diarize
         print("\nStep 3/6: Diarizing with Pyannote...")
         diarization = diarize_audio(audio_path, config.huggingface_token)
@@ -68,10 +83,11 @@ def process_episode(episode: dict, config: Config, repo: GitRepo, work_dir: Path
         print("\nStep 4/6: Merging transcript with speaker labels...")
         transcript_raw = merge_transcript_with_diarization(segments, diarization)
 
-        # Save transcript_raw.md
+        # Save transcript_raw.md (with SPEAKER_XX labels)
         transcript_raw_path = episode_dir / "transcript_raw.md"
         with open(transcript_raw_path, "w") as f:
             f.write(transcript_raw)
+        print(f"  ✓ Saved transcript with speaker labels: {transcript_raw_path}")
 
         # Step 5: Identify speakers (Claude Haiku)
         print("\nStep 5/6: Identifying speakers with Claude Haiku...")

@@ -5,19 +5,17 @@ import shutil
 from pathlib import Path
 
 
-# Firefox User-Agent to match cookies (required for Cloudflare bypass)
-USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0"
-
-# Cookie file path (mounted from GCP Secret Manager - READ-ONLY)
+# Optional cookie file path (mounted from GCP Secret Manager - READ-ONLY)
 COOKIE_FILE_SOURCE = "/secrets/YOUTUBE_COOKIES"
-
-# Writable copy in /tmp (yt-dlp needs to write to cookie file)
 COOKIE_FILE_WRITABLE = "/tmp/youtube-cookies.txt"
 
 
 def download_audio(video_url: str, output_path: Path) -> Path:
     """
     Download audio from YouTube video using yt-dlp.
+
+    Uses Evomi residential proxy + curl_cffi impersonation to bypass blocking.
+    Cookies are optional - only used if the secret is mounted.
 
     Args:
         video_url: YouTube video URL
@@ -28,19 +26,16 @@ def download_audio(video_url: str, output_path: Path) -> Path:
     """
     print(f"Downloading audio from: {video_url}")
 
-    # Copy cookie file from read-only secret mount to writable /tmp
+    # Check for optional cookie file
+    use_cookies = False
     if os.path.exists(COOKIE_FILE_SOURCE):
         cookie_size = os.path.getsize(COOKIE_FILE_SOURCE)
         print(f"✓ Cookie file found: {COOKIE_FILE_SOURCE} ({cookie_size} bytes)")
-        print(f"  Copying to writable location: {COOKIE_FILE_WRITABLE}")
         shutil.copy2(COOKIE_FILE_SOURCE, COOKIE_FILE_WRITABLE)
-        # Make it writable
         os.chmod(COOKIE_FILE_WRITABLE, 0o644)
-        print(f"✓ Cookie file ready at {COOKIE_FILE_WRITABLE}")
+        use_cookies = True
     else:
-        print(f"✗ Cookie file NOT FOUND: {COOKIE_FILE_SOURCE}")
-        print(f"  Contents of /secrets: {os.listdir('/secrets') if os.path.exists('/secrets') else 'DIR NOT FOUND'}")
-        raise RuntimeError(f"Cookie file not found at {COOKIE_FILE_SOURCE}")
+        print("ℹ No cookie file - using proxy + impersonation only")
 
     # Ensure output directory exists
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -55,9 +50,12 @@ def download_audio(video_url: str, output_path: Path) -> Path:
         "--no-write-thumbnail",  # Save bandwidth
         "--impersonate", "chrome-110:windows-10",  # CRITICAL: Bypass TLS fingerprinting
         "--extractor-args", "youtube:player_client=android",  # Android client is more lenient
-        "--cookies", COOKIE_FILE_WRITABLE,  # Use writable cookie file
         "-o", str(output_path),
     ]
+
+    # Add cookies if available
+    if use_cookies:
+        cmd.extend(["--cookies", COOKIE_FILE_WRITABLE])
 
     # Add Evomi residential proxy if configured (from GCP environment variables)
     evomi_username = os.getenv("EVOMI_PROXY_USERNAME")

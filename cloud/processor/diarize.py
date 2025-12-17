@@ -23,7 +23,7 @@ def diarize_audio(audio_path: Path, hf_token: str) -> List[Dict]:
     # Will use CUDA when GPU quota approved
     pipeline = Pipeline.from_pretrained(
         "pyannote/speaker-diarization-3.1",
-        use_auth_token=hf_token
+        token=hf_token
     )
 
     # Force CPU usage
