@@ -738,9 +738,9 @@ export async function GET(request: NextRequest) {
 
   console.log('Starting daily email cron job...')
 
-  // Get hours parameter (default 24, can override with ?hours=48 etc.)
+  // Get hours parameter (default 48, can override with ?hours=24 etc.)
   const hoursParam = request.nextUrl.searchParams.get('hours')
-  const hours = hoursParam ? parseInt(hoursParam, 10) : 24
+  const hours = hoursParam ? parseInt(hoursParam, 10) : 48
 
   // Get episodes from last N hours
   const episodes = await getEpisodesFromLastNHours(hours)
