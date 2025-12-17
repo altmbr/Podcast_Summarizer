@@ -6363,10 +6363,10 @@
 
 ## Sourcery
 
-**Total Episodes:** 99
+**Total Episodes:** 100
 
 **Status Summary:**
-- discovered: 88
+- discovered: 89
 - summarized: 11
 
 **Episodes:**
@@ -6964,6 +6964,12 @@
   - Published: 2025-12-15
   - Status: `summarized`
   - Discovered: 2025-12-15 22:31:58
+
+- 🔍 **Full Interview: Anduril CEO Brian Schimpf on $1B+ Revenue & Still Doubling**
+  - ID: `P5dsb28UVec`
+  - Published: 2025-12-16
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -7677,10 +7683,10 @@
 
 ## Invest like the best
 
-**Total Episodes:** 48
+**Total Episodes:** 49
 
 **Status Summary:**
-- discovered: 43
+- discovered: 44
 - summarized: 5
 
 **Episodes:**
@@ -7970,6 +7976,12 @@
 - 🔍 **[Private video]**
   - ID: `NIPR_lx55Eo`
   - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **The Hidden Pattern Behind Every Great Stock | Henry Ellenbogen Interview**
+  - ID: `plx6Foxoam4`
+  - Published: 2025-12-16
   - Status: `discovered`
   - Discovered: None
 
@@ -8416,9 +8428,9 @@
   - Status: `summarized`
   - Discovered: 2025-12-10 10:38:32
 
-- 🔍 **[Private video]**
+- 🔍 **Why the Next AI Revolution Will Happen Off-Screen: Samsara CEO Sanjit Biswas**
   - ID: `VQXivhM8I-g`
-  - Published: 0
+  - Published: 2025-12-16
   - Status: `discovered`
   - Discovered: None
 
@@ -12034,9 +12046,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **Building AI Systems That Scale | Office Hours w/ Calvin French-Owen**
   - ID: `zTsEmtlSeaU`
-  - Published: 0
+  - Published: 2025-12-16
   - Status: `discovered`
   - Discovered: None
 
@@ -15301,11 +15313,11 @@
 
 ## 张小珺Jùn｜商业访谈录 (Zhang Xiaojun Business Interviews)
 
-**Total Episodes:** 20
+**Total Episodes:** 21
 
 **Status Summary:**
 - discovered: 13
-- summarized: 7
+- summarized: 8
 
 **Episodes:**
 
@@ -15428,6 +15440,12 @@
   - Published: 2025-12-13
   - Status: `summarized`
   - Discovered: 2025-12-15 08:49:08
+
+- ✅ **125. Chatting with Freda, Partner at Altimeter: Betting on OpenAI, Robinhood's P**
+  - ID: `694180874c65abaff3576bc4`
+  - Published: 2025-12-16
+  - Status: `summarized`
+  - Discovered: 2025-12-16 19:42:48
 
 ---
 
@@ -25116,9 +25134,9 @@
   - Status: `summarized`
   - Discovered: 2025-12-12 17:42:40
 
-- 🔍 **[Private video]**
+- 🔍 **Kara Swisher Says New AI Executive Order Is “Idiotic” | Pivot**
   - ID: `MsWnn-pxd1U`
-  - Published: 0
+  - Published: 2025-12-16
   - Status: `discovered`
   - Discovered: None
 
@@ -41868,9 +41886,9 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **[Private video]**
+- 🔍 **Joe Rogan Experience #2426 - Cameron Hanes & Adam Greentree**
   - ID: `bdhaUe6dhvM`
-  - Published: 0
+  - Published: 2025-12-16
   - Status: `discovered`
   - Discovered: None
 
