@@ -3845,8 +3845,8 @@
 **Total Episodes:** 256
 
 **Status Summary:**
-- discovered: 251
-- summarized: 5
+- discovered: 250
+- summarized: 6
 
 **Episodes:**
 
@@ -5380,11 +5380,11 @@
   - Status: `summarized`
   - Discovered: 2025-12-06 09:22:26
 
-- 🔍 **Tucker Carlson: Rise of Nick Fuentes, Paramount vs Netflix, Anti-AI Sentiment, H**
+- ✅ **Tucker Carlson: Rise of Nick Fuentes, Paramount vs Netflix, Anti-AI Sentiment, H**
   - ID: `cY5UFw2AIZo`
   - Published: 2025-12-13
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-12-16 21:29:05
 
 ---
 
@@ -7686,8 +7686,8 @@
 **Total Episodes:** 49
 
 **Status Summary:**
-- discovered: 44
-- summarized: 5
+- discovered: 43
+- summarized: 6
 
 **Episodes:**
 
@@ -7979,11 +7979,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **The Hidden Pattern Behind Every Great Stock | Henry Ellenbogen Interview**
+- ✅ **The Hidden Pattern Behind Every Great Stock | Henry Ellenbogen Interview**
   - ID: `plx6Foxoam4`
   - Published: 2025-12-16
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-12-16 20:51:39
 
 ---
 
@@ -8009,8 +8009,8 @@
 **Total Episodes:** 70
 
 **Status Summary:**
-- discovered: 62
-- summarized: 8
+- discovered: 61
+- summarized: 9
 
 **Episodes:**
 
@@ -8428,11 +8428,11 @@
   - Status: `summarized`
   - Discovered: 2025-12-10 10:38:32
 
-- 🔍 **Why the Next AI Revolution Will Happen Off-Screen: Samsara CEO Sanjit Biswas**
+- ✅ **Why the Next AI Revolution Will Happen Off-Screen: Samsara CEO Sanjit Biswas**
   - ID: `VQXivhM8I-g`
   - Published: 2025-12-16
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-12-16 21:06:47
 
 ---
 
@@ -11939,8 +11939,8 @@
 **Total Episodes:** 18
 
 **Status Summary:**
-- discovered: 17
-- summarized: 1
+- discovered: 16
+- summarized: 2
 
 **Episodes:**
 
@@ -12046,11 +12046,11 @@
   - Status: `discovered`
   - Discovered: None
 
-- 🔍 **Building AI Systems That Scale | Office Hours w/ Calvin French-Owen**
+- ✅ **Building AI Systems That Scale | Office Hours w/ Calvin French-Owen**
   - ID: `zTsEmtlSeaU`
   - Published: 2025-12-16
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-12-16 21:12:13
 
 ---
 
@@ -23279,10 +23279,10 @@
 
 ## SaaStr
 
-**Total Episodes:** 46
+**Total Episodes:** 47
 
 **Status Summary:**
-- discovered: 42
+- discovered: 43
 - summarized: 4
 
 **Episodes:**
@@ -23560,6 +23560,12 @@
 - 🔍 **We Deployed 20+ AI Agents and Replaced Our Entire SDR Team. Here's What Actually**
   - ID: `h8iy9bVxFfw`
   - Published: 2025-12-10
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **AI and the Death of the 2021 Sales Playbook with SaaStr CEO and Founder Jason Le**
+  - ID: `EqNF0CP3fP8`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
@@ -24037,8 +24043,8 @@
 **Total Episodes:** 185
 
 **Status Summary:**
-- discovered: 183
-- summarized: 2
+- discovered: 182
+- summarized: 3
 
 **Episodes:**
 
@@ -25134,11 +25140,11 @@
   - Status: `summarized`
   - Discovered: 2025-12-12 17:42:40
 
-- 🔍 **Kara Swisher Says New AI Executive Order Is “Idiotic” | Pivot**
+- ✅ **Kara Swisher Says New AI Executive Order Is “Idiotic” | Pivot**
   - ID: `MsWnn-pxd1U`
   - Published: 2025-12-16
-  - Status: `discovered`
-  - Discovered: None
+  - Status: `summarized`
+  - Discovered: 2025-12-16 21:19:14
 
 - 🔍 **[Private video]**
   - ID: `NZK6fe8IdOQ`
