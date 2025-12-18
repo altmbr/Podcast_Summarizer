@@ -6363,10 +6363,10 @@
 
 ## Sourcery
 
-**Total Episodes:** 100
+**Total Episodes:** 102
 
 **Status Summary:**
-- discovered: 89
+- discovered: 91
 - summarized: 11
 
 **Episodes:**
@@ -6968,6 +6968,18 @@
 - 🔍 **Full Interview: Anduril CEO Brian Schimpf on $1B+ Revenue & Still Doubling**
   - ID: `P5dsb28UVec`
   - Published: 2025-12-16
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **Full Anduril R&D Tour: Matt Grimm, Co-Founder & COO**
+  - ID: `7rvStMD9WFU`
+  - Published: 2025-12-17
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `aJUPAsc5V3w`
+  - Published: 0
   - Status: `discovered`
   - Discovered: None
 
@@ -15552,11 +15564,11 @@
 
 ## 晚点聊 LateTalk (Investigative Journalism)
 
-**Total Episodes:** 20
+**Total Episodes:** 21
 
 **Status Summary:**
 - discovered: 13
-- summarized: 7
+- summarized: 8
 
 **Episodes:**
 
@@ -15680,14 +15692,20 @@
   - Status: `summarized`
   - Discovered: 2025-12-12 09:45:27
 
+- ✅ **145: Dialogue with Sun Kuan: The Birth of the First "Consumer-Grade Exoskeleton"**
+  - ID: `694278d679debc3231e4acaf`
+  - Published: 2025-12-17
+  - Status: `summarized`
+  - Discovered: 2025-12-17 21:47:18
+
 ---
 
 ## A16z Podcast
 
-**Total Episodes:** 638
+**Total Episodes:** 639
 
 **Status Summary:**
-- discovered: 626
+- discovered: 627
 - summarized: 12
 
 **Episodes:**
@@ -19519,6 +19537,12 @@
   - Published: 2025-12-15
   - Status: `summarized`
   - Discovered: 2025-12-15 22:37:39
+
+- 🔍 **“How We Can Eliminate Crime” | Ben Horowitz and Garrett Langley**
+  - ID: `tR6g3zrk7eM`
+  - Published: 2025-12-17
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -23565,7 +23589,7 @@
 
 - 🔍 **AI and the Death of the 2021 Sales Playbook with SaaStr CEO and Founder Jason Le**
   - ID: `EqNF0CP3fP8`
-  - Published: 0
+  - Published: 2025-12-17
   - Status: `discovered`
   - Discovered: None
 
@@ -23573,9 +23597,10 @@
 
 ## Long Strange Trip w Brian Halligan
 
-**Total Episodes:** 4
+**Total Episodes:** 6
 
 **Status Summary:**
+- discovered: 2
 - summarized: 4
 
 **Episodes:**
@@ -23603,6 +23628,18 @@
   - Published: 2025-12-12
   - Status: `summarized`
   - Discovered: 2025-12-12 09:28:25
+
+- 🔍 **[Private video]**
+  - ID: `kcEQlp_QGJo`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
+
+- 🔍 **[Private video]**
+  - ID: `GvZ1T9W8f78`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
@@ -27274,10 +27311,10 @@
 
 ## Joe Rogan
 
-**Total Episodes:** 2436
+**Total Episodes:** 2437
 
 **Status Summary:**
-- discovered: 2435
+- discovered: 2436
 - summarized: 1
 
 **Episodes:**
@@ -41898,14 +41935,20 @@
   - Status: `discovered`
   - Discovered: None
 
+- 🔍 **Joe Rogan Experience #2427 - Bret Weinstein**
+  - ID: `WX_te6X-0aQ`
+  - Published: 2025-12-17
+  - Status: `discovered`
+  - Discovered: None
+
 ---
 
 ## DOAC
 
-**Total Episodes:** 453
+**Total Episodes:** 454
 
 **Status Summary:**
-- discovered: 450
+- discovered: 451
 - summarized: 3
 
 **Episodes:**
@@ -44627,6 +44670,12 @@
   - Published: 2025-12-15
   - Status: `summarized`
   - Discovered: 2025-12-15 08:23:08
+
+- 🔍 **[Private video]**
+  - ID: `zQ1POHiR8m8`
+  - Published: 0
+  - Status: `discovered`
+  - Discovered: None
 
 ---
 
