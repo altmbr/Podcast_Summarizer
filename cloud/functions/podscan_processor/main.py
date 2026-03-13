@@ -376,7 +376,7 @@ def format_date(date_str: str) -> str:
 def clone_repo(work_dir: Path) -> Repo:
     """Clone the repository."""
     repo_path = work_dir / "repo"
-    auth_url = f"https://x-access-token:{GITHUB_TOKEN}@github.com/altmbr/Podcast_Summarizer.git"
+    auth_url = f"https://{GITHUB_TOKEN}@github.com/altmbr/Podcast_Summarizer.git"
     print("Cloning repository...")
     repo = Repo.clone_from(auth_url, repo_path)
     # Configure git user for commits
