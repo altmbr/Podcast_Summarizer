@@ -25,7 +25,6 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY")
 NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "altmbr@gmail.com")
-REPO_URL = "https://github.com/altmbr/Podcast_Summarizer.git"
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/altmbr/Podcast_Summarizer/main"
 LOOKBACK_DAYS = int(os.environ.get("LOOKBACK_DAYS", "3"))
 
@@ -67,6 +66,11 @@ SUMMARIZATION_PROMPT = """You are summarizing a podcast transcript for an invest
 - These should not duplicate anything in other sections"""
 
 
+def sanitize_title(title: str) -> str:
+    """Sanitize episode title for use as a folder name."""
+    return re.sub(r'[<>:"/\\|?*]', '_', title)[:200]
+
+
 # ---------------------------------------------------------------------------
 # Podscan API client
 # ---------------------------------------------------------------------------
@@ -88,7 +92,7 @@ def podscan_get(endpoint: str, params: dict | None = None) -> dict:
                 data = resp.json()
                 if "daily_limit" in data.get("error", ""):
                     raise RuntimeError(f"Daily API limit exceeded. Resets in {data.get('retry_after', '?')}s")
-            except (ValueError, KeyError):
+            except ValueError:
                 pass
             resp.raise_for_status()
         resp.raise_for_status()
@@ -133,6 +137,8 @@ def find_new_episodes(config: dict, status: dict) -> list[dict]:
         print(f"Checking {podcast_name} (podscan_id={podscan_id})...")
 
         try:
+            status_episodes = status.get("podcasts", {}).get(podscan_id, {}).get("episodes", {})
+
             # Paginate through episodes until we find ones older than cutoff
             page = 1
             found_old = False
@@ -145,8 +151,6 @@ def find_new_episodes(config: dict, status: dict) -> list[dict]:
                 episodes = data.get("episodes", [])
                 if not episodes:
                     break
-
-                status_episodes = status.get("podcasts", {}).get(podscan_id, {}).get("episodes", {})
 
                 for ep in episodes:
                     ep_id = ep.get("episode_id", "")
@@ -264,28 +268,29 @@ def build_speaker_map(metadata: dict) -> dict:
     return speaker_map
 
 
-def extract_participants(metadata: dict, podcast_name: str, config: dict) -> str:
-    """Extract participant names from metadata."""
+def extract_names_from_metadata(metadata: dict) -> set[str]:
+    """Extract all real speaker names from Podscan metadata."""
     names = set()
 
     for host in metadata.get("hosts", []):
-        if isinstance(host, dict):
-            name = host.get("host_name", "")
-            if name:
-                names.add(name)
+        if isinstance(host, dict) and host.get("host_name"):
+            names.add(host["host_name"])
 
     for guest in metadata.get("guests", []):
-        if isinstance(guest, dict):
-            name = guest.get("guest_name", "")
-            if name:
-                names.add(name)
+        if isinstance(guest, dict) and guest.get("guest_name"):
+            names.add(guest["guest_name"])
 
-    # From speakers map
     for name in metadata.get("speakers", {}).values():
         if name and not name.startswith("SPEAKER_"):
             names.add(name)
 
-    # Fallback to config hosts
+    return names
+
+
+def extract_participants(metadata: dict, podcast_name: str, config: dict) -> str:
+    """Extract participant names from metadata, falling back to config hosts."""
+    names = extract_names_from_metadata(metadata)
+
     if not names:
         hosts = config.get(podcast_name, {}).get("hosts", [])
         names.update(hosts)
@@ -354,18 +359,12 @@ def format_date(date_str: str) -> str:
     if not date_str:
         return "Unknown"
     try:
-        # Try ISO format first (2026-03-12T07:07:00Z)
         dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
         return dt.strftime("%Y-%m-%d")
-    except (ValueError, TypeError):
+    except ValueError:
         pass
-    try:
-        # Try YYYYMMDD
-        if len(date_str) == 8 and date_str.isdigit():
-            dt = datetime.strptime(date_str, "%Y%m%d")
-            return dt.strftime("%Y-%m-%d")
-    except (ValueError, TypeError):
-        pass
+    if len(date_str) == 8 and date_str.isdigit():
+        return datetime.strptime(date_str, "%Y%m%d").strftime("%Y-%m-%d")
     return date_str
 
 
@@ -394,10 +393,7 @@ def write_episode_files(
     summary: str,
 ) -> str:
     """Write transcript and summary files to the repo. Returns the episode directory name."""
-    # Sanitize title for folder name
-    sanitized_title = re.sub(r'[<>:"/\\|?*]', '_', episode_title)
-    sanitized_title = sanitized_title[:200]
-
+    sanitized_title = sanitize_title(episode_title)
     episode_dir = Path(repo.working_dir) / "podcast_work" / podcast_name / sanitized_title
     episode_dir.mkdir(parents=True, exist_ok=True)
 
@@ -474,7 +470,7 @@ def send_processing_report(processed: list[dict], failed: list[dict]):
         return
 
     html = ["<html><body>"]
-    html.append(f"<h2>Podscan Processor Report</h2>")
+    html.append("<h2>Podscan Processor Report</h2>")
     html.append(f"<p>Processed {len(processed)}/{total} episodes</p>")
 
     if processed:
@@ -519,8 +515,7 @@ def send_processing_report(processed: list[dict], failed: list[dict]):
 
 def check_already_processed(repo: Repo, podcast_name: str, episode_title: str) -> bool:
     """Check if summary.md already exists for this episode."""
-    sanitized = re.sub(r'[<>:"/\\|?*]', '_', episode_title)[:200]
-    summary_path = Path(repo.working_dir) / "podcast_work" / podcast_name / sanitized / "summary.md"
+    summary_path = Path(repo.working_dir) / "podcast_work" / podcast_name / sanitize_title(episode_title) / "summary.md"
     return summary_path.exists()
 
 
@@ -546,13 +541,7 @@ def process_episode(episode: dict, config: dict, repo: Repo, status: dict) -> bo
 
     # Step 1: Fetch transcript from Podscan
     print("  Step 1/2: Fetching transcript from Podscan...")
-    try:
-        ep_data = podscan_get(f"/episodes/{ep_id}")
-    except Exception as e:
-        print(f"  Error fetching episode data: {e}")
-        raise
-
-    # Podscan uses "episode_transcript" field
+    ep_data = podscan_get(f"/episodes/{ep_id}")
     raw_transcript = ep_data.get("episode_transcript", "")
     if not raw_transcript:
         raise ValueError(f"No transcript available for episode {ep_id}")

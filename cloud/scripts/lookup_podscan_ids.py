@@ -23,20 +23,23 @@ BASE_URL = "https://podscan.fm/api/v1"
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "podcast_config.json")
 
 
-def search_podcast(name: str) -> list[dict]:
+def search_podcast(name: str, max_retries: int = 5) -> list[dict]:
     """Search Podscan for a podcast by name."""
-    resp = requests.get(
-        f"{BASE_URL}/podcasts",
-        headers={"Authorization": f"Bearer {PODSCAN_API_KEY}"},
-        params={"query": name, "limit": 5},
-        timeout=30,
-    )
-    if resp.status_code == 429:
-        time.sleep(5)
-        return search_podcast(name)
-    resp.raise_for_status()
-    data = resp.json()
-    return data.get("podcasts", data.get("data", []))
+    for attempt in range(max_retries):
+        resp = requests.get(
+            f"{BASE_URL}/podcasts",
+            headers={"Authorization": f"Bearer {PODSCAN_API_KEY}"},
+            params={"query": name, "limit": 5},
+            timeout=30,
+        )
+        if resp.status_code == 429:
+            time.sleep(5 * (attempt + 1))
+            continue
+        resp.raise_for_status()
+        data = resp.json()
+        return data.get("podcasts", data.get("data", []))
+
+    raise RuntimeError(f"Rate limited after {max_retries} retries searching for: {name}")
 
 
 def main():
