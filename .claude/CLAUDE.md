@@ -15,12 +15,14 @@ python backfill_dates.py              # Backfill missing upload_date fields
 
 ```
 project_root/
-├── podcast_summarizer.py          # Main script
+├── podcast_summarizer.py          # Main script (local pipeline)
 ├── podcast_urls.txt               # Podcast playlist URLs (one per line, # Name optional)
 ├── one_off_episodes.txt           # One-off episode URLs (auto-removed after processing)
-├── podcast_status.json            # Episode tracking state
+├── podcast_config.json            # Podcast metadata + Podscan ID mappings
+├── podcast_status.json            # Episode tracking state (old pipeline)
+├── podscan_status.json            # Episode tracking state (Podscan pipeline)
 ├── summarization_prompt.md        # Summary prompt template
-├── .env                           # API keys (ANTHROPIC_API_KEY required)
+├── .env                           # API keys (PODSCAN_API_KEY, etc.)
 ├── xiaoyuzhou_helper.py           # Chinese podcast platform support
 ├── generate_weekly_summary.py     # Weekly digest generator
 ├── generate_weekly_header_image.py # Header image generator
@@ -28,81 +30,93 @@ project_root/
 ├── test_daily_email.py            # Test script for daily emails
 ├── vercel.json                    # Vercel cron configuration
 ├── app/api/cron/daily-email/      # Daily email cron endpoint
+├── cloud/
+│   ├── functions/
+│   │   ├── podscan_processor/     # ★ Primary pipeline: Podscan → Claude → Git
+│   │   ├── discovery/             # Old: YouTube episode discovery
+│   │   └── webhook/               # Old: email reply webhook
+│   ├── processor/                 # Old: Cloud Run Job (Whisper + pyannote)
+│   └── scripts/
+│       ├── deploy_all.sh          # GCP deployment script
+│       └── lookup_podscan_ids.py  # Helper to find Podscan podcast IDs
 └── podcast_work/                  # Output directory
-    ├── [podcast_name]/[episode_name]/
-    │   ├── raw_podcast.mp3
-    │   ├── transcript_raw.md      # Before speaker ID
-    │   ├── transcript.md          # After speaker ID
-    │   └── summary.md
-    └── one off episodes/          # One-off episodes folder
+    └── [podcast_name]/[episode_name]/
+        ├── transcript.md          # Speaker-labeled transcript
+        └── summary.md             # AI-generated summary
 ```
 
-## Processing Pipeline
+## Processing Pipelines
 
-**Phase 1: Discovery** - Scans `podcast_urls.txt`, fetches new episodes, updates status
-**Phase 2: Selection** - Interactive menu to select episodes (`all`, `1,2,3`, or `cancel`)
-**Phase 3: Processing** - 4-step pipeline per episode:
+### Primary: Podscan Pipeline (automated, GCP Cloud Function)
 
-1. **Download** - Extract audio via yt-dlp → `raw_podcast.mp3`
-2. **Transcribe** → `transcript_raw.md`
-   - **< 3 hours**: MLX-Whisper (local GPU, free)
-   - **≥ 3 hours**: OpenAI Whisper API (cloud, ~$0.36/hr) - avoids memory issues
-3. **Speaker Diarization** - Adds SPEAKER_XX labels
-   - **< 3 hours**: pyannote (local, free)
-   - **≥ 3 hours**: AssemblyAI (cloud) - avoids memory issues
-4. **Identify Speakers** - Claude Haiku maps speaker labels to names → `transcript.md`
-5. **Summarize** - Claude Sonnet 4.5 (16K tokens) → `summary.md`
+Fully automated. Runs daily at 8 PM EST via Cloud Scheduler.
+
+**Flow:** Cloud Scheduler → `podscan-processor` Cloud Function → git push → Vercel auto-deploys
+
+1. **Discover** — Poll Podscan API for new episodes (last 3 days) across 20 mapped podcasts
+2. **Fetch transcript** — Podscan provides timestamped, speaker-labeled transcripts
+3. **Speaker names** — Replace SPEAKER_XX labels with real names from Podscan metadata (no LLM needed)
+4. **Summarize** — Claude Sonnet (16K tokens) → `summary.md`
+5. **Publish** — Git commit + push → Vercel auto-deploys to teahose.com
+
+**Cost:** ~$0.30/episode (Claude summarization only)
+
+**GCP resources:**
+- Cloud Function: `podscan-processor` (Gen 2, 512MB, 60-min timeout)
+- Cloud Scheduler: `podscan-daily` (8 PM EST daily)
+- Secrets: `PODSCAN_API_KEY`, `ANTHROPIC_API_KEY`, `GITHUB_TOKEN`, `SENDGRID_API_KEY`, `GOOGLE_API_KEY`
+- Service account: `podcast-processor@gen-lang-client-0111593271.iam.gserviceaccount.com`
+
+**Podscan API:**
+- Base URL: `https://podscan.fm/api/v1`
+- Auth: Bearer token in Authorization header
+- Key endpoints: `/podcasts/{id}/episodes`, `/episodes/{id}`, `/podcasts/search`
+- Rate limits: daily limit (returns 429 with `daily_limit_exceeded`), courtesy 2s delay between requests
+- Transcript field: `episode_transcript`
+- Speaker info: `metadata.hosts[].speaker_label`, `metadata.guests[].speaker_label`
+
+### Legacy: Local Pipeline (manual, Apple Silicon Mac)
+
+Still available for YouTube-only feeds and one-off episodes.
+
+1. **Download** — yt-dlp → `raw_podcast.mp3`
+2. **Transcribe** — MLX-Whisper (local, free) or OpenAI Whisper API (3hr+)
+3. **Diarize** — pyannote (local) or AssemblyAI (3hr+)
+4. **Speaker ID** — Claude Haiku
+5. **Summarize** — Claude Sonnet → `summary.md`
+
+## Podcast Config (`podcast_config.json`)
+
+Maps podcast names to hosts and Podscan IDs. 20 of 25 podcasts have Podscan IDs.
+
+**Not on Podscan** (need legacy pipeline or manual processing):
+- More or Less, Stanford AI Speaker Series, Theory Ventures Office Hours, Zhang Xiaoyun's
+
+Podscan IDs were sourced from the Panasonic project (`/Documents/Panasonic/newsletter-pipeline/src/types.ts` and `Vibing/podcasts/download_transcripts.py`).
 
 ## Configuration
 
-### Required: `.env`
+### `.env`
 ```
-ANTHROPIC_API_KEY=sk-ant-...     # Required for speaker ID + summarization
-```
-
-### Optional: `.env`
-```
-OPENAI_API_KEY=sk-proj-...       # For transcribing 3+ hour episodes
-ASSEMBLYAI_API_KEY=...           # For diarizing 3+ hour episodes
-HUGGINGFACE_TOKEN=hf_...         # For local pyannote diarization (<3 hr)
+PODSCAN_API_KEY=...              # For Podscan transcript fetching
 ```
 
-### Episode Status Values
-- `discovered` → `downloaded` → `transcribed` → `summarized`
-
-### Summary Format
-```markdown
-# [Episode Title](VIDEO_URL)
-
-**Podcast:** Name | **Date:** Month DD, YYYY | **Participants:** Speaker 1, Speaker 2
-**Region:** Western/Chinese | **Video ID:** ID | **Transcript:** [View](./transcript.md)
-
----
-[Summary with clickable timestamps: [[00:15:30]](VIDEO_URL&t=15m20s)]
+### GCP Secrets (for Cloud Function)
+```
+ANTHROPIC_API_KEY                # Claude summarization
+GITHUB_TOKEN                     # Git push (PAT with repo scope)
+SENDGRID_API_KEY                 # Processing report emails
+PODSCAN_API_KEY                  # Transcript fetching
+GOOGLE_API_KEY                   # Gemini (future use)
 ```
 
-## Key Features
-
-- **Free transcription** - MLX-Whisper runs locally on M1/M2/M3 Macs
-- **Smart suggestions** - New podcasts: latest episode only; existing: new episodes since last download
-- **Resumable** - Status saved after each step; safe to interrupt and resume
-- **Chinese support** - Xiaoyuzhou platform + auto title translation
-- **One-off episodes** - Add to `one_off_episodes.txt`; auto-removed after processing
-- **Parallel safety** - File-based locking prevents duplicate processing
-
-## Cost Estimates
-
-| Component | Cost |
-|-----------|------|
-| MLX-Whisper transcription (<3hr) | $0.00 (local) |
-| OpenAI Whisper API (≥3hr) | ~$0.36/hr (~$1.50 for 4hr episode) |
-| pyannote diarization (<3hr) | $0.00 (local) |
-| AssemblyAI diarization (≥3hr) | ~$0.30/hr |
-| Speaker ID (Haiku) | $0.05-0.20 |
-| Summarization (Sonnet 4.5) | $0.30-1.50 |
-| **Total per episode (<3hr)** | **~$0.35-1.75** |
-| **Total per episode (≥3hr)** | **~$2.50-4.50** |
-| Weekly summary + header image | ~$0.54-2.08 |
+### Vercel Environment Variables (for daily email)
+```
+SENDGRID_API_KEY                 # Email sending
+ANTHROPIC_API_KEY                # Episode descriptions
+GOOGLE_API_KEY                   # Header image generation (Gemini)
+CRON_SECRET                      # Secure cron endpoint
+```
 
 ## Web Publishing (teahose.com)
 
@@ -110,64 +124,53 @@ HUGGINGFACE_TOKEN=hf_...         # For local pyannote diarization (<3 hr)
 - Newsletter signups via Vercel KV (see `VERCEL_KV_SETUP.md`)
 - **SEO optimized**: Dynamic sitemap, JSON-LD schemas, SSG for all pages, canonical URLs
 - Base URL: `https://www.teahose.com` (with www for SEO consistency)
-- Files: `app/sitemap.ts`, `app/robots.ts`, `lib/schema.ts`, `app/not-found.tsx`
-
-### SEO Features
-- **Static Site Generation (SSG)**: Homepage and all podcast/episode pages pre-rendered
-- **Canonical tags**: All pages have explicit canonical URLs to prevent duplicate content
-- **Structured data**: PodcastEpisode and PodcastSeries JSON-LD schemas on all pages
-- **Sitemap**: Auto-generated at `/sitemap.xml` with all podcasts and episodes
-- **robots.txt**: Blocks transcript files and internal APIs from search engines
-- **404 page**: Custom not-found page for better UX
 
 ## Daily Email Digest
 
 Automatic daily emails sent to newsletter subscribers at 6 AM EST (only if new episodes exist).
 
-### How It Works
 - **Vercel Cron** triggers `/api/cron/daily-email` daily at 6 AM EST
-- Checks for episodes uploaded in the last 24 hours
-- If episodes exist, generates pithy descriptions using Claude Sonnet
-- Creates header image using Gemini (Nano Banana Pro)
+- Generates pithy descriptions using Claude Sonnet
+- Creates header image using Gemini (`gemini-3-pro-image-preview`)
 - Sends HTML email via SendGrid to all Vercel KV subscribers
-- Email includes: header image, episode cards with title, podcast, participants, and description
-
-### Required Environment Variables (Vercel)
-```
-SENDGRID_API_KEY=SG.xxx           # SendGrid API key
-ANTHROPIC_API_KEY=sk-ant-xxx      # For generating descriptions
-GOOGLE_API_KEY=xxx                # For header image generation
-CRON_SECRET=xxx                   # Optional: secure cron endpoint
-```
 
 ### Testing Locally
 ```bash
 python test_daily_email.py altmbr@gmail.com   # Send test email
 ```
 
-### Manual Trigger
-Visit `https://www.teahose.com/api/cron/daily-email` to trigger manually.
+## GCP Deployment
 
-## Dependencies
+```bash
+cd cloud && bash scripts/deploy_all.sh
+```
 
+Steps 1-5: Legacy pipeline (Docker image, Cloud Run Job, Discovery, Webhook, Scheduler)
+Steps 6-7: Podscan pipeline (Cloud Function, Scheduler)
+
+**Manual trigger:**
+```bash
+curl 'https://us-central1-gen-lang-client-0111593271.cloudfunctions.net/podscan-processor?dry_run=true'
 ```
-mlx-whisper anthropic python-dotenv pyannote.audio yt-dlp openai assemblyai
+
+**Check logs:**
+```bash
+gcloud functions logs read podscan-processor --region us-central1 --project gen-lang-client-0111593271 --limit 30
 ```
-System: `ffmpeg`, `python3.8+`, Apple Silicon recommended
 
 ## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
-| `ANTHROPIC_API_KEY not set` | Add to `.env` |
-| `mlx-whisper not found` | `pip install mlx-whisper` |
-| `yt-dlp not found` | `pip install yt-dlp` or `brew install yt-dlp` |
-| `ffmpeg not found` | `brew install ffmpeg` |
-| Script hangs | Waiting for input in Phase 2; Ctrl+C to cancel |
-| Duplicate downloads | Delete stale `processing.lock` |
+| Podscan daily limit exceeded | Wait 24h for reset; check with `curl` |
+| GitHub token expired | Generate new PAT at github.com/settings/tokens, update GCP secret |
+| Function import errors | Check `__pycache__` isn't in deploy source; redeploy |
+| No episodes processed | Check `podscan_status.json` and `LOOKBACK_DAYS` env var |
+| Summary format wrong | Verify `summary.md` header matches `lib/schema.ts` parser |
 
 ## Customization
 
 - **Summary format**: Edit `summarization_prompt.md`
 - **Whisper model**: Change `WHISPER_MODEL` in `podcast_summarizer.py` (tiny/base/small/medium/large)
-- **Summary length**: Modify `max_tokens` in `summarize_transcript_with_ai()` (default: 16000)
+- **Summary length**: Modify `max_tokens` in summarize functions (default: 16000)
+- **Lookback window**: Set `LOOKBACK_DAYS` env var (default: 3)
