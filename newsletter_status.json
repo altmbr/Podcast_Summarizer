@@ -8,6 +8,15 @@
           "processed_at": "2026-03-15T17:11:12Z"
         }
       }
+    },
+    "PitchBook": {
+      "episodes": {
+        "7464a3da61dcca17": {
+          "subject": "Thank you for subscribing!",
+          "status": "summarized",
+          "processed_at": "2026-03-15T17:24:23Z"
+        }
+      }
     }
   }
 }
