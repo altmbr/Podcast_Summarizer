@@ -220,35 +220,62 @@ Summary:`
   }
 }
 
-// OLD STYLE: Panel-based header image (set USE_COMPOSITE_HEADER = false to use this)
-async function generatePanelHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
+/**
+ * Generate an image via Gemini and return a base64 data URL, or null on failure.
+ */
+async function generateGeminiImage(prompt: string, logLabel: string): Promise<string | null> {
   const googleApiKey = process.env.GOOGLE_API_KEY
   if (!googleApiKey) {
     console.log('GOOGLE_API_KEY not set - skipping header image')
     return null
   }
 
-  // Extract key insights from episode titles (max 60 chars)
+  try {
+    const { GoogleGenAI } = await import('@google/genai')
+    const ai = new GoogleGenAI({ apiKey: googleApiKey })
+
+    const response = await ai.models.generateContent({
+      model: 'gemini-3-pro-image-preview',
+      contents: [prompt],
+    })
+
+    const candidates = response.candidates || []
+    for (const candidate of candidates) {
+      const parts = candidate.content?.parts || []
+      for (const part of parts) {
+        if (part.inlineData) {
+          const mimeType = part.inlineData.mimeType || 'image/png'
+          const data = part.inlineData.data
+          console.log(`${logLabel} generated successfully`)
+          return `data:${mimeType};base64,${data}`
+        }
+      }
+    }
+
+    console.log('No image data in Gemini response')
+    return null
+  } catch (error) {
+    console.error(`Failed to generate ${logLabel}:`, error)
+    return null
+  }
+}
+
+// OLD STYLE: Panel-based header image (set USE_COMPOSITE_HEADER = false to use this)
+async function generatePanelHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
   const topics: string[] = []
   for (const ep of episodes.slice(0, 6)) {
     let title = ep.title
 
-    // Remove person/company prefixes (everything before colon)
     title = title.replace(/^[^:]+:\s*/, '')
-
-    // Take first meaningful part before pipe/dash
     title = title.split(/\s*[\|\-]\s*/)[0]
 
-    // Smart compression: keep the core insight
     if (title.length > 60) {
-      // Remove verbose question words and filler
       title = title
         .replace(/^(Why|How|What|When|Where|Are|Is|Do|Does|Can|Will)\s+/i, '')
         .replace(/\b(the|a|an|and|or|but|in|on|at|to|for|of|with|from|that|this|these|those)\b/gi, '')
         .replace(/\s+/g, ' ')
         .trim()
 
-      // If still too long, take first 60 chars at word boundary
       if (title.length > 60) {
         title = title.slice(0, 60).replace(/\s+\S*$/, '').trim()
       }
@@ -258,8 +285,6 @@ async function generatePanelHeaderImage(episodes: Episode[], dateStr: string): P
   }
 
   const numTopics = topics.length
-
-  // Determine layout
   let layout: string
   let panelDesc: string
 
@@ -269,17 +294,13 @@ async function generatePanelHeaderImage(episodes: Episode[], dateStr: string): P
   } else if (numTopics === 2) {
     layout = '2 panels stacked vertically'
     panelDesc = `Panel 1: "${topics[0]}"\nPanel 2: "${topics[1]}"`
-  } else if (numTopics === 3) {
-    layout = '3 panels stacked vertically'
-    panelDesc = topics.map((t, i) => `Panel ${i + 1}: "${t}"`).join('\n')
-  } else if (numTopics === 4) {
-    layout = '4 panels in a 2x2 grid'
-    panelDesc = topics.map((t, i) => `Panel ${i + 1}: "${t}"`).join('\n')
-  } else if (numTopics === 5) {
-    layout = '5 panels: 1 wide panel at top spanning full width, then 2 rows of 2 panels each below'
-    panelDesc = topics.map((t, i) => `Panel ${i + 1}: "${t}"`).join('\n')
   } else {
-    layout = '6 panels in a 2x3 grid (2 columns, 3 rows)'
+    const layoutMap: Record<number, string> = {
+      3: '3 panels stacked vertically',
+      4: '4 panels in a 2x2 grid',
+      5: '5 panels: 1 wide panel at top spanning full width, then 2 rows of 2 panels each below',
+    }
+    layout = layoutMap[numTopics] || '6 panels in a 2x3 grid (2 columns, 3 rows)'
     panelDesc = topics.map((t, i) => `Panel ${i + 1}: "${t}"`).join('\n')
   }
 
@@ -300,46 +321,17 @@ REQUIREMENTS:
 - Portrait orientation (taller than wide)
 - Vintage newspaper comic aesthetic`
 
-  try {
-    const { GoogleGenAI } = await import('@google/genai')
-    const ai = new GoogleGenAI({ apiKey: googleApiKey })
-
-    // Use gemini-3-pro-image-preview (Nano Banana Pro) - same model that works in test script
-    const response = await ai.models.generateContent({
-      model: 'gemini-3-pro-image-preview',
-      contents: [prompt],
-    })
-
-    // Extract and return the generated image as base64 data URL
-    const candidates = response.candidates || []
-    for (const candidate of candidates) {
-      const parts = candidate.content?.parts || []
-      for (const part of parts) {
-        if (part.inlineData) {
-          const mimeType = part.inlineData.mimeType || 'image/png'
-          const data = part.inlineData.data
-          console.log('Image generated successfully')
-          return `data:${mimeType};base64,${data}`
-        }
-      }
-    }
-
-    console.log('No image data in Gemini response')
-    return null
-  } catch (error) {
-    console.error('Failed to generate header image:', error)
-    return null
-  }
+  return generateGeminiImage(prompt, 'Panel header image')
 }
 
 // NEW STYLE: Composite header image with unified scene and nametags
 async function generateVisualConcept(episodes: Episode[]): Promise<string> {
   const anthropicKey = process.env.ANTHROPIC_API_KEY
+  const fallback = 'A collage of tech industry themes including AI, business strategy, and innovation.'
   if (!anthropicKey) {
-    return 'A collage of tech industry themes including AI, business strategy, and innovation.'
+    return fallback
   }
 
-  // Format episode information for Claude
   const episodesText = episodes.slice(0, 5).map((ep, i) => {
     const participantsStr = ep.participants ? ` [${ep.participants}]` : ''
     return `${i + 1}. ${ep.title}${participantsStr}\n   ${ep.description || ''}`
@@ -376,20 +368,13 @@ Describe the unified composition in 3-4 sentences. Be specific about what visual
     })
 
     const data = await response.json()
-    return data.content?.[0]?.text?.trim() || 'A collage of tech industry themes including AI, business strategy, and innovation.'
+    return data.content?.[0]?.text?.trim() || fallback
   } catch {
-    return 'A collage of tech industry themes including AI, business strategy, and innovation.'
+    return fallback
   }
 }
 
 async function generateCompositeHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
-  const googleApiKey = process.env.GOOGLE_API_KEY
-  if (!googleApiKey) {
-    console.log('GOOGLE_API_KEY not set - skipping header image')
-    return null
-  }
-
-  // Generate visual concept using Claude
   console.log('Generating visual concept with Claude...')
   const visualConcept = await generateVisualConcept(episodes)
   console.log('Visual concept:', visualConcept.slice(0, 100) + '...')
@@ -437,43 +422,14 @@ OVERALL AESTHETIC:
 - Professional print quality with sharp lines
 - Perfect for email newsletter banner`
 
-  try {
-    const { GoogleGenAI } = await import('@google/genai')
-    const ai = new GoogleGenAI({ apiKey: googleApiKey })
-
-    const response = await ai.models.generateContent({
-      model: 'gemini-3-pro-image-preview',
-      contents: [prompt],
-    })
-
-    const candidates = response.candidates || []
-    for (const candidate of candidates) {
-      const parts = candidate.content?.parts || []
-      for (const part of parts) {
-        if (part.inlineData) {
-          const mimeType = part.inlineData.mimeType || 'image/png'
-          const data = part.inlineData.data
-          console.log('Composite image generated successfully')
-          return `data:${mimeType};base64,${data}`
-        }
-      }
-    }
-
-    console.log('No image data in Gemini response')
-    return null
-  } catch (error) {
-    console.error('Failed to generate composite header image:', error)
-    return null
-  }
+  return generateGeminiImage(prompt, 'Composite header image')
 }
 
-// Router function to pick header image style based on feature flag
 async function generateHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
   if (USE_COMPOSITE_HEADER) {
     return generateCompositeHeaderImage(episodes, dateStr)
-  } else {
-    return generatePanelHeaderImage(episodes, dateStr)
   }
+  return generatePanelHeaderImage(episodes, dateStr)
 }
 
 function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boolean, unsubscribeToken: string): string {
@@ -653,7 +609,6 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
 }
 
 function buildMimeEmail(from: string, fromName: string, to: string, subject: string, htmlContent: string, imageBase64: string | null): string {
-  const boundary = `----=_Part_${Date.now()}`
   const relatedBoundary = `----=_Related_${Date.now()}`
 
   const headers = [

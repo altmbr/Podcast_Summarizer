@@ -155,13 +155,6 @@ Summary:"""
         return "New episode available."
 
 
-# Feature flag for header image style
-# true = new composite style with unified scene, nametags, worn paper texture
-# false = old panel-based style with separate panels per episode
-# To revert: set USE_COMPOSITE_HEADER = False
-USE_COMPOSITE_HEADER = True
-
-
 def generate_visual_concept(episodes):
     """Use Claude to generate a unified visual concept from all episodes."""
     if not ANTHROPIC_API_KEY:
@@ -296,113 +289,9 @@ OVERALL AESTHETIC:
         return None
 
 
-def generate_panel_header_image(episodes, date_str, output_path):
-    """OLD STYLE: Panel-based header image (set USE_COMPOSITE_HEADER = False to use this)."""
-    try:
-        from google import genai
-    except ImportError:
-        print("Installing google-genai...")
-        import subprocess
-        subprocess.run(["pip", "install", "-q", "google-genai"], check=True)
-        from google import genai
-
-    google_api_key = os.environ.get("GOOGLE_API_KEY")
-    if not google_api_key:
-        print("Warning: GOOGLE_API_KEY not set")
-        return None
-
-    # Extract topics from episode titles
-    topics = []
-    for ep in episodes[:6]:
-        title = ep['title']
-        title = re.sub(r'^.*?:\s*', '', title)
-        title = re.split(r'\s*[\|\-]\s*', title)[0]
-        if len(title) > 50:
-            title = title[:47] + "..."
-        topics.append(title)
-
-    num_topics = len(topics)
-
-    # Determine layout
-    if num_topics == 1:
-        layout = "1 large panel filling the entire image"
-        panel_desc = f'Single Panel: "{topics[0]}"'
-    elif num_topics == 2:
-        layout = "2 panels stacked vertically"
-        panel_desc = f'Panel 1: "{topics[0]}"\nPanel 2: "{topics[1]}"'
-    elif num_topics == 3:
-        layout = "3 panels stacked vertically"
-        panel_desc = f'Panel 1: "{topics[0]}"\nPanel 2: "{topics[1]}"\nPanel 3: "{topics[2]}"'
-    elif num_topics == 4:
-        layout = "4 panels in a 2x2 grid"
-        panel_desc = '\n'.join([f'Panel {i+1}: "{t}"' for i, t in enumerate(topics)])
-    elif num_topics == 5:
-        layout = "5 panels: 1 wide panel at top spanning full width, then 2 rows of 2 panels each below"
-        panel_desc = '\n'.join([f'Panel {i+1}: "{t}"' for i, t in enumerate(topics)])
-    else:
-        layout = "6 panels in a 2x3 grid (2 columns, 3 rows)"
-        panel_desc = '\n'.join([f'Panel {i+1}: "{t}"' for i, t in enumerate(topics)])
-
-    prompt = f"""Create a vintage 1950s newspaper-style comic header for a daily podcast digest.
-
-LAYOUT: {layout} in PORTRAIT format (taller than wide).
-
-STYLE: Vintage 1950s Roy Lichtenstein pop art aesthetic with these specific characteristics:
-- BACKGROUND: Warm aged cream paper (#f7f4f0) with subtle halftone dot texture
-- BORDERS: Thick black outlines (3px) around all panels
-- COLORS: Bold pop art accents - cardinal red (#c41e3a), golden yellow (#f4c430), deep blue (#2d5a7b)
-- SHADOWS: Black comic drop shadows (not brown)
-- TEXTURE: Ben Day halftone dots for shading, stipple patterns
-- OVERALL: Clean vintage newspaper comic with warm base + bold accent colors
-
-PANEL CONTENT (each panel must have):
-- Visual metaphor representing the topic (characters, objects, symbols)
-- Bold sans-serif UPPERCASE text labels
-- Each panel uses one bold accent color (rotate red/yellow/blue)
-- Thick black panel borders
-- 1950s comic book character style with halftone shading
-
-TOPICS FOR {num_topics} PANELS:
-{panel_desc}
-
-NO FOOTER - illustration fills the entire image
-
-REQUIREMENTS:
-- All {num_topics} panels clearly visible and equal-sized
-- Warm cream aged paper background throughout
-- Bold red/yellow/blue accents only (no orange, no bright green)
-- All text UPPERCASE and highly legible
-- Portrait orientation (taller than wide)
-- Professional vintage newspaper comic quality"""
-
-    try:
-        client = genai.Client(api_key=google_api_key)
-
-        response = client.models.generate_content(
-            model="gemini-3-pro-image-preview",
-            contents=[prompt],
-        )
-
-        for part in response.parts:
-            if part.inline_data is not None:
-                image = part.as_image()
-                image.save(str(output_path))
-                print(f"Panel header image generated: {output_path}")
-                return output_path
-
-        print("Warning: No image data in response")
-        return None
-    except Exception as e:
-        print(f"Warning: Could not generate panel header image: {e}")
-        return None
-
-
 def generate_header_image(episodes, date_str, output_path):
-    """Router function to pick header image style based on feature flag."""
-    if USE_COMPOSITE_HEADER:
-        return generate_composite_header_image(episodes, date_str, output_path)
-    else:
-        return generate_panel_header_image(episodes, date_str, output_path)
+    """Generate composite header image with unified scene and nametags."""
+    return generate_composite_header_image(episodes, date_str, output_path)
 
 
 def generate_email_html(episodes, date_str, header_image_path=None):

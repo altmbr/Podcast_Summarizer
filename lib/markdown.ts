@@ -2,20 +2,44 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import { EpisodeContent } from './types';
 
+/**
+ * Extract metadata fields from markdown content using **Field:** format.
+ * Single source of truth for metadata extraction patterns.
+ */
+function extractMetadataFromContent(content: string): any {
+  const metadata: any = {};
+
+  const titleMatch = content.match(/^#\s*\[?([^\]\n]+)\]?/m);
+  if (titleMatch) metadata.title = titleMatch[1].trim();
+
+  const fieldPatterns: Record<string, RegExp> = {
+    podcast: /\*\*Podcast:\*\*\s*([^\n]+)/,
+    date: /\*\*Date:\*\*\s*([^\n]+)/,
+    participants: /\*\*Participants:\*\*\s*([^\n]+)/,
+    region: /\*\*Region:\*\*\s*([^\n]+)/,
+    videoId: /\*\*Video ID:\*\*\s*([^\n]+)/,
+    videoUrl: /\*\*Video URL:\*\*\s*([^\n]+)/,
+  };
+
+  for (const [key, pattern] of Object.entries(fieldPatterns)) {
+    const match = content.match(pattern);
+    if (match) metadata[key] = match[1].trim();
+  }
+
+  return metadata;
+}
+
 export function parseMarkdownFile(filePath: string): EpisodeContent | null {
   try {
     const fileContent = fs.readFileSync(filePath, 'utf-8');
 
-    // Parse frontmatter if it exists
     const { data, content } = matter(fileContent);
-
-    // Extract metadata from the markdown header
     const metadata = extractMetadataFromContent(content);
 
     return {
       metadata: {
         ...metadata,
-        ...data, // Override with frontmatter if present
+        ...data,
       },
       content,
     };
@@ -23,37 +47,6 @@ export function parseMarkdownFile(filePath: string): EpisodeContent | null {
     console.error('Error reading markdown file:', filePath, error);
     return null;
   }
-}
-
-function extractMetadataFromContent(content: string): any {
-  const metadata: any = {};
-
-  // Extract title from # heading or **Podcast:** format
-  const titleMatch = content.match(/^#\s*\[?([^\]\n]+)\]?/m);
-  if (titleMatch) {
-    metadata.title = titleMatch[1].trim();
-  }
-
-  // Extract fields from **Field:** format
-  const podcastMatch = content.match(/\*\*Podcast:\*\*\s*([^\n]+)/);
-  if (podcastMatch) metadata.podcast = podcastMatch[1].trim();
-
-  const dateMatch = content.match(/\*\*Date:\*\*\s*([^\n]+)/);
-  if (dateMatch) metadata.date = dateMatch[1].trim();
-
-  const participantsMatch = content.match(/\*\*Participants:\*\*\s*([^\n]+)/);
-  if (participantsMatch) metadata.participants = participantsMatch[1].trim();
-
-  const regionMatch = content.match(/\*\*Region:\*\*\s*([^\n]+)/);
-  if (regionMatch) metadata.region = regionMatch[1].trim();
-
-  const videoIdMatch = content.match(/\*\*Video ID:\*\*\s*([^\n]+)/);
-  if (videoIdMatch) metadata.videoId = videoIdMatch[1].trim();
-
-  const videoUrlMatch = content.match(/\*\*Video URL:\*\*\s*([^\n]+)/);
-  if (videoUrlMatch) metadata.videoUrl = videoUrlMatch[1].trim();
-
-  return metadata;
 }
 
 export function getMarkdownContent(filePath: string): string {
@@ -66,44 +59,15 @@ export function getMarkdownContent(filePath: string): string {
 }
 
 export function splitMetadataFromContent(markdown: string): { metadata: any; content: string } {
-  // Split by --- separator
   const parts = markdown.split(/^---$/m);
 
   if (parts.length < 2) {
-    // No separator found, return empty metadata
     return { metadata: {}, content: markdown };
   }
 
   const metadataSection = parts[0];
   const contentSection = parts.slice(1).join('---').trim();
-
-  // Extract metadata from the header section
-  const metadata: any = {};
-
-  // Extract title from # heading
-  const titleMatch = metadataSection.match(/^#\s*\[?([^\]\n]+)\]?/m);
-  if (titleMatch) {
-    metadata.title = titleMatch[1].trim();
-  }
-
-  // Extract fields from **Field:** format
-  const podcastMatch = metadataSection.match(/\*\*Podcast:\*\*\s*([^\n]+)/);
-  if (podcastMatch) metadata.podcast = podcastMatch[1].trim();
-
-  const dateMatch = metadataSection.match(/\*\*Date:\*\*\s*([^\n]+)/);
-  if (dateMatch) metadata.date = dateMatch[1].trim();
-
-  const participantsMatch = metadataSection.match(/\*\*Participants:\*\*\s*([^\n]+)/);
-  if (participantsMatch) metadata.participants = participantsMatch[1].trim();
-
-  const regionMatch = metadataSection.match(/\*\*Region:\*\*\s*([^\n]+)/);
-  if (regionMatch) metadata.region = regionMatch[1].trim();
-
-  const videoIdMatch = metadataSection.match(/\*\*Video ID:\*\*\s*([^\n]+)/);
-  if (videoIdMatch) metadata.videoId = videoIdMatch[1].trim();
-
-  const videoUrlMatch = metadataSection.match(/\*\*Video URL:\*\*\s*([^\n]+)/);
-  if (videoUrlMatch) metadata.videoUrl = videoUrlMatch[1].trim();
+  const metadata = extractMetadataFromContent(metadataSection);
 
   return { metadata, content: contentSection };
 }

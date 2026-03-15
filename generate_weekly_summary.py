@@ -6,6 +6,7 @@ Filters by upload_date (when the podcast was published), not discovered_date.
 
 import os
 import json
+import re
 import sys
 from pathlib import Path
 from datetime import datetime, timedelta
@@ -167,7 +168,6 @@ def get_episodes_from_last_week(status_data, days=7, debug=False):
 
 def sanitize_filename(filename):
     """Sanitize a string to be used as a valid filename"""
-    import re
     filename = re.sub(r'[<>:"/\\|?*]', '_', filename)
     filename = filename.strip('. ')
     return filename
@@ -383,9 +383,7 @@ def generate_html_version(md_path, html_path, episodes, start_date, end_date, im
     else:
         summary_content = content
 
-    # Convert markdown to HTML using markdown library
-    # Note: We'll do some preprocessing to handle the nested structure better
-    import re
+    # Preprocess to handle the nested structure better
 
     # The markdown library struggles with the format:
     # 1. **Topic**
@@ -507,7 +505,6 @@ def main():
 
     # Get episodes from last week
     print("\n→ Finding episodes from the last 7 days...")
-    import sys
     debug = '--debug' in sys.argv
     if debug:
         print(f"   Debug mode enabled")

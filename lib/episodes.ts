@@ -42,14 +42,12 @@ export async function getAllPodcasts(): Promise<Podcast[]> {
     for (const podcastName of podcastDirs) {
       if (podcastName.startsWith('.')) continue
 
-      const podcastPath = join(PODCAST_WORK_DIR, podcastName)
       const episodes = await getEpisodesForPodcast(podcastName)
 
       if (episodes.length > 0) {
         podcasts.push({
           name: podcastName,
           title: podcastName,
-          description: undefined,
           episodes,
         })
       }
@@ -85,21 +83,13 @@ export async function getEpisodesForPodcast(podcastName: string): Promise<Episod
 
   // Sort by date, newest first (episodes without dates go to bottom)
   episodes.sort((a, b) => {
-    // Episodes without dates go to the bottom
-    if (!a.date && !b.date) return 0
-    if (!a.date) return 1
-    if (!b.date) return -1
-
-    // Use robust date parsing for proper chronological comparison
     const dateA = parseEpisodeDate(a.date)
     const dateB = parseEpisodeDate(b.date)
 
-    // Handle unparseable dates
     if (!dateA && !dateB) return 0
     if (!dateA) return 1
     if (!dateB) return -1
 
-    // Sort newest first (descending order)
     return dateB.getTime() - dateA.getTime()
   })
 

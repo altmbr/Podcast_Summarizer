@@ -20,8 +20,6 @@ PODCAST_STATUS_FILE = Path("./podcast_status.json")
 PODCAST_WORK_DIR = Path("./podcast_work")
 DAILY_EMAILS_DIR = Path("./daily_emails")
 CLAUDE_MODEL = "claude-sonnet-4-5-20250929"
-CLAUDE_HAIKU_MODEL = "claude-haiku-4-20250414"  # Cheaper model for short descriptions
-OPENAI_IMAGE_MODEL = "gpt-image-1"
 
 def load_podcast_status():
     """Load podcast status from JSON file"""
@@ -113,7 +111,7 @@ def extract_key_themes_from_summary(summary_path):
         return None
 
 def generate_episode_descriptions(episodes):
-    """Generate pithy 1-2 sentence descriptions using Claude Haiku (cost-efficient)"""
+    """Generate pithy 1-sentence descriptions using Claude Sonnet."""
     from anthropic import Anthropic
 
     client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
@@ -121,14 +119,12 @@ def generate_episode_descriptions(episodes):
     descriptions = {}
 
     for episode in episodes:
-        # Extract key themes from summary (NOT transcript) for efficiency
         summary_excerpt = extract_key_themes_from_summary(episode['summary_path'])
 
         if not summary_excerpt:
             descriptions[episode['video_id']] = "New episode available."
             continue
 
-        # Use Sonnet for high-quality pithy descriptions
         prompt = f"""Write ONE pithy sentence (max 15 words) capturing the most interesting insight from this podcast episode. Be specific, punchy, intriguing.
 
 Episode: {episode['title']}
@@ -155,13 +151,11 @@ def generate_header_image(episodes, date_str, output_path):
     """Generate a header image showing today's topics using Google Nano Banana Pro"""
     try:
         from google import genai
-        from google.genai import types
     except ImportError:
         print("⚠ Installing google-genai...")
         import subprocess
         subprocess.run(["pip", "install", "-q", "google-genai"], check=True)
         from google import genai
-        from google.genai import types
 
     if not episodes:
         return None

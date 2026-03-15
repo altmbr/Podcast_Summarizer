@@ -23,8 +23,6 @@ from git import Repo
 PODSCAN_API_KEY = os.environ.get("PODSCAN_API_KEY")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
-AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
-AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
 NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "altmbr@gmail.com")
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/altmbr/Podcast_Summarizer/main"
 LOOKBACK_DAYS = int(os.environ.get("LOOKBACK_DAYS", "3"))
@@ -269,8 +267,8 @@ def build_speaker_map(metadata: dict) -> dict:
     return speaker_map
 
 
-def extract_names_from_metadata(metadata: dict) -> set[str]:
-    """Extract all real speaker names from Podscan metadata."""
+def extract_participants(metadata: dict, podcast_name: str, config: dict) -> str:
+    """Extract participant names from metadata, falling back to config hosts."""
     names = set()
 
     for host in metadata.get("hosts", []):
@@ -284,13 +282,6 @@ def extract_names_from_metadata(metadata: dict) -> set[str]:
     for name in metadata.get("speakers", {}).values():
         if name and not name.startswith("SPEAKER_"):
             names.add(name)
-
-    return names
-
-
-def extract_participants(metadata: dict, podcast_name: str, config: dict) -> str:
-    """Extract participant names from metadata, falling back to config hosts."""
-    names = extract_names_from_metadata(metadata)
 
     if not names:
         hosts = config.get(podcast_name, {}).get("hosts", [])
@@ -510,26 +501,28 @@ def send_processing_report(processed: list[dict], failed: list[dict]):
         print("No AWS credentials, skipping email report")
         return
 
-    html = ["<html><body>"]
-    html.append("<h2>Podscan Processor Report</h2>")
-    html.append(f"<p>Processed {len(processed)}/{total} episodes</p>")
+    html_parts = [
+        "<html><body>",
+        "<h2>Podscan Processor Report</h2>",
+        f"<p>Processed {len(processed)}/{total} episodes</p>",
+    ]
 
     if processed:
-        html.append("<h3>Processed:</h3><ul>")
+        html_parts.append("<h3>Processed:</h3><ul>")
         for ep in processed:
-            html.append(f"<li><strong>[{ep['podcast_name']}]</strong> {ep['title']}</li>")
-        html.append("</ul>")
+            html_parts.append(f"<li><strong>[{ep['podcast_name']}]</strong> {ep['title']}</li>")
+        html_parts.append("</ul>")
 
     if failed:
-        html.append("<h3>Failed:</h3><ul>")
+        html_parts.append("<h3>Failed:</h3><ul>")
         for ep in failed:
-            html.append(
+            html_parts.append(
                 f"<li><strong>[{ep['podcast_name']}]</strong> {ep['title']}"
                 f"<br/><small>{ep.get('error', 'Unknown error')}</small></li>"
             )
-        html.append("</ul>")
+        html_parts.append("</ul>")
 
-    html.append("</body></html>")
+    html_parts.append("</body></html>")
 
     subject = f"Podscan: {len(processed)} processed"
     if failed:
@@ -544,7 +537,7 @@ def send_processing_report(processed: list[dict], failed: list[dict]):
             Destination={"ToAddresses": [NOTIFICATION_EMAIL]},
             Message={
                 "Subject": {"Data": subject},
-                "Body": {"Html": {"Data": "\n".join(html)}},
+                "Body": {"Html": {"Data": "\n".join(html_parts)}},
             },
         )
     except Exception as e:
