@@ -1,2 +1,14 @@
 {
+  "email@stratechery.com": {
+    "name": "Stratechery",
+    "author": "Ben Thompson"
+  },
+  "connie@strictlyvc.com": {
+    "name": "StrictlyVC",
+    "author": "Connie Loizos"
+  },
+  "99d@substack.com": {
+    "name": "99d",
+    "author": "Yoni Rechtman"
+  }
 }
