@@ -10,5 +10,21 @@
   "99d@substack.com": {
     "name": "99d",
     "author": "Yoni Rechtman"
+  },
+  "newcomer@substack.com": {
+    "name": "Newcomer",
+    "author": "Eric Newcomer"
+  },
+  "mollysoshea@substack.com": {
+    "name": "Sourcery Newsletter",
+    "author": "Molly O'Shea"
+  },
+  "thevccorner@substack.com": {
+    "name": "The VC Corner",
+    "author": "The VC Corner"
+  },
+  "data@pitchbook.com": {
+    "name": "PitchBook",
+    "author": "PitchBook"
   }
 }
