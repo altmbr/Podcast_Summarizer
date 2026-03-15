@@ -1,7 +1,7 @@
 """
 Podscan Processor Cloud Function
 Fully automated: discover new episodes via Podscan API, summarize with Claude, push to git.
-Triggered by Cloud Scheduler daily at 1 PM EST.
+Triggered by Cloud Scheduler daily at 8 PM EST.
 """
 
 import functions_framework
@@ -368,7 +368,7 @@ def add_youtube_timestamps(summary: str, video_id: str) -> str:
             seconds = int(parts[0]) * 60 + int(parts[1])
         else:
             return match.group(0)
-        return f"[[{ts}]](https://youtube.com/watch?v={video_id}&t={seconds})"
+        return f"[{ts}](https://youtube.com/watch?v={video_id}&t={seconds})"
 
     return re.sub(r'\[(\d{1,2}:\d{2}:\d{2})\]', timestamp_to_link, summary)
 
