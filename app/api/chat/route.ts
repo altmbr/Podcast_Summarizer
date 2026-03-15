@@ -1,7 +1,4 @@
-import { GoogleGenerativeAI } from '@google/generative-ai'
 import { NextRequest, NextResponse } from 'next/server'
-
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || '')
 
 interface Message {
   role: 'user' | 'assistant'
@@ -21,18 +18,14 @@ export async function POST(request: NextRequest) {
     const body: ChatRequest = await request.json()
     const { message, transcript, episodeTitle, episodeSummary, conversationHistory } = body
 
-    if (!process.env.GOOGLE_API_KEY) {
+    if (!process.env.ANTHROPIC_API_KEY) {
       return NextResponse.json(
-        { error: 'Google API key not configured' },
+        { error: 'Anthropic API key not configured' },
         { status: 500 }
       )
     }
 
-    // Use Gemini 2.0 Flash for fast, efficient responses
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' })
-
-    // Build context-aware prompt
-    const systemContext = `You are a helpful AI assistant analyzing a podcast episode.
+    const systemPrompt = `You are a helpful AI assistant analyzing a podcast episode.
 
 Episode Title: ${episodeTitle}
 
@@ -49,25 +42,40 @@ Instructions:
 - Reference specific speakers when answering
 - Format timestamps as [HH:MM:SS] when citing specific moments`
 
-    // Build conversation history for context
-    const conversationContext = conversationHistory
-      .slice(-10) // Last 10 messages for context
-      .map(msg => `${msg.role === 'user' ? 'User' : 'Assistant'}: ${msg.content}`)
-      .join('\n\n')
+    const messages = [
+      ...conversationHistory.slice(-10).map(msg => ({
+        role: msg.role as 'user' | 'assistant',
+        content: msg.content,
+      })),
+      { role: 'user' as const, content: message },
+    ]
 
-    const fullPrompt = `${systemContext}
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': process.env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 2048,
+        system: systemPrompt,
+        messages,
+      }),
+    })
 
-Previous Conversation:
-${conversationContext}
+    if (!response.ok) {
+      const errorText = await response.text()
+      console.error('Anthropic API error:', response.status, errorText)
+      return NextResponse.json(
+        { error: 'Failed to generate response' },
+        { status: 500 }
+      )
+    }
 
-User Question: ${message}
-
-Please provide a helpful, accurate answer based on the transcript.`
-
-    // Generate response
-    const result = await model.generateContent(fullPrompt)
-    const response = result.response
-    const text = response.text()
+    const data = await response.json()
+    const text = data.content?.[0]?.text || 'No response generated.'
 
     return NextResponse.json({ response: text })
   } catch (error) {

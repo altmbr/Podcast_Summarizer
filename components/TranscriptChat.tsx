@@ -364,7 +364,7 @@ export default function TranscriptChat({ transcript, episodeTitle, episodeSummar
               }}
               className="mt-2"
             >
-              Powered by Gemini 2.0 Flash
+              Powered by Claude Sonnet
             </p>
           </div>
         </div>
