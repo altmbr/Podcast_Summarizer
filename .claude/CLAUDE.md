@@ -102,9 +102,13 @@ Podscan IDs were sourced from the Panasonic project (`/Documents/Panasonic/newsl
 
 ## Configuration
 
-### `.env`
+### `.env` (local development)
 ```
-PODSCAN_API_KEY=...              # For Podscan transcript fetching
+PODSCAN_API_KEY=...              # Podscan transcript fetching
+ANTHROPIC_API_KEY=...            # Claude summarization + descriptions
+GOOGLE_API_KEY=...               # Gemini header image generation
+AWS_ACCESS_KEY_ID=...            # AWS SES email sending
+AWS_SECRET_ACCESS_KEY=...        # AWS SES email sending
 ```
 
 ### GCP Secrets (for Cloud Function)
@@ -132,6 +136,27 @@ CRON_SECRET                      # Secure cron endpoint
 - **Verified domain:** teahose.com (DKIM via Cloudflare DNS)
 - **Sends from:** `agent@teahose.com` (daily email), `podscan@teahose.com` (processing reports)
 - **Cost:** ~$0.10 per 1,000 emails (was $20/month on SendGrid)
+
+## Infrastructure & Domains
+
+### Domain: teahose.com
+- **Registrar:** GoDaddy
+- **DNS:** Cloudflare (nameservers: `casey.ns.cloudflare.com`, `aida.ns.cloudflare.com`)
+- **DKIM:** 3 CNAME records for AWS SES (in Cloudflare, proxy OFF)
+
+### Hosting & Services
+| Service | Provider | Purpose |
+|---------|----------|---------|
+| Website | Vercel | Next.js app, auto-deploys on git push |
+| Subscriber list | Vercel KV | Newsletter email storage |
+| Podcast processing | GCP Cloud Functions | Podscan → Claude → git push |
+| Email sending | AWS SES (us-west-2) | Daily digest + processing reports |
+| Secrets (GCP) | GCP Secret Manager | API keys for Cloud Function |
+| Backup | GCS | Git bundles if push fails |
+
+### GitHub
+- **Repo:** `altmbr/Podcast_Summarizer` (private)
+- **Auth:** Classic PAT with `repo` scope, stored in GCP secret `GITHUB_TOKEN`
 
 ## Web Publishing (teahose.com)
 
