@@ -1,3 +1,70 @@
 {
-  "podcasts": {}
+  "podcasts": {
+    "pd_mqazg9y3rn5r6w48": {
+      "podcast_name": "20VC",
+      "episodes": {
+        "ep_nm7qj3v7zo3oro5w": {
+          "title": "20Growth: Inside Lovable's $400M ARR Growth Machine | How Lovable Does Product Launches | How Lovable Hacks Social To Make Posts Go Viral | How Lovable Makes Every Employee a Brand with Elena Verna",
+          "status": "summarized",
+          "posted_at": "2026-03-14T07:07:00+00:00",
+          "processed_at": "2026-03-15T14:52:07Z"
+        }
+      }
+    },
+    "pd_6gokljvvn7yj37ma": {
+      "podcast_name": "All In",
+      "episodes": {
+        "ep_3eoyjmqadwz6rmbk": {
+          "title": "Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and PR Nightmare",
+          "status": "summarized",
+          "posted_at": "2026-03-13T17:53:00+00:00",
+          "processed_at": "2026-03-15T14:54:04Z"
+        }
+      }
+    },
+    "pd_3ymxjxvooyg5b8v6": {
+      "podcast_name": "Dialectic",
+      "episodes": {
+        "ep_m6k9r6y5a4knx5gz": {
+          "title": "Independent Study: Body Futurism by Toby Shorin (Essay)",
+          "status": "summarized",
+          "posted_at": "2026-03-14T20:13:00+00:00",
+          "processed_at": "2026-03-15T14:55:33Z"
+        }
+      }
+    },
+    "pd_6kewm9dweb3ja847": {
+      "podcast_name": "Dwarkesh",
+      "episodes": {
+        "ep_b54prpw3domkxe6l": {
+          "title": "Dylan Patel — Deep dive on the 3 big bottlenecks to scaling AI compute",
+          "status": "summarized",
+          "posted_at": "2026-03-13T16:00:42+00:00",
+          "processed_at": "2026-03-15T14:57:25Z"
+        }
+      }
+    },
+    "pd_dpmk29need9ev8nz": {
+      "podcast_name": "My First Million",
+      "episodes": {
+        "ep_g9m8raqmvaa4xz2q": {
+          "title": "This guy names billion dollar brands for a living, here’s his exact 3-step formula.",
+          "status": "summarized",
+          "posted_at": "2026-03-13T14:21:00+00:00",
+          "processed_at": "2026-03-15T14:59:07Z"
+        }
+      }
+    },
+    "pd_xk67jg2gw325m8lr": {
+      "podcast_name": "Sourcery",
+      "episodes": {
+        "ep_ob23xbl28g8yjn6l": {
+          "title": "Inside a16z’s Growth Bets on Waymo, ElevenLabs, Coinbase, Robinhood, Stripe, Revolut &amp; Kalshi",
+          "status": "summarized",
+          "posted_at": "2026-03-13T13:45:09+00:00",
+          "processed_at": "2026-03-15T15:00:42Z"
+        }
+      }
+    }
+  }
 }
