@@ -299,46 +299,57 @@ GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 
 
 def find_youtube_video(episode_title: str, playlist_id: str) -> str | None:
-    """Search a YouTube playlist for a video matching the episode title. Returns video ID or None."""
+    """Find YouTube video ID matching an episode title. Tries playlist scan, then search API."""
     if not GOOGLE_API_KEY or not playlist_id:
         return None
 
+    from difflib import SequenceMatcher
+
+    title_lower = episode_title.lower()
+
     try:
-        page_token = None
-        for _ in range(5):  # Max 5 pages (250 videos)
-            params = {
-                "part": "snippet",
-                "playlistId": playlist_id,
-                "maxResults": "50",
-                "key": GOOGLE_API_KEY,
-            }
-            if page_token:
-                params["pageToken"] = page_token
+        # Step 1: Get channel ID from playlist and scan recent items
+        resp = requests.get(
+            "https://www.googleapis.com/youtube/v3/playlistItems",
+            params={"part": "snippet", "playlistId": playlist_id, "maxResults": "50", "key": GOOGLE_API_KEY},
+            timeout=15,
+        )
+        if resp.status_code != 200:
+            print(f"  YouTube API error: {resp.status_code}")
+            return None
 
+        data = resp.json()
+        channel_id = None
+
+        for item in data.get("items", []):
+            snippet = item.get("snippet", {})
+            if not channel_id:
+                channel_id = snippet.get("channelId")
+            yt_title = snippet.get("title", "")
+            yt_lower = yt_title.lower()
+            if title_lower in yt_lower or yt_lower in title_lower:
+                return snippet.get("resourceId", {}).get("videoId")
+
+        # Step 2: Fallback to search API scoped to channel (handles different titles)
+        if channel_id:
+            query = " ".join(episode_title.split()[:6])
             resp = requests.get(
-                "https://www.googleapis.com/youtube/v3/playlistItems",
-                params=params, timeout=15,
+                "https://www.googleapis.com/youtube/v3/search",
+                params={
+                    "part": "snippet", "q": query, "type": "video",
+                    "channelId": channel_id, "maxResults": "5", "key": GOOGLE_API_KEY,
+                },
+                timeout=15,
             )
-            if resp.status_code != 200:
-                print(f"  YouTube API error: {resp.status_code}")
-                return None
-
-            data = resp.json()
-            for item in data.get("items", []):
-                snippet = item.get("snippet", {})
-                yt_title = snippet.get("title", "")
-                # Fuzzy match: check if titles share significant overlap
-                title_lower = episode_title.lower()
-                yt_lower = yt_title.lower()
-                if title_lower in yt_lower or yt_lower in title_lower:
-                    return snippet.get("resourceId", {}).get("videoId")
-                # Also match on first 40 chars (titles often get truncated)
-                if len(title_lower) > 20 and title_lower[:40] in yt_lower:
-                    return snippet.get("resourceId", {}).get("videoId")
-
-            page_token = data.get("nextPageToken")
-            if not page_token:
-                break
+            best_ratio, best_vid = 0, None
+            for item in resp.json().get("items", []):
+                yt_title = item["snippet"]["title"].replace("&#39;", "'").replace("&amp;", "&")
+                ratio = SequenceMatcher(None, title_lower[:60], yt_title.lower()[:60]).ratio()
+                if ratio > best_ratio:
+                    best_ratio = ratio
+                    best_vid = item["id"]["videoId"]
+            if best_ratio > 0.4:
+                return best_vid
 
     except Exception as e:
         print(f"  YouTube lookup failed: {e}")
