@@ -26,5 +26,9 @@
   "data@pitchbook.com": {
     "name": "PitchBook",
     "author": "PitchBook"
+  },
+  "datadrivenvc@newsletter.datadrivenvc.io": {
+    "name": "Data Driven VC",
+    "author": "Andre Retterath"
   }
 }
