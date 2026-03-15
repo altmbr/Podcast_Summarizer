@@ -15,62 +15,52 @@ import requests
 
 load_dotenv()
 
-PODCAST_STATUS_FILE = Path("./podcast_status.json")
+PODSCAN_STATUS_FILE = Path("./podscan_status.json")
 PODCAST_WORK_DIR = Path("./podcast_work")
-SENDGRID_API_URL = "https://api.sendgrid.com/v3/mail/send"
-SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
 def get_episodes_from_last_day(days=1):
-    """Get all episodes published in the last N days with status = summarized."""
-    if not PODCAST_STATUS_FILE.exists():
-        print(f"Error: {PODCAST_STATUS_FILE} not found")
+    """Get all episodes published in the last N days from podscan_status.json."""
+    if not PODSCAN_STATUS_FILE.exists():
+        print(f"Error: {PODSCAN_STATUS_FILE} not found")
         return []
 
-    with open(PODCAST_STATUS_FILE, 'r') as f:
+    with open(PODSCAN_STATUS_FILE, 'r') as f:
         status_data = json.load(f)
 
     cutoff_date = datetime.now() - timedelta(days=days)
     episodes = []
 
-    for podcast_url, podcast_data in status_data.get("podcasts", {}).items():
+    for podcast_id, podcast_data in status_data.get("podcasts", {}).items():
         podcast_name = podcast_data.get("podcast_name", "Unknown")
-
         if not podcast_name or podcast_name == "None":
             continue
 
-        for video_id, episode_data in podcast_data.get("episodes", {}).items():
+        for ep_id, episode_data in podcast_data.get("episodes", {}).items():
             if episode_data.get("status") != "summarized":
                 continue
 
-            upload_date_str = episode_data.get("upload_date")
-            if not upload_date_str or upload_date_str == "0":
+            posted_at = episode_data.get("posted_at", "")
+            if not posted_at:
                 continue
 
             try:
-                # Parse date and set to noon UTC to avoid edge cases (matches cron behavior)
-                upload_date = datetime.strptime(upload_date_str, "%Y%m%d")
-                upload_date = upload_date.replace(hour=12, minute=0, second=0, microsecond=0)
-            except ValueError:
+                upload_date = datetime.fromisoformat(posted_at.replace("Z", "+00:00")).replace(tzinfo=None)
+            except (ValueError, TypeError):
                 continue
 
             if upload_date < cutoff_date:
                 continue
 
             title = episode_data.get("title", "Unknown")
-            sanitized_title = re.sub(r'[<>:"/\\|?*]', '_', title)
+            sanitized_title = re.sub(r'[<>:"/\\|?*]', '_', title)[:200]
 
-            # Try podcast_name from JSON first, then try "one off episodes" for One-off Episodes
             episode_folder = PODCAST_WORK_DIR / podcast_name / sanitized_title
-            if not episode_folder.exists() and podcast_name == "One-off Episodes":
-                episode_folder = PODCAST_WORK_DIR / "one off episodes" / sanitized_title
-
             summary_file = episode_folder / "summary.md"
 
             if not summary_file.exists():
                 continue
 
-            # Extract participants from summary file
             participants = None
             try:
                 with open(summary_file, 'r') as f:
@@ -84,11 +74,8 @@ def get_episodes_from_last_day(days=1):
             episodes.append({
                 "podcast_name": podcast_name,
                 "title": title,
-                "video_id": video_id,
                 "upload_date": upload_date,
                 "summary_path": summary_file,
-                "video_url": f"https://www.youtube.com/watch?v={video_id}",
-                "region": episode_data.get("region", "Western"),
                 "participants": participants
             })
 
@@ -617,32 +604,29 @@ def generate_email_html(episodes, date_str, header_image_path=None):
 
 
 def send_email(to_email, subject, html_content):
-    """Send email via SendGrid."""
-    if not SENDGRID_API_KEY:
-        print("Error: SENDGRID_API_KEY not set in .env")
+    """Send email via AWS SES."""
+    import boto3
+
+    aws_key = os.environ.get("AWS_ACCESS_KEY_ID")
+    aws_secret = os.environ.get("AWS_SECRET_ACCESS_KEY")
+    if not aws_key or not aws_secret:
+        print("Error: AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY not set in .env")
         return False
 
-    response = requests.post(
-        SENDGRID_API_URL,
-        headers={
-            'Content-Type': 'application/json',
-            'Authorization': f'Bearer {SENDGRID_API_KEY}'
-        },
-        json={
-            'personalizations': [{'to': [{'email': to_email}]}],
-            'from': {
-                'email': 'agent@teahose.com',
-                'name': 'The Daily Teahose'
+    try:
+        ses = boto3.client("ses", region_name="us-west-2",
+                           aws_access_key_id=aws_key, aws_secret_access_key=aws_secret)
+        ses.send_email(
+            Source="The Daily Teahose <agent@teahose.com>",
+            Destination={"ToAddresses": [to_email]},
+            Message={
+                "Subject": {"Data": subject},
+                "Body": {"Html": {"Data": html_content}},
             },
-            'subject': subject,
-            'content': [{'type': 'text/html', 'value': html_content}]
-        }
-    )
-
-    if response.status_code == 202:
+        )
         return True
-    else:
-        print(f"SendGrid error: {response.status_code} - {response.text}")
+    except Exception as e:
+        print(f"SES error: {e}")
         return False
 
 

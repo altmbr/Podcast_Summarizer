@@ -23,7 +23,8 @@ from git import Repo
 PODSCAN_API_KEY = os.environ.get("PODSCAN_API_KEY")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
-SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY")
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
 NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "altmbr@gmail.com")
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/altmbr/Podcast_Summarizer/main"
 LOOKBACK_DAYS = int(os.environ.get("LOOKBACK_DAYS", "3"))
@@ -327,7 +328,7 @@ Transcript:
 {transcript[:100000]}"""
 
     response = client.messages.create(
-        model="claude-sonnet-4-5-20250929",
+        model="claude-sonnet-4-6",
         max_tokens=16000,
         messages=[{"role": "user", "content": prompt}],
     )
@@ -371,6 +372,22 @@ def format_date(date_str: str) -> str:
 # ---------------------------------------------------------------------------
 # Git operations
 # ---------------------------------------------------------------------------
+
+GCS_BACKUP_BUCKET = "gen-lang-client-0111593271-podscan-backups"
+
+
+def verify_github_auth():
+    """Verify GitHub token has push access before doing any work."""
+    print("Verifying GitHub auth...")
+    import subprocess
+    result = subprocess.run(
+        ["git", "ls-remote", f"https://{GITHUB_TOKEN}@github.com/altmbr/Podcast_Summarizer.git", "HEAD"],
+        capture_output=True, text=True, timeout=15,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"GitHub auth failed — token may be expired. stderr: {result.stderr.strip()}")
+    print("  GitHub auth verified")
+
 
 def clone_repo(work_dir: Path) -> Repo:
     """Clone the repository."""
@@ -433,8 +450,24 @@ def update_podscan_status(
     return status
 
 
+def backup_to_gcs(repo: Repo):
+    """Save a git bundle to GCS so work isn't lost if push fails."""
+    try:
+        from google.cloud import storage
+        bundle_path = Path(repo.working_dir).parent / "backup.bundle"
+        repo.git.bundle("create", str(bundle_path), "--all")
+        client = storage.Client()
+        bucket = client.bucket(GCS_BACKUP_BUCKET)
+        timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+        blob = bucket.blob(f"bundles/podscan_{timestamp}.bundle")
+        blob.upload_from_filename(str(bundle_path))
+        print(f"  Backup saved to gs://{GCS_BACKUP_BUCKET}/{blob.name}")
+    except Exception as e:
+        print(f"  WARNING: Backup to GCS also failed: {e}")
+
+
 def commit_and_push(repo: Repo, processed_episodes: list[dict]):
-    """Commit all changes and push."""
+    """Commit all changes and push. Backs up to GCS if push fails."""
     repo.git.add(A=True)
 
     # Check if there are staged changes
@@ -450,9 +483,15 @@ def commit_and_push(repo: Repo, processed_episodes: list[dict]):
     repo.index.commit(commit_msg)
     print("  Changes committed")
 
-    origin = repo.remote("origin")
-    origin.push()
-    print("  Pushed to GitHub")
+    try:
+        origin = repo.remote("origin")
+        origin.push()
+        print("  Pushed to GitHub")
+    except Exception as e:
+        print(f"  ERROR: Push failed: {e}")
+        print("  Saving backup to GCS...")
+        backup_to_gcs(repo)
+        raise
 
 
 # ---------------------------------------------------------------------------
@@ -460,13 +499,15 @@ def commit_and_push(repo: Repo, processed_episodes: list[dict]):
 # ---------------------------------------------------------------------------
 
 def send_processing_report(processed: list[dict], failed: list[dict]):
-    """Send processing report via SendGrid."""
-    if not SENDGRID_API_KEY:
-        print("No SENDGRID_API_KEY, skipping email report")
-        return
-
+    """Send processing report via AWS SES."""
     total = len(processed) + len(failed)
     if total == 0:
+        return
+
+    aws_key = os.environ.get("AWS_ACCESS_KEY_ID")
+    aws_secret = os.environ.get("AWS_SECRET_ACCESS_KEY")
+    if not aws_key or not aws_secret:
+        print("No AWS credentials, skipping email report")
         return
 
     html = ["<html><body>"]
@@ -494,19 +535,20 @@ def send_processing_report(processed: list[dict], failed: list[dict]):
     if failed:
         subject += f", {len(failed)} failed"
 
-    requests.post(
-        "https://api.sendgrid.com/v3/mail/send",
-        headers={
-            "Authorization": f"Bearer {SENDGRID_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "personalizations": [{"to": [{"email": NOTIFICATION_EMAIL}]}],
-            "from": {"email": "podscan@teahose.com", "name": "Podscan Processor"},
-            "subject": subject,
-            "content": [{"type": "text/html", "value": "\n".join(html)}],
-        },
-    )
+    try:
+        import boto3
+        ses = boto3.client("ses", region_name="us-west-2",
+                           aws_access_key_id=aws_key, aws_secret_access_key=aws_secret)
+        ses.send_email(
+            Source="Podscan Processor <podscan@teahose.com>",
+            Destination={"ToAddresses": [NOTIFICATION_EMAIL]},
+            Message={
+                "Subject": {"Data": subject},
+                "Body": {"Html": {"Data": "\n".join(html)}},
+            },
+        )
+    except Exception as e:
+        print(f"Failed to send report email: {e}")
 
 
 # ---------------------------------------------------------------------------
@@ -541,7 +583,8 @@ def process_episode(episode: dict, config: dict, repo: Repo, status: dict) -> bo
 
     # Step 1: Fetch transcript from Podscan
     print("  Step 1/2: Fetching transcript from Podscan...")
-    ep_data = podscan_get(f"/episodes/{ep_id}")
+    resp = podscan_get(f"/episodes/{ep_id}")
+    ep_data = resp.get("episode", resp)  # API wraps single episodes in {"episode": {...}}
     raw_transcript = ep_data.get("episode_transcript", "")
     if not raw_transcript:
         raise ValueError(f"No transcript available for episode {ep_id}")
@@ -598,6 +641,10 @@ def podscan_processor(request):
         # Fetch config and status
         config = fetch_podcast_config()
         status = fetch_podscan_status()
+
+        # Verify GitHub auth before doing any expensive work
+        if not dry_run:
+            verify_github_auth()
 
         # Find new episodes
         new_episodes = find_new_episodes(config, status)

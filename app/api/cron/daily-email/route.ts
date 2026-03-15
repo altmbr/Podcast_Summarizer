@@ -5,10 +5,10 @@ import { join } from 'path'
 import { parseEpisodeMetadata } from '@/lib/schema'
 import { parseEpisodeDate, isWithinLastNHours } from '@/lib/dates'
 import { createHmac } from 'crypto'
+import { SESv2Client, SendEmailCommand } from '@aws-sdk/client-sesv2'
 
 const SUBSCRIBER_EMAILS_KEY = 'subscriber-emails'
 const SUBSCRIBER_PREFIX = 'subscriber:'
-const SENDGRID_API_URL = 'https://api.sendgrid.com/v3/mail/send'
 
 // Feature flag for header image style
 // true = new composite style with unified scene, nametags, worn paper texture
@@ -652,76 +652,88 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
 </html>`
 }
 
-async function sendEmail(to: string[], subject: string, episodes: Episode[], dateStr: string, imageBase64: string | null): Promise<boolean> {
-  const sendgridKey = process.env.SENDGRID_API_KEY
+function buildMimeEmail(from: string, fromName: string, to: string, subject: string, htmlContent: string, imageBase64: string | null): string {
+  const boundary = `----=_Part_${Date.now()}`
+  const relatedBoundary = `----=_Related_${Date.now()}`
 
-  if (!sendgridKey) {
-    console.error('SENDGRID_API_KEY not set')
+  const headers = [
+    `From: ${fromName} <${from}>`,
+    `To: ${to}`,
+    `Subject: ${subject}`,
+    'MIME-Version: 1.0',
+  ]
+
+  if (imageBase64) {
+    headers.push(`Content-Type: multipart/related; boundary="${relatedBoundary}"`)
+    const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, '')
+    return headers.join('\r\n') + '\r\n\r\n' +
+      `--${relatedBoundary}\r\n` +
+      'Content-Type: text/html; charset=UTF-8\r\n' +
+      'Content-Transfer-Encoding: 7bit\r\n\r\n' +
+      htmlContent + '\r\n' +
+      `--${relatedBoundary}\r\n` +
+      'Content-Type: image/png\r\n' +
+      'Content-Transfer-Encoding: base64\r\n' +
+      'Content-ID: <header_image>\r\n' +
+      'Content-Disposition: inline; filename="header.png"\r\n\r\n' +
+      base64Data + '\r\n' +
+      `--${relatedBoundary}--`
+  } else {
+    headers.push('Content-Type: text/html; charset=UTF-8')
+    return headers.join('\r\n') + '\r\n\r\n' + htmlContent
+  }
+}
+
+async function sendEmail(to: string[], subject: string, episodes: Episode[], dateStr: string, imageBase64: string | null): Promise<boolean> {
+  const accessKeyId = process.env.AWS_ACCESS_KEY_ID
+  const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY
+
+  if (!accessKeyId || !secretAccessKey) {
+    console.error('AWS credentials not set (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)')
     return false
   }
 
-  // Send personalized emails with unique unsubscribe tokens
+  const sesClient = new SESv2Client({
+    region: 'us-west-2',
+    credentials: { accessKeyId, secretAccessKey },
+  })
+
   let successCount = 0
   let failureCount = 0
 
   for (const email of to) {
-    // Generate unique unsubscribe token for this subscriber
     const unsubscribeToken = generateUnsubscribeToken(email)
-
-    // Generate personalized HTML with unsubscribe link
     const htmlContent = generateEmailHtml(episodes, dateStr, !!imageBase64, unsubscribeToken)
 
-    // Build the request body for this individual email
-    const body: Record<string, unknown> = {
-      personalizations: [{ to: [{ email }] }],
-      from: {
-        email: 'agent@teahose.com',
-        name: 'The Daily Teahose'
-      },
-      subject,
-      content: [
-        {
-          type: 'text/html',
-          value: htmlContent
-        }
-      ]
-    }
-
-    // If we have an image, attach it as inline attachment
-    if (imageBase64) {
-      // Extract base64 data from data URL (remove "data:image/png;base64," prefix)
-      const base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, '')
-
-      body.attachments = [
-        {
-          content: base64Data,
-          filename: 'header.png',
-          type: 'image/png',
-          disposition: 'inline',
-          content_id: 'header_image'
-        }
-      ]
-    }
-
     try {
-      const response = await fetch(SENDGRID_API_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${sendgridKey}`
-        },
-        body: JSON.stringify(body)
-      })
-
-      if (!response.ok) {
-        const errorText = await response.text()
-        console.error(`SendGrid error for ${email}:`, response.status, errorText)
-        failureCount++
+      if (imageBase64) {
+        // Use raw MIME for inline image attachments
+        const rawMessage = buildMimeEmail('agent@teahose.com', 'The Daily Teahose', email, subject, htmlContent, imageBase64)
+        const command = new SendEmailCommand({
+          Content: {
+            Raw: {
+              Data: new TextEncoder().encode(rawMessage),
+            },
+          },
+        })
+        await sesClient.send(command)
       } else {
-        successCount++
+        // Simple email without attachments
+        const command = new SendEmailCommand({
+          FromEmailAddress: 'The Daily Teahose <agent@teahose.com>',
+          Destination: { ToAddresses: [email] },
+          Content: {
+            Simple: {
+              Subject: { Data: subject },
+              Body: { Html: { Data: htmlContent } },
+            },
+          },
+        })
+        await sesClient.send(command)
       }
+      successCount++
     } catch (error) {
-      console.error(`Failed to send email to ${email}:`, error)
+      console.error(`SES error for ${email}:`, error)
       failureCount++
     }
   }
