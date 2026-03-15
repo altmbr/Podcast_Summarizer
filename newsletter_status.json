@@ -1,11 +1,11 @@
 {
   "newsletters": {
-    "Stratechery": {
+    "StrictlyVC": {
       "episodes": {
-        "4f4f97dccf036ddf": {
-          "subject": "Welcome to Stratechery",
+        "ce6dbdf2db917d20": {
+          "subject": "Welcome to StrictlyVC 👋",
           "status": "summarized",
-          "processed_at": "2026-03-15T17:09:20Z"
+          "processed_at": "2026-03-15T17:11:12Z"
         }
       }
     }
