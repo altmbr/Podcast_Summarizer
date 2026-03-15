@@ -48,7 +48,7 @@ export default {
       const htmlLen = (email.html || '').length
       const contentLen = Math.max(textLen, htmlLen)
 
-      const isConfirmation = /confirm|verify|activate|subscribe|opt.?in|double.?opt/i.test(subject)
+      const isConfirmation = /confirm|verify|activate|subscribe|opt.?in|double.?opt|welcome/i.test(subject)
         || (contentLen < 2000 && /confirm|verify|click here/i.test(email.text || email.html || ''))
       const isTooShort = contentLen < 500
 
