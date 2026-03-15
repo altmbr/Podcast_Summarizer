@@ -75,24 +75,51 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
 }
 
 /**
- * Get all podcasts for homepage (server-side)
+ * Get all podcasts and newsletters for homepage (server-side)
+ * Separates them by checking if any episode has source: newsletter
  */
-async function getPodcasts(): Promise<Podcast[]> {
+async function getSources(): Promise<{ podcasts: Podcast[], newsletters: Podcast[] }> {
   const allPodcasts = await getAllPodcasts()
-  return allPodcasts.map(p => ({
-    name: p.name,
-    title: p.title,
-    description: p.description,
-    episodeCount: p.episodes.length,
-  }))
+
+  // Also load newsletter_config.json to identify newsletter sources
+  let newsletterNames: Set<string> = new Set()
+  try {
+    const configPath = join(process.cwd(), 'newsletter_config.json')
+    const configContent = await readFile(configPath, 'utf-8')
+    const config = JSON.parse(configContent)
+    for (const entry of Object.values(config) as Array<{ name?: string }>) {
+      if (entry.name) newsletterNames.add(entry.name)
+    }
+  } catch {
+    // No config file
+  }
+
+  const podcasts: Podcast[] = []
+  const newsletters: Podcast[] = []
+
+  for (const p of allPodcasts) {
+    const item = {
+      name: p.name,
+      title: p.title,
+      description: p.description,
+      episodeCount: p.episodes.length,
+    }
+    if (newsletterNames.has(p.name)) {
+      newsletters.push(item)
+    } else {
+      podcasts.push(item)
+    }
+  }
+
+  return { podcasts, newsletters }
 }
 
 /**
  * Server Component - generates static HTML at build time
  */
 export default async function HomePage() {
-  const [podcasts, recentEpisodes] = await Promise.all([
-    getPodcasts(),
+  const [{ podcasts, newsletters }, recentEpisodes] = await Promise.all([
+    getSources(),
     getRecentEpisodes(),
   ])
 
@@ -112,7 +139,7 @@ export default async function HomePage() {
       </header>
 
       {/* Content with tabs */}
-      <HomeContent podcasts={podcasts} recentEpisodes={recentEpisodes} />
+      <HomeContent podcasts={podcasts} newsletters={newsletters} recentEpisodes={recentEpisodes} />
     </main>
   )
 }
