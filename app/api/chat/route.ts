@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Use Gemini 2.0 Flash for fast, efficient responses
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' })
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' })
 
     // Build context-aware prompt
     const systemContext = `You are a helpful AI assistant analyzing a podcast episode.
