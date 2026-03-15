@@ -11,6 +11,7 @@ export interface EpisodeMetadata {
   videoUrl?: string
   region?: string
   description?: string
+  source?: string
 }
 
 export interface PodcastMetadata {
@@ -178,6 +179,12 @@ export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMet
   const regionMatch = summaryContent.match(/\*\*Region:\*\*\s+(.+)/i)
   if (regionMatch) {
     metadata.region = regionMatch[1].trim()
+  }
+
+  // Extract source (e.g., "newsletter")
+  const sourceMatch = summaryContent.match(/\*\*Source:\*\*\s+(.+)/i)
+  if (sourceMatch) {
+    metadata.source = sourceMatch[1].trim()
   }
 
   // Extract description from first paragraph after metadata

@@ -16,6 +16,7 @@ interface RecentEpisode {
   date: string
   podcast: string
   podcastName: string
+  source?: string
 }
 
 interface HomeContentProps {
@@ -23,14 +24,18 @@ interface HomeContentProps {
   recentEpisodes: RecentEpisode[]
 }
 
-type Tab = 'episodes' | 'podcasts'
+type Tab = 'episodes' | 'podcasts' | 'newsletters'
 
 export default function HomeContent({ podcasts, recentEpisodes }: HomeContentProps) {
   const [activeTab, setActiveTab] = useState<Tab>('episodes')
   const [displayCount, setDisplayCount] = useState(20)
 
-  const visibleEpisodes = recentEpisodes.slice(0, displayCount)
-  const hasMore = displayCount < recentEpisodes.length
+  const podcastEpisodes = recentEpisodes.filter(e => e.source !== 'newsletter')
+  const newsletterEpisodes = recentEpisodes.filter(e => e.source === 'newsletter')
+
+  const currentEpisodes = activeTab === 'newsletters' ? newsletterEpisodes : podcastEpisodes
+  const visibleEpisodes = currentEpisodes.slice(0, displayCount)
+  const hasMore = displayCount < currentEpisodes.length
 
   const handleLoadMore = () => {
     setDisplayCount(prev => Math.min(prev + 20, recentEpisodes.length))
@@ -42,7 +47,7 @@ export default function HomeContent({ podcasts, recentEpisodes }: HomeContentPro
       <section className="container pt-6 pb-0">
         <div className="flex gap-0 border-b" style={{ borderBottomColor: 'var(--border)' }}>
           <button
-            onClick={() => setActiveTab('episodes')}
+            onClick={() => { setActiveTab('episodes'); setDisplayCount(20) }}
             className="px-6 py-3 text-xl md:text-2xl font-medium transition-colors relative"
             style={{
               color: activeTab === 'episodes' ? 'var(--foreground)' : 'var(--muted-foreground)',
@@ -61,15 +66,25 @@ export default function HomeContent({ podcasts, recentEpisodes }: HomeContentPro
           >
             Podcasts
           </button>
+          <button
+            onClick={() => { setActiveTab('newsletters'); setDisplayCount(20) }}
+            className="px-6 py-3 text-xl md:text-2xl font-medium transition-colors relative"
+            style={{
+              color: activeTab === 'newsletters' ? 'var(--foreground)' : 'var(--muted-foreground)',
+              borderBottom: activeTab === 'newsletters' ? '2px solid var(--accent)' : '2px solid transparent',
+            }}
+          >
+            Newsletters
+          </button>
         </div>
       </section>
 
-      {/* Recent Episodes Section */}
-      {activeTab === 'episodes' && (
+      {/* Episodes / Newsletters Section */}
+      {(activeTab === 'episodes' || activeTab === 'newsletters') && (
         <section className="container pt-6 pb-8 md:pb-8">
-          {recentEpisodes.length === 0 ? (
+          {currentEpisodes.length === 0 ? (
             <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">
-              No recent episodes found
+              {activeTab === 'newsletters' ? 'No newsletters yet' : 'No recent episodes found'}
             </div>
           ) : (
             <>
@@ -101,7 +116,7 @@ export default function HomeContent({ podcasts, recentEpisodes }: HomeContentPro
               {/* Episode count and Load More */}
               <div className="mt-8 flex flex-col items-center gap-4">
                 <div style={{ color: 'var(--muted-foreground)' }} className="text-sm">
-                  Showing {visibleEpisodes.length} of {recentEpisodes.length} episodes
+                  Showing {visibleEpisodes.length} of {currentEpisodes.length} {activeTab === 'newsletters' ? 'newsletters' : 'episodes'}
                 </div>
                 {hasMore && (
                   <button

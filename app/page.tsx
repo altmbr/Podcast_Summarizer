@@ -19,6 +19,7 @@ interface RecentEpisode {
   date: string
   podcast: string
   podcastName: string
+  source?: string
 }
 
 /**
@@ -54,6 +55,7 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
                 date: metadata.date,
                 podcast: podcastDir.name,
                 podcastName: metadata.podcast || podcastDir.name,
+                source: metadata.source,
                 dateObj
               })
             }
@@ -104,7 +106,7 @@ export default async function HomePage() {
             <ShareButton refSource="home" />
           </div>
           <p style={{ color: 'var(--muted-foreground)' }} className="text-lg">
-            A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.
+            A distillation of leading tech & business podcasts and newsletters. Browse summaries here or sub for daily digests delivering hours of insight in 30 seconds.
           </p>
         </div>
       </header>
