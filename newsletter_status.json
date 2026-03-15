@@ -1,3 +1,13 @@
 {
-  "newsletters": {}
+  "newsletters": {
+    "Stratechery": {
+      "episodes": {
+        "4f4f97dccf036ddf": {
+          "subject": "Welcome to Stratechery",
+          "status": "summarized",
+          "processed_at": "2026-03-15T17:09:20Z"
+        }
+      }
+    }
+  }
 }
