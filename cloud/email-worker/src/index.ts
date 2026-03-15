@@ -48,12 +48,12 @@ export default {
       const htmlLen = (email.html || '').length
       const contentLen = Math.max(textLen, htmlLen)
 
-      const isConfirmation = /confirm|verify|activate|subscribe|opt.?in|double.?opt|welcome/i.test(subject)
-        || (contentLen < 2000 && /confirm|verify|click here/i.test(email.text || email.html || ''))
+      const isTransactional = /confirm|verify|activate|subscribe|opt.?in|double.?opt|welcome|thank you|thanks for|your (account|registration|signup)|getting started/i.test(subject)
+        || (contentLen < 2000 && /confirm|verify|click here|activate your|manage your subscription/i.test(email.text || email.html || ''))
       const isTooShort = contentLen < 500
 
-      if (isConfirmation || isTooShort) {
-        console.log(`Forwarding to Gmail (${isConfirmation ? 'confirmation' : 'too short'}): ${email.subject}`)
+      if (isTransactional || isTooShort) {
+        console.log(`Forwarding to Gmail (${isTransactional ? 'transactional' : 'too short'}): ${email.subject}`)
         await message.forward('altmbr@gmail.com')
         return
       }
