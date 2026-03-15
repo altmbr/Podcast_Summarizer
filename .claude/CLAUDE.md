@@ -56,7 +56,7 @@ Fully automated. Runs daily at 8 PM EST via Cloud Scheduler.
 1. **Discover** — Poll Podscan API for new episodes (last 3 days) across 20 mapped podcasts
 2. **Fetch transcript** — Podscan provides timestamped, speaker-labeled transcripts
 3. **Speaker names** — Replace SPEAKER_XX labels with real names from Podscan metadata (no LLM needed)
-4. **Summarize** — Claude Sonnet (16K tokens) → `summary.md`
+4. **Summarize** — Claude Sonnet 4.6 (16K tokens) → `summary.md`
 5. **Publish** — Git commit + push → Vercel auto-deploys to teahose.com
 
 **Cost:** ~$0.30/episode (Claude summarization only)
@@ -64,16 +64,22 @@ Fully automated. Runs daily at 8 PM EST via Cloud Scheduler.
 **GCP resources:**
 - Cloud Function: `podscan-processor` (Gen 2, 512MB, 60-min timeout)
 - Cloud Scheduler: `podscan-daily` (8 PM EST daily)
-- Secrets: `PODSCAN_API_KEY`, `ANTHROPIC_API_KEY`, `GITHUB_TOKEN`, `SENDGRID_API_KEY`, `GOOGLE_API_KEY`
+- Secrets: `PODSCAN_API_KEY`, `ANTHROPIC_API_KEY`, `GITHUB_TOKEN`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `GOOGLE_API_KEY`
+- GCS backup bucket: `gen-lang-client-0111593271-podscan-backups` (stores git bundles if push fails)
 - Service account: `podcast-processor@gen-lang-client-0111593271.iam.gserviceaccount.com`
 
 **Podscan API:**
 - Base URL: `https://podscan.fm/api/v1`
 - Auth: Bearer token in Authorization header
 - Key endpoints: `/podcasts/{id}/episodes`, `/episodes/{id}`, `/podcasts/search`
+- **Important:** `/episodes/{id}` wraps response in `{"episode": {...}}` — must unwrap before accessing fields
 - Rate limits: daily limit (returns 429 with `daily_limit_exceeded`), courtesy 2s delay between requests
 - Transcript field: `episode_transcript`
 - Speaker info: `metadata.hosts[].speaker_label`, `metadata.guests[].speaker_label`
+
+**Reliability features:**
+- **Auth preflight:** Verifies GitHub token has push access before any processing
+- **GCS backup:** If git push fails, saves a git bundle to GCS so summaries aren't lost
 
 ### Legacy: Local Pipeline (manual, Apple Silicon Mac)
 
@@ -105,18 +111,27 @@ PODSCAN_API_KEY=...              # For Podscan transcript fetching
 ```
 ANTHROPIC_API_KEY                # Claude summarization
 GITHUB_TOKEN                     # Git push (PAT with repo scope)
-SENDGRID_API_KEY                 # Processing report emails
+AWS_ACCESS_KEY_ID                # AWS SES email sending
+AWS_SECRET_ACCESS_KEY            # AWS SES email sending
 PODSCAN_API_KEY                  # Transcript fetching
 GOOGLE_API_KEY                   # Gemini (future use)
 ```
 
 ### Vercel Environment Variables (for daily email)
 ```
-SENDGRID_API_KEY                 # Email sending
+AWS_ACCESS_KEY_ID                # AWS SES email sending
+AWS_SECRET_ACCESS_KEY            # AWS SES email sending
 ANTHROPIC_API_KEY                # Episode descriptions
 GOOGLE_API_KEY                   # Header image generation (Gemini)
 CRON_SECRET                      # Secure cron endpoint
 ```
+
+### AWS (SES email sending)
+- **Region:** us-west-2 (Oregon)
+- **IAM user:** `ses-sender` (AmazonSESFullAccess policy)
+- **Verified domain:** teahose.com (DKIM via Cloudflare DNS)
+- **Sends from:** `agent@teahose.com` (daily email), `podscan@teahose.com` (processing reports)
+- **Cost:** ~$0.10 per 1,000 emails (was $20/month on SendGrid)
 
 ## Web Publishing (teahose.com)
 
@@ -132,7 +147,7 @@ Automatic daily emails sent to newsletter subscribers at 6 AM EST (only if new e
 - **Vercel Cron** triggers `/api/cron/daily-email` daily at 6 AM EST
 - Generates pithy descriptions using Claude Sonnet
 - Creates header image using Gemini (`gemini-3-pro-image-preview`)
-- Sends HTML email via SendGrid to all Vercel KV subscribers
+- Sends HTML email via AWS SES to all Vercel KV subscribers
 
 ### Testing Locally
 ```bash
@@ -163,7 +178,9 @@ gcloud functions logs read podscan-processor --region us-central1 --project gen-
 | Issue | Solution |
 |-------|----------|
 | Podscan daily limit exceeded | Wait 24h for reset; check with `curl` |
-| GitHub token expired | Generate new PAT at github.com/settings/tokens, update GCP secret |
+| GitHub token expired | Generate new classic PAT (repo scope) at github.com/settings/tokens, update GCP secret |
+| Git push fails | Summaries auto-backed up to GCS bucket; re-run after fixing token |
+| AWS SES sandbox | Request production access in SES console; sandbox only sends to verified emails |
 | Function import errors | Check `__pycache__` isn't in deploy source; redeploy |
 | No episodes processed | Check `podscan_status.json` and `LOOKBACK_DAYS` env var |
 | Summary format wrong | Verify `summary.md` header matches `lib/schema.ts` parser |
