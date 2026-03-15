@@ -47,7 +47,7 @@ export default {
       const htmlLen = (email.html || '').length
       const contentLen = Math.max(textLen, htmlLen)
 
-      const isTransactional = /confirm|verify|activate|subscribe|opt.?in|double.?opt|welcome|thank you|thanks for|your (account|registration|signup)|getting started/i.test(subject)
+      const isTransactional = /confirm|verify|activate|subscribe|opt.?in|double.?opt|welcome|thank you|thanks for|on the list|your (account|registration|signup)|getting started/i.test(subject)
         || (contentLen < 2000 && /confirm|verify|click here|activate your|manage your subscription/i.test(email.text || email.html || ''))
       const isTooShort = contentLen < 500
 
