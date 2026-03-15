@@ -96,9 +96,11 @@ def extract_newsletter_content(html_body: str, text_body: str) -> str:
 
         # Remove tracking pixels
         for img in soup.find_all("img"):
-            src = img.get("src", "")
-            width = img.get("width", "")
-            height = img.get("height", "")
+            if img is None or not hasattr(img, "attrs"):
+                continue
+            src = img.get("src", "") or ""
+            width = img.get("width", "") or ""
+            height = img.get("height", "") or ""
             if width in ("1", "0") or height in ("1", "0") or "track" in src.lower() or "pixel" in src.lower():
                 img.decompose()
 
