@@ -1,99 +1,122 @@
 {
   "20VC": {
     "hosts": ["Harry Stebbings"],
-    "podscan_id": "pd_mqazg9y3rn5r6w48"
+    "podscan_id": "pd_mqazg9y3rn5r6w48",
+    "youtube_playlist": "PLnJFlI3aINuWhaqB7cCoDFDMFBsbb8ue1"
   },
   "Acquired": {
     "hosts": ["Ben Gilbert", "David Rosenthal"],
-    "podscan_id": "pd_k42yajrkaq9p8owz"
+    "podscan_id": "pd_k42yajrkaq9p8owz",
+    "youtube_playlist": "PLjZkFWu3rWSE2cZ8L2CbiRMmHtJeF0kHh"
   },
   "All In": {
     "hosts": ["Jason Calacanis", "David Sacks", "Chamath Palihapitiya", "David Friedberg"],
-    "podscan_id": "pd_6gokljvvn7yj37ma"
+    "podscan_id": "pd_6gokljvvn7yj37ma",
+    "youtube_playlist": "PLn5MTSAqaf8peDZQ57QkJBzewJU1aUokl"
   },
   "A16z Podcast": {
     "hosts": ["Erik Torenberg", "Marc Andreessen", "Ben Horowitz"],
     "notes": "Rotating hosts - various a16z partners may host different episodes",
-    "podscan_id": "pd_dbka52p6ylyj2gez"
+    "podscan_id": "pd_dbka52p6ylyj2gez",
+    "youtube_playlist": "PLM4u6XbiXf5rnUvH5NLdV_It2QLgbHBDZ"
   },
   "BG2": {
     "hosts": ["Brad Gerstner"],
-    "podscan_id": "pd_dpmk29nnxba9ev8n"
+    "podscan_id": "pd_dpmk29nnxba9ev8n",
+    "youtube_playlist": "PL6Jwmvh8DLmc9WZsrCIgsW_5IDWncrqV5"
   },
   "Cheeky Pint": {
     "hosts": ["John Collison"],
-    "podscan_id": "pd_qazg9yo3yv35r6w4"
+    "podscan_id": "pd_qazg9yo3yv35r6w4",
+    "youtube_playlist": "PLcoWp8pBTM3ATMYLP-hFIhJORSw-nFOiY"
   },
   "Dialectic": {
     "hosts": ["Jackson Dahl"],
-    "podscan_id": "pd_3ymxjxvooyg5b8v6"
+    "podscan_id": "pd_3ymxjxvooyg5b8v6",
+    "youtube_playlist": "PLs8-eh7Hc92yisMEOLhNn0aA8conOFrJ_"
   },
   "Dwarkesh": {
     "hosts": ["Dwarkesh Patel"],
-    "podscan_id": "pd_6kewm9dweb3ja847"
+    "podscan_id": "pd_6kewm9dweb3ja847",
+    "youtube_playlist": "PLd7-bHaQwnthaNDpZ32TtYONGVk95-fhF"
   },
   "Invest like the best": {
     "hosts": ["Patrick O'Shaughnessy"],
-    "podscan_id": "pd_dpmk29nmper5ev8n"
+    "podscan_id": "pd_dpmk29nmper5ev8n",
+    "youtube_playlist": "PLxhOp2VJFcPY9noc2nigKYwZ3jI7ChpTY"
   },
   "Lenny's": {
     "hosts": ["Lenny Rachitsky"],
-    "podscan_id": "pd_4evzb9qedo49873g"
+    "podscan_id": "pd_4evzb9qedo49873g",
+    "youtube_playlist": "PL2fLjt2dG0N6unOOF3nHWYGcJJIQR1NKm"
   },
   "Lex Fridman": {
     "hosts": ["Lex Fridman"],
-    "podscan_id": "pd_4evzb9qlg2ej873g"
+    "podscan_id": "pd_4evzb9qlg2ej873g",
+    "youtube_playlist": "PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4"
   },
   "Lightcone": {
     "hosts": ["Garry Tan", "Diana Hu", "Harj Taggar", "Jared Friedman"],
-    "podscan_id": "pd_p6km5akn4yb94lae"
+    "podscan_id": "pd_p6km5akn4yb94lae",
+    "youtube_playlist": "PLQ-uHSnFig5Ob4XXhgSK26Smb4oRhzFmK"
   },
   "Long Strange Trip w Brian Halligan": {
     "hosts": ["Brian Halligan"],
-    "podscan_id": "pd_wgp3jzlwx2w5xnby"
+    "podscan_id": "pd_wgp3jzlwx2w5xnby",
+    "youtube_playlist": "PLOhHNjZItNnNu8wknSuVtcSJRs7Q4xqOE"
   },
   "More or Less": {
     "hosts": ["Dave Morin", "Jessica Lessin", "Brit Morin", "Sam Lessin"]
   },
   "My First Million": {
     "hosts": ["Sam Parr", "Shaan Puri"],
-    "podscan_id": "pd_dpmk29need9ev8nz"
+    "podscan_id": "pd_dpmk29need9ev8nz",
+    "youtube_playlist": "PLWloxQyF_2n4aCanY4Y45HLTY2zoeZF8U"
   },
   "No Priors": {
     "hosts": ["Sarah Guo", "Elad Gil"],
-    "podscan_id": "pd_k2a645prlkvjqpln"
+    "podscan_id": "pd_k2a645prlkvjqpln",
+    "youtube_playlist": "PLMKa0PxGwad7jf8hwwX8w5FHitXZ1L_h1"
   },
   "SaaStr": {
     "hosts": ["Jason Lemkin"],
-    "podscan_id": "pd_k42yajrx2lbjp8ow"
+    "podscan_id": "pd_k42yajrx2lbjp8ow",
+    "youtube_playlist": "PLGlmLTbngJa-ktFZnjwGHtCq6hXyUBWGG"
   },
   "Sourcery": {
     "hosts": ["Molly O'Shea"],
-    "podscan_id": "pd_xk67jg2gw325m8lr"
+    "podscan_id": "pd_xk67jg2gw325m8lr",
+    "youtube_playlist": "PLc0CAq1DavmvaNjQhE7IzHpS88enGPlz6"
   },
   "Stanford AI Speaker Series": {
     "hosts": [],
-    "notes": "Speaker series format - no fixed hosts"
+    "notes": "Speaker series format - no fixed hosts",
+    "youtube_playlist": "PLj3oSLJMCLWCCTJJz2pGMVGnnjz-2vhKv"
   },
   "Theory Ventures Office Hours": {
     "hosts": ["Tomasz Tunguz"],
-    "notes": "Theory Ventures team may co-host"
+    "notes": "Theory Ventures team may co-host",
+    "youtube_playlist": "PLGtkvjxB4WVRHJn1vQB4UzYvNiVXaaUWJ"
   },
   "Training Data": {
     "hosts": ["George Robson", "Pat Grady"],
-    "podscan_id": "pd_xk67jgp633rjm8lr"
+    "podscan_id": "pd_xk67jgp633rjm8lr",
+    "youtube_playlist": "PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
   },
   "Uncapped": {
     "hosts": ["Jack Altman"],
-    "podscan_id": "pd_3ymxjxoer3vjb8v6"
+    "podscan_id": "pd_3ymxjxoer3vjb8v6",
+    "youtube_playlist": "PLtpH7YnTL8ihy0nR2BV32n5VkRtqlDAS1"
   },
   "Uncapped Founders": {
     "hosts": ["Jack Altman"],
-    "podscan_id": "pd_3ymxjxoer3vjb8v6"
+    "podscan_id": "pd_3ymxjxoer3vjb8v6",
+    "youtube_playlist": "PLtpH7YnTL8ijveTgUGGQQrJqmx2VVeHms"
   },
   "张小珺Jùn｜商业访谈录": {
     "hosts": ["Zhang Xiaojun", "张小珺"],
-    "podscan_id": "pd_ym7vj48meby543wp"
+    "podscan_id": "pd_ym7vj48meby543wp",
+    "youtube_playlist": "PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO"
   },
   "晚点聊 LateTalk": {
     "hosts": ["Manchi", "晚点团队"],

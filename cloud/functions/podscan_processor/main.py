@@ -292,6 +292,77 @@ def extract_participants(metadata: dict, podcast_name: str, config: dict) -> str
 
 
 # ---------------------------------------------------------------------------
+# YouTube lookup
+# ---------------------------------------------------------------------------
+
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+
+
+def find_youtube_video(episode_title: str, playlist_id: str) -> str | None:
+    """Search a YouTube playlist for a video matching the episode title. Returns video ID or None."""
+    if not GOOGLE_API_KEY or not playlist_id:
+        return None
+
+    try:
+        page_token = None
+        for _ in range(5):  # Max 5 pages (250 videos)
+            params = {
+                "part": "snippet",
+                "playlistId": playlist_id,
+                "maxResults": "50",
+                "key": GOOGLE_API_KEY,
+            }
+            if page_token:
+                params["pageToken"] = page_token
+
+            resp = requests.get(
+                "https://www.googleapis.com/youtube/v3/playlistItems",
+                params=params, timeout=15,
+            )
+            if resp.status_code != 200:
+                print(f"  YouTube API error: {resp.status_code}")
+                return None
+
+            data = resp.json()
+            for item in data.get("items", []):
+                snippet = item.get("snippet", {})
+                yt_title = snippet.get("title", "")
+                # Fuzzy match: check if titles share significant overlap
+                title_lower = episode_title.lower()
+                yt_lower = yt_title.lower()
+                if title_lower in yt_lower or yt_lower in title_lower:
+                    return snippet.get("resourceId", {}).get("videoId")
+                # Also match on first 40 chars (titles often get truncated)
+                if len(title_lower) > 20 and title_lower[:40] in yt_lower:
+                    return snippet.get("resourceId", {}).get("videoId")
+
+            page_token = data.get("nextPageToken")
+            if not page_token:
+                break
+
+    except Exception as e:
+        print(f"  YouTube lookup failed: {e}")
+
+    return None
+
+
+def add_youtube_timestamps(summary: str, video_id: str) -> str:
+    """Replace [HH:MM:SS] timestamps with clickable YouTube links."""
+    def timestamp_to_link(match):
+        ts = match.group(1)
+        parts = ts.split(":")
+        if len(parts) == 3:
+            seconds = int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
+        elif len(parts) == 2:
+            seconds = int(parts[0]) * 60 + int(parts[1])
+        else:
+            return match.group(0)
+        return f"[[{ts}]](https://youtube.com/watch?v={video_id}&t={seconds})"
+
+    return re.sub(r'\[(\d{1,2}:\d{2}:\d{2})\]', timestamp_to_link, summary)
+
+
+# ---------------------------------------------------------------------------
 # Summarization
 # ---------------------------------------------------------------------------
 
@@ -303,6 +374,7 @@ def summarize_transcript(
     posted_at: str,
     participants: str,
     anthropic_api_key: str,
+    youtube_video_id: str | None = None,
 ) -> str:
     """Summarize transcript using Claude Sonnet and format with metadata header."""
     print("  Summarizing with Claude Sonnet...")
@@ -329,13 +401,19 @@ Transcript:
     # Format date
     date_formatted = format_date(posted_at)
 
+    youtube_line = ""
+    if youtube_video_id:
+        yt_url = f"https://youtube.com/watch?v={youtube_video_id}"
+        youtube_line = f"**YouTube:** [Watch on YouTube]({yt_url})\n"
+        summary_content = add_youtube_timestamps(summary_content, youtube_video_id)
+
     header = f"""# [{episode_title}]({episode_url})
 
 **Podcast:** {podcast_name}
 **Date:** {date_formatted}
 **Participants:** {participants}
 **Episode URL:** {episode_url}
-**Transcript:** [View Transcript](./transcript.md)
+{youtube_line}**Transcript:** [View Transcript](./transcript.md)
 
 ---
 
@@ -591,12 +669,24 @@ def process_episode(episode: dict, config: dict, repo: Repo, status: dict) -> bo
 
     print(f"  Transcript: {len(transcript)} chars, {len(speaker_map)} speakers identified")
 
+    # Look up YouTube video
+    playlist_id = config.get(podcast_name, {}).get("youtube_playlist")
+    youtube_video_id = None
+    if playlist_id:
+        print("  Looking up YouTube video...")
+        youtube_video_id = find_youtube_video(title, playlist_id)
+        if youtube_video_id:
+            print(f"  Found YouTube: https://youtube.com/watch?v={youtube_video_id}")
+        else:
+            print("  No YouTube match found")
+
     # Step 2: Summarize with Claude
     print("  Step 2/2: Summarizing...")
     summary = summarize_transcript(
         transcript, title, podcast_name,
         episode_url, posted_at, participants,
         ANTHROPIC_API_KEY,
+        youtube_video_id=youtube_video_id,
     )
 
     # Write files
