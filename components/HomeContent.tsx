@@ -19,19 +19,78 @@ interface RecentEpisode {
   source?: string
 }
 
-interface Newsletter {
-  name: string
-  title: string
-  episodeCount: number
-}
-
 interface HomeContentProps {
   podcasts: Podcast[]
-  newsletters: Newsletter[]
+  newsletters: Podcast[]
   recentEpisodes: RecentEpisode[]
 }
 
 type Tab = 'episodes' | 'podcasts' | 'newsletters'
+
+const TABS: { id: Tab; label: string; resetsCount?: boolean }[] = [
+  { id: 'episodes', label: 'Recent Content', resetsCount: true },
+  { id: 'podcasts', label: 'Podcasts' },
+  { id: 'newsletters', label: 'Newsletters', resetsCount: true },
+]
+
+interface TabButtonProps {
+  tab: typeof TABS[number]
+  isActive: boolean
+  onClick: () => void
+}
+
+function TabButton({ tab, isActive, onClick }: TabButtonProps) {
+  return (
+    <button
+      onClick={onClick}
+      className="px-6 py-3 text-xl md:text-2xl font-medium transition-colors relative"
+      style={{
+        color: isActive ? 'var(--foreground)' : 'var(--muted-foreground)',
+        borderBottom: isActive ? '2px solid var(--accent)' : '2px solid transparent',
+      }}
+    >
+      {tab.label}
+    </button>
+  )
+}
+
+interface SourceCardProps {
+  title: string
+  subtitle: string
+  href: string
+}
+
+function SourceCard({ title, subtitle, href }: SourceCardProps) {
+  return (
+    <Link
+      href={href}
+      className="group block p-6 md:p-8 rounded-sm transition-all hover:opacity-80"
+      style={{
+        backgroundColor: 'var(--card)',
+        borderColor: 'var(--border)',
+        color: 'var(--foreground)',
+      }}
+    >
+      <h3 className="text-2xl md:text-3xl group-hover:underline transition-colors mb-2">
+        {title}
+      </h3>
+      <div className="flex items-center justify-between">
+        <span style={{ color: 'var(--muted-foreground)' }} className="text-sm">
+          {subtitle}
+        </span>
+        <span style={{ color: 'var(--accent)' }} className="font-light">→</span>
+      </div>
+    </Link>
+  )
+}
+
+function EmptyState({ message }: { message: string }) {
+  return (
+    <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">
+      {message}
+    </div>
+  )
+}
 
 export default function HomeContent({ podcasts, newsletters, recentEpisodes }: HomeContentProps) {
   const [activeTab, setActiveTab] = useState<Tab>('episodes')
@@ -40,8 +99,13 @@ export default function HomeContent({ podcasts, newsletters, recentEpisodes }: H
   const visibleEpisodes = recentEpisodes.slice(0, displayCount)
   const hasMore = displayCount < recentEpisodes.length
 
-  const handleLoadMore = () => {
+  function handleLoadMore() {
     setDisplayCount(prev => Math.min(prev + 20, recentEpisodes.length))
+  }
+
+  function handleTabClick(tab: typeof TABS[number]) {
+    setActiveTab(tab.id)
+    if (tab.resetsCount) setDisplayCount(20)
   }
 
   return (
@@ -49,36 +113,14 @@ export default function HomeContent({ podcasts, newsletters, recentEpisodes }: H
       {/* Tab Toggle */}
       <section className="container pt-6 pb-0">
         <div className="flex gap-0 border-b" style={{ borderBottomColor: 'var(--border)' }}>
-          <button
-            onClick={() => { setActiveTab('episodes'); setDisplayCount(20) }}
-            className="px-6 py-3 text-xl md:text-2xl font-medium transition-colors relative"
-            style={{
-              color: activeTab === 'episodes' ? 'var(--foreground)' : 'var(--muted-foreground)',
-              borderBottom: activeTab === 'episodes' ? '2px solid var(--accent)' : '2px solid transparent',
-            }}
-          >
-            Recent Content
-          </button>
-          <button
-            onClick={() => setActiveTab('podcasts')}
-            className="px-6 py-3 text-xl md:text-2xl font-medium transition-colors relative"
-            style={{
-              color: activeTab === 'podcasts' ? 'var(--foreground)' : 'var(--muted-foreground)',
-              borderBottom: activeTab === 'podcasts' ? '2px solid var(--accent)' : '2px solid transparent',
-            }}
-          >
-            Podcasts
-          </button>
-          <button
-            onClick={() => { setActiveTab('newsletters'); setDisplayCount(20) }}
-            className="px-6 py-3 text-xl md:text-2xl font-medium transition-colors relative"
-            style={{
-              color: activeTab === 'newsletters' ? 'var(--foreground)' : 'var(--muted-foreground)',
-              borderBottom: activeTab === 'newsletters' ? '2px solid var(--accent)' : '2px solid transparent',
-            }}
-          >
-            Newsletters
-          </button>
+          {TABS.map(tab => (
+            <TabButton
+              key={tab.id}
+              tab={tab}
+              isActive={activeTab === tab.id}
+              onClick={() => handleTabClick(tab)}
+            />
+          ))}
         </div>
       </section>
 
@@ -86,33 +128,17 @@ export default function HomeContent({ podcasts, newsletters, recentEpisodes }: H
       {activeTab === 'episodes' && (
         <section className="container pt-6 pb-8 md:pb-8">
           {recentEpisodes.length === 0 ? (
-            <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">
-              No recent content found
-            </div>
+            <EmptyState message="No recent content found" />
           ) : (
             <>
               <div className="grid gap-6 md:gap-8">
                 {visibleEpisodes.map((episode) => (
-                  <Link
+                  <SourceCard
                     key={`${episode.podcast}-${episode.slug}`}
+                    title={episode.title}
+                    subtitle={`${episode.podcastName} · ${episode.date}`}
                     href={`/podcast/${encodeURIComponent(episode.podcast)}/${encodeURIComponent(episode.slug)}`}
-                    className="group block p-6 md:p-8 rounded-sm transition-all hover:opacity-80"
-                    style={{
-                      backgroundColor: 'var(--card)',
-                      borderColor: 'var(--border)',
-                      color: 'var(--foreground)',
-                    }}
-                  >
-                    <h3 className="text-2xl md:text-3xl group-hover:underline transition-colors mb-2">
-                      {episode.title}
-                    </h3>
-                    <div className="flex items-center justify-between">
-                      <span style={{ color: 'var(--muted-foreground)' }} className="text-sm">
-                        {episode.podcastName} · {episode.date}
-                      </span>
-                      <span style={{ color: 'var(--accent)' }} className="font-light">→</span>
-                    </div>
-                  </Link>
+                  />
                 ))}
               </div>
 
@@ -143,32 +169,16 @@ export default function HomeContent({ podcasts, newsletters, recentEpisodes }: H
       {activeTab === 'podcasts' && (
         <section className="container pt-6 pb-8 md:pb-8">
           {podcasts.length === 0 ? (
-            <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">
-              No podcasts found
-            </div>
+            <EmptyState message="No podcasts found" />
           ) : (
             <div className="grid gap-6 md:gap-8">
               {podcasts.map((podcast) => (
-                <Link
+                <SourceCard
                   key={podcast.name}
+                  title={podcast.title}
+                  subtitle={`${podcast.episodeCount || 0} episodes`}
                   href={`/podcast/${encodeURIComponent(podcast.name)}`}
-                  className="group block p-6 md:p-8 rounded-sm transition-all hover:opacity-80"
-                  style={{
-                    backgroundColor: 'var(--card)',
-                    borderColor: 'var(--border)',
-                    color: 'var(--foreground)',
-                  }}
-                >
-                  <h3 className="text-2xl md:text-3xl group-hover:underline transition-colors mb-2">
-                    {podcast.title}
-                  </h3>
-                  <div className="flex items-center justify-between">
-                    <span style={{ color: 'var(--muted-foreground)' }} className="text-sm">
-                      {podcast.episodeCount || 0} episodes
-                    </span>
-                    <span style={{ color: 'var(--accent)' }} className="font-light">→</span>
-                  </div>
-                </Link>
+                />
               ))}
             </div>
           )}
@@ -179,32 +189,16 @@ export default function HomeContent({ podcasts, newsletters, recentEpisodes }: H
       {activeTab === 'newsletters' && (
         <section className="container pt-6 pb-8 md:pb-8">
           {newsletters.length === 0 ? (
-            <div style={{ color: 'var(--muted-foreground)' }} className="text-center py-12">
-              No newsletters yet
-            </div>
+            <EmptyState message="No newsletters yet" />
           ) : (
             <div className="grid gap-6 md:gap-8">
               {newsletters.map((newsletter) => (
-                <Link
+                <SourceCard
                   key={newsletter.name}
+                  title={newsletter.title}
+                  subtitle={`${newsletter.episodeCount || 0} issues`}
                   href={`/podcast/${encodeURIComponent(newsletter.name)}`}
-                  className="group block p-6 md:p-8 rounded-sm transition-all hover:opacity-80"
-                  style={{
-                    backgroundColor: 'var(--card)',
-                    borderColor: 'var(--border)',
-                    color: 'var(--foreground)',
-                  }}
-                >
-                  <h3 className="text-2xl md:text-3xl group-hover:underline transition-colors mb-2">
-                    {newsletter.title}
-                  </h3>
-                  <div className="flex items-center justify-between">
-                    <span style={{ color: 'var(--muted-foreground)' }} className="text-sm">
-                      {newsletter.episodeCount || 0} issues
-                    </span>
-                    <span style={{ color: 'var(--accent)' }} className="font-light">→</span>
-                  </div>
-                </Link>
+                />
               ))}
             </div>
           )}

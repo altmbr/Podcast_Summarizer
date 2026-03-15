@@ -15,22 +15,16 @@ interface Episode {
   title: string
   slug: string
   date: string
+  dateObj: Date
   summary_content: string
   description?: string
   participants?: string
 }
 
-// Verify this is a legitimate cron request
 function verifyCronRequest(request: NextRequest): boolean {
-  const authHeader = request.headers.get('authorization')
   const cronSecret = process.env.CRON_SECRET
-
-  // If CRON_SECRET is set, verify it
-  if (cronSecret && authHeader !== `Bearer ${cronSecret}`) {
-    return false
-  }
-
-  return true
+  if (!cronSecret) return true
+  return request.headers.get('authorization') === `Bearer ${cronSecret}`
 }
 
 interface SubscriberData {
@@ -70,9 +64,8 @@ async function getSubscribers(): Promise<string[]> {
 
 async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]> {
   const podcastWorkDir = join(process.cwd(), 'podcast_work')
-  const now = new Date()
 
-  console.log('Current server time:', now.toISOString())
+  console.log('Current server time:', new Date().toISOString())
 
   const episodes: Episode[] = []
 
@@ -93,28 +86,26 @@ async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]>
           const summaryContent = await readFile(summaryPath, 'utf-8')
           const metadata = parseEpisodeMetadata(summaryContent)
 
-          if (metadata.date) {
-            // Use robust date parsing
-            const episodeDate = parseEpisodeDate(metadata.date)
+          if (!metadata.date) continue
 
-            if (!episodeDate) {
-              console.log(`Failed to parse date for episode "${metadata.title}": ${metadata.date}`)
-              continue
-            }
+          const episodeDate = parseEpisodeDate(metadata.date)
+          if (!episodeDate) {
+            console.log(`Failed to parse date for episode "${metadata.title}": ${metadata.date}`)
+            continue
+          }
 
-            console.log(`Episode "${metadata.title}": date=${metadata.date}, parsed=${episodeDate.toISOString()}, includes=${isWithinLastNHours(episodeDate, hours)}`)
+          console.log(`Episode "${metadata.title}": date=${metadata.date}, parsed=${episodeDate.toISOString()}, includes=${isWithinLastNHours(episodeDate, hours)}`)
 
-            // Only include episodes from last N hours
-            if (isWithinLastNHours(episodeDate, hours)) {
-              episodes.push({
-                podcast_name: metadata.podcast || podcastDir.name,
-                title: metadata.title || episodeDir.name,
-                slug: episodeDir.name,
-                date: metadata.date,
-                summary_content: summaryContent,
-                participants: metadata.participants
-              })
-            }
+          if (isWithinLastNHours(episodeDate, hours)) {
+            episodes.push({
+              podcast_name: metadata.podcast || podcastDir.name,
+              title: metadata.title || episodeDir.name,
+              slug: episodeDir.name,
+              date: metadata.date,
+              dateObj: episodeDate,
+              summary_content: summaryContent,
+              participants: metadata.participants,
+            })
           }
         } catch (e) {
           console.error(`Error reading episode ${episodeDir.name}:`, e)
@@ -127,35 +118,26 @@ async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]>
 
   console.log(`Found ${episodes.length} episodes from last ${hours} hours`)
 
-  // Sort by date, newest first
-  episodes.sort((a, b) => {
-    const dateA = parseEpisodeDate(a.date)
-    const dateB = parseEpisodeDate(b.date)
-    if (!dateA || !dateB) return 0
-    return dateB.getTime() - dateA.getTime()
-  })
+  // Sort by date, newest first (using already-parsed date)
+  episodes.sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime())
   return episodes
 }
 
 function extractKeyThemes(summaryContent: string): string {
-  // Find Key Themes and Contrarian Perspectives sections
   const lines = summaryContent.split('\n')
   let inRelevantSection = false
-  let extractedContent: string[] = []
+  const extractedContent: string[] = []
 
   for (const line of lines) {
-    // Start capturing at Key Themes
     if (/^##?\s*(?:1\.|A\.)\s*Key\s+Themes/i.test(line)) {
       inRelevantSection = true
       continue
     }
-    // Continue capturing at Contrarian Perspectives
     if (/^##?\s*(?:2\.|B\.)\s*Contrarian\s+Perspectives?/i.test(line)) {
       inRelevantSection = true
       continue
     }
     if (inRelevantSection) {
-      // Stop at other major sections (Companies, People, etc)
       if (/^##\s*(?:3\.|4\.|C\.|D\.)/.test(line)) {
         break
       }
@@ -378,10 +360,10 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
     const encodedPodcast = encodeURIComponent(episode.podcast_name)
     const encodedSlug = encodeURIComponent(episode.slug)
     const summaryUrl = `https://teahose.com/podcast/${encodedPodcast}/${encodedSlug}?ref=email`
-    const formattedDate = new Date(episode.date).toLocaleDateString('en-US', {
+    const formattedDate = episode.dateObj.toLocaleDateString('en-US', {
       month: 'long',
       day: 'numeric',
-      year: 'numeric'
+      year: 'numeric',
     })
 
     // Use <div> instead of <p> inside table cells for Gmail compatibility

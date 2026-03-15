@@ -46,20 +46,19 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
           const summaryContent = await readFile(summaryPath, 'utf-8')
           const metadata = parseEpisodeMetadata(summaryContent)
 
-          if (metadata.date) {
-            const dateObj = parseEpisodeDate(metadata.date)
-            if (dateObj) {
-              allEpisodes.push({
-                slug: episodeDir.name,
-                title: metadata.title || episodeDir.name,
-                date: metadata.date,
-                podcast: podcastDir.name,
-                podcastName: metadata.podcast || podcastDir.name,
-                source: metadata.source,
-                dateObj
-              })
-            }
-          }
+          if (!metadata.date) continue
+          const dateObj = parseEpisodeDate(metadata.date)
+          if (!dateObj) continue
+
+          allEpisodes.push({
+            slug: episodeDir.name,
+            title: metadata.title || episodeDir.name,
+            date: metadata.date,
+            podcast: podcastDir.name,
+            podcastName: metadata.podcast || podcastDir.name,
+            source: metadata.source,
+            dateObj,
+          })
         } catch {
           // Skip episodes that can't be read
         }
@@ -82,7 +81,7 @@ async function getSources(): Promise<{ podcasts: Podcast[], newsletters: Podcast
   const allPodcasts = await getAllPodcasts()
 
   // Also load newsletter_config.json to identify newsletter sources
-  let newsletterNames: Set<string> = new Set()
+  const newsletterNames: Set<string> = new Set()
   try {
     const configPath = join(process.cwd(), 'newsletter_config.json')
     const configContent = await readFile(configPath, 'utf-8')

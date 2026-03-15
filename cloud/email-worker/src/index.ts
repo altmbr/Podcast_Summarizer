@@ -35,7 +35,6 @@ export default {
     }
 
     try {
-      // Parse the raw email
       const rawEmail = new Response(message.raw)
       const arrayBuffer = await rawEmail.arrayBuffer()
       const parser = new PostalMime()
@@ -58,7 +57,6 @@ export default {
         return
       }
 
-      // Build payload
       const payload = JSON.stringify({
         from_address: email.from?.address || message.from,
         from_name: email.from?.name || '',
@@ -69,10 +67,8 @@ export default {
         received_at: new Date().toISOString(),
       })
 
-      // Compute HMAC signature
       const signature = await computeHmac(payload, env.WEBHOOK_SECRET)
 
-      // POST to GCP Cloud Function
       const response = await fetch(env.WEBHOOK_URL, {
         method: 'POST',
         headers: {

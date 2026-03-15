@@ -70,7 +70,7 @@ export function generatePodcastSeriesSchema(podcast: PodcastMetadata) {
     '@context': 'https://schema.org',
     '@type': 'PodcastSeries',
     name: podcast.name,
-    url: `https://teahose.com/podcast/${encodeURIComponent(podcast.name)}`,
+    url: `https://www.teahose.com/podcast/${encodeURIComponent(podcast.name)}`,
   }
 
   if (podcast.description) {
@@ -121,6 +121,15 @@ export function generateWebSiteSchema() {
 }
 
 /**
+ * Extract a bold metadata field value from markdown content.
+ * Matches patterns like: **FieldName:** value
+ */
+function extractField(content: string, fieldName: string): string | undefined {
+  const match = content.match(new RegExp(`\\*\\*${fieldName}:\\*\\*\\s+(.+)`, 'i'))
+  return match ? match[1].trim() : undefined
+}
+
+/**
  * Parse episode metadata from summary markdown content
  */
 export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMetadata> {
@@ -129,69 +138,32 @@ export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMet
   // Extract title (first # heading)
   const titleMatch = summaryContent.match(/^#\s+(.+?)$/m)
   if (titleMatch) {
-    let title = titleMatch[1].trim()
-    // Remove markdown link syntax: [text](url) -> text
-    title = title.replace(/\[(.+?)\]\(.+?\)/g, '$1')
-    // Remove any remaining brackets: [text] -> text
-    title = title.replace(/^\[(.+?)\]$/, '$1')
-    metadata.title = title
+    metadata.title = titleMatch[1].trim()
+      .replace(/\[(.+?)\]\(.+?\)/g, '$1')  // [text](url) -> text
+      .replace(/^\[(.+?)\]$/, '$1')          // [text] -> text
   }
 
-  // Extract podcast name
-  const podcastMatch = summaryContent.match(/\*\*Podcast:\*\*\s+(.+)/i)
-  if (podcastMatch) {
-    metadata.podcast = podcastMatch[1].trim()
-  }
+  // Extract standard metadata fields
+  metadata.podcast = extractField(summaryContent, 'Podcast')
+  metadata.date = extractField(summaryContent, 'Date')
+  metadata.participants = extractField(summaryContent, 'Participants')
+  metadata.videoId = extractField(summaryContent, 'Video ID')
+  metadata.region = extractField(summaryContent, 'Region')
+  metadata.source = extractField(summaryContent, 'Source')
 
-  // Extract date
-  const dateMatch = summaryContent.match(/\*\*Date:\*\*\s+(.+)/i)
-  if (dateMatch) {
-    metadata.date = dateMatch[1].trim()
-  }
-
-  // Extract participants
-  const participantsMatch = summaryContent.match(/\*\*Participants:\*\*\s+(.+)/i)
-  if (participantsMatch) {
-    metadata.participants = participantsMatch[1].trim()
-  }
-
-  // Extract video ID
-  const videoIdMatch = summaryContent.match(/\*\*Video ID:\*\*\s+(.+)/i)
-  if (videoIdMatch) {
-    metadata.videoId = videoIdMatch[1].trim()
-  }
-
-  // Extract video URL - try two methods
-  // Method 1: From explicit Video URL field
-  const videoUrlMatch = summaryContent.match(/\*\*Video URL:\*\*\s+(.+)/i)
-  if (videoUrlMatch) {
-    metadata.videoUrl = videoUrlMatch[1].trim()
-  }
-  // Method 2: From title link [title](url) if Video URL field not found
-  else {
+  // Extract video URL: explicit field first, then title link as fallback
+  metadata.videoUrl = extractField(summaryContent, 'Video URL')
+  if (!metadata.videoUrl) {
     const titleLinkMatch = summaryContent.match(/^#\s+\[.+?\]\((.+?)\)$/m)
     if (titleLinkMatch) {
       metadata.videoUrl = titleLinkMatch[1].trim()
     }
   }
 
-  // Extract region
-  const regionMatch = summaryContent.match(/\*\*Region:\*\*\s+(.+)/i)
-  if (regionMatch) {
-    metadata.region = regionMatch[1].trim()
-  }
-
-  // Extract source (e.g., "newsletter")
-  const sourceMatch = summaryContent.match(/\*\*Source:\*\*\s+(.+)/i)
-  if (sourceMatch) {
-    metadata.source = sourceMatch[1].trim()
-  }
-
-  // Extract description from first paragraph after metadata
+  // Extract description from first paragraph after metadata separator
   const descriptionMatch = summaryContent.match(/---\s+([\s\S]+?)(?:\n\n|\n#)/)
   if (descriptionMatch) {
     const desc = descriptionMatch[1].trim()
-    // Limit to ~160 characters for meta description
     metadata.description = desc.length > 160
       ? desc.substring(0, 157) + '...'
       : desc
