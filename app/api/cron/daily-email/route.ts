@@ -10,12 +10,6 @@ import { SESv2Client, SendEmailCommand } from '@aws-sdk/client-sesv2'
 const SUBSCRIBER_EMAILS_KEY = 'subscriber-emails'
 const SUBSCRIBER_PREFIX = 'subscriber:'
 
-// Feature flag for header image style
-// true = new composite style with unified scene, nametags, worn paper texture
-// false = old panel-based style with separate panels per episode
-// To revert: set USE_COMPOSITE_HEADER = false
-const USE_COMPOSITE_HEADER = true
-
 interface Episode {
   podcast_name: string
   title: string
@@ -77,11 +71,8 @@ async function getSubscribers(): Promise<string[]> {
 async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]> {
   const podcastWorkDir = join(process.cwd(), 'podcast_work')
   const now = new Date()
-  const cutoffDate = new Date(now)
-  cutoffDate.setHours(cutoffDate.getHours() - hours)
 
   console.log('Current server time:', now.toISOString())
-  console.log(`Cutoff date (${hours}h ago):`, cutoffDate.toISOString())
 
   const episodes: Episode[] = []
 
@@ -260,71 +251,6 @@ async function generateGeminiImage(prompt: string, logLabel: string): Promise<st
   }
 }
 
-// OLD STYLE: Panel-based header image (set USE_COMPOSITE_HEADER = false to use this)
-async function generatePanelHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
-  const topics: string[] = []
-  for (const ep of episodes.slice(0, 6)) {
-    let title = ep.title
-
-    title = title.replace(/^[^:]+:\s*/, '')
-    title = title.split(/\s*[\|\-]\s*/)[0]
-
-    if (title.length > 60) {
-      title = title
-        .replace(/^(Why|How|What|When|Where|Are|Is|Do|Does|Can|Will)\s+/i, '')
-        .replace(/\b(the|a|an|and|or|but|in|on|at|to|for|of|with|from|that|this|these|those)\b/gi, '')
-        .replace(/\s+/g, ' ')
-        .trim()
-
-      if (title.length > 60) {
-        title = title.slice(0, 60).replace(/\s+\S*$/, '').trim()
-      }
-    }
-
-    topics.push(title)
-  }
-
-  const numTopics = topics.length
-  let layout: string
-  let panelDesc: string
-
-  if (numTopics === 1) {
-    layout = '1 large panel filling the entire image'
-    panelDesc = `Single Panel: "${topics[0]}"`
-  } else if (numTopics === 2) {
-    layout = '2 panels stacked vertically'
-    panelDesc = `Panel 1: "${topics[0]}"\nPanel 2: "${topics[1]}"`
-  } else {
-    const layoutMap: Record<number, string> = {
-      3: '3 panels stacked vertically',
-      4: '4 panels in a 2x2 grid',
-      5: '5 panels: 1 wide panel at top spanning full width, then 2 rows of 2 panels each below',
-    }
-    layout = layoutMap[numTopics] || '6 panels in a 2x3 grid (2 columns, 3 rows)'
-    panelDesc = topics.map((t, i) => `Panel ${i + 1}: "${t}"`).join('\n')
-  }
-
-  const prompt = `Create a vintage 1950s newspaper-style comic header for a daily podcast digest.
-
-LAYOUT: ${layout} in PORTRAIT format.
-
-STYLE: Vintage Roy Lichtenstein pop art with Ben Day dots, bold primary colors, thick black outlines.
-
-PANEL CONTENT:
-${panelDesc}
-
-NO FOOTER - illustration fills the entire image
-
-REQUIREMENTS:
-- All ${numTopics} panels clearly visible
-- All text legible and bold
-- Portrait orientation (taller than wide)
-- Vintage newspaper comic aesthetic`
-
-  return generateGeminiImage(prompt, 'Panel header image')
-}
-
-// NEW STYLE: Composite header image with unified scene and nametags
 async function generateVisualConcept(episodes: Episode[]): Promise<string> {
   const anthropicKey = process.env.ANTHROPIC_API_KEY
   const fallback = 'A collage of tech industry themes including AI, business strategy, and innovation.'
@@ -374,7 +300,7 @@ Describe the unified composition in 3-4 sentences. Be specific about what visual
   }
 }
 
-async function generateCompositeHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
+async function generateCompositeHeaderImage(episodes: Episode[]): Promise<string | null> {
   console.log('Generating visual concept with Claude...')
   const visualConcept = await generateVisualConcept(episodes)
   console.log('Visual concept:', visualConcept.slice(0, 100) + '...')
@@ -423,13 +349,6 @@ OVERALL AESTHETIC:
 - Perfect for email newsletter banner`
 
   return generateGeminiImage(prompt, 'Composite header image')
-}
-
-async function generateHeaderImage(episodes: Episode[], dateStr: string): Promise<string | null> {
-  if (USE_COMPOSITE_HEADER) {
-    return generateCompositeHeaderImage(episodes, dateStr)
-  }
-  return generatePanelHeaderImage(episodes, dateStr)
 }
 
 function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boolean, unsubscribeToken: string): string {
@@ -778,7 +697,7 @@ export async function GET(request: NextRequest) {
 
   // Generate header image
   console.log('Generating header image...')
-  const headerImageBase64 = await generateHeaderImage(episodes, dateStr)
+  const headerImageBase64 = await generateCompositeHeaderImage(episodes)
 
   const subject = `The Daily Teahose - ${dateStr}`
 

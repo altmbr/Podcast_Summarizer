@@ -10,6 +10,7 @@ import hmac
 import json
 import os
 import re
+import subprocess
 import tempfile
 import traceback
 from datetime import datetime, timezone
@@ -197,7 +198,6 @@ def update_newsletter_status(repo: Repo, status: dict, newsletter_name: str, epi
 
 def verify_github_auth():
     """Verify GitHub token has push access."""
-    import subprocess
     print("Verifying GitHub auth...")
     result = subprocess.run(
         ["git", "ls-remote", f"https://{GITHUB_TOKEN}@github.com/altmbr/Podcast_Summarizer.git", "HEAD"],
@@ -304,7 +304,7 @@ Article:
 **Podcast:** {newsletter_name}
 **Date:** {date_formatted}
 **Participants:** {author_name}
-**Source:** Newsletter
+**Source:** newsletter
 
 ---
 
@@ -362,6 +362,9 @@ def newsletter_processor(request):
         return {"error": "ANTHROPIC_API_KEY not set"}, 500
     if not GITHUB_TOKEN:
         return {"error": "GITHUB_TOKEN not set"}, 500
+
+    subject = "?"
+    newsletter_name = "Unknown"
 
     try:
         payload = request.get_json()
@@ -429,10 +432,5 @@ def newsletter_processor(request):
     except Exception as e:
         print(f"Error: {e}")
         traceback.print_exc()
-        send_processing_report(
-            payload.get("subject", "?") if "payload" in dir() else "?",
-            "Unknown",
-            success=False,
-            error=str(e),
-        )
+        send_processing_report(subject, newsletter_name, success=False, error=str(e))
         return {"status": "error", "message": str(e)}, 500

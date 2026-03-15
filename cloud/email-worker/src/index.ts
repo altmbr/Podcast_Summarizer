@@ -43,7 +43,7 @@ export default {
 
       // Detect non-newsletter emails (confirmations, short emails, transactional)
       // and forward them to Gmail instead of processing
-      const subject = (email.subject || '').toLowerCase()
+      const subject = email.subject || ''
       const textLen = (email.text || '').length
       const htmlLen = (email.html || '').length
       const contentLen = Math.max(textLen, htmlLen)

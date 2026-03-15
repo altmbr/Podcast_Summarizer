@@ -8,6 +8,7 @@ import functions_framework
 import json
 import os
 import re
+import subprocess
 import tempfile
 import time
 import traceback
@@ -459,7 +460,6 @@ GCS_BACKUP_BUCKET = "gen-lang-client-0111593271-podscan-backups"
 def verify_github_auth():
     """Verify GitHub token has push access before doing any work."""
     print("Verifying GitHub auth...")
-    import subprocess
     result = subprocess.run(
         ["git", "ls-remote", f"https://{GITHUB_TOKEN}@github.com/altmbr/Podcast_Summarizer.git", "HEAD"],
         capture_output=True, text=True, timeout=15,

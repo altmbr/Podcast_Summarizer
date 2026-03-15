@@ -204,7 +204,7 @@ Describe the unified composition in 3-4 sentences. Be specific about what visual
         return 'A collage of tech industry themes including AI, business strategy, and innovation.'
 
 
-def generate_composite_header_image(episodes, date_str, output_path):
+def generate_composite_header_image(episodes, output_path):
     """Generate composite header image with unified scene and nametags."""
     try:
         from google import genai
@@ -289,11 +289,6 @@ OVERALL AESTHETIC:
         return None
 
 
-def generate_header_image(episodes, date_str, output_path):
-    """Generate composite header image with unified scene and nametags."""
-    return generate_composite_header_image(episodes, date_str, output_path)
-
-
 def generate_email_html(episodes, date_str, header_image_path=None):
     """Generate HTML email content using table-based layout for cross-client compatibility."""
     import base64
@@ -355,7 +350,7 @@ def generate_email_html(episodes, date_str, header_image_path=None):
     episode_cards = ""
     for index, episode in enumerate(episodes):
         upload_date = episode['upload_date'].strftime('%B %d, %Y')
-        sanitized_title = re.sub(r'[<>:"/\\|?*]', '_', episode['title'])
+        sanitized_title = re.sub(r'[<>:"/\\|?*]', '_', episode['title'])[:200]
         encoded_podcast = requests.utils.quote(episode['podcast_name'])
         encoded_slug = requests.utils.quote(sanitized_title)
         summary_url = f"https://teahose.com/podcast/{encoded_podcast}/{encoded_slug}?ref=email"
@@ -574,7 +569,7 @@ def main():
     else:
         # Generate new header image
         print("Generating header image...")
-        generate_header_image(episodes, date_str, header_image_path)
+        generate_composite_header_image(episodes, header_image_path)
 
     # Generate HTML
     html_content = generate_email_html(episodes, date_str, header_image_path)
