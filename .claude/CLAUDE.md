@@ -117,14 +117,22 @@ GOOGLE_API_KEY                   # Gemini + YouTube Data API
 NEWSLETTER_WEBHOOK_SECRET        # HMAC auth for newsletter webhook
 ```
 
-### Vercel Environment Variables (for daily email)
+### Vercel Environment Variables (for daily email + KV)
 ```
 AWS_ACCESS_KEY_ID                # AWS SES email sending
 AWS_SECRET_ACCESS_KEY            # AWS SES email sending
-ANTHROPIC_API_KEY                # Episode descriptions
+ANTHROPIC_API_KEY                # Episode descriptions + chat
 GOOGLE_API_KEY                   # Header image generation (Gemini)
 CRON_SECRET                      # Secure cron endpoint
+EMAILS_KV_REST_API_URL           # Vercel KV (subscriber storage) — auto-set by Vercel
+EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
 ```
+
+**KV Notes:**
+- Subscriber list stored in Vercel KV (Upstash Redis). KV client configured in `lib/kv.ts` using `EMAILS_` prefixed env vars.
+- Free-tier KV databases auto-delete after 14 days of inactivity. If this happens, create a new KV in Vercel dashboard, restore from Upstash backups, and Vercel will auto-set the env vars.
+- Admin endpoint: `GET /api/admin/subscribers` returns current subscriber list.
+- Manual daily email trigger: `curl "https://www.teahose.com/api/cron/daily-email?hours=48"` (all subscribers) or add `?test=true` for just altmbr@gmail.com.
 
 ### Cloudflare (Email Worker)
 - **Worker:** `newsletter-email-worker` (deployed via `wrangler deploy` from `cloud/email-worker/`)
