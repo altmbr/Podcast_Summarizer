@@ -31,6 +31,15 @@
           "processed_at": "2026-03-15T21:14:04Z"
         }
       }
+    },
+    "Stratechery": {
+      "episodes": {
+        "a5588ade8744bb18": {
+          "subject": "Agents Over Bubbles (Stratechery Article 3-16-2026)",
+          "status": "summarized",
+          "processed_at": "2026-03-16T10:06:43Z"
+        }
+      }
     }
   }
 }
