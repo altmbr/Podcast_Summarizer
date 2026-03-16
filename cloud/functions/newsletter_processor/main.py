@@ -94,15 +94,19 @@ def extract_newsletter_content(html_body: str, text_body: str) -> str:
         for tag in soup.find_all(["style", "script", "noscript"]):
             tag.decompose()
 
-        # Remove tracking pixels
+        # Remove tracking pixels (collect first, then decompose to avoid mutation during iteration)
+        to_remove = []
         for img in soup.find_all("img"):
-            if img is None or not hasattr(img, "attrs"):
+            try:
+                src = (img.get("src") or "").lower()
+                width = img.get("width") or ""
+                height = img.get("height") or ""
+                if width in ("1", "0") or height in ("1", "0") or "track" in src or "pixel" in src:
+                    to_remove.append(img)
+            except Exception:
                 continue
-            src = img.get("src", "") or ""
-            width = img.get("width", "") or ""
-            height = img.get("height", "") or ""
-            if width in ("1", "0") or height in ("1", "0") or "track" in src.lower() or "pixel" in src.lower():
-                img.decompose()
+        for img in to_remove:
+            img.decompose()
 
         # Convert to readable text
         h = html2text.HTML2Text()
