@@ -1,4 +1,4 @@
-import { kv } from '@vercel/kv'
+import { kv } from '@/lib/kv'
 import type { NextRequest } from 'next/server'
 
 const OLD_EMAILS_KEY = 'newsletter-emails'

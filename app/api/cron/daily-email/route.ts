@@ -1,4 +1,4 @@
-import { kv } from '@vercel/kv'
+import { kv } from '@/lib/kv'
 import type { NextRequest } from 'next/server'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'

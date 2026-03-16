@@ -1,4 +1,4 @@
-import { kv } from '@vercel/kv'
+import { kv } from '@/lib/kv'
 import type { NextRequest } from 'next/server'
 import { createHmac } from 'crypto'
 
