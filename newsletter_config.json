@@ -30,5 +30,13 @@
   "datadrivenvc@newsletter.datadrivenvc.io": {
     "name": "Data Driven VC",
     "author": "Andre Retterath"
+  },
+  "noreply@ctakes.coatue.com": {
+    "name": "Coatue",
+    "author": "Coatue Management"
+  },
+  "dan@axios.com": {
+    "name": "Axios Pro Rata",
+    "author": "Dan Primack"
   }
 }
