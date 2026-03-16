@@ -40,6 +40,15 @@
           "processed_at": "2026-03-16T10:06:43Z"
         }
       }
+    },
+    "PitchBook News": {
+      "episodes": {
+        "91b829bdfe09f704": {
+          "subject": "Tether's new pastime",
+          "status": "summarized",
+          "processed_at": "2026-03-16T11:32:52Z"
+        }
+      }
     }
   }
 }
