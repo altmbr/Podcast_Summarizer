@@ -118,6 +118,15 @@
           "processed_at": "2026-03-17T15:25:27Z"
         }
       }
+    },
+    "Our World in Data": {
+      "episodes": {
+        "0089edb95d4feb47": {
+          "subject": "Data Insight: Argentina was one of the richest countries in the world at the beginning of the 20th century",
+          "status": "summarized",
+          "processed_at": "2026-03-17T16:13:46Z"
+        }
+      }
     }
   }
 }
