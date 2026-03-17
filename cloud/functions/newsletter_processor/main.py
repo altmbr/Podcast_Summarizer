@@ -305,10 +305,13 @@ Article:
     except (ValueError, TypeError):
         date_formatted = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
+    processed_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
     header = f"""# {subject}
 
 **Podcast:** {newsletter_name}
 **Date:** {date_formatted}
+**Processed:** {processed_at}
 **Participants:** {author_name}
 **Source:** newsletter
 

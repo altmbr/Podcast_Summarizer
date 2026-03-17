@@ -30,7 +30,7 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
     const podcastWorkDir = join(process.cwd(), 'podcast_work')
     const podcastDirs = await readdir(podcastWorkDir, { withFileTypes: true })
 
-    const allEpisodes: Array<RecentEpisode & { dateObj: Date }> = []
+    const allEpisodes: Array<RecentEpisode & { dateObj: Date; sortDate: Date }> = []
 
     for (const podcastDir of podcastDirs) {
       if (!podcastDir.isDirectory()) continue
@@ -50,6 +50,10 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
           const dateObj = parseEpisodeDate(metadata.date)
           if (!dateObj) continue
 
+          // Use Processed timestamp (precise) for sorting, fall back to Date (day-only)
+          const processedDate = metadata.processed ? parseEpisodeDate(metadata.processed) : null
+          const sortDate = processedDate || dateObj
+
           allEpisodes.push({
             slug: episodeDir.name,
             title: metadata.title || episodeDir.name,
@@ -58,6 +62,7 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
             podcastName: metadata.podcast || podcastDir.name,
             source: metadata.source,
             dateObj,
+            sortDate,
           })
         } catch {
           // Skip episodes that can't be read
@@ -66,8 +71,8 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
     }
 
     return allEpisodes
-      .sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime())
-      .map(({ dateObj, ...episode }) => episode)
+      .sort((a, b) => b.sortDate.getTime() - a.sortDate.getTime())
+      .map(({ dateObj, sortDate, ...episode }) => episode)
   } catch {
     return []
   }

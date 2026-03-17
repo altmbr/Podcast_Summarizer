@@ -6,6 +6,7 @@ export interface EpisodeMetadata {
   title: string
   podcast: string
   date: string
+  processed?: string
   participants?: string
   videoId?: string
   videoUrl?: string
@@ -146,6 +147,7 @@ export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMet
   // Extract standard metadata fields
   metadata.podcast = extractField(summaryContent, 'Podcast')
   metadata.date = extractField(summaryContent, 'Date')
+  metadata.processed = extractField(summaryContent, 'Processed')
   metadata.participants = extractField(summaryContent, 'Participants')
   metadata.videoId = extractField(summaryContent, 'Video ID')
   metadata.region = extractField(summaryContent, 'Region')

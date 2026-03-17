@@ -124,14 +124,18 @@ def fetch_podscan_status() -> dict:
     return resp.json()
 
 
-def find_new_episodes(config: dict, status: dict) -> list[dict]:
-    """Poll Podscan for unprocessed episodes from the last N days."""
+def find_new_episodes(config: dict, status: dict) -> tuple[list[dict], list[dict]]:
+    """Poll Podscan for unprocessed episodes from the last N days.
+    Returns (new_episodes, discovery_failures)."""
     cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
     new_episodes = []
+    discovery_failures = []
+    skipped_no_podscan = []
 
     for podcast_name, podcast_info in config.items():
         podscan_id = podcast_info.get("podscan_id")
         if not podscan_id:
+            skipped_no_podscan.append(podcast_name)
             continue
 
         print(f"Checking {podcast_name} (podscan_id={podscan_id})...")
@@ -186,11 +190,17 @@ def find_new_episodes(config: dict, status: dict) -> list[dict]:
                 page += 1
 
         except Exception as e:
-            print(f"  Error fetching episodes for {podcast_name}: {e}")
+            print(f"  ERROR: Discovery failed for {podcast_name}: {e}")
+            traceback.print_exc()
+            discovery_failures.append({"podcast": podcast_name, "error": str(e)})
             continue
 
+    if skipped_no_podscan:
+        print(f"Skipped {len(skipped_no_podscan)} podcasts without Podscan ID: {', '.join(skipped_no_podscan)}")
+    if discovery_failures:
+        print(f"WARNING: Discovery failed for {len(discovery_failures)} podcast(s): {', '.join(f['podcast'] for f in discovery_failures)}")
     print(f"Found {len(new_episodes)} new episode(s) to process")
-    return new_episodes
+    return new_episodes, discovery_failures
 
 
 # ---------------------------------------------------------------------------
@@ -419,10 +429,13 @@ Transcript:
         youtube_line = f"**YouTube:** [Watch on YouTube]({yt_url})\n"
         summary_content = add_youtube_timestamps(summary_content, youtube_video_id)
 
+    processed_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
     header = f"""# [{episode_title}]({episode_url})
 
 **Podcast:** {podcast_name}
 **Date:** {date_formatted}
+**Processed:** {processed_at}
 **Participants:** {participants}
 **Episode URL:** {episode_url}
 {youtube_line}**Transcript:** [View Transcript](./transcript.md)
@@ -578,16 +591,24 @@ def commit_and_push(repo: Repo, processed_episodes: list[dict]):
 # Notification
 # ---------------------------------------------------------------------------
 
-def send_processing_report(processed: list[dict], failed: list[dict]):
+def send_processing_report(processed: list[dict], failed: list[dict], discovery_failures: list[dict] | None = None):
     """Send processing report via AWS SES."""
     total = len(processed) + len(failed)
-    if total == 0:
+    has_discovery_failures = discovery_failures and len(discovery_failures) > 0
+    if total == 0 and not has_discovery_failures:
         return
 
     aws_key = os.environ.get("AWS_ACCESS_KEY_ID")
     aws_secret = os.environ.get("AWS_SECRET_ACCESS_KEY")
     if not aws_key or not aws_secret:
-        print("No AWS credentials, skipping email report")
+        print("WARNING: No AWS credentials — processing report NOT sent. Results:")
+        for ep in processed:
+            print(f"  OK: [{ep['podcast_name']}] {ep['title']}")
+        for ep in failed:
+            print(f"  FAIL: [{ep['podcast_name']}] {ep['title']} — {ep.get('error', '?')}")
+        if has_discovery_failures:
+            for f in discovery_failures:
+                print(f"  DISCOVERY FAIL: {f['podcast']} — {f['error']}")
         return
 
     html_parts = [
@@ -597,13 +618,13 @@ def send_processing_report(processed: list[dict], failed: list[dict]):
     ]
 
     if processed:
-        html_parts.append("<h3>Processed:</h3><ul>")
+        html_parts.append("<h3>✓ Processed:</h3><ul>")
         for ep in processed:
             html_parts.append(f"<li><strong>[{ep['podcast_name']}]</strong> {ep['title']}</li>")
         html_parts.append("</ul>")
 
     if failed:
-        html_parts.append("<h3>Failed:</h3><ul>")
+        html_parts.append("<h3>✗ Failed:</h3><ul>")
         for ep in failed:
             html_parts.append(
                 f"<li><strong>[{ep['podcast_name']}]</strong> {ep['title']}"
@@ -611,11 +632,19 @@ def send_processing_report(processed: list[dict], failed: list[dict]):
             )
         html_parts.append("</ul>")
 
+    if has_discovery_failures:
+        html_parts.append("<h3>⚠ Discovery Failures:</h3><ul>")
+        for f in discovery_failures:
+            html_parts.append(f"<li><strong>{f['podcast']}</strong>: {f['error']}</li>")
+        html_parts.append("</ul>")
+
     html_parts.append("</body></html>")
 
     subject = f"Podscan: {len(processed)} processed"
     if failed:
         subject += f", {len(failed)} failed"
+    if has_discovery_failures:
+        subject += f", {len(discovery_failures)} discovery errors"
 
     try:
         import boto3
@@ -672,6 +701,8 @@ def process_episode(episode: dict, config: dict, repo: Repo, status: dict) -> bo
         raise ValueError(f"No transcript available for episode {ep_id}")
 
     metadata = ep_data.get("metadata", episode.get("metadata", {}))
+    if metadata is None:
+        metadata = {}
     speaker_map = build_speaker_map(metadata)
 
     # Convert transcript with real speaker names
@@ -741,10 +772,14 @@ def podscan_processor(request):
             verify_github_auth()
 
         # Find new episodes
-        new_episodes = find_new_episodes(config, status)
+        new_episodes, discovery_failures = find_new_episodes(config, status)
         if not new_episodes:
+            # Still send report if there were discovery failures
+            if discovery_failures:
+                send_processing_report([], [], discovery_failures)
             print("No new episodes found")
-            return {"status": "ok", "message": "No new episodes", "count": 0}
+            return {"status": "ok", "message": "No new episodes", "count": 0,
+                    "discovery_failures": len(discovery_failures)}
 
         # Clone repo
         with tempfile.TemporaryDirectory() as work_dir:
@@ -779,7 +814,7 @@ def podscan_processor(request):
                 commit_and_push(repo, processed)
 
             # Send report
-            send_processing_report(processed, failed)
+            send_processing_report(processed, failed, discovery_failures)
 
             result = {
                 "status": "ok",

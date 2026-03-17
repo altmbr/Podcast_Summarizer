@@ -10,12 +10,16 @@ import { SESv2Client, SendEmailCommand } from '@aws-sdk/client-sesv2'
 const SUBSCRIBER_EMAILS_KEY = 'subscriber-emails'
 const SUBSCRIBER_PREFIX = 'subscriber:'
 
+const SENT_SLUGS_KEY = 'daily-email:sent-slugs'
+const LOG_KEY_PREFIX = 'daily-email:log:'
+
 interface Episode {
   podcast_name: string
   title: string
   slug: string
   date: string
   dateObj: Date
+  sortDate: Date
   summary_content: string
   description?: string
   participants?: string
@@ -94,15 +98,21 @@ async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]>
             continue
           }
 
-          console.log(`Episode "${metadata.title}": date=${metadata.date}, parsed=${episodeDate.toISOString()}, includes=${isWithinLastNHours(episodeDate, hours)}`)
+          // Use Processed timestamp if available (precise to the second), fall back to Date (day-only)
+          const processedDate = metadata.processed ? parseEpisodeDate(metadata.processed) : null
+          const checkDate = processedDate || episodeDate
+          const sortDate = processedDate || episodeDate
 
-          if (isWithinLastNHours(episodeDate, hours)) {
+          console.log(`Episode "${metadata.title}": date=${metadata.date}, processed=${metadata.processed || 'N/A'}, checkDate=${checkDate.toISOString()}, includes=${isWithinLastNHours(checkDate, hours)}`)
+
+          if (isWithinLastNHours(checkDate, hours)) {
             episodes.push({
               podcast_name: metadata.podcast || podcastDir.name,
               title: metadata.title || episodeDir.name,
               slug: episodeDir.name,
               date: metadata.date,
               dateObj: episodeDate,
+              sortDate,
               summary_content: summaryContent,
               participants: metadata.participants,
             })
@@ -118,8 +128,8 @@ async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]>
 
   console.log(`Found ${episodes.length} episodes from last ${hours} hours`)
 
-  // Sort by date, newest first (using already-parsed date)
-  episodes.sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime())
+  // Sort by most recently processed first (using precise processed timestamp when available)
+  episodes.sort((a, b) => b.sortDate.getTime() - a.sortDate.getTime())
   return episodes
 }
 
@@ -611,18 +621,38 @@ export async function GET(request: NextRequest) {
   const hours = hoursParam ? parseInt(hoursParam, 10) : 48
 
   // Get episodes from last N hours
-  const episodes = await getEpisodesFromLastNHours(hours)
+  const allEpisodes = await getEpisodesFromLastNHours(hours)
+
+  // Dedup: exclude episodes already sent in a previous daily email
+  let previousSlugs: string[] = []
+  try {
+    const raw = await kv.get(SENT_SLUGS_KEY) as string[] | null
+    previousSlugs = raw || []
+    if (previousSlugs.length > 0) {
+      console.log(`Dedup: ${previousSlugs.length} slugs from previous sends: ${previousSlugs.join(', ')}`)
+    }
+  } catch (e) {
+    console.error('Failed to read previous sent slugs from KV:', e)
+  }
+
+  const excludedSlugs = allEpisodes.filter(ep => previousSlugs.includes(ep.slug)).map(ep => ep.slug)
+  const episodes = allEpisodes.filter(ep => !previousSlugs.includes(ep.slug))
+
+  if (excludedSlugs.length > 0) {
+    console.log(`Dedup: excluded ${excludedSlugs.length} already-sent episode(s): ${excludedSlugs.join(', ')}`)
+  }
 
   if (episodes.length === 0) {
-    console.log(`No new episodes in the last ${hours} hours`)
+    console.log(`No new episodes in the last ${hours} hours (${allEpisodes.length} in window, all already sent)`)
     return Response.json({
       success: true,
       message: 'No new episodes to send',
-      episodeCount: 0
+      episodeCount: 0,
+      excludedCount: excludedSlugs.length,
     })
   }
 
-  console.log(`Found ${episodes.length} episode(s) from last ${hours} hours`)
+  console.log(`Found ${episodes.length} new episode(s) from last ${hours} hours (${excludedSlugs.length} excluded as duplicates)`)
 
   // Get subscribers
   const subscribers = await getSubscribers()
@@ -686,16 +716,61 @@ export async function GET(request: NextRequest) {
   // Send personalized emails with unique unsubscribe tokens
   const success = await sendEmail(actualSubscribers, subject, episodes, dateStr, headerImageBase64)
 
+  // Build audit log entry
+  const logEntry = {
+    sentAt: new Date().toISOString(),
+    success,
+    episodeCount: episodes.length,
+    subscriberCount: actualSubscribers.length,
+    testMode,
+    episodes: episodes.map(ep => ({
+      title: ep.title,
+      slug: ep.slug,
+      podcast: ep.podcast_name,
+      date: ep.date,
+    })),
+    excludedSlugs,
+    windowHours: hours,
+    totalInWindow: allEpisodes.length,
+  }
+
   if (success) {
+    // Track sent slugs for dedup (union of previous + current, 72h TTL)
+    try {
+      const allSentSlugs = [...new Set([...previousSlugs, ...episodes.map(ep => ep.slug)])]
+      await kv.set(SENT_SLUGS_KEY, allSentSlugs, { ex: 72 * 60 * 60 })
+      console.log(`Stored ${allSentSlugs.length} sent slugs in KV for dedup`)
+    } catch (e) {
+      console.error('Failed to store sent slugs in KV:', e)
+    }
+
+    // Write audit log (30-day TTL)
+    try {
+      const logKey = `${LOG_KEY_PREFIX}${new Date().toISOString().split('T')[0]}`
+      await kv.set(logKey, JSON.stringify(logEntry), { ex: 30 * 24 * 60 * 60 })
+      console.log(`Audit log written to ${logKey}`)
+    } catch (e) {
+      console.error('Failed to write audit log:', e)
+    }
+
     console.log('Daily email sent successfully!')
     return Response.json({
       success: true,
       message: testMode ? 'Daily email sent (TEST MODE)' : 'Daily email sent',
       episodeCount: episodes.length,
       subscriberCount: actualSubscribers.length,
+      excludedCount: excludedSlugs.length,
       ...(testMode && { testMode: true, testEmail })
     })
   } else {
+    // Still write audit log on failure for visibility
+    try {
+      const logKey = `${LOG_KEY_PREFIX}${new Date().toISOString().split('T')[0]}`
+      await kv.set(logKey, JSON.stringify(logEntry), { ex: 30 * 24 * 60 * 60 })
+    } catch (e) {
+      console.error('Failed to write audit log:', e)
+    }
+
     console.error('Failed to send daily email')
     return Response.json({
       success: false,
