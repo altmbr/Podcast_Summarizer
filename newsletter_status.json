@@ -132,6 +132,15 @@
           "processed_at": "2026-03-17T16:13:46Z"
         }
       }
+    },
+    "Newcomer Newsletter": {
+      "episodes": {
+        "4f2e0db2e69a74e5": {
+          "subject": "Announcing the Cerebral Valley Voice Summit, Featuring Sierra's Bret Taylor, Abridge's Shiv Rao & More Top Founders",
+          "status": "summarized",
+          "processed_at": "2026-03-17T20:25:43Z"
+        }
+      }
     }
   }
 }
