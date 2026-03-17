@@ -109,6 +109,15 @@
           "processed_at": "2026-03-17T14:00:38Z"
         }
       }
+    },
+    "Sourcery Newsletter": {
+      "episodes": {
+        "3c27ed427a618294": {
+          "subject": "BREAKING: Deel Hits $1.4B+ ARR | CEO Alex Bouaziz",
+          "status": "summarized",
+          "processed_at": "2026-03-17T15:25:27Z"
+        }
+      }
     }
   }
 }
