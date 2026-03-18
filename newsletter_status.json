@@ -170,6 +170,15 @@
           "processed_at": "2026-03-17T23:48:57Z"
         }
       }
+    },
+    "The VC Corner": {
+      "episodes": {
+        "5ae814d8e9b2cb99": {
+          "subject": "what'syour SaaS company Worth in 2026?",
+          "status": "summarized",
+          "processed_at": "2026-03-18T17:59:54Z"
+        }
+      }
     }
   }
 }
