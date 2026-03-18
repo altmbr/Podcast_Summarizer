@@ -1,70 +1,28 @@
 # Chart of the Day
 
 **Podcast:** Coatue
-**Date:** 2026-03-17
-**Processed:** 2026-03-17T18:25:17Z
+**Date:** 2026-03-18
+**Processed:** 2026-03-18T21:27:45Z
 **Participants:** Coatue Management
 **Source:** newsletter
 
 ---
 
-# Coatue "Chart of the Day" — Summary Brief
+I apologize, but the article you've shared does not contain enough substantive content to summarize meaningfully. The newsletter from Coatue Management titled **"Chart of the Day: A (new) star is born"** appears to be largely a **rendering artifact** — the body of the email failed to load or was stripped during copy/paste, leaving only:
 
-> **Important Note to Reader:** This newsletter is almost entirely devoid of substantive content. The article consists of a single tagline — *"The new WFH is WFC (work from compute)"* — with no supporting data, analysis, charts (despite the "Chart of the Day" branding), quotes, case studies, or named individuals. What follows is the most complete summary possible given the available material.
+- Navigation/formatting characters
+- A subject line and headline ("A (new) star is born")
+- Boilerplate footer information (address, unsubscribe links)
+- A reference to "C:\Takes" (Coatue's content platform)
 
----
-
-### 1. Key Themes
-
-### The Shift from Location-Based to Compute-Based Work
-Coatue proposes a conceptual reframe: just as "Work From Home" (WFH) defined a post-pandemic labor shift, "Work From Compute" (WFC) may define the next era of how work gets done — mediated by AI and computing resources rather than physical location.
-> *"The new WFH is WFC (work from compute)."*
-
-No further elaboration, data, or evidence is provided in the article.
+**There is no actual article text, chart data, analysis, or substantive content present** for me to extract themes, quotes, companies, people, or insights from.
 
 ---
 
-### 2. Contrarian Perspectives
+### To get a proper summary, I'd suggest:
 
-**The unit of productive labor may no longer be a human in a place — it may be a compute instance.**
-The WFC framing implies that the meaningful variable in future productivity is not *where* someone works, but *what compute resources* they have access to. This subtly repositions AI infrastructure as a labor input, not merely a productivity tool.
-> *"The new WFH is WFC (work from compute)."*
+1. **View the email in browser** using the link provided (`mailchi.mp/ctakes.coatue.com/github-star-history`) and re-copy the fully rendered text
+2. **Share a screenshot** of the chart and any accompanying commentary
+3. **Paste the rendered HTML** or plain text from the browser version
 
-*Note: No additional facts, data, or evidence are provided to substantiate this view in the article.*
-
----
-
-### 3. Companies Identified
-
-| Company | Description | Why Mentioned | Quote |
-|---|---|---|---|
-| Coatue Management | Major technology-focused hedge fund and venture firm | Publisher/author of the newsletter | *(Masthead only)* |
-
-*No other companies are named or analyzed in the article.*
-
----
-
-### 4. People Identified
-
-*No individuals are named, quoted, or cited anywhere in the article.*
-
----
-
-### 5. Operating Insights
-
-**Reframe your firm's resource allocation around compute access, not headcount.**
-If the WFC thesis holds, operators should evaluate workforce planning not only by FTEs hired but by compute capacity provisioned — treating AI inference and cloud compute as a labor budget line.
-> *"The new WFH is WFC (work from compute)."*
-
-*Note: This is an inference drawn from the sole sentence in the article. No tactical guidance is explicitly offered.*
-
----
-
-### 6. Overlooked Insights
-
-**The branding of "Chart of the Day" with no actual chart is itself a signal.**
-The newsletter is titled "Chart of the Day" and is formatted as a data-driven publication, yet this issue contains no chart, no data, and no analysis — only a single aphorism. This may suggest Coatue is using its newsletter as a thought-leadership / meme-dissemination vehicle as much as an analytical one, which is worth noting when calibrating the signal value of future issues.
-
----
-
-**Bottom line for investors and operators:** This issue is a one-sentence thesis with no supporting evidence. The core idea — that compute is becoming the new organizing principle of work — is directionally aligned with broader AI infrastructure investment themes, but readers should look to Coatue's longer-form publications (e.g., their full AI reports) for actionable data.
+The URL slug `github-star-history` suggests this piece may be about **GitHub repository star growth** as a signal — likely tracking a notable AI or developer tools project — but I cannot confirm or elaborate without the actual content.
