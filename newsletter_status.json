@@ -175,6 +175,11 @@
           "subject": "Data Insight: Argentina was one of the richest countries in the world at the beginning of the 20th century",
           "status": "summarized",
           "processed_at": "2026-03-17T16:13:46Z"
+        },
+        "4d73d0576af35271": {
+          "subject": "Data Insight: In the 1980s, youth literacy was higher in Sub-Saharan Africa than in South Asia; it’s now the opposite",
+          "status": "summarized",
+          "processed_at": "2026-03-19T16:07:49Z"
         }
       }
     },
