@@ -14,6 +14,12 @@
           "status": "summarized",
           "posted_at": "2026-03-16T07:07:00+00:00",
           "processed_at": "2026-03-16T19:05:48Z"
+        },
+        "ep_b63pjkpyplwmxwoa": {
+          "title": "20VC: The Return of Travis Kalanick: Uber Would Be $1TRN Today With Him | NVIDIA Predicts $1TRN in Revenue: Everything You Need to Know From GTC | Anduril Lands $20BN Army Contract | Adobe CEO Shock Exit: The Dominos Falling",
+          "status": "summarized",
+          "posted_at": "2026-03-19T07:07:00+00:00",
+          "processed_at": "2026-03-19T17:04:32Z"
         }
       }
     },
@@ -159,6 +165,17 @@
           "status": "summarized",
           "posted_at": "2026-03-16T04:01:08+00:00",
           "processed_at": "2026-03-17T19:09:28Z"
+        }
+      }
+    },
+    "pd_k42yajrx2lbjp8ow": {
+      "podcast_name": "SaaStr",
+      "episodes": {
+        "ep_b54prpw9gz9axe6l": {
+          "title": "SaaStr 846: 10 Things to Know Before You Deploy Your First AI SDR with SaaStr's CEO and CAIO",
+          "status": "summarized",
+          "posted_at": "2026-03-18T07:36:00+00:00",
+          "processed_at": "2026-03-19T17:06:22Z"
         }
       }
     }
