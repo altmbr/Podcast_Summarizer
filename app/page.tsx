@@ -79,13 +79,13 @@ async function getRecentEpisodes(): Promise<RecentEpisode[]> {
 }
 
 /**
- * Get all podcasts and newsletters for homepage (server-side)
- * Separates them by checking if any episode has source: newsletter
+ * Get all podcasts, newsletters, and papers for homepage (server-side)
+ * Separates them by checking config files and episode source metadata
  */
-async function getSources(): Promise<{ podcasts: Podcast[], newsletters: Podcast[] }> {
+async function getSources(recentEpisodes: RecentEpisode[]): Promise<{ podcasts: Podcast[], newsletters: Podcast[], papers: Podcast[] }> {
   const allPodcasts = await getAllPodcasts()
 
-  // Also load newsletter_config.json to identify newsletter sources
+  // Load newsletter_config.json to identify newsletter sources
   const newsletterNames: Set<string> = new Set()
   try {
     const configPath = join(process.cwd(), 'newsletter_config.json')
@@ -98,8 +98,17 @@ async function getSources(): Promise<{ podcasts: Podcast[], newsletters: Podcast
     // No config file
   }
 
+  // Identify paper sources from episode metadata
+  const paperSourceNames: Set<string> = new Set()
+  for (const ep of recentEpisodes) {
+    if (ep.source === 'paper') {
+      paperSourceNames.add(ep.podcastName)
+    }
+  }
+
   const podcasts: Podcast[] = []
   const newsletters: Podcast[] = []
+  const papers: Podcast[] = []
 
   for (const p of allPodcasts) {
     const item = {
@@ -108,24 +117,24 @@ async function getSources(): Promise<{ podcasts: Podcast[], newsletters: Podcast
       description: p.description,
       episodeCount: p.episodes.length,
     }
-    if (newsletterNames.has(p.name)) {
+    if (paperSourceNames.has(p.name)) {
+      papers.push(item)
+    } else if (newsletterNames.has(p.name)) {
       newsletters.push(item)
     } else {
       podcasts.push(item)
     }
   }
 
-  return { podcasts, newsletters }
+  return { podcasts, newsletters, papers }
 }
 
 /**
  * Server Component - generates static HTML at build time
  */
 export default async function HomePage() {
-  const [{ podcasts, newsletters }, recentEpisodes] = await Promise.all([
-    getSources(),
-    getRecentEpisodes(),
-  ])
+  const recentEpisodes = await getRecentEpisodes()
+  const { podcasts, newsletters, papers } = await getSources(recentEpisodes)
 
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
@@ -137,13 +146,13 @@ export default async function HomePage() {
             <ShareButton refSource="home" />
           </div>
           <p style={{ color: 'var(--muted-foreground)' }} className="text-lg">
-            A distillation of leading tech & business podcasts and newsletters. Browse summaries here or sub for daily digests delivering hours of insight in 30 seconds.
+            A distillation of leading tech & business podcasts, newsletters, and research papers. Browse summaries here or sub for daily digests delivering hours of insight in 30 seconds.
           </p>
         </div>
       </header>
 
       {/* Content with tabs */}
-      <HomeContent podcasts={podcasts} newsletters={newsletters} recentEpisodes={recentEpisodes} />
+      <HomeContent podcasts={podcasts} newsletters={newsletters} papers={papers} recentEpisodes={recentEpisodes} />
     </main>
   )
 }

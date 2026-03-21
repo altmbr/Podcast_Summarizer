@@ -13,6 +13,8 @@ export interface EpisodeMetadata {
   region?: string
   description?: string
   source?: string
+  arxivId?: string
+  pdfUrl?: string
 }
 
 export interface PodcastMetadata {
@@ -95,7 +97,7 @@ export function generateOrganizationSchema() {
     name: 'Teahose',
     url: 'https://www.teahose.com',
     logo: 'https://www.teahose.com/og-image.png',
-    description: 'Summaries of the most important tech podcasts — including China\'s. Subscribe for the weekly briefing that distills 30+ hours of podcasts into a 5-minute read.',
+    description: 'Summaries of the most important tech podcasts, newsletters, and Physical AI research papers. Subscribe for daily digests delivering hours of insight in 30 seconds.',
     sameAs: [],
   }
 }
@@ -109,7 +111,7 @@ export function generateWebSiteSchema() {
     '@type': 'WebSite',
     name: 'Teahose',
     url: 'https://www.teahose.com',
-    description: 'Summaries of the most important tech podcasts — including China\'s.',
+    description: 'Summaries of the most important tech podcasts, newsletters, and Physical AI research papers.',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
@@ -152,6 +154,8 @@ export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMet
   metadata.videoId = extractField(summaryContent, 'Video ID')
   metadata.region = extractField(summaryContent, 'Region')
   metadata.source = extractField(summaryContent, 'Source')
+  metadata.arxivId = extractField(summaryContent, 'arXiv')
+  metadata.pdfUrl = extractField(summaryContent, 'PDF')
 
   // Extract video URL: explicit field first, then title link as fallback
   metadata.videoUrl = extractField(summaryContent, 'Video URL')

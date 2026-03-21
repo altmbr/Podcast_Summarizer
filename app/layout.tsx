@@ -9,8 +9,8 @@ import { Suspense } from 'react'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.teahose.com'),
-  title: 'Teahose - Tech Podcast Summaries',
-  description: 'A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.',
+  title: 'Teahose - Tech Podcasts, Newsletters & Research Papers',
+  description: 'A distillation of leading tech & business podcasts, newsletters, and Physical AI research papers. Browse summaries or sub for daily digests delivering hours of insight in 30 seconds.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     apple: { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
   },
   openGraph: {
-    title: 'Teahose - Tech Podcast Summaries',
-    description: 'A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.',
+    title: 'Teahose - Tech Podcasts, Newsletters & Research Papers',
+    description: 'A distillation of leading tech & business podcasts, newsletters, and Physical AI research papers. Browse summaries or sub for daily digests delivering hours of insight in 30 seconds.',
     url: 'https://www.teahose.com/',
     siteName: 'Teahose',
     images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         url: '/og-image-comic.png',
         width: 1536,
         height: 1024,
-        alt: 'Teahose - Tech podcast summaries',
+        alt: 'Teahose - Tech podcasts, newsletters, and research papers',
       },
     ],
     locale: 'en_US',
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Teahose - Tech Podcast Summaries',
-    description: 'A distillation of leading tech & business podcasts. Browse summaries here or sub for daily digests delivering 2-5 hours of insight in 30 seconds.',
+    title: 'Teahose - Tech Podcasts, Newsletters & Research Papers',
+    description: 'A distillation of leading tech & business podcasts, newsletters, and Physical AI research papers. Browse summaries or sub for daily digests delivering hours of insight in 30 seconds.',
     images: ['/og-image-comic.png'],
   },
   alternates: {

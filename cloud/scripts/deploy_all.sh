@@ -143,6 +143,46 @@ gcloud scheduler jobs create http podscan-daily \
 
 echo "✓ Cloud Scheduler created (Podscan)"
 
+# Step 8: Deploy Paper Processor Function
+echo ""
+echo "Step 8/9: Deploying Paper Processor Function..."
+gcloud functions deploy paper-processor \
+  --gen2 \
+  --runtime python311 \
+  --region $REGION \
+  --project $PROJECT_ID \
+  --source functions/paper_processor \
+  --entry-point paper_processor \
+  --trigger-http \
+  --allow-unauthenticated \
+  --timeout 900 \
+  --memory 512Mi \
+  --service-account $SA_EMAIL \
+  --set-secrets "ANTHROPIC_API_KEY=ANTHROPIC_API_KEY:latest,GITHUB_TOKEN=GITHUB_TOKEN:latest,AWS_ACCESS_KEY_ID=AWS_ACCESS_KEY_ID:latest,AWS_SECRET_ACCESS_KEY=AWS_SECRET_ACCESS_KEY:latest" \
+  --set-env-vars "NOTIFICATION_EMAIL=altmbr@gmail.com,PAPER_LOOKBACK_DAYS=3"
+
+echo "✓ Paper Processor Function deployed"
+
+# Step 9: Create Cloud Scheduler for Papers (5 AM EST daily)
+echo ""
+echo "Step 9/9: Creating Cloud Scheduler (Paper Processor)..."
+gcloud scheduler jobs create http paper-daily \
+  --location $REGION \
+  --project $PROJECT_ID \
+  --schedule "0 5 * * *" \
+  --time-zone "America/New_York" \
+  --uri "https://${REGION}-${PROJECT_ID}.cloudfunctions.net/paper-processor" \
+  --http-method GET \
+  --oidc-service-account-email $SA_EMAIL \
+  --oidc-token-audience "https://${REGION}-${PROJECT_ID}.cloudfunctions.net/paper-processor" \
+  || gcloud scheduler jobs update http paper-daily \
+    --location $REGION \
+    --project $PROJECT_ID \
+    --schedule "0 5 * * *" \
+    --time-zone "America/New_York"
+
+echo "✓ Cloud Scheduler created (Paper Processor)"
+
 echo ""
 echo "================================================"
 echo "✓ Deployment complete!"
@@ -156,6 +196,9 @@ echo "curl https://${REGION}-${PROJECT_ID}.cloudfunctions.net/discovery"
 echo ""
 echo "Test podscan processor (dry run):"
 echo "curl 'https://${REGION}-${PROJECT_ID}.cloudfunctions.net/podscan-processor?dry_run=true'"
+echo ""
+echo "Test paper processor (dry run):"
+echo "curl 'https://${REGION}-${PROJECT_ID}.cloudfunctions.net/paper-processor?dry_run=true'"
 echo ""
 echo "REQUIRED: Add PODSCAN_API_KEY to Secret Manager:"
 echo "echo -n 'your-api-key' | gcloud secrets create PODSCAN_API_KEY --data-file=- --project $PROJECT_ID"

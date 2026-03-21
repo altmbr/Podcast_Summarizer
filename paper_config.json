@@ -1,0 +1,45 @@
+{
+  "scoring": {
+    "relevance_weight": 3,
+    "novelty_weight": 2,
+    "impact_weight": 3,
+    "pedigree_weight": 2,
+    "multisource_weight": 1,
+    "minimum_score": 60,
+    "max_papers_per_day": 2
+  },
+  "arxiv_categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG", "cs.SY"],
+  "physical_ai_keywords": [
+    "robot", "manipulation", "grasping", "locomotion", "humanoid",
+    "embodied", "sim-to-real", "VLA", "vision-language-action",
+    "world model", "digital twin", "autonomous vehicle", "drone",
+    "tactile", "dexterous", "physics simulation", "reinforcement learning robot",
+    "imitation learning", "teleoperation", "whole-body control"
+  ],
+  "seed_papers": [
+    "2410.24164",
+    "2412.14058",
+    "2503.07443",
+    "2501.12061",
+    "2410.12971",
+    "2503.14734",
+    "2409.12917",
+    "2410.08135"
+  ],
+  "tracked_labs": [
+    "Physical Intelligence",
+    "Google DeepMind",
+    "Toyota Research Institute",
+    "UC Berkeley",
+    "Stanford",
+    "CMU",
+    "MIT",
+    "AgiBot",
+    "NVIDIA",
+    "Skild AI",
+    "Meta FAIR",
+    "Shanghai Jiao Tong University",
+    "Tsinghua University",
+    "Unitree"
+  ]
+}

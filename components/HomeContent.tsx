@@ -22,15 +22,17 @@ interface RecentEpisode {
 interface HomeContentProps {
   podcasts: Podcast[]
   newsletters: Podcast[]
+  papers: Podcast[]
   recentEpisodes: RecentEpisode[]
 }
 
-type Tab = 'episodes' | 'podcasts' | 'newsletters'
+type Tab = 'episodes' | 'podcasts' | 'newsletters' | 'papers'
 
 const TABS: { id: Tab; label: string; resetsCount?: boolean }[] = [
   { id: 'episodes', label: 'Recent Content', resetsCount: true },
   { id: 'podcasts', label: 'Podcasts' },
   { id: 'newsletters', label: 'Newsletters', resetsCount: true },
+  { id: 'papers', label: 'Papers', resetsCount: true },
 ]
 
 interface TabButtonProps {
@@ -92,7 +94,7 @@ function EmptyState({ message }: { message: string }) {
   )
 }
 
-export default function HomeContent({ podcasts, newsletters, recentEpisodes }: HomeContentProps) {
+export default function HomeContent({ podcasts, newsletters, papers, recentEpisodes }: HomeContentProps) {
   const [activeTab, setActiveTab] = useState<Tab>('episodes')
   const [displayCount, setDisplayCount] = useState(20)
 
@@ -198,6 +200,26 @@ export default function HomeContent({ podcasts, newsletters, recentEpisodes }: H
                   title={newsletter.title}
                   subtitle={`${newsletter.episodeCount || 0} issues`}
                   href={`/podcast/${encodeURIComponent(newsletter.name)}`}
+                />
+              ))}
+            </div>
+          )}
+        </section>
+      )}
+
+      {/* Papers Section */}
+      {activeTab === 'papers' && (
+        <section className="container pt-6 pb-8 md:pb-8">
+          {papers.length === 0 ? (
+            <EmptyState message="No papers yet" />
+          ) : (
+            <div className="grid gap-6 md:gap-8">
+              {papers.map((paper) => (
+                <SourceCard
+                  key={paper.name}
+                  title={paper.title}
+                  subtitle={`${paper.episodeCount || 0} papers`}
+                  href={`/podcast/${encodeURIComponent(paper.name)}`}
                 />
               ))}
             </div>
