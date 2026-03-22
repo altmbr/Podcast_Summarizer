@@ -403,42 +403,61 @@ Papers to evaluate:
 """
 
 
-def score_papers(candidates: list[dict], config: dict) -> list[dict]:
-    """Score candidate papers using Claude. Returns candidates with scores added."""
-    if not candidates:
-        return []
-
-    # Build scoring input
+def _score_batch(batch: list[dict], client: Anthropic) -> dict:
+    """Score a single batch of papers. Returns {arxiv_id: scores_dict}."""
     paper_descriptions = []
-    for p in candidates:
+    for p in batch:
         authors_str = ", ".join(p.get("authors", [])[:5])
         desc = f"- arxiv_id: {p['arxiv_id']}\n  Title: {p['title']}\n  Authors: {authors_str}\n  Abstract: {p.get('abstract', 'N/A')[:500]}"
         paper_descriptions.append(desc)
 
     prompt = SCORING_PROMPT + "\n".join(paper_descriptions)
 
-    print(f"  Scoring {len(candidates)} candidates with Claude...")
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=8000,
+        messages=[{"role": "user", "content": prompt}],
+    )
 
-    try:
-        client = Anthropic(api_key=ANTHROPIC_API_KEY)
-        response = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=4000,
-            messages=[{"role": "user", "content": prompt}],
-        )
+    scores_text = response.content[0].text.strip()
+    if scores_text.startswith("```"):
+        scores_text = re.sub(r'^```\w*\n?', '', scores_text)
+        scores_text = re.sub(r'\n?```$', '', scores_text)
 
-        scores_text = response.content[0].text.strip()
-        # Handle potential markdown wrapping
-        if scores_text.startswith("```"):
-            scores_text = re.sub(r'^```\w*\n?', '', scores_text)
-            scores_text = re.sub(r'\n?```$', '', scores_text)
+    scores_list = json.loads(scores_text)
+    return {s["arxiv_id"]: s for s in scores_list}
 
-        scores_list = json.loads(scores_text)
-        scores_by_id = {s["arxiv_id"]: s for s in scores_list}
 
-    except Exception as e:
-        print(f"  WARNING: Scoring failed: {e}")
-        traceback.print_exc()
+SCORING_BATCH_SIZE = 25
+
+
+def score_papers(candidates: list[dict], config: dict) -> list[dict]:
+    """Score candidate papers using Claude in batches. Returns candidates with scores added."""
+    if not candidates:
+        return []
+
+    print(f"  Scoring {len(candidates)} candidates with Claude (batch size {SCORING_BATCH_SIZE})...")
+
+    client = Anthropic(api_key=ANTHROPIC_API_KEY)
+    scores_by_id = {}
+
+    # Score in batches to avoid JSON truncation
+    for i in range(0, len(candidates), SCORING_BATCH_SIZE):
+        batch = candidates[i:i + SCORING_BATCH_SIZE]
+        batch_num = i // SCORING_BATCH_SIZE + 1
+        total_batches = (len(candidates) + SCORING_BATCH_SIZE - 1) // SCORING_BATCH_SIZE
+        print(f"    Batch {batch_num}/{total_batches} ({len(batch)} papers)...")
+
+        try:
+            batch_scores = _score_batch(batch, client)
+            scores_by_id.update(batch_scores)
+        except Exception as e:
+            print(f"    WARNING: Batch {batch_num} scoring failed: {e}")
+            traceback.print_exc()
+            continue
+
+    if not scores_by_id:
+        print("  WARNING: All scoring batches failed")
         return []
 
     # Calculate composite scores
