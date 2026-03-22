@@ -7,8 +7,7 @@ import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { parseEpisodeMetadata } from './schema'
 import { parseEpisodeDate } from './dates'
-
-const PODCAST_WORK_DIR = join(process.cwd(), 'podcast_work')
+import { PODCAST_WORK_DIR } from './constants'
 
 export interface Episode {
   slug: string

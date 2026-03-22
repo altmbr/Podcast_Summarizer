@@ -1,8 +1,7 @@
 import { readFile } from 'fs/promises'
 import { join, resolve } from 'path'
 import matter from 'gray-matter'
-
-const PODCAST_WORK_DIR = resolve(process.cwd(), 'podcast_work')
+import { PODCAST_WORK_DIR } from '@/lib/constants'
 
 export async function GET(
   request: Request,

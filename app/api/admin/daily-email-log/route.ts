@@ -1,11 +1,6 @@
 import { kv } from '@/lib/kv'
+import { verifyBearerToken } from '@/lib/auth'
 import type { NextRequest } from 'next/server'
-
-function verifyAdminRequest(request: NextRequest): boolean {
-  const secret = process.env.CRON_SECRET
-  if (!secret) return false
-  return request.headers.get('authorization') === `Bearer ${secret}`
-}
 
 interface LogEpisode {
   title: string
@@ -33,7 +28,7 @@ interface LogEntry {
  * Use this to audit what was sent and verify no duplicates.
  */
 export async function GET(request: NextRequest) {
-  if (!verifyAdminRequest(request)) {
+  if (!verifyBearerToken(request)) {
     return Response.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

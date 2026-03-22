@@ -1,6 +1,4 @@
-/**
- * Schema.org structured data utilities for SEO
- */
+import { BASE_URL } from './constants'
 
 export interface EpisodeMetadata {
   title: string
@@ -23,9 +21,20 @@ export interface PodcastMetadata {
   episodeCount?: number
 }
 
-/**
- * Generate PodcastEpisode schema markup
- */
+function episodeUrl(podcastName: string, episodeSlug: string): string {
+  return `${BASE_URL}/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`
+}
+
+function podcastUrl(podcastName: string): string {
+  return `${BASE_URL}/podcast/${encodeURIComponent(podcastName)}`
+}
+
+const PUBLISHER = {
+  '@type': 'Organization',
+  name: 'Teahose',
+  url: BASE_URL,
+}
+
 export function generatePodcastEpisodeSchema(
   episode: EpisodeMetadata,
   podcastName: string,
@@ -35,16 +44,15 @@ export function generatePodcastEpisodeSchema(
     '@context': 'https://schema.org',
     '@type': 'PodcastEpisode',
     name: episode.title,
-    url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`,
+    url: episodeUrl(podcastName, episodeSlug),
     datePublished: episode.date,
     partOfSeries: {
       '@type': 'PodcastSeries',
       name: episode.podcast,
-      url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}`,
+      url: podcastUrl(podcastName),
     },
   }
 
-  // Add optional fields
   if (episode.description) {
     schema.description = episode.description
   }
@@ -65,15 +73,12 @@ export function generatePodcastEpisodeSchema(
   return schema
 }
 
-/**
- * Generate PodcastSeries schema markup
- */
 export function generatePodcastSeriesSchema(podcast: PodcastMetadata) {
   const schema: any = {
     '@context': 'https://schema.org',
     '@type': 'PodcastSeries',
     name: podcast.name,
-    url: `https://www.teahose.com/podcast/${encodeURIComponent(podcast.name)}`,
+    url: podcastUrl(podcast.name),
   }
 
   if (podcast.description) {
@@ -87,9 +92,6 @@ export function generatePodcastSeriesSchema(podcast: PodcastMetadata) {
   return schema
 }
 
-/**
- * Generate BreadcrumbList schema markup for navigation hierarchy
- */
 export function generateBreadcrumbSchema(
   items: { name: string; url: string }[]
 ) {
@@ -106,132 +108,88 @@ export function generateBreadcrumbSchema(
 }
 
 /**
- * Generate Article schema markup for newsletter issues
+ * Unified Article/ScholarlyArticle schema.
+ * Use 'Article' for newsletters, 'ScholarlyArticle' for papers.
  */
 export function generateArticleSchema(
   episode: EpisodeMetadata,
   podcastName: string,
-  episodeSlug: string
+  episodeSlug: string,
+  type: 'Article' | 'ScholarlyArticle' = 'Article'
 ) {
   const schema: any = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': type,
     headline: episode.title,
-    url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`,
+    url: episodeUrl(podcastName, episodeSlug),
     datePublished: episode.date,
-    publisher: {
-      '@type': 'Organization',
-      name: 'Teahose',
-      url: 'https://www.teahose.com',
-    },
+    publisher: PUBLISHER,
   }
 
   if (episode.description) {
     schema.description = episode.description
   }
 
-  return schema
-}
-
-/**
- * Generate ScholarlyArticle schema markup for research papers
- */
-export function generateScholarlyArticleSchema(
-  episode: EpisodeMetadata,
-  podcastName: string,
-  episodeSlug: string
-) {
-  const schema: any = {
-    '@context': 'https://schema.org',
-    '@type': 'ScholarlyArticle',
-    headline: episode.title,
-    url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`,
-    datePublished: episode.date,
-    publisher: {
-      '@type': 'Organization',
-      name: 'Teahose',
-      url: 'https://www.teahose.com',
-    },
-  }
-
-  if (episode.description) {
-    schema.description = episode.description
-  }
-
-  if (episode.arxivId) {
-    schema.sameAs = `https://arxiv.org/abs/${episode.arxivId}`
-  }
-
-  if (episode.pdfUrl) {
-    schema.encoding = {
-      '@type': 'MediaObject',
-      contentUrl: episode.pdfUrl,
-      encodingFormat: 'application/pdf',
+  if (type === 'ScholarlyArticle') {
+    if (episode.arxivId) {
+      schema.sameAs = `https://arxiv.org/abs/${episode.arxivId}`
+    }
+    if (episode.pdfUrl) {
+      schema.encoding = {
+        '@type': 'MediaObject',
+        contentUrl: episode.pdfUrl,
+        encodingFormat: 'application/pdf',
+      }
     }
   }
 
   return schema
 }
 
-/**
- * Generate Organization schema markup for homepage
- */
 export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Teahose',
-    url: 'https://www.teahose.com',
-    logo: 'https://www.teahose.com/og-image.png',
+    url: BASE_URL,
+    logo: `${BASE_URL}/og-image.png`,
     description: 'Summaries of the most important tech podcasts, newsletters, and Physical AI research papers. Subscribe for daily digests delivering hours of insight in 30 seconds.',
   }
 }
 
-/**
- * Generate WebSite schema markup for homepage
- */
 export function generateWebSiteSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Teahose',
-    url: 'https://www.teahose.com',
+    url: BASE_URL,
     description: 'Summaries of the most important tech podcasts, newsletters, and Physical AI research papers.',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://www.teahose.com/?q={search_term_string}',
+        urlTemplate: `${BASE_URL}/?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
   }
 }
 
-/**
- * Extract a bold metadata field value from markdown content.
- * Matches patterns like: **FieldName:** value
- */
 function extractField(content: string, fieldName: string): string | undefined {
   const match = content.match(new RegExp(`\\*\\*${fieldName}:\\*\\*\\s+(.+)`, 'i'))
   return match ? match[1].trim() : undefined
 }
 
-/**
- * Parse episode metadata from summary markdown content
- */
 export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMetadata> {
   const metadata: Partial<EpisodeMetadata> = {}
 
-  // Extract title (first # heading)
   const titleMatch = summaryContent.match(/^#\s+(.+?)$/m)
   if (titleMatch) {
     metadata.title = titleMatch[1].trim()
-      .replace(/\[(.+?)\]\(.+?\)/g, '$1')  // [text](url) -> text
-      .replace(/^\[(.+?)\]$/, '$1')          // [text] -> text
+      .replace(/\[(.+?)\]\(.+?\)/g, '$1')
+      .replace(/^\[(.+?)\]$/, '$1')
   }
 
-  // Extract standard metadata fields
   metadata.podcast = extractField(summaryContent, 'Podcast')
   metadata.date = extractField(summaryContent, 'Date')
   metadata.processed = extractField(summaryContent, 'Processed')
@@ -242,7 +200,6 @@ export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMet
   metadata.arxivId = extractField(summaryContent, 'arXiv')
   metadata.pdfUrl = extractField(summaryContent, 'PDF')
 
-  // Extract video URL: explicit field first, then title link as fallback
   metadata.videoUrl = extractField(summaryContent, 'Video URL')
   if (!metadata.videoUrl) {
     const titleLinkMatch = summaryContent.match(/^#\s+\[.+?\]\((.+?)\)$/m)
@@ -251,7 +208,6 @@ export function parseEpisodeMetadata(summaryContent: string): Partial<EpisodeMet
     }
   }
 
-  // Extract description from first paragraph after metadata separator
   const descriptionMatch = summaryContent.match(/---\s+([\s\S]+?)(?:\n\n|\n#)/)
   if (descriptionMatch) {
     const desc = descriptionMatch[1].trim()

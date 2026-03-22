@@ -1,9 +1,7 @@
 import { MetadataRoute } from 'next'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
-
-const PODCAST_WORK_DIR = join(process.cwd(), 'podcast_work')
-const BASE_URL = 'https://www.teahose.com'
+import { BASE_URL, PODCAST_WORK_DIR } from '@/lib/constants'
 
 interface Episode {
   podcastName: string

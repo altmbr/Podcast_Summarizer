@@ -5,8 +5,9 @@ import dynamic from 'next/dynamic'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import StructuredData from '@/components/StructuredData'
 import ShareButton from '@/components/ShareButton'
-import { generatePodcastEpisodeSchema, generateArticleSchema, generateScholarlyArticleSchema, generateBreadcrumbSchema } from '@/lib/schema'
-import { getEpisode, getAllEpisodeParams } from '@/lib/episodes'
+import { generatePodcastEpisodeSchema, generateArticleSchema, generateBreadcrumbSchema } from '@/lib/schema'
+import { BASE_URL } from '@/lib/constants'
+import { getEpisode, getAllEpisodeParams, type Episode } from '@/lib/episodes'
 import EpisodeClient from './EpisodeClient'
 
 const TranscriptChat = dynamic(() => import('@/components/TranscriptChat'))
@@ -86,9 +87,32 @@ export async function generateMetadata({ params }: EpisodePageProps): Promise<Me
   }
 }
 
-/**
- * Server Component - generates static HTML at build time
- */
+function getContentSchema(episode: Episode, podcastName: string, episodeSlug: string) {
+  const meta = {
+    title: episode.title,
+    podcast: episode.podcast || podcastName,
+    date: episode.date || '',
+    description: episode.summary?.substring(0, 200),
+  }
+
+  if (episode.source === 'newsletter') {
+    return generateArticleSchema(meta, podcastName, episodeSlug)
+  }
+  if (episode.source === 'paper') {
+    return generateArticleSchema(
+      { ...meta, arxivId: episode.arxivId, pdfUrl: episode.pdfUrl },
+      podcastName,
+      episodeSlug,
+      'ScholarlyArticle'
+    )
+  }
+  return generatePodcastEpisodeSchema(
+    { ...meta, participants: episode.participants, videoUrl: episode.videoUrl, region: episode.region },
+    podcastName,
+    episodeSlug
+  )
+}
+
 export default async function EpisodePage({ params }: EpisodePageProps) {
   const { name, episode: episodeSlug } = await params
   const podcastName = decodeURIComponent(name)
@@ -105,49 +129,11 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
       {/* Structured Data for SEO */}
       <StructuredData
         data={[
-          // Source-aware content schema
-          episode.source === 'newsletter'
-            ? generateArticleSchema(
-                {
-                  title: episode.title,
-                  podcast: episode.podcast || podcastName,
-                  date: episode.date || '',
-                  description: episode.summary?.substring(0, 200),
-                },
-                podcastName,
-                decodedSlug
-              )
-            : episode.source === 'paper'
-              ? generateScholarlyArticleSchema(
-                  {
-                    title: episode.title,
-                    podcast: episode.podcast || podcastName,
-                    date: episode.date || '',
-                    description: episode.summary?.substring(0, 200),
-                    arxivId: episode.arxivId,
-                    pdfUrl: episode.pdfUrl,
-                  },
-                  podcastName,
-                  decodedSlug
-                )
-              : generatePodcastEpisodeSchema(
-                  {
-                    title: episode.title,
-                    podcast: episode.podcast || podcastName,
-                    date: episode.date || '',
-                    participants: episode.participants,
-                    videoUrl: episode.videoUrl,
-                    region: episode.region,
-                    description: episode.summary?.substring(0, 200),
-                  },
-                  podcastName,
-                  decodedSlug
-                ),
-          // Breadcrumb schema
+          getContentSchema(episode, podcastName, decodedSlug),
           generateBreadcrumbSchema([
-            { name: 'Home', url: 'https://www.teahose.com' },
-            { name: episode.podcast || podcastName, url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}` },
-            { name: episode.title, url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(decodedSlug)}` },
+            { name: 'Home', url: BASE_URL },
+            { name: episode.podcast || podcastName, url: `${BASE_URL}/podcast/${encodeURIComponent(podcastName)}` },
+            { name: episode.title, url: `${BASE_URL}/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(decodedSlug)}` },
           ]),
         ]}
       />

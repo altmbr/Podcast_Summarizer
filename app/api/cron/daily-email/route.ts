@@ -1,10 +1,11 @@
 import { kv } from '@/lib/kv'
+import { verifyBearerToken } from '@/lib/auth'
+import { generateUnsubscribeToken } from '@/lib/tokens'
 import type { NextRequest } from 'next/server'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { parseEpisodeMetadata } from '@/lib/schema'
 import { parseEpisodeDate, isWithinLastNHours } from '@/lib/dates'
-import { createHmac } from 'crypto'
 import { SESv2Client, SendEmailCommand } from '@aws-sdk/client-sesv2'
 
 const SUBSCRIBER_EMAILS_KEY = 'subscriber-emails'
@@ -25,26 +26,10 @@ interface Episode {
   participants?: string
 }
 
-function verifyCronRequest(request: NextRequest): boolean {
-  const cronSecret = process.env.CRON_SECRET
-  if (!cronSecret) return false
-  return request.headers.get('authorization') === `Bearer ${cronSecret}`
-}
-
 interface SubscriberData {
   subscribed: boolean
   signupDate: string
   unsubscribeDate?: string
-}
-
-// Token generation utility (matches /api/unsubscribe)
-function generateUnsubscribeToken(email: string): string {
-  const secret = process.env.UNSUBSCRIBE_SECRET || process.env.CRON_SECRET
-  if (!secret) throw new Error('UNSUBSCRIBE_SECRET or CRON_SECRET must be configured')
-  const hmac = createHmac('sha256', secret)
-  hmac.update(email)
-  const hash = hmac.digest('base64url')
-  return hash
 }
 
 async function getSubscribers(): Promise<string[]> {
@@ -611,7 +596,7 @@ async function sendEmail(to: string[], subject: string, episodes: Episode[], dat
 
 export async function GET(request: NextRequest) {
   // Verify cron request
-  if (!verifyCronRequest(request)) {
+  if (!verifyBearerToken(request)) {
     return Response.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

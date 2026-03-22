@@ -72,9 +72,9 @@ export default function RootLayout({
           <nav aria-label="Site navigation" style={{ borderTopColor: 'var(--border)' }} className="border-t">
             <div className="container py-6 flex flex-wrap gap-6 justify-center text-sm" style={{ color: 'var(--muted-foreground)' }}>
               <Link href="/" className="hover:underline">Home</Link>
-              <Link href="/#podcasts" className="hover:underline">Podcasts</Link>
-              <Link href="/#newsletters" className="hover:underline">Newsletters</Link>
-              <Link href="/#papers" className="hover:underline">Papers</Link>
+              <Link href="/" className="hover:underline">Podcasts</Link>
+              <Link href="/" className="hover:underline">Newsletters</Link>
+              <Link href="/" className="hover:underline">Papers</Link>
               <Link href="/sitemap.xml" className="hover:underline">Sitemap</Link>
             </div>
           </nav>

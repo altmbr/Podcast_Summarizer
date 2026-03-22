@@ -1,34 +1,9 @@
 import { kv } from '@/lib/kv'
+import { extractEmailFromToken } from '@/lib/tokens'
 import type { NextRequest } from 'next/server'
-import { createHmac } from 'crypto'
 
 const SUBSCRIBER_PREFIX = 'subscriber:'
 const SUBSCRIBER_EMAILS_KEY = 'subscriber-emails'
-
-// Token utilities (inline for simplicity)
-function generateUnsubscribeToken(email: string): string {
-  const secret = process.env.UNSUBSCRIBE_SECRET || process.env.CRON_SECRET
-  if (!secret) throw new Error('UNSUBSCRIBE_SECRET or CRON_SECRET must be configured')
-  const hmac = createHmac('sha256', secret)
-  hmac.update(email)
-  const hash = hmac.digest('base64url')
-  return hash
-}
-
-function verifyUnsubscribeToken(token: string, email: string): boolean {
-  const expectedToken = generateUnsubscribeToken(email)
-  return token === expectedToken
-}
-
-function extractEmailFromToken(token: string, allEmails: string[]): string | null {
-  // Since HMAC is one-way, we need to check against all known emails
-  for (const email of allEmails) {
-    if (verifyUnsubscribeToken(token, email)) {
-      return email
-    }
-  }
-  return null
-}
 
 interface SubscriberData {
   subscribed: boolean
@@ -73,7 +48,6 @@ export async function GET(request: NextRequest) {
       )
     }
 
-    // Get all subscriber emails to verify token
     const allEmails = await getAllSubscriberEmails()
     const email = extractEmailFromToken(token, allEmails)
 
@@ -84,7 +58,6 @@ export async function GET(request: NextRequest) {
       )
     }
 
-    // Fetch subscriber data
     const subscriber = await getSubscriber(email)
 
     if (!subscriber) {
@@ -121,7 +94,6 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Get all subscriber emails to verify token
     const allEmails = await getAllSubscriberEmails()
     const email = extractEmailFromToken(token, allEmails)
 
@@ -132,7 +104,6 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Fetch subscriber data
     const subscriber = await getSubscriber(email)
 
     if (!subscriber) {
@@ -142,7 +113,6 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Update subscriber to unsubscribed
     await updateSubscriber(email, {
       subscribed: false,
       unsubscribeDate: new Date().toISOString()
