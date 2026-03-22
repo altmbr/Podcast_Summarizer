@@ -459,14 +459,6 @@ class TestInstitutionResolution:
         result = main.resolve_institution(paper, enrichment, tracked)
         assert result == "MIT"
 
-    def test_falls_back_to_abstract_match(self):
-        paper = {"authors": ["Alice"], "abstract": "Research at Google DeepMind on robotics"}
-        enrichment = {"affiliations": []}
-        tracked = ["Google DeepMind", "Stanford"]
-
-        result = main.resolve_institution(paper, enrichment, tracked)
-        assert result == "Google DeepMind"
-
     def test_falls_back_to_first_affiliation(self):
         paper = {"authors": ["Alice"], "abstract": "Some paper"}
         enrichment = {"affiliations": ["University of Tokyo"]}
@@ -475,6 +467,14 @@ class TestInstitutionResolution:
         result = main.resolve_institution(paper, enrichment, tracked)
         assert result == "University of Tokyo"
 
+    def test_first_affiliation_matches_tracked_lab(self):
+        paper = {"authors": ["Alice"], "abstract": "Some paper"}
+        enrichment = {"affiliations": ["Google DeepMind Research Lab"]}
+        tracked = ["Google DeepMind", "Stanford"]
+
+        result = main.resolve_institution(paper, enrichment, tracked)
+        assert result == "Google DeepMind"
+
     def test_falls_back_to_default(self):
         paper = {"authors": ["Alice"], "abstract": "Some paper"}
         enrichment = {"affiliations": []}
@@ -482,6 +482,15 @@ class TestInstitutionResolution:
 
         result = main.resolve_institution(paper, enrichment, tracked)
         assert result == "arXiv Physical AI"
+
+    def test_word_boundary_prevents_false_match(self):
+        """MIT should not match 'submitted' or 'limit'"""
+        paper = {"authors": ["Alice"], "abstract": "We submitted this paper with limited data"}
+        enrichment = {"affiliations": ["Department of Computer Science, University of Oxford"]}
+        tracked = ["MIT", "Stanford"]
+
+        result = main.resolve_institution(paper, enrichment, tracked)
+        assert result == "Department of Computer Science, University of Oxford"
 
 
 # ---------------------------------------------------------------------------

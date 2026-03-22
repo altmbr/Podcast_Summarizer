@@ -619,28 +619,29 @@ def enrich_with_semantic_scholar(arxiv_id: str) -> dict:
         return {}
 
 
+def _lab_matches(lab: str, text: str) -> bool:
+    """Check if lab name appears as a whole word/phrase in text."""
+    return bool(re.search(r'\b' + re.escape(lab) + r'\b', text, re.IGNORECASE))
+
+
 def resolve_institution(paper: dict, enrichment: dict, tracked_labs: list[str]) -> str:
     """Resolve the primary institution/lab for a paper."""
     affiliations = enrichment.get("affiliations", [])
 
-    # Check affiliations against tracked labs
+    # Check affiliations against tracked labs (word-boundary match)
     for aff in affiliations:
         for lab in tracked_labs:
-            if lab.lower() in aff.lower():
+            if _lab_matches(lab, aff):
                 return lab
 
-    # Check author names against known labs in the paper metadata
-    authors_str = " ".join(paper.get("authors", []))
-    abstract = paper.get("abstract", "")
-    combined = authors_str + " " + abstract
-
-    for lab in tracked_labs:
-        if lab.lower() in combined.lower():
-            return lab
-
-    # Use first affiliation if available
+    # Use first affiliation if available (more reliable than abstract guessing)
     if affiliations:
-        return affiliations[0]
+        # Still try to clean it up against tracked labs with looser matching
+        first_aff = affiliations[0]
+        for lab in tracked_labs:
+            if lab.lower() in first_aff.lower():
+                return lab
+        return first_aff
 
     return "arXiv Physical AI"
 
