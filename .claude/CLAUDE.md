@@ -231,6 +231,12 @@ EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
 - Base URL: `https://www.teahose.com` (with www for SEO consistency)
 - **Global footer nav:** Semantic `<nav>` in layout with links to Home, Podcasts, Newsletters, Papers, Sitemap
 
+### Folder Name vs Metadata Name (Critical)
+- **Folder name** (`podcastDir.name`): used for URLs, routing, and source matching
+- **Metadata name** (`metadata.podcast`): used for display only
+- These can differ (e.g., folder `arXiv Physical AI` vs metadata `arXiv Physical AI Research`)
+- **Rule:** Always use folder name for URL generation and source-type matching. Never use metadata name for routing.
+
 ### URL Routing
 
 Content type determines URL prefix — all served by a single `[type]` dynamic route (`app/[type]/[name]/[episode]`):
