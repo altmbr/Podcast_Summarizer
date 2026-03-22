@@ -95,7 +95,7 @@ Fully automated. Processes newsletters in real-time as they arrive.
 
 ### 3. Physical AI Papers Pipeline (automated, GCP Cloud Function)
 
-Fully automated. Runs daily at **5 AM EST** via Cloud Scheduler.
+Fully automated. Runs daily at **8 AM EST** via Cloud Scheduler (after the 6 AM daily digest).
 
 **Flow:** Cloud Scheduler → `paper-processor` Cloud Function → git push → Vercel auto-deploys
 
@@ -124,7 +124,7 @@ Maps podcast names to hosts, Podscan IDs, and YouTube playlist IDs. 20 of 25 pod
 ## Newsletter Config (`newsletter_config.json`)
 
 Maps sender email addresses to newsletter names and authors. Currently tracking:
-- Stratechery, StrictlyVC, 99d, Newcomer Newsletter, Sourcery Newsletter, The VC Corner, PitchBook, Data Driven VC, Coatue, Axios Pro Rata
+- Stratechery, StrictlyVC, 99d, Newcomer Newsletter, Sourcery Newsletter, The VC Corner, PitchBook, Data Driven VC, Coatue, Axios Pro Rata, The Robot Report
 
 ## Configuration
 
@@ -206,7 +206,7 @@ EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
 - Cloud Function: `newsletter-processor` (Gen 2, 512MB, 5-min timeout)
 - Cloud Function: `paper-processor` (Gen 2, 512MB, 60-min timeout)
 - Cloud Scheduler: `podscan-daily` (10 AM, 3 PM, 10 PM EST)
-- Cloud Scheduler: `paper-daily` (5 AM EST)
+- Cloud Scheduler: `paper-daily` (8 AM EST)
 - GCS bucket: `gen-lang-client-0111593271-podscan-backups`
 - Service account: `podcast-processor@gen-lang-client-0111593271.iam.gserviceaccount.com`
 
