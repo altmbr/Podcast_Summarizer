@@ -4,6 +4,7 @@ import { generateUnsubscribeToken } from '@/lib/tokens'
 import type { NextRequest } from 'next/server'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
+import { contentTypeFromSource } from '@/lib/content-types'
 import { parseEpisodeMetadata } from '@/lib/schema'
 import { parseEpisodeDate, isWithinLastNHours } from '@/lib/dates'
 import { SESv2Client, SendEmailCommand } from '@aws-sdk/client-sesv2'
@@ -87,12 +88,11 @@ async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]>
 
           // Use Processed timestamp if available (precise to the second), fall back to Date (day-only)
           const processedDate = metadata.processed ? parseEpisodeDate(metadata.processed) : null
-          const checkDate = processedDate || episodeDate
           const sortDate = processedDate || episodeDate
 
-          console.log(`Episode "${metadata.title}": date=${metadata.date}, processed=${metadata.processed || 'N/A'}, checkDate=${checkDate.toISOString()}, includes=${isWithinLastNHours(checkDate, hours)}`)
+          console.log(`Episode "${metadata.title}": date=${metadata.date}, processed=${metadata.processed || 'N/A'}, checkDate=${sortDate.toISOString()}, includes=${isWithinLastNHours(sortDate, hours)}`)
 
-          if (isWithinLastNHours(checkDate, hours)) {
+          if (isWithinLastNHours(sortDate, hours)) {
             episodes.push({
               podcast_name: metadata.podcast || podcastDir.name,
               title: metadata.title || episodeDir.name,
@@ -371,7 +371,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
   episodes.forEach((episode, index) => {
     const encodedPodcast = encodeURIComponent(episode.podcast_name)
     const encodedSlug = encodeURIComponent(episode.slug)
-    const urlPrefix = episode.source === 'paper' ? 'paper' : episode.source === 'newsletter' ? 'newsletter' : 'podcast'
+    const urlPrefix = contentTypeFromSource(episode.source)
     const summaryUrl = `https://www.teahose.com/${urlPrefix}/${encodedPodcast}/${encodedSlug}?ref=email`
     const formattedDate = episode.dateObj.toLocaleDateString('en-US', {
       month: 'long',
@@ -737,6 +737,15 @@ export async function GET(request: NextRequest) {
     totalInWindow: allEpisodes.length,
   }
 
+  // Write audit log (30-day TTL) — always, regardless of success/failure
+  try {
+    const logKey = `${LOG_KEY_PREFIX}${new Date().toISOString().split('T')[0]}`
+    await kv.set(logKey, JSON.stringify(logEntry), { ex: 30 * 24 * 60 * 60 })
+    console.log(`Audit log written to ${logKey}`)
+  } catch (e) {
+    console.error('Failed to write audit log:', e)
+  }
+
   if (success) {
     // Track sent slugs for dedup (union of previous + current, 72h TTL)
     // Only update dedup cache for production sends — test sends should not pollute it
@@ -752,15 +761,6 @@ export async function GET(request: NextRequest) {
       console.log('Test mode: skipping dedup cache update')
     }
 
-    // Write audit log (30-day TTL)
-    try {
-      const logKey = `${LOG_KEY_PREFIX}${new Date().toISOString().split('T')[0]}`
-      await kv.set(logKey, JSON.stringify(logEntry), { ex: 30 * 24 * 60 * 60 })
-      console.log(`Audit log written to ${logKey}`)
-    } catch (e) {
-      console.error('Failed to write audit log:', e)
-    }
-
     console.log('Daily email sent successfully!')
     return Response.json({
       success: true,
@@ -770,22 +770,14 @@ export async function GET(request: NextRequest) {
       excludedCount: excludedSlugs.length,
       ...(testMode && { testMode: true, testEmail })
     })
-  } else {
-    // Still write audit log on failure for visibility
-    try {
-      const logKey = `${LOG_KEY_PREFIX}${new Date().toISOString().split('T')[0]}`
-      await kv.set(logKey, JSON.stringify(logEntry), { ex: 30 * 24 * 60 * 60 })
-    } catch (e) {
-      console.error('Failed to write audit log:', e)
-    }
-
-    console.error('Failed to send daily email')
-    return Response.json({
-      success: false,
-      message: testMode ? 'Failed to send email (TEST MODE)' : 'Failed to send email',
-      episodeCount: episodes.length,
-      subscriberCount: actualSubscribers.length,
-      ...(testMode && { testMode: true, testEmail })
-    }, { status: 500 })
   }
+
+  console.error('Failed to send daily email')
+  return Response.json({
+    success: false,
+    message: testMode ? 'Failed to send email (TEST MODE)' : 'Failed to send email',
+    episodeCount: episodes.length,
+    subscriberCount: actualSubscribers.length,
+    ...(testMode && { testMode: true, testEmail })
+  }, { status: 500 })
 }
