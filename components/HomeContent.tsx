@@ -139,7 +139,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
                     key={`${episode.podcast}-${episode.slug}`}
                     title={episode.title}
                     subtitle={`${episode.podcastName} · ${episode.date}`}
-                    href={`/podcast/${encodeURIComponent(episode.podcast)}/${encodeURIComponent(episode.slug)}`}
+                    href={`/${episode.source === 'paper' ? 'paper' : episode.source === 'newsletter' ? 'newsletter' : 'podcast'}/${encodeURIComponent(episode.podcast)}/${encodeURIComponent(episode.slug)}`}
                   />
                 ))}
               </div>
@@ -199,7 +199,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
                   key={newsletter.name}
                   title={newsletter.title}
                   subtitle={`${newsletter.episodeCount || 0} issues`}
-                  href={`/podcast/${encodeURIComponent(newsletter.name)}`}
+                  href={`/newsletter/${encodeURIComponent(newsletter.name)}`}
                 />
               ))}
             </div>
@@ -219,7 +219,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
                   key={paper.name}
                   title={paper.title}
                   subtitle={`${paper.episodeCount || 0} papers`}
-                  href={`/podcast/${encodeURIComponent(paper.name)}`}
+                  href={`/paper/${encodeURIComponent(paper.name)}`}
                 />
               ))}
             </div>

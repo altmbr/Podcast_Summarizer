@@ -8,6 +8,7 @@ import { join } from 'path'
 import { parseEpisodeMetadata } from './schema'
 import { parseEpisodeDate } from './dates'
 import { PODCAST_WORK_DIR } from './constants'
+import { getSourceContentType, type ContentType } from './content-types'
 
 export interface Episode {
   slug: string
@@ -227,6 +228,41 @@ export async function getAllEpisodeParams(): Promise<{ name: string; episode: st
         name: podcastName,
         episode: episodeSlug,
       })
+    }
+  }
+
+  return params
+}
+
+/**
+ * Get all source/episode combinations with content type (for typed route static params)
+ */
+export async function getAllTypedSourceParams(): Promise<{ type: ContentType; name: string }[]> {
+  const params: { type: ContentType; name: string }[] = []
+  const sources = await getAllPodcastNames()
+
+  for (const sourceName of sources) {
+    const episodes = await getEpisodesForPodcast(sourceName)
+    const firstSource = episodes[0]?.source
+    const type = await getSourceContentType(sourceName, firstSource)
+    params.push({ type, name: sourceName })
+  }
+
+  return params
+}
+
+export async function getAllTypedEpisodeParams(): Promise<{ type: ContentType; name: string; episode: string }[]> {
+  const params: { type: ContentType; name: string; episode: string }[] = []
+  const sources = await getAllPodcastNames()
+
+  for (const sourceName of sources) {
+    const episodes = await getEpisodesForPodcast(sourceName)
+    if (episodes.length === 0) continue
+    const firstSource = episodes[0]?.source
+    const type = await getSourceContentType(sourceName, firstSource)
+
+    for (const ep of episodes) {
+      params.push({ type, name: sourceName, episode: ep.slug })
     }
   }
 

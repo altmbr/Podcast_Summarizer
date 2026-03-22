@@ -24,6 +24,7 @@ interface Episode {
   summary_content: string
   description?: string
   participants?: string
+  source?: string
 }
 
 interface SubscriberData {
@@ -101,6 +102,7 @@ async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]>
               sortDate,
               summary_content: summaryContent,
               participants: metadata.participants,
+              source: metadata.source,
             })
           }
         } catch (e) {
@@ -355,7 +357,8 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
   episodes.forEach((episode, index) => {
     const encodedPodcast = encodeURIComponent(episode.podcast_name)
     const encodedSlug = encodeURIComponent(episode.slug)
-    const summaryUrl = `https://www.teahose.com/podcast/${encodedPodcast}/${encodedSlug}?ref=email`
+    const urlPrefix = episode.source === 'paper' ? 'paper' : episode.source === 'newsletter' ? 'newsletter' : 'podcast'
+    const summaryUrl = `https://www.teahose.com/${urlPrefix}/${encodedPodcast}/${encodedSlug}?ref=email`
     const formattedDate = episode.dateObj.toLocaleDateString('en-US', {
       month: 'long',
       day: 'numeric',

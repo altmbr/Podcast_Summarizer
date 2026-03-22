@@ -2,61 +2,49 @@ import { MetadataRoute } from 'next'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { BASE_URL, PODCAST_WORK_DIR } from '@/lib/constants'
+import { parseEpisodeMetadata } from '@/lib/schema'
+import { getSourceContentType } from '@/lib/content-types'
 
 interface Episode {
   podcastName: string
   episodeName: string
   lastModified?: Date
+  source?: string
 }
 
 async function getAllEpisodes(): Promise<Episode[]> {
   const episodes: Episode[] = []
 
   try {
-    // Read all podcast directories
     const podcasts = await readdir(PODCAST_WORK_DIR)
 
     for (const podcast of podcasts) {
-      // Skip hidden files
       if (podcast.startsWith('.')) continue
-
       const podcastPath = join(PODCAST_WORK_DIR, podcast)
 
       try {
-        // Read all episode directories
         const episodeNames = await readdir(podcastPath)
 
         for (const episodeName of episodeNames) {
-          // Skip hidden files
           if (episodeName.startsWith('.')) continue
 
-          const episodePath = join(podcastPath, episodeName)
-
           try {
-            // Check if summary.md exists
-            const summaryPath = join(episodePath, 'summary.md')
+            const summaryPath = join(podcastPath, episodeName, 'summary.md')
             const summaryContent = await readFile(summaryPath, 'utf-8')
+            const metadata = parseEpisodeMetadata(summaryContent)
 
-            // Extract date from summary metadata
-            const dateMatch = summaryContent.match(/\*\*Date:\*\* (.+)/i)
             let lastModified: Date | undefined
-
-            if (dateMatch) {
-              try {
-                lastModified = new Date(dateMatch[1])
-              } catch {
-                // If date parsing fails, use file modification time
-                lastModified = undefined
-              }
+            if (metadata.date) {
+              try { lastModified = new Date(metadata.date) } catch { /* skip */ }
             }
 
             episodes.push({
               podcastName: podcast,
               episodeName,
               lastModified,
+              source: metadata.source,
             })
           } catch (err) {
-            // Episode directory might not have summary.md yet
             console.error(`Skipping episode ${episodeName} in ${podcast}:`, err)
           }
         }
@@ -74,37 +62,42 @@ async function getAllEpisodes(): Promise<Episode[]> {
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const episodes = await getAllEpisodes()
 
-  // Homepage
   const sitemapEntries: MetadataRoute.Sitemap = [
-    {
-      url: BASE_URL,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 1,
-    },
+    { url: BASE_URL, lastModified: new Date(), changeFrequency: 'daily', priority: 1 },
   ]
 
-  // Get unique podcasts
-  const uniquePodcasts = [...new Set(episodes.map(e => e.podcastName))]
+  // Group episodes by source and determine content type
+  const sourceMap = new Map<string, { episodes: Episode[]; type: string }>()
+  for (const ep of episodes) {
+    if (!sourceMap.has(ep.podcastName)) {
+      sourceMap.set(ep.podcastName, { episodes: [], type: 'podcast' })
+    }
+    sourceMap.get(ep.podcastName)!.episodes.push(ep)
+  }
 
-  // Add podcast index pages
-  for (const podcast of uniquePodcasts) {
+  // Determine content type per source
+  for (const [sourceName, data] of sourceMap) {
+    const firstSource = data.episodes[0]?.source
+    data.type = await getSourceContentType(sourceName, firstSource)
+  }
+
+  // Add source index pages and episode pages
+  for (const [sourceName, { episodes: sourceEpisodes, type }] of sourceMap) {
     sitemapEntries.push({
-      url: `${BASE_URL}/podcast/${encodeURIComponent(podcast)}`,
+      url: `${BASE_URL}/${type}/${encodeURIComponent(sourceName)}`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     })
-  }
 
-  // Add episode pages
-  for (const episode of episodes) {
-    sitemapEntries.push({
-      url: `${BASE_URL}/podcast/${encodeURIComponent(episode.podcastName)}/${encodeURIComponent(episode.episodeName)}`,
-      lastModified: episode.lastModified || new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    })
+    for (const episode of sourceEpisodes) {
+      sitemapEntries.push({
+        url: `${BASE_URL}/${type}/${encodeURIComponent(episode.podcastName)}/${encodeURIComponent(episode.episodeName)}`,
+        lastModified: episode.lastModified || new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      })
+    }
   }
 
   return sitemapEntries
