@@ -7,7 +7,8 @@ const SUBSCRIBER_EMAILS_KEY = 'subscriber-emails'
 
 // Token utilities (inline for simplicity)
 function generateUnsubscribeToken(email: string): string {
-  const secret = process.env.UNSUBSCRIBE_SECRET || process.env.CRON_SECRET || 'fallback-secret'
+  const secret = process.env.UNSUBSCRIBE_SECRET || process.env.CRON_SECRET
+  if (!secret) throw new Error('UNSUBSCRIBE_SECRET or CRON_SECRET must be configured')
   const hmac = createHmac('sha256', secret)
   hmac.update(email)
   const hash = hmac.digest('base64url')

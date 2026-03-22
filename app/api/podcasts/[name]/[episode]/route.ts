@@ -1,6 +1,8 @@
 import { readFile } from 'fs/promises'
-import { join } from 'path'
+import { join, resolve } from 'path'
 import matter from 'gray-matter'
+
+const PODCAST_WORK_DIR = resolve(process.cwd(), 'podcast_work')
 
 export async function GET(
   request: Request,
@@ -10,7 +12,12 @@ export async function GET(
     const { name, episode } = await params
     const podcastName = decodeURIComponent(name)
     const episodeSlug = decodeURIComponent(episode)
-    const episodePath = join(process.cwd(), 'podcast_work', podcastName, episodeSlug)
+    const episodePath = join(PODCAST_WORK_DIR, podcastName, episodeSlug)
+
+    // Prevent path traversal attacks
+    if (!resolve(episodePath).startsWith(PODCAST_WORK_DIR)) {
+      return Response.json({ error: 'Invalid path' }, { status: 400 })
+    }
 
     // Read summary
     const summaryPath = join(episodePath, 'summary.md')

@@ -1,6 +1,8 @@
 import { readdir, readFile } from 'fs/promises'
-import { join } from 'path'
+import { join, resolve } from 'path'
 import matter from 'gray-matter'
+
+const PODCAST_WORK_DIR = resolve(process.cwd(), 'podcast_work')
 
 export async function GET(
   request: Request,
@@ -9,7 +11,12 @@ export async function GET(
   try {
     const { name } = await params
     const podcastName = decodeURIComponent(name)
-    const podcastPath = join(process.cwd(), 'podcast_work', podcastName)
+    const podcastPath = join(PODCAST_WORK_DIR, podcastName)
+
+    // Prevent path traversal attacks
+    if (!resolve(podcastPath).startsWith(PODCAST_WORK_DIR)) {
+      return Response.json({ error: 'Invalid path' }, { status: 400 })
+    }
 
     // Load podcast status to get upload dates
     let podcastStatus: any = {}

@@ -1,6 +1,12 @@
 import { kv } from '@/lib/kv'
 import type { NextRequest } from 'next/server'
 
+function verifyAdminRequest(request: NextRequest): boolean {
+  const secret = process.env.CRON_SECRET
+  if (!secret) return false
+  return request.headers.get('authorization') === `Bearer ${secret}`
+}
+
 interface LogEpisode {
   title: string
   slug: string
@@ -27,6 +33,10 @@ interface LogEntry {
  * Use this to audit what was sent and verify no duplicates.
  */
 export async function GET(request: NextRequest) {
+  if (!verifyAdminRequest(request)) {
+    return Response.json({ error: 'Unauthorized' }, { status: 401 })
+  }
+
   const days = parseInt(request.nextUrl.searchParams.get('days') || '7')
 
   const logs: Array<{ date: string } & LogEntry> = []

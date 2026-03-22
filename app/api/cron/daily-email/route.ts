@@ -27,7 +27,7 @@ interface Episode {
 
 function verifyCronRequest(request: NextRequest): boolean {
   const cronSecret = process.env.CRON_SECRET
-  if (!cronSecret) return true
+  if (!cronSecret) return false
   return request.headers.get('authorization') === `Bearer ${cronSecret}`
 }
 
@@ -39,7 +39,8 @@ interface SubscriberData {
 
 // Token generation utility (matches /api/unsubscribe)
 function generateUnsubscribeToken(email: string): string {
-  const secret = process.env.UNSUBSCRIBE_SECRET || process.env.CRON_SECRET || 'fallback-secret'
+  const secret = process.env.UNSUBSCRIBE_SECRET || process.env.CRON_SECRET
+  if (!secret) throw new Error('UNSUBSCRIBE_SECRET or CRON_SECRET must be configured')
   const hmac = createHmac('sha256', secret)
   hmac.update(email)
   const hash = hmac.digest('base64url')

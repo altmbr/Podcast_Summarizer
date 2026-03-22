@@ -4,6 +4,12 @@ import type { NextRequest } from 'next/server'
 const SUBSCRIBER_EMAILS_KEY = 'subscriber-emails'
 const SUBSCRIBER_PREFIX = 'subscriber:'
 
+function verifyAdminRequest(request: NextRequest): boolean {
+  const secret = process.env.CRON_SECRET
+  if (!secret) return false
+  return request.headers.get('authorization') === `Bearer ${secret}`
+}
+
 interface SubscriberData {
   subscribed: boolean
   signupDate: string
@@ -11,6 +17,10 @@ interface SubscriberData {
 }
 
 export async function GET(request: NextRequest) {
+  if (!verifyAdminRequest(request)) {
+    return Response.json({ error: 'Unauthorized' }, { status: 401 })
+  }
+
   try {
     // Get all email addresses
     const allEmails = await kv.lrange(SUBSCRIBER_EMAILS_KEY, 0, -1) as string[]
