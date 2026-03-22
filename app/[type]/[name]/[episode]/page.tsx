@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: EpisodePageProps): Promise<Me
 
   const title = `${episode.title} - ${episode.podcast || sourceName} | Teahose`
   const description = episode.summary
-    ? episode.summary.substring(0, 160).replace(/\n/g, ' ').trim() + '...'
+    ? extractPlainDescription(episode.summary, 160)
     : `Read ${episode.title} from ${episode.podcast || sourceName} on Teahose.`
   const canonicalUrl = `${BASE_URL}/${type}/${encodeURIComponent(sourceName)}/${encodeURIComponent(decodedSlug)}`
 
@@ -130,6 +130,7 @@ export default async function EpisodeDetailPage({ params }: EpisodePageProps) {
       <EpisodeClient
         summary={episode.summary}
         transcript={contentType === 'podcast' ? episode.transcript : undefined}
+        showTranscript={contentType === 'podcast'}
         episodeUrl={`${BASE_URL}/${contentType}/${name}/${episodeSlug}`}
         podcastName={sourceName}
         episodeTitle={episode.title}
@@ -152,6 +153,46 @@ export default async function EpisodeDetailPage({ params }: EpisodePageProps) {
       </footer>
     </main>
   )
+}
+
+/**
+ * Extract a clean plain-text description from summary markdown.
+ * Strips markdown syntax (headings, bold, links, horizontal rules) and
+ * skips metadata lines that may remain in the content.
+ */
+function extractPlainDescription(summary: string, maxLen: number): string {
+  const lines = summary.split('\n')
+  const textParts: string[] = []
+
+  for (const line of lines) {
+    const trimmed = line.trim()
+    // Skip empty, headings, horizontal rules, metadata-style lines
+    if (!trimmed) continue
+    if (trimmed.startsWith('#')) continue
+    if (trimmed === '---') continue
+    if (/^\*\*(Podcast|Date|Processed|Participants|Source|Episode URL|Transcript|arXiv|PDF):\*\*/.test(trimmed)) continue
+
+    // Strip markdown bold/italic/links
+    const plain = trimmed
+      .replace(/\*\*(.*?)\*\*/g, '$1')
+      .replace(/\*(.*?)\*/g, '$1')
+      .replace(/\[(.*?)\]\(.*?\)/g, '$1')
+      .replace(/^>\s*/, '')
+
+    if (plain.length > 10) {
+      textParts.push(plain)
+      const joined = textParts.join(' ')
+      if (joined.length >= maxLen) {
+        return joined.substring(0, maxLen).trim() + '...'
+      }
+    }
+  }
+
+  const result = textParts.join(' ')
+  if (result.length > 0) {
+    return result.substring(0, maxLen).trim() + (result.length > maxLen ? '...' : '')
+  }
+  return `Read this summary on Teahose.`
 }
 
 function formatDate(dateStr: string): string {

@@ -78,7 +78,7 @@ export default function NewsletterSubscribe() {
                 fontWeight: 'var(--font-weight-medium)'
               }}
             >
-              Email Podcast Summaries
+              Daily Summaries
             </p>
             <p
               style={{
@@ -87,7 +87,7 @@ export default function NewsletterSubscribe() {
               }}
               className="hidden sm:block"
             >
-              Get podcast summaries in your inbox
+              Get podcast, newsletter & paper summaries in your inbox
             </p>
           </div>
 

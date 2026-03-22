@@ -76,13 +76,13 @@ export default function ShareButton({ url, title, refSource, podcast, episode }:
     <button
       onClick={handleCopy}
       style={{
-        color: 'var(--foreground)',
-        borderColor: 'var(--border)',
-        backgroundColor: 'var(--background)',
+        color: copied ? 'white' : 'var(--foreground)',
+        borderColor: copied ? 'var(--accent)' : 'var(--border)',
+        backgroundColor: copied ? 'var(--accent)' : 'var(--background)',
         fontSize: 'var(--text-sm)',
         borderRadius: 'var(--radius)'
       }}
-      className="px-3 py-2 border hover:opacity-70 transition-opacity whitespace-nowrap"
+      className="px-3 py-2 border hover:opacity-70 transition-all duration-200 whitespace-nowrap"
       aria-label="Copy link to clipboard"
     >
         {copied ? (

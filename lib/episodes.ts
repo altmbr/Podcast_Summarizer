@@ -115,22 +115,21 @@ function stripMetadataHeader(content: string): string {
   }
 
   // Check if the content before separator has episode metadata fields
+  // All three pipelines (podcast, newsletter, paper) use **Podcast:** and **Date:**
   const beforeSeparator = content.substring(0, separatorMatch.index)
   const hasEpisodeMetadata =
     beforeSeparator.includes('**Podcast:**') &&
-    beforeSeparator.includes('**Date:**') &&
-    beforeSeparator.includes('**Transcript:**')
+    beforeSeparator.includes('**Date:**')
 
   if (hasEpisodeMetadata) {
-    // This is a standard episode format - strip the metadata header
+    // This is a standard format - strip the metadata header
     const afterSeparatorIndex = separatorMatch.index + 5 // '\n---\n' is 5 chars
     let strippedContent = content.substring(afterSeparatorIndex).trim()
 
-    // Also strip the first H1 heading if it starts with "# " or "# Podcast Summary"
-    // This removes duplicate titles like "# Podcast Summary: Andrew Ng on AI"
+    // Strip the first H1 heading to avoid duplicate titles
+    // (all three pipelines repeat the title after the --- separator)
     const lines = strippedContent.split('\n')
-    if (lines[0] && (lines[0].startsWith('# Podcast Summary') || lines[0].startsWith('# '))) {
-      // Remove first line and any empty lines after it
+    if (lines[0] && lines[0].startsWith('# ')) {
       strippedContent = lines.slice(1).join('\n').trim()
     }
 

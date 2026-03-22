@@ -9,9 +9,10 @@ interface EpisodeClientProps {
   episodeUrl: string
   podcastName?: string
   episodeTitle?: string
+  showTranscript?: boolean
 }
 
-export default function EpisodeClient({ summary, transcript, episodeUrl, podcastName, episodeTitle }: EpisodeClientProps) {
+export default function EpisodeClient({ summary, transcript, episodeUrl, podcastName, episodeTitle, showTranscript = true }: EpisodeClientProps) {
   const [activeTab, setActiveTab] = useState<'summary' | 'transcript'>('summary')
 
   return (
@@ -38,22 +39,24 @@ export default function EpisodeClient({ summary, transcript, episodeUrl, podcast
         >
           Summary
         </button>
-        <button
-          onClick={() => setActiveTab('transcript')}
-          style={{
-            color: activeTab === 'transcript' ? 'var(--accent)' : 'var(--muted-foreground)',
-            borderBottomColor: activeTab === 'transcript' ? 'var(--accent)' : 'transparent',
-            fontSize: 'var(--text-sm)',
-            fontWeight: 'var(--font-weight-medium)'
-          }}
-          className="px-4 py-2 transition-colors border-b-2"
-          role="tab"
-          aria-selected={activeTab === 'transcript'}
-          aria-controls="transcript-panel"
-          id="transcript-tab"
-        >
-          Transcript
-        </button>
+        {showTranscript && (
+          <button
+            onClick={() => setActiveTab('transcript')}
+            style={{
+              color: activeTab === 'transcript' ? 'var(--accent)' : 'var(--muted-foreground)',
+              borderBottomColor: activeTab === 'transcript' ? 'var(--accent)' : 'transparent',
+              fontSize: 'var(--text-sm)',
+              fontWeight: 'var(--font-weight-medium)'
+            }}
+            className="px-4 py-2 transition-colors border-b-2"
+            role="tab"
+            aria-selected={activeTab === 'transcript'}
+            aria-controls="transcript-panel"
+            id="transcript-tab"
+          >
+            Transcript
+          </button>
+        )}
       </div>
 
       <div

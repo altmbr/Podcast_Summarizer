@@ -45,7 +45,7 @@ function TabButton({ tab, isActive, onClick }: TabButtonProps) {
   return (
     <button
       onClick={onClick}
-      className="px-6 py-3 text-xl md:text-2xl font-medium transition-colors relative"
+      className="px-4 md:px-6 py-3 text-lg md:text-2xl font-medium transition-colors relative whitespace-nowrap"
       style={{
         color: isActive ? 'var(--foreground)' : 'var(--muted-foreground)',
         borderBottom: isActive ? '2px solid var(--accent)' : '2px solid transparent',
@@ -114,7 +114,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
     <>
       {/* Tab Toggle */}
       <section className="container pt-6 pb-0">
-        <div className="flex gap-0 border-b" style={{ borderBottomColor: 'var(--border)' }}>
+        <div className="flex gap-0 border-b overflow-x-auto" style={{ borderBottomColor: 'var(--border)' }}>
           {TABS.map(tab => (
             <TabButton
               key={tab.id}
@@ -169,7 +169,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
 
       {/* Podcasts Section */}
       {activeTab === 'podcasts' && (
-        <section className="container pt-6 pb-8 md:pb-8">
+        <section id="podcasts" className="container pt-6 pb-8 md:pb-8">
           {podcasts.length === 0 ? (
             <EmptyState message="No podcasts found" />
           ) : (
@@ -178,7 +178,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
                 <SourceCard
                   key={podcast.name}
                   title={podcast.title}
-                  subtitle={`${podcast.episodeCount || 0} episodes`}
+                  subtitle={`${podcast.episodeCount || 0} ${podcast.episodeCount === 1 ? 'episode' : 'episodes'}`}
                   href={`/podcast/${encodeURIComponent(podcast.name)}`}
                 />
               ))}
@@ -189,7 +189,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
 
       {/* Newsletters Section */}
       {activeTab === 'newsletters' && (
-        <section className="container pt-6 pb-8 md:pb-8">
+        <section id="newsletters" className="container pt-6 pb-8 md:pb-8">
           {newsletters.length === 0 ? (
             <EmptyState message="No newsletters yet" />
           ) : (
@@ -198,7 +198,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
                 <SourceCard
                   key={newsletter.name}
                   title={newsletter.title}
-                  subtitle={`${newsletter.episodeCount || 0} issues`}
+                  subtitle={`${newsletter.episodeCount || 0} ${newsletter.episodeCount === 1 ? 'issue' : 'issues'}`}
                   href={`/newsletter/${encodeURIComponent(newsletter.name)}`}
                 />
               ))}
@@ -209,7 +209,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
 
       {/* Papers Section */}
       {activeTab === 'papers' && (
-        <section className="container pt-6 pb-8 md:pb-8">
+        <section id="papers" className="container pt-6 pb-8 md:pb-8">
           {papers.length === 0 ? (
             <EmptyState message="No papers yet" />
           ) : (
@@ -218,7 +218,7 @@ export default function HomeContent({ podcasts, newsletters, papers, recentEpiso
                 <SourceCard
                   key={paper.name}
                   title={paper.title}
-                  subtitle={`${paper.episodeCount || 0} papers`}
+                  subtitle={`${paper.episodeCount || 0} ${paper.episodeCount === 1 ? 'paper' : 'papers'}`}
                   href={`/paper/${encodeURIComponent(paper.name)}`}
                 />
               ))}
