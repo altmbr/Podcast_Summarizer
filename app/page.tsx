@@ -135,11 +135,11 @@ async function getSources(recentEpisodes: RecentEpisode[]): Promise<{ podcasts: 
     // No config file
   }
 
-  // Identify paper sources from episode metadata
+  // Identify paper sources from episode metadata (use folder name, not metadata name)
   const paperSourceNames: Set<string> = new Set()
   for (const ep of recentEpisodes) {
     if (ep.source === 'paper') {
-      paperSourceNames.add(ep.podcastName)
+      paperSourceNames.add(ep.podcast)
     }
   }
 
