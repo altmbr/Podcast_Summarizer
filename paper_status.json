@@ -13,6 +13,20 @@
       "status": "summarized",
       "score": 76,
       "processed_at": "2026-03-22T00:07:25Z"
+    },
+    "2602.06949": {
+      "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 79,
+      "processed_at": "2026-03-22T09:03:09Z"
+    },
+    "2603.19201": {
+      "title": "OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 74,
+      "processed_at": "2026-03-22T09:04:58Z"
     }
   }
 }
