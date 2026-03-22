@@ -23,7 +23,7 @@ PODCAST_STATUS_FILE = Path("./podcast_status.json")
 PODCAST_WORK_DIR = Path("./podcast_work")
 WEEKLY_SUMMARY_PROMPT_FILE = Path("./weekly_summary prompt.md")
 WEEKLY_SUMMARIES_DIR = Path("./weekly_summaries")
-CLAUDE_MODEL = "claude-sonnet-4-5-20250929"
+CLAUDE_MODEL = "claude-sonnet-4-6"
 
 # Default prompt if file doesn't exist or is empty
 DEFAULT_WEEKLY_PROMPT = """You are analyzing podcast summaries from the past week to create a comprehensive weekly digest for investors and entrepreneurs.

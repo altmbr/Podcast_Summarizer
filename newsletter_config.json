@@ -38,5 +38,9 @@
   "dan@axios.com": {
     "name": "Axios Pro Rata",
     "author": "Dan Primack"
+  },
+  "newsletters@inform.wtwhmedia.com": {
+    "name": "The Robot Report",
+    "author": "The Robot Report"
   }
 }

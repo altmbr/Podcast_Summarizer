@@ -143,7 +143,7 @@ Summary:"""
                 'anthropic-version': '2023-06-01'
             },
             json={
-                'model': 'claude-sonnet-4-5-20250929',
+                'model': 'claude-sonnet-4-6',
                 'max_tokens': 150,
                 'messages': [{'role': 'user', 'content': prompt}]
             }
@@ -192,7 +192,7 @@ Describe the unified composition in 3-4 sentences. Be specific about what visual
                 'anthropic-version': '2023-06-01'
             },
             json={
-                'model': 'claude-sonnet-4-5-20250929',
+                'model': 'claude-sonnet-4-6',
                 'max_tokens': 300,
                 'messages': [{'role': 'user', 'content': prompt}]
             }

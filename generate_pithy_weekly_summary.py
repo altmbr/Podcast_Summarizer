@@ -16,7 +16,7 @@ load_dotenv()
 # Configuration
 WEEKLY_SUMMARIES_DIR = Path("./weekly_summaries")
 PITHY_PROMPT_FILE = Path("./pithy_weekly_summary_prompt.md")
-CLAUDE_MODEL = "claude-sonnet-4-5-20250929"
+CLAUDE_MODEL = "claude-sonnet-4-6"
 
 # Default prompt if file doesn't exist
 DEFAULT_PITHY_PROMPT = """Condense this weekly summary to be more concise and scannable while keeping all quotes exactly as written. Remove less critical content, but preserve the most valuable insights. Aim for 40-60% of the original length."""

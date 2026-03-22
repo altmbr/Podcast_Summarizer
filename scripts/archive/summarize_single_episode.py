@@ -55,7 +55,7 @@ Please provide a comprehensive summary following the format specified above."""
 
     # Call Claude API
     response = client.messages.create(
-        model="claude-sonnet-4-5-20250929",
+        model="claude-sonnet-4-6",
         max_tokens=16000,
         temperature=0.7,
         messages=[{

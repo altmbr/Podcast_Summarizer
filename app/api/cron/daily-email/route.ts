@@ -160,7 +160,21 @@ async function generateDescription(episode: Episode): Promise<string> {
     return 'New episode available.'
   }
 
-  const prompt = `Write a pithy, signal-dense summary (max 45 words) of this podcast episode. Cover: main discussion topics, key themes, and any contrarian insights. Be specific and punchy.
+  const isResearchPaper = episode.source === 'paper'
+  const prompt = isResearchPaper
+    ? `Write exactly 3 SHORT sentences (max 75 words total) about this research paper for founders and operators:
+
+1. Why it's significant right now (one sentence).
+2. What it actually does, in plain language (one sentence).
+3. What it means for people building or investing in this space (one sentence).
+
+Be punchy. No jargon. No filler. 75 words max.
+
+Paper: ${episode.title}
+
+Key themes:
+${summaryExcerpt}`
+    : `Write a pithy, signal-dense summary (max 45 words) of this podcast episode. Cover: main discussion topics, key themes, and any contrarian insights. Be specific and punchy.
 
 Episode: ${episode.title}
 
@@ -178,7 +192,7 @@ Summary:`
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-5-20250929',
+        model: 'claude-sonnet-4-6',
         max_tokens: 150,
         messages: [{ role: 'user', content: prompt }]
       })
@@ -267,7 +281,7 @@ Describe the unified composition in 3-4 sentences. Be specific about what visual
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-5-20250929',
+        model: 'claude-sonnet-4-6',
         max_tokens: 300,
         messages: [{ role: 'user', content: prompt }]
       })
@@ -445,7 +459,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
                       <table cellpadding="0" cellspacing="0" border="0" style="border: 2px solid ${colors.border};">
                         <tr>
                           <td style="padding: 12px 16px; font-size: 14px; color: ${colors.foreground};">
-                            Forwarded this email? Get daily summaries of top tech and business podcasts.
+                            Forwarded this email? Get daily summaries of top technology and business news.
                           </td>
                           <td style="padding: 12px 16px 12px 8px; white-space: nowrap;">
                             <table cellpadding="0" cellspacing="0" border="0" bgcolor="${colors.foreground}" style="background-color: ${colors.foreground};">
@@ -725,12 +739,17 @@ export async function GET(request: NextRequest) {
 
   if (success) {
     // Track sent slugs for dedup (union of previous + current, 72h TTL)
-    try {
-      const allSentSlugs = [...new Set([...previousSlugs, ...episodes.map(ep => ep.slug)])]
-      await kv.set(SENT_SLUGS_KEY, allSentSlugs, { ex: 72 * 60 * 60 })
-      console.log(`Stored ${allSentSlugs.length} sent slugs in KV for dedup`)
-    } catch (e) {
-      console.error('Failed to store sent slugs in KV:', e)
+    // Only update dedup cache for production sends — test sends should not pollute it
+    if (!testMode) {
+      try {
+        const allSentSlugs = [...new Set([...previousSlugs, ...episodes.map(ep => ep.slug)])]
+        await kv.set(SENT_SLUGS_KEY, allSentSlugs, { ex: 72 * 60 * 60 })
+        console.log(`Stored ${allSentSlugs.length} sent slugs in KV for dedup`)
+      } catch (e) {
+        console.error('Failed to store sent slugs in KV:', e)
+      }
+    } else {
+      console.log('Test mode: skipping dedup cache update')
     }
 
     // Write audit log (30-day TTL)

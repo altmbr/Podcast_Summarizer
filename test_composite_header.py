@@ -19,7 +19,7 @@ load_dotenv()
 PODCAST_STATUS_FILE = Path("./podcast_status.json")
 PODCAST_WORK_DIR = Path("./podcast_work")
 TEST_OUTPUT_DIR = Path("./test_composite_headers")
-CLAUDE_MODEL = "claude-sonnet-4-5-20250929"
+CLAUDE_MODEL = "claude-sonnet-4-6"
 
 def load_podcast_status():
     """Load podcast status from JSON file"""

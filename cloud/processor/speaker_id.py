@@ -40,7 +40,7 @@ Be specific but concise. If you can't determine a name, describe their role (e.g
 """
 
     response = client.messages.create(
-        model="claude-haiku-4-20250414",
+        model="claude-haiku-4-5",
         max_tokens=500,
         messages=[{"role": "user", "content": prompt}]
     )

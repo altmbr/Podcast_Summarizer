@@ -25,7 +25,7 @@ PROCESSING_LOCK_FILE = Path("./processing.lock")
 SUMMARIZATION_PROMPT_FILE = Path("./summarization_prompt.md")
 ONE_OFF_EPISODES_FILE = Path("./one_off_episodes.txt")
 PODCAST_CONFIG_FILE = Path("./podcast_config.json")
-CLAUDE_MODEL = "claude-sonnet-4-5-20250929"  # For summarization (latest Sonnet 4.5)
+CLAUDE_MODEL = "claude-sonnet-4-6"  # For summarization (latest Sonnet 4.5)
 HAIKU_MODEL = "claude-3-5-haiku-20241022"  # For speaker identification (latest Haiku)
 HUGGINGFACE_TOKEN = os.environ.get("HUGGINGFACE_TOKEN")
 
