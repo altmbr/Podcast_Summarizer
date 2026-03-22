@@ -24,9 +24,20 @@ project_root/
 ├── podscan_status.json            # Episode tracking state (Podscan pipeline)
 ├── newsletter_status.json         # Newsletter tracking state
 ├── paper_status.json              # Paper tracking state
+├── lib/
+│   ├── constants.ts               # BASE_URL, PODCAST_WORK_DIR
+│   ├── content-types.ts           # ContentType, labels, source→type mapping
+│   ├── auth.ts                    # Bearer token verification
+│   ├── tokens.ts                  # HMAC unsubscribe token generation/verification
+│   ├── schema.ts                  # JSON-LD structured data generators
+│   ├── episodes.ts                # Episode data fetching from podcast_work/
+│   ├── dates.ts                   # Date parsing utilities
+│   └── kv.ts                      # Vercel KV client config
 ├── .env                           # API keys (local dev)
 ├── test_daily_email.py            # Test script for daily emails
 ├── vercel.json                    # Vercel cron configuration
+├── app/[type]/[name]/             # Source index pages (podcast/newsletter/paper)
+├── app/[type]/[name]/[episode]/   # Content detail pages
 ├── app/api/cron/daily-email/      # Daily email cron endpoint (Vercel)
 ├── cloud/
 │   ├── email-worker/              # ★ Cloudflare Email Worker (newsletter ingestion)
@@ -211,22 +222,44 @@ EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
 - Base URL: `https://www.teahose.com` (with www for SEO consistency)
 - **Global footer nav:** Semantic `<nav>` in layout with links to Home, Podcasts, Newsletters, Papers, Sitemap
 
+### URL Routing
+
+Content type determines URL prefix — all served by a single `[type]` dynamic route (`app/[type]/[name]/[episode]`):
+
+| Content Type | URL Pattern | Example |
+|-------------|-------------|---------|
+| Podcasts | `/podcast/[name]/[episode]` | `/podcast/20VC/Episode%20Title` |
+| Newsletters | `/newsletter/[name]/[episode]` | `/newsletter/Stratechery/Issue%20Title` |
+| Papers | `/paper/[name]/[episode]` | `/paper/MIT%20Research/Paper%20Title` |
+
+Content type is determined by `lib/content-types.ts`:
+- Papers: episodes with `source: 'paper'` in metadata
+- Newsletters: source names in `newsletter_config.json`
+- Podcasts: everything else
+
+Labels adapt per content type (`lib/content-types.ts`):
+- Back links: "Back to Episodes" / "Back to Issues" / "Back to Papers"
+- Counts: "15 episodes" / "5 issues" / "2 papers"
+- Transcript tab + chat: shown only for podcasts (hidden for papers/newsletters)
+
+All content still stored in `podcast_work/` on disk — only the URL layer differs.
+
 ### SEO
 
-- **Sitemap:** Dynamic generation (`app/sitemap.ts`) — homepage priority 1.0, podcasts 0.8, episodes 0.6
+- **Sitemap:** Dynamic generation (`app/sitemap.ts`) — uses correct `/podcast/`, `/newsletter/`, `/paper/` prefixes per source
 - **Robots:** Blocks `/api/`, `/_next/`, transcript files, AI training bots (`app/robots.ts`)
 - **Canonical URLs:** All pages use `https://www.teahose.com` (must match `metadataBase` in layout)
 - **SSG:** All public pages pre-rendered at build time via `generateStaticParams()`
 - **Meta tags:** Title, description, Open Graph, Twitter Card present and unique on every page type
 - **Structured data** (JSON-LD, `lib/schema.ts`):
   - `Organization` + `WebSite` (with SearchAction) on all pages via layout
-  - `PodcastSeries` on podcast index pages (with description and episode count)
-  - Source-aware episode schemas:
+  - `PodcastSeries` on source index pages (with description and item count)
+  - Source-aware content schemas:
     - `PodcastEpisode` for podcasts (default)
     - `Article` for newsletters (`source: 'newsletter'`)
     - `ScholarlyArticle` for papers (`source: 'paper'`, includes arXiv/PDF links)
-  - `BreadcrumbList` on all episode pages (Home → Podcast → Episode)
-- **Heading hierarchy:** One `<h1>` per page, `<h2>` for episode titles on listing pages
+  - `BreadcrumbList` on all detail pages (Home → Source → Item)
+- **Heading hierarchy:** One `<h1>` per page, `<h2>` for item titles on listing pages
 - **TranscriptChat:** Lazy-loaded via `next/dynamic` for code splitting
 
 ### Security
@@ -313,4 +346,5 @@ gcloud functions logs read newsletter-processor --region us-central1 --project g
 - **Security headers**: Edit `headers()` in `next.config.js`
 - **Rate limiting**: Edit `RATE_LIMIT` / `RATE_WINDOW_MS` in `app/api/chat/route.ts`
 - **Structured data schemas**: Edit generator functions in `lib/schema.ts`
+- **Content type labels**: Edit `getContentLabels()` in `lib/content-types.ts`
 - **Body stipple pattern**: Desktop-only via `@media (min-width: 768px)` in `app/globals.css`
