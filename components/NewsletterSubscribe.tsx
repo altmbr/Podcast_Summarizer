@@ -1,13 +1,23 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { usePostHog } from 'posthog-js/react'
 
 export default function NewsletterSubscribe() {
   const [email, setEmail] = useState('')
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null)
+  const [hidden, setHidden] = useState(false)
   const posthog = usePostHog()
+
+  // Hide the bar if the user is already identified (subscribed)
+  useEffect(() => {
+    if (!posthog) return
+    const distinctId = posthog.get_distinct_id()
+    if (distinctId && distinctId.includes('@')) {
+      setHidden(true)
+    }
+  }, [posthog])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -56,6 +66,8 @@ export default function NewsletterSubscribe() {
         text: data.alreadySubscribed ? 'This email is already subscribed' : 'Thanks for subscribing!'
       })
       setEmail('')
+      // Hide the bar after a short delay so the user sees the success message
+      setTimeout(() => setHidden(true), 2000)
     } catch (error) {
       setMessage({
         type: 'error',
@@ -65,6 +77,8 @@ export default function NewsletterSubscribe() {
       setLoading(false)
     }
   }
+
+  if (hidden) return null
 
   return (
     <div style={{ backgroundColor: 'var(--background)', borderTopColor: 'var(--border)' }} className="fixed bottom-0 left-0 right-0 border-t z-50 shadow-lg">
