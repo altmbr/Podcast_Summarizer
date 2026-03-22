@@ -355,7 +355,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
   episodes.forEach((episode, index) => {
     const encodedPodcast = encodeURIComponent(episode.podcast_name)
     const encodedSlug = encodeURIComponent(episode.slug)
-    const summaryUrl = `https://teahose.com/podcast/${encodedPodcast}/${encodedSlug}?ref=email`
+    const summaryUrl = `https://www.teahose.com/podcast/${encodedPodcast}/${encodedSlug}?ref=email`
     const formattedDate = episode.dateObj.toLocaleDateString('en-US', {
       month: 'long',
       day: 'numeric',
@@ -426,7 +426,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
                   <tr>
                     <td align="center" style="padding-bottom: 20px;">
-                      <a href="https://teahose.com?ref=email" style="text-decoration: none; color: ${colors.foreground};">
+                      <a href="https://www.teahose.com?ref=email" style="text-decoration: none; color: ${colors.foreground};">
                         <div style="margin: 0; font-size: 28px; font-weight: 900; text-transform: uppercase; color: ${colors.foreground}; letter-spacing: -0.02em;">
                           THE DAILY TEAHOSE
                         </div>
@@ -448,7 +448,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
                             <table cellpadding="0" cellspacing="0" border="0" bgcolor="${colors.foreground}" style="background-color: ${colors.foreground};">
                               <tr>
                                 <td style="padding: 8px 16px; white-space: nowrap;">
-                                  <a href="https://teahose.com?ref=email" style="color: ${colors.card}; text-decoration: none; font-weight: 600; font-size: 14px; white-space: nowrap;">Sign&nbsp;Up</a>
+                                  <a href="https://www.teahose.com?ref=email" style="color: ${colors.card}; text-decoration: none; font-weight: 600; font-size: 14px; white-space: nowrap;">Sign&nbsp;Up</a>
                                 </td>
                               </tr>
                             </table>
@@ -488,7 +488,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
                   </tr>
                   <tr>
                     <td align="center" style="color: ${colors.muted_foreground}; font-size: 13px;">
-                      <a href="https://teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> &middot; <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a>
+                      <a href="https://www.teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> &middot; <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a>
                     </td>
                   </tr>
                 </table>

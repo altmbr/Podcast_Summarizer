@@ -167,7 +167,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
       <EpisodeClient
         summary={episode.summary}
         transcript={episode.transcript}
-        episodeUrl={`https://teahose.com/podcast/${name}/${episodeSlug}`}
+        episodeUrl={`https://www.teahose.com/podcast/${name}/${episodeSlug}`}
         podcastName={podcastName}
         episodeTitle={episode.title}
       />
