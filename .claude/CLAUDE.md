@@ -28,7 +28,7 @@ project_root/
 │   ├── constants.ts               # BASE_URL, PODCAST_WORK_DIR
 │   ├── content-types.ts           # ContentType, labels, source→type mapping
 │   ├── auth.ts                    # Bearer token verification
-│   ├── tokens.ts                  # HMAC unsubscribe token generation/verification
+│   ├── tokens.ts                  # HMAC token generation (unsubscribe + subscriber ref)
 │   ├── schema.ts                  # JSON-LD structured data generators
 │   ├── episodes.ts                # Episode data fetching from podcast_work/
 │   ├── dates.ts                   # Date parsing utilities
@@ -39,6 +39,7 @@ project_root/
 ├── app/[type]/[name]/             # Source index pages (podcast/newsletter/paper)
 ├── app/[type]/[name]/[episode]/   # Content detail pages
 ├── app/api/cron/daily-email/      # Daily email cron endpoint (Vercel)
+├── app/api/verify-ref/            # Subscriber ref token verification (PostHog identify)
 ├── cloud/
 │   ├── email-worker/              # ★ Cloudflare Email Worker (newsletter ingestion)
 │   │   ├── src/index.ts           # Email handler: parse, filter, forward to GCP
@@ -162,6 +163,8 @@ CRON_SECRET                      # Secure cron + admin endpoints (required, deni
 UNSUBSCRIBE_SECRET               # HMAC token signing (falls back to CRON_SECRET)
 EMAILS_KV_REST_API_URL           # Vercel KV (subscriber storage) — auto-set by Vercel
 EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
+NEXT_PUBLIC_POSTHOG_KEY          # PostHog project API key
+NEXT_PUBLIC_POSTHOG_HOST         # PostHog ingest host (default: https://us.i.posthog.com)
 ```
 
 **KV Notes:**
@@ -286,6 +289,17 @@ All content still stored in `podcast_work/` on disk — only the URL layer diffe
 - **Cache headers:** Static assets (JS/CSS/fonts/images) served with `immutable, max-age=31536000`
 - **HTTPS:** Enforced via Cloudflare (HTTP→HTTPS 308 redirect, HSTS 2 years)
 - **Known issue:** Non-www → www redirect is 307 (temporary). Needs Cloudflare redirect rule to change to 301.
+
+### PostHog Analytics
+
+- **Config:** `app/providers.tsx` — `person_profiles: 'always'` (creates person profiles for all visitors, not just identified)
+- **Subscriber identification:** Daily email links carry `?ref=` HMAC tokens (`lib/tokens.ts: generateSubscriberRef`). On click-through, `components/SubscriberIdentify.tsx` verifies via `/api/verify-ref` and calls `posthog.identify(email)` to merge anonymous sessions with subscriber profiles.
+- **Env vars:** `NEXT_PUBLIC_POSTHOG_KEY`, `NEXT_PUBLIC_POSTHOG_HOST` (defaults to `https://us.i.posthog.com`)
+
+### Token Types (`lib/tokens.ts`)
+
+- **Unsubscribe tokens:** `generateUnsubscribeToken(email)` — plain HMAC of email, used in `/unsubscribe?token=`
+- **Subscriber ref tokens:** `generateSubscriberRef(email)` — `base64url(email).hmac` format with `ref:` prefix, used in daily email `?ref=` links for PostHog identification
 
 ## Daily Email Digest
 

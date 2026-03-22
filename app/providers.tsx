@@ -13,7 +13,7 @@ export function PHProvider({ children }: { children: React.ReactNode }) {
       if (apiKey) {
         posthog.init(apiKey, {
           api_host: apiHost,
-          person_profiles: 'identified_only',
+          person_profiles: 'always',
           capture_pageview: false, // We'll capture pageviews manually
           capture_pageleave: true,
         })

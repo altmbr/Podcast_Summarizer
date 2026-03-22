@@ -24,3 +24,35 @@ export function extractEmailFromToken(token: string, allEmails: string[]): strin
   }
   return null
 }
+
+// Subscriber ref tokens: encode email + HMAC in a single URL-safe string
+// Format: base64url(email).hmac_signature
+export function generateSubscriberRef(email: string): string {
+  const emailB64 = Buffer.from(email).toString('base64url')
+  const hmac = createHmac('sha256', getTokenSecret())
+  hmac.update(`ref:${email}`)
+  const sig = hmac.digest('base64url')
+  return `${emailB64}.${sig}`
+}
+
+export function verifySubscriberRef(ref: string): string | null {
+  const dotIndex = ref.indexOf('.')
+  if (dotIndex === -1) return null
+
+  const emailB64 = ref.slice(0, dotIndex)
+  const sig = ref.slice(dotIndex + 1)
+
+  let email: string
+  try {
+    email = Buffer.from(emailB64, 'base64url').toString('utf-8')
+  } catch {
+    return null
+  }
+
+  const hmac = createHmac('sha256', getTokenSecret())
+  hmac.update(`ref:${email}`)
+  const expectedSig = hmac.digest('base64url')
+
+  if (sig !== expectedSig) return null
+  return email
+}

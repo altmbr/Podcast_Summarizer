@@ -1,6 +1,6 @@
 import { kv } from '@/lib/kv'
 import { verifyBearerToken } from '@/lib/auth'
-import { generateUnsubscribeToken } from '@/lib/tokens'
+import { generateUnsubscribeToken, generateSubscriberRef } from '@/lib/tokens'
 import type { NextRequest } from 'next/server'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
@@ -347,7 +347,7 @@ OVERALL AESTHETIC:
   return generateGeminiImage(prompt, 'Composite header image')
 }
 
-function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boolean, unsubscribeToken: string): string {
+function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boolean, unsubscribeToken: string, subscriberRef: string): string {
   // Color palette - using full hex codes (no shorthand) for max compatibility
   const colors = {
     background: '#f7f4f0',
@@ -374,7 +374,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
     const encodedPodcast = encodeURIComponent(episode.folder_name)
     const encodedSlug = encodeURIComponent(episode.slug)
     const urlPrefix = contentTypeFromSource(episode.source)
-    const summaryUrl = `https://www.teahose.com/${urlPrefix}/${encodedPodcast}/${encodedSlug}?ref=email`
+    const summaryUrl = `https://www.teahose.com/${urlPrefix}/${encodedPodcast}/${encodedSlug}?ref=${subscriberRef}`
     const formattedDate = episode.dateObj.toLocaleDateString('en-US', {
       month: 'long',
       day: 'numeric',
@@ -445,7 +445,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
                   <tr>
                     <td align="center" style="padding-bottom: 20px;">
-                      <a href="https://www.teahose.com?ref=email" style="text-decoration: none; color: ${colors.foreground};">
+                      <a href="https://www.teahose.com?ref=${subscriberRef}" style="text-decoration: none; color: ${colors.foreground};">
                         <div style="margin: 0; font-size: 28px; font-weight: 900; text-transform: uppercase; color: ${colors.foreground}; letter-spacing: -0.02em;">
                           THE DAILY TEAHOSE
                         </div>
@@ -467,7 +467,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
                             <table cellpadding="0" cellspacing="0" border="0" bgcolor="${colors.foreground}" style="background-color: ${colors.foreground};">
                               <tr>
                                 <td style="padding: 8px 16px; white-space: nowrap;">
-                                  <a href="https://www.teahose.com?ref=email" style="color: ${colors.card}; text-decoration: none; font-weight: 600; font-size: 14px; white-space: nowrap;">Sign&nbsp;Up</a>
+                                  <a href="https://www.teahose.com?ref=${subscriberRef}" style="color: ${colors.card}; text-decoration: none; font-weight: 600; font-size: 14px; white-space: nowrap;">Sign&nbsp;Up</a>
                                 </td>
                               </tr>
                             </table>
@@ -507,7 +507,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
                   </tr>
                   <tr>
                     <td align="center" style="color: ${colors.muted_foreground}; font-size: 13px;">
-                      <a href="https://www.teahose.com?ref=email" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> &middot; <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a>
+                      <a href="https://www.teahose.com?ref=${subscriberRef}" style="color: ${colors.accent}; text-decoration: underline;">Teahose.com</a> &middot; <a href="https://www.teahose.com/unsubscribe?token=${unsubscribeToken}" style="color: ${colors.muted_foreground}; text-decoration: underline;">Unsubscribe</a>
                     </td>
                   </tr>
                 </table>
@@ -574,7 +574,8 @@ async function sendEmail(to: string[], subject: string, episodes: Episode[], dat
 
   for (const email of to) {
     const unsubscribeToken = generateUnsubscribeToken(email)
-    const htmlContent = generateEmailHtml(episodes, dateStr, !!imageBase64, unsubscribeToken)
+    const subscriberRef = generateSubscriberRef(email)
+    const htmlContent = generateEmailHtml(episodes, dateStr, !!imageBase64, unsubscribeToken, subscriberRef)
 
     try {
       if (imageBase64) {

@@ -4,6 +4,7 @@ import './globals.css'
 import NewsletterSubscribe from '@/components/NewsletterSubscribe'
 import { PHProvider } from './providers'
 import PostHogPageView from './PostHogPageView'
+import SubscriberIdentify from '@/components/SubscriberIdentify'
 import StructuredData from '@/components/StructuredData'
 import { generateOrganizationSchema, generateWebSiteSchema } from '@/lib/schema'
 import { Suspense } from 'react'
@@ -64,6 +65,7 @@ export default function RootLayout({
         <PHProvider>
           <Suspense fallback={null}>
             <PostHogPageView />
+            <SubscriberIdentify />
           </Suspense>
           <div className="min-h-screen pb-32">
             {children}
