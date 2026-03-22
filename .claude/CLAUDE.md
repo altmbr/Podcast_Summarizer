@@ -128,6 +128,10 @@ Maps sender email addresses to newsletter names and authors. Currently tracking:
 
 ## Configuration
 
+### Model IDs
+- Use short-form IDs: `claude-sonnet-4-6`, `claude-haiku-4-5` (no date suffixes)
+- Anthropic API version header: `2023-06-01` (still current)
+
 ### `.env` (local development)
 ```
 PODSCAN_API_KEY=...              # Podscan transcript fetching
@@ -214,6 +218,11 @@ EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
 - **Repo:** `altmbr/Podcast_Summarizer` (private)
 - **Auth:** Classic PAT with `repo` scope, stored in GCP secret `GITHUB_TOKEN`
 
+### Vercel Project
+- **Project name:** `podcast-summarizer` (NOT `teahose` — that was a duplicate, now deleted)
+- **Stable alias:** `podcast-summarizer-inky.vercel.app` (bypasses Cloudflare, useful for API testing)
+- **Gotcha:** Cloudflare strips `Authorization` headers — test authenticated endpoints via the `.vercel.app` alias, not `www.teahose.com`
+
 ## Web Publishing (teahose.com)
 
 - Auto-deploys on `git push` via Vercel
@@ -288,7 +297,21 @@ python test_daily_email.py altmbr@gmail.com   # Send test email
 python test_daily_email.py altmbr@gmail.com 3 # Look back 3 days
 ```
 
+### Testing via API
+```bash
+curl -H "Authorization: Bearer $CRON_SECRET" "https://podcast-summarizer-inky.vercel.app/api/cron/daily-email?test=true&hours=48"
+```
+- Test emails (`?test=true`) read the dedup cache but do NOT write to it
+- Only production sends update the dedup cache
+- Must use `.vercel.app` alias (Cloudflare strips auth headers from `www.teahose.com`)
+
 ## Deployment
+
+### Vercel (Website)
+```bash
+npx vercel --prod --yes                                        # Deploy to production
+npx vercel link --yes --project podcast-summarizer             # Re-link if .vercel/ missing
+```
 
 ### Podcast/Newsletter Cloud Functions
 ```bash
