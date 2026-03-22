@@ -17,6 +17,7 @@ const LOG_KEY_PREFIX = 'daily-email:log:'
 
 interface Episode {
   podcast_name: string
+  folder_name: string
   title: string
   slug: string
   date: string
@@ -95,6 +96,7 @@ async function getEpisodesFromLastNHours(hours: number = 24): Promise<Episode[]>
           if (isWithinLastNHours(sortDate, hours)) {
             episodes.push({
               podcast_name: metadata.podcast || podcastDir.name,
+              folder_name: podcastDir.name,
               title: metadata.title || episodeDir.name,
               slug: episodeDir.name,
               date: metadata.date,
@@ -369,7 +371,7 @@ function generateEmailHtml(episodes: Episode[], dateStr: string, hasImage: boole
   let episodeCards = ''
 
   episodes.forEach((episode, index) => {
-    const encodedPodcast = encodeURIComponent(episode.podcast_name)
+    const encodedPodcast = encodeURIComponent(episode.folder_name)
     const encodedSlug = encodeURIComponent(episode.slug)
     const urlPrefix = contentTypeFromSource(episode.source)
     const summaryUrl = `https://www.teahose.com/${urlPrefix}/${encodedPodcast}/${encodedSlug}?ref=email`
