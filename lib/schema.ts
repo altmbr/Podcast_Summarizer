@@ -153,7 +153,32 @@ export function generateOrganizationSchema() {
     name: 'Teahose',
     url: BASE_URL,
     logo: `${BASE_URL}/og-image.png`,
-    description: 'Summaries of the most important tech podcasts, newsletters, and Physical AI research papers. Subscribe for daily digests delivering hours of insight in 30 seconds.',
+    description: 'Teahose is an AI-powered podcast, newsletter, and research paper summarization platform. It curates and summarizes content from 25+ leading tech and business podcasts, 10+ newsletters, and Physical AI research papers from arXiv, delivering daily email digests.',
+    foundingDate: '2025',
+    knowsAbout: [
+      'Artificial Intelligence',
+      'Technology Podcasts',
+      'Venture Capital',
+      'Startup Newsletters',
+      'Physical AI',
+      'Robotics Research',
+      'Podcast Summarization',
+    ],
+  }
+}
+
+export function generateFAQSchema(faqs: { question: string; answer: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(faq => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
   }
 }
 

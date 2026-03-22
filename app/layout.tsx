@@ -75,6 +75,7 @@ export default function RootLayout({
               <Link href="/" className="hover:underline">Podcasts</Link>
               <Link href="/" className="hover:underline">Newsletters</Link>
               <Link href="/" className="hover:underline">Papers</Link>
+              <Link href="/about" className="hover:underline">About</Link>
               <Link href="/sitemap.xml" className="hover:underline">Sitemap</Link>
             </div>
           </nav>
