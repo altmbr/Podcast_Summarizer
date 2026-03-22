@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: PodcastPageProps): Promise<Me
   const description = `Browse ${episodes.length} episode${episodes.length !== 1 ? 's' : ''} from ${podcastName}. AI-generated summaries and transcripts for tech podcast episodes.`
 
   // Use consistent URL encoding for canonical and social sharing
-  const canonicalUrl = `https://teahose.com/podcast/${encodeURIComponent(podcastName)}`
+  const canonicalUrl = `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}`
 
   return {
     title,
@@ -88,7 +88,7 @@ export default async function PodcastPage({ params }: PodcastPageProps) {
       <StructuredData
         data={generatePodcastSeriesSchema({
           name: podcastName,
-          description: undefined,
+          description: `AI-generated summaries and transcripts from ${podcastName} episodes on Teahose.`,
           episodeCount: episodes.length,
         })}
       />
@@ -127,9 +127,9 @@ export default async function PodcastPage({ params }: PodcastPageProps) {
                 color: 'var(--foreground)',
               }}
             >
-              <h3 className="text-2xl md:text-3xl group-hover:underline transition-colors mb-2">
+              <h2 className="text-2xl md:text-3xl group-hover:underline transition-colors mb-2">
                 {episode.title}
-              </h3>
+              </h2>
               <div className="flex items-center justify-between">
                 {episode.date && (
                   <span style={{ color: 'var(--muted-foreground)' }} className="text-sm">

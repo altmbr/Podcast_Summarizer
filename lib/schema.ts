@@ -88,6 +88,92 @@ export function generatePodcastSeriesSchema(podcast: PodcastMetadata) {
 }
 
 /**
+ * Generate BreadcrumbList schema markup for navigation hierarchy
+ */
+export function generateBreadcrumbSchema(
+  items: { name: string; url: string }[]
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  }
+}
+
+/**
+ * Generate Article schema markup for newsletter issues
+ */
+export function generateArticleSchema(
+  episode: EpisodeMetadata,
+  podcastName: string,
+  episodeSlug: string
+) {
+  const schema: any = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: episode.title,
+    url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`,
+    datePublished: episode.date,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Teahose',
+      url: 'https://www.teahose.com',
+    },
+  }
+
+  if (episode.description) {
+    schema.description = episode.description
+  }
+
+  return schema
+}
+
+/**
+ * Generate ScholarlyArticle schema markup for research papers
+ */
+export function generateScholarlyArticleSchema(
+  episode: EpisodeMetadata,
+  podcastName: string,
+  episodeSlug: string
+) {
+  const schema: any = {
+    '@context': 'https://schema.org',
+    '@type': 'ScholarlyArticle',
+    headline: episode.title,
+    url: `https://www.teahose.com/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`,
+    datePublished: episode.date,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Teahose',
+      url: 'https://www.teahose.com',
+    },
+  }
+
+  if (episode.description) {
+    schema.description = episode.description
+  }
+
+  if (episode.arxivId) {
+    schema.sameAs = `https://arxiv.org/abs/${episode.arxivId}`
+  }
+
+  if (episode.pdfUrl) {
+    schema.encoding = {
+      '@type': 'MediaObject',
+      contentUrl: episode.pdfUrl,
+      encodingFormat: 'application/pdf',
+    }
+  }
+
+  return schema
+}
+
+/**
  * Generate Organization schema markup for homepage
  */
 export function generateOrganizationSchema() {
@@ -98,7 +184,6 @@ export function generateOrganizationSchema() {
     url: 'https://www.teahose.com',
     logo: 'https://www.teahose.com/og-image.png',
     description: 'Summaries of the most important tech podcasts, newsletters, and Physical AI research papers. Subscribe for daily digests delivering hours of insight in 30 seconds.',
-    sameAs: [],
   }
 }
 

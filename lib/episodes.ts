@@ -21,6 +21,9 @@ export interface Episode {
   videoUrl?: string
   summary?: string
   transcript?: string
+  source?: string
+  arxivId?: string
+  pdfUrl?: string
 }
 
 export interface Podcast {
@@ -173,6 +176,9 @@ export async function getEpisode(podcastName: string, episodeSlug: string): Prom
       videoUrl: metadata.videoUrl,
       summary: stripMetadataHeader(summaryContent),
       transcript: transcriptContent,
+      source: metadata.source,
+      arxivId: metadata.arxivId,
+      pdfUrl: metadata.pdfUrl,
     }
   } catch (err) {
     console.error(`Error reading episode ${episodeSlug} in ${podcastName}:`, err)
