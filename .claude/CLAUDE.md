@@ -19,9 +19,11 @@ project_root/
 ├── one_off_episodes.txt           # One-off episode URLs (auto-removed after processing)
 ├── podcast_config.json            # Podcast metadata + Podscan IDs + YouTube playlist IDs
 ├── newsletter_config.json         # Newsletter sender → name/author mappings
+├── paper_config.json              # Physical AI paper scoring + keywords + tracked labs
 ├── podcast_status.json            # Episode tracking state (old pipeline)
 ├── podscan_status.json            # Episode tracking state (Podscan pipeline)
 ├── newsletter_status.json         # Newsletter tracking state
+├── paper_status.json              # Paper tracking state
 ├── .env                           # API keys (local dev)
 ├── test_daily_email.py            # Test script for daily emails
 ├── vercel.json                    # Vercel cron configuration
@@ -33,6 +35,7 @@ project_root/
 │   ├── functions/
 │   │   ├── podscan_processor/     # ★ Podcast pipeline: Podscan → Claude → Git
 │   │   ├── newsletter_processor/  # ★ Newsletter pipeline: Email → Claude → Git
+│   │   ├── paper_processor/       # ★ Paper pipeline: arXiv/Semantic Scholar → Claude → Git
 │   │   ├── discovery/             # Old: YouTube episode discovery
 │   │   └── webhook/               # Old: email reply webhook
 │   └── scripts/
@@ -79,7 +82,24 @@ Fully automated. Processes newsletters in real-time as they arrive.
 
 **Adding new newsletters:** Subscribe with `newsletters@teahose.com`. Confirmation emails auto-forward to Gmail. Add sender to `newsletter_config.json` for proper naming.
 
-### 3. Legacy Pipeline (manual, Apple Silicon Mac)
+### 3. Physical AI Papers Pipeline (automated, GCP Cloud Function)
+
+Fully automated. Runs daily at **5 AM EST** via Cloud Scheduler.
+
+**Flow:** Cloud Scheduler → `paper-processor` Cloud Function → git push → Vercel auto-deploys
+
+1. **Discover** — Query arXiv, Semantic Scholar, and HuggingFace Daily Papers for Physical AI research
+2. **Score** — Claude scores papers (relevance, novelty, impact, pedigree) in batches of 25; minimum score 60
+3. **Select** — Top 1-2 papers per day
+4. **Extract** — Download PDF, extract text for summarization
+5. **Summarize** — Claude → `summary.md` with `**Source:** paper` metadata, arXiv ID, PDF link
+6. **Publish** — Git commit + push → Vercel auto-deploys
+
+**Config:** `paper_config.json` — scoring weights, arXiv categories (cs.RO, cs.AI, cs.CV, cs.LG, cs.SY), Physical AI keywords, tracked labs (14 labs including Physical Intelligence, Google DeepMind, Toyota Research Institute, etc.)
+
+**Institution matching:** Uses regex word boundaries to prevent false matches (e.g., "MIT" inside "submitted").
+
+### 4. Legacy Pipeline (manual, Apple Silicon Mac)
 
 Still available for YouTube-only feeds and one-off episodes.
 
@@ -93,7 +113,7 @@ Maps podcast names to hosts, Podscan IDs, and YouTube playlist IDs. 20 of 25 pod
 ## Newsletter Config (`newsletter_config.json`)
 
 Maps sender email addresses to newsletter names and authors. Currently tracking:
-- Stratechery, StrictlyVC, 99d, Newcomer Newsletter, Sourcery Newsletter, The VC Corner, PitchBook, Data Driven VC
+- Stratechery, StrictlyVC, 99d, Newcomer Newsletter, Sourcery Newsletter, The VC Corner, PitchBook, Data Driven VC, Coatue, Axios Pro Rata
 
 ## Configuration
 
@@ -123,7 +143,8 @@ AWS_ACCESS_KEY_ID                # AWS SES email sending
 AWS_SECRET_ACCESS_KEY            # AWS SES email sending
 ANTHROPIC_API_KEY                # Episode descriptions + chat
 GOOGLE_API_KEY                   # Header image generation (Gemini)
-CRON_SECRET                      # Secure cron endpoint
+CRON_SECRET                      # Secure cron + admin endpoints (required, denies if unset)
+UNSUBSCRIBE_SECRET               # HMAC token signing (falls back to CRON_SECRET)
 EMAILS_KV_REST_API_URL           # Vercel KV (subscriber storage) — auto-set by Vercel
 EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
 ```
@@ -131,8 +152,10 @@ EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
 **KV Notes:**
 - Subscriber list stored in Vercel KV (Upstash Redis). KV client configured in `lib/kv.ts` using `EMAILS_` prefixed env vars.
 - Free-tier KV databases auto-delete after 14 days of inactivity. If this happens, create a new KV in Vercel dashboard, restore from Upstash backups, and Vercel will auto-set the env vars.
-- Admin endpoint: `GET /api/admin/subscribers` returns current subscriber list.
-- Manual daily email trigger: `curl "https://www.teahose.com/api/cron/daily-email?hours=48"` (all subscribers) or add `?test=true` for just altmbr@gmail.com.
+- Admin endpoints require `Authorization: Bearer $CRON_SECRET` header:
+  - `GET /api/admin/subscribers` — returns current subscriber list
+  - `GET /api/admin/daily-email-log?days=7` — returns email send history and duplicate detection
+- Manual daily email trigger: `curl -H "Authorization: Bearer $CRON_SECRET" "https://www.teahose.com/api/cron/daily-email?hours=48"` (all subscribers) or add `?test=true` for just altmbr@gmail.com.
 
 ### Cloudflare (Email Worker)
 - **Worker:** `newsletter-email-worker` (deployed via `wrangler deploy` from `cloud/email-worker/`)
@@ -170,7 +193,9 @@ EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
 ### GCP Resources
 - Cloud Function: `podscan-processor` (Gen 2, 512MB, 60-min timeout)
 - Cloud Function: `newsletter-processor` (Gen 2, 512MB, 5-min timeout)
+- Cloud Function: `paper-processor` (Gen 2, 512MB, 60-min timeout)
 - Cloud Scheduler: `podscan-daily` (10 AM, 3 PM, 10 PM EST)
+- Cloud Scheduler: `paper-daily` (5 AM EST)
 - GCS bucket: `gen-lang-client-0111593271-podscan-backups`
 - Service account: `podcast-processor@gen-lang-client-0111593271.iam.gserviceaccount.com`
 
@@ -181,10 +206,38 @@ EMAILS_KV_REST_API_TOKEN         # Vercel KV — auto-set by Vercel
 ## Web Publishing (teahose.com)
 
 - Auto-deploys on `git push` via Vercel
-- **Homepage tabs:** Recent Content (all), Podcasts (sources), Newsletters (sources)
+- **Homepage tabs:** Recent Content (all), Podcasts (sources), Newsletters (sources), Papers
 - Newsletter signups via Vercel KV (see `VERCEL_KV_SETUP.md`)
-- **SEO optimized**: Dynamic sitemap, JSON-LD schemas, SSG for all pages, canonical URLs
 - Base URL: `https://www.teahose.com` (with www for SEO consistency)
+- **Global footer nav:** Semantic `<nav>` in layout with links to Home, Podcasts, Newsletters, Papers, Sitemap
+
+### SEO
+
+- **Sitemap:** Dynamic generation (`app/sitemap.ts`) — homepage priority 1.0, podcasts 0.8, episodes 0.6
+- **Robots:** Blocks `/api/`, `/_next/`, transcript files, AI training bots (`app/robots.ts`)
+- **Canonical URLs:** All pages use `https://www.teahose.com` (must match `metadataBase` in layout)
+- **SSG:** All public pages pre-rendered at build time via `generateStaticParams()`
+- **Meta tags:** Title, description, Open Graph, Twitter Card present and unique on every page type
+- **Structured data** (JSON-LD, `lib/schema.ts`):
+  - `Organization` + `WebSite` (with SearchAction) on all pages via layout
+  - `PodcastSeries` on podcast index pages (with description and episode count)
+  - Source-aware episode schemas:
+    - `PodcastEpisode` for podcasts (default)
+    - `Article` for newsletters (`source: 'newsletter'`)
+    - `ScholarlyArticle` for papers (`source: 'paper'`, includes arXiv/PDF links)
+  - `BreadcrumbList` on all episode pages (Home → Podcast → Episode)
+- **Heading hierarchy:** One `<h1>` per page, `<h2>` for episode titles on listing pages
+- **TranscriptChat:** Lazy-loaded via `next/dynamic` for code splitting
+
+### Security
+
+- **Auth:** Admin endpoints and cron require `Bearer $CRON_SECRET`. Denies access if secret is unset.
+- **Rate limiting:** Chat API has server-side rate limiting (20 req/min/IP, in-memory)
+- **Path traversal:** API routes validate resolved paths stay within `podcast_work/`
+- **Security headers** (`next.config.js`): X-Frame-Options (DENY), X-Content-Type-Options (nosniff), Referrer-Policy, Permissions-Policy
+- **Cache headers:** Static assets (JS/CSS/fonts/images) served with `immutable, max-age=31536000`
+- **HTTPS:** Enforced via Cloudflare (HTTP→HTTPS 308 redirect, HSTS 2 years)
+- **Known issue:** Non-www → www redirect is 307 (temporary). Needs Cloudflare redirect rule to change to 301.
 
 ## Daily Email Digest
 
@@ -245,6 +298,9 @@ gcloud functions logs read newsletter-processor --region us-central1 --project g
 | Junk newsletter processed | Add pattern to transactional filter in `cloud/email-worker/src/index.ts`, delete from `podcast_work/`, redeploy worker |
 | Newsletter not showing in tab | Check `newsletter_config.json` has the sender, summary has `**Source:** newsletter` |
 | YouTube timestamps not linking | Check `podcast_config.json` has `youtube_playlist` for that podcast, verify YouTube Data API enabled on Google API key |
+| Admin endpoint returns 401 | Pass `Authorization: Bearer $CRON_SECRET` header; CRON_SECRET must be set in Vercel env |
+| Unsubscribe tokens invalid | Ensure `UNSUBSCRIBE_SECRET` or `CRON_SECRET` is set; tokens are HMAC-SHA256 signed |
+| Chat API returns 429 | Rate limited to 20 req/min/IP; wait and retry |
 
 ## Customization
 
@@ -254,3 +310,7 @@ gcloud functions logs read newsletter-processor --region us-central1 --project g
 - **Lookback window**: Set `LOOKBACK_DAYS` env var (default: 3)
 - **Podcast schedule**: Update Cloud Scheduler `podscan-daily` cron expression
 - **Transactional email filter**: Edit regex in `cloud/email-worker/src/index.ts`
+- **Security headers**: Edit `headers()` in `next.config.js`
+- **Rate limiting**: Edit `RATE_LIMIT` / `RATE_WINDOW_MS` in `app/api/chat/route.ts`
+- **Structured data schemas**: Edit generator functions in `lib/schema.ts`
+- **Body stipple pattern**: Desktop-only via `@media (min-width: 768px)` in `app/globals.css`
