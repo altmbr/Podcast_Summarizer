@@ -1,3 +1,18 @@
 {
-  "papers": {}
+  "papers": {
+    "2603.18532": {
+      "title": "Scaling Sim-to-Real Reinforcement Learning for Robot VLAs with Generative 3D Worlds",
+      "institution": "MIT",
+      "status": "summarized",
+      "score": 77,
+      "processed_at": "2026-03-22T00:05:39Z"
+    },
+    "2603.19183": {
+      "title": "Sparse Autoencoders Reveal Interpretable and Steerable Features in VLA Models",
+      "institution": "MIT",
+      "status": "summarized",
+      "score": 76,
+      "processed_at": "2026-03-22T00:07:25Z"
+    }
+  }
 }
