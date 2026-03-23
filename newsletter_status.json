@@ -303,6 +303,15 @@
           "processed_at": "2026-03-20T13:30:49Z"
         }
       }
+    },
+    "Substack": {
+      "episodes": {
+        "196894fb93606897": {
+          "subject": "Ruben Dominguez and Yoni Rechtman posted new notes",
+          "status": "summarized",
+          "processed_at": "2026-03-23T12:22:45Z"
+        }
+      }
     }
   }
 }
