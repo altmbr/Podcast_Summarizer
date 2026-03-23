@@ -312,6 +312,15 @@
           "processed_at": "2026-03-23T12:22:45Z"
         }
       }
+    },
+    "Jack Clark from Import AI": {
+      "episodes": {
+        "cf5a9c8529b66ce9": {
+          "subject": "Import AI 450: China's electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks",
+          "status": "summarized",
+          "processed_at": "2026-03-23T12:35:59Z"
+        }
+      }
     }
   }
 }
