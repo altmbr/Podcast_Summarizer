@@ -27,6 +27,20 @@
       "status": "summarized",
       "score": 74,
       "processed_at": "2026-03-22T09:04:58Z"
+    },
+    "2503.12533": {
+      "title": "Being-0: A Humanoid Robotic Agent with Vision-Language Models and Modular Skills",
+      "institution": "Beijing Academy of Artificial Intelligence (BAAI)",
+      "status": "summarized",
+      "score": 79,
+      "processed_at": "2026-03-23T09:03:43Z"
+    },
+    "2512.11047": {
+      "title": "WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Control",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 79,
+      "processed_at": "2026-03-23T09:05:39Z"
     }
   }
 }
