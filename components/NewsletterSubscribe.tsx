@@ -10,8 +10,13 @@ export default function NewsletterSubscribe() {
   const [hidden, setHidden] = useState(false)
   const posthog = usePostHog()
 
-  // Hide the bar if the user is already identified (subscribed)
+  // Hide the bar if subscribed (localStorage is synchronous; PostHog check catches
+  // users identified via email click-through who haven't used this form)
   useEffect(() => {
+    if (typeof window !== 'undefined' && localStorage.getItem('teahose_subscribed')) {
+      setHidden(true)
+      return
+    }
     if (!posthog) return
     const distinctId = posthog.get_distinct_id()
     if (distinctId && distinctId.includes('@')) {
@@ -66,6 +71,8 @@ export default function NewsletterSubscribe() {
         text: data.alreadySubscribed ? 'This email is already subscribed' : 'Thanks for subscribing!'
       })
       setEmail('')
+      // Persist subscription state so the bar stays hidden across sessions
+      localStorage.setItem('teahose_subscribed', '1')
       // Hide the bar after a short delay so the user sees the success message
       setTimeout(() => setHidden(true), 2000)
     } catch (error) {

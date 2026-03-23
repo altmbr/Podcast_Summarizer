@@ -67,7 +67,7 @@ export default function RootLayout({
             <PostHogPageView />
             <SubscriberIdentify />
           </Suspense>
-          <div className="min-h-screen pb-32">
+          <div className="min-h-screen">
             {children}
           </div>
           <NewsletterSubscribe />
