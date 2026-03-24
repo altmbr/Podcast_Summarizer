@@ -41,6 +41,20 @@
       "status": "summarized",
       "score": 79,
       "processed_at": "2026-03-23T09:05:39Z"
+    },
+    "2603.22264": {
+      "title": "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 79,
+      "processed_at": "2026-03-24T09:04:15Z"
+    },
+    "2603.22280": {
+      "title": "DualCoT-VLA: Visual-Linguistic Chain of Thought via Parallel Reasoning for Vision-Language-Action Models",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 72,
+      "processed_at": "2026-03-24T09:05:58Z"
     }
   }
 }
