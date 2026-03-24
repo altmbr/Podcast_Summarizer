@@ -50,6 +50,11 @@
           "subject": "Thank you for your interest in PitchBook",
           "status": "summarized",
           "processed_at": "2026-03-15T18:23:14Z"
+        },
+        "8ba13651cf4169b8": {
+          "subject": "Introducing Navigator: Accelerate research workflows with AI",
+          "status": "summarized",
+          "processed_at": "2026-03-24T12:01:33Z"
         }
       }
     },
