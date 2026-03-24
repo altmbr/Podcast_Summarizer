@@ -197,6 +197,12 @@
           "status": "summarized",
           "posted_at": "2026-03-17T08:00:00+00:00",
           "processed_at": "2026-03-17T14:07:04Z"
+        },
+        "ep_mlavxnlz47z8jkqo": {
+          "title": "Mitchell Green - Lessons from Cold Calling 10,000 Companies - [Invest Like the Best, EP.464]",
+          "status": "summarized",
+          "posted_at": "2026-03-24T08:00:00+00:00",
+          "processed_at": "2026-03-24T17:03:52Z"
         }
       }
     },
@@ -208,6 +214,12 @@
           "status": "summarized",
           "posted_at": "2026-03-17T09:00:00+00:00",
           "processed_at": "2026-03-17T14:08:37Z"
+        },
+        "ep_mkvqjw6d24kqrn2e": {
+          "title": "How Autonomous Labs Will Transform Scientific Research: Ginkgo Bioworks’ Jason Kelly",
+          "status": "summarized",
+          "posted_at": "2026-03-24T14:12:00+00:00",
+          "processed_at": "2026-03-24T17:07:21Z"
         }
       }
     },
@@ -252,6 +264,17 @@
           "status": "summarized",
           "posted_at": "2026-03-22T23:30:00+00:00",
           "processed_at": "2026-03-23T17:08:22Z"
+        }
+      }
+    },
+    "pd_4evzb9qlg2ej873g": {
+      "podcast_name": "Lex Fridman",
+      "episodes": {
+        "ep_y2lkxdwdwbo7jedo": {
+          "title": "#494 – Jensen Huang: NVIDIA – The $4 Trillion Company &amp; the AI Revolution",
+          "status": "summarized",
+          "posted_at": "2026-03-23T16:28:42+00:00",
+          "processed_at": "2026-03-24T17:05:18Z"
         }
       }
     }
