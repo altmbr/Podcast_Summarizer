@@ -55,6 +55,20 @@
       "status": "summarized",
       "score": 72,
       "processed_at": "2026-03-24T09:05:58Z"
+    },
+    "2411.08253": {
+      "title": "Open-World Task and Motion Planning via Vision-Language Model Generated Constraints",
+      "institution": "MIT",
+      "status": "summarized",
+      "score": 75,
+      "processed_at": "2026-03-25T09:04:05Z"
+    },
+    "2602.13193": {
+      "title": "Steerable Vision-Language-Action Policies for Embodied Reasoning and Hierarchical Control",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 74,
+      "processed_at": "2026-03-25T09:05:46Z"
     }
   }
 }
