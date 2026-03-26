@@ -69,6 +69,20 @@
       "status": "summarized",
       "score": 74,
       "processed_at": "2026-03-25T09:05:46Z"
+    },
+    "2509.26633": {
+      "title": "OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 80,
+      "processed_at": "2026-03-26T09:04:16Z"
+    },
+    "2502.03206": {
+      "title": "A Unified and General Humanoid Whole-Body Controller for Versatile Locomotion",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 74,
+      "processed_at": "2026-03-26T09:05:52Z"
     }
   }
 }
