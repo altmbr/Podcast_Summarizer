@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import StructuredData from '@/components/StructuredData'
 import ShareButton from '@/components/ShareButton'
-import { generatePodcastSeriesSchema } from '@/lib/schema'
+import { generatePodcastSeriesSchema, generateCollectionPageSchema } from '@/lib/schema'
 import { getEpisodesForPodcast, getAllTypedSourceParams } from '@/lib/episodes'
 import { isValidContentType, getContentLabels, type ContentType } from '@/lib/content-types'
 import { BASE_URL } from '@/lib/constants'
@@ -58,11 +58,19 @@ export default async function SourcePage({ params }: SourcePageProps) {
   return (
     <main className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
       <StructuredData
-        data={generatePodcastSeriesSchema({
-          name: sourceName,
-          description: `AI-generated summaries from ${sourceName} on Teahose.`,
-          episodeCount: episodes.length,
-        })}
+        data={contentType === 'podcast'
+          ? generatePodcastSeriesSchema({
+              name: sourceName,
+              description: `AI-generated summaries from ${sourceName} on Teahose.`,
+              episodeCount: episodes.length,
+            }, 'podcast')
+          : generateCollectionPageSchema(
+              sourceName,
+              `AI-generated summaries from ${sourceName} on Teahose.`,
+              contentType,
+              episodes.length
+            )
+        }
       />
 
       <header style={{ borderBottomColor: 'var(--border)' }} className="border-b">

@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: EpisodePageProps): Promise<Me
 
   if (!episode) return { title: `${labels.itemNotFound} | Teahose` }
 
-  const title = `${episode.title} - ${episode.podcast || sourceName} | Teahose`
+  const title = `${episode.title} | ${episode.podcast || sourceName} Summary - Teahose`
   const description = episode.summary
     ? extractPlainDescription(episode.summary, 160)
     : `Read ${episode.title} from ${episode.podcast || sourceName} on Teahose.`
@@ -64,17 +64,17 @@ function getContentSchema(episode: Episode, contentType: ContentType, sourceName
   }
 
   if (contentType === 'newsletter') {
-    return generateArticleSchema(meta, sourceName, episodeSlug)
+    return generateArticleSchema(meta, sourceName, episodeSlug, 'Article', 'newsletter')
   }
   if (contentType === 'paper') {
     return generateArticleSchema(
       { ...meta, arxivId: episode.arxivId, pdfUrl: episode.pdfUrl },
-      sourceName, episodeSlug, 'ScholarlyArticle'
+      sourceName, episodeSlug, 'ScholarlyArticle', 'paper'
     )
   }
   return generatePodcastEpisodeSchema(
     { ...meta, participants: episode.participants, videoUrl: episode.videoUrl, region: episode.region },
-    sourceName, episodeSlug
+    sourceName, episodeSlug, 'podcast'
   )
 }
 

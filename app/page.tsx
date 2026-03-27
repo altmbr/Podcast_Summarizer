@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
 import HomeContent from '@/components/HomeContent'
 import StructuredData from '@/components/StructuredData'
@@ -192,6 +193,73 @@ export default async function HomePage() {
 
       {/* Content with tabs */}
       <HomeContent podcasts={podcasts} newsletters={newsletters} papers={papers} recentEpisodes={recentEpisodes} />
+
+      {/* Server-rendered link directory for crawlers — all source and recent content links in HTML */}
+      <nav aria-label="Content directory" className="container py-12 md:py-16 border-t" style={{ borderTopColor: 'var(--border)' }}>
+        <h2 style={{ color: 'var(--foreground)' }} className="mb-8">Browse All Sources</h2>
+
+        {podcasts.length > 0 && (
+          <div className="mb-8">
+            <h3 style={{ color: 'var(--foreground)' }} className="mb-4">Podcasts</h3>
+            <ul className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
+              {podcasts.map((p) => (
+                <li key={p.name}>
+                  <Link href={`/podcast/${encodeURIComponent(p.name)}`} className="hover:underline text-sm" style={{ color: 'var(--muted-foreground)' }}>
+                    {p.title} ({p.episodeCount})
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {newsletters.length > 0 && (
+          <div className="mb-8">
+            <h3 style={{ color: 'var(--foreground)' }} className="mb-4">Newsletters</h3>
+            <ul className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
+              {newsletters.map((n) => (
+                <li key={n.name}>
+                  <Link href={`/newsletter/${encodeURIComponent(n.name)}`} className="hover:underline text-sm" style={{ color: 'var(--muted-foreground)' }}>
+                    {n.title} ({n.episodeCount})
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {papers.length > 0 && (
+          <div className="mb-8">
+            <h3 style={{ color: 'var(--foreground)' }} className="mb-4">Research Papers</h3>
+            <ul className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
+              {papers.map((p) => (
+                <li key={p.name}>
+                  <Link href={`/paper/${encodeURIComponent(p.name)}`} className="hover:underline text-sm" style={{ color: 'var(--muted-foreground)' }}>
+                    {p.title} ({p.episodeCount})
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <div>
+          <h3 style={{ color: 'var(--foreground)' }} className="mb-4">Recent Content</h3>
+          <ul className="grid gap-2">
+            {recentEpisodes.slice(0, 50).map((ep) => (
+              <li key={`${ep.podcast}-${ep.slug}`}>
+                <Link
+                  href={`/${ep.source === 'paper' ? 'paper' : ep.source === 'newsletter' ? 'newsletter' : 'podcast'}/${encodeURIComponent(ep.podcast)}/${encodeURIComponent(ep.slug)}`}
+                  className="hover:underline text-sm"
+                  style={{ color: 'var(--muted-foreground)' }}
+                >
+                  {ep.title} — {ep.podcastName}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
 
       {/* FAQ Section */}
       <section className="container py-12 md:py-16" style={{ borderTopColor: 'var(--border)' }}>

@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { GeistSans } from 'geist/font/sans'
+import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 import NewsletterSubscribe from '@/components/NewsletterSubscribe'
 import { PHProvider } from './providers'
@@ -55,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <head>
         <StructuredData
           data={[generateOrganizationSchema(), generateWebSiteSchema()]}

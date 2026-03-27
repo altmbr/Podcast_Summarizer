@@ -14,11 +14,16 @@
     "podscan_id": "pd_6gokljvvn7yj37ma",
     "youtube_playlist": "PLn5MTSAqaf8peDZQ57QkJBzewJU1aUokl"
   },
-  "A16z Podcast": {
+  "The a16z Show": {
     "hosts": ["Erik Torenberg", "Marc Andreessen", "Ben Horowitz"],
-    "notes": "Rotating hosts - various a16z partners may host different episodes",
-    "podscan_id": "pd_dbka52p6ylyj2gez",
+    "notes": "Main a16z podcast - rotating hosts, several episodes per week",
+    "podscan_id": "pd_k2a645pmq2q5qpln",
     "youtube_playlist": "PLM4u6XbiXf5rnUvH5NLdV_It2QLgbHBDZ"
+  },
+  "AI + a16z": {
+    "hosts": ["a16z"],
+    "notes": "AI-focused a16z podcast, biweekly",
+    "podscan_id": "pd_qazg9yp74wd9r6w4"
   },
   "BG2": {
     "hosts": ["Brad Gerstner"],
@@ -57,7 +62,8 @@
   },
   "Lightcone": {
     "hosts": ["Garry Tan", "Diana Hu", "Harj Taggar", "Jared Friedman"],
-    "podscan_id": "pd_p6km5akn4yb94lae",
+    "notes": "Now published under 'Y Combinator Startup Podcast' feed on Podscan. Old feed (pd_p6km5akn4yb94lae) went stale Dec 2025.",
+    "podscan_id": "pd_rw2lvjewpdxjzax3",
     "youtube_playlist": "PLQ-uHSnFig5Ob4XXhgSK26Smb4oRhzFmK"
   },
   "Long Strange Trip w Brian Halligan": {
@@ -103,15 +109,11 @@
     "podscan_id": "pd_xk67jgp633rjm8lr",
     "youtube_playlist": "PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
   },
-  "Uncapped": {
+  "Uncapped with Jack Altman": {
     "hosts": ["Jack Altman"],
+    "notes": "Formerly 'Uncapped' / 'Uncapped Founders' - single podcast, renamed",
     "podscan_id": "pd_3ymxjxoer3vjb8v6",
     "youtube_playlist": "PLtpH7YnTL8ihy0nR2BV32n5VkRtqlDAS1"
-  },
-  "Uncapped Founders": {
-    "hosts": ["Jack Altman"],
-    "podscan_id": "pd_3ymxjxoer3vjb8v6",
-    "youtube_playlist": "PLtpH7YnTL8ijveTgUGGQQrJqmx2VVeHms"
   },
   "张小珺Jùn｜商业访谈录": {
     "hosts": ["Zhang Xiaojun", "张小珺"],

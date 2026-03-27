@@ -21,12 +21,12 @@ export interface PodcastMetadata {
   episodeCount?: number
 }
 
-function episodeUrl(podcastName: string, episodeSlug: string): string {
-  return `${BASE_URL}/podcast/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`
+function episodeUrl(contentType: string, podcastName: string, episodeSlug: string): string {
+  return `${BASE_URL}/${contentType}/${encodeURIComponent(podcastName)}/${encodeURIComponent(episodeSlug)}`
 }
 
-function podcastUrl(podcastName: string): string {
-  return `${BASE_URL}/podcast/${encodeURIComponent(podcastName)}`
+function sourceUrl(contentType: string, podcastName: string): string {
+  return `${BASE_URL}/${contentType}/${encodeURIComponent(podcastName)}`
 }
 
 const PUBLISHER = {
@@ -38,18 +38,19 @@ const PUBLISHER = {
 export function generatePodcastEpisodeSchema(
   episode: EpisodeMetadata,
   podcastName: string,
-  episodeSlug: string
+  episodeSlug: string,
+  contentType: string = 'podcast'
 ) {
   const schema: any = {
     '@context': 'https://schema.org',
     '@type': 'PodcastEpisode',
     name: episode.title,
-    url: episodeUrl(podcastName, episodeSlug),
+    url: episodeUrl(contentType, podcastName, episodeSlug),
     datePublished: episode.date,
     partOfSeries: {
       '@type': 'PodcastSeries',
       name: episode.podcast,
-      url: podcastUrl(podcastName),
+      url: sourceUrl(contentType, podcastName),
     },
   }
 
@@ -73,12 +74,12 @@ export function generatePodcastEpisodeSchema(
   return schema
 }
 
-export function generatePodcastSeriesSchema(podcast: PodcastMetadata) {
+export function generatePodcastSeriesSchema(podcast: PodcastMetadata, contentType: string = 'podcast') {
   const schema: any = {
     '@context': 'https://schema.org',
     '@type': 'PodcastSeries',
     name: podcast.name,
-    url: podcastUrl(podcast.name),
+    url: sourceUrl(contentType, podcast.name),
   }
 
   if (podcast.description) {
@@ -89,6 +90,25 @@ export function generatePodcastSeriesSchema(podcast: PodcastMetadata) {
     schema.numberOfEpisodes = podcast.episodeCount
   }
 
+  return schema
+}
+
+export function generateCollectionPageSchema(
+  name: string,
+  description: string,
+  contentType: string,
+  itemCount?: number
+) {
+  const schema: any = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name,
+    url: sourceUrl(contentType, name),
+    description,
+  }
+  if (itemCount) {
+    schema.numberOfItems = itemCount
+  }
   return schema
 }
 
@@ -115,13 +135,14 @@ export function generateArticleSchema(
   episode: EpisodeMetadata,
   podcastName: string,
   episodeSlug: string,
-  type: 'Article' | 'ScholarlyArticle' = 'Article'
+  type: 'Article' | 'ScholarlyArticle' = 'Article',
+  contentType: string = 'newsletter'
 ) {
   const schema: any = {
     '@context': 'https://schema.org',
     '@type': type,
     headline: episode.title,
-    url: episodeUrl(podcastName, episodeSlug),
+    url: episodeUrl(contentType, podcastName, episodeSlug),
     datePublished: episode.date,
     publisher: PUBLISHER,
   }
