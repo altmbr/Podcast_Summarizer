@@ -370,6 +370,11 @@
           "subject": "The OWID Brief: Unsafe abortions, deadliest animals, plastic pollution, and more",
           "status": "summarized",
           "processed_at": "2026-03-27T07:03:35Z"
+        },
+        "5c9c361791cd9bf8": {
+          "subject": "Data Insight: The world gets more seafood from aquaculture than wild catch",
+          "status": "summarized",
+          "processed_at": "2026-03-28T16:06:39Z"
         }
       }
     },
