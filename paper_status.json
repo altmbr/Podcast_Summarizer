@@ -83,6 +83,20 @@
       "status": "summarized",
       "score": 74,
       "processed_at": "2026-03-26T09:05:52Z"
+    },
+    "2603.25725": {
+      "title": "SoftMimicGen: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 81,
+      "processed_at": "2026-03-28T09:03:29Z"
+    },
+    "2602.12063": {
+      "title": "VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 81,
+      "processed_at": "2026-03-28T09:05:09Z"
     }
   }
 }
