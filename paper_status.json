@@ -97,6 +97,20 @@
       "status": "summarized",
       "score": 81,
       "processed_at": "2026-03-28T09:05:09Z"
+    },
+    "2602.09722": {
+      "title": "Rethinking Visual-Language-Action Model Scaling: Alignment, Mixture, and Regularization",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 72,
+      "processed_at": "2026-03-29T09:03:34Z"
+    },
+    "2602.10109": {
+      "title": "ST4VLA: Spatially Guided Training for Vision-Language-Action Models",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 72,
+      "processed_at": "2026-03-29T09:05:39Z"
     }
   }
 }
