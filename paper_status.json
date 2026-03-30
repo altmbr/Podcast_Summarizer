@@ -111,6 +111,20 @@
       "status": "summarized",
       "score": 72,
       "processed_at": "2026-03-29T09:05:39Z"
+    },
+    "2603.10052": {
+      "title": "OmniGuide: Universal Guidance Fields for Enhancing Generalist Robot Policies",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 72,
+      "processed_at": "2026-03-30T09:04:16Z"
+    },
+    "2602.10983": {
+      "title": "Scaling World Model for Hierarchical Manipulation Policies",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 70,
+      "processed_at": "2026-03-30T09:06:31Z"
     }
   }
 }
