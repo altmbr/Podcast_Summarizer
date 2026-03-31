@@ -125,6 +125,20 @@
       "status": "summarized",
       "score": 70,
       "processed_at": "2026-03-30T09:06:31Z"
+    },
+    "2512.25072": {
+      "title": "Coordinated Humanoid Manipulation with Choice Policies",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 78,
+      "processed_at": "2026-03-31T09:04:19Z"
+    },
+    "2603.28730": {
+      "title": "SOLE-R1: Video-Language Reasoning as the Sole Reward for On-Robot Reinforcement Learning",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 74,
+      "processed_at": "2026-03-31T09:05:26Z"
     }
   }
 }
