@@ -139,6 +139,20 @@
       "status": "summarized",
       "score": 74,
       "processed_at": "2026-03-31T09:05:26Z"
+    },
+    "2603.29844": {
+      "title": "DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 74,
+      "processed_at": "2026-04-01T09:04:50Z"
+    },
+    "2603.28740": {
+      "title": "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 72,
+      "processed_at": "2026-04-01T09:06:32Z"
     }
   }
 }
