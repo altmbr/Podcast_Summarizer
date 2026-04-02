@@ -153,6 +153,20 @@
       "status": "summarized",
       "score": 72,
       "processed_at": "2026-04-01T09:06:32Z"
+    },
+    "2602.12684": {
+      "title": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 72,
+      "processed_at": "2026-04-02T09:03:28Z"
+    },
+    "2602.12322": {
+      "title": "ForeAct: Steering Your VLA with Efficient Visual Foresight Planning",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 69,
+      "processed_at": "2026-04-02T09:05:00Z"
     }
   }
 }
