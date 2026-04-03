@@ -167,6 +167,20 @@
       "status": "summarized",
       "score": 69,
       "processed_at": "2026-04-02T09:05:00Z"
+    },
+    "2604.00416": {
+      "title": "Learning Humanoid Navigation from Human Data",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 78,
+      "processed_at": "2026-04-03T09:03:56Z"
+    },
+    "2604.01158": {
+      "title": "SMASH: Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 74,
+      "processed_at": "2026-04-03T09:05:40Z"
     }
   }
 }
