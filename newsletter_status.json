@@ -505,6 +505,11 @@
           "subject": "Data Insight: Estimates suggest that 45% of abortions globally are unsafe — but this varies widely across regions",
           "status": "summarized",
           "processed_at": "2026-04-02T15:06:02Z"
+        },
+        "d9fea76f8ebed146": {
+          "subject": "Data Insight: China’s Great Leap Forward caused a dramatic spike in child deaths",
+          "status": "summarized",
+          "processed_at": "2026-04-04T15:06:18Z"
         }
       }
     },
