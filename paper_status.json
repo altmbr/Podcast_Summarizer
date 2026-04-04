@@ -181,6 +181,20 @@
       "status": "summarized",
       "score": 74,
       "processed_at": "2026-04-03T09:05:40Z"
+    },
+    "2602.11236": {
+      "title": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 72,
+      "processed_at": "2026-04-04T09:03:55Z"
+    },
+    "2604.01224": {
+      "title": "Functional Force-Aware Retargeting from Virtual Human Demos to Soft Robot Policies",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 70,
+      "processed_at": "2026-04-04T09:05:24Z"
     }
   }
 }
