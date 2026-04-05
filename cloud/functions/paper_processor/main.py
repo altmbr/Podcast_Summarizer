@@ -932,7 +932,6 @@ def paper_processor(request):
 
         if not candidates:
             print("No candidates found")
-            send_processing_report([], [], [], source_stats, 0)
             return {"status": "ok", "message": "No candidates found", "count": 0}
 
         # ---- Scoring ----
@@ -945,7 +944,6 @@ def paper_processor(request):
 
         if not selected:
             print("No papers met the quality threshold")
-            send_processing_report([], runners_up, [], source_stats, total_candidates)
             return {"status": "ok", "message": "No papers above threshold", "count": 0,
                     "total_candidates": total_candidates}
 
@@ -1018,8 +1016,9 @@ def paper_processor(request):
             if processed and not dry_run:
                 commit_and_push(repo, processed)
 
-            # Send report
-            send_processing_report(processed, runners_up, failed, source_stats, total_candidates)
+            # Send report only if there were failures
+            if failed:
+                send_processing_report(processed, runners_up, failed, source_stats, total_candidates)
 
             result = {
                 "status": "ok",

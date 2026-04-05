@@ -28,6 +28,9 @@ NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "altmbr@gmail.com")
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/altmbr/Podcast_Summarizer/main"
 LOOKBACK_DAYS = int(os.environ.get("LOOKBACK_DAYS", "7"))
 
+SIGNALS_WEBHOOK_URL = "https://manufacturingtheses-production.up.railway.app/ingest"
+SIGNALS_WEBHOOK_TOKEN = "U8byff40WAi2zAQrvbHTk3OA1sz3aiVai45PvWrV"
+
 PODSCAN_BASE_URL = "https://podscan.fm/api/v1"
 
 SUMMARIZATION_PROMPT = """You are summarizing a podcast transcript for an investor and entrepreneur. You are masterful at identifying signal in the noise, and identifying insights that might help operate better, investment themes to consider, and/or specific companies or people that were mentioned that are great for whatever reason to invest into or pay attention too because they are thriving, or even better have the potential to thrive in the future. Furthermore, the goal is to identify and highlight non-obvious insights with the backup that's provided by the speakers. Many people share detailed names and insights in podcasts that they don't otherwise. Whenever you make a point, substantiate it with a quote and mention who said it.
@@ -588,6 +591,37 @@ def commit_and_push(repo: Repo, processed_episodes: list[dict]):
 
 
 # ---------------------------------------------------------------------------
+# Signals pipeline
+# ---------------------------------------------------------------------------
+
+def post_to_signals(summary: str, source_name: str, source_type: str, source_date: str, source_url: str = ""):
+    """POST summary to Manufacturing Intel signals pipeline. Non-blocking — logs failures."""
+    try:
+        payload = {
+            "content": summary,
+            "source_name": source_name,
+            "source_type": source_type,
+            "source_date": source_date,
+            "source_url": source_url,
+        }
+        resp = requests.post(
+            SIGNALS_WEBHOOK_URL,
+            json=payload,
+            headers={
+                "Authorization": f"Bearer {SIGNALS_WEBHOOK_TOKEN}",
+                "Content-Type": "application/json",
+            },
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            print(f"  Signals: posted ({source_name})")
+        else:
+            print(f"  Signals: unexpected status {resp.status_code} — {resp.text[:200]}")
+    except Exception as e:
+        print(f"  Signals: failed to post ({e})")
+
+
+# ---------------------------------------------------------------------------
 # Notification
 # ---------------------------------------------------------------------------
 
@@ -734,6 +768,15 @@ def process_episode(episode: dict, config: dict, repo: Repo, status: dict) -> bo
     # Write files
     write_episode_files(repo, podcast_name, title, transcript, summary)
 
+    # Post to signals pipeline
+    post_to_signals(
+        summary=summary,
+        source_name=podcast_name,
+        source_type="teahose-podcast",
+        source_date=format_date(posted_at),
+        source_url=episode_url,
+    )
+
     # Update status
     update_podscan_status(repo, status, podscan_podcast_id, podcast_name, ep_id, title, posted_at)
 
@@ -813,8 +856,9 @@ def podscan_processor(request):
             if processed and not dry_run:
                 commit_and_push(repo, processed)
 
-            # Send report
-            send_processing_report(processed, failed, discovery_failures)
+            # Send report only if there were failures
+            if failed or discovery_failures:
+                send_processing_report(processed, failed, discovery_failures)
 
             result = {
                 "status": "ok",

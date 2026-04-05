@@ -32,6 +32,9 @@ GITHUB_RAW_BASE = "https://raw.githubusercontent.com/altmbr/Podcast_Summarizer/m
 
 GCS_BACKUP_BUCKET = "gen-lang-client-0111593271-podscan-backups"
 
+SIGNALS_WEBHOOK_URL = "https://manufacturingtheses-production.up.railway.app/ingest"
+SIGNALS_WEBHOOK_TOKEN = "U8byff40WAi2zAQrvbHTk3OA1sz3aiVai45PvWrV"
+
 NEWSLETTER_SUMMARIZATION_PROMPT = """You are summarizing a newsletter article for an investor and entrepreneur. Identify the highest-signal insights: investment themes, operating tactics, market shifts, companies to watch, and contrarian takes. Whenever you make a point, substantiate it with a direct quote from the article.
 
 ## Format
@@ -196,6 +199,37 @@ def update_newsletter_status(repo: Repo, status: dict, newsletter_name: str, epi
 
     status_path = Path(repo.working_dir) / "newsletter_status.json"
     status_path.write_text(json.dumps(status, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+# ---------------------------------------------------------------------------
+# Signals pipeline
+# ---------------------------------------------------------------------------
+
+def post_to_signals(summary: str, source_name: str, source_type: str, source_date: str, source_url: str = ""):
+    """POST summary to Manufacturing Intel signals pipeline. Non-blocking — logs failures."""
+    try:
+        payload = {
+            "content": summary,
+            "source_name": source_name,
+            "source_type": source_type,
+            "source_date": source_date,
+            "source_url": source_url,
+        }
+        resp = requests.post(
+            SIGNALS_WEBHOOK_URL,
+            json=payload,
+            headers={
+                "Authorization": f"Bearer {SIGNALS_WEBHOOK_TOKEN}",
+                "Content-Type": "application/json",
+            },
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            print(f"  Signals: posted ({source_name})")
+        else:
+            print(f"  Signals: unexpected status {resp.status_code} — {resp.text[:200]}")
+    except Exception as e:
+        print(f"  Signals: failed to post ({e})")
 
 
 # ---------------------------------------------------------------------------
@@ -424,13 +458,27 @@ def newsletter_processor(request):
             (episode_dir / "summary.md").write_text(summary, encoding="utf-8")
             print(f"  Wrote to podcast_work/{newsletter_name}/{sanitized_subject}")
 
+            # Post to signals pipeline
+            try:
+                dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+                source_date = dt.strftime("%Y-%m-%d")
+            except (ValueError, TypeError):
+                source_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+            post_to_signals(
+                summary=summary,
+                source_name=newsletter_name,
+                source_type="teahose-newsletter",
+                source_date=source_date,
+            )
+
             # Update status
             update_newsletter_status(repo, status, newsletter_name, episode_key, subject)
 
             # Commit and push
             commit_and_push(repo, subject)
 
-        send_processing_report(subject, newsletter_name, success=True)
+        print(f"Successfully processed: {newsletter_name} - {subject}")
 
         return {
             "status": "ok",
