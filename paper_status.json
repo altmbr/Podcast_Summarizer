@@ -195,6 +195,20 @@
       "status": "summarized",
       "score": 70,
       "processed_at": "2026-04-04T09:05:24Z"
+    },
+    "2603.19233": {
+      "title": "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 67,
+      "processed_at": "2026-04-05T09:04:08Z"
+    },
+    "2602.05233": {
+      "title": "MobileManiBench: Simplifying Model Verification for Mobile Manipulation",
+      "institution": "arXiv Physical AI",
+      "status": "summarized",
+      "score": 66,
+      "processed_at": "2026-04-05T09:05:47Z"
     }
   }
 }
